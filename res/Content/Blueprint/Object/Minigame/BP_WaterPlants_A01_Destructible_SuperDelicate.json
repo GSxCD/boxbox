@@ -1,0 +1,671 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_WaterPlants_A01_Destructible_SuperDelicate_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_WaterPlants_A01_Destructible_SuperDelicate_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.4"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_WaterPlants_A01_Destructible_SuperDelicate_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.13"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_WaterPlants_A01_Destructible_SuperDelicate_C:ExecuteUbergraph_BP_WaterPlants_A01_Destructible_SuperDelicate'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_Skeletal'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_WaterPlants_A01_Destructible_SuperDelicate_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.7"
+      },
+      {
+        "ObjectName": "Function'BP_WaterPlants_A01_Destructible_SuperDelicate_C:BndEvt__BP_WaterPlants_A01_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.5"
+      },
+      {
+        "ObjectName": "Function'BP_WaterPlants_A01_Destructible_SuperDelicate_C:ExecuteUbergraph_BP_WaterPlants_A01_Destructible_SuperDelicate'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.6"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsDead",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_WaterPlants_A01_Destructible_SuperDelicate": {
+        "ObjectName": "Function'BP_WaterPlants_A01_Destructible_SuperDelicate_C:ExecuteUbergraph_BP_WaterPlants_A01_Destructible_SuperDelicate'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.6"
+      },
+      "BndEvt__BP_WaterPlants_A01_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature": {
+        "ObjectName": "Function'BP_WaterPlants_A01_Destructible_SuperDelicate_C:BndEvt__BP_WaterPlants_A01_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.5"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_WaterPlants_A01_Destructible_SuperDelicate_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.7"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_WaterPlants_A01_Destructible_SuperDelicate_C'Default__BP_WaterPlants_A01_Destructible_SuperDelicate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_Destructible_SuperDelicate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.0"
+    },
+    "Properties": {
+      "BoxExtent": {
+        "X": 190.0,
+        "Y": 190.0,
+        "Z": 15.0
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel8",
+        "SolverAsyncDeltaTime": 0.016667,
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Trigger",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapObject",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 48.0
+      },
+      "RelativeScale3D": {
+        "X": 20.0,
+        "Y": 20.0,
+        "Z": 10.0
+      }
+    }
+  },
+  {
+    "Type": "BP_WaterPlants_A01_Destructible_SuperDelicate_C",
+    "Name": "Default__BP_WaterPlants_A01_Destructible_SuperDelicate_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.BP_WaterPlants_A01_Destructible_SuperDelicate_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate",
+    "Properties": {
+      "UberGraphFrame": {},
+      "CoreMesh": {
+        "ObjectName": "CBSkeletalMeshComponent'Default__BP_WaterPlants_A01_Destructible_SuperDelicate_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.3"
+      },
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_WaterPlants_A01_Destructible_SuperDelicate_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.9"
+      },
+      "EnableMeshComponentFromBP": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_WaterPlants_A01_Destructible_SuperDelicate_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.9"
+      },
+      "Tags": [
+        "BP_WaterPlants_A01"
+      ]
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_WaterPlants_A01_Destructible_SuperDelicate_C'Default__BP_WaterPlants_A01_Destructible_SuperDelicate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_WaterPlants_A01_Destructible_SuperDelicate_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.9"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_Destructible_SuperDelicate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.0"
+    },
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "Box",
+          "DelegatePropertyName": "OnComponentBeginOverlap",
+          "FunctionNameToBind": "BndEvt__BP_WaterPlants_A01_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_WaterPlants_A01_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_Destructible_SuperDelicate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bFromSweep",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "SweepResult",
+        "Flags": "RF_Public",
+        "ElementSize": 264,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_WaterPlants_A01_Destructible_SuperDelicate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_Destructible_SuperDelicate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsQuestState_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bFromSweep",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_SweepResult",
+        "Flags": "RF_Public",
+        "ElementSize": 264,
+        "PropertyFlags": "ConstParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_As___",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Character'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_Destructible_SuperDelicate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_Destructible_SuperDelicate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_WaterPlants_A01_Destructible_SuperDelicate_C'Default__BP_WaterPlants_A01_Destructible_SuperDelicate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WaterPlants_A01_Destructible_SuperDelicate_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.13"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_WaterPlants_A01_Destructible_SuperDelicate_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.8"
+      },
+      "VariableGUID": "658B117C-4922B268-089321AC-A70E869D",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WaterPlants_A01_Destructible_SuperDelicate_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.13"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_WaterPlants_A01_Destructible_SuperDelicate_C:Box_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.1"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "70F2402A-4400BF7F-90645490-31F323B0",
+      "InternalVariableName": "Box"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WaterPlants_A01_Destructible_SuperDelicate_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.13"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent'BP_WaterPlants_A01_Destructible_SuperDelicate_C:SkeletalMesh_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.14"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "B0709599-4CC41B8D-25CAB5A7-B63E343A",
+      "InternalVariableName": "SkeletalMesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_Destructible_SuperDelicate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_WaterPlants_A01_Destructible_SuperDelicate_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_WaterPlants_A01_Destructible_SuperDelicate_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.12"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_WaterPlants_A01_Destructible_SuperDelicate_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_WaterPlants_A01_Destructible_SuperDelicate_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.12"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_WaterPlants_A01_Destructible_SuperDelicate_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.10"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletalMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_Destructible_SuperDelicate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01_Destructible_SuperDelicate.0"
+    },
+    "Properties": {
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'SK_WaterPlants_A01_Idle_01'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/SK_WaterPlants_A01/Ani/SK_WaterPlants_A01_Idle_01.0"
+        }
+      },
+      "AnimationMode": "EAnimationMode::AnimationSingleNode",
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_WaterPlants_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/SK_WaterPlants_A01/Mesh/SK_WaterPlants_A01.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_WaterPlants_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/SK_WaterPlants_A01/Mesh/SK_WaterPlants_A01.1"
+      },
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_Yes",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_PhysicsBody",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Npc",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeScale3D": {
+        "X": 1.8,
+        "Y": 1.8,
+        "Z": 1.8
+      }
+    }
+  }
+]

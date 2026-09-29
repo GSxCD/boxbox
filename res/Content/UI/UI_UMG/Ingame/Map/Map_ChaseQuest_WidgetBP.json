@@ -1,0 +1,401 @@
+[
+  {
+    "Type": "CBImage",
+    "Name": "Image_Loop",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Map_ChaseQuest_WidgetBP_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_ChaseQuest_WidgetBP.6"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'UI_MI_RingLoop_01'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/Common/UI_MI_RingLoop_01.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Map_ChaseQuest_WidgetBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_ChaseQuest_WidgetBP.5"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Map_ChaseQuest_WidgetBP",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Map_ChaseQuest_WidgetBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_ChaseQuest_WidgetBP.5"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_OGWidgetSetVisibility_isUpdated",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetEnable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Map_ChaseQuest_WidgetBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_ChaseQuest_WidgetBP.5"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "inEnable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_BoolBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_OGWidgetSetVisibility_isUpdated",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsAnimationPlaying_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Map_ChaseQuest_WidgetBP_C",
+    "Name": "Default__Map_ChaseQuest_WidgetBP_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_ChaseQuest_WidgetBP.Map_ChaseQuest_WidgetBP_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_ChaseQuest_WidgetBP",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Map_ChaseQuest_WidgetBP_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_ChaseQuest_WidgetBP",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Map_ChaseQuest_WidgetBP_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_ChaseQuest_WidgetBP.6"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function'Map_ChaseQuest_WidgetBP_C:ExecuteUbergraph_Map_ChaseQuest_WidgetBP'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_ChaseQuest_WidgetBP.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWidgetBase'",
+      "ObjectPath": "/Script/ACUICoreModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Map_ChaseQuest_WidgetBP_C:SetEnable'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_ChaseQuest_WidgetBP.3"
+      },
+      {
+        "ObjectName": "Function'Map_ChaseQuest_WidgetBP_C:Construct'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_ChaseQuest_WidgetBP.1"
+      },
+      {
+        "ObjectName": "Function'Map_ChaseQuest_WidgetBP_C:ExecuteUbergraph_Map_ChaseQuest_WidgetBP'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_ChaseQuest_WidgetBP.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Loop",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "SaveEnable",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Map_ChaseQuest_WidgetBP": {
+        "ObjectName": "Function'Map_ChaseQuest_WidgetBP_C:ExecuteUbergraph_Map_ChaseQuest_WidgetBP'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_ChaseQuest_WidgetBP.2"
+      },
+      "Construct": {
+        "ObjectName": "Function'Map_ChaseQuest_WidgetBP_C:Construct'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_ChaseQuest_WidgetBP.1"
+      },
+      "SetEnable": {
+        "ObjectName": "Function'Map_ChaseQuest_WidgetBP_C:SetEnable'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_ChaseQuest_WidgetBP.3"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Map_ChaseQuest_WidgetBP_C'Default__Map_ChaseQuest_WidgetBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_ChaseQuest_WidgetBP.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Map_ChaseQuest_WidgetBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_ChaseQuest_WidgetBP.5"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBImage'Map_ChaseQuest_WidgetBP_C:WidgetTree.Image_Loop'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_ChaseQuest_WidgetBP.0"
+      }
+    }
+  }
+]

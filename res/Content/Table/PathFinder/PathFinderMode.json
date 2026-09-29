@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PathFinderMode",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/PathFinder/PathFinderMode",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UEPathFinderModeTable'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "pf_fogforest_001": {
+        "Active_ConditionGroup": "pathfindmode_active_condition_001",
+        "Deactive_ConditionGroup": "pathfindmode_deactive_condition_001",
+        "Active_Sector": "ch02_sector_sub_forest_gateway",
+        "Mod_Progress_Sector": "quest_10004110_fogforest_progresssector",
+        "Mod_ActorGroup": "pf_fogforest_001_actorgroup_001",
+        "Array_Chase_ActorGroup": [
+          "pf_fogforest_001_actorgroup_002"
+        ],
+        "Mod_DataLayer": "chapter_002_fogforest",
+        "Start_TriggerVolume": "fogforest_start_triggervolume",
+        "End_TriggerVolume": "fogforest_end_triggervolume",
+        "Array_Mod_MovingPath": [
+          "fogforest_spline_01",
+          "fogforest_spline_02"
+        ],
+        "Mod_OutPath_Timer": 5000,
+        "PathFinder_Start_Count": 0,
+        "Use_Limit_Time": false,
+        "Limit_Timer": 0,
+        "Start_WarpPortal": "fogforest_start_portal",
+        "Start_Ready_Range": 350,
+        "Fail_WarpPortal": "fogforest_fail_portal",
+        "Success_WarpPortal": "None",
+        "Kick_WarpPortal": "fogforest_kick_portal",
+        "Is_Once": false,
+        "Mod_Play_Quest": "None",
+        "String_Tid": "pf_fogforest_001",
+        "Local_Key": "None"
+      },
+      "pf_10014120_001": {
+        "Active_ConditionGroup": "pathfindmode_active_condition_002",
+        "Deactive_ConditionGroup": "pathfindmode_deactive_condition_002",
+        "Active_Sector": "quest_10014120_pf_10014120_001_activesector",
+        "Mod_Progress_Sector": "quest_10014120_pf_10014120_001_progresssector",
+        "Mod_ActorGroup": "pf_10014120_001_actorgroup_001",
+        "Array_Chase_ActorGroup": [
+          "pf_10014120_001_actorgroup_002"
+        ],
+        "Mod_DataLayer": "chapter_005_whitedream_mode",
+        "Start_TriggerVolume": "pf_10014120_001_start_triggervolume",
+        "End_TriggerVolume": "pf_10014120_001_end_triggervolume",
+        "Array_Mod_MovingPath": [
+          "whitedream_spline_01"
+        ],
+        "Mod_OutPath_Timer": 10000,
+        "PathFinder_Start_Count": 0,
+        "Use_Limit_Time": true,
+        "Limit_Timer": 90000,
+        "Start_WarpPortal": "pf_10014120_001_start_portal",
+        "Start_Ready_Range": 200,
+        "Fail_WarpPortal": "pf_10014120_001_fail_portal",
+        "Success_WarpPortal": "None",
+        "Kick_WarpPortal": "pf_10014120_001_kick_portal",
+        "Is_Once": false,
+        "Mod_Play_Quest": "None",
+        "String_Tid": "pf_10014120_001",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

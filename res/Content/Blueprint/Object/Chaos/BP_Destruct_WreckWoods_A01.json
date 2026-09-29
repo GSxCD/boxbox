@@ -1,0 +1,653 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Destruct_WreckWoods_A01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destruct_Base_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Base.0"
+    },
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_Destruct_WreckWoods_A01_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.4"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Destruct_WreckWoods_A01_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.13"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Destruct_WreckWoods_A01_C:ExecuteUbergraph_BP_Destruct_WreckWoods_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destruct_Base_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Base.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Destruct_WreckWoods_A01_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.8"
+      },
+      {
+        "ObjectName": "Function'BP_Destruct_WreckWoods_A01_C:BndEvt__BP_Destruct_WreckWoods_A01_CoreMeshOverlap_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.5"
+      },
+      {
+        "ObjectName": "Function'BP_Destruct_WreckWoods_A01_C:BndEvt__BP_Destruct_WreckWoods_A01_CoreMeshOverlap_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.6"
+      },
+      {
+        "ObjectName": "Function'BP_Destruct_WreckWoods_A01_C:ExecuteUbergraph_BP_Destruct_WreckWoods_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.7"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CoreMeshOverlap",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CBStaticMeshComponent'",
+          "ObjectPath": "/Script/CBResourceModule"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Destruct_WreckWoods_A01": {
+        "ObjectName": "Function'BP_Destruct_WreckWoods_A01_C:ExecuteUbergraph_BP_Destruct_WreckWoods_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.7"
+      },
+      "BndEvt__BP_Destruct_WreckWoods_A01_CoreMeshOverlap_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature": {
+        "ObjectName": "Function'BP_Destruct_WreckWoods_A01_C:BndEvt__BP_Destruct_WreckWoods_A01_CoreMeshOverlap_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.6"
+      },
+      "BndEvt__BP_Destruct_WreckWoods_A01_CoreMeshOverlap_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature": {
+        "ObjectName": "Function'BP_Destruct_WreckWoods_A01_C:BndEvt__BP_Destruct_WreckWoods_A01_CoreMeshOverlap_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.5"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BP_Destruct_WreckWoods_A01_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.8"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Destruct_WreckWoods_A01_C'Default__BP_Destruct_WreckWoods_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Destruct_WreckWoods_A01_C",
+    "Name": "Default__BP_Destruct_WreckWoods_A01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.BP_Destruct_WreckWoods_A01_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01",
+    "Template": {
+      "ObjectName": "BP_Destruct_Base_C'Default__BP_Destruct_Base_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Base.1"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "CoreMesh": {
+        "ObjectName": "CBStaticMeshComponent'Default__BP_Destruct_WreckWoods_A01_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.3"
+      },
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_Destruct_WreckWoods_A01_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.10"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_Destruct_WreckWoods_A01_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.10"
+      }
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "CoreMeshOverlap_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destruct_WreckWoods_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_WreckWoods_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Meshes/S_WreckWoods_A01.2"
+      },
+      "bEnableAutoLODGeneration": false,
+      "CastShadow": false,
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Npc",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Object",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.03,
+        "Y": 1.03,
+        "Z": 1.03
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Destruct_WreckWoods_A01_C'Default__BP_Destruct_WreckWoods_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.1"
+    },
+    "Template": {
+      "ObjectName": "CBStaticMeshComponent'Default__BP_Destruct_Base_C:Root'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Base.2"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_WreckWoods_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Meshes/S_WreckWoods_A01.2"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Destruct_WreckWoods_A01_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.10"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destruct_WreckWoods_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.0"
+    },
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "CoreMeshOverlap",
+          "DelegatePropertyName": "OnComponentEndOverlap",
+          "FunctionNameToBind": "BndEvt__BP_Destruct_WreckWoods_A01_CoreMeshOverlap_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "CoreMeshOverlap",
+          "DelegatePropertyName": "OnComponentBeginOverlap",
+          "FunctionNameToBind": "BndEvt__BP_Destruct_WreckWoods_A01_CoreMeshOverlap_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_Destruct_WreckWoods_A01_CoreMeshOverlap_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destruct_WreckWoods_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bFromSweep",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "SweepResult",
+        "Flags": "RF_Public",
+        "ElementSize": 264,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_Destruct_WreckWoods_A01_CoreMeshOverlap_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destruct_WreckWoods_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Destruct_WreckWoods_A01",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destruct_WreckWoods_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OverlappedComponent_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherActor_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherComp_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherBodyIndex_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bFromSweep",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_SweepResult",
+        "Flags": "RF_Public",
+        "ElementSize": 264,
+        "PropertyFlags": "ConstParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destruct_WreckWoods_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.0"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_Destruct_Base_C:ReceiveTick'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Base.4"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_Destruct_Base_C:ReceiveTick'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Base.4"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destruct_WreckWoods_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Destruct_WreckWoods_A01_C'Default__BP_Destruct_WreckWoods_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.1"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_Destruct_Base_C:RootComponent'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Base.9"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Destruct_WreckWoods_A01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.13"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Destruct_WreckWoods_A01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.9"
+      },
+      "VariableGUID": "4DB7F9D1-415B08FD-9955E5B3-F15F30F5",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Destruct_WreckWoods_A01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.13"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CBStaticMeshComponent'",
+        "ObjectPath": "/Script/CBResourceModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBStaticMeshComponent'BP_Destruct_WreckWoods_A01_C:CoreMeshOverlap_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.2"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "DD01FBBD-4E4D37F1-EC0CA8A8-E0B356E4",
+      "InternalVariableName": "CoreMeshOverlap"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destruct_WreckWoods_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Destruct_WreckWoods_A01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.12"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Destruct_WreckWoods_A01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.12"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Destruct_WreckWoods_A01_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_WreckWoods_A01.11"
+      }
+    }
+  }
+]

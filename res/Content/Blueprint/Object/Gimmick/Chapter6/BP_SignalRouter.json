@@ -1,0 +1,480 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_SignalRouter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_SignalRouter_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.12"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_Static'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Capsule1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Capsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_SignalRouter_C'Default__BP_SignalRouter_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SignalRouter_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.0"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Npc",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Object",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Wall",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Select",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 3.2500895E-07,
+        "Y": 8.940697E-08,
+        "Z": -5.5
+      },
+      "RelativeScale3D": {
+        "X": 3.1,
+        "Y": 3.1,
+        "Z": 1.75
+      }
+    }
+  },
+  {
+    "Type": "BP_SignalRouter_C",
+    "Name": "Default__BP_SignalRouter_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.BP_SignalRouter_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter",
+    "Properties": {
+      "CoreMesh": {
+        "ObjectName": "CBStaticMeshComponent'Default__BP_SignalRouter_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.5"
+      },
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_SignalRouter_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.7"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_SignalRouter_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.7"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SignalRouter_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.0"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Npc",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Object",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Wall",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Select",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -1.7127368E-07,
+        "Y": -1.9895197E-13,
+        "Z": 149.9292
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.9,
+        "Z": 1.5
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SignalRouter_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.0"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Npc",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Object",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Wall",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Select",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -2.1535148E-07,
+        "Z": 74.8594
+      },
+      "RelativeScale3D": {
+        "X": 1.2,
+        "Y": 1.2,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_SignalRouter_C'Default__BP_SignalRouter_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.2"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_SignalBaseCrystal_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Meshes/S_SignalBaseCrystal_A01.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Npc",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Object",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Wall",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Select",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_SignalRouter_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.7"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SignalRouter_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_SignalRouter_C'Default__BP_SignalRouter_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SignalRouter_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_SignalRouter_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.6"
+      },
+      "VariableGUID": "07370FD8-4137FE3E-9875B08D-E43F7172",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SignalRouter_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_SignalRouter_C:Box_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.1"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "1BE1562D-48BB4C75-6C4BD0AF-77BC4EA6",
+      "InternalVariableName": "Box"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SignalRouter_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_SignalRouter_C:Capsule_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.4"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "B71407E2-4D7C639A-AFCB76AA-82722DAB",
+      "InternalVariableName": "Capsule"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SignalRouter_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_SignalRouter_C:Capsule1_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.3"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "23375A2D-4B57D8E5-6213309E-DB1BB0FD",
+      "InternalVariableName": "Capsule1"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SignalRouter_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_SignalRouter_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SignalRouter_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SignalRouter_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.11"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_SignalRouter_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SignalRouter_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SignalRouter_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.11"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_SignalRouter_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter6/BP_SignalRouter.8"
+      }
+    }
+  }
+]

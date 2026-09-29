@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "OGDirecting_Fade",
+    "Name": "OGDirecting_Fade_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Fade'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Dummy_Test_Directing'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Dummy_Test_Directing.4"
+    },
+    "Properties": {
+      "FadeType": "EOGDirectingFadeType::FADE_OUT",
+      "ActionID": "fadeout"
+    }
+  },
+  {
+    "Type": "OGDirecting_Fade",
+    "Name": "OGDirecting_Fade_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Fade'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Dummy_Test_Directing'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Dummy_Test_Directing.4"
+    },
+    "Properties": {
+      "ActionID": "fadein"
+    }
+  },
+  {
+    "Type": "OGDirecting_WaitForRouterID",
+    "Name": "OGDirecting_WaitForRouterID_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_WaitForRouterID'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Dummy_Test_Directing'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Dummy_Test_Directing.4"
+    },
+    "Properties": {
+      "TargetActionID": "fadeout"
+    }
+  },
+  {
+    "Type": "OGDirecting_WaitForRouterID",
+    "Name": "OGDirecting_WaitForRouterID_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_WaitForRouterID'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Dummy_Test_Directing'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Dummy_Test_Directing.4"
+    },
+    "Properties": {
+      "TargetActionID": "fadein"
+    }
+  },
+  {
+    "Type": "OGDirectingActionContainerObject",
+    "Name": "Dummy_Test_Directing",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirectingActionContainerObject'",
+    "Package": "SevenDeadlySins/Content/Table/Directing/DirectingData/Dummy_Test_Directing",
+    "Properties": {
+      "ActionList": [
+        {
+          "ObjectName": "OGDirecting_Fade'Dummy_Test_Directing:OGDirecting_Fade_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Dummy_Test_Directing.0"
+        },
+        {
+          "ObjectName": "OGDirecting_WaitForRouterID'Dummy_Test_Directing:OGDirecting_WaitForRouterID_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Dummy_Test_Directing.2"
+        },
+        {
+          "ObjectName": "OGDirecting_Fade'Dummy_Test_Directing:OGDirecting_Fade_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Dummy_Test_Directing.1"
+        },
+        {
+          "ObjectName": "OGDirecting_WaitForRouterID'Dummy_Test_Directing:OGDirecting_WaitForRouterID_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Dummy_Test_Directing.3"
+        }
+      ]
+    }
+  }
+]

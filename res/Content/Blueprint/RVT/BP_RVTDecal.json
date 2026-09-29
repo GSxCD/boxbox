@@ -1,0 +1,300 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_RVTDecal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_RVTDecal_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_RVTDecal_C:UserConstructionScript'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Billboard",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BillboardComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Plane",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Material",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInterface'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "TargetRVTs",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "TargetRVTs",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'RuntimeVirtualTexture'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      }
+    ],
+    "FuncMap": {
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_RVTDecal_C:UserConstructionScript'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.2"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_RVTDecal_C'Default__BP_RVTDecal_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_RVTDecal_C",
+    "Name": "Default__BP_RVTDecal_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.BP_RVTDecal_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal",
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material'M_LandScapeDecal01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Landscape/M_LandScapeDecal01.0"
+      },
+      "TargetRVTs": [
+        {
+          "ObjectName": "RuntimeVirtualTexture'RVT_Landscape_BaseColor_01'",
+          "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Landscape/RVT_Landscape_BaseColor_01.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RVTDecal_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RVTDecal_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RVTDecal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.7"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_RVTDecal_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.3"
+      },
+      "VariableGUID": "4DCB3E01-452D0BE6-A6A2129D-0AC5CE6F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RVTDecal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.7"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_RVTDecal_C:Plane_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.8"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_RVTDecal_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.6"
+        }
+      ],
+      "VariableGUID": "ED71585F-4EAD1BFB-5C3A8ABE-E4D3659B",
+      "InternalVariableName": "Plane"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RVTDecal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.7"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BillboardComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": null,
+      "VariableGUID": "8DF69FEE-4B9963BC-C26AD08B-E1D3BD6F",
+      "InternalVariableName": "Billboard"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RVTDecal_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_RVTDecal_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.5"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_RVTDecal_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.5"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RVTDecal_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.6"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_RVTDecal_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.4"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Plane_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RVTDecal_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/RVT/BP_RVTDecal.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "bGenerateOverlapEvents": false,
+      "bVisibleInReflectionCaptures": false,
+      "bVisibleInRealTimeSkyCaptures": false,
+      "bVisibleInRayTracing": false,
+      "bRenderInMainPass": false,
+      "bRenderInDepthPass": false,
+      "bReceivesDecals": false,
+      "bUseAsOccluder": false,
+      "CastShadow": false,
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "RuntimeVirtualTextures": [
+        null,
+        null
+      ],
+      "VirtualTextureRenderPassType": "ERuntimeVirtualTextureMainPassType::Never",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "Mobility": "EComponentMobility::Static",
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  }
+]

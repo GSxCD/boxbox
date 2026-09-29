@@ -1,0 +1,440 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Housing_Default_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Housing_Default_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.14"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Housing_Default_C:ExecuteUbergraph_BP_Housing_Default'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_GuildHousing'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Housing_Default_C:OnNoInstallAreaVisibleChanged'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.7"
+      },
+      {
+        "ObjectName": "Function'BP_Housing_Default_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.8"
+      },
+      {
+        "ObjectName": "Function'BP_Housing_Default_C:ExecuteUbergraph_BP_Housing_Default'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.6"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ENiagara",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ENiagaraComponent'",
+          "ObjectPath": "/Script/ACActorModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Housing_Default": {
+        "ObjectName": "Function'BP_Housing_Default_C:ExecuteUbergraph_BP_Housing_Default'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.6"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_Housing_Default_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.8"
+      },
+      "OnNoInstallAreaVisibleChanged": {
+        "ObjectName": "Function'BP_Housing_Default_C:OnNoInstallAreaVisibleChanged'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.7"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Housing_Default_C'Default__BP_Housing_Default_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Housing_Default_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.0"
+    },
+    "Properties": {
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "bGenerateOverlapEvents": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "ComponentTags": [
+        "NoInstallActor"
+      ]
+    }
+  },
+  {
+    "Type": "BP_Housing_Default_C",
+    "Name": "Default__BP_Housing_Default_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.BP_Housing_Default_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Housing_Default_C'Default__BP_Housing_Default_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Housing_Default_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.10"
+      }
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "HousingChildActorSlot",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Outer": {
+      "ObjectName": "BP_Housing_Default_C'Default__BP_Housing_Default_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Housing_Default_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.10"
+      }
+    }
+  },
+  {
+    "Type": "ENiagaraComponent",
+    "Name": "ENiagara_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ENiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Housing_Default_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.0"
+    },
+    "Properties": {
+      "OverrideParameters": {}
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Housing_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Housing_Default_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bVisible",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnNoInstallAreaVisibleChanged",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Housing_Default_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UEActor_GuildHousing:OnNoInstallAreaVisibleChanged'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bVisible",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Housing_Default_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Housing_Default_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Housing_Default_C'Default__BP_Housing_Default_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Housing_Default_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Housing_Default_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.9"
+      },
+      "VariableGUID": "082019AB-45CC75A5-551CF4B7-A8C108E1",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Housing_Default_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_Housing_Default_C:Box_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.1"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "100A9C97-44082941-CCB463B9-3AE78F27",
+      "InternalVariableName": "Box"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Housing_Default_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ENiagaraComponent'",
+        "ObjectPath": "/Script/ACActorModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ENiagaraComponent'BP_Housing_Default_C:ENiagara_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.5"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "31ACB192-4A04D4F6-FABB6B93-226F74EC",
+      "InternalVariableName": "ENiagara"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Housing_Default_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Housing_Default_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Housing_Default_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.13"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Housing_Default_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Housing_Default_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.13"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Housing_Default_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.11"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "HousingSkeletalMeshSlot",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Housing_Default_C'Default__BP_Housing_Default_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Housing_Default_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.10"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "HousingStaticMeshSlot",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Housing_Default_C'Default__BP_Housing_Default_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Housing_Default_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Housing_Default.10"
+      }
+    }
+  }
+]

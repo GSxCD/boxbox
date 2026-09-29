@@ -1,0 +1,289 @@
+[
+  {
+    "Type": "EquipSlotBP_C",
+    "Name": "Default__EquipSlotBP_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Contents/Slot/EquipSlotBP.EquipSlotBP_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Contents/Slot/EquipSlotBP",
+    "Properties": {
+      "ClickSound": null,
+      "PressSound": null,
+      "TickFrequency": "EWidgetTickFrequency::Never",
+      "DesiredFocusWidget": {}
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SetItemInfoBP",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'EquipSlotBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Slot/EquipSlotBP.5"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "InItemGUID",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "InItemTid",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "InItemEquipTypeBP",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Enum'EItemEquipTypeBP'",
+          "ObjectPath": "/Script/ACCoreModule"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateBg",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'EquipSlotBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Slot/EquipSlotBP.5"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetItemTable_Grade_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_IntToString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateCoreInfo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'EquipSlotBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Slot/EquipSlotBP.5"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "PassiveTids",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Inner": {
+          "Type": "NameProperty",
+          "Name": "PassiveTids",
+          "Flags": "RF_Public",
+          "ElementSize": 12
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetPassiveTids_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_GetPassiveTids_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 56,
+          "Struct": {
+            "ObjectName": "ScriptStruct'UEItemPassive'",
+            "ObjectPath": "/Script/ACTableModule"
+          }
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateIcon",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'EquipSlotBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Slot/EquipSlotBP.5"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_GetItemTable_ItemIconKey_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "EquipSlotBP_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Contents/Slot/EquipSlotBP",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'EquipSlotBP_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Slot/EquipSlotBP.6"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EEquip_Slot'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'EquipSlotBP_C:UpdateCoreInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Slot/EquipSlotBP.3"
+      },
+      {
+        "ObjectName": "Function'EquipSlotBP_C:UpdateBg'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Slot/EquipSlotBP.2"
+      },
+      {
+        "ObjectName": "Function'EquipSlotBP_C:UpdateIcon'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Slot/EquipSlotBP.4"
+      },
+      {
+        "ObjectName": "Function'EquipSlotBP_C:SetItemInfoBP'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Slot/EquipSlotBP.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "ItemGUID",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "ItemTid",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "ItemEquipTypeBP",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Enum": {
+          "ObjectName": "Enum'EItemEquipTypeBP'",
+          "ObjectPath": "/Script/ACCoreModule"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FuncMap": {
+      "SetItemInfoBP": {
+        "ObjectName": "Function'EquipSlotBP_C:SetItemInfoBP'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Slot/EquipSlotBP.1"
+      },
+      "UpdateIcon": {
+        "ObjectName": "Function'EquipSlotBP_C:UpdateIcon'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Slot/EquipSlotBP.4"
+      },
+      "UpdateBg": {
+        "ObjectName": "Function'EquipSlotBP_C:UpdateBg'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Slot/EquipSlotBP.2"
+      },
+      "UpdateCoreInfo": {
+        "ObjectName": "Function'EquipSlotBP_C:UpdateCoreInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Slot/EquipSlotBP.3"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "EquipSlotBP_C'Default__EquipSlotBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Slot/EquipSlotBP.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'EquipSlotBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Slot/EquipSlotBP.5"
+    }
+  }
+]

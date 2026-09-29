@@ -1,0 +1,1166 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_MERGED_SpiderWeb_A03_charge_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_MERGED_SpiderWeb_A03_charge_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.28"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_MERGED_SpiderWeb_A03_charge_C:ExecuteUbergraph_BP_MERGED_SpiderWeb_A03_charge'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.14"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UECharacter_ChargeObject'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_MERGED_SpiderWeb_A03_charge_C:UserConstructionScript'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.16"
+      },
+      {
+        "ObjectName": "Function'BP_MERGED_SpiderWeb_A03_charge_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.15"
+      },
+      {
+        "ObjectName": "Function'BP_MERGED_SpiderWeb_A03_charge_C:AddEventGrab'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.12"
+      },
+      {
+        "ObjectName": "Function'BP_MERGED_SpiderWeb_A03_charge_C:AddEventEnableAimOverlayMode'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.11"
+      },
+      {
+        "ObjectName": "Function'BP_MERGED_SpiderWeb_A03_charge_C:AddEventSetAimTarget'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.13"
+      },
+      {
+        "ObjectName": "Function'BP_MERGED_SpiderWeb_A03_charge_C:ExecuteUbergraph_BP_MERGED_SpiderWeb_A03_charge'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.14"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBSkeletalMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CBSkeletalMeshComponent'",
+          "ObjectPath": "/Script/CBResourceModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BPC_ControlObjectOverlay",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BPC_ControlObjectOverlay_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Component/BPC_ControlObjectOverlay.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ForceFeedback",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'ForceFeedbackComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_MERGED_SpiderWeb_A03_charge": {
+        "ObjectName": "Function'BP_MERGED_SpiderWeb_A03_charge_C:ExecuteUbergraph_BP_MERGED_SpiderWeb_A03_charge'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.14"
+      },
+      "AddEventSetAimTarget": {
+        "ObjectName": "Function'BP_MERGED_SpiderWeb_A03_charge_C:AddEventSetAimTarget'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.13"
+      },
+      "AddEventEnableAimOverlayMode": {
+        "ObjectName": "Function'BP_MERGED_SpiderWeb_A03_charge_C:AddEventEnableAimOverlayMode'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.11"
+      },
+      "AddEventGrab": {
+        "ObjectName": "Function'BP_MERGED_SpiderWeb_A03_charge_C:AddEventGrab'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.12"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_MERGED_SpiderWeb_A03_charge_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.15"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_MERGED_SpiderWeb_A03_charge_C:UserConstructionScript'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.16"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_MERGED_SpiderWeb_A03_charge_C'Default__BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.0"
+    },
+    "Properties": {
+      "BoxExtent": {
+        "X": 200.0,
+        "Y": 60.0,
+        "Z": 200.0
+      },
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Npc",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Object",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Wall",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Select",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 100.0
+      },
+      "RelativeRotation": {
+        "Pitch": -0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BP_MERGED_SpiderWeb_A03_charge_C",
+    "Name": "Default__BP_MERGED_SpiderWeb_A03_charge_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.BP_MERGED_SpiderWeb_A03_charge_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge",
+    "Properties": {
+      "UberGraphFrame": {},
+      "RotationPivot": {
+        "ObjectName": "SceneComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:RotatorPivot'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.23"
+      },
+      "ChargeGaugeEffect": {
+        "ObjectName": "NiagaraComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:GaugeEffect'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.17"
+      },
+      "ChargeGaugeSubEffect": {
+        "ObjectName": "NiagaraComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:GaugeSubEffect'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.19"
+      },
+      "ChargeGaugeMaxLoopEffect": {
+        "ObjectName": "NiagaraComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:GaugeMaxLoopEffect'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.18"
+      },
+      "CoreMesh": {
+        "ObjectName": "CBSkeletalMeshComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.9"
+      },
+      "PathFollowingComponent": {
+        "ObjectName": "UEPathFollowingComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:UEPathFollowingComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.30"
+      },
+      "DestructibleReactionComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:DestructibleReactionComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.5"
+      },
+      "SelectableComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:SelectableComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.7"
+      },
+      "OverlapOnlyComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:OverlapOnlyComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.6"
+      },
+      "FacialPlayer": {
+        "ObjectName": "OGFacialPlayerComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:FacialPlayer'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.21"
+      },
+      "m_CollisionCheckDestroyComponent": {
+        "ObjectName": "OGActorCollisionCheckDestroyComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:OGCollisionCheckDestroyComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.20"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:CharacterMesh0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.29"
+      },
+      "CharacterMovement": {
+        "ObjectName": "ECharacterMoveComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:UECharMoveComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.10"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.4"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.4"
+      },
+      "OnActorHit": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "UEPathFollowingComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:UEPathFollowingComponent'",
+              "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.30"
+            },
+            "FunctionName": "OnActorBump"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "BPC_ControlObjectOverlay_C",
+    "Name": "BPC_ControlObjectOverlay_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Component/BPC_ControlObjectOverlay.BPC_ControlObjectOverlay_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.0"
+    },
+    "Template": {
+      "ObjectName": "BPC_ControlObjectOverlay_C'Default__BPC_ControlObjectOverlay_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Component/BPC_ControlObjectOverlay.1"
+    },
+    "Properties": {
+      "bUseOldVersionOverlay": true
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_MERGED_SpiderWeb_A03_charge_C'Default__BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.2"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel5",
+        "CollisionEnabled": "ECollisionEnabled::PhysicsOnly",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Trigger",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "DestructibleReactionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_MERGED_SpiderWeb_A03_charge_C'Default__BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.4"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "OverlapOnlyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_MERGED_SpiderWeb_A03_charge_C'Default__BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.4"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "SelectableComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_MERGED_SpiderWeb_A03_charge_C'Default__BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.4"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "CBSkeletalMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.0"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'S_MERGED_SpiderWeb_A03'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_MERGED_SpiderWeb/Mesh/S_MERGED_SpiderWeb_A03.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'S_MERGED_SpiderWeb_A03'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_MERGED_SpiderWeb/Mesh/S_MERGED_SpiderWeb_A03.1"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_MERGED_SpiderWeb_A03_charge_C'Default__BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.2"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_ElementSwitch_01_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/ABP_ElementSwitch_01.1"
+      },
+      "bGenerateOverlapEvents": true,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Npc",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Object",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Wall",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Select",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:RotatorPivot'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.23"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 300.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.67,
+        "Y": 1.0,
+        "Z": 1.7
+      }
+    }
+  },
+  {
+    "Type": "ECharacterMoveComponent",
+    "Name": "UECharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ECharacterMoveComponent'",
+    "Outer": {
+      "ObjectName": "BP_MERGED_SpiderWeb_A03_charge_C'Default__BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.2"
+    },
+    "Properties": {
+      "PathFollowingComp": {
+        "ObjectName": "UEPathFollowingComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:UEPathFollowingComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.30"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "AddEventEnableAimOverlayMode",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UECharacter_ChargeObject:AddEventEnableAimOverlayMode'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Enable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "AddEventGrab",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UECharacter_ChargeObject:AddEventGrab'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "symbol",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Enum'EUECubeSymbol'",
+          "ObjectPath": "/Script/ACCoreModule"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "AddEventSetAimTarget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UECharacter_ChargeObject:AddEventSetAimTarget'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "_lockon",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_MERGED_SpiderWeb_A03_charge",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsSameMyActorObject_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Event_symbol",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'EUECubeSymbol'",
+          "ObjectPath": "/Script/ACCoreModule"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnForceFeedbackAttached_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'ForceFeedbackComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_Enable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event__lockon",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnForceFeedbackAttached_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'ForceFeedbackComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "GaugeEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_MERGED_SpiderWeb_A03_charge_C'Default__BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.2"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_ns_Fire_charging_01'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/Common/System/Gimmick/fx_ns_Fire_charging_01.148"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "color",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.color",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "intensity",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.intensity",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "percentage",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.percentage",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.color",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'LinearColor'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 16,
+            "Name": "User.intensity",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 20,
+            "Name": "User.percentage",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          224,
+          64,
+          141,
+          185,
+          107,
+          63,
+          180,
+          128,
+          100,
+          62,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          0,
+          63
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.4"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 124.0
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "GaugeMaxLoopEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_MERGED_SpiderWeb_A03_charge_C'Default__BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.2"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.4"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "GaugeSubEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_MERGED_SpiderWeb_A03_charge_C'Default__BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.2"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.4"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 124.0
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "OGActorCollisionCheckDestroyComponent",
+    "Name": "OGCollisionCheckDestroyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGActorCollisionCheckDestroyComponent'",
+    "Outer": {
+      "ObjectName": "BP_MERGED_SpiderWeb_A03_charge_C'Default__BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.2"
+    }
+  },
+  {
+    "Type": "OGFacialPlayerComponent",
+    "Name": "FacialPlayer",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGFacialPlayerComponent'",
+    "Outer": {
+      "ObjectName": "BP_MERGED_SpiderWeb_A03_charge_C'Default__BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.2"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RotatorPivot",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_MERGED_SpiderWeb_A03_charge_C'Default__BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.4"
+      },
+      "bUseAttachParentBound": true
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MERGED_SpiderWeb_A03_charge_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_MERGED_SpiderWeb_A03_charge_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.22"
+      },
+      "VariableGUID": "5D0E01A8-49425B94-3F02B9BA-C8B95BFC",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MERGED_SpiderWeb_A03_charge_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPC_ControlObjectOverlay_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Component/BPC_ControlObjectOverlay.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPC_ControlObjectOverlay_C'BP_MERGED_SpiderWeb_A03_charge_C:BPC_ControlObjectOverlay_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.3"
+      },
+      "VariableGUID": "5EF05666-4849E1B4-F4E002BF-7B6C34CD",
+      "InternalVariableName": "BPC_ControlObjectOverlay"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MERGED_SpiderWeb_A03_charge_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_MERGED_SpiderWeb_A03_charge_C:Box_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.1"
+      },
+      "ParentComponentOrVariableName": "RotatorPivot",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MERGED_SpiderWeb_A03_charge_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.27"
+        }
+      ],
+      "VariableGUID": "6FDE74E3-4BBB26CF-DD2965A6-4E7A28B4",
+      "InternalVariableName": "Box"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MERGED_SpiderWeb_A03_charge_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CBSkeletalMeshComponent'",
+        "ObjectPath": "/Script/CBResourceModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBSkeletalMeshComponent'BP_MERGED_SpiderWeb_A03_charge_C:CBSkeletalMesh_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.8"
+      },
+      "VariableGUID": "639332DB-493F28B7-842EFA9F-6899B7A5",
+      "InternalVariableName": "CBSkeletalMesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MERGED_SpiderWeb_A03_charge_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MERGED_SpiderWeb_A03_charge_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.26"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MERGED_SpiderWeb_A03_charge_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MERGED_SpiderWeb_A03_charge_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MERGED_SpiderWeb_A03_charge_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.26"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_MERGED_SpiderWeb_A03_charge_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.24"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_MERGED_SpiderWeb_A03_charge_C'Default__BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MERGED_SpiderWeb_A03_charge_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.4"
+      }
+    }
+  },
+  {
+    "Type": "UEPathFollowingComponent",
+    "Name": "UEPathFollowingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UEPathFollowingComponent'",
+    "Outer": {
+      "ObjectName": "BP_MERGED_SpiderWeb_A03_charge_C'Default__BP_MERGED_SpiderWeb_A03_charge_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_MERGED_SpiderWeb_A03_charge.2"
+    }
+  }
+]

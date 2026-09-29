@@ -1,0 +1,244 @@
+[
+  {
+    "Type": "OGDirecting_BindPlayer",
+    "Name": "OGDirecting_BindPlayer_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_BindPlayer'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.12"
+    },
+    "Properties": {
+      "ActionID": "PC"
+    }
+  },
+  {
+    "Type": "OGDirecting_Fade",
+    "Name": "OGDirecting_Fade_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Fade'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.12"
+    },
+    "Properties": {
+      "FadeType": "EOGDirectingFadeType::FADE_OUT",
+      "FadeTimeLength": 0.0,
+      "FadeColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "ActionID": "end_fade_out"
+    }
+  },
+  {
+    "Type": "OGDirecting_Fade",
+    "Name": "OGDirecting_Fade_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Fade'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.12"
+    },
+    "Properties": {
+      "FadeColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "ActionID": "end_fade_in"
+    }
+  },
+  {
+    "Type": "OGDirecting_Fade",
+    "Name": "start_fade_in",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Fade'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.12"
+    },
+    "Properties": {
+      "ActionID": "start_fade_in",
+      "ExecWhenSkip": false
+    }
+  },
+  {
+    "Type": "OGDirecting_Fade",
+    "Name": "start_fade_out",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Fade'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.12"
+    },
+    "Properties": {
+      "FadeType": "EOGDirectingFadeType::FADE_OUT",
+      "ActionID": "start_fade_out"
+    }
+  },
+  {
+    "Type": "OGDirecting_PlaySequence",
+    "Name": "OGDirecting_PlaySequence_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_PlaySequence'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.12"
+    },
+    "Properties": {
+      "Sequence": {
+        "ObjectName": "LevelSequence'Sequence_C04_Quest_10012201_End_01_Master'",
+        "ObjectPath": "SevenDeadlySins/Content/Cinematics/Chapter_04/Sequence_C04_Quest_10012201_End_01_Master.4"
+      },
+      "ActionID": "seq_Play_Directing"
+    }
+  },
+  {
+    "Type": "OGDirecting_SendFinish",
+    "Name": "OGDirecting_SendFinish_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_SendFinish'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.12"
+    },
+    "Properties": {
+      "ActionID": "send_finish"
+    }
+  },
+  {
+    "Type": "OGDirecting_Visibility",
+    "Name": "OGDirecting_Visibility_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Visibility'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.12"
+    },
+    "Properties": {
+      "ActionID": "hidden_actors"
+    }
+  },
+  {
+    "Type": "OGDirecting_Visibility",
+    "Name": "OGDirecting_Visibility_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Visibility'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.12"
+    },
+    "Properties": {
+      "Visible": true,
+      "ActionID": "show_actors"
+    }
+  },
+  {
+    "Type": "OGDirecting_WaitForRouterID",
+    "Name": "OGDirecting_WaitForRouterID_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_WaitForRouterID'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.12"
+    },
+    "Properties": {
+      "TargetActionID": "end_fade_out",
+      "ActionID": "wait_end_fade_out"
+    }
+  },
+  {
+    "Type": "OGDirecting_WaitForRouterID",
+    "Name": "OGDirecting_WaitForRouterID_3",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_WaitForRouterID'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.12"
+    },
+    "Properties": {
+      "TargetActionID": "seq_Play_Directing",
+      "ActionID": "seq_Play_Directing_Wait",
+      "ExecWhenSkip": false
+    }
+  },
+  {
+    "Type": "OGDirecting_WaitForRouterID",
+    "Name": "wait_start_fade_out",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_WaitForRouterID'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.12"
+    },
+    "Properties": {
+      "TargetActionID": "start_fade_out",
+      "ActionID": "wait_start_fade_out"
+    }
+  },
+  {
+    "Type": "OGDirectingActionContainerObject",
+    "Name": "Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirectingActionContainerObject'",
+    "Package": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead",
+    "Properties": {
+      "ActionList": [
+        {
+          "ObjectName": "OGDirecting_Fade'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead:start_fade_out'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.4"
+        },
+        {
+          "ObjectName": "OGDirecting_WaitForRouterID'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead:wait_start_fade_out'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.11"
+        },
+        {
+          "ObjectName": "OGDirecting_BindPlayer'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead:OGDirecting_BindPlayer_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.0"
+        },
+        {
+          "ObjectName": "OGDirecting_Visibility'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead:OGDirecting_Visibility_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.7"
+        },
+        {
+          "ObjectName": "OGDirecting_Fade'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead:start_fade_in'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.3"
+        },
+        {
+          "ObjectName": "OGDirecting_PlaySequence'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead:OGDirecting_PlaySequence_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.5"
+        },
+        {
+          "ObjectName": "OGDirecting_WaitForRouterID'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead:OGDirecting_WaitForRouterID_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.10"
+        },
+        {
+          "ObjectName": "OGDirecting_Fade'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead:OGDirecting_Fade_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.1"
+        },
+        {
+          "ObjectName": "OGDirecting_WaitForRouterID'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead:OGDirecting_WaitForRouterID_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.9"
+        },
+        {
+          "ObjectName": "OGDirecting_Visibility'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead:OGDirecting_Visibility_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.8"
+        },
+        {
+          "ObjectName": "OGDirecting_SendFinish'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead:OGDirecting_SendFinish_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.6"
+        },
+        {
+          "ObjectName": "OGDirecting_Fade'Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead:OGDirecting_Fade_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C04_Quest_10012230_Play_01_EnterCapitalOfTheDead.2"
+        }
+      ]
+    }
+  }
+]

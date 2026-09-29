@@ -1,0 +1,4519 @@
+[
+  {
+    "Type": "Base_Title_01_C",
+    "Name": "Base_Title_01",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Base_Title_01.Base_Title_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Template": {
+      "ObjectName": "Base_Title_01_C'Default__Base_Title_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Base_Title_01.0"
+    },
+    "Properties": {
+      "NamedSlotBindings": [
+        {
+          "Name": "Icon",
+          "Content": {
+            "ObjectName": "CBImage'Panel_HeroSelect_C:WidgetTree.Image_Slot_1'",
+            "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.39"
+          }
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.Top.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.23"
+      }
+    }
+  },
+  {
+    "Type": "Btn_01_C",
+    "Name": "Button_Change",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.Btn_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Template": {
+      "ObjectName": "Btn_01_C'Default__Btn_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.0"
+    },
+    "Properties": {
+      "StringStyle": {
+        "bEnabled": true,
+        "Text": "UI_HeroManage_btn_ChangeHero"
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_172.CBHorizontalBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.31"
+      }
+    }
+  },
+  {
+    "Type": "Btn_Close_C",
+    "Name": "Button_Return",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Close.Btn_Close_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Template": {
+      "ObjectName": "Btn_Close_C'Default__Btn_Close_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Close.0"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.Top.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.22"
+      }
+    }
+  },
+  {
+    "Type": "CBButton",
+    "Name": "Button_Detail",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "ColorAndOpacity": {
+        "R": 9.480006E-38,
+        "G": 9.4351E-41,
+        "B": 6.16948E-39,
+        "A": 6.095581E-39,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.Top'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.8"
+      },
+      "bIsEnabledDelegate": {
+        "Object": {
+          "ObjectName": "Function'Panel_HeroSelect_C:ExecuteUbergraph_Panel_HeroSelect'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.62"
+        },
+        "FunctionName": "None_62"
+      }
+    }
+  },
+  {
+    "Type": "CBButtonSlot",
+    "Name": "CBButtonSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButtonSlot'",
+    "Outer": {
+      "ObjectName": "CBButton'Panel_HeroSelect_C:WidgetTree.Button_Detail'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.3"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBButton'Panel_HeroSelect_C:WidgetTree.Button_Detail'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.3"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_HeroSelect_C:WidgetTree.TextBlock_120'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.52"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CanvasPanel_Abil",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil.CBCanvasPanelSlot_12'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.10"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.13"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil.CBCanvasPanelSlot_9'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.16"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil.CBCanvasPanelSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.15"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.9"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil.CBCanvasPanelSlot_18'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.12"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil.CBCanvasPanelSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.14"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil.CBCanvasPanelSlot_14'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.11"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.memberSelect.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.20"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_122",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CBCanvasPanel_122.CBCanvasPanelSlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.19"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CBCanvasPanel_122.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.17"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CBCanvasPanel_122.CBCanvasPanelSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.18"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "memberSelect",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.memberSelect.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.20"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.memberSelect.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.21"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CBCanvasPanel_122.CBCanvasPanelSlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.19"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "Top",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.Top.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.23"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.Top.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.22"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CBCanvasPanel_122.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.17"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.5"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -60.0,
+          "Top": 150.0,
+          "Right": 400.0,
+          "Bottom": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.5"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_HeroSelect_C:WidgetTree.line_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.40"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.5"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -100.0,
+          "Right": 1200.0,
+          "Bottom": 400.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.5"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_HeroSelect_C:WidgetTree.bg'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.36"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.5"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 800.0,
+          "Top": 184.0,
+          "Right": 241.53485,
+          "Bottom": 262.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.5"
+      },
+      "Content": {
+        "ObjectName": "EScrollBox'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.51"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.5"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -60.0,
+          "Top": 182.0,
+          "Right": 170.0,
+          "Bottom": 60.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.5
+        }
+      },
+      "ZOrder": 1,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.5"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_208'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.26"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.5"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 800.0,
+          "Top": 8.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.5"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_HeroSelect_C:WidgetTree.TextBlock_HeroSubName'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.56"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.5"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -60.0,
+          "Top": 200.0,
+          "Right": 170.0,
+          "Bottom": 60.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "ZOrder": 1,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.5"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.24"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.5"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -60.0,
+          "Top": 70.0,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.5"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_HeroSelect_C:WidgetTree.TextBlock_HeroName'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.55"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.5"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -60.0,
+          "Top": 50.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.5"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_HeroSelect_C:WidgetTree.TextBlock_HeroGrade'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.54"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CBCanvasPanel_122'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.6"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CBCanvasPanel_122'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.6"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.Top'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.8"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CBCanvasPanel_122'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.6"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 200.0,
+          "Top": 789.6786,
+          "Right": 200.0,
+          "Bottom": 146.81349
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CBCanvasPanel_122'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.6"
+      },
+      "Content": {
+        "ObjectName": "Widget_HeroList_C'Panel_HeroSelect_C:WidgetTree.Widget_HeroList'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.104"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CBCanvasPanel_122'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.6"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CBCanvasPanel_122'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.6"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.memberSelect'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.7"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.memberSelect'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -300.0,
+          "Right": 600.0,
+          "Bottom": 300.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.memberSelect'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.7"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.5"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.memberSelect'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -100.0,
+          "Top": -280.0,
+          "Right": 240.0,
+          "Bottom": 45.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "ZOrder": 2,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.memberSelect'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.7"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_172'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.25"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.Top'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 80.0,
+          "Bottom": 80.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.Top'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.8"
+      },
+      "Content": {
+        "ObjectName": "Btn_Close_C'Panel_HeroSelect_C:WidgetTree.Button_Return'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.2"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.Top'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 200.0,
+          "Bottom": 200.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.Top'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.8"
+      },
+      "Content": {
+        "ObjectName": "Base_Title_01_C'Panel_HeroSelect_C:WidgetTree.Base_Title_01'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.0"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox.CBHorizontalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.28"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.27"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox.CBHorizontalBoxSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.29"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil.CBCanvasPanelSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.14"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_172",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_172.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.30"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_172.CBHorizontalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.31"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.memberSelect.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.21"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_208",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_208.CBHorizontalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.33"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_208.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.32"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_208.CBHorizontalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.34"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_208.CBHorizontalBoxSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.35"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil.CBCanvasPanelSlot_18'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.12"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.24"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.24"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_HeroSelect_C:WidgetTree.CBImage'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.37"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.24"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.24"
+      },
+      "Content": {
+        "ObjectName": "CBSpacer'Panel_HeroSelect_C:WidgetTree.CBSpacer_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.48"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.24"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 10.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.24"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_HeroSelect_C:WidgetTree.TextBlock_Hp'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.57"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_172'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.25"
+    },
+    "Properties": {
+      "Size": {
+        "Value": 0.0
+      },
+      "Padding": {
+        "Left": 4.0,
+        "Right": 4.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_172'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.25"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Panel_HeroSelect_C:WidgetTree.Button_Detail'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.3"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_172'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.25"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Left": 4.0,
+        "Right": 4.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_172'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.25"
+      },
+      "Content": {
+        "ObjectName": "Btn_01_C'Panel_HeroSelect_C:WidgetTree.Button_Change'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.1"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_208'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.26"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": -6.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_208'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.26"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_HeroSelect_C:WidgetTree.CBImage_257'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.38"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_208'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.26"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_208'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.26"
+      },
+      "Content": {
+        "ObjectName": "CBSpacer'Panel_HeroSelect_C:WidgetTree.CBSpacer'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.47"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_208'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.26"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Top": 1.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_208'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.26"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_HeroSelect_C:WidgetTree.TextBlock_184'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.53"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_208'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.26"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 10.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_208'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.26"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_HeroSelect_C:WidgetTree.TextBlock_Power'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.58"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "bg",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.95,
+            "Hex": "F3FFFFFF"
+          }
+        },
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_glow'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_glow.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil.CBCanvasPanelSlot_12'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.10"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.099899,
+            "G": 0.116971,
+            "B": 0.152926,
+            "A": 1.0,
+            "Hex": "59606D"
+          }
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_i_stat_B_MaxHp'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_i_stat_B_MaxHp.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.27"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_257",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.099899,
+            "G": 0.116971,
+            "B": 0.152926,
+            "A": 1.0,
+            "Hex": "59606D"
+          }
+        },
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_i_stat_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_i_stat_1.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_208.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.32"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Slot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common2_title_icon_hero'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common2/Frames/common2_title_icon_hero.0"
+        }
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "line_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.021594,
+            "G": 0.034558,
+            "B": 0.057292,
+            "A": 0.35,
+            "Hex": "59283443"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 16.0
+        },
+        "Margin": {
+          "Left": 0.1,
+          "Right": 0.1
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HUD_bg_gra_l'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HUD/Frames/HUD_bg_gra_l.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.9"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": -1.0,
+          "Y": 1.0
+        }
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBScrollBoxSlot",
+    "Name": "CBScrollBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScrollBoxSlot'",
+    "Outer": {
+      "ObjectName": "EScrollBox'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.51"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 3.0
+      },
+      "Parent": {
+        "ObjectName": "EScrollBox'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.51"
+      },
+      "Content": {
+        "ObjectName": "HeroInfo_Stat_Slot_C'Panel_HeroSelect_C:WidgetTree.HeroInfo_Stat_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.71"
+      }
+    }
+  },
+  {
+    "Type": "CBScrollBoxSlot",
+    "Name": "CBScrollBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScrollBoxSlot'",
+    "Outer": {
+      "ObjectName": "EScrollBox'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.51"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 3.0
+      },
+      "Parent": {
+        "ObjectName": "EScrollBox'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.51"
+      },
+      "Content": {
+        "ObjectName": "HeroInfo_Stat_Slot_C'Panel_HeroSelect_C:WidgetTree.HeroInfo_Stat_Slot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.72"
+      }
+    }
+  },
+  {
+    "Type": "CBScrollBoxSlot",
+    "Name": "CBScrollBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScrollBoxSlot'",
+    "Outer": {
+      "ObjectName": "EScrollBox'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.51"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 3.0
+      },
+      "Parent": {
+        "ObjectName": "EScrollBox'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.51"
+      },
+      "Content": {
+        "ObjectName": "HeroInfo_Stat_Slot_C'Panel_HeroSelect_C:WidgetTree.HeroInfo_Stat_Slot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.73"
+      }
+    }
+  },
+  {
+    "Type": "CBScrollBoxSlot",
+    "Name": "CBScrollBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScrollBoxSlot'",
+    "Outer": {
+      "ObjectName": "EScrollBox'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.51"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 3.0
+      },
+      "Parent": {
+        "ObjectName": "EScrollBox'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.51"
+      },
+      "Content": {
+        "ObjectName": "HeroInfo_Stat_Slot_C'Panel_HeroSelect_C:WidgetTree.HeroInfo_Stat_Slot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.74"
+      }
+    }
+  },
+  {
+    "Type": "CBScrollBoxSlot",
+    "Name": "CBScrollBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScrollBoxSlot'",
+    "Outer": {
+      "ObjectName": "EScrollBox'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.51"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 3.0
+      },
+      "Parent": {
+        "ObjectName": "EScrollBox'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.51"
+      },
+      "Content": {
+        "ObjectName": "HeroInfo_Stat_Slot_C'Panel_HeroSelect_C:WidgetTree.HeroInfo_Stat_Slot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.75"
+      }
+    }
+  },
+  {
+    "Type": "CBScrollBoxSlot",
+    "Name": "CBScrollBoxSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScrollBoxSlot'",
+    "Outer": {
+      "ObjectName": "EScrollBox'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.51"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 3.0
+      },
+      "Parent": {
+        "ObjectName": "EScrollBox'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.51"
+      },
+      "Content": {
+        "ObjectName": "HeroInfo_Stat_Slot_C'Panel_HeroSelect_C:WidgetTree.HeroInfo_Stat_Slot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.76"
+      }
+    }
+  },
+  {
+    "Type": "CBSpacer",
+    "Name": "CBSpacer",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSpacer'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_208.CBHorizontalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.33"
+      }
+    }
+  },
+  {
+    "Type": "CBSpacer",
+    "Name": "CBSpacer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSpacer'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox.CBHorizontalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.28"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.108"
+    },
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "Button_Change",
+          "DelegatePropertyName": "OnSlotPressed",
+          "FunctionNameToBind": "BndEvt__Panel_HeroSelect_Button_Change_K2Node_ComponentBoundEvent_1_OnSlotPressed__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "Button_Return",
+          "DelegatePropertyName": "OnSlotPressed",
+          "FunctionNameToBind": "BndEvt__Panel_HeroSelect_Btn_Close_K2Node_ComponentBoundEvent_0_OnSlotPressed__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EnhancedInputActionDelegateBinding",
+    "Name": "EnhancedInputActionDelegateBinding_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnhancedInputActionDelegateBinding'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.108"
+    },
+    "Properties": {
+      "InputActionDelegateBindings": [
+        {
+          "InputAction": {
+            "ObjectName": "InputAction'IA_UICancel'",
+            "ObjectPath": "SevenDeadlySins/Content/Input/InputActions/IA_UICancel.0"
+          },
+          "TriggerEvent": "ETriggerEvent::Started",
+          "FunctionNameToBind": "InpActEvt_IA_UICancel_K2Node_EnhancedInputActionEvent_0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EScrollBox",
+    "Name": "ScrollBox_Abil",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EScrollBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "ChildWidgetClass": {
+        "AssetPathName": "/Game/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.HeroInfo_Stat_Slot_C",
+        "SubPathString": ""
+      },
+      "ChildPresenterName": "ACPT::Ability_Slot",
+      "SlotData": {
+        "Padding": {
+          "Bottom": 10.0
+        },
+        "bHorizontalAlignment": true,
+        "bPadding": true
+      },
+      "ScrollBarVisibility": "ESlateVisibility::Collapsed",
+      "Slots": [
+        {
+          "ObjectName": "CBScrollBoxSlot'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil.CBScrollBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.41"
+        },
+        {
+          "ObjectName": "CBScrollBoxSlot'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil.CBScrollBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.42"
+        },
+        {
+          "ObjectName": "CBScrollBoxSlot'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil.CBScrollBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.43"
+        },
+        {
+          "ObjectName": "CBScrollBoxSlot'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil.CBScrollBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.44"
+        },
+        {
+          "ObjectName": "CBScrollBoxSlot'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil.CBScrollBoxSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.45"
+        },
+        {
+          "ObjectName": "CBScrollBoxSlot'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil.CBScrollBoxSlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.46"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil.CBCanvasPanelSlot_14'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.11"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_120",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "B738299B495CF784977F08AE563A3C11",
+        "SourceString": "ui_team_change_info_001",
+        "LocalizedString": "ui_team_change_info_001"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 14.0
+      },
+      "Slot": {
+        "ObjectName": "CBButtonSlot'Panel_HeroSelect_C:WidgetTree.Button_Detail.CBButtonSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.4"
+      },
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_184",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "B398FC5F4444FA8A8FB7248250C8CC5C",
+        "SourceString": "UI_ManageHeroes_Text_BattleScore",
+        "LocalizedString": "UI_ManageHeroes_Text_BattleScore"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.351533,
+          "G": 0.53948,
+          "B": 0.730461,
+          "A": 1.0,
+          "Hex": "A0C2DE"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 16.0
+      },
+      "StrikeBrush": {
+        "DrawAs": "ESlateBrushDrawType::Image"
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_208.CBHorizontalBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.34"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_HeroGrade",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "14426CFD46318B8441E10B880375E098",
+        "SourceString": "취옥 영웅",
+        "LocalizedString": "취옥 영웅"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.181164,
+          "G": 0.191202,
+          "B": 0.223228,
+          "A": 1.0,
+          "Hex": "767982"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.25,
+            "Hex": "3FFFFFFF"
+          }
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 16.0
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil.CBCanvasPanelSlot_9'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.16"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_HeroName",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.028426,
+          "G": 0.039546,
+          "B": 0.064803,
+          "A": 1.0,
+          "Hex": "2F3848"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.25,
+            "Hex": "3FFFFFFF"
+          }
+        },
+        "TypefaceFontName": "Font_EB",
+        "Size": 40.0
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil.CBCanvasPanelSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.15"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_HeroSubName",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "EFE58AD04EAAD6800FC86EB2923C0887",
+        "SourceString": "<돼지의 모자> 주점",
+        "LocalizedString": "<돼지의 모자> 주점"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.514918,
+          "G": 0.428691,
+          "B": 0.428691,
+          "A": 1.0,
+          "Hex": "BEAFAF"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 16.0
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HeroSelect_C:WidgetTree.CanvasPanel_Abil.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.13"
+      },
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_Hp",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "UseLocalization": false,
+      "Text": {
+        "Namespace": "",
+        "Key": "997CDA594FFC60B028585DA34CF3A770",
+        "SourceString": "123,123",
+        "LocalizedString": "123,123"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.099899,
+          "G": 0.116971,
+          "B": 0.152926,
+          "A": 1.0,
+          "Hex": "59606D"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.25,
+            "Hex": "3F000000"
+          }
+        },
+        "TypefaceFontName": "Font_Power",
+        "Size": 28.0
+      },
+      "StrikeBrush": {
+        "DrawAs": "ESlateBrushDrawType::Image"
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox.CBHorizontalBoxSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.29"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -5.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_Power",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Properties": {
+      "UseLocalization": false,
+      "Text": {
+        "Namespace": "",
+        "Key": "97A5C49B461140D0545980A1C801F7B4",
+        "SourceString": "123,123",
+        "LocalizedString": "123,123"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.099899,
+          "G": 0.116971,
+          "B": 0.152926,
+          "A": 1.0,
+          "Hex": "59606D"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.25,
+            "Hex": "3F000000"
+          }
+        },
+        "TypefaceFontName": "Font_Power",
+        "Size": 28.0
+      },
+      "StrikeBrush": {
+        "DrawAs": "ESlateBrushDrawType::Image"
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_HeroSelect_C:WidgetTree.CBHorizontalBox_208.CBHorizontalBoxSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.35"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -5.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Panel_HeroSelect_Btn_Close_K2Node_ComponentBoundEvent_0_OnSlotPressed__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.108"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "pressedSlot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'EWidgetSlot'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Panel_HeroSelect_Button_Change_K2Node_ComponentBoundEvent_1_OnSlotPressed__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.108"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "pressedSlot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'EWidgetSlot'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.108"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Panel_HeroSelect",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.108"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_pressedSlot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'EWidgetSlot'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_EnhancedInputActionEvent_ActionValue",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'InputActionValue'",
+          "ObjectPath": "/Script/EnhancedInput"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_EnhancedInputActionEvent_ElapsedTime",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_EnhancedInputActionEvent_TriggeredTime",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_EnhancedInputActionEvent_SourceAction",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "ConstParm",
+        "PropertyClass": {
+          "ObjectName": "Class'InputAction'",
+          "ObjectPath": "/Script/EnhancedInput"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnPanelHeroSelect_EventKey__DelegateSignature'",
+          "ObjectPath": "/Script/ACUMGModule"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Conv_InputActionValueToBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'InputAction'",
+          "ObjectPath": "/Script/EnhancedInput"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Temp_real_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Temp_real_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Temp_real_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Temp_real_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_CustomEvent_eventKey",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'EPanelHeroSelect_EventKey'",
+          "ObjectPath": "/Script/ACUMGModule"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_pressedSlot_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'EWidgetSlot'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_OGIsInteractableWidget_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "InpActEvt_IA_UICancel_K2Node_EnhancedInputActionEvent_0",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.108"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "ActionValue",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'InputActionValue'",
+          "ObjectPath": "/Script/EnhancedInput"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "ElapsedTime",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "TriggeredTime",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SourceAction",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'InputAction'",
+          "ObjectPath": "/Script/EnhancedInput"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnClickChangeButton__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.108"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEventMessage_이벤트_0",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.108"
+    },
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "eventKey",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Enum'EPanelHeroSelect_EventKey'",
+          "ObjectPath": "/Script/ACUMGModule"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnHide",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.108"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInitialized",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.108"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:OnInitialized'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnShow",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.108"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "CallFunc_Get_HeroActor_SelectedHeroGUID_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "RecvEventMessage",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.108"
+    },
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "EventKey",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Enum'EPanelHeroSelect_EventKey'",
+          "ObjectPath": "/Script/ACUMGModule"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayAnimation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'UMGSequencePlayer'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateHeroInfo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.108"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "CallFunc_Get_HeroActor_SelectedHeroGUID_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_MakeLiteralString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "Int64Property",
+        "Name": "CallFunc_Get_HeroActor_MaxHp_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "Int64Property",
+        "Name": "CallFunc_Get_HeroActor_Power_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_Int64ToText_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_Int64ToText_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_Get_HeroTidFromGUID_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetHeroActorTable_HeroGrade_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetHeroActorTable_HeroName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_IntToString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetLocalStr_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_StringToText_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetLocalStr_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_StringToText_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "HeroInfo_Stat_Slot_C",
+    "Name": "HeroInfo_Stat_Slot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.HeroInfo_Stat_Slot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Template": {
+      "ObjectName": "HeroInfo_Stat_Slot_C'Default__HeroInfo_Stat_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.32"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBScrollBoxSlot'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil.CBScrollBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.41"
+      }
+    }
+  },
+  {
+    "Type": "HeroInfo_Stat_Slot_C",
+    "Name": "HeroInfo_Stat_Slot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.HeroInfo_Stat_Slot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Template": {
+      "ObjectName": "HeroInfo_Stat_Slot_C'Default__HeroInfo_Stat_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.32"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBScrollBoxSlot'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil.CBScrollBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.42"
+      }
+    }
+  },
+  {
+    "Type": "HeroInfo_Stat_Slot_C",
+    "Name": "HeroInfo_Stat_Slot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.HeroInfo_Stat_Slot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Template": {
+      "ObjectName": "HeroInfo_Stat_Slot_C'Default__HeroInfo_Stat_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.32"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBScrollBoxSlot'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil.CBScrollBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.43"
+      }
+    }
+  },
+  {
+    "Type": "HeroInfo_Stat_Slot_C",
+    "Name": "HeroInfo_Stat_Slot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.HeroInfo_Stat_Slot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Template": {
+      "ObjectName": "HeroInfo_Stat_Slot_C'Default__HeroInfo_Stat_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.32"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBScrollBoxSlot'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil.CBScrollBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.44"
+      }
+    }
+  },
+  {
+    "Type": "HeroInfo_Stat_Slot_C",
+    "Name": "HeroInfo_Stat_Slot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.HeroInfo_Stat_Slot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Template": {
+      "ObjectName": "HeroInfo_Stat_Slot_C'Default__HeroInfo_Stat_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.32"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBScrollBoxSlot'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil.CBScrollBoxSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.45"
+      }
+    }
+  },
+  {
+    "Type": "HeroInfo_Stat_Slot_C",
+    "Name": "HeroInfo_Stat_Slot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.HeroInfo_Stat_Slot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Template": {
+      "ObjectName": "HeroInfo_Stat_Slot_C'Default__HeroInfo_Stat_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.32"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBScrollBoxSlot'Panel_HeroSelect_C:WidgetTree.ScrollBox_Abil.CBScrollBoxSlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.46"
+      }
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_ChangeHero",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_HeroSelect_C:Anim_ChangeHero_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.105"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "069DDE06-4F12F657-D438D492-9F630909",
+          "Name": "CanvasPanel_Abil",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "069DDE06-4F12F657-D438D492-9F630909",
+          "BindingName": "CanvasPanel_Abil",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.100"
+            },
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.82"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 18001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "49744083-4248D398-32D08DA5-B65E4F56"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Show",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_HeroSelect_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.106"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "63CEDD21-4E9A62F3-5ECB52B1-A492AA38",
+          "Name": "CanvasPanel_Abil",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "EE0013B3-4B3E2697-B1A38C9F-8443E6F1",
+          "Name": "CBHorizontalBox_172",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "63CEDD21-4E9A62F3-5ECB52B1-A492AA38",
+          "BindingName": "CanvasPanel_Abil",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.101"
+            },
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.83"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "EE0013B3-4B3E2697-B1A38C9F-8443E6F1",
+          "BindingName": "CBHorizontalBox_172",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.102"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 27001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "ClockSource": "EUpdateClockSource::Audio",
+      "Signature": "59B049EF-49861D4C-A1FEFDA1-08C73014"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "NewAnimation",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_HeroSelect_C:NewAnimation_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.107"
+    },
+    "Properties": {
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 300001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "09189879-46B8DFAB-37D1A99D-4942D64E"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.82"
+    },
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 18000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 15.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Translation[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 18000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.84"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.85"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 18000
+            }
+          }
+        }
+      },
+      "Signature": "9142BC3E-42784E5B-889BB990-128AF87C"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.83"
+    },
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 6000
+          },
+          {
+            "Value": 27000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 30.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 30.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.88"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.89"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 27000
+            }
+          }
+        }
+      },
+      "Signature": "FD466C74-45FE8017-5D3F1EA5-89DC4111"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.77"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.80"
+        }
+      ],
+      "EvaluationFieldGuid": "3D8F6F42-4AE6102A-86661294-7312D868",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.80"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 18000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "3D8F6F42-4AE6102A-86661294-7312D868"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.78"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.81"
+        }
+      ],
+      "EvaluationFieldGuid": "D26D1ED8-4EC32234-C1B821B7-185C6F43",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.81"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 27000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "D26D1ED8-4EC32234-C1B821B7-185C6F43"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.80"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.80"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.97"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.97"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.81"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.81"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.98"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.98"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.99"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.99"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_HeroSelect_C:Anim_ChangeHero_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.105"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 18000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.97"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.80"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "069DDE06-4F12F657-D438D492-9F630909"
+          },
+          {
+            "ObjectBindingID": "069DDE06-4F12F657-D438D492-9F630909"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 18000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "FF27A7EB-4AE1B917-B1ECC785-2AF4C8BB",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_HeroSelect_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.106"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 3,
+                  "Capacity": 3
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 27000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.98"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.81"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.99"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "63CEDD21-4E9A62F3-5ECB52B1-A492AA38"
+          },
+          {
+            "ObjectBindingID": "63CEDD21-4E9A62F3-5ECB52B1-A492AA38"
+          },
+          {
+            "ObjectBindingID": "EE0013B3-4B3E2697-B1A38C9F-8443E6F1"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 27000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "47ED933C-4710775F-DC55F6B7-AC15DF03",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_HeroSelect_C:NewAnimation_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.107"
+    },
+    "Properties": {
+      "CompiledSignature": "418DD9D7-4306339B-653C03B2-C311C8A6",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.100"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 18000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.5,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.86"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.87"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 18000
+            }
+          }
+        }
+      },
+      "Signature": "4AF9F4DA-479ADB3E-15713AB3-F256FE71"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.101"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 6000
+          },
+          {
+            "Value": 27000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.90"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.91"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 27000
+            }
+          }
+        }
+      },
+      "Signature": "03E108F5-43BD95A7-F5164495-C4A04BBF"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.102"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 6000
+          },
+          {
+            "Value": 27000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.92"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.93"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 27000
+            }
+          }
+        }
+      },
+      "Signature": "6C3D5FD9-48D62801-16618BB9-E9EC8A5F"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.77"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.97"
+        }
+      ],
+      "EvaluationFieldGuid": "729B8055-4E9B2A50-3E1BE596-3F3EB08D",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.97"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 18000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "729B8055-4E9B2A50-3E1BE596-3F3EB08D"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.78"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.98"
+        }
+      ],
+      "EvaluationFieldGuid": "78530B22-441232FB-7A4D7D9C-7E2AFE8D",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.98"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 27000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "78530B22-441232FB-7A4D7D9C-7E2AFE8D"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.78"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.99"
+        }
+      ],
+      "EvaluationFieldGuid": "0196311E-4B5DEDB3-A459FFBA-E3BF4771",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.99"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 27000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "0196311E-4B5DEDB3-A459FFBA-E3BF4771"
+    }
+  },
+  {
+    "Type": "Panel_HeroSelect_C",
+    "Name": "Default__Panel_HeroSelect_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.Panel_HeroSelect_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect",
+    "Properties": {
+      "UberGraphFrame": {},
+      "OnClickChangeButton": {
+        "InvocationList": []
+      },
+      "SoundMix": {
+        "ObjectName": "SoundMix'ui_panel_soundmix'",
+        "ObjectPath": "SevenDeadlySins/Content/Sounds/system/soundmix/ui_panel_soundmix.0"
+      },
+      "bAutomaticallyRegisterInputOnConstruction": true,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "Widget_HeroList_C",
+    "Name": "Widget_HeroList",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroList.Widget_HeroList_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+    },
+    "Template": {
+      "ObjectName": "Widget_HeroList_C'Default__Widget_HeroList_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroList.1"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_ChangeHero_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.108"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Panel_HeroSelect_C:Anim_ChangeHero_INST.Anim_ChangeHero'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.77"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CanvasPanel_Abil",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "069DDE06-4F12F657-D438D492-9F630909",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_ChangeHero",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Panel_HeroSelect_C:Anim_ChangeHero_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.94"
+      },
+      "Signature": "FF27A7EB-4AE1B917-B1ECC785-2AF4C8BB"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Show_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.108"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Panel_HeroSelect_C:Anim_Show_INST.Anim_Show'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.78"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CanvasPanel_Abil",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "63CEDD21-4E9A62F3-5ECB52B1-A492AA38",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "CBHorizontalBox_172",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "EE0013B3-4B3E2697-B1A38C9F-8443E6F1",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Show",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Panel_HeroSelect_C:Anim_Show_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.95"
+      },
+      "Signature": "47ED933C-4710775F-DC55F6B7-AC15DF03"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "NewAnimation_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.108"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Panel_HeroSelect_C:NewAnimation_INST.NewAnimation'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.79"
+      },
+      "DisplayLabel": "NewAnimation",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Panel_HeroSelect_C:NewAnimation_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.96"
+      },
+      "Signature": "418DD9D7-4306339B-653C03B2-C311C8A6"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Panel_HeroSelect_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Panel_HeroSelect_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.109"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'Panel_HeroSelect_C:Anim_Show_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.106"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Panel_HeroSelect_C:Anim_ChangeHero_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.105"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Panel_HeroSelect_C:NewAnimation_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.107"
+        }
+      ],
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'Panel_HeroSelect_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.49"
+        },
+        {
+          "ObjectName": "EnhancedInputActionDelegateBinding'Panel_HeroSelect_C:EnhancedInputActionDelegateBinding_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.50"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'Panel_HeroSelect_C:ExecuteUbergraph_Panel_HeroSelect'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.62"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EPanel_HeroSelect'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Panel_HeroSelect_C:OnHide'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.66"
+      },
+      {
+        "ObjectName": "Function'Panel_HeroSelect_C:UpdateHeroInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.70"
+      },
+      {
+        "ObjectName": "Function'Panel_HeroSelect_C:OnShow'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.68"
+      },
+      {
+        "ObjectName": "Function'Panel_HeroSelect_C:RecvEventMessage'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.69"
+      },
+      {
+        "ObjectName": "Function'Panel_HeroSelect_C:InpActEvt_IA_UICancel_K2Node_EnhancedInputActionEvent_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.63"
+      },
+      {
+        "ObjectName": "Function'Panel_HeroSelect_C:Construct'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.61"
+      },
+      {
+        "ObjectName": "Function'Panel_HeroSelect_C:OnInitialized'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.67"
+      },
+      {
+        "ObjectName": "Function'Panel_HeroSelect_C:OnEventMessage_이벤트_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.65"
+      },
+      {
+        "ObjectName": "Function'Panel_HeroSelect_C:BndEvt__Panel_HeroSelect_Btn_Close_K2Node_ComponentBoundEvent_0_OnSlotPressed__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.59"
+      },
+      {
+        "ObjectName": "Function'Panel_HeroSelect_C:BndEvt__Panel_HeroSelect_Button_Change_K2Node_ComponentBoundEvent_1_OnSlotPressed__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.60"
+      },
+      {
+        "ObjectName": "Function'Panel_HeroSelect_C:ExecuteUbergraph_Panel_HeroSelect'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.62"
+      },
+      {
+        "ObjectName": "Function'Panel_HeroSelect_C:OnClickChangeButton__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.64"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "NewAnimation",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_ChangeHero",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Base_Title_01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'Base_Title_01_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Base_Title_01.79"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_Change",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'Btn_01_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.70"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_Return",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'Btn_Close_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Close.27"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBImage",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBImage_257",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HeroInfo_Stat_Slot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'HeroInfo_Stat_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.33"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HeroInfo_Stat_Slot_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'HeroInfo_Stat_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.33"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HeroInfo_Stat_Slot_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'HeroInfo_Stat_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.33"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HeroInfo_Stat_Slot_3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'HeroInfo_Stat_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.33"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HeroInfo_Stat_Slot_4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'HeroInfo_Stat_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.33"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HeroInfo_Stat_Slot_5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'HeroInfo_Stat_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo_Stat_Slot.33"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TextBlock_HeroGrade",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'ETextBlock'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TextBlock_HeroName",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'ETextBlock'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TextBlock_Hp",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'ETextBlock'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TextBlock_Power",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'ETextBlock'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Widget_HeroList",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'Widget_HeroList_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroList.2"
+        }
+      },
+      {
+        "Type": "Int64Property",
+        "Name": "HeroGUID",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnClickChangeButton",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 24,
+        "PropertyFlags": "Edit | BlueprintVisible | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'Panel_HeroSelect_C:OnClickChangeButton__DelegateSignature'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.64"
+        }
+      }
+    ],
+    "FuncMap": {
+      "OnClickChangeButton__DelegateSignature": {
+        "ObjectName": "Function'Panel_HeroSelect_C:OnClickChangeButton__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.64"
+      },
+      "ExecuteUbergraph_Panel_HeroSelect": {
+        "ObjectName": "Function'Panel_HeroSelect_C:ExecuteUbergraph_Panel_HeroSelect'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.62"
+      },
+      "BndEvt__Panel_HeroSelect_Button_Change_K2Node_ComponentBoundEvent_1_OnSlotPressed__DelegateSignature": {
+        "ObjectName": "Function'Panel_HeroSelect_C:BndEvt__Panel_HeroSelect_Button_Change_K2Node_ComponentBoundEvent_1_OnSlotPressed__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.60"
+      },
+      "BndEvt__Panel_HeroSelect_Btn_Close_K2Node_ComponentBoundEvent_0_OnSlotPressed__DelegateSignature": {
+        "ObjectName": "Function'Panel_HeroSelect_C:BndEvt__Panel_HeroSelect_Btn_Close_K2Node_ComponentBoundEvent_0_OnSlotPressed__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.59"
+      },
+      "OnEventMessage_이벤트_0": {
+        "ObjectName": "Function'Panel_HeroSelect_C:OnEventMessage_이벤트_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.65"
+      },
+      "OnInitialized": {
+        "ObjectName": "Function'Panel_HeroSelect_C:OnInitialized'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.67"
+      },
+      "Construct": {
+        "ObjectName": "Function'Panel_HeroSelect_C:Construct'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.61"
+      },
+      "InpActEvt_IA_UICancel_K2Node_EnhancedInputActionEvent_0": {
+        "ObjectName": "Function'Panel_HeroSelect_C:InpActEvt_IA_UICancel_K2Node_EnhancedInputActionEvent_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.63"
+      },
+      "RecvEventMessage": {
+        "ObjectName": "Function'Panel_HeroSelect_C:RecvEventMessage'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.69"
+      },
+      "OnShow": {
+        "ObjectName": "Function'Panel_HeroSelect_C:OnShow'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.68"
+      },
+      "UpdateHeroInfo": {
+        "ObjectName": "Function'Panel_HeroSelect_C:UpdateHeroInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.70"
+      },
+      "OnHide": {
+        "ObjectName": "Function'Panel_HeroSelect_C:OnHide'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.66"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Panel_HeroSelect_C'Default__Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.103"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HeroSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.108"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'Panel_HeroSelect_C:WidgetTree.CBCanvasPanel_122'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Panel_HeroSelect.6"
+      }
+    }
+  }
+]

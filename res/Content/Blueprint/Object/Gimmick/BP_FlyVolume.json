@@ -1,0 +1,886 @@
+[
+  {
+    "Type": "ArrowComponent",
+    "Name": "Arrow_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrowComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlyVolume_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.2"
+    },
+    "Properties": {
+      "ArrowSize": 3.0,
+      "ArrowLength": 160.0,
+      "ScreenSize": 0.0125,
+      "bIsScreenSizeScaled": true,
+      "RelativeLocation": {
+        "X": -3.330669E-14,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 180.0,
+        "Roll": 90.0
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "object_flyvolume_cue_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlyVolume_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.2"
+    },
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundCue'object_flyvolume_cue'",
+        "ObjectPath": "SevenDeadlySins/Content/Sounds/sfx/object/flyvolume/object_flyvolume_cue.0"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FlyVolume_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_FlyVolume_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.18"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_FlyVolume_C:ExecuteUbergraph_BP_FlyVolume'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_FlyVolume_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.8"
+      },
+      {
+        "ObjectName": "Function'BP_FlyVolume_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.9"
+      },
+      {
+        "ObjectName": "Function'BP_FlyVolume_C:ExecuteUbergraph_BP_FlyVolume'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.7"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "object_flyvolume_cue",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AudioComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Arrow",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ArrowComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ENiagara",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ENiagaraComponent'",
+          "ObjectPath": "/Script/ACActorModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "EActorObjectOverlapInteraction",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'EActorObjectOverlapInteractionComponent'",
+          "ObjectPath": "/Script/ACActorModule"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_FlyVolume": {
+        "ObjectName": "Function'BP_FlyVolume_C:ExecuteUbergraph_BP_FlyVolume'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.7"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BP_FlyVolume_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.9"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_FlyVolume_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.8"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FlyVolume_C'Default__BP_FlyVolume_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlyVolume_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.2"
+    },
+    "Properties": {
+      "BoxExtent": {
+        "X": 400.0,
+        "Y": 400.0,
+        "Z": 3000.0
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel17",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Trigger",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapObject",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1390.0
+      }
+    }
+  },
+  {
+    "Type": "BP_FlyVolume_C",
+    "Name": "Default__BP_FlyVolume_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.BP_FlyVolume_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume",
+    "Properties": {
+      "UberGraphFrame": {},
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_FlyVolume_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.11"
+      },
+      "PrimaryActorTick": {
+        "bCanEverTick": true
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_FlyVolume_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.11"
+      }
+    }
+  },
+  {
+    "Type": "EActorObjectOverlapInteractionComponent",
+    "Name": "EActorObjectOverlapInteraction_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EActorObjectOverlapInteractionComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlyVolume_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.2"
+    },
+    "Properties": {
+      "MoveModeBit": 99
+    }
+  },
+  {
+    "Type": "ENiagaraComponent",
+    "Name": "ENiagara_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ENiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlyVolume_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.2"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_ns_rising_wind_01'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/Cha/PC/PC_Howzer/Common/Adventure_Skill/fx_ns_rising_wind_01.32"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "LifeTime",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.LifeTime",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "MeshSize",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector3f'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.MeshSize",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector3f'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "radius",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.radius",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "spawn",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.spawn",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "WindSpeed",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.WindSpeed",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.LifeTime",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.MeshSize",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector3f'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 16,
+            "Name": "User.radius",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 20,
+            "Name": "User.Scale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 24,
+            "Name": "User.spawn",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 28,
+            "Name": "User.WindSpeed",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          64,
+          64,
+          0,
+          0,
+          64,
+          64,
+          0,
+          0,
+          64,
+          64,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          128,
+          63
+        ]
+      },
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 2.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_FlyVolume",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlyVolume_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.2"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetForwardVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetForwardVector_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlyVolume_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.2"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlyVolume_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.2"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlyVolume_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.2"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlyVolume_C'Default__BP_FlyVolume_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlyVolume_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_FlyVolume_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.10"
+      },
+      "VariableGUID": "294D7147-42A6A327-B0FFDCAC-E7832A1B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlyVolume_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_FlyVolume_C:Box_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.3"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "0F866D8C-4F69D076-5E9010A9-7D21901E",
+      "InternalVariableName": "Box"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlyVolume_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'EActorObjectOverlapInteractionComponent'",
+        "ObjectPath": "/Script/ACActorModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "EActorObjectOverlapInteractionComponent'BP_FlyVolume_C:EActorObjectOverlapInteraction_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.5"
+      },
+      "VariableGUID": "D4746CCF-48ACB329-AEC272AE-733D350A",
+      "InternalVariableName": "EActorObjectOverlapInteraction"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlyVolume_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ArrowComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ArrowComponent'BP_FlyVolume_C:Arrow_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.0"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "474A365C-4E65B42D-D7958B89-05B53D08",
+      "InternalVariableName": "Arrow"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlyVolume_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ENiagaraComponent'",
+        "ObjectPath": "/Script/ACActorModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ENiagaraComponent'BP_FlyVolume_C:ENiagara_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.6"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "E8ECC7F6-4DE29566-FA98D593-92AFA63A",
+      "InternalVariableName": "ENiagara"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlyVolume_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AudioComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AudioComponent'BP_FlyVolume_C:object_flyvolume_cue_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.1"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "930FBE6B-4172D427-1C662F9D-208E4158",
+      "InternalVariableName": "object_flyvolume_cue"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlyVolume_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FlyVolume_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlyVolume_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlyVolume_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlyVolume_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlyVolume_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.17"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FlyVolume_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlyVolume_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlyVolume_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlyVolume_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlyVolume_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.17"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_FlyVolume_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_FlyVolume.12"
+      }
+    }
+  }
+]

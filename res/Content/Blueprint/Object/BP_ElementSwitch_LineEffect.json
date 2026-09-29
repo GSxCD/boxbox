@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ElementSwitch_LineEffect_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementSwitch_LineEffect",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ElementSwitch_LineEffect_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementSwitch_LineEffect.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_SplineEffect'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ElementSwitch_LineEffect_C'Default__BP_ElementSwitch_LineEffect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementSwitch_LineEffect.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_ElementSwitch_LineEffect_C",
+    "Name": "Default__BP_ElementSwitch_LineEffect_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/BP_ElementSwitch_LineEffect.BP_ElementSwitch_LineEffect_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementSwitch_LineEffect",
+    "Properties": {
+      "SplineComponent": {
+        "ObjectName": "SplineComponent'Default__BP_ElementSwitch_LineEffect_C:SplineComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementSwitch_LineEffect.6"
+      },
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'Default__BP_ElementSwitch_LineEffect_C:NiagaraComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementSwitch_LineEffect.2"
+      },
+      "RootComponent": {
+        "ObjectName": "SplineComponent'Default__BP_ElementSwitch_LineEffect_C:SplineComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementSwitch_LineEffect.6"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElementSwitch_LineEffect_C'Default__BP_ElementSwitch_LineEffect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementSwitch_LineEffect.1"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SplineComponent'Default__BP_ElementSwitch_LineEffect_C:SplineComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementSwitch_LineEffect.6"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElementSwitch_LineEffect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementSwitch_LineEffect.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ElementSwitch_LineEffect_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementSwitch_LineEffect.5"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ElementSwitch_LineEffect_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementSwitch_LineEffect.3"
+      },
+      "VariableGUID": "7A64A82C-4BFD0686-7EDB0CAD-4C6B7A8C",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElementSwitch_LineEffect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementSwitch_LineEffect.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ElementSwitch_LineEffect_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementSwitch_LineEffect.4"
+      }
+    }
+  },
+  {
+    "Type": "SplineComponent",
+    "Name": "SplineComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SplineComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElementSwitch_LineEffect_C'Default__BP_ElementSwitch_LineEffect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementSwitch_LineEffect.1"
+    }
+  }
+]

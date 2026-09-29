@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_SplineBaseImg",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "SevenDeadlySins/Content/UI/UI_Material/MI_SplineBaseImg",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_SplineBase_Mat'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_Material/M_SplineBase_Mat.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Texture",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'UVEditorColorGrid_Data'",
+            "ObjectPath": "Engine/Plugins/Editor/UVEditor/Content/Textures/UVEditorColorGrid_Data.0"
+          },
+          "ExpressionGUID": "07EEE53B-442C69F4-BAECD78C-AE950191"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bBlendWithWaterSurfaceOpacity": true,
+        "bIsCorrectWaterEnabled": true,
+        "bRenderCustomStencil": true,
+        "BlendMode": "EBlendMode::BLEND_TranslucentGreyTransmittance",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

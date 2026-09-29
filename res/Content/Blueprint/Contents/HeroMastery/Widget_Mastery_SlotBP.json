@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Widget_Mastery_SlotBP",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_Mastery_SlotBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Mastery_SlotBP.3"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_ListItemObject",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnListItemObjectSet",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_Mastery_SlotBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Mastery_SlotBP.3"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserObjectListEntry:OnListItemObjectSet'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ListItemObject",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Widget_Mastery_SlotBP_C",
+    "Name": "Default__Widget_Mastery_SlotBP_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Mastery_SlotBP.Widget_Mastery_SlotBP_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Mastery_SlotBP",
+    "Properties": {
+      "UberGraphFrame": {},
+      "PressSoundTid": {
+        "Tid": "2000000"
+      },
+      "HoverSoundTid": {
+        "Tid": "2000115"
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Widget_Mastery_SlotBP_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Mastery_SlotBP",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Widget_Mastery_SlotBP_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Mastery_SlotBP.4"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function'Widget_Mastery_SlotBP_C:ExecuteUbergraph_Widget_Mastery_SlotBP'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Mastery_SlotBP.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWeaponMastery_Slot'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Widget_Mastery_SlotBP_C:OnListItemObjectSet'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Mastery_SlotBP.1"
+      },
+      {
+        "ObjectName": "Function'Widget_Mastery_SlotBP_C:ExecuteUbergraph_Widget_Mastery_SlotBP'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Mastery_SlotBP.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Widget_Mastery_SlotBP": {
+        "ObjectName": "Function'Widget_Mastery_SlotBP_C:ExecuteUbergraph_Widget_Mastery_SlotBP'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Mastery_SlotBP.0"
+      },
+      "OnListItemObjectSet": {
+        "ObjectName": "Function'Widget_Mastery_SlotBP_C:OnListItemObjectSet'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Mastery_SlotBP.1"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Widget_Mastery_SlotBP_C'Default__Widget_Mastery_SlotBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Mastery_SlotBP.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_Mastery_SlotBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Mastery_SlotBP.3"
+    }
+  }
+]

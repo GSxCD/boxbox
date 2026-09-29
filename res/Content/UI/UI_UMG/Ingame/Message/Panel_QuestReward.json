@@ -1,0 +1,3558 @@
+[
+  {
+    "Type": "ACMovieSceneSoundTidSection",
+    "Name": "ACMovieSceneSoundTidSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidSection'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidTrack'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.1"
+    },
+    "Properties": {
+      "soundTid": {
+        "Tid": "2000295"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'ui_ingame_quest_reward_cue'",
+        "ObjectPath": "SevenDeadlySins/Content/Sounds/ui/ingame/ui_ingame_quest_reward_cue.0"
+      },
+      "bKeepPlayingUntilEnd": true,
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.31"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.32"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 30000
+            }
+          }
+        }
+      },
+      "Signature": "E500679C-43750135-7D7A65B8-8F842E11"
+    }
+  },
+  {
+    "Type": "ACMovieSceneSoundTidTrack",
+    "Name": "ACMovieSceneSoundTidTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_QuestReward_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.16"
+    },
+    "Properties": {
+      "AudioSections": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.0"
+        }
+      ],
+      "EvaluationFieldGuid": "B957F0ED-459E0272-EA523084-3BEC841C",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "ACMovieSceneSoundTidSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.0"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "B957F0ED-459E0272-EA523084-3BEC841C"
+    }
+  },
+  {
+    "Type": "CBBorderSlot",
+    "Name": "CBBorderSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorderSlot'",
+    "Outer": {
+      "ObjectName": "EBorder'Panel_QuestReward_C:WidgetTree.EBorder_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.12"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 50.0,
+        "Top": 60.0,
+        "Right": 50.0,
+        "Bottom": 50.0
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "EBorder'Panel_QuestReward_C:WidgetTree.EBorder_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.12"
+      },
+      "Content": {
+        "ObjectName": "ETileView'Panel_QuestReward_C:WidgetTree.RewardTileView'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.14"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_24",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_QuestReward_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.63"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24.CBCanvasPanelSlot_12'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.6"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24.CBCanvasPanelSlot_13'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.7"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.8"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24.CBCanvasPanelSlot_8'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.9"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24.CBCanvasPanelSlot_10'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.5"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.3"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -50.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.3"
+      },
+      "Content": {
+        "ObjectName": "NiagaraSystemWidget'Panel_QuestReward_C:WidgetTree.NiagaraSystemWidget_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.57"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.3"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 50.0,
+          "Right": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        }
+      },
+      "ZOrder": 1,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.3"
+      },
+      "Content": {
+        "ObjectName": "NiagaraSystemWidget'Panel_QuestReward_C:WidgetTree.NiagaraSystemWidget_50'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.58"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.3"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -7.0,
+          "Top": -145.0,
+          "Right": 50.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.3"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_QuestReward_C:WidgetTree.Line01'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.10"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.3"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 7.0,
+          "Top": -145.0,
+          "Right": 50.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.3"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_QuestReward_C:WidgetTree.Line02'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.11"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.3"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -180.0,
+          "Right": 500.0,
+          "Bottom": 35.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.3"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_QuestReward_C:WidgetTree.TextBlock_Title'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.13"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.3"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -28.0,
+          "Right": 1260.0,
+          "Bottom": 310.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.3"
+      },
+      "Content": {
+        "ObjectName": "EBorder'Panel_QuestReward_C:WidgetTree.EBorder_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.12"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Line01",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_QuestReward_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.63"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.417885,
+            "G": 0.617207,
+            "B": 1.0,
+            "A": 0.8,
+            "Hex": "CCADCEFF"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 48.0,
+          "Y": 25.0
+        },
+        "Margin": {
+          "Left": 0.2,
+          "Right": 0.8
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common2_line01'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common2/Frames/common2_line01.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24.CBCanvasPanelSlot_12'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.6"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": -1.0,
+          "Y": -1.0
+        }
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Line02",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_QuestReward_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.63"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.417885,
+            "G": 0.617207,
+            "B": 1.0,
+            "A": 0.8,
+            "Hex": "CCADCEFF"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 48.0,
+          "Y": 25.0
+        },
+        "Margin": {
+          "Left": 0.2,
+          "Right": 0.8
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common2_line01'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common2/Frames/common2_line01.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24.CBCanvasPanelSlot_13'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.7"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "EBorder",
+    "Name": "EBorder_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_QuestReward_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.63"
+    },
+    "Properties": {
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Padding": {
+        "Left": 50.0,
+        "Top": 60.0,
+        "Right": 50.0,
+        "Bottom": 50.0
+      },
+      "Background": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.000759,
+            "G": 0.003061,
+            "B": 0.015625,
+            "A": 0.2,
+            "Hex": "33020A21"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_glow'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_glow.0"
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBBorderSlot'Panel_QuestReward_C:WidgetTree.EBorder_0.CBBorderSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.2"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24.CBCanvasPanelSlot_8'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.9"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_Title",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_QuestReward_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.63"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "DAD6B8654A9715E0C8838EA8DB516E37",
+        "SourceString": "퀘스트 보상",
+        "LocalizedString": "퀘스트 보상"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.2,
+            "Hex": "33000000"
+          }
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.8"
+      }
+    }
+  },
+  {
+    "Type": "ETileView",
+    "Name": "RewardTileView",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETileView'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_QuestReward_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.63"
+    },
+    "Properties": {
+      "ChildPTName": "ACPT::QuestReward_Slot",
+      "EntryHeight": 186.0,
+      "EntryWidth": 150.0,
+      "TileAlignment": "EListItemAlignment::CenterAligned",
+      "Orientation": "EOrientation::Orient_Horizontal",
+      "EntryWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'QuestReward_Slot_C'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Slot/Item/QuestReward_Slot.31"
+      },
+      "Slot": {
+        "ObjectName": "CBBorderSlot'Panel_QuestReward_C:WidgetTree.EBorder_0.CBBorderSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.2"
+      }
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Hide",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_QuestReward_C:Anim_Hide_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.60"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "3AA92488-4EF91534-CF7010A8-8864EE6A",
+          "Name": "Line01",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "56E0C18C-4C033C10-8A48A686-FA1A1531",
+          "Name": "CBCanvasPanelSlot_13",
+          "ParentGuid": "DD287253-42EAE63C-ECAF969B-4E012EC5",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "C4DDE631-44F4A0C0-72A1FE9A-A97DB941",
+          "Name": "NiagaraSystemWidget_50",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "DD287253-42EAE63C-ECAF969B-4E012EC5",
+          "Name": "Line02",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "F45F5A69-483229E4-D868F798-19637733",
+          "Name": "CBCanvasPanelSlot_12",
+          "ParentGuid": "3AA92488-4EF91534-CF7010A8-8864EE6A",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "F6E51D84-4CACFAB3-BC21F99E-CBACF669",
+          "Name": "CBCanvasPanel_24",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "3AA92488-4EF91534-CF7010A8-8864EE6A",
+          "BindingName": "Line01",
+          "Tracks": []
+        },
+        {
+          "ObjectGuid": "56E0C18C-4C033C10-8A48A686-FA1A1531",
+          "BindingName": "CBCanvasPanelSlot_13",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneMarginTrack'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneMarginTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.54"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "C4DDE631-44F4A0C0-72A1FE9A-A97DB941",
+          "BindingName": "NiagaraSystemWidget_50",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneBoolTrack'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneBoolTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.20"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "DD287253-42EAE63C-ECAF969B-4E012EC5",
+          "BindingName": "Line02",
+          "Tracks": []
+        },
+        {
+          "ObjectGuid": "F45F5A69-483229E4-D868F798-19637733",
+          "BindingName": "CBCanvasPanelSlot_12",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneMarginTrack'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneMarginTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.53"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "F6E51D84-4CACFAB3-BC21F99E-CBACF669",
+          "BindingName": "CBCanvasPanel_24",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.47"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 30001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "33186843-4985D0B7-1FBE83B4-18D6F69D"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Show",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_QuestReward_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.61"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "3AA92488-4EF91534-CF7010A8-8864EE6A",
+          "Name": "Line01",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "56E0C18C-4C033C10-8A48A686-FA1A1531",
+          "Name": "CBCanvasPanelSlot_13",
+          "ParentGuid": "DD287253-42EAE63C-ECAF969B-4E012EC5",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "8B54F151-49C0CD65-6BBDED86-7BD71395",
+          "Name": "NiagaraSystemWidget_2",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "C4DDE631-44F4A0C0-72A1FE9A-A97DB941",
+          "Name": "NiagaraSystemWidget_50",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "DD287253-42EAE63C-ECAF969B-4E012EC5",
+          "Name": "Line02",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "F45F5A69-483229E4-D868F798-19637733",
+          "Name": "CBCanvasPanelSlot_12",
+          "ParentGuid": "3AA92488-4EF91534-CF7010A8-8864EE6A",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "F6E51D84-4CACFAB3-BC21F99E-CBACF669",
+          "Name": "CBCanvasPanel_24",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "3AA92488-4EF91534-CF7010A8-8864EE6A",
+          "BindingName": "Line01",
+          "Tracks": []
+        },
+        {
+          "ObjectGuid": "56E0C18C-4C033C10-8A48A686-FA1A1531",
+          "BindingName": "CBCanvasPanelSlot_13",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneMarginTrack'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneMarginTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.56"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "8B54F151-49C0CD65-6BBDED86-7BD71395",
+          "BindingName": "NiagaraSystemWidget_2",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneBoolTrack'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.22"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "C4DDE631-44F4A0C0-72A1FE9A-A97DB941",
+          "BindingName": "NiagaraSystemWidget_50",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneBoolTrack'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.21"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "DD287253-42EAE63C-ECAF969B-4E012EC5",
+          "BindingName": "Line02",
+          "Tracks": []
+        },
+        {
+          "ObjectGuid": "F45F5A69-483229E4-D868F798-19637733",
+          "BindingName": "CBCanvasPanelSlot_12",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneMarginTrack'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneMarginTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.55"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "F6E51D84-4CACFAB3-BC21F99E-CBACF669",
+          "BindingName": "CBCanvasPanel_24",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.48"
+            }
+          ]
+        }
+      ],
+      "Tracks": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidTrack'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.1"
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 30001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 100
+      },
+      "ClockSource": "EUpdateClockSource::Audio",
+      "Signature": "5B0B0C3D-4F56BBDB-3EEC5FB4-EDC1CA0F"
+    }
+  },
+  {
+    "Type": "MovieSceneBoolSection",
+    "Name": "MovieSceneBoolSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBoolSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolTrack'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneBoolTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.20"
+    },
+    "Properties": {
+      "BoolCurve": {
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 30000
+          }
+        ],
+        "Values": [
+          true,
+          false
+        ]
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneBoolTrack_0.MovieSceneBoolSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.23"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneBoolTrack_0.MovieSceneBoolSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.24"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 30000
+            }
+          }
+        }
+      },
+      "Signature": "D78A3F8F-4708F44C-1B300E89-D4E45F9B"
+    }
+  },
+  {
+    "Type": "MovieSceneBoolSection",
+    "Name": "MovieSceneBoolSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBoolSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolTrack'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.21"
+    },
+    "Properties": {
+      "BoolCurve": {
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          true
+        ]
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_0.MovieSceneBoolSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.33"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_0.MovieSceneBoolSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.34"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 30000
+            }
+          }
+        }
+      },
+      "Signature": "AFB2F18D-44EF549A-55FC1ABF-CE45D72E"
+    }
+  },
+  {
+    "Type": "MovieSceneBoolSection",
+    "Name": "MovieSceneBoolSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBoolSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolTrack'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.22"
+    },
+    "Properties": {
+      "BoolCurve": {
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 28800
+          }
+        ],
+        "Values": [
+          false,
+          true
+        ]
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1.MovieSceneBoolSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.35"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1.MovieSceneBoolSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.36"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 30000
+            }
+          }
+        }
+      },
+      "Signature": "6E5BB4AB-4F67E10A-44CA4DA5-C7A2D3FB"
+    }
+  },
+  {
+    "Type": "MovieSceneBoolTrack",
+    "Name": "MovieSceneBoolTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBoolTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.15"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "bPlayNiagara",
+        "PropertyPath": "bPlayNiagara",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneBoolSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.17"
+        }
+      ],
+      "EvaluationFieldGuid": "7A9F2B74-4ED4FA62-B52F5ABE-BB34B630",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneBoolSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.17"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "7A9F2B74-4ED4FA62-B52F5ABE-BB34B630"
+    }
+  },
+  {
+    "Type": "MovieSceneBoolTrack",
+    "Name": "MovieSceneBoolTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBoolTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_QuestReward_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.16"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "bPlayNiagara",
+        "PropertyPath": "bPlayNiagara",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneBoolSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.18"
+        }
+      ],
+      "EvaluationFieldGuid": "E78B54AE-40F77540-3AD47FB8-9B2861EA",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneBoolSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.18"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "E78B54AE-40F77540-3AD47FB8-9B2861EA"
+    }
+  },
+  {
+    "Type": "MovieSceneBoolTrack",
+    "Name": "MovieSceneBoolTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBoolTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_QuestReward_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.16"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "bPlayNiagara",
+        "PropertyPath": "bPlayNiagara",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneBoolSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1.MovieSceneBoolSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.19"
+        }
+      ],
+      "EvaluationFieldGuid": "663F6CC5-4C0BEA03-439D3189-EE4B0D22",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneBoolSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1.MovieSceneBoolSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.19"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "663F6CC5-4C0BEA03-439D3189-EE4B0D22"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.17"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.17"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.45"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.45"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneMarginTrack_0.MovieSceneMarginSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.49"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneMarginTrack_0.MovieSceneMarginSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.49"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneMarginTrack_1.MovieSceneMarginSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.50"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneMarginTrack_1.MovieSceneMarginSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.50"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.18"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.18"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1.MovieSceneBoolSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.19"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1.MovieSceneBoolSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.19"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.46"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.46"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneMarginTrack_0.MovieSceneMarginSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.51"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneMarginTrack_0.MovieSceneMarginSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.51"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneMarginTrack_1.MovieSceneMarginSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.52"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneMarginTrack_1.MovieSceneMarginSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.52"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_QuestReward_C:Anim_Hide_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.60"
+    },
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "C4DDE631-44F4A0C0-72A1FE9A-A97DB941",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "SourceTrack": {
+                "ObjectName": "MovieSceneBoolTrack'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneBoolTrack_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.20"
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneBoolPropertySectionTemplate",
+                  "Data": {
+                    "BoolCurve": {
+                      "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                      "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                      "Times": [
+                        {
+                          "Value": 0
+                        },
+                        {
+                          "Value": 30000
+                        }
+                      ],
+                      "DefaultValue": false,
+                      "bHasDefaultValue": false,
+                      "Values": [
+                        true,
+                        false
+                      ]
+                    },
+                    "PropertyData": {
+                      "PropertyName": "PlayNiagara",
+                      "PropertyPath": "bPlayNiagara"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneBoolSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+                      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.17"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "7A9F2B74-4ED4FA62-B52F5ABE-BB34B630",
+              "Value": {
+                "Value": 0
+              }
+            }
+          ]
+        }
+      },
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 3,
+                  "Capacity": 3
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 30000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneMarginTrack_1.MovieSceneMarginSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.50"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneMarginTrack_0.MovieSceneMarginSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.49"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.45"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "56E0C18C-4C033C10-8A48A686-FA1A1531"
+          },
+          {
+            "ObjectBindingID": "F45F5A69-483229E4-D868F798-19637733"
+          },
+          {
+            "ObjectBindingID": "F6E51D84-4CACFAB3-BC21F99E-CBACF669"
+          }
+        ]
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 30000
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 1
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 30000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "20BF77CD-4A2BA934-6848D294-AFC6154D",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::14",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::14"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_QuestReward_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.61"
+    },
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "8B54F151-49C0CD65-6BBDED86-7BD71395",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "SourceTrack": {
+                "ObjectName": "MovieSceneBoolTrack'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.22"
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneBoolPropertySectionTemplate",
+                  "Data": {
+                    "BoolCurve": {
+                      "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                      "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                      "Times": [
+                        {
+                          "Value": 0
+                        },
+                        {
+                          "Value": 28800
+                        }
+                      ],
+                      "DefaultValue": false,
+                      "bHasDefaultValue": false,
+                      "Values": [
+                        false,
+                        true
+                      ]
+                    },
+                    "PropertyData": {
+                      "PropertyName": "PlayNiagara",
+                      "PropertyPath": "bPlayNiagara"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneBoolSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1.MovieSceneBoolSection_0'",
+                      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.19"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          },
+          {
+            "Key": {
+              "Value": 1
+            },
+            "Value": {
+              "ObjectBindingID": "C4DDE631-44F4A0C0-72A1FE9A-A97DB941",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "SourceTrack": {
+                "ObjectName": "MovieSceneBoolTrack'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.21"
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneBoolPropertySectionTemplate",
+                  "Data": {
+                    "BoolCurve": {
+                      "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                      "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                      "Times": [
+                        {
+                          "Value": 0
+                        }
+                      ],
+                      "DefaultValue": false,
+                      "bHasDefaultValue": false,
+                      "Values": [
+                        true
+                      ]
+                    },
+                    "PropertyData": {
+                      "PropertyName": "PlayNiagara",
+                      "PropertyPath": "bPlayNiagara"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneBoolSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+                      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.18"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 1
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "663F6CC5-4C0BEA03-439D3189-EE4B0D22",
+              "Value": {
+                "Value": 0
+              }
+            },
+            {
+              "Key": "E78B54AE-40F77540-3AD47FB8-9B2861EA",
+              "Value": {
+                "Value": 1
+              }
+            }
+          ]
+        }
+      },
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 4,
+                  "Capacity": 4
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 30000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "ACMovieSceneSoundTidSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.0"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneMarginTrack_1.MovieSceneMarginSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.52"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneMarginTrack_0.MovieSceneMarginSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.51"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.46"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 3
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "ObjectBindingID": "56E0C18C-4C033C10-8A48A686-FA1A1531"
+          },
+          {
+            "ObjectBindingID": "F45F5A69-483229E4-D868F798-19637733"
+          },
+          {
+            "ObjectBindingID": "F6E51D84-4CACFAB3-BC21F99E-CBACF669"
+          }
+        ]
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 30000
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 2
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 1,
+                "TearDownIndex": 65534
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 30000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "E5A3A512-4627AD20-2B4A7C9D-32ADD4DD",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::14",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::14"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.47"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          },
+          {
+            "Value": 30000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.25"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.26"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 30000
+            }
+          }
+        }
+      },
+      "Signature": "5DF892CF-46D6CB55-62138C8E-AC9956A0"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.48"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.37"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.38"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 30000
+            }
+          }
+        }
+      },
+      "Signature": "00827D8E-40C34208-87A8598F-C45BD36E"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.15"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.45"
+        }
+      ],
+      "EvaluationFieldGuid": "3F7FA72C-4521395F-A5FC5C9D-AA0DECF5",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.45"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "3F7FA72C-4521395F-A5FC5C9D-AA0DECF5"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_QuestReward_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.16"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.46"
+        }
+      ],
+      "EvaluationFieldGuid": "FB196F1D-48911954-8416578E-0D02E329",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.46"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "FB196F1D-48911954-8416578E-0D02E329"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginSection",
+    "Name": "MovieSceneMarginSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneMarginSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneMarginTrack'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneMarginTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.53"
+    },
+    "Properties": {
+      "RightCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 200.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 50.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneMarginTrack_0.MovieSceneMarginSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.27"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneMarginTrack_0.MovieSceneMarginSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.28"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 30000
+            }
+          }
+        }
+      },
+      "Signature": "BA892181-46E4DBDD-92F45294-78CD8AE9"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginSection",
+    "Name": "MovieSceneMarginSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneMarginSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneMarginTrack'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneMarginTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.54"
+    },
+    "Properties": {
+      "RightCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 14733
+          }
+        ],
+        "Values": [
+          {
+            "Value": 200.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 50.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneMarginTrack_1.MovieSceneMarginSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.29"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneMarginTrack_1.MovieSceneMarginSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.30"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 30000
+            }
+          }
+        }
+      },
+      "Signature": "0FAF3519-44B083F8-0F07F0AB-50A6E2BA"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginSection",
+    "Name": "MovieSceneMarginSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneMarginSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneMarginTrack'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneMarginTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.55"
+    },
+    "Properties": {
+      "RightCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          },
+          {
+            "Value": 30000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 50.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 50.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 200.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneMarginTrack_0.MovieSceneMarginSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.39"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneMarginTrack_0.MovieSceneMarginSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.40"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 30000
+            }
+          }
+        }
+      },
+      "Signature": "77EB24DA-4EB78AAE-B2E453A4-1F947FD3"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginSection",
+    "Name": "MovieSceneMarginSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneMarginSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneMarginTrack'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneMarginTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.56"
+    },
+    "Properties": {
+      "RightCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          },
+          {
+            "Value": 30000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 50.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 50.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 200.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneMarginTrack_1.MovieSceneMarginSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.41"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneMarginTrack_1.MovieSceneMarginSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.42"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 30000
+            }
+          }
+        }
+      },
+      "Signature": "25FEADCB-4F4EC84D-F8E4F292-71561C84"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginTrack",
+    "Name": "MovieSceneMarginTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneMarginTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.15"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "Offsets",
+        "PropertyPath": "LayoutData.Offsets",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneMarginTrack_0.MovieSceneMarginSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.49"
+        }
+      ],
+      "EvaluationFieldGuid": "E5A33A57-4EDCB63C-0E94A9B4-4E951D33",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneMarginTrack_0.MovieSceneMarginSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.49"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "E5A33A57-4EDCB63C-0E94A9B4-4E951D33"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginTrack",
+    "Name": "MovieSceneMarginTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneMarginTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.15"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "Offsets",
+        "PropertyPath": "LayoutData.Offsets",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneMarginTrack_1.MovieSceneMarginSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.50"
+        }
+      ],
+      "EvaluationFieldGuid": "F8205A98-46EDF78C-05A0228C-B36D5B24",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide.MovieSceneMarginTrack_1.MovieSceneMarginSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.50"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "F8205A98-46EDF78C-05A0228C-B36D5B24"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginTrack",
+    "Name": "MovieSceneMarginTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneMarginTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_QuestReward_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.16"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "Offsets",
+        "PropertyPath": "LayoutData.Offsets",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneMarginTrack_0.MovieSceneMarginSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.51"
+        }
+      ],
+      "EvaluationFieldGuid": "61AF0D75-4C6E178A-E548AA88-DD4FB718",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneMarginTrack_0.MovieSceneMarginSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.51"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "61AF0D75-4C6E178A-E548AA88-DD4FB718"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginTrack",
+    "Name": "MovieSceneMarginTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneMarginTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_QuestReward_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.16"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "Offsets",
+        "PropertyPath": "LayoutData.Offsets",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneMarginTrack_1.MovieSceneMarginSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.52"
+        }
+      ],
+      "EvaluationFieldGuid": "9622A118-49DA1E05-D0543CBC-9639E9B1",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneMarginSection'Panel_QuestReward_C:Anim_Show_INST.Anim_Show.MovieSceneMarginTrack_1.MovieSceneMarginSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.52"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "9622A118-49DA1E05-D0543CBC-9639E9B1"
+    }
+  },
+  {
+    "Type": "NiagaraSystemWidget",
+    "Name": "NiagaraSystemWidget_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraSystemWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_QuestReward_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.63"
+    },
+    "Properties": {
+      "NiagaraSystemReference": {
+        "ObjectName": "NiagaraSystem'UI_NS_QuestPopup_Result_7'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Niagara/Popup/UI_NS_QuestPopup_Result_7.40"
+      },
+      "bPlayNiagara": true,
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.4"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "NiagaraSystemWidget",
+    "Name": "NiagaraSystemWidget_50",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraSystemWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_QuestReward_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.63"
+    },
+    "Properties": {
+      "NiagaraSystemReference": {
+        "ObjectName": "NiagaraSystem'UI_NS_Stars_02'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Niagara/Common/UI_NS_Stars_02.14"
+      },
+      "bPlayNiagara": true,
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24.CBCanvasPanelSlot_10'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.5"
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "Panel_QuestReward_C",
+    "Name": "Default__Panel_QuestReward_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.Panel_QuestReward_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward",
+    "Properties": {
+      "ItemShowCount": 20,
+      "IsPadFocus": false,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Hide_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_QuestReward_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.62"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Panel_QuestReward_C:Anim_Hide_INST.Anim_Hide'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.15"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CBCanvasPanel_24",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "F6E51D84-4CACFAB3-BC21F99E-CBACF669",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "NiagaraSystemWidget_50",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "C4DDE631-44F4A0C0-72A1FE9A-A97DB941",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "Line01",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "3AA92488-4EF91534-CF7010A8-8864EE6A",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "Line01",
+          "SlotWidgetName": "CBCanvasPanelSlot_12",
+          "AnimationGuid": "F45F5A69-483229E4-D868F798-19637733",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "Line02",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "DD287253-42EAE63C-ECAF969B-4E012EC5",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "Line02",
+          "SlotWidgetName": "CBCanvasPanelSlot_13",
+          "AnimationGuid": "56E0C18C-4C033C10-8A48A686-FA1A1531",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Hide",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Panel_QuestReward_C:Anim_Hide_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.43"
+      },
+      "Signature": "20BF77CD-4A2BA934-6848D294-AFC6154D"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Show_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_QuestReward_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.62"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Panel_QuestReward_C:Anim_Show_INST.Anim_Show'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.16"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CBCanvasPanel_24",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "F6E51D84-4CACFAB3-BC21F99E-CBACF669",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "NiagaraSystemWidget_50",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "C4DDE631-44F4A0C0-72A1FE9A-A97DB941",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "Line01",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "3AA92488-4EF91534-CF7010A8-8864EE6A",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "Line01",
+          "SlotWidgetName": "CBCanvasPanelSlot_12",
+          "AnimationGuid": "F45F5A69-483229E4-D868F798-19637733",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "Line02",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "DD287253-42EAE63C-ECAF969B-4E012EC5",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "Line02",
+          "SlotWidgetName": "CBCanvasPanelSlot_13",
+          "AnimationGuid": "56E0C18C-4C033C10-8A48A686-FA1A1531",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "NiagaraSystemWidget_2",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "8B54F151-49C0CD65-6BBDED86-7BD71395",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Show",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Panel_QuestReward_C:Anim_Show_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.44"
+      },
+      "Signature": "E5A3A512-4627AD20-2B4A7C9D-32ADD4DD"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Panel_QuestReward_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Panel_QuestReward_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.63"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'Panel_QuestReward_C:Anim_Show_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.61"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Panel_QuestReward_C:Anim_Hide_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.60"
+        }
+      ]
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EPanel_QuestReward'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Line01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Line02",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "NiagaraSystemWidget_50",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraSystemWidget'",
+          "ObjectPath": "/Script/NiagaraUIRenderer"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Panel_QuestReward_C'Default__Panel_QuestReward_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.59"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_QuestReward_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.62"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'Panel_QuestReward_C:WidgetTree.CBCanvasPanel_24'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Message/Panel_QuestReward.3"
+      }
+    }
+  }
+]

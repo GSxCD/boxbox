@@ -1,0 +1,395 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Drop_Pet_Bellato_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Bellato_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.15"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Drop_Pet_Bellato_C:InheritableComponentHandler'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.7"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Drop_Pet_Bellato_C:ExecuteUbergraph_BP_Drop_Pet_Bellato'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_ChargeObject'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Drop_Pet_Bellato_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.5"
+      },
+      {
+        "ObjectName": "Function'BP_Drop_Pet_Bellato_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.6"
+      },
+      {
+        "ObjectName": "Function'BP_Drop_Pet_Bellato_C:ExecuteUbergraph_BP_Drop_Pet_Bellato'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.4"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBSkeletalMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CBSkeletalMeshComponent'",
+          "ObjectPath": "/Script/CBResourceModule"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Drop_Pet_Bellato": {
+        "ObjectName": "Function'BP_Drop_Pet_Bellato_C:ExecuteUbergraph_BP_Drop_Pet_Bellato'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.4"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BP_Drop_Pet_Bellato_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.6"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_Drop_Pet_Bellato_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.5"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Drop_Pet_Bellato_C'Default__BP_Drop_Pet_Bellato_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Drop_Pet_Bellato_C",
+    "Name": "Default__BP_Drop_Pet_Bellato_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.BP_Drop_Pet_Bellato_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ChargeGaugeEffect": {
+        "ObjectName": "NiagaraComponent'Default__BP_Drop_Pet_Bellato_C:GaugeEffect'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.8"
+      },
+      "ChargeGaugeSubEffect": {
+        "ObjectName": "NiagaraComponent'Default__BP_Drop_Pet_Bellato_C:GaugeSubEffect'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.10"
+      },
+      "ChargeGaugeMaxLoopEffect": {
+        "ObjectName": "NiagaraComponent'Default__BP_Drop_Pet_Bellato_C:GaugeMaxLoopEffect'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.9"
+      },
+      "CoreMesh": null,
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_Drop_Pet_Bellato_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.12"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_Drop_Pet_Bellato_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.12"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "CBSkeletalMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Bellato_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.0"
+    },
+    "Properties": {
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimMontage'PET_Summon_Bellato_0001_Social_1_MTG'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Summon_Bellato/Ani/PET_Summon_Bellato_0001_Social_1_MTG.0"
+        }
+      },
+      "AnimationMode": "EAnimationMode::AnimationSingleNode",
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'PET_Summon_Bellato_0001'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Summon_Bellato/Mesh/PET_Summon_Bellato_0001.2"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'PET_Summon_Bellato_0001'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Summon_Bellato/Mesh/PET_Summon_Bellato_0001.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeScale3D": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Drop_Pet_Bellato_C'Default__BP_Drop_Pet_Bellato_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Drop_Pet_Bellato_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.12"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Drop_Pet_Bellato",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Bellato_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Bellato_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Bellato_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Bellato_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.0"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "GaugeEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_Drop_Pet_Bellato_C'Default__BP_Drop_Pet_Bellato_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.1"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Drop_Pet_Bellato_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.12"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "GaugeMaxLoopEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_Drop_Pet_Bellato_C'Default__BP_Drop_Pet_Bellato_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.1"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Drop_Pet_Bellato_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.12"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "GaugeSubEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_Drop_Pet_Bellato_C'Default__BP_Drop_Pet_Bellato_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.1"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Drop_Pet_Bellato_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.12"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Bellato_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Drop_Pet_Bellato_C'Default__BP_Drop_Pet_Bellato_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Bellato_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.15"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Drop_Pet_Bellato_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.11"
+      },
+      "VariableGUID": "6947BD54-49DF0CE4-78B58997-E22D70F1",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Bellato_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.15"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CBSkeletalMeshComponent'",
+        "ObjectPath": "/Script/CBResourceModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBSkeletalMeshComponent'BP_Drop_Pet_Bellato_C:CBSkeletalMesh_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.2"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "FBEA1E70-4F14ACE3-DB6400AB-ECBE3B75",
+      "InternalVariableName": "CBSkeletalMesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Bellato_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Bellato_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.14"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Bellato_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.14"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Drop_Pet_Bellato_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/BP_Drop_Pet_Bellato.13"
+      }
+    }
+  }
+]

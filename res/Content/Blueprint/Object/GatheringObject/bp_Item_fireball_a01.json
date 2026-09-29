@@ -1,0 +1,702 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "bp_Item_fireball_a01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'bp_Item_fireball_a01_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.11"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'StaticMeshActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ShadowMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "fx_fireball_a01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "VolumeFlare",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Particle_Size_100_Item_Material_WaterwayTreeEssence_01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PointLight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "bp_Item_fireball_a01_C'Default__bp_Item_fireball_a01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "bp_Item_fireball_a01_C",
+    "Name": "Default__bp_Item_fireball_a01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.bp_Item_fireball_a01_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Default__bp_Item_fireball_a01_C:StaticMeshComponent0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.15"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__bp_Item_fireball_a01_C:StaticMeshComponent0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.15"
+      },
+      "Tags": [
+        "bp_Item_Material_WaterwayTreeEssence_01"
+      ]
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "fx_fireball_a01_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'bp_Item_fireball_a01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.0"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_item_fireball_a01'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/Common/Item/S_Item_fireball_a01/fx_item_fireball_a01.19"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "BuffCount",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.BuffCount",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Loop_Duration",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Loop_Duration",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Main_color",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Main_color",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.BuffCount",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.Loop_Duration",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 8,
+            "Name": "User.Main_color",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'LinearColor'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 24,
+            "Name": "User.Scale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          32,
+          65,
+          75,
+          205,
+          129,
+          64,
+          112,
+          85,
+          213,
+          61,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          128,
+          63
+        ]
+      },
+      "TranslucencySortPriority": 99999,
+      "RelativeScale3D": {
+        "X": 4.5,
+        "Y": 4.5,
+        "Z": 4.5
+      }
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'bp_Item_fireball_a01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.0"
+    },
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 3.0,
+      "bEnableLightAnimation": true,
+      "LightBrightnessAnimationStrength": 0.7,
+      "LightBrightnessAnimationSpeed": 2.0,
+      "AttenuationRadius": 250.0,
+      "MaxDrawDistance": 5000.0,
+      "Intensity": 150.0,
+      "LightColor": {
+        "B": 0,
+        "G": 77,
+        "R": 255,
+        "A": 255,
+        "Hex": "FF4D00"
+      },
+      "CastShadows": false,
+      "CastStaticShadows": false,
+      "CastDynamicShadows": false,
+      "bUseAttachParentBound": true,
+      "Mobility": "EComponentMobility::Static",
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    },
+    "IntensityNits": 150.0
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'bp_Item_fireball_a01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'bp_Item_fireball_a01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'bp_Item_fireball_a01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.4"
+      },
+      "VariableGUID": "D05C7CAC-448BE4D4-0038CCB3-08439378",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'bp_Item_fireball_a01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'bp_Item_fireball_a01_C:PointLight_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.3"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "869CC619-4E7A4D67-820B7B99-C88DA579",
+      "InternalVariableName": "PointLight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'bp_Item_fireball_a01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'bp_Item_fireball_a01_C:SM_Particle_Size_100_Item_Material_WaterwayTreeEssence_01_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.13"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "F25EC25D-4DC4C141-2CA7E781-23022848",
+      "InternalVariableName": "SM_Particle_Size_100_Item_Material_WaterwayTreeEssence_01"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'bp_Item_fireball_a01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'bp_Item_fireball_a01_C:VolumeFlare_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.14"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "4CA62D29-445CE8FB-7BAAA1BA-44ADBA42",
+      "InternalVariableName": "VolumeFlare"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'bp_Item_fireball_a01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'bp_Item_fireball_a01_C:fx_fireball_a01_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.2"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "43D76E27-4B4D7EA3-8625B4BD-132F65EF",
+      "InternalVariableName": "fx_fireball_a01"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'bp_Item_fireball_a01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'bp_Item_fireball_a01_C:ShadowMesh_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.12"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "435DD6BD-43E4D9B3-E6102FA0-8260C45A",
+      "InternalVariableName": "ShadowMesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'bp_Item_fireball_a01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'bp_Item_fireball_a01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.6"
+        },
+        {
+          "ObjectName": "SCS_Node'bp_Item_fireball_a01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.7"
+        },
+        {
+          "ObjectName": "SCS_Node'bp_Item_fireball_a01_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.8"
+        },
+        {
+          "ObjectName": "SCS_Node'bp_Item_fireball_a01_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.9"
+        },
+        {
+          "ObjectName": "SCS_Node'bp_Item_fireball_a01_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.10"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'bp_Item_fireball_a01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.6"
+        },
+        {
+          "ObjectName": "SCS_Node'bp_Item_fireball_a01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.7"
+        },
+        {
+          "ObjectName": "SCS_Node'bp_Item_fireball_a01_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.8"
+        },
+        {
+          "ObjectName": "SCS_Node'bp_Item_fireball_a01_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.9"
+        },
+        {
+          "ObjectName": "SCS_Node'bp_Item_fireball_a01_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.10"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'bp_Item_fireball_a01_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ShadowMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'bp_Item_fireball_a01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_FireBall_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Item/Meshes/S_FireBall_A01.1"
+      },
+      "bCastHiddenShadow": true,
+      "bVisible": false,
+      "bHiddenInGame": true,
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Particle_Size_100_Item_Material_WaterwayTreeEssence_01_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'bp_Item_fireball_a01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Particle_Size_100_Item_Material_WaterwayTreeEssence_01'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/Common/Item/S_Item_Material_PioneerCrystalNecklace_01/SM_Particle_Size_100_Item_Material_WaterwayTreeEssence_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_MeshParticle_fireball_a01'",
+          "ObjectPath": "SevenDeadlySins/Content/VFX/Common/Item/S_Item_fireball_a01/MI_MeshParticle_fireball_a01.0"
+        }
+      ],
+      "TranslucencySortPriority": 99,
+      "bUseAttachParentBound": true,
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "VolumeFlare_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'bp_Item_fireball_a01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'fx_m_icossphere_half_rotation'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/Resources/Meshes/fx_m_icossphere_half_rotation.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'fx_mi_volumeflare_fireball_a01'",
+          "ObjectPath": "SevenDeadlySins/Content/VFX/Common/Item/S_Item_fireball_a01/fx_mi_volumeflare_fireball_a01.0"
+        }
+      ],
+      "LDMaxDrawDistance": 5000.0,
+      "CachedMaxDrawDistance": 5000.0,
+      "CustomPrimitiveData": {
+        "Data": [
+          1.0,
+          0.38751,
+          0.165821,
+          0.15
+        ]
+      },
+      "TranslucencySortPriority": 1,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeScale3D": {
+        "X": 2.5,
+        "Y": 2.5000002,
+        "Z": 2.5000002
+      },
+      "Mobility": "EComponentMobility::Static",
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "bp_Item_fireball_a01_C'Default__bp_Item_fireball_a01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/GatheringObject/bp_Item_fireball_a01.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_FireBall_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Item/Meshes/S_FireBall_A01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_Item_FireBall_A01'",
+          "ObjectPath": "SevenDeadlySins/Content/VFX/Common/Item/S_Item_fireball_a01/M_Item_FireBall_A01.0"
+        }
+      ],
+      "bCastVolumetricTranslucentShadow": true,
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  }
+]

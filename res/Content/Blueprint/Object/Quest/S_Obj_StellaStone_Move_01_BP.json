@@ -1,0 +1,395 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "S_Obj_StellaStone_Move_01_BP_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'S_Obj_StellaStone_Move_01_BP_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.9"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_Static'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "fx_ns_StellarStone_Move_01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "S_Obj_StellaStone_Move_01_BP_C'Default__S_Obj_StellaStone_Move_01_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "S_Obj_StellaStone_Move_01_BP_C'Default__S_Obj_StellaStone_Move_01_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.3"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__S_Obj_StellaStone_Move_01_BP_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.4"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "fx_ns_StellarStone_Move_01_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'S_Obj_StellaStone_Move_01_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.0"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_ns_StellarStone_Move_01'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/Common/System/interaction/StellarRecord/Move/fx_ns_StellarStone_Move_01.157"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "All_Scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.All_Scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Line_Life",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Line_Life",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "NE_Offset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector3f'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.NE_Offset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector3f'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.All_Scale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.Line_Life",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 8,
+            "Name": "User.NE_Offset",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector3f'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          192,
+          63,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          220,
+          66
+        ]
+      },
+      "bAllowScalability": false
+    }
+  },
+  {
+    "Type": "S_Obj_StellaStone_Move_01_BP_C",
+    "Name": "Default__S_Obj_StellaStone_Move_01_BP_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.S_Obj_StellaStone_Move_01_BP_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP",
+    "Properties": {
+      "CoreMesh": {
+        "ObjectName": "CBStaticMeshComponent'Default__S_Obj_StellaStone_Move_01_BP_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.1"
+      },
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__S_Obj_StellaStone_Move_01_BP_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.4"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__S_Obj_StellaStone_Move_01_BP_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.4"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "S_Obj_StellaStone_Move_01_BP_C'Default__S_Obj_StellaStone_Move_01_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.3"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'S_Obj_StellaStone_Move_01_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'S_Obj_StellaStone_Move_01_BP_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'S_Obj_StellaStone_Move_01_BP_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.5"
+      },
+      "VariableGUID": "2A03E49C-49630856-96708A97-BFADFC13",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'S_Obj_StellaStone_Move_01_BP_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'S_Obj_StellaStone_Move_01_BP_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.10"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "61357D65-4D625D8A-3CD4CD88-915A365F",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'S_Obj_StellaStone_Move_01_BP_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'S_Obj_StellaStone_Move_01_BP_C:fx_ns_StellarStone_Move_01_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.2"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "26D4067B-475939C0-13965F81-FD6E69D3",
+      "InternalVariableName": "fx_ns_StellarStone_Move_01"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'S_Obj_StellaStone_Move_01_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'S_Obj_StellaStone_Move_01_BP_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.7"
+        },
+        {
+          "ObjectName": "SCS_Node'S_Obj_StellaStone_Move_01_BP_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.8"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'S_Obj_StellaStone_Move_01_BP_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.7"
+        },
+        {
+          "ObjectName": "SCS_Node'S_Obj_StellaStone_Move_01_BP_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.8"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'S_Obj_StellaStone_Move_01_BP_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.6"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'S_Obj_StellaStone_Move_01_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/S_Obj_StellaStone_Move_01_BP.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_Obj_StellaStone_Move_01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Rock/Meshes/S_Obj_StellaStone_Move_01.1"
+      }
+    }
+  }
+]

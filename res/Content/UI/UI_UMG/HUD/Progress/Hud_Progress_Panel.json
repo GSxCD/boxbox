@@ -1,0 +1,156 @@
+[
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Hud_Progress_Panel_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/Hud_Progress_Panel.5"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'Hud_Progress_Panel_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/Hud_Progress_Panel.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CanvasPanel'Hud_Progress_Panel_C:WidgetTree.CanvasPanel_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/Hud_Progress_Panel.0"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -350.0,
+          "Bottom": 24.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'Hud_Progress_Panel_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/Hud_Progress_Panel.0"
+      },
+      "Content": {
+        "ObjectName": "HudProgress_Widget_C'Hud_Progress_Panel_C:WidgetTree.ProgressWidget_CoolTime'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/Hud_Progress_Panel.3"
+      }
+    }
+  },
+  {
+    "Type": "Hud_Progress_Panel_C",
+    "Name": "Default__Hud_Progress_Panel_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/Hud_Progress_Panel.Hud_Progress_Panel_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/Hud_Progress_Panel",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "HudProgress_Widget_C",
+    "Name": "ProgressWidget_CoolTime",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/HudProgress_Widget.HudProgress_Widget_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Hud_Progress_Panel_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/Hud_Progress_Panel.5"
+    },
+    "Template": {
+      "ObjectName": "HudProgress_Widget_C'Default__HudProgress_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/HudProgress_Widget.21"
+    },
+    "Properties": {
+      "BarBackgroundImage": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.150391,
+            "G": 0.161762,
+            "B": 0.1875,
+            "A": 0.9,
+            "Hex": "E66C7078"
+          }
+        },
+        "ImageSize": {
+          "X": 20.0,
+          "Y": 20.0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'Hud_Progress_Panel_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/Hud_Progress_Panel.1"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Hud_Progress_Panel_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/Hud_Progress_Panel",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Hud_Progress_Panel_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/Hud_Progress_Panel.5"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EHud_Progress_Panel'",
+      "ObjectPath": "/Script/ACUMGBaseModule"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Hud_Progress_Panel_C'Default__Hud_Progress_Panel_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/Hud_Progress_Panel.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Hud_Progress_Panel_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/Hud_Progress_Panel.4"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'Hud_Progress_Panel_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/Hud_Progress_Panel.0"
+      }
+    }
+  }
+]

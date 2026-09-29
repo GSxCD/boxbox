@@ -1,0 +1,2248 @@
+[
+  {
+    "Type": "ACMovieSceneSoundTidSection",
+    "Name": "ACMovieSceneSoundTidSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidSection'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidTrack'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up.ACMovieSceneSoundTidTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.1"
+    },
+    "Properties": {
+      "soundTid": {
+        "Tid": "2000347"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'ui_ingame_raid_pledge_recommend_cue'",
+        "ObjectPath": "SevenDeadlySins/Content/Sounds/ui/ingame/ui_ingame_raid_pledge_recommend_cue.0"
+      },
+      "bKeepPlayingUntilEnd": true,
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.33"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.34"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 11439
+            }
+          }
+        }
+      },
+      "Signature": "D5983B81-429A4D54-0D54D0B6-2CB91EAA"
+    }
+  },
+  {
+    "Type": "ACMovieSceneSoundTidTrack",
+    "Name": "ACMovieSceneSoundTidTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.22"
+    },
+    "Properties": {
+      "AudioSections": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidSection'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.0"
+        }
+      ],
+      "EvaluationFieldGuid": "502F31BC-4EAA9880-113C3E89-FA08DBAC",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "ACMovieSceneSoundTidSection'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.0"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 11439
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "502F31BC-4EAA9880-113C3E89-FA08DBAC"
+    }
+  },
+  {
+    "Type": "Btn_RaidRecommend_Party_C",
+    "Name": "Default__Btn_RaidRecommend_Party_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.Btn_RaidRecommend_Party_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party",
+    "Properties": {
+      "slotType": "EWidgetSlotType::NormalSelectToggle",
+      "ImageStyles": [
+        {
+          "Brush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 32.0,
+              "Y": 32.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": null,
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Brush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 32.0,
+              "Y": 32.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": null,
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        }
+      ],
+      "PressSoundTid": {
+        "Tid": "2000000"
+      },
+      "HoverSoundTid": {
+        "Tid": "2000115"
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "CBButton",
+    "Name": "Btn_Recommend",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Btn_RaidRecommend_Party_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.44"
+    },
+    "Properties": {
+      "ColorAndOpacity": {
+        "R": 3.010092E-36,
+        "G": 1.84757E-40,
+        "B": -2.8863986E+37,
+        "A": -2.8864135E+37,
+        "Hex": "000000"
+      },
+      "bIsEnabledDelegate": {
+        "Object": null,
+        "FunctionName": "Default__MovieScene"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Btn_RaidRecommend_Party_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.44"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Btn_RaidRecommend_Party_C:WidgetTree.CBHorizontalBox.CBHorizontalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.7"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Btn_RaidRecommend_Party_C:WidgetTree.CBHorizontalBox.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.5"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Btn_RaidRecommend_Party_C:WidgetTree.CBHorizontalBox.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.6"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Btn_RaidRecommend_Party_C:WidgetTree.CBOverlay_0.CBOverlaySlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.14"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Btn_RaidRecommend_Party_C:WidgetTree.CBHorizontalBox'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.4"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Btn_RaidRecommend_Party_C:WidgetTree.CBHorizontalBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.4"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Btn_RaidRecommend_Party_C:WidgetTree.Image'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.8"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Btn_RaidRecommend_Party_C:WidgetTree.CBHorizontalBox'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.4"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Btn_RaidRecommend_Party_C:WidgetTree.CBHorizontalBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.4"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Btn_RaidRecommend_Party_C:WidgetTree.Text_Count'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.19"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Btn_RaidRecommend_Party_C:WidgetTree.CBHorizontalBox'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.4"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Btn_RaidRecommend_Party_C:WidgetTree.CBHorizontalBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.4"
+      },
+      "Content": {
+        "ObjectName": "CBRichTextBlock'Btn_RaidRecommend_Party_C:WidgetTree.RichTextBlock_Input'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.16"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Btn_RaidRecommend_Party_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.44"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.23074,
+            "G": 0.191202,
+            "B": 0.144128,
+            "A": 1.0,
+            "Hex": "84796A"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 30.0,
+          "Y": 30.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Dungeon_pledge_recommend'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Dungeon/Frames/Dungeon_pledge_recommend.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Btn_RaidRecommend_Party_C:WidgetTree.CBHorizontalBox.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.5"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Widget_Normal",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Btn_RaidRecommend_Party_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.44"
+    },
+    "Properties": {
+      "Brush": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 70.0,
+          "Y": 70.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Dungeon_btn_bg_01'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Dungeon/Frames/Dungeon_btn_bg_01.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Btn_RaidRecommend_Party_C:WidgetTree.CBOverlay_0.CBOverlaySlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.12"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Widget_Selected",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Btn_RaidRecommend_Party_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.44"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.856027,
+            "B": 0.14241,
+            "A": 1.0,
+            "Hex": "FFEF69"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 70.0,
+          "Y": 70.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Dungeon_btn_bg_01'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Dungeon/Frames/Dungeon_btn_bg_01.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Btn_RaidRecommend_Party_C:WidgetTree.CBOverlay_0.CBOverlaySlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.13"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "CBOverlay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Btn_RaidRecommend_Party_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.44"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Btn_RaidRecommend_Party_C:WidgetTree.CBOverlay_0.CBOverlaySlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.12"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Btn_RaidRecommend_Party_C:WidgetTree.CBOverlay_0.CBOverlaySlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.13"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Btn_RaidRecommend_Party_C:WidgetTree.CBOverlay_0.CBOverlaySlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.14"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Btn_RaidRecommend_Party_C:WidgetTree.CBOverlay_0.CBOverlaySlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.15"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Btn_RaidRecommend_Party_C:WidgetTree.CBSizeBox_19.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.18"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Btn_RaidRecommend_Party_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.11"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Btn_RaidRecommend_Party_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.11"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Btn_RaidRecommend_Party_C:WidgetTree.Widget_Normal'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.9"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Btn_RaidRecommend_Party_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.11"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Btn_RaidRecommend_Party_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.11"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Btn_RaidRecommend_Party_C:WidgetTree.Widget_Selected'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.10"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Btn_RaidRecommend_Party_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.11"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Btn_RaidRecommend_Party_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.11"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Btn_RaidRecommend_Party_C:WidgetTree.CBHorizontalBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.4"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Btn_RaidRecommend_Party_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.11"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Btn_RaidRecommend_Party_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.11"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Btn_RaidRecommend_Party_C:WidgetTree.Btn_Recommend'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.3"
+      }
+    }
+  },
+  {
+    "Type": "CBRichTextBlock",
+    "Name": "RichTextBlock_Input",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBRichTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Btn_RaidRecommend_Party_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.44"
+    },
+    "Properties": {
+      "PlatformVisibility": {
+        "HiddenPlatforms": 4
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichText'",
+        "ObjectPath": "SevenDeadlySins/Content/Table/RichText.0"
+      },
+      "DecoratorClasses": [
+        {
+          "ObjectName": "Class'ERichTextBlockDecoratorOG'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'RichTextImageDataBP_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/UI/RichTextImageDataBP.0"
+        },
+        {
+          "ObjectName": "Class'ERichTextBlockKeyImageDecoratorOG'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      ],
+      "DefaultTextStyleOverride": {
+        "Font": {
+          "FontObject": {
+            "ObjectName": "Font'Font_Default'",
+            "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+          },
+          "TypefaceFontName": "Font_B",
+          "Size": 30.0
+        }
+      },
+      "bOverrideDefaultStyle": true,
+      "ApplyLineHeightToBottomLine": false,
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Btn_RaidRecommend_Party_C:WidgetTree.CBHorizontalBox.CBHorizontalBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.7"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Btn_RaidRecommend_Party_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.44"
+    },
+    "Properties": {
+      "WidthOverride": 120.0,
+      "HeightOverride": 70.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Btn_RaidRecommend_Party_C:WidgetTree.CBSizeBox_19.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.18"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Btn_RaidRecommend_Party_C:WidgetTree.CBSizeBox_19'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.17"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'Btn_RaidRecommend_Party_C:WidgetTree.CBSizeBox_19'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.17"
+      },
+      "Content": {
+        "ObjectName": "CBOverlay'Btn_RaidRecommend_Party_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.11"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "Text_Count",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Btn_RaidRecommend_Party_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.44"
+    },
+    "Properties": {
+      "UseLocalization": false,
+      "Text": {
+        "Namespace": "",
+        "Key": "B14A5AF540A99DBB8C9B8BAE9B129F10",
+        "SourceString": "5",
+        "LocalizedString": "5"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.23074,
+          "G": 0.191202,
+          "B": 0.144128,
+          "A": 1.0,
+          "Hex": "84796A"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.2,
+            "Hex": "33000000"
+          }
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "StrikeBrush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.887923,
+            "G": 0.887923,
+            "B": 0.887923,
+            "A": 1.0,
+            "Hex": "F2F2F2"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Image"
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Btn_RaidRecommend_Party_C:WidgetTree.CBHorizontalBox.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.6"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Hovered",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Btn_RaidRecommend_Party_C:Anim_Hovered_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.40"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "FA02CB1E-4A4FDD9E-C216E99B-CA90C237",
+          "Name": "CBSizeBox_19",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "FA02CB1E-4A4FDD9E-C216E99B-CA90C237",
+          "BindingName": "CBSizeBox_19",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Btn_RaidRecommend_Party_C:Anim_Hovered_INST.Anim_Hovered.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.26"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "91F8A40E-4289622C-C8F327AA-E26789ED"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_UnHovered",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Btn_RaidRecommend_Party_C:Anim_UnHovered_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.41"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "325C6A26-43FC26E0-C6053CBD-6875B083",
+          "Name": "CBSizeBox_19",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "325C6A26-43FC26E0-C6053CBD-6875B083",
+          "BindingName": "CBSizeBox_19",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Btn_RaidRecommend_Party_C:Anim_UnHovered_INST.Anim_UnHovered.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.27"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "5A888318-4628AD4D-86E6FDAA-B42C60F9"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Up",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Btn_RaidRecommend_Party_C:Anim_Up_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.42"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "9A48F3E2-4524D0EA-92AF7DA9-901444CE",
+          "Name": "Text_Count",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "9A48F3E2-4524D0EA-92AF7DA9-901444CE",
+          "BindingName": "Text_Count",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.28"
+            }
+          ]
+        }
+      ],
+      "Tracks": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidTrack'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up.ACMovieSceneSoundTidTrack_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.1"
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 12001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "ClockSource": "EUpdateClockSource::Audio",
+      "Signature": "FA712B3C-43572D35-4D130996-DF3FF305"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Btn_RaidRecommend_Party_C:Anim_Hovered_INST.Anim_Hovered.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.26"
+    },
+    "Properties": {
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.1,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.1,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Btn_RaidRecommend_Party_C:Anim_Hovered_INST.Anim_Hovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.29"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Btn_RaidRecommend_Party_C:Anim_Hovered_INST.Anim_Hovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.30"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "A973DC1C-4BB833F5-45866FA2-3033B2B5"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Btn_RaidRecommend_Party_C:Anim_UnHovered_INST.Anim_UnHovered.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.27"
+    },
+    "Properties": {
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.1,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.1,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Btn_RaidRecommend_Party_C:Anim_UnHovered_INST.Anim_UnHovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.31"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Btn_RaidRecommend_Party_C:Anim_UnHovered_INST.Anim_UnHovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.32"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "668178AE-45C810CB-2C18BFAA-9E1CEC49"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.28"
+    },
+    "Properties": {
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 12000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.5,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 12000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.5,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.35"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.36"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 12000
+            }
+          }
+        }
+      },
+      "Signature": "3FB48CBB-4D45E5EC-147099B3-E91661A3"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Btn_RaidRecommend_Party_C:Anim_Hovered_INST.Anim_Hovered'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.20"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Btn_RaidRecommend_Party_C:Anim_Hovered_INST.Anim_Hovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.23"
+        }
+      ],
+      "EvaluationFieldGuid": "84536A77-41441C20-E5E250BA-E809D126",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Btn_RaidRecommend_Party_C:Anim_Hovered_INST.Anim_Hovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.23"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "84536A77-41441C20-E5E250BA-E809D126"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Btn_RaidRecommend_Party_C:Anim_UnHovered_INST.Anim_UnHovered'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.21"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Btn_RaidRecommend_Party_C:Anim_UnHovered_INST.Anim_UnHovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.24"
+        }
+      ],
+      "EvaluationFieldGuid": "DC7BFAEC-46E099AC-B8233381-3898290D",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Btn_RaidRecommend_Party_C:Anim_UnHovered_INST.Anim_UnHovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.24"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "DC7BFAEC-46E099AC-B8233381-3898290D"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.22"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.25"
+        }
+      ],
+      "EvaluationFieldGuid": "5209A41A-481003EB-4D1A1B8C-28FEDEF8",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.25"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 12000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "5209A41A-481003EB-4D1A1B8C-28FEDEF8"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Btn_RaidRecommend_Party_C:Anim_Hovered_INST.Anim_Hovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.23"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Btn_RaidRecommend_Party_C:Anim_Hovered_INST.Anim_Hovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.23"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Btn_RaidRecommend_Party_C:Anim_UnHovered_INST.Anim_UnHovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.24"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Btn_RaidRecommend_Party_C:Anim_UnHovered_INST.Anim_UnHovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.24"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.25"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.25"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Btn_RaidRecommend_Party_C:Anim_Hovered_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.40"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 15000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Btn_RaidRecommend_Party_C:Anim_Hovered_INST.Anim_Hovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.23"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "FA02CB1E-4A4FDD9E-C216E99B-CA90C237"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 15000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "EE787B52-4B752758-F85B52A2-5D19E928",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Btn_RaidRecommend_Party_C:Anim_UnHovered_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.41"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 15000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Btn_RaidRecommend_Party_C:Anim_UnHovered_INST.Anim_UnHovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.24"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "325C6A26-43FC26E0-C6053CBD-6875B083"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 15000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "E3986A91-40AF66E1-F121A2B3-050BE839",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Btn_RaidRecommend_Party_C:Anim_Up_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.42"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                },
+                {
+                  "StartIndex": 2,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 11439
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 11439
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 12000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "ACMovieSceneSoundTidSection'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.0"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.25"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "ObjectBindingID": "9A48F3E2-4524D0EA-92AF7DA9-901444CE"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 11439
+          },
+          "bInclusive": false
+        },
+        {
+          "FrameNumber": {
+            "Value": 12000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "297EADF2-4EC77E07-C58DFDBD-F65CB8F2",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Hovered_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Btn_RaidRecommend_Party_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.43"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Btn_RaidRecommend_Party_C:Anim_Hovered_INST.Anim_Hovered'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.20"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CBSizeBox_19",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "FA02CB1E-4A4FDD9E-C216E99B-CA90C237",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Hovered",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Btn_RaidRecommend_Party_C:Anim_Hovered_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.37"
+      },
+      "Signature": "EE787B52-4B752758-F85B52A2-5D19E928"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_UnHovered_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Btn_RaidRecommend_Party_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.43"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Btn_RaidRecommend_Party_C:Anim_UnHovered_INST.Anim_UnHovered'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.21"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CBSizeBox_19",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "325C6A26-43FC26E0-C6053CBD-6875B083",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_UnHovered",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Btn_RaidRecommend_Party_C:Anim_UnHovered_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.38"
+      },
+      "Signature": "E3986A91-40AF66E1-F121A2B3-050BE839"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Up_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Btn_RaidRecommend_Party_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.43"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Btn_RaidRecommend_Party_C:Anim_Up_INST.Anim_Up'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.22"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "Text_Count",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "9A48F3E2-4524D0EA-92AF7DA9-901444CE",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Up",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Btn_RaidRecommend_Party_C:Anim_Up_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.39"
+      },
+      "Signature": "297EADF2-4EC77E07-C58DFDBD-F65CB8F2"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Btn_RaidRecommend_Party_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Btn_RaidRecommend_Party_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.44"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'Btn_RaidRecommend_Party_C:Anim_Hovered_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.40"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Btn_RaidRecommend_Party_C:Anim_UnHovered_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.41"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Btn_RaidRecommend_Party_C:Anim_Up_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.42"
+        }
+      ]
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWidget_RaidRecommend_Party'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Btn_RaidRecommend_Party_C'Default__Btn_RaidRecommend_Party_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Btn_RaidRecommend_Party_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.43"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBSizeBox'Btn_RaidRecommend_Party_C:WidgetTree.CBSizeBox_19'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidRecommend_Party.17"
+      }
+    }
+  }
+]

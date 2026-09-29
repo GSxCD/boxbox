@@ -1,0 +1,303 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Tree_Destroy_03_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destrutible_Obj_Base_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Destrutible_Obj_Base.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Tree_Destroy_03_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.10"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Tree_Destroy_03_C:InheritableComponentHandler'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destrutible_Obj_Base_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Destrutible_Obj_Base.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Tree_Destroy_03_C:DebugAnimation_Reset'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.4"
+      },
+      {
+        "ObjectName": "Function'BP_Tree_Destroy_03_C:DebugExecuteOnDestroy_Range'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.6"
+      },
+      {
+        "ObjectName": "Function'BP_Tree_Destroy_03_C:DebugExecuteOnDestroy_Melee'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.5"
+      },
+      {
+        "ObjectName": "Function'BP_Tree_Destroy_03_C:Debug_Start_DestroyAnimation'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.3"
+      }
+    ],
+    "FuncMap": {
+      "Debug_Start_DestroyAnimation": {
+        "ObjectName": "Function'BP_Tree_Destroy_03_C:Debug_Start_DestroyAnimation'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.3"
+      },
+      "DebugExecuteOnDestroy_Melee": {
+        "ObjectName": "Function'BP_Tree_Destroy_03_C:DebugExecuteOnDestroy_Melee'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.5"
+      },
+      "DebugExecuteOnDestroy_Range": {
+        "ObjectName": "Function'BP_Tree_Destroy_03_C:DebugExecuteOnDestroy_Range'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.6"
+      },
+      "DebugAnimation_Reset": {
+        "ObjectName": "Function'BP_Tree_Destroy_03_C:DebugAnimation_Reset'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.4"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Tree_Destroy_03_C'Default__BP_Tree_Destroy_03_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Tree_Destroy_03_C",
+    "Name": "Default__BP_Tree_Destroy_03_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.BP_Tree_Destroy_03_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03",
+    "Template": {
+      "ObjectName": "BP_Destrutible_Obj_Base_C'Default__BP_Destrutible_Obj_Base_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Destrutible_Obj_Base.1"
+    },
+    "Properties": {
+      "DefaultBaseDamage": 1.0,
+      "DefaultDamageRadius": 30.0,
+      "DefaultImpulseStrength": 500000.0,
+      "respawnTime": 5.0,
+      "hitCountMax": 5,
+      "DestructibleComponent": {
+        "ObjectName": "DestructibleComponent'Default__BP_Tree_Destroy_03_C:DestructibleComponent0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.2"
+      },
+      "RootComponent": {
+        "ObjectName": "DestructibleComponent'Default__BP_Tree_Destroy_03_C:DestructibleComponent0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.2"
+      }
+    }
+  },
+  {
+    "Type": "DestructibleComponent",
+    "Name": "DestructibleComponent0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DestructibleComponent'",
+    "Outer": {
+      "ObjectName": "BP_Tree_Destroy_03_C'Default__BP_Tree_Destroy_03_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.1"
+    },
+    "Template": {
+      "ObjectName": "DestructibleComponent'Default__BP_Destrutible_Obj_Base_C:DestructibleComponent0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Destrutible_Obj_Base.2"
+    },
+    "Properties": {
+      "FractureEffects": [
+        {
+          "ParticleSystem": null,
+          "Sound": null
+        },
+        {
+          "ParticleSystem": null,
+          "Sound": null
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Debug_Start_DestroyAnimation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Tree_Destroy_03_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsHitProjectile",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "ImpulseStrength",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Vector_Forward_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetComponentLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_ApplyDamage_ImpulseStrength_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "DebugAnimation_Reset",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Tree_Destroy_03_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.0"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_Destrutible_Obj_Base_C:DebugAnimation_Reset'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Destrutible_Obj_Base.8"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_Destrutible_Obj_Base_C:DebugAnimation_Reset'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Destrutible_Obj_Base.8"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "DebugExecuteOnDestroy_Melee",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Tree_Destroy_03_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.0"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_Destrutible_Obj_Base_C:DebugExecuteOnDestroy_Melee'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Destrutible_Obj_Base.9"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_Destrutible_Obj_Base_C:DebugExecuteOnDestroy_Melee'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Destrutible_Obj_Base.9"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "DebugExecuteOnDestroy_Range",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Tree_Destroy_03_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.0"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_Destrutible_Obj_Base_C:DebugExecuteOnDestroy_Range'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Destrutible_Obj_Base.10"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_Destrutible_Obj_Base_C:DebugExecuteOnDestroy_Range'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Destrutible_Obj_Base.10"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Tree_Destroy_03_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Tree_Destroy_03_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Tree_Destroy_03_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.10"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Tree_Destroy_03_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.8"
+      },
+      "VariableGUID": "CDEE3A99-446C7BC7-68E5C6AC-C96EEBB4",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Tree_Destroy_03_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Tree_Destroy_03_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_Tree_Destroy_03.9"
+      }
+    }
+  }
+]

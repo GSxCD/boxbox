@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CurrencySwapTable",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/CurrencySwapTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UECurrencySwapTable'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "gacha_swap": {
+        "Base_Currency": "ECurrencyType::Dia_Free",
+        "Swap_Currency": "ECurrencyType::Cash_Paid",
+        "SwapRate": 1,
+        "String_Tid": "gacha_swap",
+        "Local_Key": "None"
+      },
+      "normal_ticket_swap": {
+        "Base_Currency": "ECurrencyType::Normal_Ticket",
+        "Swap_Currency": "ECurrencyType::Dia_Free",
+        "SwapRate": 300,
+        "String_Tid": "normal_ticket_swap",
+        "Local_Key": "None"
+      },
+      "pickup_ticket_swap": {
+        "Base_Currency": "ECurrencyType::Pickup_Ticket",
+        "Swap_Currency": "ECurrencyType::Dia_Free",
+        "SwapRate": 300,
+        "String_Tid": "pickup_ticket_swap",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

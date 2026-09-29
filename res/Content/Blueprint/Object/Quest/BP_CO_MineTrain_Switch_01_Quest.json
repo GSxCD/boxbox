@@ -1,0 +1,852 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_CO_MineTrain_Switch_01_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.25"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PointLight1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SearchFx",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PointLight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "S_MineLever_A01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CBStaticMeshComponent'",
+          "ObjectPath": "/Script/CBResourceModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "S_MineLever_A04",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CBStaticMeshComponent'",
+          "ObjectPath": "/Script/CBResourceModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "S_MineLever_A03",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CBStaticMeshComponent'",
+          "ObjectPath": "/Script/CBResourceModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "S_MineSign_A01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CBStaticMeshComponent'",
+          "ObjectPath": "/Script/CBResourceModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "S_MineLever_A02",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CBStaticMeshComponent'",
+          "ObjectPath": "/Script/CBResourceModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "GaugeDirectingFX",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ENiagaraComponent'",
+          "ObjectPath": "/Script/ACActorModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "fx_gilthunder_adventure_hit_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_CO_MineTrain_Switch_01_Quest_C'Default__BP_CO_MineTrain_Switch_01_Quest_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_CO_MineTrain_Switch_01_Quest_C",
+    "Name": "Default__BP_CO_MineTrain_Switch_01_Quest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.BP_CO_MineTrain_Switch_01_Quest_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest",
+    "Properties": {
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_CO_MineTrain_Switch_01_Quest_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.13"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_CO_MineTrain_Switch_01_Quest_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.13"
+      }
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "S_MineLever_A01_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_MineTrain_Switch_01_Quest_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_MineLever_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Meshes/S_MineLever_A01.1"
+      },
+      "RelativeLocation": {
+        "X": 65.91058,
+        "Y": -18.719578,
+        "Z": 132.37436
+      },
+      "RelativeRotation": {
+        "Pitch": 45.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      }
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "S_MineLever_A02_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_MineTrain_Switch_01_Quest_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_MineLever_A02'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Meshes/S_MineLever_A02.1"
+      },
+      "RelativeLocation": {
+        "X": -7.563198,
+        "Y": 0.0,
+        "Z": -5.579861E-08
+      },
+      "RelativeScale3D": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      }
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "S_MineLever_A03_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_MineTrain_Switch_01_Quest_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_MineLever_A03'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Meshes/S_MineLever_A03.1"
+      },
+      "RelativeLocation": {
+        "X": 65.50979,
+        "Y": -1.1406583,
+        "Z": -5.4511237
+      },
+      "RelativeScale3D": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      }
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "S_MineLever_A04_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_MineTrain_Switch_01_Quest_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_MineLever_A04'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Meshes/S_MineLever_A04.1"
+      },
+      "RelativeLocation": {
+        "X": 65.27585,
+        "Y": 5.684342E-14,
+        "Z": 14.203478
+      },
+      "RelativeScale3D": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      }
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "S_MineSign_A01_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_MineTrain_Switch_01_Quest_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_MineSign_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Meshes/S_MineSign_A01.1"
+      },
+      "RelativeLocation": {
+        "X": 266.12793,
+        "Y": 31.225819,
+        "Z": 10.326892
+      }
+    }
+  },
+  {
+    "Type": "ENiagaraComponent",
+    "Name": "GaugeDirectingFX_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ENiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_MineTrain_Switch_01_Quest_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.0"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 60.0
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "fx_gilthunder_adventure_hit_1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_MineTrain_Switch_01_Quest_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.0"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 50.0
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "SearchFx_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_MineTrain_Switch_01_Quest_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.0"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_gil_thunder_adventure_objectaim'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/Cha/PC/PC_Gil_Thunder/Common/Adventure_Skill/fx_gil_thunder_adventure_objectaim.22"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "BuffCount",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.BuffCount",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.BuffCount",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "RelativeLocation": {
+        "X": -0.18974356,
+        "Y": 17.5,
+        "Z": 76.46551
+      },
+      "RelativeScale3D": {
+        "X": 0.8,
+        "Y": 0.8,
+        "Z": 0.8
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_MineTrain_Switch_01_Quest_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.0"
+    },
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 3.0,
+      "AttenuationRadius": 700.0,
+      "Intensity": 20.0,
+      "LightColor": {
+        "B": 140,
+        "G": 189,
+        "R": 232,
+        "A": 255,
+        "Hex": "E8BD8C"
+      },
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 270.7546,
+        "Y": 42.374447,
+        "Z": 346.97845
+      },
+      "RelativeScale3D": {
+        "X": 6.876371,
+        "Y": 6.876371,
+        "Z": 6.876371
+      }
+    },
+    "IntensityNits": 20.0
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_MineTrain_Switch_01_Quest_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.0"
+    },
+    "Properties": {
+      "AttenuationRadius": 100.0,
+      "LightColor": {
+        "B": 175,
+        "G": 175,
+        "R": 209,
+        "A": 255,
+        "Hex": "D1AFAF"
+      },
+      "RelativeLocation": {
+        "X": 7.345568,
+        "Y": 53.70222,
+        "Z": 71.84757
+      },
+      "RelativeScale3D": {
+        "X": 0.6666667,
+        "Y": 0.6666667,
+        "Z": 0.6666667
+      }
+    },
+    "IntensityNits": 0.0
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_MineTrain_Switch_01_Quest_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_CO_MineTrain_Switch_01_Quest_C'Default__BP_CO_MineTrain_Switch_01_Quest_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_CO_MineTrain_Switch_01_Quest_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.12"
+      },
+      "VariableGUID": "207A9C28-4953CF1C-D3617E8E-7A7C762C",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'BP_CO_MineTrain_Switch_01_Quest_C:SearchFx_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.9"
+      },
+      "VariableGUID": "62ED13AE-4DB088A1-42BA4884-4336C94B",
+      "InternalVariableName": "SearchFx"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BP_CO_MineTrain_Switch_01_Quest_C:PointLight1_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.10"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "450ABF6B-45B58E2D-D8DC299B-89E220C2",
+      "InternalVariableName": "PointLight1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'BP_CO_MineTrain_Switch_01_Quest_C:fx_gilthunder_adventure_hit_1_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.8"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "788BDBA3-40E3117F-FE634FB1-D6310F53",
+      "InternalVariableName": "fx_gilthunder_adventure_hit_1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CBStaticMeshComponent'",
+        "ObjectPath": "/Script/CBResourceModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBStaticMeshComponent'BP_CO_MineTrain_Switch_01_Quest_C:S_MineLever_A02_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.3"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "E1DB6A95-4EB53355-D0BB3BA4-4946CA16",
+      "InternalVariableName": "S_MineLever_A02"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ENiagaraComponent'",
+        "ObjectPath": "/Script/ACActorModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ENiagaraComponent'BP_CO_MineTrain_Switch_01_Quest_C:GaugeDirectingFX_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.7"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "5B3E4101-4B7D296C-2BFBABB7-3FA14395",
+      "InternalVariableName": "GaugeDirectingFX"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CBStaticMeshComponent'",
+        "ObjectPath": "/Script/CBResourceModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBStaticMeshComponent'BP_CO_MineTrain_Switch_01_Quest_C:S_MineLever_A03_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.4"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "C572597F-4DBC62B2-43C89190-C3637B22",
+      "InternalVariableName": "S_MineLever_A03"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CBStaticMeshComponent'",
+        "ObjectPath": "/Script/CBResourceModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBStaticMeshComponent'BP_CO_MineTrain_Switch_01_Quest_C:S_MineLever_A04_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.5"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "9A4215ED-47D9FD73-C9123E9C-123678D6",
+      "InternalVariableName": "S_MineLever_A04"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CBStaticMeshComponent'",
+        "ObjectPath": "/Script/CBResourceModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBStaticMeshComponent'BP_CO_MineTrain_Switch_01_Quest_C:S_MineLever_A01_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.2"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.15"
+        }
+      ],
+      "VariableGUID": "622D9F95-408AC8F9-0DDAA4AF-3821DC08",
+      "InternalVariableName": "S_MineLever_A01"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CBStaticMeshComponent'",
+        "ObjectPath": "/Script/CBResourceModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBStaticMeshComponent'BP_CO_MineTrain_Switch_01_Quest_C:S_MineSign_A01_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.6"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "4704A66B-42010F06-F4D07B9C-D78E9778",
+      "InternalVariableName": "S_MineSign_A01"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BP_CO_MineTrain_Switch_01_Quest_C:PointLight_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.11"
+      },
+      "VariableGUID": "5B5AD0C3-4B5A81D1-9CBF289F-0CB16BA2",
+      "InternalVariableName": "PointLight"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_MineTrain_Switch_01_Quest_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.16"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.16"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_CO_MineTrain_Switch_01_Quest_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_CO_MineTrain_Switch_01_Quest.14"
+      }
+    }
+  }
+]

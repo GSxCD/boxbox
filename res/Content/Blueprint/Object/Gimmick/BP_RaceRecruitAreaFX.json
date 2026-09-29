@@ -1,0 +1,643 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_RaceRecruitAreaFX_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_RaceRecruitAreaFX_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.12"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_RaceRecruitAreaFX_C:ExecuteUbergraph_BP_RaceRecruitAreaFX'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_RaceRecruitAreaFX_C:SetRecruitAreaSize'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.7"
+      },
+      {
+        "ObjectName": "Function'BP_RaceRecruitAreaFX_C:SetOverlapSize'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.6"
+      },
+      {
+        "ObjectName": "Function'BP_RaceRecruitAreaFX_C:ReceiveActorBeginOverlap'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.5"
+      },
+      {
+        "ObjectName": "Function'BP_RaceRecruitAreaFX_C:ExecuteUbergraph_BP_RaceRecruitAreaFX'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.4"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OverlapCheck",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "RecruitAreaFX",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ENiagaraComponent'",
+          "ObjectPath": "/Script/ACActorModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_RaceRecruitAreaFX": {
+        "ObjectName": "Function'BP_RaceRecruitAreaFX_C:ExecuteUbergraph_BP_RaceRecruitAreaFX'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.4"
+      },
+      "ReceiveActorBeginOverlap": {
+        "ObjectName": "Function'BP_RaceRecruitAreaFX_C:ReceiveActorBeginOverlap'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.5"
+      },
+      "SetOverlapSize": {
+        "ObjectName": "Function'BP_RaceRecruitAreaFX_C:SetOverlapSize'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.6"
+      },
+      "SetRecruitAreaSize": {
+        "ObjectName": "Function'BP_RaceRecruitAreaFX_C:SetRecruitAreaSize'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.7"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_RaceRecruitAreaFX_C'Default__BP_RaceRecruitAreaFX_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_RaceRecruitAreaFX_C",
+    "Name": "Default__BP_RaceRecruitAreaFX_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.BP_RaceRecruitAreaFX_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "OverlapCheck_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RaceRecruitAreaFX_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.0"
+    },
+    "Properties": {
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel17",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Trigger",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapObject",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "ComponentTags": [
+        "CancelAdventureSkill",
+        "InteractionBlock"
+      ]
+    }
+  },
+  {
+    "Type": "ENiagaraComponent",
+    "Name": "RecruitAreaFX_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ENiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RaceRecruitAreaFX_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.0"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_ns_pvp_range'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/Common/System/fx_ns_pvp_range.241"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "DS_Tile_Offset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector4f'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.DS_Tile_Offset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector4f'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Hue",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Hue",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Size",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector3f'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Size",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector3f'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.DS_Tile_Offset",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector4f'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 16,
+            "Name": "User.Hue",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 20,
+            "Name": "User.Size",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector3f'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          64,
+          64,
+          154,
+          153,
+          153,
+          62,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          31,
+          71,
+          235,
+          62,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          32,
+          65
+        ]
+      },
+      "RelativeScale3D": {
+        "X": 0.95,
+        "Y": 0.95,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_RaceRecruitAreaFX",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RaceRecruitAreaFX_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_CustomEvent_Size",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Conv_IntToDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "K2Node_CustomEvent_JoinRadius",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsSameMyActor_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetCapsuleRadius_Radius_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveActorBeginOverlap",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RaceRecruitAreaFX_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveActorBeginOverlap'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetOverlapSize",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RaceRecruitAreaFX_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "DoubleProperty",
+        "Name": "JoinRadius",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetRecruitAreaSize",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RaceRecruitAreaFX_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Size",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RaceRecruitAreaFX_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RaceRecruitAreaFX_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_RaceRecruitAreaFX_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.8"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_RaceRecruitAreaFX_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RaceRecruitAreaFX_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.10"
+        }
+      ],
+      "VariableGUID": "EE9BA62C-49E2C32C-443D1EAB-F9647B55",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RaceRecruitAreaFX_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_RaceRecruitAreaFX_C:OverlapCheck_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.2"
+      },
+      "VariableGUID": "3C3C7ECF-45AF9259-59D9DEB6-15153750",
+      "InternalVariableName": "OverlapCheck"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RaceRecruitAreaFX_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ENiagaraComponent'",
+        "ObjectPath": "/Script/ACActorModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ENiagaraComponent'BP_RaceRecruitAreaFX_C:RecruitAreaFX_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.3"
+      },
+      "VariableGUID": "0D45EE57-4B21C3DB-8DCE07BD-7836B2EB",
+      "InternalVariableName": "RecruitAreaFX"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RaceRecruitAreaFX_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_RaceRecruitAreaFX_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.9"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_RaceRecruitAreaFX_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RaceRecruitAreaFX_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RaceRecruitAreaFX_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.10"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_RaceRecruitAreaFX_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_RaceRecruitAreaFX.9"
+      }
+    }
+  }
+]

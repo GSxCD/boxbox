@@ -1,0 +1,265 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ElementStone_Wind_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ElementStone_Wind_01_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.8"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_ElementStone'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ENiagara",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ENiagaraComponent'",
+          "ObjectPath": "/Script/ACActorModule"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ElementStone_Wind_01_C'Default__BP_ElementStone_Wind_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_ElementStone_Wind_01_C",
+    "Name": "Default__BP_ElementStone_Wind_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.BP_ElementStone_Wind_01_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01",
+    "Properties": {
+      "ElementEffectTid": "200074",
+      "ElementType": "Wind",
+      "CoreMesh": {
+        "ObjectName": "CBSkeletalMeshComponent'Default__BP_ElementStone_Wind_01_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.2"
+      },
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_ElementStone_Wind_01_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.5"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_ElementStone_Wind_01_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.5"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElementStone_Wind_01_C'Default__BP_ElementStone_Wind_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.1"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_ElementStone_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ABP_ElementStone.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'S_DesertDevice_A04'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_DesertDevice/S_DesertDevice_A/Mesh/S_DesertDevice_A04.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'S_DesertDevice_A04'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_DesertDevice/S_DesertDevice_A/Mesh/S_DesertDevice_A04.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel4",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Trigger",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapObject",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherCharacterBlock",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_ElementStone_Wind_01_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.5"
+      }
+    }
+  },
+  {
+    "Type": "ENiagaraComponent",
+    "Name": "ENiagara_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ENiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElementStone_Wind_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.0"
+    },
+    "Properties": {
+      "OverrideParameters": {}
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElementStone_Wind_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElementStone_Wind_01_C'Default__BP_ElementStone_Wind_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ElementStone_Wind_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ElementStone_Wind_01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.4"
+      },
+      "VariableGUID": "3A7BC966-4A9C9610-BDEE6A80-868F5655",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ElementStone_Wind_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ENiagaraComponent'",
+        "ObjectPath": "/Script/ACActorModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ENiagaraComponent'BP_ElementStone_Wind_01_C:ENiagara_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.3"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "1C4DFC6B-4092B3C1-A45BF595-DEF2DE4B",
+      "InternalVariableName": "ENiagara"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElementStone_Wind_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ElementStone_Wind_01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.7"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ElementStone_Wind_01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.7"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ElementStone_Wind_01_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/BP_ElementStone_Wind_01.6"
+      }
+    }
+  }
+]

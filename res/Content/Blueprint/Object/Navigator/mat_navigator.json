@@ -1,0 +1,218 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mat_navigator",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Navigator/mat_navigator",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'fx_m_distort'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/Resources/Materials/Master/Base/fx_m_distort.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Use_RedToAlpha",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "5B78BDCD-46807212-0C3824A7-AD1CD328"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Main_Speed_X",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": -0.7,
+          "ExpressionGUID": "1785F0A7-431ADC05-4C6C8197-8A5750CA"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Main_Speed_Y",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "BC02EFDC-46564471-3BD42A8E-93ED1A40"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Mask_Speed_X",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "0B9C900C-4D60B9DE-CBBF0CB3-DE2780C9"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Distort_Speed_X",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "6546DB44-4A3883A4-69541794-B90B92CE"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Distort_Speed_Y",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "1C056F29-453C3A39-9DA94594-5BBE6D27"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Distort_Strength_X",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.2,
+          "ExpressionGUID": "8C5358BA-48748D8F-2B6C9A92-5160746B"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Distort_Strength_Y",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.1,
+          "ExpressionGUID": "375F1B7C-4D462ABB-0E396DA3-6AAF6DCA"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "MainTex_Tilling_Offset",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": -1.0,
+            "G": 1.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "00FF00"
+          },
+          "ExpressionGUID": "89CC975E-4CD101B1-919AF9A7-9EAF0DED"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "MaskTex_Tilling_Offset",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.5,
+            "G": 1.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "BCFF00"
+          },
+          "ExpressionGUID": "2E9269CD-4F35BFF5-1D098AB7-70C230F1"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Distort_Tilling_Offset",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 2.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "FFFF00"
+          },
+          "ExpressionGUID": "67D99D74-4545F318-DDBA74BA-4FE20636"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "MainTex",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'fx_t_fill_white_z01'",
+            "ObjectPath": "SevenDeadlySins/Content/VFX/Resources/Textures/fx_t_fill_white_z01.0"
+          },
+          "ExpressionGUID": "61D2C767-4209F80C-D3B3F58E-DD1D574F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "MaskTex_Grayscale",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'fx_t_gs_mask_z24'",
+            "ObjectPath": "SevenDeadlySins/Content/VFX/Resources/Textures/GrayScale/fx_t_gs_mask_z24.0"
+          },
+          "ExpressionGUID": "47306332-47FCB61E-8B55D097-9B3EC300"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "DistortTex_Grayscale",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'fx_t_gs_mask_z24'",
+            "ObjectPath": "SevenDeadlySins/Content/VFX/Resources/Textures/GrayScale/fx_t_gs_mask_z24.0"
+          },
+          "ExpressionGUID": "B048676C-4FA60D51-65E21F8A-E7DB8C62"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bBlendWithWaterSurfaceOpacity": true,
+        "bIsCorrectWaterEnabled": true,
+        "bRenderCustomStencil": true,
+        "BlendMode": "EBlendMode::BLEND_TranslucentGreyTransmittance",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParametersRuntime": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "C_UseMaskTex",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "ADD065EB-43DD8AFC-21906BA4-12A7C274"
+          }
+        ]
+      },
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 0.4375,
+          "UVChannelIndex": 0,
+          "TextureName": "fx_t_fill_white_z01"
+        }
+      ],
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

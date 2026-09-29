@@ -1,0 +1,103 @@
+[
+  {
+    "Type": "ETileView",
+    "Name": "TileView",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETileView'",
+    "Outer": {
+      "ObjectName": "WidgetTree'InteractionList_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Interaction/InteractionList_Widget.3"
+    },
+    "Properties": {
+      "bCacheViewData": true,
+      "EntryHeight": 44.0,
+      "EntryWidth": 74.0,
+      "TileAlignment": "EListItemAlignment::EvenlySize",
+      "SelectionMode": "ESelectionMode::None",
+      "bIsFocusable": false,
+      "HorizontalEntrySpacing": 10.0,
+      "VerticalEntrySpacing": 10.0,
+      "EntryWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'Interaction_ButtonGroup_Widget_C'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Interaction/Interaction_ButtonGroup_Widget.10"
+      },
+      "AllowOverscroll": false,
+      "bEnableRightClickScrolling": false,
+      "bAllowDragging": false,
+      "bIsVariable": false,
+      "Clipping": "EWidgetClipping::Inherit"
+    }
+  },
+  {
+    "Type": "InteractionList_Widget_C",
+    "Name": "Default__InteractionList_Widget_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Interaction/InteractionList_Widget.InteractionList_Widget_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Interaction/InteractionList_Widget",
+    "Properties": {
+      "bFillUpEmptySlotAtNativeConstruct": false,
+      "SelectType": "ESlotSelectType::Single",
+      "ChildPTName": "ACPT::Interaction_ButtonGroup_Widget",
+      "ChildBPName": "Interaction_ButtonGroup_Widget",
+      "EntryWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'TileView_Slot_C'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Slot/TileView_Slot.2"
+      },
+      "Orientation": "EOrientation::Orient_Vertical",
+      "EntrySpacing": 2.0,
+      "EntryWidth": 220.0,
+      "EntryHeight": 44.0,
+      "bDisplayEmptySlot": false,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "InteractionList_Widget_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Interaction/InteractionList_Widget",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'InteractionList_Widget_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Interaction/InteractionList_Widget.3"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EInteractionList_Widget'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "InteractionList_Widget_C'Default__InteractionList_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Interaction/InteractionList_Widget.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'InteractionList_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Interaction/InteractionList_Widget.2"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "ETileView'InteractionList_Widget_C:WidgetTree.TileView'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Interaction/InteractionList_Widget.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,994 @@
+[
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Map_Select_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.18"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Map_Select_Widget_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.1"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Map_Select_Widget_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Map_Select_Widget_C:WidgetTree.CBCanvasPanel_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.0"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Map_Select_Widget_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.0"
+      },
+      "Content": {
+        "ObjectName": "NiagaraSystemWidget'Map_Select_Widget_C:WidgetTree.NS_Seleted_Once'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.15"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Map_Select_Widget_C:WidgetTree.CBCanvasPanel_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.0"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 128.0,
+          "Bottom": 128.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Map_Select_Widget_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.0"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Map_Select_Widget_C:WidgetTree.CBImage_23'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.3"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Map_Select_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.18"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'UI_MI_MapSelect'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/Contents/UI_MI_MapSelect.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Map_Select_Widget_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.2"
+      }
+    }
+  },
+  {
+    "Type": "Map_Select_Widget_C",
+    "Name": "Default__Map_Select_Widget_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.Map_Select_Widget_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget",
+    "Properties": {
+      "PressSoundTid": {
+        "Tid": "2000000"
+      },
+      "HoverSoundTid": {
+        "Tid": "2000115"
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Show",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Map_Select_Widget_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.16"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "405CB81E-4A3E7BA3-E695CCB7-6BC22449",
+          "Name": "CBImage_23",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "58276E90-43E6A7A0-8161878F-69398E1B",
+          "Name": "NS_Seleted_Once",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "405CB81E-4A3E7BA3-E695CCB7-6BC22449",
+          "BindingName": "CBImage_23",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.14"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "58276E90-43E6A7A0-8161878F-69398E1B",
+          "BindingName": "NS_Seleted_Once",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneBoolTrack'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.7"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 21001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "EDCB5267-4016377F-A479D783-2BF37611"
+    }
+  },
+  {
+    "Type": "MovieSceneBoolSection",
+    "Name": "MovieSceneBoolSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBoolSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolTrack'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.7"
+    },
+    "Properties": {
+      "BoolCurve": {
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 3000
+          },
+          {
+            "Value": 9000
+          }
+        ],
+        "Values": [
+          false,
+          true,
+          false
+        ]
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1.MovieSceneBoolSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.8"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1.MovieSceneBoolSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.9"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 21000
+            }
+          }
+        }
+      },
+      "Signature": "9FCB4D91-45F18192-A248B287-32BB4F83"
+    }
+  },
+  {
+    "Type": "MovieSceneBoolTrack",
+    "Name": "MovieSceneBoolTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBoolTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Map_Select_Widget_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.5"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "bPlayNiagara",
+        "PropertyPath": "bPlayNiagara",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneBoolSection'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1.MovieSceneBoolSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.6"
+        }
+      ],
+      "EvaluationFieldGuid": "620DA0CB-493B3428-4AFE2FA8-B848872C",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneBoolSection'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1.MovieSceneBoolSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.6"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 21000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "620DA0CB-493B3428-4AFE2FA8-B848872C"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolSection'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1.MovieSceneBoolSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.6"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolSection'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1.MovieSceneBoolSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.6"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.13"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.13"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Map_Select_Widget_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.16"
+    },
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "58276E90-43E6A7A0-8161878F-69398E1B",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "SourceTrack": {
+                "ObjectName": "MovieSceneBoolTrack'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.7"
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneBoolPropertySectionTemplate",
+                  "Data": {
+                    "BoolCurve": {
+                      "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                      "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                      "Times": [
+                        {
+                          "Value": 0
+                        },
+                        {
+                          "Value": 3000
+                        },
+                        {
+                          "Value": 9000
+                        }
+                      ],
+                      "DefaultValue": false,
+                      "bHasDefaultValue": false,
+                      "Values": [
+                        false,
+                        true,
+                        false
+                      ]
+                    },
+                    "PropertyData": {
+                      "PropertyName": "PlayNiagara",
+                      "PropertyPath": "bPlayNiagara"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneBoolSection'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneBoolTrack_1.MovieSceneBoolSection_0'",
+                      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.6"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "620DA0CB-493B3428-4AFE2FA8-B848872C",
+              "Value": {
+                "Value": 0
+              }
+            }
+          ]
+        }
+      },
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 21000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.13"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "405CB81E-4A3E7BA3-E695CCB7-6BC22449"
+          }
+        ]
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 21000
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 21000
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 1
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 21000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "5BEFB606-43C302DD-2C7B319A-0EB2EEF2",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::14",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::14"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.14"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.10"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.11"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 21000
+            }
+          }
+        }
+      },
+      "Signature": "CCC1EC81-45649A8C-24EEFFAC-D200AF28"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Map_Select_Widget_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.5"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.13"
+        }
+      ],
+      "EvaluationFieldGuid": "25DC06F0-4EF4CA24-3AC6B1B0-42A59A8E",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Map_Select_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.13"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 21000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "25DC06F0-4EF4CA24-3AC6B1B0-42A59A8E"
+    }
+  },
+  {
+    "Type": "NiagaraSystemWidget",
+    "Name": "NS_Seleted_Once",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraSystemWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Map_Select_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.18"
+    },
+    "Properties": {
+      "NiagaraSystemReference": {
+        "ObjectName": "NiagaraSystem'UI_NS_spread_glow_01_blend'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Niagara/Common/UI_NS_spread_glow_01_blend.22"
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Map_Select_Widget_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.1"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.8,
+          "Y": 0.8
+        }
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Show_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Map_Select_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.17"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Map_Select_Widget_C:Anim_Show_INST.Anim_Show'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.5"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "NS_Seleted_Once",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "58276E90-43E6A7A0-8161878F-69398E1B",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "CBImage_23",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "405CB81E-4A3E7BA3-E695CCB7-6BC22449",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Show",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Map_Select_Widget_C:Anim_Show_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.12"
+      },
+      "Signature": "5BEFB606-43C302DD-2C7B319A-0EB2EEF2"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Map_Select_Widget_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Map_Select_Widget_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.18"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'Map_Select_Widget_C:Anim_Show_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.16"
+        }
+      ]
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWidgetSlot'",
+      "ObjectPath": "/Script/ACUMGBaseModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBImage_23",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Map_Select_Widget_C'Default__Map_Select_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Map_Select_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.17"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'Map_Select_Widget_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Select_Widget.0"
+      }
+    }
+  }
+]

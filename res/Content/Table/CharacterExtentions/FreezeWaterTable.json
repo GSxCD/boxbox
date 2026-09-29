@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "FreezeWaterTable",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/CharacterExtentions/FreezeWaterTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UEFreezeWaterTable'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "1016": {
+        "AdventureSkill_Tid": {
+          "Display_Type": "EAdventureSkillDisplayType::Common",
+          "EnableBattleState": true,
+          "EnableMoveState": [
+            "EMoveMode::Ground"
+          ],
+          "Condition_Type": "EAdventureSkillActiveCondition::CoolTime",
+          "Condition_Value": "5000",
+          "ControlType": "EAdventureSkillControlType::ActiveToggle",
+          "Icon": "icon_adventureskill_jericho",
+          "AdventureSkill_SkillTid": [
+            "jericho_activity_001"
+          ],
+          "SkillTID": [
+            "jericho_activity_001",
+            "jericho_activity_002",
+            "jericho_activity_003"
+          ],
+          "Ignore_ElementalDamageType": [],
+          "Sound_Tid": "None",
+          "Active_Sound_Tid": "None",
+          "Loop_Sound_Tid": "None",
+          "Contents_OnOff": {
+            "EnableDungeonUse": true,
+            "EnableQuestDungeonUse": true,
+            "EnableDeathMatchUse": false,
+            "EnableTeamDeathMatchUse": false,
+            "EnableTeamRoundMatchUse": false,
+            "EnablePVPMatchUse": false,
+            "EnableRaceUse": false,
+            "EnableBoardingObjStateUse": true,
+            "EnableMovingObjStateUse": true,
+            "EnableMultiObjStateUse": true,
+            "EnableActorChangeUse": true,
+            "EnableQuestAlbionSectorUse": true,
+            "EnableEnterSectorUse": true,
+            "String_Tid": "None",
+            "Local_Key": "freeze_contentsonoff"
+          },
+          "String_Tid": "freeze",
+          "Local_Key": "None"
+        },
+        "FreezeTickInterval": 175,
+        "FreezeRadius": 375,
+        "FreezeDuration": 3000,
+        "TickFxTid": "fx_ns_freeze_water",
+        "String_Tid": "1016",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

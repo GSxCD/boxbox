@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "UpdraftTable",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/CharacterExtentions/UpdraftTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UEUpDraftTable'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "1004": {
+        "AdventureSkill_Tid": {
+          "Display_Type": "EAdventureSkillDisplayType::Common",
+          "EnableBattleState": false,
+          "EnableMoveState": [
+            "EMoveMode::Ground",
+            "EMoveMode::UpDraft"
+          ],
+          "Condition_Type": "EAdventureSkillActiveCondition::CoolTime",
+          "Condition_Value": "12000",
+          "ControlType": "EAdventureSkillControlType::Charge",
+          "Icon": "icon_adventureskill_howzer",
+          "AdventureSkill_SkillTid": [
+            "howzer_activity_000"
+          ],
+          "SkillTID": [
+            "howzer_activity_000"
+          ],
+          "Ignore_ElementalDamageType": [],
+          "Sound_Tid": "None",
+          "Active_Sound_Tid": "None",
+          "Loop_Sound_Tid": "None",
+          "Contents_OnOff": {
+            "EnableDungeonUse": false,
+            "EnableQuestDungeonUse": false,
+            "EnableDeathMatchUse": false,
+            "EnableTeamDeathMatchUse": false,
+            "EnableTeamRoundMatchUse": false,
+            "EnablePVPMatchUse": false,
+            "EnableRaceUse": false,
+            "EnableBoardingObjStateUse": false,
+            "EnableMovingObjStateUse": false,
+            "EnableMultiObjStateUse": false,
+            "EnableActorChangeUse": true,
+            "EnableQuestAlbionSectorUse": true,
+            "EnableEnterSectorUse": true,
+            "String_Tid": "None",
+            "Local_Key": "updraft_contentsonoff"
+          },
+          "String_Tid": "updraft",
+          "Local_Key": "None"
+        },
+        "UpDraftFXs": [
+          "fx_ns_howzer_updraft_1",
+          "fx_ns_howzer_updraft_2",
+          "fx_ns_howzer_updraft_3"
+        ],
+        "UpDraftFXRotSpaces": [
+          "EFxRotationSpace::World",
+          "EFxRotationSpace::World",
+          "EFxRotationSpace::World"
+        ],
+        "UpDraftFXSockets": [
+          "root",
+          "root",
+          "root"
+        ],
+        "Updraft_Start_MotionAnim": "howzer_adventure_skill_loop_0_mtg",
+        "Updraft_Loop_MotionAnim": [
+          "howzer_adventure_skill_loop_1_mtg",
+          "howzer_adventure_skill_loop_2_mtg",
+          "howzer_adventure_skill_loop_3_mtg"
+        ],
+        "Updraft_End_MotionAnim": "howzer_adventure_skill_end_mtg",
+        "Updraft_Step_Time": [
+          3000,
+          3000,
+          5000
+        ],
+        "Updraft_Radius": [
+          200,
+          300,
+          400
+        ],
+        "Updraft_Disable_Height": 400,
+        "Updraft_SkillTid": [
+          "howzer_activity_001",
+          "howzer_activity_002",
+          "howzer_activity_003"
+        ],
+        "Updraft_Step_Z_Move": 1200,
+        "Updraft_Step_ReachTime": 2000,
+        "Updraft_Step1_Z_Move_Curve": "updraft_curve",
+        "Updraft_CoolTime": 9000,
+        "String_Tid": "1004",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

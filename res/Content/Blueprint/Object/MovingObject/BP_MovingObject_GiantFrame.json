@@ -1,0 +1,568 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_MovingObject_GiantFrame_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_MovingObject_GiantFrame_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.14"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_MovingObject_GiantFrame_C:ExecuteUbergraph_BP_MovingObject_GiantFrame'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.8"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_SkeletalMovingObject'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_MovingObject_GiantFrame_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.9"
+      },
+      {
+        "ObjectName": "Function'BP_MovingObject_GiantFrame_C:EventAttachToActor'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.7"
+      },
+      {
+        "ObjectName": "Function'BP_MovingObject_GiantFrame_C:ExecuteUbergraph_BP_MovingObject_GiantFrame'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.8"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_MovingObject_GiantFrame": {
+        "ObjectName": "Function'BP_MovingObject_GiantFrame_C:ExecuteUbergraph_BP_MovingObject_GiantFrame'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.8"
+      },
+      "EventAttachToActor": {
+        "ObjectName": "Function'BP_MovingObject_GiantFrame_C:EventAttachToActor'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.7"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_MovingObject_GiantFrame_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.9"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_MovingObject_GiantFrame_C'Default__BP_MovingObject_GiantFrame_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_MovingObject_GiantFrame_C",
+    "Name": "Default__BP_MovingObject_GiantFrame_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.BP_MovingObject_GiantFrame_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame",
+    "Properties": {
+      "UberGraphFrame": {},
+      "CoreSkeletalMesh": {
+        "ObjectName": "CBSkeletalMeshComponent'Default__BP_MovingObject_GiantFrame_C:CoreSkeletalMesh'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.2"
+      },
+      "UseRelatviePivot": "Frame",
+      "UseCustomBoardingChecker": "EBoardingUpdateType::EGiant",
+      "ObjectMovementComponent": {
+        "ObjectName": "EObjectActorMovementComponent'Default__BP_MovingObject_GiantFrame_C:ObjectMovement'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.6"
+      },
+      "MovingObjectOverlapCollision": {
+        "ObjectName": "CBStaticMeshComponent'Default__BP_MovingObject_GiantFrame_C:MovingOjbectOverlapCollision'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.3"
+      },
+      "fOnBoardingCheckDistance": 3000.0,
+      "LocalLocationConvertComp": {
+        "ObjectName": "SceneComponent'Default__BP_MovingObject_GiantFrame_C:LocalLocationConvert'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.11"
+      },
+      "ObjectAudioComponent": {
+        "ObjectName": "EAudioComponent'Default__BP_MovingObject_GiantFrame_C:MovingObjectAudio'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.5"
+      },
+      "ObjectSpringArm": {
+        "ObjectName": "SpringArmComponent'Default__BP_MovingObject_GiantFrame_C:SpringArm'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.15"
+      },
+      "ObjectDirectingCam": {
+        "ObjectName": "ChildActorComponent'Default__BP_MovingObject_GiantFrame_C:DirectingCamActor'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.4"
+      },
+      "IsOptimzeUpdate": false,
+      "LowMovmentComponentTickInterval": 0.0,
+      "LowNiagaraTickInterval": 0.0,
+      "LowMeshComponentTickInterval": 0.0,
+      "LowActorTickInterval": 0.0,
+      "PrimaryActorTick": {
+        "TickGroup": "ETickingGroup::TG_DuringPhysics"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_MovingObject_GiantFrame_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.12"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "CoreSkeletalMesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_MovingObject_GiantFrame_C'Default__BP_MovingObject_GiantFrame_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.1"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'NPC_Giant_MovingFrame_ABP_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/NPC/NPC_Shop_Random_Giant_25M/Mesh/NPC_Giant_MovingFrame_ABP.0"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'S_Giant_Moving_Frame_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/NPC/NPC_Shop_Random_Giant_25M/Mesh/S_Giant_Moving_Frame_A01.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'S_Giant_Moving_Frame_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/NPC/NPC_Shop_Random_Giant_25M/Mesh/S_Giant_Moving_Frame_A01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Trigger",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapObject",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MovingObject_GiantFrame_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.12"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -75.0
+      }
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "MovingOjbectOverlapCollision",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_MovingObject_GiantFrame_C'Default__BP_MovingObject_GiantFrame_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Trigger",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapObject",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MovingObject_GiantFrame_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.12"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "DirectingCamActor",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Outer": {
+      "ObjectName": "BP_MovingObject_GiantFrame_C'Default__BP_MovingObject_GiantFrame_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SpringArmComponent'Default__BP_MovingObject_GiantFrame_C:SpringArm'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.15"
+      }
+    }
+  },
+  {
+    "Type": "EAudioComponent",
+    "Name": "MovingObjectAudio",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EAudioComponent'",
+    "Outer": {
+      "ObjectName": "BP_MovingObject_GiantFrame_C'Default__BP_MovingObject_GiantFrame_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MovingObject_GiantFrame_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.12"
+      }
+    }
+  },
+  {
+    "Type": "EObjectActorMovementComponent",
+    "Name": "ObjectMovement",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EObjectActorMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_MovingObject_GiantFrame_C'Default__BP_MovingObject_GiantFrame_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.1"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "EventAttachToActor",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MovingObject_GiantFrame_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UEActor_BaseMovingObject:EventAttachToActor'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ParentActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_MovingObject_GiantFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MovingObject_GiantFrame_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAnimInstance_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AnimInstance'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsNPC_Giant_Moving_Frame_ABP",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "AnimBlueprintGeneratedClass'NPC_Giant_MovingFrame_ABP_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/NPC/NPC_Shop_Random_Giant_25M/Mesh/NPC_Giant_MovingFrame_ABP.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_ParentActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ObjectIsA_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MovingObject_GiantFrame_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MovingObject_GiantFrame_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "LocalLocationConvert",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_MovingObject_GiantFrame_C'Default__BP_MovingObject_GiantFrame_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MovingObject_GiantFrame_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.12"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_MovingObject_GiantFrame_C'Default__BP_MovingObject_GiantFrame_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.1"
+    },
+    "Properties": {
+      "PhysicsVolumeChangedDelegate": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "EObjectActorMovementComponent'Default__BP_MovingObject_GiantFrame_C:ObjectMovement'",
+              "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.6"
+            },
+            "FunctionName": "PhysicsVolumeChanged"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MovingObject_GiantFrame_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_MovingObject_GiantFrame_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.10"
+      },
+      "VariableGUID": "3F3A114D-49F9D6E3-7336C2BC-AA1DEBF6",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MovingObject_GiantFrame_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_MovingObject_GiantFrame_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.13"
+      }
+    }
+  },
+  {
+    "Type": "SpringArmComponent",
+    "Name": "SpringArm",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_MovingObject_GiantFrame_C'Default__BP_MovingObject_GiantFrame_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MovingObject_GiantFrame_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MovingObject_GiantFrame.12"
+      }
+    }
+  }
+]

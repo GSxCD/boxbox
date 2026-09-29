@@ -1,0 +1,787 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ElectricRelayFinalDevice_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ElectricRelayFinalDevice_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.13"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_ElectricRelayFinalDevice_C:ExecuteUbergraph_BP_ElectricRelayFinalDevice'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_ElectricFinalDevice'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_ElectricRelayFinalDevice_C:OnDeactiveEff'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.7"
+      },
+      {
+        "ObjectName": "Function'BP_ElectricRelayFinalDevice_C:OnActiveEff'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.6"
+      },
+      {
+        "ObjectName": "Function'BP_ElectricRelayFinalDevice_C:ExecuteUbergraph_BP_ElectricRelayFinalDevice'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.5"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ENiagara",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ENiagaraComponent'",
+          "ObjectPath": "/Script/ACActorModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ActiveDevice",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_ElectricRelayFinalDevice": {
+        "ObjectName": "Function'BP_ElectricRelayFinalDevice_C:ExecuteUbergraph_BP_ElectricRelayFinalDevice'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.5"
+      },
+      "OnActiveEff": {
+        "ObjectName": "Function'BP_ElectricRelayFinalDevice_C:OnActiveEff'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.6"
+      },
+      "OnDeactiveEff": {
+        "ObjectName": "Function'BP_ElectricRelayFinalDevice_C:OnDeactiveEff'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.7"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ElectricRelayFinalDevice_C'Default__BP_ElectricRelayFinalDevice_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElectricRelayFinalDevice_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.0"
+    },
+    "Properties": {
+      "BoxExtent": {
+        "X": 50.0,
+        "Y": 50.0,
+        "Z": 100.0
+      },
+      "bGenerateOverlapEvents": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel5",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "Object",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Object",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Trigger",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        },
+        "bEnableGravity": false
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 100.0
+      },
+      "RelativeRotation": {
+        "Pitch": -0.0,
+        "Yaw": -1.2722219E-14,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BP_ElectricRelayFinalDevice_C",
+    "Name": "Default__BP_ElectricRelayFinalDevice_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.BP_ElectricRelayFinalDevice_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice",
+    "Properties": {
+      "UberGraphFrame": {},
+      "DeviceCoreSkeletalMesh": {
+        "ObjectName": "CBSkeletalMeshComponent'Default__BP_ElectricRelayFinalDevice_C:DeviceCoreSkeletalMesh'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.3"
+      },
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_ElectricRelayFinalDevice_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.9"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_ElectricRelayFinalDevice_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.9"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "DeviceCoreSkeletalMesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElectricRelayFinalDevice_C'Default__BP_ElectricRelayFinalDevice_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.2"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_ElectricRelayFinalDevice_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/ABP_ElectricRelayFinalDevice.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_RelayEndStone_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/SK_RelayEndStone_A01/Mesh/SK_RelayEndStone_A01.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_RelayEndStone_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/SK_RelayEndStone_A01/Mesh/SK_RelayEndStone_A01.1"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_ElectricRelayFinalDevice_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.9"
+      }
+    }
+  },
+  {
+    "Type": "ENiagaraComponent",
+    "Name": "ENiagara_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ENiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElectricRelayFinalDevice_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.0"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_ns_relayendstone_a01_active'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/Common/System/Gimmick/fx_ns_relayendstone_a01_active.98"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "All_Scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.All_Scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Hue",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Hue",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Life",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Life",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Light_Offset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector3f'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Light_Offset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector3f'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Location_Size",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Location_Size",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Saturation",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Saturation",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Scale_mult",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Scale_mult",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Size",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Size",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 16,
+            "Name": "User.All_Scale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 28,
+            "Name": "User.Hue",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 20,
+            "Name": "User.Life",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.Light_Offset",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector3f'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 36,
+            "Name": "User.Location_Size",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 32,
+            "Name": "User.Saturation",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 24,
+            "Name": "User.Scale_mult",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 0,
+            "Name": "User.Size",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
+        "ParameterData": [
+          102,
+          102,
+          102,
+          63,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          66,
+          0,
+          0,
+          64,
+          63,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          128,
+          63,
+          102,
+          102,
+          166,
+          63,
+          0,
+          0,
+          72,
+          66
+        ]
+      },
+      "RelativeRotation": {
+        "Pitch": -0.0,
+        "Yaw": -1.2722219E-14,
+        "Roll": 0.0
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ElectricRelayFinalDevice",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElectricRelayFinalDevice_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_OGSkeletalMeshMontage_Play_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_OGSkeletalMeshMontage_Play_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnActiveEff",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElectricRelayFinalDevice_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDeactiveEff",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElectricRelayFinalDevice_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElectricRelayFinalDevice_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElectricRelayFinalDevice_C'Default__BP_ElectricRelayFinalDevice_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ElectricRelayFinalDevice_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.13"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ElectricRelayFinalDevice_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.8"
+      },
+      "VariableGUID": "554502D5-44B0065F-8780ECA1-0FE651F9",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ElectricRelayFinalDevice_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.13"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ENiagaraComponent'",
+        "ObjectPath": "/Script/ACActorModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ENiagaraComponent'BP_ElectricRelayFinalDevice_C:ENiagara_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.4"
+      },
+      "ParentComponentOrVariableName": "DeviceCoreSkeletalMesh",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "AE77D2BE-4B0965F3-71081FB9-B6BBA57B",
+      "InternalVariableName": "ENiagara"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ElectricRelayFinalDevice_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.13"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_ElectricRelayFinalDevice_C:Box_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.1"
+      },
+      "ParentComponentOrVariableName": "DeviceCoreSkeletalMesh",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "07A3CA0D-4D9EC141-DD8DE9AE-2A9EB066",
+      "InternalVariableName": "Box"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElectricRelayFinalDevice_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ElectricRelayFinalDevice_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ElectricRelayFinalDevice_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.11"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ElectricRelayFinalDevice_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ElectricRelayFinalDevice_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.11"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ElectricRelayFinalDevice_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Chapter3/BP_ElectricRelayFinalDevice.10"
+      }
+    }
+  }
+]

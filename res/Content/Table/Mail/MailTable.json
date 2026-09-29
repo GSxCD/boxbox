@@ -1,0 +1,771 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MailTable",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/Mail/MailTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UEMailTable'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "full_bag_mail": {
+        "Mail_Type": "full_bag_mail",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_mail_bag_full_name",
+        "Mail_Desc": "local_mail_bag_full_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "quest_name"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "full_bag_mail",
+        "Local_Key": "None"
+      },
+      "full_bag_quest_mail": {
+        "Mail_Type": "full_bag_quest_mail",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_mail_bag_full_quest_name",
+        "Mail_Desc": "local_mail_bag_full_quest_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "quest_name"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "full_bag_quest_mail",
+        "Local_Key": "None"
+      },
+      "full_bag_dungeon_mail": {
+        "Mail_Type": "full_bag_dungeon_mail",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_mail_bag_full_dungeon_name",
+        "Mail_Desc": "local_mail_bag_full_dungeon_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "dungeon_name"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "full_bag_dungeon_mail",
+        "Local_Key": "None"
+      },
+      "full_currency_mail": {
+        "Mail_Type": "full_currency_mail",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_full_currency_mail_name",
+        "Mail_Desc": "local_full_currency_mail_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "full_currency_mail",
+        "Local_Key": "None"
+      },
+      "guild_drop_out_mail": {
+        "Mail_Type": "guild_drop_out_mail",
+        "Mail_Close_Icon": "icon_system_mail_close",
+        "Mail_Open_Icon": "icon_system_mail_open",
+        "Mail_Name": "local_guild_drop_out_mail_name",
+        "Mail_Desc": "local_guild_drop_out_mail_desc",
+        "Mail_Sender": "local_guild_sender",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "guild_name"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "guild_drop_out_mail",
+        "Local_Key": "None"
+      },
+      "guild_sub_master_up_mail": {
+        "Mail_Type": "guild_sub_master_up_mail",
+        "Mail_Close_Icon": "icon_system_mail_close",
+        "Mail_Open_Icon": "icon_system_mail_open",
+        "Mail_Name": "local_guild_sub_master_up_mail_name",
+        "Mail_Desc": "local_guild_sub_master_up_mail_desc",
+        "Mail_Sender": "local_guild_sender",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "guild_name"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "guild_sub_master_up_mail",
+        "Local_Key": "None"
+      },
+      "guild_sub_master_down_mail": {
+        "Mail_Type": "guild_sub_master_down_mail",
+        "Mail_Close_Icon": "icon_system_mail_close",
+        "Mail_Open_Icon": "icon_system_mail_open",
+        "Mail_Name": "local_guild_sub_master_down_mail_name",
+        "Mail_Desc": "local_guild_sub_master_down_mail_desc",
+        "Mail_Sender": "local_guild_sender",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "guild_name"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "guild_sub_master_down_mail",
+        "Local_Key": "None"
+      },
+      "guild_master_up_mail": {
+        "Mail_Type": "guild_master_up_mail",
+        "Mail_Close_Icon": "icon_system_mail_close",
+        "Mail_Open_Icon": "icon_system_mail_open",
+        "Mail_Name": "local_guild_master_up_mail_name",
+        "Mail_Desc": "local_guild_master_up_mail_desc",
+        "Mail_Sender": "local_guild_sender",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "guild_name"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "guild_master_up_mail",
+        "Local_Key": "None"
+      },
+      "guild_break_up_mail": {
+        "Mail_Type": "guild_break_up_mail",
+        "Mail_Close_Icon": "icon_system_mail_close",
+        "Mail_Open_Icon": "icon_system_mail_open",
+        "Mail_Name": "local_guild_break_up_mail_name",
+        "Mail_Desc": "local_guild_break_up_mail_desc",
+        "Mail_Sender": "local_guild_sender",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "guild_name"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "guild_break_up_mail",
+        "Local_Key": "None"
+      },
+      "event_reward_single_attendance": {
+        "Mail_Type": "event_reward_single_attendance",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_event_reward_single_attendance_name",
+        "Mail_Desc": "local_event_reward_single_attendance_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "event_name",
+          "user_name",
+          "attendance_day"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "event_reward_single_attendance",
+        "Local_Key": "None"
+      },
+      "event_reward_single_missionfixed": {
+        "Mail_Type": "event_reward_single_missionfixed",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_event_reward_single_missionfixed_name",
+        "Mail_Desc": "local_event_reward_single_missionfixed_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "event_name",
+          "user_name",
+          "fixmission_group"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "event_reward_single_missionfixed",
+        "Local_Key": "None"
+      },
+      "event_reward_group_missionfixed": {
+        "Mail_Type": "event_reward_group_missionfixed",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_event_reward_group_missionfixed_name",
+        "Mail_Desc": "local_event_reward_group_missionfixed_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "event_name",
+          "user_name",
+          "fixmission_group"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "event_reward_group_missionfixed",
+        "Local_Key": "None"
+      },
+      "event_mission_complete_reward": {
+        "Mail_Type": "event_mission_complete_reward",
+        "Mail_Close_Icon": "icon_system_mail_close",
+        "Mail_Open_Icon": "icon_system_mail_open",
+        "Mail_Name": "local_event_reward_single_missionfixed_name",
+        "Mail_Desc": "local_event_reward_single_missionfixed_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "event_name",
+          "user_name",
+          "fixmission_group"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "event_mission_complete_reward",
+        "Local_Key": "None"
+      },
+      "currency_store_buy_mail": {
+        "Mail_Type": "currency_store_buy_mail",
+        "Mail_Close_Icon": "icon_store_reward_mail_close",
+        "Mail_Open_Icon": "icon_store_reward_mail_open",
+        "Mail_Name": "local_currency_store_buy_mail_name",
+        "Mail_Desc": "local_currency_store_buy_mail_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "user_name"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "currency_store_buy_mail",
+        "Local_Key": "None"
+      },
+      "tool_mail_reward": {
+        "Mail_Type": "tool_mail_reward",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "None",
+        "Mail_Desc": "None",
+        "Mail_Sender": "None",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "tool_mail_reward",
+        "Local_Key": "None"
+      },
+      "tool_mail": {
+        "Mail_Type": "tool_mail",
+        "Mail_Close_Icon": "icon_system_mail_close",
+        "Mail_Open_Icon": "icon_system_mail_open",
+        "Mail_Name": "None",
+        "Mail_Desc": "None",
+        "Mail_Sender": "None",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "tool_mail",
+        "Local_Key": "None"
+      },
+      "coupon_reward_mail": {
+        "Mail_Type": "coupon_reward_mail",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_coupon_reward_mail_name",
+        "Mail_Desc": "local_coupon_reward_mail_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "coupon_reward_mail",
+        "Local_Key": "None"
+      },
+      "pvp_arena_grade_reward": {
+        "Mail_Type": "pvp_arena_grade_reward",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_pvp_arena_grade_reward_name",
+        "Mail_Desc": "local_pvp_arena_grade_reward_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "pvp_arena_grade_reward",
+        "Local_Key": "None"
+      },
+      "newbie_reward_mail_1": {
+        "Mail_Type": "newbie_reward_mail",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_newbie_reward_mail_1_name",
+        "Mail_Desc": "local_newbie_reward_mail_1_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "newbie_reward_1",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "newbie_reward_mail_1",
+        "Local_Key": "None"
+      },
+      "newbie_reward_mail_2": {
+        "Mail_Type": "newbie_reward_mail",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_newbie_reward_mail_2_name",
+        "Mail_Desc": "local_newbie_reward_mail_2_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "newbie_reward_2",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "newbie_reward_mail_2",
+        "Local_Key": "None"
+      },
+      "box_ticket_paid_restoration": {
+        "Mail_Type": "box_ticket_paid_restoration",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_box_ticket_restoration_name",
+        "Mail_Desc": "local_box_ticket_restoration_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "box_ticket_name"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "box_ticket_paid_restoration",
+        "Local_Key": "None"
+      },
+      "box_ticket_free_restoration": {
+        "Mail_Type": "box_ticket_free_restoration",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_box_ticket_restoration_name",
+        "Mail_Desc": "local_box_ticket_restoration_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "box_ticket_name"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "box_ticket_free_restoration",
+        "Local_Key": "None"
+      },
+      "stella_weekly_reward": {
+        "Mail_Type": "stella_weekly_reward",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_mail_stella_weekly_reward_name",
+        "Mail_Desc": "local_mail_stella_weekly_reward_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "stella_weekly_reward",
+        "Local_Key": "None"
+      },
+      "mission_package_reward": {
+        "Mail_Type": "mission_package_reward",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_mission_package_name",
+        "Mail_Desc": "local_mission_package_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "mission_package_reward",
+        "Local_Key": "None"
+      },
+      "mission_package_complete_reward": {
+        "Mail_Type": "mission_package_complete_reward",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_mission_package_complete_name",
+        "Mail_Desc": "local_mission_package_complete_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "mission_package_complete_reward",
+        "Local_Key": "None"
+      },
+      "expired_mission_package_reward": {
+        "Mail_Type": "expired_mission_package_reward",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_expired_mission_package_name",
+        "Mail_Desc": "local_expired_mission_package_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "expired_mission_package_reward",
+        "Local_Key": "None"
+      },
+      "expired_mission_package_complete_reward": {
+        "Mail_Type": "expired_mission_package_complete_reward",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_expired_mission_package_complete_name",
+        "Mail_Desc": "local_expired_mission_package_complete_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "expired_mission_package_complete_reward",
+        "Local_Key": "None"
+      },
+      "system_user_playrestriction": {
+        "Mail_Type": "system_user_playrestriction",
+        "Mail_Close_Icon": "icon_system_mail_close",
+        "Mail_Open_Icon": "icon_system_mail_open",
+        "Mail_Name": "local_system_user_restriction",
+        "Mail_Desc": "local_system_user_restriction_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "reason",
+          "startdate",
+          "enddate"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "system_user_playrestriction",
+        "Local_Key": "None"
+      },
+      "system_user_chatrestriction": {
+        "Mail_Type": "system_user_chatrestriction",
+        "Mail_Close_Icon": "icon_system_mail_close",
+        "Mail_Open_Icon": "icon_system_mail_open",
+        "Mail_Name": "local_system_user_restriction",
+        "Mail_Desc": "local_system_chat_restriction_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "reason",
+          "startdate",
+          "enddate"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "system_user_chatrestriction",
+        "Local_Key": "None"
+      },
+      "gpp_store_buy_mail": {
+        "Mail_Type": "gpp_store_buy_mail",
+        "Mail_Close_Icon": "icon_store_reward_mail_close",
+        "Mail_Open_Icon": "icon_store_reward_mail_open",
+        "Mail_Name": "local_gpp_store_buy_mail_name",
+        "Mail_Desc": "local_gpp_store_buy_mail_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "user_name"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "gpp_store_buy_mail",
+        "Local_Key": "None"
+      },
+      "hawkpass_level_reward_end_mail": {
+        "Mail_Type": "hawkpass_reward_mail",
+        "Mail_Close_Icon": "icon_store_reward_mail_close",
+        "Mail_Open_Icon": "icon_store_reward_mail_open",
+        "Mail_Name": "local_hawkpass_reward_mail_name",
+        "Mail_Desc": "local_currency_store_buy_mail_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "hawkpass_level_reward_end_mail",
+        "Local_Key": "None"
+      },
+      "newbie_reward_mail_3": {
+        "Mail_Type": "newbie_reward_mail_3",
+        "Mail_Close_Icon": "icon_store_reward_mail_close",
+        "Mail_Open_Icon": "icon_store_reward_mail_open",
+        "Mail_Name": "local_newbie_reward_mail_3_name",
+        "Mail_Desc": "local_newbie_reward_mail_3_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "newbie_reward_1",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "newbie_reward_mail_3",
+        "Local_Key": "None"
+      },
+      "newbie_reward_mail_4": {
+        "Mail_Type": "newbie_reward_mail_4",
+        "Mail_Close_Icon": "icon_store_reward_mail_close",
+        "Mail_Open_Icon": "icon_store_reward_mail_open",
+        "Mail_Name": "local_newbie_reward_mail_4_name",
+        "Mail_Desc": "local_newbie_reward_mail_4_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "newbie_reward_2",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "newbie_reward_mail_4",
+        "Local_Key": "None"
+      },
+      "ps_preorder_pre_mail": {
+        "Mail_Type": "ps_preorder_pre_mail",
+        "Mail_Close_Icon": "icon_store_reward_mail_close",
+        "Mail_Open_Icon": "icon_store_reward_mail_open",
+        "Mail_Name": "local_ps_preorder_pre_mail_name",
+        "Mail_Desc": "local_ps_preorder_pre_mail_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "ps_preorder_pre_mail",
+        "Local_Key": "None"
+      },
+      "ps_preorder_live_mail": {
+        "Mail_Type": "ps_preorder_live_mail",
+        "Mail_Close_Icon": "icon_store_reward_mail_close",
+        "Mail_Open_Icon": "icon_store_reward_mail_open",
+        "Mail_Name": "local_ps_preorder_live_mail_name",
+        "Mail_Desc": "local_ps_preorder_live_mail_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "ps_preorder_live_mail",
+        "Local_Key": "None"
+      },
+      "ps_networkplus_mail": {
+        "Mail_Type": "ps_networkplus_mail",
+        "Mail_Close_Icon": "icon_store_reward_mail_close",
+        "Mail_Open_Icon": "icon_store_reward_mail_open",
+        "Mail_Name": "local_ps_networkplus_mail_name",
+        "Mail_Desc": "local_ps_networkplus_mail_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "ps_networkplus_mail",
+        "Local_Key": "None"
+      },
+      "subscription_store_buy_mail": {
+        "Mail_Type": "currency_store_buy_mail",
+        "Mail_Close_Icon": "icon_store_reward_mail_close",
+        "Mail_Open_Icon": "icon_store_reward_mail_open",
+        "Mail_Name": "local_store_package_subscription_01_name",
+        "Mail_Desc": "ui_packagestore_subscription_login_mail_noti",
+        "Mail_Sender": "local_mail_sender_system",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "user_name"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "subscription_store_buy_mail",
+        "Local_Key": "None"
+      },
+      "subscription_reward_mail": {
+        "Mail_Type": "subscription_reward_mail",
+        "Mail_Close_Icon": "icon_store_reward_mail_close",
+        "Mail_Open_Icon": "icon_store_reward_mail_open",
+        "Mail_Name": "local_subscription_reward_name",
+        "Mail_Desc": "local_subscription_reward_desc",
+        "Mail_Sender": "local_mail_sender_system",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "date_how",
+          "date_remaining"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "subscription_reward_mail",
+        "Local_Key": "None"
+      },
+      "subscription_reward_mail_02": {
+        "Mail_Type": "subscription_reward_mail",
+        "Mail_Close_Icon": "icon_store_reward_mail_close",
+        "Mail_Open_Icon": "icon_store_reward_mail_open",
+        "Mail_Name": "local_subscription_reward_name_02",
+        "Mail_Desc": "local_subscription_reward_desc_02",
+        "Mail_Sender": "local_mail_sender_system",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "date_how",
+          "date_remaining"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "subscription_reward_mail_02",
+        "Local_Key": "None"
+      },
+      "subscription_store_buy_mail_new": {
+        "Mail_Type": "currency_store_buy_mail",
+        "Mail_Close_Icon": "icon_store_reward_mail_close",
+        "Mail_Open_Icon": "icon_store_reward_mail_open",
+        "Mail_Name": "local_currency_store_buy_subscription_name",
+        "Mail_Desc": "local_currency_store_buy_subscription_desc",
+        "Mail_Sender": "local_mail_sender_system",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "user_name"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "subscription_store_buy_mail_new",
+        "Local_Key": "None"
+      },
+      "subscription_store_buy_mail_new_02": {
+        "Mail_Type": "currency_store_buy_mail",
+        "Mail_Close_Icon": "icon_store_reward_mail_close",
+        "Mail_Open_Icon": "icon_store_reward_mail_open",
+        "Mail_Name": "local_currency_store_buy_subscription_name_02",
+        "Mail_Desc": "local_currency_store_buy_subscription_desc_02",
+        "Mail_Sender": "local_mail_sender_system",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "user_name"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "subscription_store_buy_mail_new_02",
+        "Local_Key": "None"
+      },
+      "subscription_store_overbuy_mail": {
+        "Mail_Type": "currency_store_buy_mail",
+        "Mail_Close_Icon": "icon_store_reward_mail_close",
+        "Mail_Open_Icon": "icon_store_reward_mail_open",
+        "Mail_Name": "local_subscription_overbuy_name",
+        "Mail_Desc": "local_subscription_overbuy_desc",
+        "Mail_Sender": "local_mail_sender_system",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "user_name"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "subscription_store_overbuy_mail",
+        "Local_Key": "None"
+      },
+      "subscription_store_overbuy_mail_02": {
+        "Mail_Type": "currency_store_buy_mail",
+        "Mail_Close_Icon": "icon_store_reward_mail_close",
+        "Mail_Open_Icon": "icon_store_reward_mail_open",
+        "Mail_Name": "local_subscription2_overbuy_name",
+        "Mail_Desc": "local_subscription2_overbuy_desc",
+        "Mail_Sender": "local_mail_sender_system",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "user_name"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "subscription_store_overbuy_mail_02",
+        "Local_Key": "None"
+      },
+      "mail_raking_board_dungeon_reward_01": {
+        "Mail_Type": "dungeon_rank_reward",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_dungeon_rank_reward_name",
+        "Mail_Desc": "local_dungeon_rank_reward_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "seasonname"
+        ],
+        "Is_Hidden_Parental_Controls": true,
+        "String_Tid": "mail_raking_board_dungeon_reward_01",
+        "Local_Key": "None"
+      },
+      "mail_raking_board_boss_reward_01": {
+        "Mail_Type": "dungeon_rank_reward",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_boss_rank_reward_name",
+        "Mail_Desc": "local_boss_rank_reward_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "seasonname"
+        ],
+        "Is_Hidden_Parental_Controls": true,
+        "String_Tid": "mail_raking_board_boss_reward_01",
+        "Local_Key": "None"
+      },
+      "mail_raking_board_fieldboss_reward_01": {
+        "Mail_Type": "dungeon_rank_reward",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_fieldboss_rank_reward_name",
+        "Mail_Desc": "local_fieldboss_rank_reward_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "seasonname"
+        ],
+        "Is_Hidden_Parental_Controls": true,
+        "String_Tid": "mail_raking_board_fieldboss_reward_01",
+        "Local_Key": "None"
+      },
+      "dungeon_crack_season_mail": {
+        "Mail_Type": "dungeon_crack_season_mail",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_dungeon_crack_season_reward_name",
+        "Mail_Desc": "local_dungeon_crack_season_reward_desc",
+        "Mail_Sender": "local_mail_sender_system",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "seasonname"
+        ],
+        "Is_Hidden_Parental_Controls": true,
+        "String_Tid": "dungeon_crack_season_mail",
+        "Local_Key": "None"
+      },
+      "ios_summerevent_mail": {
+        "Mail_Type": "ios_summerevent_mail",
+        "Mail_Close_Icon": "icon_store_reward_mail_close",
+        "Mail_Open_Icon": "icon_store_reward_mail_open",
+        "Mail_Name": "local_coupon_reward_mail_name",
+        "Mail_Desc": "local_coupon_reward_mail_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "ios_summerevent_mail",
+        "Local_Key": "None"
+      },
+      "mail_raking_board_dungeon_crack_reward_01": {
+        "Mail_Type": "dungeon_rank_reward",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_dungeon_crack_rank_reward_name",
+        "Mail_Desc": "local_dungeon_crack_rank_reward_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "seasonname"
+        ],
+        "Is_Hidden_Parental_Controls": true,
+        "String_Tid": "mail_raking_board_dungeon_crack_reward_01",
+        "Local_Key": "None"
+      },
+      "labyrinthos_settle_mail": {
+        "Mail_Type": "labyrinthos_settle_mail",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_mail_labyrinthos_settle_name",
+        "Mail_Desc": "local_mail_labyrinthos_settle_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "labyrinthos_settle_mail",
+        "Local_Key": "None"
+      },
+      "halfiversary_reward_mail": {
+        "Mail_Type": "halfiversary_reward_mail",
+        "Mail_Close_Icon": "icon_system_reward_mail_close",
+        "Mail_Open_Icon": "icon_system_reward_mail_open",
+        "Mail_Name": "local_halfiversary_reward_mail_name",
+        "Mail_Desc": "local_halfiversary_reward_mail_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "halfiversary_reward_mail",
+        "Array_Local_Tag_Name": [],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "halfiversary_reward_mail",
+        "Local_Key": "None"
+      },
+      "system_user_commentrestriction": {
+        "Mail_Type": "system_user_commentrestriction",
+        "Mail_Close_Icon": "icon_system_mail_close",
+        "Mail_Open_Icon": "icon_system_mail_open",
+        "Mail_Name": "local_system_user_chatrestriction_name",
+        "Mail_Desc": "local_system_user_commentrestriction_desc",
+        "Mail_Sender": "local_mail_sender_gametitle",
+        "Mail_Drop_Tid": "None",
+        "Array_Local_Tag_Name": [
+          "reason",
+          "startdate",
+          "enddate"
+        ],
+        "Is_Hidden_Parental_Controls": false,
+        "String_Tid": "system_user_commentrestriction",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

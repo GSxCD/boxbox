@@ -1,0 +1,1336 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_BarrelBomb_A04_02_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_BarrelBomb_A04_02_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.30"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_BarrelBomb_A04_02_C:ExecuteUbergraph_BP_BarrelBomb_A04_02'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.14"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UECharacter_ChargeObject'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_BarrelBomb_A04_02_C:UserConstructionScript'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.18"
+      },
+      {
+        "ObjectName": "Function'BP_BarrelBomb_A04_02_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.16"
+      },
+      {
+        "ObjectName": "Function'BP_BarrelBomb_A04_02_C:AddEventGrab'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.12"
+      },
+      {
+        "ObjectName": "Function'BP_BarrelBomb_A04_02_C:AddEventEnableAimOverlayMode'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.11"
+      },
+      {
+        "ObjectName": "Function'BP_BarrelBomb_A04_02_C:AddEventSetAimTarget'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.13"
+      },
+      {
+        "ObjectName": "Function'BP_BarrelBomb_A04_02_C:K2_OnReset'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.15"
+      },
+      {
+        "ObjectName": "Function'BP_BarrelBomb_A04_02_C:UpdateChargeObjectDirecting'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.17"
+      },
+      {
+        "ObjectName": "Function'BP_BarrelBomb_A04_02_C:ExecuteUbergraph_BP_BarrelBomb_A04_02'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.14"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Capsule_BlockGimmick",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Capsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BPC_ControlObjectOverlay",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BPC_ControlObjectOverlay_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Component/BPC_ControlObjectOverlay.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ForceFeedback",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'ForceFeedbackComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_BarrelBomb_A04_02": {
+        "ObjectName": "Function'BP_BarrelBomb_A04_02_C:ExecuteUbergraph_BP_BarrelBomb_A04_02'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.14"
+      },
+      "UpdateChargeObjectDirecting": {
+        "ObjectName": "Function'BP_BarrelBomb_A04_02_C:UpdateChargeObjectDirecting'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.17"
+      },
+      "K2_OnReset": {
+        "ObjectName": "Function'BP_BarrelBomb_A04_02_C:K2_OnReset'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.15"
+      },
+      "AddEventSetAimTarget": {
+        "ObjectName": "Function'BP_BarrelBomb_A04_02_C:AddEventSetAimTarget'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.13"
+      },
+      "AddEventEnableAimOverlayMode": {
+        "ObjectName": "Function'BP_BarrelBomb_A04_02_C:AddEventEnableAimOverlayMode'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.11"
+      },
+      "AddEventGrab": {
+        "ObjectName": "Function'BP_BarrelBomb_A04_02_C:AddEventGrab'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.12"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_BarrelBomb_A04_02_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.16"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_BarrelBomb_A04_02_C:UserConstructionScript'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.18"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_BarrelBomb_A04_02_C'Default__BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_BarrelBomb_A04_02_C",
+    "Name": "Default__BP_BarrelBomb_A04_02_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.BP_BarrelBomb_A04_02_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02",
+    "Properties": {
+      "UberGraphFrame": {},
+      "RotationPivot": {
+        "ObjectName": "SceneComponent'Default__BP_BarrelBomb_A04_02_C:RotatorPivot'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.25"
+      },
+      "ChargeGaugeEffect": {
+        "ObjectName": "NiagaraComponent'Default__BP_BarrelBomb_A04_02_C:GaugeEffect'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.19"
+      },
+      "ChargeGaugeSubEffect": {
+        "ObjectName": "NiagaraComponent'Default__BP_BarrelBomb_A04_02_C:GaugeSubEffect'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.21"
+      },
+      "ChargeGaugeMaxLoopEffect": {
+        "ObjectName": "NiagaraComponent'Default__BP_BarrelBomb_A04_02_C:GaugeMaxLoopEffect'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.20"
+      },
+      "CoreMesh": {
+        "ObjectName": "CBSkeletalMeshComponent'Default__BP_BarrelBomb_A04_02_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.9"
+      },
+      "PathFollowingComponent": {
+        "ObjectName": "UEPathFollowingComponent'Default__BP_BarrelBomb_A04_02_C:UEPathFollowingComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.32"
+      },
+      "DestructibleReactionComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BarrelBomb_A04_02_C:DestructibleReactionComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.6"
+      },
+      "SelectableComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BarrelBomb_A04_02_C:SelectableComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.8"
+      },
+      "OverlapOnlyComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BarrelBomb_A04_02_C:OverlapOnlyComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.7"
+      },
+      "FacialPlayer": {
+        "ObjectName": "OGFacialPlayerComponent'Default__BP_BarrelBomb_A04_02_C:FacialPlayer'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.23"
+      },
+      "m_CollisionCheckDestroyComponent": {
+        "ObjectName": "OGActorCollisionCheckDestroyComponent'Default__BP_BarrelBomb_A04_02_C:OGCollisionCheckDestroyComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.22"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_BarrelBomb_A04_02_C:CharacterMesh0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.31"
+      },
+      "CharacterMovement": {
+        "ObjectName": "ECharacterMoveComponent'Default__BP_BarrelBomb_A04_02_C:UECharMoveComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.10"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BarrelBomb_A04_02_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.5"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BarrelBomb_A04_02_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.5"
+      },
+      "OnActorHit": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "UEPathFollowingComponent'Default__BP_BarrelBomb_A04_02_C:UEPathFollowingComponent'",
+              "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.32"
+            },
+            "FunctionName": "OnActorBump"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "BPC_ControlObjectOverlay_C",
+    "Name": "BPC_ControlObjectOverlay_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Component/BPC_ControlObjectOverlay.BPC_ControlObjectOverlay_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.0"
+    },
+    "Template": {
+      "ObjectName": "BPC_ControlObjectOverlay_C'Default__BPC_ControlObjectOverlay_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Component/BPC_ControlObjectOverlay.1"
+    },
+    "Properties": {
+      "bUseOldVersionOverlay": true
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule_BlockGimmick_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 200.0,
+      "CapsuleRadius": 58.0,
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_Owner",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel5",
+        "CollisionEnabled": "ECollisionEnabled::PhysicsOnly",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Object",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Wall",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 141.03271
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": -0.0
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 62.0,
+      "CapsuleRadius": 48.0,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::PhysicsOnly",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Npc",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_BarrelBomb_A04_02_C'Default__BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.1"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 56.0,
+      "CapsuleRadius": 50.0,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel5",
+        "bOverrideWalkableSlopeOnInstance": true,
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Trigger",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Npc",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        },
+        "WalkableSlopeOverride": {
+          "WalkableSlopeBehavior": "EWalkableSlopeBehavior::WalkableSlope_Unwalkable"
+        }
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "DestructibleReactionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_BarrelBomb_A04_02_C'Default__BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.1"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 56.0,
+      "CapsuleRadius": 50.0,
+      "BodyInstance": {
+        "bOverrideWalkableSlopeOnInstance": true,
+        "WalkableSlopeOverride": {
+          "WalkableSlopeBehavior": "EWalkableSlopeBehavior::WalkableSlope_Unwalkable"
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BarrelBomb_A04_02_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.5"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "OverlapOnlyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_BarrelBomb_A04_02_C'Default__BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.1"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 56.0,
+      "CapsuleRadius": 50.0,
+      "BodyInstance": {
+        "bOverrideWalkableSlopeOnInstance": true,
+        "WalkableSlopeOverride": {
+          "WalkableSlopeBehavior": "EWalkableSlopeBehavior::WalkableSlope_Unwalkable"
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BarrelBomb_A04_02_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.5"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "SelectableComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_BarrelBomb_A04_02_C'Default__BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.1"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 56.0,
+      "CapsuleRadius": 50.0,
+      "BodyInstance": {
+        "bOverrideWalkableSlopeOnInstance": true,
+        "WalkableSlopeOverride": {
+          "WalkableSlopeBehavior": "EWalkableSlopeBehavior::WalkableSlope_Unwalkable"
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BarrelBomb_A04_02_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.5"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_BarrelBomb_A04_02_C'Default__BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.1"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'AnimBP_BarrelBomb_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/MON/Boss/Boss_Longdead/Summon/S_BarrelBom/Mesh/AnimBP_BarrelBomb.0"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'S_BarrelBomb_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/MON/Boss/Boss_Longdead/Summon/S_BarrelBom/Mesh/S_BarrelBomb_A01.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'S_BarrelBomb_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/MON/Boss/Boss_Longdead/Summon/S_BarrelBom/Mesh/S_BarrelBomb_A01.1"
+      },
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_Yes",
+      "BodyInstance": {
+        "bOverrideWalkableSlopeOnInstance": true,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Npc",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Object",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Trigger",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        },
+        "WalkableSlopeOverride": {
+          "WalkableSlopeBehavior": "EWalkableSlopeBehavior::WalkableSlope_Unwalkable"
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_BarrelBomb_A04_02_C:RotatorPivot'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.25"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -57.0
+      }
+    }
+  },
+  {
+    "Type": "ECharacterMoveComponent",
+    "Name": "UECharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ECharacterMoveComponent'",
+    "Outer": {
+      "ObjectName": "BP_BarrelBomb_A04_02_C'Default__BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.1"
+    },
+    "Properties": {
+      "PathFollowingComp": {
+        "ObjectName": "UEPathFollowingComponent'Default__BP_BarrelBomb_A04_02_C:UEPathFollowingComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.32"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "AddEventEnableAimOverlayMode",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UECharacter_ChargeObject:AddEventEnableAimOverlayMode'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Enable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "AddEventGrab",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UECharacter_ChargeObject:AddEventGrab'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "symbol",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Enum'EUECubeSymbol'",
+          "ObjectPath": "/Script/ACCoreModule"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "AddEventSetAimTarget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UECharacter_ChargeObject:AddEventSetAimTarget'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "_lockon",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_BarrelBomb_A04_02",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_Event__MaxGauge",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_Event__CurGauge",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Event_symbol",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'EUECubeSymbol'",
+          "ObjectPath": "/Script/ACCoreModule"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnForceFeedbackAttached_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'ForceFeedbackComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_Enable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event__lockon",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnForceFeedbackAttached_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'ForceFeedbackComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsSameMyActorObject_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsActive_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_OnReset",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:K2_OnReset'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateChargeObjectDirecting",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UECharacter_ChargeObject:UpdateChargeObjectDirecting'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "_MaxGauge",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "_CurGauge",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "GaugeEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_BarrelBomb_A04_02_C'Default__BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.1"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_ns_elementcolumn_charge_gauge_01'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/Common/System/interaction/fx_ns_elementcolumn_charge_gauge_01.236"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "2_gauage_offset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector3f'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.2_gauage_offset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector3f'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "ElementalTypeIndex",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.ElementalTypeIndex",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "percentage",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.percentage",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.2_gauage_offset",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector3f'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 12,
+            "Name": "User.ElementalTypeIndex",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 16,
+            "Name": "User.percentage",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          63
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BarrelBomb_A04_02_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.5"
+      },
+      "RelativeLocation": {
+        "X": -4.1372374E-08,
+        "Y": 5.684342E-14,
+        "Z": 104.684395
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.75,
+        "Z": 0.75
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "GaugeMaxLoopEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_BarrelBomb_A04_02_C'Default__BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.1"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BarrelBomb_A04_02_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.5"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "GaugeSubEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_BarrelBomb_A04_02_C'Default__BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.1"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BarrelBomb_A04_02_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.5"
+      },
+      "RelativeLocation": {
+        "X": 8.832458E-08,
+        "Y": 5.684342E-14,
+        "Z": 99.96287
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.75,
+        "Z": 0.75
+      }
+    }
+  },
+  {
+    "Type": "OGActorCollisionCheckDestroyComponent",
+    "Name": "OGCollisionCheckDestroyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGActorCollisionCheckDestroyComponent'",
+    "Outer": {
+      "ObjectName": "BP_BarrelBomb_A04_02_C'Default__BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.1"
+    }
+  },
+  {
+    "Type": "OGFacialPlayerComponent",
+    "Name": "FacialPlayer",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGFacialPlayerComponent'",
+    "Outer": {
+      "ObjectName": "BP_BarrelBomb_A04_02_C'Default__BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.1"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RotatorPivot",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_BarrelBomb_A04_02_C'Default__BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BarrelBomb_A04_02_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.5"
+      },
+      "bUseAttachParentBound": true
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BarrelBomb_A04_02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_BarrelBomb_A04_02_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.24"
+      },
+      "VariableGUID": "5D0E01A8-49425B94-3F02B9BA-C8B95BFC",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BarrelBomb_A04_02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPC_ControlObjectOverlay_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Component/BPC_ControlObjectOverlay.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPC_ControlObjectOverlay_C'BP_BarrelBomb_A04_02_C:BPC_ControlObjectOverlay_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.2"
+      },
+      "VariableGUID": "5EF05666-4849E1B4-F4E002BF-7B6C34CD",
+      "InternalVariableName": "BPC_ControlObjectOverlay"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BarrelBomb_A04_02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_BarrelBomb_A04_02_C:Capsule_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.4"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "54F45A73-4FAF6937-78BED9AE-CBE205EA",
+      "InternalVariableName": "Capsule"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BarrelBomb_A04_02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_BarrelBomb_A04_02_C:Capsule_BlockGimmick_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.3"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "57408FA3-4BE0C02C-D230669F-D422C41C",
+      "InternalVariableName": "Capsule_BlockGimmick"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_BarrelBomb_A04_02_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BarrelBomb_A04_02_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BarrelBomb_A04_02_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.29"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_BarrelBomb_A04_02_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BarrelBomb_A04_02_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BarrelBomb_A04_02_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.29"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_BarrelBomb_A04_02_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.26"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_BarrelBomb_A04_02_C'Default__BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "bOverrideWalkableSlopeOnInstance": true,
+        "WalkableSlopeOverride": {
+          "WalkableSlopeBehavior": "EWalkableSlopeBehavior::WalkableSlope_Unwalkable"
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BarrelBomb_A04_02_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.5"
+      }
+    }
+  },
+  {
+    "Type": "UEPathFollowingComponent",
+    "Name": "UEPathFollowingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UEPathFollowingComponent'",
+    "Outer": {
+      "ObjectName": "BP_BarrelBomb_A04_02_C'Default__BP_BarrelBomb_A04_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ControlObject/BP_BarrelBomb_A04_02.1"
+    }
+  }
+]

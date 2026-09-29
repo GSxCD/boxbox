@@ -1,0 +1,642 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "DungeonDirectingCamera_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'DungeonDirectingCamera_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.13"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'DungeonDirectingCamera_C:ExecuteUbergraph_DungeonDirectingCamera'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CameraActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'DungeonDirectingCamera_C:UpdateRevertCameraTarget'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.9"
+      },
+      {
+        "ObjectName": "Function'DungeonDirectingCamera_C:ShowUI'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.7"
+      },
+      {
+        "ObjectName": "Function'DungeonDirectingCamera_C:RevertCamera'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.6"
+      },
+      {
+        "ObjectName": "Function'DungeonDirectingCamera_C:CameraDirecting'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.3"
+      },
+      {
+        "ObjectName": "Function'DungeonDirectingCamera_C:StartDirecting'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.8"
+      },
+      {
+        "ObjectName": "Function'DungeonDirectingCamera_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.5"
+      },
+      {
+        "ObjectName": "Function'DungeonDirectingCamera_C:ExecuteUbergraph_DungeonDirectingCamera'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.4"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "DirectingTimerHandle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "stackedValue",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "curValue",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "targetValue",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "shouldPlayingDirecting",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "delayTimeForShowingUI",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "enableCheckRevertCameraTarget",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_DungeonDirectingCamera": {
+        "ObjectName": "Function'DungeonDirectingCamera_C:ExecuteUbergraph_DungeonDirectingCamera'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.4"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'DungeonDirectingCamera_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.5"
+      },
+      "StartDirecting": {
+        "ObjectName": "Function'DungeonDirectingCamera_C:StartDirecting'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.8"
+      },
+      "CameraDirecting": {
+        "ObjectName": "Function'DungeonDirectingCamera_C:CameraDirecting'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.3"
+      },
+      "RevertCamera": {
+        "ObjectName": "Function'DungeonDirectingCamera_C:RevertCamera'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.6"
+      },
+      "ShowUI": {
+        "ObjectName": "Function'DungeonDirectingCamera_C:ShowUI'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.7"
+      },
+      "UpdateRevertCameraTarget": {
+        "ObjectName": "Function'DungeonDirectingCamera_C:UpdateRevertCameraTarget'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.9"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "DungeonDirectingCamera_C'Default__DungeonDirectingCamera_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "CameraComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CameraComponent'",
+    "Outer": {
+      "ObjectName": "DungeonDirectingCamera_C'Default__DungeonDirectingCamera_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.2"
+    },
+    "Properties": {
+      "FieldOfView": 120.0,
+      "OrthoWidth": 512.0,
+      "bAutoCalculateOrthoPlanes": false,
+      "OrthoNearClipPlane": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__DungeonDirectingCamera_C:SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.10"
+      }
+    }
+  },
+  {
+    "Type": "DungeonDirectingCamera_C",
+    "Name": "Default__DungeonDirectingCamera_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.DungeonDirectingCamera_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera",
+    "Properties": {
+      "UberGraphFrame": {},
+      "DirectingTimerHandle": {
+        "Handle": 0
+      },
+      "delayTimeForShowingUI": 0.3,
+      "CameraComponent": {
+        "ObjectName": "CameraComponent'Default__DungeonDirectingCamera_C:CameraComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.1"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'Default__DungeonDirectingCamera_C:SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.10"
+      },
+      "PrimaryActorTick": {
+        "bCanEverTick": true
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__DungeonDirectingCamera_C:SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.10"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "CameraDirecting",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'DungeonDirectingCamera_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "DoubleProperty",
+        "Name": "InDeltaTime",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NearlyEqual_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerController_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PlayerController'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetViewTarget_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ObjectObject_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'TimerDynamicDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Add_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_FMin_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_FInterpEaseInOut_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_Time_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetFieldOfView_InFieldOfView_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_DungeonDirectingCamera",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'DungeonDirectingCamera_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_CameraDirecting_InDeltaTime_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'DungeonDirectingCamera_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "RevertCamera",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'DungeonDirectingCamera_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_OGGetUECamera_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'UECamera'",
+          "ObjectPath": "/Script/ACActorModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerController_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PlayerController'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetViewTarget_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ObjectObject_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ShowUI",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'DungeonDirectingCamera_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'TimerDynamicDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "StartDirecting",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'DungeonDirectingCamera_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.0"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateRevertCameraTarget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'DungeonDirectingCamera_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_OGGetUECamera_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'UECamera'",
+          "ObjectPath": "/Script/ACActorModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerController_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PlayerController'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetViewTarget_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ObjectObject_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "DungeonDirectingCamera_C'Default__DungeonDirectingCamera_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.2"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'DungeonDirectingCamera_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'DungeonDirectingCamera_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.13"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'DungeonDirectingCamera_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.11"
+      },
+      "VariableGUID": "36E158AB-48943AC1-3DE38599-68BFD39B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'DungeonDirectingCamera_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'DungeonDirectingCamera_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/DungeonDirectingCamera.12"
+      }
+    }
+  }
+]

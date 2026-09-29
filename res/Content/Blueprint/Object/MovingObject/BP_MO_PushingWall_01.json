@@ -1,0 +1,1445 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_MO_PushingWall_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_MO_PushingWall_01_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.9"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_MO_PushingWall_01_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.30"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_MO_PushingWall_01_C:InheritableComponentHandler'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.19"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_MO_PushingWall_01_C:ExecuteUbergraph_BP_MO_PushingWall_01'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.16"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_HitableMovingObject'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_MO_PushingWall_01_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.17"
+      },
+      {
+        "ObjectName": "Function'BP_MO_PushingWall_01_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.18"
+      },
+      {
+        "ObjectName": "Function'BP_MO_PushingWall_01_C:BndEvt__BP_MO_PushingWall_01_DestroyOverlepCollsion_Front_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.14"
+      },
+      {
+        "ObjectName": "Function'BP_MO_PushingWall_01_C:BndEvt__BP_MO_PushingWall_01_DestroyOverlepCollsion_Front_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.15"
+      },
+      {
+        "ObjectName": "Function'BP_MO_PushingWall_01_C:BndEvt__BP_MO_PushingWall_01_DestroyOverlapCollision_Back_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.12"
+      },
+      {
+        "ObjectName": "Function'BP_MO_PushingWall_01_C:BndEvt__BP_MO_PushingWall_01_DestroyOverlapCollision_Back_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.13"
+      },
+      {
+        "ObjectName": "Function'BP_MO_PushingWall_01_C:ExecuteUbergraph_BP_MO_PushingWall_01'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.16"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OGTraceLocationVelocity_Front",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'OGTraceLocationVelocityComponent'",
+          "ObjectPath": "/Script/ACActorModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OGTraceLocationVelocity_Back",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'OGTraceLocationVelocityComponent'",
+          "ObjectPath": "/Script/ACActorModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DestroyOverlapCollision_Back",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CBStaticMeshComponent'",
+          "ObjectPath": "/Script/CBResourceModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DestroyOverlepCollsion_Front",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CBStaticMeshComponent'",
+          "ObjectPath": "/Script/CBResourceModule"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_MO_PushingWall_01": {
+        "ObjectName": "Function'BP_MO_PushingWall_01_C:ExecuteUbergraph_BP_MO_PushingWall_01'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.16"
+      },
+      "BndEvt__BP_MO_PushingWall_01_DestroyOverlapCollision_Back_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature": {
+        "ObjectName": "Function'BP_MO_PushingWall_01_C:BndEvt__BP_MO_PushingWall_01_DestroyOverlapCollision_Back_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.13"
+      },
+      "BndEvt__BP_MO_PushingWall_01_DestroyOverlapCollision_Back_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature": {
+        "ObjectName": "Function'BP_MO_PushingWall_01_C:BndEvt__BP_MO_PushingWall_01_DestroyOverlapCollision_Back_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.12"
+      },
+      "BndEvt__BP_MO_PushingWall_01_DestroyOverlepCollsion_Front_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature": {
+        "ObjectName": "Function'BP_MO_PushingWall_01_C:BndEvt__BP_MO_PushingWall_01_DestroyOverlepCollsion_Front_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.15"
+      },
+      "BndEvt__BP_MO_PushingWall_01_DestroyOverlepCollsion_Front_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature": {
+        "ObjectName": "Function'BP_MO_PushingWall_01_C:BndEvt__BP_MO_PushingWall_01_DestroyOverlepCollsion_Front_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.14"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BP_MO_PushingWall_01_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.18"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_MO_PushingWall_01_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.17"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_MO_PushingWall_01_C'Default__BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_MO_PushingWall_01_C",
+    "Name": "Default__BP_MO_PushingWall_01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.BP_MO_PushingWall_01_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01",
+    "Properties": {
+      "UberGraphFrame": {},
+      "HitCheckCollision_Front": {
+        "ObjectName": "CBStaticMeshComponent'Default__BP_MO_PushingWall_01_C:HitCheckCollision_Front'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.6"
+      },
+      "HitCheckCollision_Back": {
+        "ObjectName": "CBStaticMeshComponent'Default__BP_MO_PushingWall_01_C:HitCheckCollision_Back'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.5"
+      },
+      "Loop_Sound_Tid": "408601",
+      "CoreStaticMesh": {
+        "ObjectName": "CBStaticMeshComponent'Default__BP_MO_PushingWall_01_C:CoreStaticMesh'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.4"
+      },
+      "ObjectMovementComponent": {
+        "ObjectName": "EObjectActorMovementComponent'Default__BP_MO_PushingWall_01_C:ObjectMovement'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.11"
+      },
+      "MovingObjectOverlapCollision": {
+        "ObjectName": "CBStaticMeshComponent'Default__BP_MO_PushingWall_01_C:MovingOjbectOverlapCollision'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.7"
+      },
+      "fOnBoardingCheckDistance": 700.0,
+      "fOnBoardingCheckDownOffset": 0.0,
+      "bForceOnBoardingUpdate": true,
+      "LocalLocationConvertComp": {
+        "ObjectName": "SceneComponent'Default__BP_MO_PushingWall_01_C:LocalLocationConvert'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.23"
+      },
+      "ObjectAudioComponent": {
+        "ObjectName": "EAudioComponent'Default__BP_MO_PushingWall_01_C:MovingObjectAudio'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.10"
+      },
+      "ObjectSpringArm": {
+        "ObjectName": "SpringArmComponent'Default__BP_MO_PushingWall_01_C:SpringArm'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.31"
+      },
+      "ObjectDirectingCam": {
+        "ObjectName": "ChildActorComponent'Default__BP_MO_PushingWall_01_C:DirectingCamActor'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.8"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_PushingWall_01_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.24"
+      }
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "DestroyOverlapCollision_Back_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Col_BasicBox_01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Collision/Col_BasicBox_01.1"
+      },
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Npc",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Object",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -630.0,
+        "Z": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 4.0,
+        "Y": 0.15,
+        "Z": 4.0
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "DestroyOverlepCollsion_Front_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Col_BasicBox_01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Collision/Col_BasicBox_01.1"
+      },
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Npc",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Object",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 630.0,
+        "Z": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 4.0,
+        "Y": 0.15,
+        "Z": 4.0
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "CoreStaticMesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_PushingWall_01_C'Default__BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_PushDesertUnCave_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Building/Meshes/S_PushDesertUnCave_A01.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_PushingWall_01_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.24"
+      }
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "HitCheckCollision_Back",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_PushingWall_01_C'Default__BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Col_BasicBox_01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Collision/Col_BasicBox_01.1"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_PushingWall_01_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.24"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -610.0,
+        "Z": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 4.0,
+        "Y": 0.25,
+        "Z": 4.0
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "HitCheckCollision_Front",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_PushingWall_01_C'Default__BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Col_BasicBox_01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Collision/Col_BasicBox_01.1"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_PushingWall_01_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.24"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 610.0,
+        "Z": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 4.0,
+        "Y": 0.25,
+        "Z": 4.0
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "MovingOjbectOverlapCollision",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_PushingWall_01_C'Default__BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Col_BasicBox_01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Collision/Col_BasicBox_01.1"
+      },
+      "bAlwaysCreatePhysicsState": true,
+      "bGenerateOverlapEvents": false,
+      "bMultiBodyOverlap": true,
+      "bTraceComplexOnMove": true,
+      "bApplyImpulseOnDamage": false,
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bUseCCD": true,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        },
+        "bEnableGravity": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_PushingWall_01_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.24"
+      },
+      "RelativeScale3D": {
+        "X": 0.001,
+        "Y": 0.001,
+        "Z": 0.001
+      },
+      "bVisible": false,
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "DirectingCamActor",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_PushingWall_01_C'Default__BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SpringArmComponent'Default__BP_MO_PushingWall_01_C:SpringArm'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.31"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.0"
+    },
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "DestroyOverlapCollision_Back",
+          "DelegatePropertyName": "OnComponentEndOverlap",
+          "FunctionNameToBind": "BndEvt__BP_MO_PushingWall_01_DestroyOverlapCollision_Back_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "DestroyOverlapCollision_Back",
+          "DelegatePropertyName": "OnComponentBeginOverlap",
+          "FunctionNameToBind": "BndEvt__BP_MO_PushingWall_01_DestroyOverlapCollision_Back_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "DestroyOverlepCollsion_Front",
+          "DelegatePropertyName": "OnComponentEndOverlap",
+          "FunctionNameToBind": "BndEvt__BP_MO_PushingWall_01_DestroyOverlepCollsion_Front_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "DestroyOverlepCollsion_Front",
+          "DelegatePropertyName": "OnComponentBeginOverlap",
+          "FunctionNameToBind": "BndEvt__BP_MO_PushingWall_01_DestroyOverlepCollsion_Front_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EAudioComponent",
+    "Name": "MovingObjectAudio",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EAudioComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_PushingWall_01_C'Default__BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_PushingWall_01_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.24"
+      }
+    }
+  },
+  {
+    "Type": "EObjectActorMovementComponent",
+    "Name": "ObjectMovement",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EObjectActorMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_PushingWall_01_C'Default__BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.1"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_MO_PushingWall_01_DestroyOverlapCollision_Back_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bFromSweep",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "SweepResult",
+        "Flags": "RF_Public",
+        "ElementSize": 264,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_MO_PushingWall_01_DestroyOverlapCollision_Back_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_MO_PushingWall_01_DestroyOverlepCollsion_Front_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bFromSweep",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "SweepResult",
+        "Flags": "RF_Public",
+        "ElementSize": 264,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_MO_PushingWall_01_DestroyOverlepCollsion_Front_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_MO_PushingWall_01",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OverlappedComponent_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherActor_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherComp_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherBodyIndex_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bFromSweep_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_SweepResult_1",
+        "Flags": "RF_Public",
+        "ElementSize": 264,
+        "PropertyFlags": "ConstParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OverlappedComponent_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherActor_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherComp_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherBodyIndex_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OverlappedComponent_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherActor_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherComp_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherBodyIndex_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bFromSweep",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_SweepResult",
+        "Flags": "RF_Public",
+        "ElementSize": 264,
+        "PropertyFlags": "ConstParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.0"
+    }
+  },
+  {
+    "Type": "OGTraceLocationVelocityComponent",
+    "Name": "OGTraceLocationVelocity_Back_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGTraceLocationVelocityComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.0"
+    }
+  },
+  {
+    "Type": "OGTraceLocationVelocityComponent",
+    "Name": "OGTraceLocationVelocity_Front_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGTraceLocationVelocityComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.0"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -8400.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "LocalLocationConvert",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_PushingWall_01_C'Default__BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_PushingWall_01_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.24"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_PushingWall_01_C'Default__BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.1"
+    },
+    "Properties": {
+      "PhysicsVolumeChangedDelegate": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "EObjectActorMovementComponent'Default__BP_MO_PushingWall_01_C:ObjectMovement'",
+              "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.11"
+            },
+            "FunctionName": "PhysicsVolumeChanged"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MO_PushingWall_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_MO_PushingWall_01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.22"
+      },
+      "VariableGUID": "823C9E69-4FC325AC-80E3E0BB-A64A0AEB",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MO_PushingWall_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CBStaticMeshComponent'",
+        "ObjectPath": "/Script/CBResourceModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBStaticMeshComponent'BP_MO_PushingWall_01_C:DestroyOverlepCollsion_Front_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.3"
+      },
+      "ParentComponentOrVariableName": "RootComp",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MO_PushingWall_01_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.29"
+        }
+      ],
+      "VariableGUID": "4985B892-47BD35A0-11E68E9A-D4031CCF",
+      "InternalVariableName": "DestroyOverlepCollsion_Front"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MO_PushingWall_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CBStaticMeshComponent'",
+        "ObjectPath": "/Script/CBResourceModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBStaticMeshComponent'BP_MO_PushingWall_01_C:DestroyOverlapCollision_Back_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.2"
+      },
+      "ParentComponentOrVariableName": "RootComp",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MO_PushingWall_01_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.28"
+        }
+      ],
+      "VariableGUID": "542E6588-4D0ED641-EC7CF685-2E87A006",
+      "InternalVariableName": "DestroyOverlapCollision_Back"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MO_PushingWall_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'OGTraceLocationVelocityComponent'",
+        "ObjectPath": "/Script/ACActorModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "OGTraceLocationVelocityComponent'BP_MO_PushingWall_01_C:OGTraceLocationVelocity_Back_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.20"
+      },
+      "VariableGUID": "DC73244B-4FBFD8A8-B29C229E-5CD672BB",
+      "InternalVariableName": "OGTraceLocationVelocity_Back"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MO_PushingWall_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'OGTraceLocationVelocityComponent'",
+        "ObjectPath": "/Script/ACActorModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "OGTraceLocationVelocityComponent'BP_MO_PushingWall_01_C:OGTraceLocationVelocity_Front_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.21"
+      },
+      "VariableGUID": "67FB319F-40CCEAE7-EC9FDC8C-01F280C7",
+      "InternalVariableName": "OGTraceLocationVelocity_Front"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MO_PushingWall_01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MO_PushingWall_01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.27"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MO_PushingWall_01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MO_PushingWall_01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MO_PushingWall_01_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MO_PushingWall_01_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.29"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_MO_PushingWall_01_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.25"
+      }
+    }
+  },
+  {
+    "Type": "SpringArmComponent",
+    "Name": "SpringArm",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_PushingWall_01_C'Default__BP_MO_PushingWall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_PushingWall_01_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_PushingWall_01.24"
+      }
+    }
+  }
+]

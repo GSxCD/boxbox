@@ -1,0 +1,119 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MAT_Escanor_Paper_Inst",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/Contents/Event_Escanor/MAT_Escanor_Paper_Inst",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'MAT_Escanor_Paper'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat/Contents/Event_Escanor/MAT_Escanor_Paper.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Flame",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "CCBD49FE-4203F96A-1B9C7593-760B3F03"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "FX_Multi",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "80B625DF-4C24AD1E-AF0DDAAC-3E2D29E9"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Wind_Add",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.01,
+          "ExpressionGUID": "EDDA3B23-40E78310-84FBA8B1-92873326"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Wind_Size",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.2,
+          "ExpressionGUID": "93026E44-49FDFE44-007BA6AE-FF0BADA9"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 0.337164,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF9D00"
+          },
+          "ExpressionGUID": "249D4423-488C403D-0F157F8D-312F680C"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Pattern",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'fx_t_gs_dust_c01_clamp'",
+            "ObjectPath": "SevenDeadlySins/Content/VFX/Resources/Textures/GrayScale/fx_t_gs_dust_c01_clamp.0"
+          },
+          "ExpressionGUID": "A53B0304-40FC0EA8-DA7B00B1-F144DDA8"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Texture_Wind",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'fx_t_caustic_d01'",
+            "ObjectPath": "SevenDeadlySins/Content/VFX/Resources/Textures/Color/fx_t_caustic_d01.0"
+          },
+          "ExpressionGUID": "AEE4E8D2-45E71919-423ADFA1-61476217"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "bBlendWithWaterSurfaceOpacity": true,
+        "bIsCorrectWaterEnabled": true,
+        "bRenderCustomStencil": true,
+        "BlendMode": "EBlendMode::BLEND_TranslucentGreyTransmittance",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

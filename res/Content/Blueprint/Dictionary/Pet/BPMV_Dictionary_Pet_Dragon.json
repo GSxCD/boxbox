@@ -1,0 +1,795 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPMV_Dictionary_Pet_Dragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPMV_Dictionary_Pet_Dragon_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.12"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_ModelView'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "fx_ns_pet_dragon_buff_01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "fx_ns_pet_dragon_buff",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBSkeletalMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CBSkeletalMeshComponent'",
+          "ObjectPath": "/Script/CBResourceModule"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPMV_Dictionary_Pet_Dragon_C'Default__BPMV_Dictionary_Pet_Dragon_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BPMV_Dictionary_Pet_Dragon_C",
+    "Name": "Default__BPMV_Dictionary_Pet_Dragon_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.BPMV_Dictionary_Pet_Dragon_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon",
+    "Properties": {
+      "CoreRoot": {
+        "ObjectName": "SceneComponent'Default__BPMV_Dictionary_Pet_Dragon_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.6"
+      },
+      "CoreStaticMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BPMV_Dictionary_Pet_Dragon_C:child_static_mesh'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.14"
+      },
+      "CoreSkeletalMesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BPMV_Dictionary_Pet_Dragon_C:child_skel_mesh'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.13"
+      },
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BPMV_Dictionary_Pet_Dragon_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.7"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BPMV_Dictionary_Pet_Dragon_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.6"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "CBSkeletalMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BPMV_Dictionary_Pet_Dragon_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.0"
+    },
+    "Properties": {
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'PET_Riding_Dragon_0001_Idle'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Riding_Dragon/Ani/PET_Riding_Dragon_0001_Idle.0"
+        }
+      },
+      "AnimationMode": "EAnimationMode::AnimationSingleNode",
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'PET_Riding_Dragon_0001'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Riding_Dragon/Mesh/PET_Riding_Dragon_0001.3"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'PET_Riding_Dragon_0001'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Riding_Dragon/Mesh/PET_Riding_Dragon_0001.3"
+      },
+      "OverrideMaterials": [
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "fx_ns_pet_dragon_buff_01_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BPMV_Dictionary_Pet_Dragon_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.0"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_ns_pet_dragon_buff_01'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/Cha/PET/Dragon/fx_ns_pet_dragon_buff_01.46"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "All_Scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.All_Scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "BuffCount",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.BuffCount",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "CameraOffsetMulti",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.CameraOffsetMulti",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Life_dust",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Life_dust",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.All_Scale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 8,
+            "Name": "User.BuffCount",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 16,
+            "Name": "User.CameraOffsetMulti",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.Life_dust",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 12,
+            "Name": "User.scale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          0,
+          64,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          63,
+          0,
+          0,
+          128,
+          63
+        ]
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "fx_ns_pet_dragon_buff_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BPMV_Dictionary_Pet_Dragon_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.0"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_ns_pet_dragon_buff'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/Cha/PET/Dragon/fx_ns_pet_dragon_buff.46"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "All_Scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.All_Scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "BuffCount",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.BuffCount",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "CameraOffsetMulti",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.CameraOffsetMulti",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Life_dust",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Life_dust",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.All_Scale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 8,
+            "Name": "User.BuffCount",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 16,
+            "Name": "User.CameraOffsetMulti",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.Life_dust",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 12,
+            "Name": "User.scale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          0,
+          64,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          63,
+          0,
+          0,
+          128,
+          63
+        ]
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BPMV_Dictionary_Pet_Dragon_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BPMV_Dictionary_Pet_Dragon_C'Default__BPMV_Dictionary_Pet_Dragon_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.1"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BPMV_Dictionary_Pet_Dragon_C'Default__BPMV_Dictionary_Pet_Dragon_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BPMV_Dictionary_Pet_Dragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPMV_Dictionary_Pet_Dragon_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.5"
+      },
+      "VariableGUID": "21094FD3-4F51E1C0-44168997-479D7CB0",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BPMV_Dictionary_Pet_Dragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'BPMV_Dictionary_Pet_Dragon_C:fx_ns_pet_dragon_buff_01_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.3"
+      },
+      "AttachToName": "Bone_Chest_01",
+      "VariableGUID": "E993954A-46D3C6A1-90F1E8A9-747A6AE4",
+      "InternalVariableName": "fx_ns_pet_dragon_buff_01"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BPMV_Dictionary_Pet_Dragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'BPMV_Dictionary_Pet_Dragon_C:fx_ns_pet_dragon_buff_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.4"
+      },
+      "AttachToName": "Point_Head",
+      "VariableGUID": "8DC37B09-4F02EA8A-1A59A79E-A141E03B",
+      "InternalVariableName": "fx_ns_pet_dragon_buff"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BPMV_Dictionary_Pet_Dragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CBSkeletalMeshComponent'",
+        "ObjectPath": "/Script/CBResourceModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBSkeletalMeshComponent'BPMV_Dictionary_Pet_Dragon_C:CBSkeletalMesh_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.2"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPMV_Dictionary_Pet_Dragon_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMV_Dictionary_Pet_Dragon_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.9"
+        }
+      ],
+      "VariableGUID": "49C75B34-45E4CFC9-2612A681-0CBC8C4F",
+      "InternalVariableName": "CBSkeletalMesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BPMV_Dictionary_Pet_Dragon_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPMV_Dictionary_Pet_Dragon_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.11"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPMV_Dictionary_Pet_Dragon_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMV_Dictionary_Pet_Dragon_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMV_Dictionary_Pet_Dragon_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.9"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPMV_Dictionary_Pet_Dragon_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.8"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "child_skel_mesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BPMV_Dictionary_Pet_Dragon_C'Default__BPMV_Dictionary_Pet_Dragon_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BPMV_Dictionary_Pet_Dragon_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.6"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "child_static_mesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BPMV_Dictionary_Pet_Dragon_C'Default__BPMV_Dictionary_Pet_Dragon_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BPMV_Dictionary_Pet_Dragon_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Dragon.6"
+      }
+    }
+  }
+]

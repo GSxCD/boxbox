@@ -1,0 +1,271 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_BK_DeepSpiderCave_Wall_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_BK_DeepSpiderCave_Wall_01_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.8"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "S_TempleEntranceWall_A03",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_BK_DeepSpiderCave_Wall_01_C'Default__BP_BK_DeepSpiderCave_Wall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BK_DeepSpiderCave_Wall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.0"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_PhysicsBody",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Npc",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Object",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Wall",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Select",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1420.0
+      },
+      "RelativeScale3D": {
+        "X": 0.8,
+        "Y": 12.0,
+        "Z": 45.0
+      }
+    }
+  },
+  {
+    "Type": "BP_BK_DeepSpiderCave_Wall_01_C",
+    "Name": "Default__BP_BK_DeepSpiderCave_Wall_01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.BP_BK_DeepSpiderCave_Wall_01_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01",
+    "Properties": {
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_BK_DeepSpiderCave_Wall_01_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.4"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_BK_DeepSpiderCave_Wall_01_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.4"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BK_DeepSpiderCave_Wall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_BK_DeepSpiderCave_Wall_01_C'Default__BP_BK_DeepSpiderCave_Wall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BK_DeepSpiderCave_Wall_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_BK_DeepSpiderCave_Wall_01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.3"
+      },
+      "VariableGUID": "CD071046-47CC7231-DB135EA2-13F1DFC5",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BK_DeepSpiderCave_Wall_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_BK_DeepSpiderCave_Wall_01_C:Box_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.1"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "F4BA4CF9-4861239E-EF28E3A9-C36E49E9",
+      "InternalVariableName": "Box"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BK_DeepSpiderCave_Wall_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_BK_DeepSpiderCave_Wall_01_C:S_TempleEntranceWall_A03_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.9"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "9F6DB5BD-48AC686A-FEED3089-DD6ABBB3",
+      "InternalVariableName": "S_TempleEntranceWall_A03"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BK_DeepSpiderCave_Wall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_BK_DeepSpiderCave_Wall_01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.6"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BK_DeepSpiderCave_Wall_01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.7"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_BK_DeepSpiderCave_Wall_01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.6"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BK_DeepSpiderCave_Wall_01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.7"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_BK_DeepSpiderCave_Wall_01_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "S_TempleEntranceWall_A03_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BK_DeepSpiderCave_Wall_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Block/BP_BK_DeepSpiderCave_Wall_01.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_TempleEntranceWall_A03'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Meshes/S_TempleEntranceWall_A03.1"
+      }
+    }
+  }
+]

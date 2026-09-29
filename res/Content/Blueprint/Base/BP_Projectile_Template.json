@@ -1,0 +1,128 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Projectile_Template_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Base/BP_Projectile_Template",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Projectile_Template_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Projectile_Template.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_Projectile'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Projectile_Template_C'Default__BP_Projectile_Template_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Projectile_Template.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Projectile_Template_C",
+    "Name": "Default__BP_Projectile_Template_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Base/BP_Projectile_Template.BP_Projectile_Template_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Base/BP_Projectile_Template",
+    "Properties": {
+      "CoreMesh": {
+        "ObjectName": "CBSkeletalMeshComponent'Default__BP_Projectile_Template_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Projectile_Template.2"
+      },
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_Projectile_Template_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Projectile_Template.4"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_Projectile_Template_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Projectile_Template.4"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Projectile_Template_C'Default__BP_Projectile_Template_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Projectile_Template.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Projectile_Template_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Projectile_Template.4"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Template_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Projectile_Template.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Projectile_Template_C'Default__BP_Projectile_Template_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Projectile_Template.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Projectile_Template_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Projectile_Template.6"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Projectile_Template_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Projectile_Template.3"
+      },
+      "VariableGUID": "BFA8E003-467FDD4C-9B9432A6-3F0432D2",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Template_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Projectile_Template.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Projectile_Template_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Base/BP_Projectile_Template.5"
+      }
+    }
+  }
+]

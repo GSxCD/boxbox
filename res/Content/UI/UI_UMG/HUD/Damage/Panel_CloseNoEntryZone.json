@@ -1,0 +1,1072 @@
+[
+  {
+    "Type": "CBImage",
+    "Name": "BackgroundImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_CloseNoEntryZone_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.22"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 8.0,
+          "Y": 8.0
+        },
+        "Margin": {
+          "Left": 0.12,
+          "Top": 0.12,
+          "Right": 0.12,
+          "Bottom": 0.12
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'UI_MI_ScreenEffect_Polar_01'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/UI_MI_ScreenEffect_Polar_01.0"
+        }
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_CloseNoEntryZone_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.21"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Panel_CloseNoEntryZone",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_CloseNoEntryZone_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.21"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "K2Node_CustomEvent_eventKey",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": null
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEventMessage_이벤트_0",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_CloseNoEntryZone_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.21"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ByteProperty",
+        "Name": "eventKey",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": null
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "PlayNearDeathSound",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_CloseNoEntryZone_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.21"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnSound2D_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'AudioComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "StopNearDeathSound",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_CloseNoEntryZone_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.21"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Hide_Old",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_CloseNoEntryZone_C:Anim_Hide_Old_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.19"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "74F6D9A2-4E4F121A-3694B980-339465E7",
+          "Name": "BackgroundImage",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "74F6D9A2-4E4F121A-3694B980-339465E7",
+          "BindingName": "Effect_13",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_CloseNoEntryZone_C:Anim_Hide_Old_INST.Anim_Hide_Old.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.16"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "90788067-4E2E9C1C-F1B72088-A79D4D22"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Show_Old",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_CloseNoEntryZone_C:Anim_Show_Old_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.20"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "276074EA-4F35D5B4-A734F0A0-F0F28FFC",
+          "Name": "BackgroundImage",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "276074EA-4F35D5B4-A734F0A0-F0F28FFC",
+          "BindingName": "Effect_13",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_CloseNoEntryZone_C:Anim_Show_Old_INST.Anim_Show_Old.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.17"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 120001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "18E0C6F8-41EF09F0-4D2DA893-5A9E3EBA"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_CloseNoEntryZone_C:Anim_Hide_Old_INST.Anim_Hide_Old.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.14"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_CloseNoEntryZone_C:Anim_Hide_Old_INST.Anim_Hide_Old.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.14"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_CloseNoEntryZone_C:Anim_Show_Old_INST.Anim_Show_Old.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.15"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_CloseNoEntryZone_C:Anim_Show_Old_INST.Anim_Show_Old.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.15"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_CloseNoEntryZone_C:Anim_Hide_Old_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.19"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 60000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_CloseNoEntryZone_C:Anim_Hide_Old_INST.Anim_Hide_Old.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.14"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "74F6D9A2-4E4F121A-3694B980-339465E7"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 60000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "EC8A0306-4BDFA042-1A6F3CB6-F7B813C3",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_CloseNoEntryZone_C:Anim_Show_Old_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.20"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 120000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_CloseNoEntryZone_C:Anim_Show_Old_INST.Anim_Show_Old.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.15"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "276074EA-4F35D5B4-A734F0A0-F0F28FFC"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 120000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "02657B3F-4C34F50C-C1CAEA9D-E4B7108B",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_CloseNoEntryZone_C:Anim_Hide_Old_INST.Anim_Hide_Old.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.16"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 60000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_CloseNoEntryZone_C:Anim_Hide_Old_INST.Anim_Hide_Old.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.8"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_CloseNoEntryZone_C:Anim_Hide_Old_INST.Anim_Hide_Old.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.9"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 60000
+            }
+          }
+        }
+      },
+      "Signature": "76979FB3-4042CEB7-17C1DBA9-682E4C10"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_CloseNoEntryZone_C:Anim_Show_Old_INST.Anim_Show_Old.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.17"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 120000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_CloseNoEntryZone_C:Anim_Show_Old_INST.Anim_Show_Old.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.10"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_CloseNoEntryZone_C:Anim_Show_Old_INST.Anim_Show_Old.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.11"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 120000
+            }
+          }
+        }
+      },
+      "Signature": "2731C43D-425940F1-A7C65EBE-D42F7054"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_CloseNoEntryZone_C:Anim_Hide_Old_INST.Anim_Hide_Old'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.6"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_CloseNoEntryZone_C:Anim_Hide_Old_INST.Anim_Hide_Old.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.14"
+        }
+      ],
+      "EvaluationFieldGuid": "0E734D27-4F058359-3877CF90-F906282D",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_CloseNoEntryZone_C:Anim_Hide_Old_INST.Anim_Hide_Old.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.14"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 60000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "0E734D27-4F058359-3877CF90-F906282D"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_CloseNoEntryZone_C:Anim_Show_Old_INST.Anim_Show_Old'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.7"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_CloseNoEntryZone_C:Anim_Show_Old_INST.Anim_Show_Old.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.15"
+        }
+      ],
+      "EvaluationFieldGuid": "0F0D4A3D-452A7071-A136B292-D4E15533",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_CloseNoEntryZone_C:Anim_Show_Old_INST.Anim_Show_Old.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.15"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 120000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "0F0D4A3D-452A7071-A136B292-D4E15533"
+    }
+  },
+  {
+    "Type": "Panel_CloseNoEntryZone_C",
+    "Name": "Default__Panel_CloseNoEntryZone_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.Panel_CloseNoEntryZone_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Hide_Old_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_CloseNoEntryZone_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.21"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Panel_CloseNoEntryZone_C:Anim_Hide_Old_INST.Anim_Hide_Old'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.6"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "BackgroundImage",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "74F6D9A2-4E4F121A-3694B980-339465E7",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Hide_Old",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Panel_CloseNoEntryZone_C:Anim_Hide_Old_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.12"
+      },
+      "Signature": "EC8A0306-4BDFA042-1A6F3CB6-F7B813C3"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Show_Old_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_CloseNoEntryZone_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.21"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Panel_CloseNoEntryZone_C:Anim_Show_Old_INST.Anim_Show_Old'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.7"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "BackgroundImage",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "276074EA-4F35D5B4-A734F0A0-F0F28FFC",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Show_Old",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Panel_CloseNoEntryZone_C:Anim_Show_Old_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.13"
+      },
+      "Signature": "02657B3F-4C34F50C-C1CAEA9D-E4B7108B"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Panel_CloseNoEntryZone_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Panel_CloseNoEntryZone_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.22"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'Panel_CloseNoEntryZone_C:Anim_Show_Old_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.20"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Panel_CloseNoEntryZone_C:Anim_Hide_Old_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.19"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'Panel_CloseNoEntryZone_C:ExecuteUbergraph_Panel_CloseNoEntryZone'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EPanel_CloseNoEntryZone'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Panel_CloseNoEntryZone_C:StopNearDeathSound'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.5"
+      },
+      {
+        "ObjectName": "Function'Panel_CloseNoEntryZone_C:PlayNearDeathSound'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.4"
+      },
+      {
+        "ObjectName": "Function'Panel_CloseNoEntryZone_C:OnEventMessage_이벤트_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.3"
+      },
+      {
+        "ObjectName": "Function'Panel_CloseNoEntryZone_C:Construct'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.1"
+      },
+      {
+        "ObjectName": "Function'Panel_CloseNoEntryZone_C:ExecuteUbergraph_Panel_CloseNoEntryZone'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_Hide_Old",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_Show_Old",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AudioComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'AudioComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Panel_CloseNoEntryZone": {
+        "ObjectName": "Function'Panel_CloseNoEntryZone_C:ExecuteUbergraph_Panel_CloseNoEntryZone'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.2"
+      },
+      "Construct": {
+        "ObjectName": "Function'Panel_CloseNoEntryZone_C:Construct'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.1"
+      },
+      "OnEventMessage_이벤트_0": {
+        "ObjectName": "Function'Panel_CloseNoEntryZone_C:OnEventMessage_이벤트_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.3"
+      },
+      "PlayNearDeathSound": {
+        "ObjectName": "Function'Panel_CloseNoEntryZone_C:PlayNearDeathSound'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.4"
+      },
+      "StopNearDeathSound": {
+        "ObjectName": "Function'Panel_CloseNoEntryZone_C:StopNearDeathSound'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.5"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Panel_CloseNoEntryZone_C'Default__Panel_CloseNoEntryZone_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.18"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_CloseNoEntryZone_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.21"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBImage'Panel_CloseNoEntryZone_C:WidgetTree.BackgroundImage'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Damage/Panel_CloseNoEntryZone.0"
+      }
+    }
+  }
+]

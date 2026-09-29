@@ -1,0 +1,2585 @@
+[
+  {
+    "Type": "Btn_01_C",
+    "Name": "Btn_01",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.Btn_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PVP_Matcging_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.49"
+    },
+    "Template": {
+      "ObjectName": "Btn_01_C'Default__Btn_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.0"
+    },
+    "Properties": {
+      "StringStyle": {
+        "bEnabled": true,
+        "Text": "UI_Cancel"
+      },
+      "bIsPadFocus": false,
+      "InputTableTID": "UI_Cancel",
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'PVP_Matcging_C:WidgetTree.CBSizeBox_0.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.13"
+      }
+    }
+  },
+  {
+    "Type": "CBBackgroundBlur",
+    "Name": "CBBackgroundBlur_46",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBackgroundBlur'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PVP_Matcging_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.49"
+    },
+    "Properties": {
+      "BlurStrength": 2.0,
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'PVP_Matcging_C:WidgetTree.CBOverlay_0.CBOverlaySlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.6"
+      }
+    }
+  },
+  {
+    "Type": "CBBorderSlot",
+    "Name": "CBBorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorderSlot'",
+    "Outer": {
+      "ObjectName": "EBorder'PVP_Matcging_C:WidgetTree.EBorder_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.14"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 150.0,
+        "Top": 30.0,
+        "Right": 150.0,
+        "Bottom": 30.0
+      },
+      "Parent": {
+        "ObjectName": "EBorder'PVP_Matcging_C:WidgetTree.EBorder_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.14"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'PVP_Matcging_C:WidgetTree.ETextBlock_26'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.15"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "bg",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PVP_Matcging_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.49"
+    },
+    "Properties": {
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.3,
+        "Hex": "4C000000"
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'PVP_Matcging_C:WidgetTree.CBOverlay_0.CBOverlaySlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.7"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "loading",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PVP_Matcging_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.49"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 200.0,
+          "Y": 200.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'UI_MI_SeqPlay_Stella'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/Contents/UI_MI_SeqPlay_Stella.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'PVP_Matcging_C:WidgetTree.CBOverlay_0.CBOverlaySlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.9"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "CBOverlay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PVP_Matcging_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.49"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'PVP_Matcging_C:WidgetTree.CBOverlay_0.CBOverlaySlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.6"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'PVP_Matcging_C:WidgetTree.CBOverlay_0.CBOverlaySlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.7"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'PVP_Matcging_C:WidgetTree.CBOverlay_0.CBOverlaySlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.8"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'PVP_Matcging_C:WidgetTree.CBOverlay_0.CBOverlaySlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.9"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'PVP_Matcging_C:WidgetTree.CBOverlay_0.CBOverlaySlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.11"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'PVP_Matcging_C:WidgetTree.CBOverlay_0.CBOverlaySlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'PVP_Matcging_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.5"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'PVP_Matcging_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.5"
+      },
+      "Content": {
+        "ObjectName": "CBBackgroundBlur'PVP_Matcging_C:WidgetTree.CBBackgroundBlur_46'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.1"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'PVP_Matcging_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.5"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'PVP_Matcging_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.5"
+      },
+      "Content": {
+        "ObjectName": "CBImage'PVP_Matcging_C:WidgetTree.bg'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.3"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'PVP_Matcging_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.5"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 250.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'PVP_Matcging_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.5"
+      },
+      "Content": {
+        "ObjectName": "EBorder'PVP_Matcging_C:WidgetTree.EBorder_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.14"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'PVP_Matcging_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.5"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'PVP_Matcging_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.5"
+      },
+      "Content": {
+        "ObjectName": "CBImage'PVP_Matcging_C:WidgetTree.loading'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.4"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'PVP_Matcging_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.5"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 140.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "CBOverlay'PVP_Matcging_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.5"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'PVP_Matcging_C:WidgetTree.CBSizeBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.12"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'PVP_Matcging_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.5"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'PVP_Matcging_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.5"
+      },
+      "Content": {
+        "ObjectName": "NiagaraSystemWidget'PVP_Matcging_C:WidgetTree.NiagaraSystemWidget_32'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.44"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PVP_Matcging_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.49"
+    },
+    "Properties": {
+      "WidthOverride": 400.0,
+      "HeightOverride": 84.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'PVP_Matcging_C:WidgetTree.CBSizeBox_0.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.13"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'PVP_Matcging_C:WidgetTree.CBOverlay_0.CBOverlaySlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.10"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'PVP_Matcging_C:WidgetTree.CBSizeBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.12"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'PVP_Matcging_C:WidgetTree.CBSizeBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.12"
+      },
+      "Content": {
+        "ObjectName": "Btn_01_C'PVP_Matcging_C:WidgetTree.Btn_01'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.0"
+      }
+    }
+  },
+  {
+    "Type": "EBorder",
+    "Name": "EBorder_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PVP_Matcging_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.49"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 150.0,
+        "Top": 30.0,
+        "Right": 150.0,
+        "Bottom": 30.0
+      },
+      "Background": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 376.0,
+          "Y": 30.0
+        },
+        "Margin": {
+          "Top": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_invendetial_02'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_invendetial_02.0"
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBBorderSlot'PVP_Matcging_C:WidgetTree.EBorder_0.CBBorderSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.2"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'PVP_Matcging_C:WidgetTree.CBOverlay_0.CBOverlaySlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.8"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "ETextBlock_26",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PVP_Matcging_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.49"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 40.0
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBBorderSlot'PVP_Matcging_C:WidgetTree.EBorder_0.CBBorderSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.2"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Match",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'PVP_Matcging_C:Anim_Match_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.46"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "0A51A55D-40E7BA37-26FDBDB1-33114C6B",
+          "Name": "bg",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "4FA9219C-4AF27CBD-DBDA479E-21733718",
+          "Name": "loading",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "5DD448B7-405817BE-9A66919D-08838A7B",
+          "Name": "NiagaraSystemWidget_32",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "0A51A55D-40E7BA37-26FDBDB1-33114C6B",
+          "BindingName": "bg",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneColorTrack'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneColorTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.37"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "4FA9219C-4AF27CBD-DBDA479E-21733718",
+          "BindingName": "loading",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.19"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.42"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "5DD448B7-405817BE-9A66919D-08838A7B",
+          "BindingName": "NiagaraSystemWidget_32",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneBoolTrack'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneBoolTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.21"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 21001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "2DEC025B-41D3F72F-19E48BB4-8287FA17"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Show",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'PVP_Matcging_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.47"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "1BB5220F-4FD5E455-F2839FBA-258109DD",
+          "Name": "loading",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "98B14679-4218D7A2-9BE966A8-1641DF82",
+          "Name": "CBOverlay_0",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "1BB5220F-4FD5E455-F2839FBA-258109DD",
+          "BindingName": "loading",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneByteTrack'PVP_Matcging_C:Anim_Show_INST.Anim_Show.MovieSceneByteTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.35"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "98B14679-4218D7A2-9BE966A8-1641DF82",
+          "BindingName": "CBOverlay_0",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'PVP_Matcging_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.43"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 18001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "217F7A92-4B51A03C-98032688-8C9387B5"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.19"
+    },
+    "Properties": {
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 18000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.5,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 4.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 18000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.5,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 4.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.22"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.23"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 21000
+            }
+          }
+        }
+      },
+      "Signature": "13A72B8D-457F323D-90600CA9-DC6C5FE6"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'PVP_Matcging_C:Anim_Match_INST.Anim_Match'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.16"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.18"
+        }
+      ],
+      "EvaluationFieldGuid": "55910803-48637A3D-904E1190-B60870C0",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.18"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 21000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "55910803-48637A3D-904E1190-B60870C0"
+    }
+  },
+  {
+    "Type": "MovieSceneBoolSection",
+    "Name": "MovieSceneBoolSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBoolSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolTrack'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneBoolTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.21"
+    },
+    "Properties": {
+      "BoolCurve": {
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 6000
+          },
+          {
+            "Value": 18000
+          }
+        ],
+        "Values": [
+          false,
+          true,
+          false
+        ]
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneBoolTrack_0.MovieSceneBoolSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.24"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneBoolTrack_0.MovieSceneBoolSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.25"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 21000
+            }
+          }
+        }
+      },
+      "Signature": "03B81554-4F0D9E38-48F4499F-7F42EF9F"
+    }
+  },
+  {
+    "Type": "MovieSceneBoolTrack",
+    "Name": "MovieSceneBoolTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBoolTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'PVP_Matcging_C:Anim_Match_INST.Anim_Match'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.16"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "bPlayNiagara",
+        "PropertyPath": "bPlayNiagara",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneBoolSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.20"
+        }
+      ],
+      "EvaluationFieldGuid": "FC0F88BC-49155EE6-D6F2AB98-6FF68FD0",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneBoolSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.20"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 21000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "FC0F88BC-49155EE6-D6F2AB98-6FF68FD0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.18"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.18"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.20"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.20"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneColorSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneColorTrack_0.MovieSceneColorSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.36"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneColorSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneColorTrack_0.MovieSceneColorSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.36"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.40"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.40"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneByteSection'PVP_Matcging_C:Anim_Show_INST.Anim_Show.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.34"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneByteSection'PVP_Matcging_C:Anim_Show_INST.Anim_Show.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.34"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'PVP_Matcging_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.41"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'PVP_Matcging_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.41"
+    }
+  },
+  {
+    "Type": "MovieSceneByteSection",
+    "Name": "MovieSceneByteSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneByteSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneByteTrack'PVP_Matcging_C:Anim_Show_INST.Anim_Show.MovieSceneByteTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.35"
+    },
+    "Properties": {
+      "ByteCurve": {
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 6000
+          }
+        ],
+        "Values": [
+          1,
+          4
+        ],
+        "Enum": {
+          "ObjectName": "Enum'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'PVP_Matcging_C:Anim_Show_INST.Anim_Show.MovieSceneByteTrack_0.MovieSceneByteSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.30"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'PVP_Matcging_C:Anim_Show_INST.Anim_Show.MovieSceneByteTrack_0.MovieSceneByteSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.31"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 18000
+            }
+          }
+        }
+      },
+      "Signature": "EC131838-46900515-4CDC55BC-62061B4F"
+    }
+  },
+  {
+    "Type": "MovieSceneByteTrack",
+    "Name": "MovieSceneByteTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneByteTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'PVP_Matcging_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.17"
+    },
+    "Properties": {
+      "Enum": {
+        "ObjectName": "Enum'ESlateVisibility'",
+        "ObjectPath": "/Script/UMG"
+      },
+      "PropertyBinding": {
+        "PropertyName": "Visibility",
+        "PropertyPath": "Visibility",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneByteSection'PVP_Matcging_C:Anim_Show_INST.Anim_Show.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.34"
+        }
+      ],
+      "EvaluationFieldGuid": "618CD7D3-40B33608-6BBF5487-64B416DA",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneByteSection'PVP_Matcging_C:Anim_Show_INST.Anim_Show.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.34"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 18000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "618CD7D3-40B33608-6BBF5487-64B416DA"
+    }
+  },
+  {
+    "Type": "MovieSceneColorSection",
+    "Name": "MovieSceneColorSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneColorSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneColorTrack'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneColorTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.37"
+    },
+    "Properties": {
+      "RedCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 18000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "GreenCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 18000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "BlueCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 18000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "AlphaCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 18000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.2,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.5,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.26"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.27"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 21000
+            }
+          }
+        }
+      },
+      "Signature": "52782A81-45FA49D3-286F4284-CB9189D4"
+    }
+  },
+  {
+    "Type": "MovieSceneColorTrack",
+    "Name": "MovieSceneColorTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneColorTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'PVP_Matcging_C:Anim_Match_INST.Anim_Match'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.16"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "ColorAndOpacity",
+        "PropertyPath": "ColorAndOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneColorSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneColorTrack_0.MovieSceneColorSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.36"
+        }
+      ],
+      "EvaluationFieldGuid": "24F3664F-49B8F7C0-65C31BAF-913A2BE6",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneColorSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneColorTrack_0.MovieSceneColorSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.36"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 21000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "24F3664F-49B8F7C0-65C31BAF-913A2BE6"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'PVP_Matcging_C:Anim_Match_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.46"
+    },
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "5DD448B7-405817BE-9A66919D-08838A7B",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "SourceTrack": {
+                "ObjectName": "MovieSceneBoolTrack'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneBoolTrack_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.21"
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneBoolPropertySectionTemplate",
+                  "Data": {
+                    "BoolCurve": {
+                      "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                      "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                      "Times": [
+                        {
+                          "Value": 0
+                        },
+                        {
+                          "Value": 6000
+                        },
+                        {
+                          "Value": 18000
+                        }
+                      ],
+                      "DefaultValue": false,
+                      "bHasDefaultValue": false,
+                      "Values": [
+                        false,
+                        true,
+                        false
+                      ]
+                    },
+                    "PropertyData": {
+                      "PropertyName": "PlayNiagara",
+                      "PropertyPath": "bPlayNiagara"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneBoolSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+                      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.20"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "FC0F88BC-49155EE6-D6F2AB98-6FF68FD0",
+              "Value": {
+                "Value": 0
+              }
+            }
+          ]
+        }
+      },
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 3,
+                  "Capacity": 3
+                },
+                {
+                  "StartIndex": 3,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 21000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 21000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 21000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneColorSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneColorTrack_0.MovieSceneColorSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.36"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.18"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.40"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "0A51A55D-40E7BA37-26FDBDB1-33114C6B"
+          },
+          {
+            "ObjectBindingID": "4FA9219C-4AF27CBD-DBDA479E-21733718"
+          },
+          {
+            "ObjectBindingID": "4FA9219C-4AF27CBD-DBDA479E-21733718"
+          }
+        ]
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 21000
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 21000
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 1
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 21000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "5654947B-402C925F-CE94DDB0-3A38F40C",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::14",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::14"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'PVP_Matcging_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.47"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                },
+                {
+                  "StartIndex": 2,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 18000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 18000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 18000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneByteSection'PVP_Matcging_C:Anim_Show_INST.Anim_Show.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.34"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'PVP_Matcging_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.41"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "1BB5220F-4FD5E455-F2839FBA-258109DD"
+          },
+          {
+            "ObjectBindingID": "98B14679-4218D7A2-9BE966A8-1641DF82"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 18000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "51C7E886-4EB48C3C-4980FFA3-498136FC",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.42"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 18000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 1,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.28"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.29"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 21000
+            }
+          }
+        }
+      },
+      "Signature": "044E296A-4176538E-D41B91B2-4F417CBD"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'PVP_Matcging_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.43"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'PVP_Matcging_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.32"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'PVP_Matcging_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.33"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 18000
+            }
+          }
+        }
+      },
+      "Signature": "148C2747-4792B899-49A52CB7-CBF7107B"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'PVP_Matcging_C:Anim_Match_INST.Anim_Match'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.16"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.40"
+        }
+      ],
+      "EvaluationFieldGuid": "EAD96CD0-43C38061-3A4BFA84-B6A1DF63",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'PVP_Matcging_C:Anim_Match_INST.Anim_Match.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.40"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 21000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "EAD96CD0-43C38061-3A4BFA84-B6A1DF63"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'PVP_Matcging_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.17"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'PVP_Matcging_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.41"
+        }
+      ],
+      "EvaluationFieldGuid": "BD0E50AC-44CD06C2-A27893BC-EE62B0BA",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'PVP_Matcging_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.41"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 18000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "BD0E50AC-44CD06C2-A27893BC-EE62B0BA"
+    }
+  },
+  {
+    "Type": "NiagaraSystemWidget",
+    "Name": "NiagaraSystemWidget_32",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraSystemWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PVP_Matcging_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.49"
+    },
+    "Properties": {
+      "NiagaraSystemReference": {
+        "ObjectName": "NiagaraSystem'UI_NS_BindItem_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Niagara/Common/UI_NS_BindItem_1.50"
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'PVP_Matcging_C:WidgetTree.CBOverlay_0.CBOverlaySlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.11"
+      }
+    }
+  },
+  {
+    "Type": "PVP_Matcging_C",
+    "Name": "Default__PVP_Matcging_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.PVP_Matcging_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Match_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PVP_Matcging_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.48"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'PVP_Matcging_C:Anim_Match_INST.Anim_Match'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.16"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "loading",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "4FA9219C-4AF27CBD-DBDA479E-21733718",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "NiagaraSystemWidget_32",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "5DD448B7-405817BE-9A66919D-08838A7B",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "bg",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "0A51A55D-40E7BA37-26FDBDB1-33114C6B",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Match",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'PVP_Matcging_C:Anim_Match_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.38"
+      },
+      "Signature": "5654947B-402C925F-CE94DDB0-3A38F40C"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Show_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PVP_Matcging_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.48"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'PVP_Matcging_C:Anim_Show_INST.Anim_Show'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.17"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CBOverlay_0",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "98B14679-4218D7A2-9BE966A8-1641DF82",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "loading",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "1BB5220F-4FD5E455-F2839FBA-258109DD",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Show",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'PVP_Matcging_C:Anim_Show_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.39"
+      },
+      "Signature": "51C7E886-4EB48C3C-4980FFA3-498136FC"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "PVP_Matcging_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'PVP_Matcging_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.49"
+      },
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'PVP_Matcging_C:Anim_Show_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.47"
+        },
+        {
+          "ObjectName": "WidgetAnimation'PVP_Matcging_C:Anim_Match_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.46"
+        }
+      ]
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_Match",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_Show",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Btn_01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'Btn_01_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.70"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ETextBlock_26",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'ETextBlock'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "NiagaraSystemWidget_32",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraSystemWidget'",
+          "ObjectPath": "/Script/NiagaraUIRenderer"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PVP_Matcging_C'Default__PVP_Matcging_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.45"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PVP_Matcging_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.48"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBOverlay'PVP_Matcging_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/PVP/PVP_Matcging.5"
+      }
+    }
+  }
+]

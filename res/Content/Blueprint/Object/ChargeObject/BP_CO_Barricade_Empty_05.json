@@ -1,0 +1,722 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_CO_Barricade_Empty_05_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_CO_Barricade_Empty_05_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.18"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_CO_Barricade_Empty_05_C:ExecuteUbergraph_BP_CO_Barricade_Empty_05'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_ChargeObject'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_CO_Barricade_Empty_05_C:UpdateGaugeEventFunc'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.10"
+      },
+      {
+        "ObjectName": "Function'BP_CO_Barricade_Empty_05_C:Check Relative Offset'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.5"
+      },
+      {
+        "ObjectName": "Function'BP_CO_Barricade_Empty_05_C:SetGaugeEffectByPercent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.9"
+      },
+      {
+        "ObjectName": "Function'BP_CO_Barricade_Empty_05_C:IsRangeGaugePercent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.7"
+      },
+      {
+        "ObjectName": "Function'BP_CO_Barricade_Empty_05_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.8"
+      },
+      {
+        "ObjectName": "Function'BP_CO_Barricade_Empty_05_C:AddEventChargeGauge'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.4"
+      },
+      {
+        "ObjectName": "Function'BP_CO_Barricade_Empty_05_C:ExecuteUbergraph_BP_CO_Barricade_Empty_05'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.6"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "old_charge_gauge",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "charge_timer_handle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_CO_Barricade_Empty_05": {
+        "ObjectName": "Function'BP_CO_Barricade_Empty_05_C:ExecuteUbergraph_BP_CO_Barricade_Empty_05'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.6"
+      },
+      "AddEventChargeGauge": {
+        "ObjectName": "Function'BP_CO_Barricade_Empty_05_C:AddEventChargeGauge'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.4"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BP_CO_Barricade_Empty_05_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.8"
+      },
+      "IsRangeGaugePercent": {
+        "ObjectName": "Function'BP_CO_Barricade_Empty_05_C:IsRangeGaugePercent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.7"
+      },
+      "SetGaugeEffectByPercent": {
+        "ObjectName": "Function'BP_CO_Barricade_Empty_05_C:SetGaugeEffectByPercent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.9"
+      },
+      "Check Relative Offset": {
+        "ObjectName": "Function'BP_CO_Barricade_Empty_05_C:Check Relative Offset'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.5"
+      },
+      "UpdateGaugeEventFunc": {
+        "ObjectName": "Function'BP_CO_Barricade_Empty_05_C:UpdateGaugeEventFunc'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.10"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_CO_Barricade_Empty_05_C'Default__BP_CO_Barricade_Empty_05_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_Barricade_Empty_05_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.0"
+    },
+    "Properties": {
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "RelativeLocation": {
+        "X": 68.26723,
+        "Y": -118.98156,
+        "Z": 140.40276
+      },
+      "RelativeRotation": {
+        "Pitch": 1.91145,
+        "Yaw": 30.970543,
+        "Roll": -32.49888
+      },
+      "RelativeScale3D": {
+        "X": 1.912198,
+        "Y": 0.49678046,
+        "Z": 2.0271308
+      },
+      "ComponentTags": [
+        "NoDetacted"
+      ]
+    }
+  },
+  {
+    "Type": "BP_CO_Barricade_Empty_05_C",
+    "Name": "Default__BP_CO_Barricade_Empty_05_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.BP_CO_Barricade_Empty_05_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05",
+    "Properties": {
+      "UberGraphFrame": {},
+      "charge_timer_handle": {
+        "Handle": 0
+      },
+      "ChargeGaugeEffect": {
+        "ObjectName": "NiagaraComponent'Default__BP_CO_Barricade_Empty_05_C:GaugeEffect'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.11"
+      },
+      "ChargeGaugeSubEffect": {
+        "ObjectName": "NiagaraComponent'Default__BP_CO_Barricade_Empty_05_C:GaugeSubEffect'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.13"
+      },
+      "ChargeGaugeMaxLoopEffect": {
+        "ObjectName": "NiagaraComponent'Default__BP_CO_Barricade_Empty_05_C:GaugeMaxLoopEffect'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.12"
+      },
+      "CoreMesh": {
+        "ObjectName": "CBSkeletalMeshComponent'Default__BP_CO_Barricade_Empty_05_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.3"
+      },
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_CO_Barricade_Empty_05_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.15"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_CO_Barricade_Empty_05_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.15"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_CO_Barricade_Empty_05_C'Default__BP_CO_Barricade_Empty_05_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_CO_Barricade_Empty_05_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.15"
+      },
+      "RelativeRotation": {
+        "Pitch": 1.91145,
+        "Yaw": 30.970543,
+        "Roll": -32.49888
+      },
+      "RelativeScale3D": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "AddEventChargeGauge",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_Barricade_Empty_05_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UEActor_ChargeObject:AddEventChargeGauge'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "_Gauge",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Check Relative Offset",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_Barricade_Empty_05_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2_GetRootComponent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAttachParent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2_GetRootComponent_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2_GetRootComponent_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetRelativeLocation_SweepHitResult",
+        "Flags": "RF_Public",
+        "ElementSize": 264,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_CO_Barricade_Empty_05",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_Barricade_Empty_05_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_Event__Gauge",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Greater_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "IsRangeGaugePercent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_Barricade_Empty_05_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "MinGauge",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "MaxGauge",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Result",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Greater_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Divide_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_Barricade_Empty_05_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetGaugeEffectByPercent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_Barricade_Empty_05_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "MinGauge",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "MaxGauge",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "In Asset",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraSystem'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Result",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsRangeGaugePercent_Result",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateGaugeEventFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_Barricade_Empty_05_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.0"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "GaugeEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_CO_Barricade_Empty_05_C'Default__BP_CO_Barricade_Empty_05_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.2"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_CO_Barricade_Empty_05_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.15"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "GaugeMaxLoopEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_CO_Barricade_Empty_05_C'Default__BP_CO_Barricade_Empty_05_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.2"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_CO_Barricade_Empty_05_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.15"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "GaugeSubEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_CO_Barricade_Empty_05_C'Default__BP_CO_Barricade_Empty_05_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.2"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_CO_Barricade_Empty_05_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.15"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_Barricade_Empty_05_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_CO_Barricade_Empty_05_C'Default__BP_CO_Barricade_Empty_05_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CO_Barricade_Empty_05_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_CO_Barricade_Empty_05_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.14"
+      },
+      "VariableGUID": "207A9C28-4953CF1C-D3617E8E-7A7C762C",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CO_Barricade_Empty_05_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_CO_Barricade_Empty_05_C:Box_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.1"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "B5F1E656-46192B1C-78034386-0ED37E55",
+      "InternalVariableName": "Box"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CO_Barricade_Empty_05_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CO_Barricade_Empty_05_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.17"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CO_Barricade_Empty_05_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.17"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_CO_Barricade_Empty_05_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/ChargeObject/BP_CO_Barricade_Empty_05.16"
+      }
+    }
+  }
+]

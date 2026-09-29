@@ -1,0 +1,151 @@
+[
+  {
+    "Type": "Function",
+    "Name": "GetAddAnim",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_Common_MasterySlotBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Common_MasterySlotBP.3"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "resultWidgetAnim",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "Parm | OutParm",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "InitCommonMasterySlot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_Common_MasterySlotBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Common_MasterySlotBP.3"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Widget_Common_MasterySlotBP_C",
+    "Name": "Default__Widget_Common_MasterySlotBP_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Common_MasterySlotBP.Widget_Common_MasterySlotBP_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Common_MasterySlotBP",
+    "Properties": {
+      "PressSoundTid": {
+        "Tid": "2000000"
+      },
+      "HoverSoundTid": {
+        "Tid": "2000115"
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Widget_Common_MasterySlotBP_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Common_MasterySlotBP",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Widget_Common_MasterySlotBP_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Common_MasterySlotBP.4"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ECommonMastery_Slot'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Widget_Common_MasterySlotBP_C:InitCommonMasterySlot'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Common_MasterySlotBP.1"
+      },
+      {
+        "ObjectName": "Function'Widget_Common_MasterySlotBP_C:GetAddAnim'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Common_MasterySlotBP.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Target_Anim_BaseShow",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Target_Anim_BaseShow_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Target_Anim_AddShow",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FuncMap": {
+      "GetAddAnim": {
+        "ObjectName": "Function'Widget_Common_MasterySlotBP_C:GetAddAnim'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Common_MasterySlotBP.0"
+      },
+      "InitCommonMasterySlot": {
+        "ObjectName": "Function'Widget_Common_MasterySlotBP_C:InitCommonMasterySlot'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Common_MasterySlotBP.1"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Widget_Common_MasterySlotBP_C'Default__Widget_Common_MasterySlotBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Common_MasterySlotBP.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_Common_MasterySlotBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/HeroMastery/Widget_Common_MasterySlotBP.3"
+    }
+  }
+]

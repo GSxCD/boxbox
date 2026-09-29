@@ -1,0 +1,577 @@
+[
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CharHP_Widget_Hud_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.12"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'CharHP_Widget_Hud_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CharHP_Widget_Hud_C:WidgetTree.CBCanvasPanel_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.0"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CharHP_Widget_Hud_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.0"
+      },
+      "Content": {
+        "ObjectName": "CBProgressBar'CharHP_Widget_Hud_C:WidgetTree.ProgressBar'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.2"
+      }
+    }
+  },
+  {
+    "Type": "CBProgressBar",
+    "Name": "ProgressBar",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBProgressBar'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CharHP_Widget_Hud_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.12"
+    },
+    "Properties": {
+      "WidgetStyle": {
+        "BackgroundImage": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.046875,
+              "G": 0.046875,
+              "B": 0.046875,
+              "A": 1.0,
+              "Hex": "3D3D3D"
+            }
+          },
+          "ImageSize": {
+            "X": 164.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.25,
+            "Top": 0.25,
+            "Right": 0.25,
+            "Bottom": 0.25
+          }
+        },
+        "FillImage": {
+          "ImageSize": {
+            "X": 164.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.25,
+            "Top": 0.25,
+            "Right": 0.25,
+            "Bottom": 0.25
+          }
+        }
+      },
+      "Percent": 1.0,
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CharHP_Widget_Hud_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.1"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "CharHP_Widget_Hud_C",
+    "Name": "Default__CharHP_Widget_Hud_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.CharHP_Widget_Hud_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud",
+    "Properties": {
+      "BarBackgroundImage": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.6,
+            "Hex": "99000000"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 210.0,
+          "Y": 20.0
+        },
+        "Margin": {
+          "Left": 0.25,
+          "Top": 0.25,
+          "Right": 0.25,
+          "Bottom": 0.25
+        },
+        "ResourceObject": {
+          "ObjectName": "Material'UI_HP'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat/Contents/UI_HP.0"
+        },
+        "ResourceName": "../../../Engine/Content/Slate/Common/ProgressBar_Fill.png"
+      },
+      "BarFillImage": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 210.0,
+          "Y": 20.0
+        },
+        "Margin": {
+          "Left": 0.25,
+          "Top": 0.25,
+          "Right": 0.25,
+          "Bottom": 0.25
+        },
+        "ResourceObject": {
+          "ObjectName": "Material'UI_HP'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat/Contents/UI_HP.0"
+        },
+        "ResourceName": "../../../Engine/Content/Slate/Common/ProgressBar_Fill.png"
+      },
+      "TipGradationColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.007892,
+        "A": 0.6,
+        "Hex": "99FF0015"
+      },
+      "TextFontSize": 15,
+      "bUseTip": true,
+      "bUseText": true,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Tip",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'CharHP_Widget_Hud_C:Anim_Tip_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.10"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "5211CF5D-4B81F953-4E48799E-8383171B",
+          "Name": "Widget_Tip2",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "5211CF5D-4B81F953-4E48799E-8383171B",
+          "BindingName": "Widget_Tip",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'CharHP_Widget_Hud_C:Anim_Tip_INST.Anim_Tip.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.9"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 21001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "517EBB18-47266A0F-DDB5D7B3-2C3A33BB"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'CharHP_Widget_Hud_C:Anim_Tip_INST.Anim_Tip.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.8"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'CharHP_Widget_Hud_C:Anim_Tip_INST.Anim_Tip.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.8"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'CharHP_Widget_Hud_C:Anim_Tip_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.10"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": -1
+              },
+              "DataID": {
+                "EntryIndex": 0
+              }
+            },
+            "ChildNodes": {
+              "Entries": [],
+              "Items": []
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'CharHP_Widget_Hud_C:Anim_Tip_INST.Anim_Tip.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.8"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "5211CF5D-4B81F953-4E48799E-8383171B"
+          }
+        ]
+      },
+      "CompiledSignature": "642B40DA-426B004C-A379B1B9-14CAF5B7",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'CharHP_Widget_Hud_C:Anim_Tip_INST.Anim_Tip.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.9"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": -3.3333334E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": -3.3333334E-05,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'CharHP_Widget_Hud_C:Anim_Tip_INST.Anim_Tip.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.5"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'CharHP_Widget_Hud_C:Anim_Tip_INST.Anim_Tip.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.6"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "0A7E837B-4BA73F80-EBAB9897-BE473B04"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'CharHP_Widget_Hud_C:Anim_Tip_INST.Anim_Tip'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.4"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'CharHP_Widget_Hud_C:Anim_Tip_INST.Anim_Tip.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.8"
+        }
+      ],
+      "EvaluationFieldGuid": "052AE751-48ED51CA-DA651CBC-9C6EA25D",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'CharHP_Widget_Hud_C:Anim_Tip_INST.Anim_Tip.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.8"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "052AE751-48ED51CA-DA651CBC-9C6EA25D"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Tip_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'CharHP_Widget_Hud_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.11"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'CharHP_Widget_Hud_C:Anim_Tip_INST.Anim_Tip'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.4"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "Widget_Tip2",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "5211CF5D-4B81F953-4E48799E-8383171B",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Tip",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'CharHP_Widget_Hud_C:Anim_Tip_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.7"
+      },
+      "Signature": "642B40DA-426B004C-A379B1B9-14CAF5B7"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "CharHP_Widget_Hud_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'CharHP_Widget_Hud_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.12"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'CharHP_Widget_Hud_C:Anim_Tip_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.10"
+        }
+      ]
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EProgress_Widget'",
+      "ObjectPath": "/Script/ACUMGBaseModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_Tip",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CharHP_Widget_Hud_C'Default__CharHP_Widget_Hud_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'CharHP_Widget_Hud_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.11"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'CharHP_Widget_Hud_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/CharHP_Widget_Hud.0"
+      }
+    }
+  }
+]

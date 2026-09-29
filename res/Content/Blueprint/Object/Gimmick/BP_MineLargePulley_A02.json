@@ -1,0 +1,1356 @@
+[
+  {
+    "Type": "AudioComponent",
+    "Name": "Audio_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.1"
+    },
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundCue'object_minelargepulley_01_cue'",
+        "ObjectPath": "SevenDeadlySins/Content/Sounds/sfx/object/lift/object_minelargepulley_01_cue.0"
+      },
+      "bOverrideAttenuation": true,
+      "AttenuationOverrides": {
+        "AttenuationShape": "EAttenuationShape::Box",
+        "AttenuationShapeExtents": {
+          "X": 500.0,
+          "Y": 1500.0,
+          "Z": 4000.0
+        },
+        "FalloffDistance": 2000.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": -6.75,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_MineLargePulley_A02_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_MineLargePulley_A02_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.33"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_MineLargePulley_A02_C:ExecuteUbergraph_BP_MineLargePulley_A02'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_MultiAreaObject'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_MineLargePulley_A02_C:SetSpeed'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.6"
+      },
+      {
+        "ObjectName": "Function'BP_MineLargePulley_A02_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.5"
+      },
+      {
+        "ObjectName": "Function'BP_MineLargePulley_A02_C:ExecuteUbergraph_BP_MineLargePulley_A02'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.4"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Audio",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AudioComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MultiArea_PulleyLift_00",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MultiArea_PulleyLift_01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MultiArea_PulleyLift_02",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MultiArea_PulleyLift_03",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MultiArea_PulleyLift_04",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MultiArea_PulleyLift_05",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MultiArea_PulleyLift_07",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MultiArea_PulleyLift_06",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MultiArea_PulleyLift_08",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MultiArea_PulleyLift_09",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "S_MineLargePulley_A01_Idle_OnlyChain1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "S_MineLargePulley_A01_Idle_OnlyChain",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Speed",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_MineLargePulley_A02": {
+        "ObjectName": "Function'BP_MineLargePulley_A02_C:ExecuteUbergraph_BP_MineLargePulley_A02'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.4"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_MineLargePulley_A02_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.5"
+      },
+      "SetSpeed": {
+        "ObjectName": "Function'BP_MineLargePulley_A02_C:SetSpeed'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.6"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_MineLargePulley_A02_C'Default__BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_MineLargePulley_A02_C",
+    "Name": "Default__BP_MineLargePulley_A02_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.BP_MineLargePulley_A02_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Speed": 0.416,
+      "CoreMesh": {
+        "ObjectName": "CBSkeletalMeshComponent'Default__BP_MineLargePulley_A02_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.3"
+      },
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_MineLargePulley_A02_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.18"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_MineLargePulley_A02_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.18"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_MineLargePulley_A02_C'Default__BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.2"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_MineLargePulley_A01_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/ABP_MineLargePulley_A01.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'S_MineLargePulley_A01_Idle_OnlyBody_RemoveFoothold'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_MineLargePulley_A01/VAT/SkeletalMesh/S_MineLargePulley_A01_Idle_OnlyBody_RemoveFoothold.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'S_MineLargePulley_A01_Idle_OnlyBody_RemoveFoothold'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_MineLargePulley_A01/VAT/SkeletalMesh/S_MineLargePulley_A01_Idle_OnlyBody_RemoveFoothold.0"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MineLargePulley_A02_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.18"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_MineLargePulley_A02",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetCustomPrimitiveDataFloat_Value_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetCustomPrimitiveDataFloat_Value_ImplicitCast_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetSpeed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "DoubleProperty",
+        "Name": "fGetSpeed",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetPlayRate_Rate_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "OGActorMultiAreaComponent_BP_C",
+    "Name": "MultiArea_PulleyLift_00_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.OGActorMultiAreaComponent_BP_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.1"
+    },
+    "Template": {
+      "ObjectName": "OGActorMultiAreaComponent_BP_C'Default__OGActorMultiAreaComponent_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.5"
+    },
+    "Properties": {
+      "DebugDraw_InheritParentRotate": true,
+      "Type": "EArea::Box",
+      "HalfExtent": {
+        "X": 350.0,
+        "Y": 200.0,
+        "Z": 100.0
+      },
+      "Offset": {
+        "X": -493.98254,
+        "Y": 68.19998,
+        "Z": 2700.1467
+      },
+      "TargetMovingObjectTid": "424000010",
+      "TargetMovingObjectAttachSocketName": "Bone_PulleyLift_01",
+      "RelativeLocation": {
+        "X": -493.98254,
+        "Y": 68.19998,
+        "Z": 2700.1467
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "NotUsedDestroying"
+      ],
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "OGActorMultiAreaComponent_BP_C",
+    "Name": "MultiArea_PulleyLift_01_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.OGActorMultiAreaComponent_BP_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.1"
+    },
+    "Template": {
+      "ObjectName": "OGActorMultiAreaComponent_BP_C'Default__OGActorMultiAreaComponent_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.5"
+    },
+    "Properties": {
+      "DebugDraw_InheritParentRotate": true,
+      "Index": 1,
+      "Type": "EArea::Box",
+      "HalfExtent": {
+        "X": 350.0,
+        "Y": 200.0,
+        "Z": 100.0
+      },
+      "Offset": {
+        "X": -495.2248,
+        "Y": 68.19998,
+        "Z": 905.8251
+      },
+      "TargetMovingObjectTid": "424000010",
+      "TargetMovingObjectAttachSocketName": "Bone_PulleyLift_02",
+      "RelativeLocation": {
+        "X": -495.2248,
+        "Y": 68.19998,
+        "Z": 905.8251
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "NotUsedDestroying"
+      ],
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "OGActorMultiAreaComponent_BP_C",
+    "Name": "MultiArea_PulleyLift_02_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.OGActorMultiAreaComponent_BP_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.1"
+    },
+    "Template": {
+      "ObjectName": "OGActorMultiAreaComponent_BP_C'Default__OGActorMultiAreaComponent_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.5"
+    },
+    "Properties": {
+      "DebugDraw_InheritParentRotate": true,
+      "Index": 2,
+      "Type": "EArea::Box",
+      "HalfExtent": {
+        "X": 350.0,
+        "Y": 200.0,
+        "Z": 100.0
+      },
+      "Offset": {
+        "X": -496.49384,
+        "Y": 68.19998,
+        "Z": -874.6501
+      },
+      "TargetMovingObjectTid": "424000010",
+      "TargetMovingObjectAttachSocketName": "Bone_PulleyLift_03",
+      "RelativeLocation": {
+        "X": -496.49384,
+        "Y": 68.19998,
+        "Z": -874.6501
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "NotUsedDestroying"
+      ],
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "OGActorMultiAreaComponent_BP_C",
+    "Name": "MultiArea_PulleyLift_03_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.OGActorMultiAreaComponent_BP_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.1"
+    },
+    "Template": {
+      "ObjectName": "OGActorMultiAreaComponent_BP_C'Default__OGActorMultiAreaComponent_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.5"
+    },
+    "Properties": {
+      "DebugDraw_InheritParentRotate": true,
+      "Index": 3,
+      "Type": "EArea::Box",
+      "HalfExtent": {
+        "X": 350.0,
+        "Y": 200.0,
+        "Z": 100.0
+      },
+      "Offset": {
+        "X": -496.23364,
+        "Y": 68.19998,
+        "Z": -2532.065
+      },
+      "TargetMovingObjectTid": "424000010",
+      "TargetMovingObjectAttachSocketName": "Bone_PulleyLift_04",
+      "RelativeLocation": {
+        "X": -496.23364,
+        "Y": 68.19998,
+        "Z": -2532.065
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "NotUsedDestroying"
+      ],
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "OGActorMultiAreaComponent_BP_C",
+    "Name": "MultiArea_PulleyLift_04_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.OGActorMultiAreaComponent_BP_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.1"
+    },
+    "Template": {
+      "ObjectName": "OGActorMultiAreaComponent_BP_C'Default__OGActorMultiAreaComponent_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.5"
+    },
+    "Properties": {
+      "DebugDraw_InheritParentRotate": true,
+      "Index": 4,
+      "Type": "EArea::Box",
+      "HalfExtent": {
+        "X": 350.0,
+        "Y": 200.0,
+        "Z": 100.0
+      },
+      "Offset": {
+        "X": 0.0,
+        "Y": 68.19998,
+        "Z": -3367.7083
+      },
+      "TargetMovingObjectTid": "424000010",
+      "TargetMovingObjectAttachSocketName": "Bone_PulleyLift_05",
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 68.19998,
+        "Z": -3367.7083
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "NotUsedDestroying"
+      ],
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "OGActorMultiAreaComponent_BP_C",
+    "Name": "MultiArea_PulleyLift_05_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.OGActorMultiAreaComponent_BP_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.1"
+    },
+    "Template": {
+      "ObjectName": "OGActorMultiAreaComponent_BP_C'Default__OGActorMultiAreaComponent_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.5"
+    },
+    "Properties": {
+      "DebugDraw_InheritParentRotate": true,
+      "Index": 5,
+      "Type": "EArea::Box",
+      "HalfExtent": {
+        "X": 350.0,
+        "Y": 200.0,
+        "Z": 100.0
+      },
+      "Offset": {
+        "X": 496.2279,
+        "Y": 68.19998,
+        "Z": -2541.7007
+      },
+      "TargetMovingObjectTid": "424000010",
+      "TargetMovingObjectAttachSocketName": "Bone_PulleyLift_06",
+      "RelativeLocation": {
+        "X": 496.2279,
+        "Y": 68.19998,
+        "Z": -2541.7007
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "NotUsedDestroying"
+      ],
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "OGActorMultiAreaComponent_BP_C",
+    "Name": "MultiArea_PulleyLift_06_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.OGActorMultiAreaComponent_BP_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.1"
+    },
+    "Template": {
+      "ObjectName": "OGActorMultiAreaComponent_BP_C'Default__OGActorMultiAreaComponent_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.5"
+    },
+    "Properties": {
+      "DebugDraw_InheritParentRotate": true,
+      "Index": 6,
+      "Type": "EArea::Box",
+      "HalfExtent": {
+        "X": 350.0,
+        "Y": 200.0,
+        "Z": 100.0
+      },
+      "Offset": {
+        "X": 496.4938,
+        "Y": 68.19998,
+        "Z": -873.5387
+      },
+      "TargetMovingObjectTid": "424000010",
+      "TargetMovingObjectAttachSocketName": "Bone_PulleyLift_07",
+      "RelativeLocation": {
+        "X": 496.4938,
+        "Y": 68.19998,
+        "Z": -873.5387
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "NotUsedDestroying"
+      ],
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "OGActorMultiAreaComponent_BP_C",
+    "Name": "MultiArea_PulleyLift_07_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.OGActorMultiAreaComponent_BP_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.1"
+    },
+    "Template": {
+      "ObjectName": "OGActorMultiAreaComponent_BP_C'Default__OGActorMultiAreaComponent_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.5"
+    },
+    "Properties": {
+      "DebugDraw_InheritParentRotate": true,
+      "Index": 7,
+      "Type": "EArea::Box",
+      "HalfExtent": {
+        "X": 350.0,
+        "Y": 200.0,
+        "Z": 100.0
+      },
+      "Offset": {
+        "X": 495.22488,
+        "Y": 68.19998,
+        "Z": 905.8252
+      },
+      "TargetMovingObjectTid": "424000010",
+      "TargetMovingObjectAttachSocketName": "Bone_PulleyLift_08",
+      "RelativeLocation": {
+        "X": 495.22488,
+        "Y": 68.19998,
+        "Z": 905.8252
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "NotUsedDestroying"
+      ],
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "OGActorMultiAreaComponent_BP_C",
+    "Name": "MultiArea_PulleyLift_08_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.OGActorMultiAreaComponent_BP_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.1"
+    },
+    "Template": {
+      "ObjectName": "OGActorMultiAreaComponent_BP_C'Default__OGActorMultiAreaComponent_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.5"
+    },
+    "Properties": {
+      "DebugDraw_InheritParentRotate": true,
+      "Index": 8,
+      "Type": "EArea::Box",
+      "HalfExtent": {
+        "X": 350.0,
+        "Y": 200.0,
+        "Z": 100.0
+      },
+      "Offset": {
+        "X": 493.9824,
+        "Y": 68.19998,
+        "Z": 2700.1467
+      },
+      "TargetMovingObjectTid": "424000010",
+      "TargetMovingObjectAttachSocketName": "Bone_PulleyLift_09",
+      "RelativeLocation": {
+        "X": 493.9824,
+        "Y": 68.19998,
+        "Z": 2700.1467
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "NotUsedDestroying"
+      ],
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "OGActorMultiAreaComponent_BP_C",
+    "Name": "MultiArea_PulleyLift_09_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.OGActorMultiAreaComponent_BP_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.1"
+    },
+    "Template": {
+      "ObjectName": "OGActorMultiAreaComponent_BP_C'Default__OGActorMultiAreaComponent_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.5"
+    },
+    "Properties": {
+      "DebugDraw_InheritParentRotate": true,
+      "Index": 9,
+      "Type": "EArea::Box",
+      "HalfExtent": {
+        "X": 350.0,
+        "Y": 200.0,
+        "Z": 100.0
+      },
+      "Offset": {
+        "X": 0.0,
+        "Y": 68.19998,
+        "Z": 3440.0
+      },
+      "TargetMovingObjectTid": "424000010",
+      "TargetMovingObjectAttachSocketName": "Bone_PulleyLift_10",
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 68.19998,
+        "Z": 3440.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "NotUsedDestroying"
+      ],
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.1"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_MineLargePulley_A02_C'Default__BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MineLargePulley_A02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_MineLargePulley_A02_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.17"
+      },
+      "VariableGUID": "4072FC0F-469D8537-477E2ABC-59927EA3",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MineLargePulley_A02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "OGActorMultiAreaComponent_BP_C'BP_MineLargePulley_A02_C:MultiArea_PulleyLift_06_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.13"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "9DCC0157-4E75015C-77EF14AE-B5FEC41C",
+      "InternalVariableName": "MultiArea_PulleyLift_06"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MineLargePulley_A02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_MineLargePulley_A02_C:S_MineLargePulley_A01_Idle_OnlyChain_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.35"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "B2D3A101-42694B34-38312F83-932B6776",
+      "InternalVariableName": "S_MineLargePulley_A01_Idle_OnlyChain"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MineLargePulley_A02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "OGActorMultiAreaComponent_BP_C'BP_MineLargePulley_A02_C:MultiArea_PulleyLift_05_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.12"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "CEDF2802-4C193BAB-EBAD5AA2-4C446BF0",
+      "InternalVariableName": "MultiArea_PulleyLift_05"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_24",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MineLargePulley_A02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "OGActorMultiAreaComponent_BP_C'BP_MineLargePulley_A02_C:MultiArea_PulleyLift_08_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.15"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "F56E632E-48F30808-64C4F990-A1C3CBBC",
+      "InternalVariableName": "MultiArea_PulleyLift_08"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_25",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MineLargePulley_A02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "OGActorMultiAreaComponent_BP_C'BP_MineLargePulley_A02_C:MultiArea_PulleyLift_04_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.11"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "7A6D9BCB-4C05F77E-9E8BA0AB-2E06F8DA",
+      "InternalVariableName": "MultiArea_PulleyLift_04"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_26",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MineLargePulley_A02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "OGActorMultiAreaComponent_BP_C'BP_MineLargePulley_A02_C:MultiArea_PulleyLift_03_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.10"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "6EFA0E51-4518675F-3F1D26B3-AA1007A2",
+      "InternalVariableName": "MultiArea_PulleyLift_03"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_27",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MineLargePulley_A02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "OGActorMultiAreaComponent_BP_C'BP_MineLargePulley_A02_C:MultiArea_PulleyLift_02_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.9"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "7A3C4BB7-467AD357-A3B6A185-0BEE6881",
+      "InternalVariableName": "MultiArea_PulleyLift_02"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_28",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MineLargePulley_A02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "OGActorMultiAreaComponent_BP_C'BP_MineLargePulley_A02_C:MultiArea_PulleyLift_01_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.8"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "C2F3DA76-46F02E49-0955F4B8-F74DF520",
+      "InternalVariableName": "MultiArea_PulleyLift_01"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_29",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MineLargePulley_A02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "OGActorMultiAreaComponent_BP_C'BP_MineLargePulley_A02_C:MultiArea_PulleyLift_00_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.7"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "2BE3A700-42E3596C-4F245F8B-134C1F11",
+      "InternalVariableName": "MultiArea_PulleyLift_00"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MineLargePulley_A02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_MineLargePulley_A02_C:S_MineLargePulley_A01_Idle_OnlyChain1_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.34"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "8BCB825F-4D29853F-6973D6BE-8BD28749",
+      "InternalVariableName": "S_MineLargePulley_A01_Idle_OnlyChain1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MineLargePulley_A02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "OGActorMultiAreaComponent_BP_C'BP_MineLargePulley_A02_C:MultiArea_PulleyLift_09_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.16"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "0DB8649A-4EF78D0F-4DCC3F9F-583A1143",
+      "InternalVariableName": "MultiArea_PulleyLift_09"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MineLargePulley_A02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'OGActorMultiAreaComponent_BP_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/BPComponents/OGActorMultiAreaComponent_BP.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "OGActorMultiAreaComponent_BP_C'BP_MineLargePulley_A02_C:MultiArea_PulleyLift_07_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.14"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "B191D70C-4B8CC73C-9D66DEBD-495C642B",
+      "InternalVariableName": "MultiArea_PulleyLift_07"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MineLargePulley_A02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AudioComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AudioComponent'BP_MineLargePulley_A02_C:Audio_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.0"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "01DBC806-44243BB5-E0C9289D-30E9836A",
+      "InternalVariableName": "Audio"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_24'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_26'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_27'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_28'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_29'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.32"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_24'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_26'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_27'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_28'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_29'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.32"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_MineLargePulley_A02_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.19"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "S_MineLargePulley_A01_Idle_OnlyChain1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_MineLargePulley_A01_Idle_OnlyChain'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_MineLargePulley_A01/VAT/S_MineLargePulley_A01_Idle_OnlyChain.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -131.39569,
+        "Y": 318.65683,
+        "Z": -250.39487
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "S_MineLargePulley_A01_Idle_OnlyChain_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineLargePulley_A02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_MineLargePulley_A02.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_MineLargePulley_A01_Idle_OnlyChain'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_MineLargePulley_A01/VAT/S_MineLargePulley_A01_Idle_OnlyChain.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -131.39569,
+        "Y": -163.93495,
+        "Z": -250.39487
+      }
+    }
+  }
+]

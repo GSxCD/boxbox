@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Party_User_Info_Object_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Party_User_Info_Object",
+    "SuperStruct": {
+      "ObjectName": "Class'OGListSlotObject'",
+      "ObjectPath": "/Script/ACUICoreModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "PartyInviteSlot Info",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 152,
+        "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn",
+        "Struct": {
+          "ObjectName": "ScriptStruct'OGPartyInviteSlotInfo'",
+          "ObjectPath": "/Script/ACContentsBaseModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "User List View",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | InstancedReference | ExposeOnSpawn",
+        "PropertyClass": {
+          "ObjectName": "Class'EListView'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Party_User_Info_Object_C'Default__Party_User_Info_Object_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Party_User_Info_Object.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Party_User_Info_Object_C",
+    "Name": "Default__Party_User_Info_Object_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Party_User_Info_Object.Party_User_Info_Object_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Party_User_Info_Object",
+    "Properties": {
+      "PartyInviteSlot Info": {
+        "UserListType": "EOGFriendListType::Max",
+        "PlayerKey": -1,
+        "PlayerName": "",
+        "PlayerLevel": -1,
+        "MainHeroTID": -1,
+        "PlayerMemo": "",
+        "PlayerIntro": "",
+        "LoginTime": -1,
+        "LogoutTime": -1,
+        "isLogin": false,
+        "isPartyInviteable": false,
+        "WorldLavelName": "None",
+        "MainQuestName": "None",
+        "GuildName": "",
+        "GuildMark": {
+          "m_BannerID": 0,
+          "m_MainMarkID": 0,
+          "m_SubMarkID": 0,
+          "m_AuraID": 0
+        }
+      }
+    }
+  }
+]

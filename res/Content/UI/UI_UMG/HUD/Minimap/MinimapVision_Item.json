@@ -1,0 +1,167 @@
+[
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MinimapVision_Item_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/MinimapVision_Item.5"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'MinimapVision_Item_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/MinimapVision_Item.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'MinimapVision_Item_C:WidgetTree.CBCanvasPanel_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/MinimapVision_Item.0"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -46.0,
+          "Top": -62.615345,
+          "Right": 92.0,
+          "Bottom": 60.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'MinimapVision_Item_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/MinimapVision_Item.0"
+      },
+      "Content": {
+        "ObjectName": "CBImage'MinimapVision_Item_C:WidgetTree.CBImage_35'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/MinimapVision_Item.2"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_35",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MinimapVision_Item_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/MinimapVision_Item.5"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.728944,
+            "B": 0.296875,
+            "A": 0.6,
+            "Hex": "99FFDE94"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 92.0,
+          "Y": 52.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'UI_MI_minimapVision'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/WorldMap/Material/UI_MI_minimapVision.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'MinimapVision_Item_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/MinimapVision_Item.1"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "MinimapVision_Item_C",
+    "Name": "Default__MinimapVision_Item_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/MinimapVision_Item.MinimapVision_Item_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/MinimapVision_Item",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "MinimapVision_Item_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/MinimapVision_Item",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'MinimapVision_Item_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/MinimapVision_Item.5"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EMinimapArrow_Widget'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBImage_35",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MinimapVision_Item_C'Default__MinimapVision_Item_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/MinimapVision_Item.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'MinimapVision_Item_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/MinimapVision_Item.4"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'MinimapVision_Item_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/MinimapVision_Item.0"
+      }
+    }
+  }
+]

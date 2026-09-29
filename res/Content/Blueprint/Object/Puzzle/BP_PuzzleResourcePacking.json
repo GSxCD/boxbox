@@ -1,0 +1,484 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_PuzzleResourcePacking_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.9"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Mat",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Mat",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'MaterialInterface'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "NewVar",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "NewVar",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'NiagaraSystem'",
+            "ObjectPath": "/Script/Niagara"
+          }
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_PuzzleResourcePacking_C'Default__BP_PuzzleResourcePacking_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_PuzzleResourcePacking_C",
+    "Name": "Default__BP_PuzzleResourcePacking_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.BP_PuzzleResourcePacking_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking",
+    "Properties": {
+      "Mat": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PuzzleGate_BG_A01'",
+          "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Materials/MI_PuzzleGate_BG_A01.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PuzzleGate_Line_A01'",
+          "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Materials/MI_PuzzleGate_Line_A01.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PuzzleGate_Line_B01'",
+          "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Materials/MI_PuzzleGate_Line_B01.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PuzzleGate_Arrive_A01'",
+          "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Materials/MI_PuzzleGate_Arrive_A01.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PuzzleGate_Empty_A01'",
+          "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Materials/MI_PuzzleGate_Empty_A01.0"
+        }
+      ],
+      "NewVar": [
+        {
+          "ObjectName": "NiagaraSystem'fx_ns_satrston_adskill_cube_frame_1'",
+          "ObjectPath": "SevenDeadlySins/Content/VFX/Common/System/interaction/StellarRecord/Move/fx_ns_satrston_adskill_cube_frame_1.114"
+        },
+        {
+          "ObjectName": "NiagaraSystem'fx_ns_cubedoor_line_B01_complete'",
+          "ObjectPath": "SevenDeadlySins/Content/VFX/Common/System/interaction/pernescave_wp/fx_ns_cubedoor_line_B01_complete.50"
+        },
+        {
+          "ObjectName": "NiagaraSystem'fx_ns_cubedoor_line_A01_complete'",
+          "ObjectPath": "SevenDeadlySins/Content/VFX/Common/System/interaction/pernescave_wp/fx_ns_cubedoor_line_A01_complete.26"
+        },
+        {
+          "ObjectName": "NiagaraSystem'fx_ns_cubedoor_circle_0001'",
+          "ObjectPath": "SevenDeadlySins/Content/VFX/Common/System/interaction/pernescave_wp/fx_ns_cubedoor_circle_0001.90"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PuzzleResourcePacking_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_PuzzleResourcePacking_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.2"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.4"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.5"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.6"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.7"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.8"
+        }
+      ],
+      "VariableGUID": "4E9464CB-43D4155E-19BEEA8B-E0580014",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent'BP_PuzzleResourcePacking_C:SkeletalMesh_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.10"
+      },
+      "VariableGUID": "0B3AF0F9-4E1F23B7-400B0DB3-5656FDCC",
+      "InternalVariableName": "SkeletalMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PuzzleResourcePacking_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.14"
+      },
+      "VariableGUID": "9B0A4133-4676FF0E-20918589-7F9BAAC1",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PuzzleResourcePacking_C:StaticMesh1_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.11"
+      },
+      "VariableGUID": "104857E4-4257344C-DE7B589E-8541FB34",
+      "InternalVariableName": "StaticMesh1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PuzzleResourcePacking_C:StaticMesh2_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.12"
+      },
+      "VariableGUID": "2E8C1B01-452CF341-57308FBA-10ADB9ED",
+      "InternalVariableName": "StaticMesh2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PuzzleResourcePacking_C:StaticMesh3_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.13"
+      },
+      "VariableGUID": "5C0FA37C-47978F96-8F18D7B8-15B97D7B",
+      "InternalVariableName": "StaticMesh3"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PuzzleResourcePacking_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.3"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.3"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.4"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.5"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.6"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.7"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.8"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_PuzzleResourcePacking_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.3"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletalMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PuzzleResourcePacking_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.0"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_ControlObjectCube_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_Cube_A01/Ani/ABP_ControlObjectCube.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'S_Cube_A03'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_Cube_A01/Mesh/S_Cube_A03.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'S_Cube_A03'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_Cube_A01/Mesh/S_Cube_A03.0"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PuzzleResourcePacking_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_Cube_B01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Meshes/S_Cube_B01.1"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PuzzleResourcePacking_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_Cube_B02'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Meshes/S_Cube_B02.1"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PuzzleResourcePacking_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_Cube_B04'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Meshes/S_Cube_B04.1"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PuzzleResourcePacking_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_PuzzleResourcePacking.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_Cube_B03'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Meshes/S_Cube_B03.1"
+      }
+    }
+  }
+]

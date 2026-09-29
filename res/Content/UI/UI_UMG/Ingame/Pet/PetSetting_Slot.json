@@ -1,0 +1,540 @@
+[
+  {
+    "Type": "CBButton",
+    "Name": "Button_Slot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PetSetting_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.12"
+    },
+    "Properties": {
+      "bIsPadFocus": false,
+      "ColorAndOpacity": {
+        "R": 6.254732E-36,
+        "G": 9.625651E-38,
+        "B": 1.84749E-40,
+        "A": -4E-45,
+        "Hex": "000000"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PetSetting_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.12"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'PetSetting_Slot_C:WidgetTree.CBCanvasPanel_14.CBCanvasPanelSlot_6'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'PetSetting_Slot_C:WidgetTree.CBCanvasPanel_14'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.1"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "ZOrder": 3,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'PetSetting_Slot_C:WidgetTree.CBCanvasPanel_14'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.1"
+      },
+      "Content": {
+        "ObjectName": "CBButton'PetSetting_Slot_C:WidgetTree.Button_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.0"
+      }
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Open",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'PetSetting_Slot_C:Anim_Open_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.10"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "4EA884F1-4A0A6553-48B18591-EE8E9E7A",
+          "Name": "Button_Slot",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "4EA884F1-4A0A6553-48B18591-EE8E9E7A",
+          "BindingName": "Button_Change",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'PetSetting_Slot_C:Anim_Open_INST.Anim_Open.MovieSceneFloatTrack_7'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.8"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "3743EDAF-457413F1-476A2893-1B4AD83C"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'PetSetting_Slot_C:Anim_Open_INST.Anim_Open.MovieSceneFloatTrack_7.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.7"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'PetSetting_Slot_C:Anim_Open_INST.Anim_Open.MovieSceneFloatTrack_7.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.7"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'PetSetting_Slot_C:Anim_Open_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.10"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 60001
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'PetSetting_Slot_C:Anim_Open_INST.Anim_Open.MovieSceneFloatTrack_7.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.7"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "4EA884F1-4A0A6553-48B18591-EE8E9E7A"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 60001
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "1B1F31BF-4D73B24E-F5C7B3BD-1DD023AF",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'PetSetting_Slot_C:Anim_Open_INST.Anim_Open.MovieSceneFloatTrack_7'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.8"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 3001
+          },
+          {
+            "Value": 12001
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'PetSetting_Slot_C:Anim_Open_INST.Anim_Open.MovieSceneFloatTrack_7.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.4"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'PetSetting_Slot_C:Anim_Open_INST.Anim_Open.MovieSceneFloatTrack_7.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.5"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60001
+            }
+          }
+        }
+      },
+      "Signature": "31C31547-4391B8FF-5D91C38A-153BC67B"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'PetSetting_Slot_C:Anim_Open_INST.Anim_Open'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.3"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'PetSetting_Slot_C:Anim_Open_INST.Anim_Open.MovieSceneFloatTrack_7.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.7"
+        }
+      ],
+      "EvaluationFieldGuid": "C151107C-489BC0D9-9C486E86-D3D73BC4",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'PetSetting_Slot_C:Anim_Open_INST.Anim_Open.MovieSceneFloatTrack_7.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.7"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 60001
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "C151107C-489BC0D9-9C486E86-D3D73BC4"
+    }
+  },
+  {
+    "Type": "PetSetting_Slot_C",
+    "Name": "Default__PetSetting_Slot_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.PetSetting_Slot_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot",
+    "Properties": {
+      "PetType": "EPetTypeBP::None",
+      "PressSoundTid": {
+        "Tid": "2000000"
+      },
+      "HoverSoundTid": {
+        "Tid": "2000115"
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Open_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PetSetting_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.11"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'PetSetting_Slot_C:Anim_Open_INST.Anim_Open'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.3"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "Button_Slot",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "4EA884F1-4A0A6553-48B18591-EE8E9E7A",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Open",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'PetSetting_Slot_C:Anim_Open_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.6"
+      },
+      "Signature": "1B1F31BF-4D73B24E-F5C7B3BD-1DD023AF"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "PetSetting_Slot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'PetSetting_Slot_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.12"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'PetSetting_Slot_C:Anim_Open_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.10"
+        }
+      ]
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EPetSetting_SelectSlot'",
+      "ObjectPath": "/Script/ACUMGBaseModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_Open",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PetSetting_Slot_C'Default__PetSetting_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.9"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PetSetting_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.11"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'PetSetting_Slot_C:WidgetTree.CBCanvasPanel_14'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSetting_Slot.1"
+      }
+    }
+  }
+]

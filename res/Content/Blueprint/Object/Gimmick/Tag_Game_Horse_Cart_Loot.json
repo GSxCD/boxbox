@@ -1,0 +1,275 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Tag_Game_Horse_Cart_Loot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Tag_Game_Horse_Cart_Loot_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Capsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Tag_Game_Horse_Cart_Loot_C'Default__Tag_Game_Horse_Cart_Loot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.8"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Tag_Game_Horse_Cart_Loot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 150.0,
+      "CapsuleRadius": 150.0,
+      "bGenerateOverlapEvents": false,
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel5",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "Object",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Object",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Trigger",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -1.03743226E-07,
+        "Z": 73.74128
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Tag_Game_Horse_Cart_Loot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'Tag_Game_Horse_Cart_Loot_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.6"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Tag_Game_Horse_Cart_Loot_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.2"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'Tag_Game_Horse_Cart_Loot_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.4"
+        },
+        {
+          "ObjectName": "SCS_Node'Tag_Game_Horse_Cart_Loot_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.5"
+        }
+      ],
+      "VariableGUID": "403FD713-47632ED3-EA2B9A97-D2D52392",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'Tag_Game_Horse_Cart_Loot_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.6"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Tag_Game_Horse_Cart_Loot_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.7"
+      },
+      "VariableGUID": "16AADC00-40D09B0D-A8DD0E9A-DD8FDEA2",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'Tag_Game_Horse_Cart_Loot_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.6"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'Tag_Game_Horse_Cart_Loot_C:Capsule_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.1"
+      },
+      "VariableGUID": "4508BC9C-4A6D46C9-F424A9B5-E520AF84",
+      "InternalVariableName": "Capsule"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Tag_Game_Horse_Cart_Loot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'Tag_Game_Horse_Cart_Loot_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.3"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'Tag_Game_Horse_Cart_Loot_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.3"
+        },
+        {
+          "ObjectName": "SCS_Node'Tag_Game_Horse_Cart_Loot_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.4"
+        },
+        {
+          "ObjectName": "SCS_Node'Tag_Game_Horse_Cart_Loot_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.5"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Tag_Game_Horse_Cart_Loot_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Tag_Game_Horse_Cart_Loot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_Ravens_Loot_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Ravens/Meshes/S_Ravens_Loot_A01.1"
+      }
+    }
+  },
+  {
+    "Type": "Tag_Game_Horse_Cart_Loot_C",
+    "Name": "Default__Tag_Game_Horse_Cart_Loot_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot.Tag_Game_Horse_Cart_Loot_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Tag_Game_Horse_Cart_Loot"
+  }
+]

@@ -1,0 +1,956 @@
+[
+  {
+    "Type": "Button",
+    "Name": "FilteredSearchButton",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Button'",
+    "Outer": {
+      "ObjectName": "WidgetTree'OGCheatDropdown_BP_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.21"
+    },
+    "Properties": {
+      "WidgetStyle": {
+        "Normal": {
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 280.0,
+            "Y": 80.0
+          },
+          "Margin": {
+            "Left": 0.45,
+            "Top": 0.15,
+            "Right": 0.45,
+            "Bottom": 0.15
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'common_button_2'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_button_2.0"
+          }
+        },
+        "Hovered": {
+          "TintColor": {
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Foreground"
+          },
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 280.0,
+            "Y": 80.0
+          },
+          "Margin": {
+            "Left": 0.45,
+            "Top": 0.15,
+            "Right": 0.45,
+            "Bottom": 0.15
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'common_button_2'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_button_2.0"
+          }
+        },
+        "Pressed": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.83077,
+              "G": 0.83077,
+              "B": 0.83077,
+              "A": 1.0,
+              "Hex": "EBEBEB"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Foreground"
+          },
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 280.0,
+            "Y": 80.0
+          },
+          "Margin": {
+            "Left": 0.45,
+            "Top": 0.15,
+            "Right": 0.45,
+            "Bottom": 0.15
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'common_button_2'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_button_2.0"
+          }
+        },
+        "Disabled": {
+          "TintColor": {
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Foreground"
+          },
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "NormalForeground": {
+          "ColorUseRule": "ESlateColorStylingMode::UseColor_Foreground"
+        },
+        "HoveredForeground": {
+          "ColorUseRule": "ESlateColorStylingMode::UseColor_Foreground"
+        },
+        "PressedForeground": {
+          "ColorUseRule": "ESlateColorStylingMode::UseColor_Foreground"
+        },
+        "DisabledForeground": {
+          "ColorUseRule": "ESlateColorStylingMode::UseColor_Foreground"
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "ButtonSlot'OGCheatDropdown_BP_C:WidgetTree.FilteredSearchButton.ButtonSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.2"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'OGCheatDropdown_BP_C:WidgetTree.CanvasPanel_32.CanvasPanelSlot_8'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.8"
+      }
+    }
+  },
+  {
+    "Type": "Button",
+    "Name": "SearchButton",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Button'",
+    "Outer": {
+      "ObjectName": "WidgetTree'OGCheatDropdown_BP_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.21"
+    },
+    "Properties": {
+      "WidgetStyle": {
+        "Normal": {
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "Margin": {
+            "Left": 0.45,
+            "Top": 0.15,
+            "Right": 0.45,
+            "Bottom": 0.15
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'common_button_1'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_button_1.0"
+          }
+        },
+        "Hovered": {
+          "TintColor": {
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Foreground"
+          },
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "Margin": {
+            "Left": 0.45,
+            "Top": 0.15,
+            "Right": 0.45,
+            "Bottom": 0.15
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'common_button_1'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_button_1.0"
+          },
+          "ResourceName": "../../../Engine/Content/Slate/Common/Button.png"
+        },
+        "Pressed": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.83077,
+              "G": 0.83077,
+              "B": 0.83077,
+              "A": 1.0,
+              "Hex": "EBEBEB"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Foreground"
+          },
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "ImageSize": {
+            "X": 174.0,
+            "Y": 56.0
+          },
+          "Margin": {
+            "Left": 0.45,
+            "Top": 0.15,
+            "Right": 0.45,
+            "Bottom": 0.15
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'common_button_1'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_button_1.0"
+          },
+          "ResourceName": "../../../Engine/Content/Slate/Common/Button.png"
+        },
+        "Disabled": {
+          "TintColor": {
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Foreground"
+          },
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "NormalForeground": {
+          "ColorUseRule": "ESlateColorStylingMode::UseColor_Foreground"
+        },
+        "HoveredForeground": {
+          "ColorUseRule": "ESlateColorStylingMode::UseColor_Foreground"
+        },
+        "PressedForeground": {
+          "ColorUseRule": "ESlateColorStylingMode::UseColor_Foreground"
+        },
+        "DisabledForeground": {
+          "ColorUseRule": "ESlateColorStylingMode::UseColor_Foreground"
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "ButtonSlot'OGCheatDropdown_BP_C:WidgetTree.SearchButton.ButtonSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.3"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'OGCheatDropdown_BP_C:WidgetTree.CanvasPanel_32.CanvasPanelSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.6"
+      }
+    }
+  },
+  {
+    "Type": "ButtonSlot",
+    "Name": "ButtonSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ButtonSlot'",
+    "Outer": {
+      "ObjectName": "Button'OGCheatDropdown_BP_C:WidgetTree.FilteredSearchButton'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Button'OGCheatDropdown_BP_C:WidgetTree.FilteredSearchButton'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.0"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'OGCheatDropdown_BP_C:WidgetTree.FilteredLabelTextBlock'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.18"
+      }
+    }
+  },
+  {
+    "Type": "ButtonSlot",
+    "Name": "ButtonSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ButtonSlot'",
+    "Outer": {
+      "ObjectName": "Button'OGCheatDropdown_BP_C:WidgetTree.SearchButton'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.1"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Button'OGCheatDropdown_BP_C:WidgetTree.SearchButton'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.1"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'OGCheatDropdown_BP_C:WidgetTree.LabelTextBlock'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.19"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_32",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'OGCheatDropdown_BP_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.21"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'OGCheatDropdown_BP_C:WidgetTree.CanvasPanel_32.CanvasPanelSlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.7"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'OGCheatDropdown_BP_C:WidgetTree.CanvasPanel_32.CanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.5"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'OGCheatDropdown_BP_C:WidgetTree.CanvasPanel_32.CanvasPanelSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.6"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'OGCheatDropdown_BP_C:WidgetTree.CanvasPanel_32.CanvasPanelSlot_8'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CanvasPanel'OGCheatDropdown_BP_C:WidgetTree.CanvasPanel_32'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 134.83757,
+          "Right": 20.0,
+          "Bottom": 45.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'OGCheatDropdown_BP_C:WidgetTree.CanvasPanel_32'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.4"
+      },
+      "Content": {
+        "ObjectName": "CBComboBoxString'OGCheatDropdown_BP_C:WidgetTree.ListItemsCombobox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.10"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CanvasPanel'OGCheatDropdown_BP_C:WidgetTree.CanvasPanel_32'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 128.0,
+          "Bottom": 50.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'OGCheatDropdown_BP_C:WidgetTree.CanvasPanel_32'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.4"
+      },
+      "Content": {
+        "ObjectName": "Button'OGCheatDropdown_BP_C:WidgetTree.SearchButton'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.1"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CanvasPanel'OGCheatDropdown_BP_C:WidgetTree.CanvasPanel_32'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 6.0,
+          "Bottom": 2.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'OGCheatDropdown_BP_C:WidgetTree.CanvasPanel_32'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.4"
+      },
+      "Content": {
+        "ObjectName": "CBBorder'OGCheatDropdown_BP_C:WidgetTree.NormalBG_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.9"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CanvasPanel'OGCheatDropdown_BP_C:WidgetTree.CanvasPanel_32'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 128.0,
+          "Bottom": 50.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'OGCheatDropdown_BP_C:WidgetTree.CanvasPanel_32'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.4"
+      },
+      "Content": {
+        "ObjectName": "Button'OGCheatDropdown_BP_C:WidgetTree.FilteredSearchButton'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.0"
+      }
+    }
+  },
+  {
+    "Type": "CBBorder",
+    "Name": "NormalBG_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'OGCheatDropdown_BP_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.21"
+    },
+    "Properties": {
+      "ContentColorAndOpacity": {
+        "R": 0.007499,
+        "G": 0.007499,
+        "B": 0.007499,
+        "A": 1.0,
+        "Hex": "151515"
+      },
+      "Padding": {
+        "Top": 6.0,
+        "Bottom": 6.0
+      },
+      "Background": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.026042,
+            "G": 0.026042,
+            "B": 0.026042,
+            "A": 1.0,
+            "Hex": "2C2C2C"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageSize": {
+          "X": 16.0,
+          "Y": 16.0
+        },
+        "Margin": {
+          "Left": 0.25,
+          "Top": 0.25,
+          "Right": 0.25,
+          "Bottom": 0.25
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_linebox'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_linebox.0"
+        }
+      },
+      "BrushColor": {
+        "R": 0.783538,
+        "G": 0.082283,
+        "B": 0.07036,
+        "A": 1.0,
+        "Hex": "E5514B"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'OGCheatDropdown_BP_C:WidgetTree.CanvasPanel_32.CanvasPanelSlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.7"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBComboBoxString",
+    "Name": "ListItemsCombobox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBComboBoxString'",
+    "Outer": {
+      "ObjectName": "WidgetTree'OGCheatDropdown_BP_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.21"
+    },
+    "Properties": {
+      "DefaultOptions": [
+        "Test"
+      ],
+      "SelectedOption": "0",
+      "ItemStyle": {
+        "ActiveHoveredBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.009134,
+              "G": 0.351533,
+              "B": 0.964686,
+              "A": 1.0,
+              "Hex": "18A0FB"
+            }
+          }
+        },
+        "ActiveBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.009134,
+              "G": 0.351533,
+              "B": 0.964686,
+              "A": 1.0,
+              "Hex": "18A0FB"
+            }
+          }
+        },
+        "TextColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "DropIndicator_Above": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.009134,
+              "G": 0.351533,
+              "B": 0.964686,
+              "A": 1.0,
+              "Hex": "18A0FB"
+            }
+          }
+        },
+        "DropIndicator_Onto": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.009134,
+              "G": 0.351533,
+              "B": 0.964686,
+              "A": 1.0,
+              "Hex": "18A0FB"
+            }
+          }
+        },
+        "DropIndicator_Below": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.009134,
+              "G": 0.351533,
+              "B": 0.964686,
+              "A": 1.0,
+              "Hex": "18A0FB"
+            }
+          }
+        }
+      },
+      "Font": {
+        "Size": 18.0
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'OGCheatDropdown_BP_C:WidgetTree.CanvasPanel_32.CanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.5"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'OGCheatDropdown_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.20"
+    },
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "FilteredSearchButton",
+          "DelegatePropertyName": "OnClicked",
+          "FunctionNameToBind": "BndEvt__OGCheatDropdown_BP_FilteredSearchButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "SearchButton",
+          "DelegatePropertyName": "OnClicked",
+          "FunctionNameToBind": "BndEvt__OGCheatDropdown_BP_SearchButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "ListItemsCombobox",
+          "DelegatePropertyName": "OnSelectionChanged",
+          "FunctionNameToBind": "BndEvt__OGCheatDropdown_BP_ComboboxString_K2Node_ComponentBoundEvent_0_OnSelectionChangedEvent__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__OGCheatDropdown_BP_ComboboxString_K2Node_ComponentBoundEvent_0_OnSelectionChangedEvent__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'OGCheatDropdown_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.20"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "SelectedItem",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "SelectionType",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Enum'ESelectInfo'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__OGCheatDropdown_BP_FilteredSearchButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'OGCheatDropdown_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.20"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__OGCheatDropdown_BP_SearchButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'OGCheatDropdown_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.20"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_OGCheatDropdown_BP",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'OGCheatDropdown_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.20"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "K2Node_ComponentBoundEvent_SelectedItem",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "K2Node_ComponentBoundEvent_SelectionType",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ESelectInfo'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "On_ComboboxString_GenerateWidget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'OGCheatDropdown_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.20"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "Item",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "Parm | OutParm | ReturnParm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'Widget'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "OGCheatDropdown_BP_C",
+    "Name": "Default__OGCheatDropdown_BP_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.OGCheatDropdown_BP_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "FilteredLabelTextBlock",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'OGCheatDropdown_BP_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.21"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "C633762E442AD8307C1CE5A5896C7F29",
+        "SourceString": "실행",
+        "LocalizedString": "실행"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.421875,
+          "G": 0.421875,
+          "B": 0.421875,
+          "A": 1.0,
+          "Hex": "AEAEAE"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 20.0,
+        "SkewAmount": 0.240001
+      },
+      "StrikeBrush": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ButtonSlot'OGCheatDropdown_BP_C:WidgetTree.FilteredSearchButton.ButtonSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.2"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "LabelTextBlock",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'OGCheatDropdown_BP_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.21"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "C633762E442AD8307C1CE5A5896C7F29",
+        "SourceString": "실행",
+        "LocalizedString": "실행"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.421875,
+          "G": 0.421875,
+          "B": 0.421875,
+          "A": 1.0,
+          "Hex": "AEAEAE"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 20.0,
+        "SkewAmount": 0.240001
+      },
+      "StrikeBrush": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ButtonSlot'OGCheatDropdown_BP_C:WidgetTree.SearchButton.ButtonSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.3"
+      }
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "OGCheatDropdown_BP_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'OGCheatDropdown_BP_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.21"
+      },
+      "bClassRequiresNativeTick": true,
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'OGCheatDropdown_BP_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.11"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'OGCheatDropdown_BP_C:ExecuteUbergraph_OGCheatDropdown_BP'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.15"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'OGCheatDropdown'",
+      "ObjectPath": "/Script/OGCheatModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'OGCheatDropdown_BP_C:On_ComboboxString_GenerateWidget'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.16"
+      },
+      {
+        "ObjectName": "Function'OGCheatDropdown_BP_C:BndEvt__OGCheatDropdown_BP_ComboboxString_K2Node_ComponentBoundEvent_0_OnSelectionChangedEvent__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.12"
+      },
+      {
+        "ObjectName": "Function'OGCheatDropdown_BP_C:BndEvt__OGCheatDropdown_BP_SearchButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.14"
+      },
+      {
+        "ObjectName": "Function'OGCheatDropdown_BP_C:BndEvt__OGCheatDropdown_BP_FilteredSearchButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.13"
+      },
+      {
+        "ObjectName": "Function'OGCheatDropdown_BP_C:ExecuteUbergraph_OGCheatDropdown_BP'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.15"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_OGCheatDropdown_BP": {
+        "ObjectName": "Function'OGCheatDropdown_BP_C:ExecuteUbergraph_OGCheatDropdown_BP'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.15"
+      },
+      "BndEvt__OGCheatDropdown_BP_FilteredSearchButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature": {
+        "ObjectName": "Function'OGCheatDropdown_BP_C:BndEvt__OGCheatDropdown_BP_FilteredSearchButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.13"
+      },
+      "BndEvt__OGCheatDropdown_BP_SearchButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature": {
+        "ObjectName": "Function'OGCheatDropdown_BP_C:BndEvt__OGCheatDropdown_BP_SearchButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.14"
+      },
+      "BndEvt__OGCheatDropdown_BP_ComboboxString_K2Node_ComponentBoundEvent_0_OnSelectionChangedEvent__DelegateSignature": {
+        "ObjectName": "Function'OGCheatDropdown_BP_C:BndEvt__OGCheatDropdown_BP_ComboboxString_K2Node_ComponentBoundEvent_0_OnSelectionChangedEvent__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.12"
+      },
+      "On_ComboboxString_GenerateWidget": {
+        "ObjectName": "Function'OGCheatDropdown_BP_C:On_ComboboxString_GenerateWidget'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.16"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "OGCheatDropdown_BP_C'Default__OGCheatDropdown_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.17"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'OGCheatDropdown_BP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.20"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'OGCheatDropdown_BP_C:WidgetTree.CanvasPanel_32'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/System/OGCheatUI/Widgets/OGCheatDropdown_BP.4"
+      }
+    }
+  }
+]

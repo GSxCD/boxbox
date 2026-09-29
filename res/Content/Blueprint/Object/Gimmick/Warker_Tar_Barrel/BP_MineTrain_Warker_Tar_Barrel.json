@@ -1,0 +1,661 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_MineTrain_Warker_Tar_Barrel_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_MineTrain_Warker_Tar_Barrel_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.15"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_MineTrain_Warker_Tar_Barrel_C:ExecuteUbergraph_BP_MineTrain_Warker_Tar_Barrel'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.3"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_Skeletal'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_MineTrain_Warker_Tar_Barrel_C:ReciveDispatchernMsg'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.9"
+      },
+      {
+        "ObjectName": "Function'BP_MineTrain_Warker_Tar_Barrel_C:ObjectInteractionCancel'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.4"
+      },
+      {
+        "ObjectName": "Function'BP_MineTrain_Warker_Tar_Barrel_C:ObjectInteractionEnd'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.5"
+      },
+      {
+        "ObjectName": "Function'BP_MineTrain_Warker_Tar_Barrel_C:ObjectInteractionStart'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.6"
+      },
+      {
+        "ObjectName": "Function'BP_MineTrain_Warker_Tar_Barrel_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.8"
+      },
+      {
+        "ObjectName": "Function'BP_MineTrain_Warker_Tar_Barrel_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.7"
+      },
+      {
+        "ObjectName": "Function'BP_MineTrain_Warker_Tar_Barrel_C:ExecuteUbergraph_BP_MineTrain_Warker_Tar_Barrel'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.3"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PointLight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "charge_timer_handle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "old_charge_gauge",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsShotTarBarrel",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_MineTrain_Warker_Tar_Barrel": {
+        "ObjectName": "Function'BP_MineTrain_Warker_Tar_Barrel_C:ExecuteUbergraph_BP_MineTrain_Warker_Tar_Barrel'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.3"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_MineTrain_Warker_Tar_Barrel_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.7"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BP_MineTrain_Warker_Tar_Barrel_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.8"
+      },
+      "ObjectInteractionStart": {
+        "ObjectName": "Function'BP_MineTrain_Warker_Tar_Barrel_C:ObjectInteractionStart'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.6"
+      },
+      "ObjectInteractionEnd": {
+        "ObjectName": "Function'BP_MineTrain_Warker_Tar_Barrel_C:ObjectInteractionEnd'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.5"
+      },
+      "ObjectInteractionCancel": {
+        "ObjectName": "Function'BP_MineTrain_Warker_Tar_Barrel_C:ObjectInteractionCancel'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.4"
+      },
+      "ReciveDispatchernMsg": {
+        "ObjectName": "Function'BP_MineTrain_Warker_Tar_Barrel_C:ReciveDispatchernMsg'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.9"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_MineTrain_Warker_Tar_Barrel_C'Default__BP_MineTrain_Warker_Tar_Barrel_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_MineTrain_Warker_Tar_Barrel_C",
+    "Name": "Default__BP_MineTrain_Warker_Tar_Barrel_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.BP_MineTrain_Warker_Tar_Barrel_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel",
+    "Properties": {
+      "UberGraphFrame": {},
+      "charge_timer_handle": {
+        "Handle": 0
+      },
+      "CoreMesh": {
+        "ObjectName": "CBSkeletalMeshComponent'Default__BP_MineTrain_Warker_Tar_Barrel_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.2"
+      },
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_MineTrain_Warker_Tar_Barrel_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.12"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_MineTrain_Warker_Tar_Barrel_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.12"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_MineTrain_Warker_Tar_Barrel_C'Default__BP_MineTrain_Warker_Tar_Barrel_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.1"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'MON_Warker_Warrior_0002_Tar_ABP_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/MON/MON_Warker/Ani/MON_Warker_Warrior_0002/MON_Warker_Warrior_0002_Tar_ABP.0"
+      },
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'MON_Warker_Warrior_0001_Tar_Left_Idle'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/MON/MON_Warker/Ani/MON_Warker_Warrior_0002/MON_Warker_Warrior_0001_Tar_Left_Idle.0"
+        },
+        "bSavedLooping": false
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'MON_Warker_Warrior_0002'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/MON/MON_Warker/Mesh/MON_Warker_Warrior_0002.59"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'MON_Warker_Warrior_0002'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/MON/MON_Warker/Mesh/MON_Warker_Warrior_0002.59"
+      },
+      "OverrideMaterials": [
+        null,
+        null,
+        null
+      ],
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Trigger",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapObject",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MineTrain_Warker_Tar_Barrel_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.12"
+      },
+      "PrimaryComponentTick": {
+        "EndTickGroup": "ETickingGroup::TG_PostPhysics"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_MineTrain_Warker_Tar_Barrel",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineTrain_Warker_Tar_Barrel_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ObjectInteractionCancel",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineTrain_Warker_Tar_Barrel_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UEActorInterface:ObjectInteractionCancel'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "isSameMyActor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ObjectInteractionEnd",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineTrain_Warker_Tar_Barrel_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UEActorInterface:ObjectInteractionEnd'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "isSameMyActor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ObjectInteractionStart",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineTrain_Warker_Tar_Barrel_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UEActorInterface:ObjectInteractionStart'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "isSameMyActor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineTrain_Warker_Tar_Barrel_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineTrain_Warker_Tar_Barrel_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReciveDispatchernMsg",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineTrain_Warker_Tar_Barrel_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UEActorInterface:ReciveDispatchernMsg'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "MsgParam",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_StriStri_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAnimInstance_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AnimInstance'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Montage_Play_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineTrain_Warker_Tar_Barrel_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.0"
+    },
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 2.0,
+      "AttenuationRadius": 320.0,
+      "bSoftGradientOGCharacter": true,
+      "Intensity": 35.0,
+      "LightColor": {
+        "B": 87,
+        "G": 172,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFAC57"
+      },
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 89.9911,
+        "Y": -21.998835,
+        "Z": 181.2752
+      },
+      "RelativeRotation": {
+        "Pitch": 7.6333315E-14,
+        "Yaw": 3.486181E-15,
+        "Roll": -9.548053E-16
+      }
+    },
+    "IntensityNits": 35.0
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineTrain_Warker_Tar_Barrel_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_MineTrain_Warker_Tar_Barrel_C'Default__BP_MineTrain_Warker_Tar_Barrel_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MineTrain_Warker_Tar_Barrel_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.15"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_MineTrain_Warker_Tar_Barrel_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.11"
+      },
+      "VariableGUID": "532DE581-4288DAE8-3FF3D094-27EBBD0B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MineTrain_Warker_Tar_Barrel_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.15"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BP_MineTrain_Warker_Tar_Barrel_C:PointLight_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.10"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "0BAE2495-444AC747-1BED209A-43E63E4A",
+      "InternalVariableName": "PointLight"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MineTrain_Warker_Tar_Barrel_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MineTrain_Warker_Tar_Barrel_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.14"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MineTrain_Warker_Tar_Barrel_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.14"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_MineTrain_Warker_Tar_Barrel_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/Warker_Tar_Barrel/BP_MineTrain_Warker_Tar_Barrel.13"
+      }
+    }
+  }
+]

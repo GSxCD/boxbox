@@ -1,0 +1,466 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Gimmick_Puzzle_Btn_Base_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.9"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Gimmick_Puzzle_Btn_Base_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "fx_ns_echoofheart_button_active_gold_02",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C'Default__BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C",
+    "Name": "Default__BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01",
+    "Template": {
+      "ObjectName": "BP_Gimmick_Puzzle_Btn_Base_C'Default__BP_Gimmick_Puzzle_Btn_Base_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.1"
+    },
+    "Properties": {
+      "OGCylinder": {
+        "ObjectName": "OGCylinderComponent'Default__BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C:OGCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.4"
+      },
+      "OGCylinderRadius": 150.0,
+      "SwitchOnMontage": {
+        "ObjectName": "AnimMontage'SK_EchoOfHeart_Button_A03_Idle_MTG'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/SK_EchoOfHeart_Button_A03/Ani/SK_EchoOfHeart_Button_A03_Idle_MTG.0"
+      },
+      "SwitchOffMontage": {
+        "ObjectName": "AnimMontage'SK_EchoOfHeart_Button_A03_Idle_MTG'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/SK_EchoOfHeart_Button_A03/Ani/SK_EchoOfHeart_Button_A03_Idle_MTG.0"
+      },
+      "FX_SwitchOn_When_Actived": "200230",
+      "FX_Puzzle_Success": "200230",
+      "FX_Puzzle_Fail": "200230",
+      "AlwaysActive": true,
+      "CoreMesh": {
+        "ObjectName": "CBSkeletalMeshComponent'Default__BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.2"
+      },
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.6"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.6"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C'Default__BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.1"
+    },
+    "Template": {
+      "ObjectName": "CBSkeletalMeshComponent'Default__BP_Gimmick_Puzzle_Btn_Base_C:Root'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.2"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_EchoOfHeart_Button_A03_01_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/SK_EchoOfHeart_Button_A03/Mesh/ABP_EchoOfHeart_Button_A03_01.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_EchoOfHeart_Button_A03'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/SK_EchoOfHeart_Button_A03/Mesh/SK_EchoOfHeart_Button_A03.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_EchoOfHeart_Button_A03'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/SK_EchoOfHeart_Button_A03/Mesh/SK_EchoOfHeart_Button_A03.1"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.6"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "fx_ns_echoofheart_button_active_gold_02_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.0"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_ns_echoofheart_button_active_gold_02'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/Common/System/Gimmick/fx_ns_echoofheart_button_active_gold_02.16"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "0_MainColor",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.0_MainColor",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "0_Offset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector3f'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.0_Offset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector3f'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "B_MP_RimColor",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.B_MP_RimColor",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "B_MP_RimIntensity",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.B_MP_RimIntensity",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.0_MainColor",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'LinearColor'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 16,
+            "Name": "User.0_Offset",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector3f'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 28,
+            "Name": "User.B_MP_RimColor",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'LinearColor'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 44,
+            "Name": "User.B_MP_RimIntensity",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          64,
+          64,
+          34,
+          46,
+          32,
+          64,
+          10,
+          113,
+          129,
+          63,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          205,
+          204,
+          76,
+          61,
+          0,
+          0,
+          128,
+          63,
+          5,
+          235,
+          16,
+          63,
+          0,
+          147,
+          240,
+          61,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          64,
+          64
+        ]
+      }
+    }
+  },
+  {
+    "Type": "OGCylinderComponent",
+    "Name": "OGCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGCylinderComponent'",
+    "Outer": {
+      "ObjectName": "BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C'Default__BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.1"
+    },
+    "Template": {
+      "ObjectName": "OGCylinderComponent'Default__BP_Gimmick_Puzzle_Btn_Base_C:OGCylinder'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.3"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.6"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C'Default__BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.1"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_Gimmick_Puzzle_Btn_Base_C:RootComponent'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.5"
+      },
+      "VariableGUID": "3865A25D-4C053918-51E43F92-0D85F05B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C:fx_ns_echoofheart_button_active_gold_02_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.3"
+      },
+      "ParentComponentOrVariableName": "Root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "F2E9D7CB-49FF91F0-2F919FAA-681A1308",
+      "InternalVariableName": "fx_ns_echoofheart_button_active_gold_02"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.8"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.8"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Gimmick_Puzzle_EchoOfHeart_Start_01_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_EchoOfHeart_Start_01.7"
+      }
+    }
+  }
+]

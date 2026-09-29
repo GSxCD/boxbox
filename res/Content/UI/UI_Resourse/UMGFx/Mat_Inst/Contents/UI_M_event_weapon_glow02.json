@@ -1,0 +1,160 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "UI_M_event_weapon_glow02",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/Contents/UI_M_event_weapon_glow02",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'UI_M_Master_A'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Master_Mat/UI_M_Master_A.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Time_TxM_Offset(Pan)_U(Default=0)",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.1,
+          "ExpressionGUID": "06E83EB9-45C38AE2-65A61887-30DA077C"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Time_TxMask1_Offset(Pan)_V(Default=0)",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": -0.2,
+          "ExpressionGUID": "CCA207C9-44685847-4EE837B8-8509A6A4"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Tx0",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'UI_T_event_weapon_glow02'",
+            "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Tex/Contents/UI_T_event_weapon_glow02.0"
+          },
+          "ExpressionGUID": "295BCDD6-48E28ABB-FE498C9D-607DA529"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "TxM_Multiply",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'UI_T_Noise_02'",
+            "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Tex/Common/UI_T_Noise_02.0"
+          },
+          "ExpressionGUID": "52EC972C-4E925C86-2644929E-D09C235C"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "TxMask1",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'UI_T_Noise_02'",
+            "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Tex/Common/UI_T_Noise_02.0"
+          },
+          "ExpressionGUID": "391C1742-473DBA41-87534097-A821FE43"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bBlendWithWaterSurfaceOpacity": true,
+        "bIsCorrectWaterEnabled": true,
+        "bRenderCustomStencil": true,
+        "BlendMode": "EBlendMode::BLEND_Additive",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParametersRuntime": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use_TxM_or_TxAdd",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "F6BA7600-43F610BC-830CD7BD-BB389D3B"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": ">>>>Use_TxM_UVs_Control",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "CB67F0A2-4C90E998-F3AAA8B8-0FB5F6C8"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": ">>Time_TxM_Offset(Pan)_U",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "A3CF5984-475D2AD4-5875B9A6-D4AADCD2"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use_TxMask1(chR_Multiply_Based)",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "BA551A87-40118D1E-E604618C-8D257735"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": ">>>>Use_TxMask1_UVs_Control",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "944C84B8-41FB8008-6495EC92-D01B25E7"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": ">>Time_TxMask1_Offset(Pan)_V",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "80901F64-44958526-435ADE85-6517FA6A"
+          }
+        ]
+      },
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

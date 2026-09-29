@@ -1,0 +1,2748 @@
+[
+  {
+    "Type": "Border",
+    "Name": "Border_title_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Border'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 300.0,
+          "Y": 50.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Craft2_hd_craft'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Craft2/Frames/Craft2_hd_craft.0"
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'CraftStandBy_Widget_C:WidgetTree.Border_title_1.BorderSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.1"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.Widget_Normal.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.34"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "Border'CraftStandBy_Widget_C:WidgetTree.Border_title_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.0"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "Border'CraftStandBy_Widget_C:WidgetTree.Border_title_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.0"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'CraftStandBy_Widget_C:WidgetTree.ETextBlock_Name'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.55"
+      }
+    }
+  },
+  {
+    "Type": "Btn_01_C",
+    "Name": "Btn_Cancel",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.Btn_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Template": {
+      "ObjectName": "Btn_01_C'Default__Btn_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.0"
+    },
+    "Properties": {
+      "ButtonStyles": [
+        {
+          "Normal": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Box",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 174.0,
+              "Y": 56.0
+            },
+            "Margin": {
+              "Left": 0.5,
+              "Top": 0.0,
+              "Right": 0.5,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "VtaSlateTexture'common_button_2'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_button_2.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          },
+          "Pressed": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Box",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 174.0,
+              "Y": 56.0
+            },
+            "Margin": {
+              "Left": 0.5,
+              "Top": 0.0,
+              "Right": 0.5,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "VtaSlateTexture'common_button_2_s'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_button_2_s.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        }
+      ],
+      "StringStyle": {
+        "bEnabled": true,
+        "Text": "GL_Product_BT_StopProducing"
+      },
+      "bIsPadFocus": false,
+      "InputTableTID": "UI_PAD_Button_Left",
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel.CBCanvasPanelSlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.15"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Btn_01_C",
+    "Name": "Btn_Get",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.Btn_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Template": {
+      "ObjectName": "Btn_01_C'Default__Btn_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.0"
+    },
+    "Properties": {
+      "ButtonStyles": [
+        {
+          "Normal": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Box",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 174.0,
+              "Y": 56.0
+            },
+            "Margin": {
+              "Left": 0.5,
+              "Top": 0.0,
+              "Right": 0.5,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "VtaSlateTexture'common_button_2'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_button_2.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          },
+          "Pressed": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Box",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 174.0,
+              "Y": 56.0
+            },
+            "Margin": {
+              "Left": 0.5,
+              "Top": 0.0,
+              "Right": 0.5,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "VtaSlateTexture'common_button_2_s'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_button_2_s.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        }
+      ],
+      "StringStyle": {
+        "bEnabled": true,
+        "Text": "GL_Product_BT_RecieveProduct"
+      },
+      "bIsPadFocus": false,
+      "InputTableTID": "UI_PAD_Button_Left",
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.13"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "CBBorderSlot",
+    "Name": "CBBorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorderSlot'",
+    "Outer": {
+      "ObjectName": "EBorder'CraftStandBy_Widget_C:WidgetTree.EBorder_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.52"
+    },
+    "Properties": {
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "EBorder'CraftStandBy_Widget_C:WidgetTree.EBorder_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.52"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'CraftStandBy_Widget_C:WidgetTree.ETextBlock_83'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.53"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.11"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel.CBCanvasPanelSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.14"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel.CBCanvasPanelSlot_11'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.12"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel.CBCanvasPanelSlot_6'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.16"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel.CBCanvasPanelSlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.15"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.13"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.Widget_Normal.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.35"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.17"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.18"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_item_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_item_1.CBCanvasPanelSlot_21'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.20"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_item_1.CBCanvasPanelSlot_22'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.21"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_item_1.CBCanvasPanelSlot_20'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.19"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_item_1.CBCanvasPanelSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.22"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.Widget_Normal.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.36"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "material_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.material_1.CBCanvasPanelSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.25"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.material_1.CBCanvasPanelSlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.26"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.material_1.CBCanvasPanelSlot_6'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.27"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.material_1.CBCanvasPanelSlot_7'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.28"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.material_1.CBCanvasPanelSlot_8'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.29"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.material_1.CBCanvasPanelSlot_9'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.30"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.material_1.CBCanvasPanelSlot_10'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.23"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.material_1.CBCanvasPanelSlot_11'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.24"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_item_1.CBCanvasPanelSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.22"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "Widget_Empty",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.Widget_Empty.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.31"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.Widget_Empty.CBCanvasPanelSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.33"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.Widget_Empty.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.32"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.18"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "Widget_Normal",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.Widget_Normal.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.34"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.Widget_Normal.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.36"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.Widget_Normal.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.35"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.17"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.5"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.5"
+      },
+      "Content": {
+        "ObjectName": "CBImage'CraftStandBy_Widget_C:WidgetTree.CBImage_9'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.44"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.5"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 80.0,
+          "Right": 800.0,
+          "Bottom": 50.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.5"
+      },
+      "Content": {
+        "ObjectName": "CBProgressBar'CraftStandBy_Widget_C:WidgetTree.ProgressBar'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.46"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.5"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 70.0,
+          "Right": 480.0,
+          "Bottom": 84.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.5"
+      },
+      "Content": {
+        "ObjectName": "Btn_01_C'CraftStandBy_Widget_C:WidgetTree.Btn_Get'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.3"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.5"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 10.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.5"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'CraftStandBy_Widget_C:WidgetTree.ETextBlock_CraftCnt'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.54"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.5"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 70.0,
+          "Right": 480.0,
+          "Bottom": 84.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.5"
+      },
+      "Content": {
+        "ObjectName": "Btn_01_C'CraftStandBy_Widget_C:WidgetTree.Btn_Cancel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.2"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.5"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 120.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.5"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'CraftStandBy_Widget_C:WidgetTree.TextBlock_RemainTime'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.56"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.6"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.6"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.Widget_Normal'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.10"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.6"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.6"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.Widget_Empty'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.9"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_item_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 220.0,
+          "Right": 242.0,
+          "Bottom": 280.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_item_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.7"
+      },
+      "Content": {
+        "ObjectName": "Recipe_ItemSlot_C'CraftStandBy_Widget_C:WidgetTree.Item_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.63"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_21",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_item_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 220.0,
+          "Right": 600.0,
+          "Bottom": 600.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_item_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.7"
+      },
+      "Content": {
+        "ObjectName": "CBImage'CraftStandBy_Widget_C:WidgetTree.CBImage_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.37"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_22",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_item_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 220.0,
+          "Right": 312.0,
+          "Bottom": 312.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_item_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.7"
+      },
+      "Content": {
+        "ObjectName": "CBImage'CraftStandBy_Widget_C:WidgetTree.CBImage_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.38"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_item_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 10.0,
+          "Right": 0.0,
+          "Bottom": -46.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_item_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.7"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.material_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.8"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.material_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 10.0,
+          "Top": 440.0,
+          "Right": 200.0,
+          "Bottom": 200.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.material_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.8"
+      },
+      "Content": {
+        "ObjectName": "CraftMat_01_C'CraftStandBy_Widget_C:WidgetTree.CraftMat_Third'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.50"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.material_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 170.0,
+          "Top": 300.0,
+          "Right": 200.0,
+          "Bottom": 200.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.material_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.8"
+      },
+      "Content": {
+        "ObjectName": "CraftMat_01_C'CraftStandBy_Widget_C:WidgetTree.CraftMat_Fourth'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.48"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.material_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -170.0,
+          "Top": 300.0,
+          "Right": 208.0,
+          "Bottom": 208.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.material_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.8"
+      },
+      "Content": {
+        "ObjectName": "CBImage'CraftStandBy_Widget_C:WidgetTree.CBImage_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.39"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.material_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -10.0,
+          "Top": 440.0,
+          "Right": 208.0,
+          "Bottom": 208.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.material_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.8"
+      },
+      "Content": {
+        "ObjectName": "CBImage'CraftStandBy_Widget_C:WidgetTree.CBImage_6'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.40"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.material_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 10.0,
+          "Top": 440.0,
+          "Right": 208.0,
+          "Bottom": 208.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.material_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.8"
+      },
+      "Content": {
+        "ObjectName": "CBImage'CraftStandBy_Widget_C:WidgetTree.CBImage_7'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.41"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.material_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 170.0,
+          "Top": 300.0,
+          "Right": 208.0,
+          "Bottom": 208.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.material_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.8"
+      },
+      "Content": {
+        "ObjectName": "CBImage'CraftStandBy_Widget_C:WidgetTree.CBImage_8'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.43"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.material_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -170.0,
+          "Top": 300.0,
+          "Right": 200.0,
+          "Bottom": 200.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.material_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.8"
+      },
+      "Content": {
+        "ObjectName": "CraftMat_01_C'CraftStandBy_Widget_C:WidgetTree.CraftMat_First'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.47"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.material_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -10.0,
+          "Top": 440.0,
+          "Right": 200.0,
+          "Bottom": 200.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.material_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.8"
+      },
+      "Content": {
+        "ObjectName": "CraftMat_01_C'CraftStandBy_Widget_C:WidgetTree.CraftMat_Second'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.49"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.Widget_Empty'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.9"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -65.0,
+          "Right": 400.0,
+          "Bottom": 400.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.Widget_Empty'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.9"
+      },
+      "Content": {
+        "ObjectName": "CBImage'CraftStandBy_Widget_C:WidgetTree.CBImage_EmptyImage'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.45"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.Widget_Empty'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.9"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 109.2,
+          "Right": 455.0,
+          "Bottom": 52.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.Widget_Empty'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.9"
+      },
+      "Content": {
+        "ObjectName": "EBorder'CraftStandBy_Widget_C:WidgetTree.EBorder_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.52"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.Widget_Empty'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.9"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.Widget_Empty'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.9"
+      },
+      "Content": {
+        "ObjectName": "CBImage'CraftStandBy_Widget_C:WidgetTree.CBImage_77'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.42"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.Widget_Normal'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 760.0,
+          "Bottom": 65.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.Widget_Normal'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.10"
+      },
+      "Content": {
+        "ObjectName": "Border'CraftStandBy_Widget_C:WidgetTree.Border_title_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.0"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.Widget_Normal'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 260.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 1.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.Widget_Normal'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.10"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.5"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.Widget_Normal'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 65.0,
+          "Right": 0.0,
+          "Bottom": 200.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.Widget_Normal'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.10"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_item_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.7"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.5,
+            "Hex": "7FFFFFFF"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 440.0,
+          "Y": 440.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Craft2_bg_craft'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Craft2/Frames/Craft2_bg_craft.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_item_1.CBCanvasPanelSlot_21'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.20"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.322917,
+            "G": 0.301416,
+            "B": 0.247233,
+            "A": 1.0,
+            "Hex": "9A9588"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'UI_MI_Glow_01_Add'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/Common/UI_MI_Glow_01_Add.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_item_1.CBCanvasPanelSlot_22'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.21"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.1,
+            "Hex": "19FFFFFF"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Craft2_bg_craftitem_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Craft2/Frames/Craft2_bg_craftitem_1.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.material_1.CBCanvasPanelSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.25"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.1,
+            "Hex": "19FFFFFF"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Craft2_bg_craftitem_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Craft2/Frames/Craft2_bg_craftitem_1.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.material_1.CBCanvasPanelSlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.26"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.1,
+            "Hex": "19FFFFFF"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Craft2_bg_craftitem_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Craft2/Frames/Craft2_bg_craftitem_1.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.material_1.CBCanvasPanelSlot_6'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.27"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_77",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.043735,
+            "G": 0.05448,
+            "B": 0.090842,
+            "A": 0.0,
+            "Hex": "3B4255"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 60.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_quest_03'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_quest_03.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.Widget_Empty.CBCanvasPanelSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.33"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": -1.0,
+          "Y": 1.0
+        }
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.1,
+            "Hex": "19FFFFFF"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Craft2_bg_craftitem_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Craft2/Frames/Craft2_bg_craftitem_1.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.material_1.CBCanvasPanelSlot_7'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.28"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.029557,
+            "G": 0.045186,
+            "B": 0.114435,
+            "A": 0.15,
+            "Hex": "26303C5F"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageSize": {
+          "X": 10.0,
+          "Y": 10.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_noti'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_noti.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.11"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_EmptyImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_T_Empty_01'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Tex/Contents/UI_T_Empty_01.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.Widget_Empty.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.31"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBProgressBar",
+    "Name": "ProgressBar",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBProgressBar'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "WidgetStyle": {
+        "BackgroundImage": {
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 480.0,
+            "Y": 50.0
+          },
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.0,
+            "Right": 0.5,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'Craft_bg_slider'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Craft/Frames/Craft_bg_slider.0"
+          },
+          "ResourceName": "None"
+        },
+        "FillImage": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 0.526898,
+              "B": 0.145833,
+              "A": 1.0,
+              "Hex": "FFC06B"
+            }
+          },
+          "ImageSize": {
+            "X": 480.0,
+            "Y": 50.0
+          },
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.0,
+            "Right": 0.5,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'Craft2_fg_slider'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Craft2/Frames/Craft2_fg_slider.0"
+          },
+          "ResourceName": "None"
+        }
+      },
+      "Percent": 0.5,
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel.CBCanvasPanelSlot_11'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.12"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CraftMat_01_C",
+    "Name": "CraftMat_First",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftMat_01.CraftMat_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Template": {
+      "ObjectName": "CraftMat_01_C'Default__CraftMat_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftMat_01.18"
+    }
+  },
+  {
+    "Type": "CraftMat_01_C",
+    "Name": "CraftMat_Fourth",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftMat_01.CraftMat_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Template": {
+      "ObjectName": "CraftMat_01_C'Default__CraftMat_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftMat_01.18"
+    }
+  },
+  {
+    "Type": "CraftMat_01_C",
+    "Name": "CraftMat_Second",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftMat_01.CraftMat_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Template": {
+      "ObjectName": "CraftMat_01_C'Default__CraftMat_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftMat_01.18"
+    }
+  },
+  {
+    "Type": "CraftMat_01_C",
+    "Name": "CraftMat_Third",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftMat_01.CraftMat_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Template": {
+      "ObjectName": "CraftMat_01_C'Default__CraftMat_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftMat_01.18"
+    }
+  },
+  {
+    "Type": "CraftStandBy_Widget_C",
+    "Name": "Default__CraftStandBy_Widget_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.CraftStandBy_Widget_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "EBorder",
+    "Name": "EBorder_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Background": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.063802,
+            "G": 0.106715,
+            "B": 0.145833,
+            "A": 0.2,
+            "Hex": "33475C6B"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageSize": {
+          "X": 70.0,
+          "Y": 16.0
+        },
+        "Margin": {
+          "Top": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_width'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_width.0"
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBBorderSlot'CraftStandBy_Widget_C:WidgetTree.EBorder_0.CBBorderSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.4"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.Widget_Empty.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.32"
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "ETextBlock_83",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "738E679B42507E85EAFDAABE831680BA",
+        "SourceString": "GL_Product_UI_NoProducing01",
+        "LocalizedString": "GL_Product_UI_NoProducing01"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.720702,
+          "G": 0.790521,
+          "B": 0.854167,
+          "A": 1.0,
+          "Hex": "DDE6EE"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBBorderSlot'CraftStandBy_Widget_C:WidgetTree.EBorder_0.CBBorderSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.4"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "ETextBlock_CraftCnt",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "53AC50DC49B35F0C529662BF53407070",
+        "SourceString": "GL_Product_UI_ProducedCount",
+        "LocalizedString": "GL_Product_UI_ProducedCount"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel.CBCanvasPanelSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.14"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "ETextBlock_Name",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D2CDF8EE4215E072436589BDA9EF0E2F",
+        "SourceString": "성기사성기사 갑옷",
+        "LocalizedString": "성기사성기사 갑옷"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 26.0
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "BorderSlot'CraftStandBy_Widget_C:WidgetTree.Border_title_1.BorderSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.1"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_RemainTime",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "E5E672C949B993C84C7845868E4F0929",
+        "SourceString": "GL_Product_UI_ReaminTime",
+        "LocalizedString": "GL_Product_UI_ReaminTime"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel.CBCanvasPanelSlot_6'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.16"
+      }
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Show",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'CraftStandBy_Widget_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.64"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "4646CB37-4C60141A-BF8B38A9-F46AD928",
+          "Name": "CBCanvasPanel_0",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "4646CB37-4C60141A-BF8B38A9-F46AD928",
+          "BindingName": "CBCanvasPanel_0",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'CraftStandBy_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.62"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 27001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "5341CE9F-4B8D2F61-C8CC97B5-3D445FF6"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'CraftStandBy_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.61"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'CraftStandBy_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.61"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'CraftStandBy_Widget_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.64"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 27000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'CraftStandBy_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.61"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "4646CB37-4C60141A-BF8B38A9-F46AD928"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 27000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "154F6FA3-48CA16FA-AE4916B6-B85F7C9D",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'CraftStandBy_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.62"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 27000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'CraftStandBy_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.58"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'CraftStandBy_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.59"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 27000
+            }
+          }
+        }
+      },
+      "Signature": "B0D4E4C5-4A23EFC5-BDBF8687-C4C9B682"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'CraftStandBy_Widget_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.57"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'CraftStandBy_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.61"
+        }
+      ],
+      "EvaluationFieldGuid": "E78C5020-45DDA5D9-BEF728B1-00DDE0A3",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'CraftStandBy_Widget_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.61"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 27000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "E78C5020-45DDA5D9-BEF728B1-00DDE0A3"
+    }
+  },
+  {
+    "Type": "Recipe_ItemSlot_C",
+    "Name": "Item_Slot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/Recipe_ItemSlot.Recipe_ItemSlot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+    },
+    "Template": {
+      "ObjectName": "Recipe_ItemSlot_C'Default__Recipe_ItemSlot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/Recipe_ItemSlot.52"
+    },
+    "Properties": {
+      "IsCheckUsable": false,
+      "ToolTipTextDelegate": {
+        "Object": {
+          "ObjectName": "CBCanvasPanelSlot'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_item_1.CBCanvasPanelSlot_20'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.19"
+        },
+        "FunctionName": "BlueprintType_67175423"
+      }
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Show_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'CraftStandBy_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.65"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'CraftStandBy_Widget_C:Anim_Show_INST.Anim_Show'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.57"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CBCanvasPanel_0",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "4646CB37-4C60141A-BF8B38A9-F46AD928",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Show",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'CraftStandBy_Widget_C:Anim_Show_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.60"
+      },
+      "Signature": "154F6FA3-48CA16FA-AE4916B6-B85F7C9D"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "CraftStandBy_Widget_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'CraftStandBy_Widget_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.66"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'CraftStandBy_Widget_C:Anim_Show_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.64"
+        }
+      ]
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ECraftStandBy_Widget'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CraftStandBy_Widget_C'Default__CraftStandBy_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.51"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'CraftStandBy_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.65"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'CraftStandBy_Widget_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/CraftStandby_widget.6"
+      }
+    }
+  }
+]

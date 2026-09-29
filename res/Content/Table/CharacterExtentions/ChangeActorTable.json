@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ChangeActorTable",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/CharacterExtentions/ChangeActorTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UEChangeActorTable'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "1015": {
+        "AdventureSkill_Tid": {
+          "Display_Type": "EAdventureSkillDisplayType::Common",
+          "EnableBattleState": false,
+          "EnableMoveState": [
+            "EMoveMode::Ground"
+          ],
+          "Condition_Type": "EAdventureSkillActiveCondition::CoolTime",
+          "Condition_Value": "5000",
+          "ControlType": "EAdventureSkillControlType::Click",
+          "Icon": "icon_adventureskill_bug",
+          "AdventureSkill_SkillTid": [
+            "bug_activity_001"
+          ],
+          "SkillTID": [
+            "bug_activity_001",
+            "bug_activity_002"
+          ],
+          "Ignore_ElementalDamageType": [],
+          "Sound_Tid": "None",
+          "Active_Sound_Tid": "None",
+          "Loop_Sound_Tid": "None",
+          "Contents_OnOff": {
+            "EnableDungeonUse": false,
+            "EnableQuestDungeonUse": false,
+            "EnableDeathMatchUse": false,
+            "EnableTeamDeathMatchUse": false,
+            "EnableTeamRoundMatchUse": false,
+            "EnablePVPMatchUse": false,
+            "EnableRaceUse": false,
+            "EnableBoardingObjStateUse": false,
+            "EnableMovingObjStateUse": false,
+            "EnableMultiObjStateUse": false,
+            "EnableActorChangeUse": true,
+            "EnableQuestAlbionSectorUse": false,
+            "EnableEnterSectorUse": true,
+            "String_Tid": "None",
+            "Local_Key": "actorchange_contentsonoff"
+          },
+          "String_Tid": "actorchange",
+          "Local_Key": "None"
+        },
+        "IsFly": true,
+        "MoveTypeTid_Flying": "pet_flying_freemove_fly",
+        "MoveTypeTid_Flying_OnlyUp": "pet_flying_freemove_up",
+        "MoveFXs": [
+          "fx_ns_bug_adventure_skill_loop_wing_l",
+          "fx_ns_bug_adventure_skill_loop_wing_r",
+          "fx_ns_bug_adventure_skill_loop_center_local",
+          "fx_ns_bug_adventure_skill_loop_center_world"
+        ],
+        "MoveFXRotSpaces": [
+          "EFxRotationSpace::World",
+          "EFxRotationSpace::World",
+          "EFxRotationSpace::Local",
+          "EFxRotationSpace::World"
+        ],
+        "MoveFXSockets": [
+          "bip001-l-hand",
+          "bip001-r-hand",
+          "fx_spawn_center",
+          "fx_spawn_center"
+        ],
+        "Fly_UseStamina": 1000,
+        "NotEnough_Stamina_Buff": "302150002",
+        "FlyingSound": "None",
+        "Camera_Tid": "control_pet_fly",
+        "HideAndShowFxTid": "fx_ns_bug_adventure_skill_01",
+        "String_Tid": "1015",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

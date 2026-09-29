@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "ForceFeedbackEffect",
+    "Name": "AT_Test",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ForceFeedbackEffect'",
+    "Package": "SevenDeadlySins/Content/Curves/ForceFeedBackCurve/AT/AT_Test",
+    "Properties": {
+      "ChannelDetails": [
+        {
+          "bAffectsLeftLarge": false,
+          "bAffectsLeftSmall": false,
+          "bAffectsRightLarge": false,
+          "bAffectsRightSmall": false,
+          "Curve": {
+            "EditorCurveData": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 0.0,
+                  "Value": 1.0,
+                  "ArriveTangent": 0.0,
+                  "ArriveTangentWeight": 0.0,
+                  "LeaveTangent": 0.0,
+                  "LeaveTangentWeight": 0.0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 1.0,
+                  "Value": 1.0,
+                  "ArriveTangent": 0.0,
+                  "ArriveTangentWeight": 0.0,
+                  "LeaveTangent": 0.0,
+                  "LeaveTangentWeight": 0.0
+                }
+              ],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          }
+        }
+      ],
+      "DeviceProperties": [
+        {
+          "ObjectName": "InputDeviceTriggerResistanceProperty'AT_Test:InputDeviceTriggerResistanceProperty_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Curves/ForceFeedBackCurve/AT/AT_Test.1"
+        }
+      ],
+      "Duration": 1.0
+    }
+  },
+  {
+    "Type": "InputDeviceTriggerResistanceProperty",
+    "Name": "InputDeviceTriggerResistanceProperty_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InputDeviceTriggerResistanceProperty'",
+    "Outer": {
+      "ObjectName": "ForceFeedbackEffect'AT_Test'",
+      "ObjectPath": "SevenDeadlySins/Content/Curves/ForceFeedBackCurve/AT/AT_Test.0"
+    },
+    "Properties": {
+      "TriggerData": {
+        "StartStrengh": 1,
+        "EndPosition": 5,
+        "EndStrengh": 3
+      },
+      "BaseTriggerData": {
+        "AffectedTriggers": "EInputDeviceTriggerMask::Right",
+        "bResetUponCompletion": false
+      }
+    }
+  }
+]

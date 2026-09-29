@@ -1,0 +1,167 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "WaterSplashParticleTable",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/Effect/WaterSplashParticleTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UEEffectTable'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "ws_common_jumpup": {
+        "EffectTids": [
+          {
+            "CheckSocketInWater": false,
+            "SocketName": "root",
+            "Period": 0.0,
+            "Strength1": 0.3,
+            "Strength2": 0.4,
+            "ScaleMin": 1.0,
+            "ScaleMax": 1.0,
+            "DetermineSpeed": 0.0,
+            "SpawnLocCorrection": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "SpawnRotate": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "ParticleSystem": "fx_ns_water_jump",
+            "SoundCue": "swim_splash_cue",
+            "String_Tid": "ws_jumpup",
+            "Local_Key": "None"
+          }
+        ],
+        "String_Tid": "ws_common_jumpup",
+        "Local_Key": "None"
+      },
+      "ws_common_jumpdown": {
+        "EffectTids": [
+          {
+            "CheckSocketInWater": false,
+            "SocketName": "root",
+            "Period": 0.0,
+            "Strength1": 0.3,
+            "Strength2": 0.4,
+            "ScaleMin": 1.0,
+            "ScaleMax": 1.0,
+            "DetermineSpeed": 0.0,
+            "SpawnLocCorrection": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "SpawnRotate": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "ParticleSystem": "fx_ns_water_jump",
+            "SoundCue": "swim_diving_cue",
+            "String_Tid": "ws_jumpdown",
+            "Local_Key": "None"
+          }
+        ],
+        "String_Tid": "ws_common_jumpdown",
+        "Local_Key": "None"
+      },
+      "ws_common_exhaust": {
+        "EffectTids": [
+          {
+            "CheckSocketInWater": false,
+            "SocketName": "root",
+            "Period": 0.8,
+            "Strength1": 0.2,
+            "Strength2": 0.3,
+            "ScaleMin": 1.0,
+            "ScaleMax": 1.0,
+            "DetermineSpeed": 0.0,
+            "SpawnLocCorrection": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": -20.0
+            },
+            "SpawnRotate": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "ParticleSystem": "p_water_splash_deep",
+            "SoundCue": "swim_diving_cue",
+            "String_Tid": "ws_exhaust",
+            "Local_Key": "None"
+          }
+        ],
+        "String_Tid": "ws_common_exhaust",
+        "Local_Key": "None"
+      },
+      "ws_common_down": {
+        "EffectTids": [
+          {
+            "CheckSocketInWater": false,
+            "SocketName": "root",
+            "Period": 0.0,
+            "Strength1": 0.3,
+            "Strength2": 0.4,
+            "ScaleMin": 1.0,
+            "ScaleMax": 1.0,
+            "DetermineSpeed": 0.0,
+            "SpawnLocCorrection": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "SpawnRotate": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "ParticleSystem": "fx_ns_water_down",
+            "SoundCue": "swim_diving_cue",
+            "String_Tid": "ws_down",
+            "Local_Key": "None"
+          }
+        ],
+        "String_Tid": "ws_common_down",
+        "Local_Key": "None"
+      },
+      "ws_common_airborne": {
+        "EffectTids": [
+          {
+            "CheckSocketInWater": false,
+            "SocketName": "root",
+            "Period": 0.0,
+            "Strength1": 0.3,
+            "Strength2": 0.4,
+            "ScaleMin": 1.0,
+            "ScaleMax": 1.0,
+            "DetermineSpeed": 0.0,
+            "SpawnLocCorrection": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "SpawnRotate": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "ParticleSystem": "fx_ns_water_down",
+            "SoundCue": "swim_diving_cue",
+            "String_Tid": "ws_airborne",
+            "Local_Key": "None"
+          }
+        ],
+        "String_Tid": "ws_common_airborne",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

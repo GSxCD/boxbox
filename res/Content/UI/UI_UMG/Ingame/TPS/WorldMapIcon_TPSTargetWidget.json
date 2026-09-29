@@ -1,0 +1,245 @@
+[
+  {
+    "Type": "CBImage",
+    "Name": "Enermy",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WorldMapIcon_TPSTargetWidget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.8"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 30.0,
+          "Y": 30.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_teammember'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_teammember.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.768151,
+        "G": 0.025142,
+        "B": 0.004001,
+        "A": 1.0,
+        "Hex": "E32C0C"
+      },
+      "Slot": {
+        "ObjectName": "CBWidgetSwitcherSlot'WorldMapIcon_TPSTargetWidget_C:WidgetTree.WidgetSwitcher_Tracking.CBWidgetSwitcherSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.5"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Team",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WorldMapIcon_TPSTargetWidget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.8"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 30.0,
+          "Y": 30.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_teammember'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_teammember.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.077879,
+        "G": 0.250447,
+        "B": 0.768151,
+        "A": 1.0,
+        "Hex": "4F89E3"
+      },
+      "Slot": {
+        "ObjectName": "CBWidgetSwitcherSlot'WorldMapIcon_TPSTargetWidget_C:WidgetTree.WidgetSwitcher_Tracking.CBWidgetSwitcherSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.6"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WorldMapIcon_TPSTargetWidget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.8"
+    },
+    "Properties": {
+      "WidthOverride": 30.0,
+      "HeightOverride": 30.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'WorldMapIcon_TPSTargetWidget_C:WidgetTree.CBSizeBox_0.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.3"
+        }
+      ],
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'WorldMapIcon_TPSTargetWidget_C:WidgetTree.CBSizeBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.2"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBSizeBox'WorldMapIcon_TPSTargetWidget_C:WidgetTree.CBSizeBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.2"
+      },
+      "Content": {
+        "ObjectName": "CBWidgetSwitcher'WorldMapIcon_TPSTargetWidget_C:WidgetTree.WidgetSwitcher_Tracking'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.4"
+      }
+    }
+  },
+  {
+    "Type": "CBWidgetSwitcher",
+    "Name": "WidgetSwitcher_Tracking",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBWidgetSwitcher'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WorldMapIcon_TPSTargetWidget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.8"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBWidgetSwitcherSlot'WorldMapIcon_TPSTargetWidget_C:WidgetTree.WidgetSwitcher_Tracking.CBWidgetSwitcherSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.5"
+        },
+        {
+          "ObjectName": "CBWidgetSwitcherSlot'WorldMapIcon_TPSTargetWidget_C:WidgetTree.WidgetSwitcher_Tracking.CBWidgetSwitcherSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.6"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'WorldMapIcon_TPSTargetWidget_C:WidgetTree.CBSizeBox_0.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.3"
+      }
+    }
+  },
+  {
+    "Type": "CBWidgetSwitcherSlot",
+    "Name": "CBWidgetSwitcherSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBWidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "CBWidgetSwitcher'WorldMapIcon_TPSTargetWidget_C:WidgetTree.WidgetSwitcher_Tracking'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.4"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBWidgetSwitcher'WorldMapIcon_TPSTargetWidget_C:WidgetTree.WidgetSwitcher_Tracking'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.4"
+      },
+      "Content": {
+        "ObjectName": "CBImage'WorldMapIcon_TPSTargetWidget_C:WidgetTree.Enermy'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.0"
+      }
+    }
+  },
+  {
+    "Type": "CBWidgetSwitcherSlot",
+    "Name": "CBWidgetSwitcherSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBWidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "CBWidgetSwitcher'WorldMapIcon_TPSTargetWidget_C:WidgetTree.WidgetSwitcher_Tracking'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.4"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBWidgetSwitcher'WorldMapIcon_TPSTargetWidget_C:WidgetTree.WidgetSwitcher_Tracking'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.4"
+      },
+      "Content": {
+        "ObjectName": "CBImage'WorldMapIcon_TPSTargetWidget_C:WidgetTree.Team'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.1"
+      }
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WorldMapIcon_TPSTargetWidget_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WorldMapIcon_TPSTargetWidget_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.8"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWorldMapIcon_TPSTargetWidget'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WorldMapIcon_TPSTargetWidget_C'Default__WorldMapIcon_TPSTargetWidget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.9"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WorldMapIcon_TPSTargetWidget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.7"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBSizeBox'WorldMapIcon_TPSTargetWidget_C:WidgetTree.CBSizeBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.2"
+      }
+    }
+  },
+  {
+    "Type": "WorldMapIcon_TPSTargetWidget_C",
+    "Name": "Default__WorldMapIcon_TPSTargetWidget_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget.WorldMapIcon_TPSTargetWidget_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TPS/WorldMapIcon_TPSTargetWidget",
+    "Properties": {
+      "Slot": null
+    }
+  }
+]

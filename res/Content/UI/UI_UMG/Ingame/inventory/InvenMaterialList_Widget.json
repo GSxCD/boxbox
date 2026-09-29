@@ -1,0 +1,233 @@
+[
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_225",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'InvenMaterialList_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget.7"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'InvenMaterialList_Widget_C:WidgetTree.CBCanvasPanel_225.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget.1"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'InvenMaterialList_Widget_C:WidgetTree.CBCanvasPanel_225.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'InvenMaterialList_Widget_C:WidgetTree.CBCanvasPanel_225'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget.0"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'InvenMaterialList_Widget_C:WidgetTree.CBCanvasPanel_225'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget.0"
+      },
+      "Content": {
+        "ObjectName": "ETileView'InvenMaterialList_Widget_C:WidgetTree.TileView'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget.3"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'InvenMaterialList_Widget_C:WidgetTree.CBCanvasPanel_225'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget.0"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'InvenMaterialList_Widget_C:WidgetTree.CBCanvasPanel_225'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget.0"
+      },
+      "Content": {
+        "ObjectName": "EToolTipPosition'InvenMaterialList_Widget_C:WidgetTree.TooltipPostion'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget.4"
+      }
+    }
+  },
+  {
+    "Type": "ETileView",
+    "Name": "TileView",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETileView'",
+    "Outer": {
+      "ObjectName": "WidgetTree'InvenMaterialList_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget.7"
+    },
+    "Properties": {
+      "ChildPTName": "ACPT::InvenItemFrame_Slot",
+      "bCacheViewData": true,
+      "EntryHeight": 72.0,
+      "EntryWidth": 72.0,
+      "WidgetStyle": {
+        "BackgroundBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.3,
+              "Hex": "4C000000"
+            }
+          },
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.5,
+            "Right": 0.5,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'common_bg_noti'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_noti.0"
+          }
+        }
+      },
+      "ScrollBarStyle": {
+        "Thickness": 8.0
+      },
+      "HorizontalEntrySpacing": 10.0,
+      "VerticalEntrySpacing": 10.0,
+      "EntryWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'TileView_Slot_C'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Slot/TileView_Slot.2"
+      },
+      "bEnableScrollAnimation": true,
+      "bEnableRightClickScrolling": false,
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'InvenMaterialList_Widget_C:WidgetTree.CBCanvasPanel_225.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget.1"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "EToolTipPosition",
+    "Name": "TooltipPostion",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EToolTipPosition'",
+    "Outer": {
+      "ObjectName": "WidgetTree'InvenMaterialList_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget.7"
+    },
+    "Properties": {
+      "ViewType": "EToolTipViewType::ItemInfoToolTip",
+      "PTType": "EToolTipPTType::ItemInfoToolTip",
+      "AttachType": "EToolTipAttachType::ToolTipPositionWidget",
+      "IsSetCoordOnBP": false
+    }
+  },
+  {
+    "Type": "InvenMaterialList_Widget_C",
+    "Name": "Default__InvenMaterialList_Widget_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget.InvenMaterialList_Widget_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "InvenMaterialList_Widget_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'InvenMaterialList_Widget_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget.7"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EItemGrid_Widget'",
+      "ObjectPath": "/Script/ACUMGBaseModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "NewVar_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'EUniformGridPanel'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "InvenMaterialList_Widget_C'Default__InvenMaterialList_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget.5"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'InvenMaterialList_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget.6"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'InvenMaterialList_Widget_C:WidgetTree.CBCanvasPanel_225'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/InvenMaterialList_Widget.0"
+      }
+    }
+  }
+]

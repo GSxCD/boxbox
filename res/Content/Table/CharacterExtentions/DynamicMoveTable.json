@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DynamicMoveTable",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/CharacterExtentions/DynamicMoveTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UEDynamicMove'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "1005": {
+        "AdventureSkill_Tid": {
+          "Display_Type": "EAdventureSkillDisplayType::Passive",
+          "EnableBattleState": true,
+          "EnableMoveState": [
+            "EMoveMode::Ground"
+          ],
+          "Condition_Type": "EAdventureSkillActiveCondition::None",
+          "Condition_Value": "None",
+          "ControlType": "EAdventureSkillControlType::None",
+          "Icon": "icon_adventureskill_meliodas",
+          "AdventureSkill_SkillTid": [
+            "meliodas_activity_002"
+          ],
+          "SkillTID": [
+            "meliodas_activity_002"
+          ],
+          "Ignore_ElementalDamageType": [],
+          "Sound_Tid": "None",
+          "Active_Sound_Tid": "None",
+          "Loop_Sound_Tid": "None",
+          "Contents_OnOff": {
+            "EnableDungeonUse": true,
+            "EnableQuestDungeonUse": true,
+            "EnableDeathMatchUse": true,
+            "EnableTeamDeathMatchUse": true,
+            "EnableTeamRoundMatchUse": true,
+            "EnablePVPMatchUse": true,
+            "EnableRaceUse": true,
+            "EnableBoardingObjStateUse": true,
+            "EnableMovingObjStateUse": true,
+            "EnableMultiObjStateUse": true,
+            "EnableActorChangeUse": true,
+            "EnableQuestAlbionSectorUse": true,
+            "EnableEnterSectorUse": true,
+            "String_Tid": "None",
+            "Local_Key": "dynamic_move_contentsonoff"
+          },
+          "String_Tid": "dynamic_move",
+          "Local_Key": "None"
+        },
+        "StartDistance": 100,
+        "Slide_Spd": "dynamic_move_slide",
+        "Slide_End_Height": 200,
+        "Move_Spd_Top": "dynamic_move_toprun",
+        "MoveTop_StaminaDistance": 100,
+        "MoveTop_StaminaValue": 150,
+        "Move_Spd_Bottom": "dynamic_move_bottomrun",
+        "MoveBottom_StaminaDistance": 100,
+        "MoveBottom_StaminaValue": 150,
+        "Dash_StaminaValue": 100,
+        "Finish_Distance": 100,
+        "Finish_Top_Angle_01": 50,
+        "Finish_Top_Angle_02": 160,
+        "Finish_Bottom_Angle_01": 50,
+        "Finish_Bottom_Angle_02": 160,
+        "Crash_Radius_Socket": 160,
+        "Crash_Radius": 100,
+        "StartDynamicMoveMtg": "meliodas_dynamicmove_start_mtg",
+        "Start_Curve": "meliodas_dynamicmove_start_curve",
+        "Finish_Top_MTG": "meliodas_dynamicmove_up_end_mtg",
+        "Finish_Bottom_MTG": "meliodas_dynamicmove_up_end_mtg",
+        "Finish_Curve": "meliodas_dynamicmove_up_end_curve",
+        "SkippingEndTime": 700,
+        "MoveBottom_LoopSound": "118502",
+        "String_Tid": "1005",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

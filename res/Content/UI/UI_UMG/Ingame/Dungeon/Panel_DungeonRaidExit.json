@@ -1,0 +1,5407 @@
+[
+  {
+    "Type": "ACMovieSceneSoundTidSection",
+    "Name": "ACMovieSceneSoundTidSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidSection'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidTrack'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.1"
+    },
+    "Properties": {
+      "soundTid": {
+        "Tid": "2000007"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'ui_common_panel_side_open_01_cue'",
+        "ObjectPath": "SevenDeadlySins/Content/Sounds/ui/common/ui_common_panel_side_open_01_cue.0"
+      },
+      "bKeepPlayingUntilEnd": true,
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.121"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.122"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "0542DA13-45D56112-BAE42D94-3C5679CE"
+    }
+  },
+  {
+    "Type": "ACMovieSceneSoundTidTrack",
+    "Name": "ACMovieSceneSoundTidTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.110"
+    },
+    "Properties": {
+      "AudioSections": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.0"
+        }
+      ],
+      "EvaluationFieldGuid": "DC84BAD4-43F1236C-5254449F-534C58E3",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "ACMovieSceneSoundTidSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.0"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "DC84BAD4-43F1236C-5254449F-534C58E3"
+    }
+  },
+  {
+    "Type": "Btn_01_C",
+    "Name": "Btn_Closed",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.Btn_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Template": {
+      "ObjectName": "Btn_01_C'Default__Btn_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.0"
+    },
+    "Properties": {
+      "StringStyle": {
+        "bEnabled": true,
+        "Text": "UI_Common_Btn_Cancel"
+      },
+      "InputTableTID": "UI_Cancel",
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_76.CBHorizontalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.26"
+      }
+    }
+  },
+  {
+    "Type": "Btn_01_C",
+    "Name": "Btn_Exit",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.Btn_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Template": {
+      "ObjectName": "Btn_01_C'Default__Btn_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.0"
+    },
+    "Properties": {
+      "StringStyle": {
+        "bEnabled": true,
+        "Text": "UI_Common_Btn_Exit"
+      },
+      "InputTableTID": "UI_PAD_Button_Left",
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_76.CBHorizontalBoxSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.27"
+      }
+    }
+  },
+  {
+    "Type": "Btn_01_C",
+    "Name": "Btn_Retry",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.Btn_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Template": {
+      "ObjectName": "Btn_01_C'Default__Btn_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.0"
+    },
+    "Properties": {
+      "ButtonStyles": [
+        {
+          "Normal": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::FullColor",
+            "ImageSize": {
+              "X": 280.0,
+              "Y": 80.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "VtaSlateTexture'common_button_2'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_button_2.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          },
+          "Pressed": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 0.384266,
+                "G": 0.384266,
+                "B": 0.384266,
+                "A": 1.0,
+                "Hex": "A7A7A7"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::FullColor",
+            "ImageSize": {
+              "X": 280.0,
+              "Y": 80.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "VtaSlateTexture'common_button_2'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_button_2.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        }
+      ],
+      "StringStyle": {
+        "bEnabled": true,
+        "Text": "UI_Dungeon_Btn_Retry"
+      },
+      "InputTableTID": "UI_PAD_Button_Down",
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_76.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.25"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Btn_Close_C",
+    "Name": "Btn_Close",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Close.Btn_Close_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Template": {
+      "ObjectName": "Btn_Close_C'Default__Btn_Close_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Close.0"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_31.CBCanvasPanelSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.13"
+      }
+    }
+  },
+  {
+    "Type": "CBBorderSlot",
+    "Name": "CBBorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorderSlot'",
+    "Outer": {
+      "ObjectName": "EBorder'Panel_DungeonRaidExit_C:WidgetTree.BackColor'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.94"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 15.0,
+        "Top": 3.0,
+        "Right": 15.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "EBorder'Panel_DungeonRaidExit_C:WidgetTree.BackColor'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.94"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_DungeonRaidExit_C:WidgetTree.TextBlock_DungeonSubName'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.107"
+      }
+    }
+  },
+  {
+    "Type": "CBBorderSlot",
+    "Name": "CBBorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorderSlot'",
+    "Outer": {
+      "ObjectName": "EBorder'Panel_DungeonRaidExit_C:WidgetTree.EBorder_2'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.95"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Right": 20.0
+      },
+      "Parent": {
+        "ObjectName": "EBorder'Panel_DungeonRaidExit_C:WidgetTree.EBorder_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.95"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.PartyText'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.22"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_31",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_31.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.10"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_31.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.11"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_31.CBCanvasPanelSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.12"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_31.CBCanvasPanelSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.13"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSafeZoneSlot'Panel_DungeonRaidExit_C:WidgetTree.CBSafeZone_49.CBSafeZoneSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.64"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_33",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_33.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.14"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_33.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.15"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_31'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -100.0,
+          "Top": 180.0,
+          "Right": 800.0,
+          "Bottom": 240.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_31'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.8"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_31'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -100.0,
+          "Top": -100.0,
+          "Right": 800.0,
+          "Bottom": 84.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_31'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.8"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Panel_DungeonRaidExit_C:WidgetTree.ButtonArea'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.73"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_31'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -80.0,
+          "Top": -185.0,
+          "Right": 450.0,
+          "Bottom": 54.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "ZOrder": 99,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_31'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.8"
+      },
+      "Content": {
+        "ObjectName": "CBOverlay'Panel_DungeonRaidExit_C:WidgetTree.NeedItem'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.55"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_31'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 128.0,
+          "Bottom": 128.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_31'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.8"
+      },
+      "Content": {
+        "ObjectName": "Btn_Close_C'Panel_DungeonRaidExit_C:WidgetTree.Btn_Close'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.5"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_33'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.9"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 1100.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_33'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.9"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_DungeonRaidExit_C:WidgetTree.Image_Dim'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.47"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_33'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.9"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_33'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.9"
+      },
+      "Content": {
+        "ObjectName": "CBSafeZone'Panel_DungeonRaidExit_C:WidgetTree.CBSafeZone_49'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.63"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_76",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_76.CBHorizontalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.26"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_76.CBHorizontalBoxSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.27"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_76.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.25"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.ButtonArea.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.74"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_78",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_78.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.28"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_8'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.90"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_Enemy",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Panel_DungeonRaidExit_C:WidgetTree.EnemyList.CBOverlaySlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.57"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "EnemyInfoTitle",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.EnemyInfoTitle.CBHorizontalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.29"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.EnemyInfoTitle.CBHorizontalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.30"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.85"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "icons",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.icons.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.31"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.icons.CBHorizontalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.32"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Panel_DungeonRaidExit_C:WidgetTree.NeedItem.CBOverlaySlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.60"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "icons_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.icons_1.CBHorizontalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.36"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.icons_1.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.33"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.icons_1.CBHorizontalBoxSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.37"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.icons_1.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.34"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.icons_1.CBHorizontalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.35"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Panel_DungeonRaidExit_C:WidgetTree.OwnedKey.CBOverlaySlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.62"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "PartyText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.PartyText.CBHorizontalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.39"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.PartyText.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.38"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBBorderSlot'Panel_DungeonRaidExit_C:WidgetTree.EBorder_2.CBBorderSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.7"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "PledgeInfoTitle",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.PledgeInfoTitle.CBHorizontalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.40"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.PledgeInfoTitle.CBHorizontalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.41"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_6'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.88"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "Title",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.Title.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.42"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.80"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_76'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.16"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_76'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.16"
+      },
+      "Content": {
+        "ObjectName": "Btn_01_C'Panel_DungeonRaidExit_C:WidgetTree.Btn_Retry'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.4"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_76'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.16"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_76'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.16"
+      },
+      "Content": {
+        "ObjectName": "Btn_01_C'Panel_DungeonRaidExit_C:WidgetTree.Btn_Closed'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.2"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_76'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.16"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_76'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.16"
+      },
+      "Content": {
+        "ObjectName": "Btn_01_C'Panel_DungeonRaidExit_C:WidgetTree.Btn_Exit'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.3"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_78'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.17"
+    },
+    "Properties": {
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_78'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.17"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_DungeonRaidExit_C:WidgetTree.ETextBlock_92'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.97"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.EnemyInfoTitle'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.19"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 5.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.EnemyInfoTitle'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.19"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_DungeonRaidExit_C:WidgetTree.Image_Dot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.49"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.EnemyInfoTitle'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.19"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.EnemyInfoTitle'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.19"
+      },
+      "Content": {
+        "ObjectName": "CBScaleBox'Panel_DungeonRaidExit_C:WidgetTree.Text_EnemyInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.67"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.icons'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.20"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.icons'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.20"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_DungeonRaidExit_C:WidgetTree.Img_NeedItem'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.52"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.icons'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.20"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Left": 5.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.icons'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.20"
+      },
+      "Content": {
+        "ObjectName": "CBScaleBox'Panel_DungeonRaidExit_C:WidgetTree.CBScaleBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.65"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.icons_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.21"
+    },
+    "Properties": {
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.icons_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.21"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_DungeonRaidExit_C:WidgetTree.ETextBlock_Label_Enter_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.99"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.icons_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.21"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.icons_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.21"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_DungeonRaidExit_C:WidgetTree.Img_OwnedKey'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.53"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.icons_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.21"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.icons_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.21"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_DungeonRaidExit_C:WidgetTree.ETextBlock_OwnedKeyNum'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.101"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.icons_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.21"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 10.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.icons_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.21"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_DungeonRaidExit_C:WidgetTree.CBImage_90'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.45"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.icons_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.21"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.icons_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.21"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_DungeonRaidExit_C:WidgetTree.deco'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.46"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.PartyText'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.22"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Top": 2.0,
+        "Right": 30.0,
+        "Bottom": 2.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.PartyText'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.22"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_DungeonRaidExit_C:WidgetTree.TextBlock_Count'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.106"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.PartyText'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.22"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 30.0,
+        "Top": 2.0,
+        "Bottom": 2.0
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.PartyText'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.22"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_DungeonRaidExit_C:WidgetTree.Text_CheckCount'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.102"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.PledgeInfoTitle'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.23"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 5.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.PledgeInfoTitle'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.23"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_DungeonRaidExit_C:WidgetTree.Image_Dot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.48"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.PledgeInfoTitle'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.23"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.PledgeInfoTitle'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.23"
+      },
+      "Content": {
+        "ObjectName": "CBScaleBox'Panel_DungeonRaidExit_C:WidgetTree.Text_EnemyInfo_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.68"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.Title'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.24"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Right": 20.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.Title'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.24"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'Panel_DungeonRaidExit_C:WidgetTree.ScaleBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.140"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "bg_need",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.887923,
+            "G": 0.887923,
+            "B": 0.887923,
+            "A": 1.0,
+            "Hex": "F2F2F2"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::RoundedBox",
+        "OutlineSettings": {
+          "Color": {
+            "SpecifiedColor": {
+              "R": 0.887923,
+              "G": 0.887923,
+              "B": 0.887923,
+              "A": 1.0,
+              "Hex": "F2F2F2"
+            }
+          }
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Panel_DungeonRaidExit_C:WidgetTree.NeedItem.CBOverlaySlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.58"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "bg_need_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.887923,
+            "G": 0.887923,
+            "B": 0.887923,
+            "A": 1.0,
+            "Hex": "F2F2F2"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 16.0,
+          "Y": 16.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Dungeon_i_hd'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Dungeon/Frames/Dungeon_i_hd.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Panel_DungeonRaidExit_C:WidgetTree.NeedItem.CBOverlaySlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.61"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_90",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.304987,
+            "G": 0.246201,
+            "B": 0.152926,
+            "A": 1.0,
+            "Hex": "96886D"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_i_dot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_i_dot_3.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.icons_1.CBHorizontalBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.36"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "deco",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.304987,
+            "G": 0.246201,
+            "B": 0.152926,
+            "A": 0.75,
+            "Hex": "BF96886D"
+          }
+        },
+        "Tiling": "ESlateBrushTileType::Horizontal",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 48.0,
+          "Y": 18.0
+        },
+        "Margin": {
+          "Left": 0.1,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'dot_line'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Tex/Common/dot_line.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.icons_1.CBHorizontalBoxSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.37"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Dim",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.005208,
+            "G": 0.005208,
+            "B": 0.005208,
+            "A": 0.9,
+            "Hex": "E6101010"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 400.0,
+          "Y": 10.0
+        },
+        "Margin": {
+          "Left": 0.9,
+          "Top": 0.5,
+          "Right": 0.1,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Dungeon_grad_R'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Dungeon/Frames/Dungeon_grad_R.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_33.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.14"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Dot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.715694,
+            "G": 0.533277,
+            "B": 0.309469,
+            "A": 1.0,
+            "Hex": "DCC197"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 20.0,
+          "Y": 20.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Dungeon_dot'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Dungeon/Frames/Dungeon_dot.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.PledgeInfoTitle.CBHorizontalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.40"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Dot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.715694,
+            "G": 0.533277,
+            "B": 0.309469,
+            "A": 1.0,
+            "Hex": "DCC197"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 20.0,
+          "Y": 20.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Dungeon_dot'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Dungeon/Frames/Dungeon_dot.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.EnemyInfoTitle.CBHorizontalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.29"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Line",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.2,
+            "Hex": "33FFFFFF"
+          }
+        },
+        "ImageSize": {
+          "X": 32.0,
+          "Y": 2.0
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.84"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Line_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.2,
+            "Hex": "33FFFFFF"
+          }
+        },
+        "ImageSize": {
+          "X": 32.0,
+          "Y": 2.0
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_12'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.83"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Img_NeedItem",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 48.0,
+          "Y": 48.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'100000106'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/Icon_Item/item/100000106.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.icons.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.31"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Img_OwnedKey",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 48.0,
+          "Y": 48.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'100000106'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/Icon_Item/item/100000106.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.icons_1.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.34"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "EnemyList",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Panel_DungeonRaidExit_C:WidgetTree.EnemyList.CBOverlaySlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.57"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.86"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "NeedItem",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Panel_DungeonRaidExit_C:WidgetTree.NeedItem.CBOverlaySlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.61"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Panel_DungeonRaidExit_C:WidgetTree.NeedItem.CBOverlaySlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.58"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Panel_DungeonRaidExit_C:WidgetTree.NeedItem.CBOverlaySlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.59"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Panel_DungeonRaidExit_C:WidgetTree.NeedItem.CBOverlaySlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.60"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_31.CBCanvasPanelSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.12"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "OwnedKey",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Panel_DungeonRaidExit_C:WidgetTree.OwnedKey.CBOverlaySlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.62"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.PartyWait.CBVerticalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.92"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Panel_DungeonRaidExit_C:WidgetTree.EnemyList'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.54"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 5.0,
+        "Bottom": 5.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Panel_DungeonRaidExit_C:WidgetTree.EnemyList'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.54"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_Enemy'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.18"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Panel_DungeonRaidExit_C:WidgetTree.NeedItem'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.55"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Panel_DungeonRaidExit_C:WidgetTree.NeedItem'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.55"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_DungeonRaidExit_C:WidgetTree.bg_need'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.43"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Panel_DungeonRaidExit_C:WidgetTree.NeedItem'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.55"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 16.0,
+        "Top": 5.0,
+        "Right": 175.0,
+        "Bottom": 5.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Panel_DungeonRaidExit_C:WidgetTree.NeedItem'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.55"
+      },
+      "Content": {
+        "ObjectName": "CBScaleBox'Panel_DungeonRaidExit_C:WidgetTree.CBScaleBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.66"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Panel_DungeonRaidExit_C:WidgetTree.NeedItem'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.55"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 280.0,
+        "Right": 16.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Panel_DungeonRaidExit_C:WidgetTree.NeedItem'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.55"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.icons'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.20"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Panel_DungeonRaidExit_C:WidgetTree.NeedItem'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.55"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 35.0,
+        "Bottom": -12.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "CBOverlay'Panel_DungeonRaidExit_C:WidgetTree.NeedItem'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.55"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_DungeonRaidExit_C:WidgetTree.bg_need_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.44"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Panel_DungeonRaidExit_C:WidgetTree.OwnedKey'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.56"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Panel_DungeonRaidExit_C:WidgetTree.OwnedKey'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.56"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.icons_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.21"
+      }
+    }
+  },
+  {
+    "Type": "CBSafeZone",
+    "Name": "CBSafeZone_49",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSafeZone'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBSafeZoneSlot'Panel_DungeonRaidExit_C:WidgetTree.CBSafeZone_49.CBSafeZoneSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.64"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_33.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.15"
+      }
+    }
+  },
+  {
+    "Type": "CBSafeZoneSlot",
+    "Name": "CBSafeZoneSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSafeZoneSlot'",
+    "Outer": {
+      "ObjectName": "CBSafeZone'Panel_DungeonRaidExit_C:WidgetTree.CBSafeZone_49'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.63"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSafeZone'Panel_DungeonRaidExit_C:WidgetTree.CBSafeZone_49'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.63"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_31'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.8"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBox",
+    "Name": "CBScaleBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "CBScaleBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBScaleBox_0.CBScaleBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.69"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.icons.CBHorizontalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.32"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBox",
+    "Name": "CBScaleBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "CBScaleBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBScaleBox_1.CBScaleBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.70"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Panel_DungeonRaidExit_C:WidgetTree.NeedItem.CBOverlaySlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.59"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBox",
+    "Name": "Text_EnemyInfo",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "CBScaleBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.Text_EnemyInfo.CBScaleBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.71"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.EnemyInfoTitle.CBHorizontalBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.30"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBox",
+    "Name": "Text_EnemyInfo_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "CBScaleBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.Text_EnemyInfo_1.CBScaleBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.72"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.PledgeInfoTitle.CBHorizontalBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.41"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBoxSlot",
+    "Name": "CBScaleBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBScaleBox'Panel_DungeonRaidExit_C:WidgetTree.CBScaleBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.65"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBScaleBox'Panel_DungeonRaidExit_C:WidgetTree.CBScaleBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.65"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_DungeonRaidExit_C:WidgetTree.ETextBlock_NeedNum'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.100"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBoxSlot",
+    "Name": "CBScaleBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBScaleBox'Panel_DungeonRaidExit_C:WidgetTree.CBScaleBox_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.66"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBScaleBox'Panel_DungeonRaidExit_C:WidgetTree.CBScaleBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.66"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_DungeonRaidExit_C:WidgetTree.ETextBlock_Label_Enter'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.98"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBoxSlot",
+    "Name": "CBScaleBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBScaleBox'Panel_DungeonRaidExit_C:WidgetTree.Text_EnemyInfo'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.67"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBScaleBox'Panel_DungeonRaidExit_C:WidgetTree.Text_EnemyInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.67"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_DungeonRaidExit_C:WidgetTree.TextBlock_Title'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.108"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBoxSlot",
+    "Name": "CBScaleBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBScaleBox'Panel_DungeonRaidExit_C:WidgetTree.Text_EnemyInfo_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.68"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBScaleBox'Panel_DungeonRaidExit_C:WidgetTree.Text_EnemyInfo_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.68"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_DungeonRaidExit_C:WidgetTree.Text_PledgeInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.104"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "ButtonArea",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "HeightOverride": 80.0,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.ButtonArea.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.74"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_31.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.11"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Panel_DungeonRaidExit_C:WidgetTree.ButtonArea'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.73"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": -5.0,
+        "Right": -5.0
+      },
+      "Parent": {
+        "ObjectName": "CBSizeBox'Panel_DungeonRaidExit_C:WidgetTree.ButtonArea'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.73"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_76'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.16"
+      }
+    }
+  },
+  {
+    "Type": "CBSpacer",
+    "Name": "CBSpacer_83",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSpacer'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_10'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.81"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "CBVerticalBox_129",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_7'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.89"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "CBVerticalBox_25",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.79"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.80"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.84"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.85"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.86"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_8'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.90"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_6'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.88"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_7'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.89"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_10'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.81"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_12'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.83"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_11'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.82"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.87"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_31.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.10"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "PartyWait",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.PartyWait.CBVerticalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.91"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.PartyWait.CBVerticalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.92"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.PartyWait.CBVerticalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.93"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.87"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+      },
+      "Content": {
+        "ObjectName": "EBorder'Panel_DungeonRaidExit_C:WidgetTree.BackColor'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.94"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.Title'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.24"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+      },
+      "Content": {
+        "ObjectName": "CBSpacer'Panel_DungeonRaidExit_C:WidgetTree.CBSpacer_83'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.75"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 15.0,
+        "Bottom": 30.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_DungeonRaidExit_C:WidgetTree.Text_PledgeInfo_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.105"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_DungeonRaidExit_C:WidgetTree.Image_Line_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.51"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 10.0,
+        "Bottom": 10.0
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_DungeonRaidExit_C:WidgetTree.Image_Line'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.50"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 30.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.EnemyInfoTitle'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.19"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 15.0,
+        "Top": 10.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+      },
+      "Content": {
+        "ObjectName": "CBOverlay'Panel_DungeonRaidExit_C:WidgetTree.EnemyList'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.54"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.PartyWait'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.78"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 30.0,
+        "Bottom": 10.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.PledgeInfoTitle'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.23"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 30.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_129'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.76"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 25.0,
+        "Top": 5.0,
+        "Bottom": 20.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.77"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_78'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.17"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.PartyWait'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.78"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.PartyWait'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.78"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_DungeonRaidExit_C:WidgetTree.Text_PartyWait'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.103"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.PartyWait'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.78"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.PartyWait'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.78"
+      },
+      "Content": {
+        "ObjectName": "CBOverlay'Panel_DungeonRaidExit_C:WidgetTree.OwnedKey'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.56"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.PartyWait'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.78"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 10.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_DungeonRaidExit_C:WidgetTree.PartyWait'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.78"
+      },
+      "Content": {
+        "ObjectName": "EBorder'Panel_DungeonRaidExit_C:WidgetTree.EBorder_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.95"
+      }
+    }
+  },
+  {
+    "Type": "EBorder",
+    "Name": "BackColor",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Padding": {
+        "Left": 15.0,
+        "Top": 3.0,
+        "Right": 15.0
+      },
+      "Background": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Dungeon_Dungeon_Difficulty_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Dungeon/Frames/Dungeon_Dungeon_Difficulty_5.0"
+        },
+        "OutlineSettings": {
+          "CornerRadii": {
+            "X": 0.2,
+            "Y": 0.2,
+            "Z": 0.2,
+            "W": 0.2
+          }
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBBorderSlot'Panel_DungeonRaidExit_C:WidgetTree.BackColor.CBBorderSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.6"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.79"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "EBorder",
+    "Name": "EBorder_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Right": 20.0
+      },
+      "Background": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.030713,
+            "G": 0.035601,
+            "B": 0.046665,
+            "A": 0.8,
+            "Hex": "CC31353D"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::RoundedBox"
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBBorderSlot'Panel_DungeonRaidExit_C:WidgetTree.EBorder_2.CBBorderSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.7"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.PartyWait.CBVerticalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.93"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "DungeonNameText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "A04C660C4E37659EA4F44EB8552D8EBD",
+        "SourceString": "텍스트 블록4",
+        "LocalizedString": "텍스트 블록4"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.2,
+            "Hex": "33000000"
+          }
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 44.0
+      },
+      "StrikeBrush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.887923,
+            "G": 0.887923,
+            "B": 0.887923,
+            "A": 1.0,
+            "Hex": "F2F2F2"
+          }
+        }
+      },
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.ScaleBox.ScaleBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.141"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "ETextBlock_92",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "3F17FAF84327F1DA9A30D2ACC2F71C0B",
+        "SourceString": "UI_Raid_Ingame_Menu_Guide",
+        "LocalizedString": "UI_Raid_Ingame_Menu_Guide"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.590619,
+          "G": 0.558341,
+          "B": 0.439657,
+          "A": 1.0,
+          "Hex": "CAC5B1"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.114583,
+            "G": 0.095174,
+            "B": 0.076092,
+            "A": 0.495,
+            "Hex": "7E5F574E"
+          }
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 23.0
+      },
+      "WrapTextAt": 750.0,
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBHorizontalBox_78.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.28"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "ETextBlock_Label_Enter",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "1D4B10F34A3983EC786BA7A9BD493298",
+        "SourceString": "UI_Dungeon_Info_Reward_Currency",
+        "LocalizedString": "UI_Dungeon_Info_Reward_Currency"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.059511,
+          "G": 0.066626,
+          "B": 0.08022,
+          "A": 1.0,
+          "Hex": "454950"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 18.0
+      },
+      "Justification": "ETextJustify::Center",
+      "WrappingPolicy": "ETextWrappingPolicy::AllowPerCharacterWrapping",
+      "LineHeightPercentage": 0.9,
+      "Slot": {
+        "ObjectName": "CBScaleBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBScaleBox_1.CBScaleBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.70"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "ETextBlock_Label_Enter_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "826B8E9D49877BC15E5312899F199C1F",
+        "SourceString": "UI_Dungeon_Btn_Retry",
+        "LocalizedString": "UI_Dungeon_Btn_Retry"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.201556,
+          "G": 0.201556,
+          "B": 0.219526,
+          "A": 1.0,
+          "Hex": "7C7C81"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "WrappingPolicy": "ETextWrappingPolicy::AllowPerCharacterWrapping",
+      "LineHeightPercentage": 0.9,
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.icons_1.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.33"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "ETextBlock_NeedNum",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "UseLocalization": false,
+      "Text": {
+        "Namespace": "",
+        "Key": "7045D40E454BC01E84ABF1A6230076AD",
+        "SourceString": "10/100",
+        "LocalizedString": "10/100"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.059511,
+          "G": 0.066626,
+          "B": 0.08022,
+          "A": 1.0,
+          "Hex": "454950"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 28.0,
+        "LetterSpacing": -50
+      },
+      "Slot": {
+        "ObjectName": "CBScaleBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBScaleBox_0.CBScaleBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.69"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "ETextBlock_OwnedKeyNum",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "UseLocalization": false,
+      "Text": {
+        "Namespace": "",
+        "Key": "B4DDE7FC490E294FF67E989BAB002563",
+        "SourceString": "x20",
+        "LocalizedString": "x20"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.201556,
+          "G": 0.201556,
+          "B": 0.219526,
+          "A": 1.0,
+          "Hex": "7C7C81"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 28.0,
+        "LetterSpacing": -50
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.icons_1.CBHorizontalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.35"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "Text_CheckCount",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "ACDEDD2B4CD4C8E6DB3B3BACDBFE3AAE",
+        "SourceString": "보상 획득 현황",
+        "LocalizedString": "보상 획득 현황"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.PartyText.CBHorizontalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.39"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "Text_PartyWait",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "369EC7D94B45C24FBC0D68BA125B080C",
+        "SourceString": "UI_Dungeon_Info_Wait_Leader_Retry_Select",
+        "LocalizedString": "UI_Dungeon_Info_Wait_Leader_Retry_Select"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.541667,
+          "G": 0.541667,
+          "B": 0.541667,
+          "A": 1.0,
+          "Hex": "C3C3C3"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.2,
+            "Hex": "33000000"
+          }
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "StrikeBrush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.887923,
+            "G": 0.887923,
+            "B": 0.887923,
+            "A": 1.0,
+            "Hex": "F2F2F2"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Image"
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "AutoWrapText": true,
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.PartyWait.CBVerticalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.91"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "Text_PledgeInfo",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "886FAEE240D18035A341B0B40D090773",
+        "SourceString": "UI_Raid_Ingame_Menu_Pledge",
+        "LocalizedString": "UI_Raid_Ingame_Menu_Pledge"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.887923,
+          "G": 0.887923,
+          "B": 0.887923,
+          "A": 1.0,
+          "Hex": "F2F2F2"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.2,
+            "Hex": "33000000"
+          }
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "StrikeBrush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.887923,
+            "G": 0.887923,
+            "B": 0.887923,
+            "A": 1.0,
+            "Hex": "F2F2F2"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Image"
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CBScaleBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.Text_EnemyInfo_1.CBScaleBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.72"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "Text_PledgeInfo_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D4A7D1014D5847565A45CF8D62B1B469",
+        "SourceString": "UI_Dungeon_Popup_Exit",
+        "LocalizedString": "UI_Dungeon_Popup_Exit"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.887923,
+          "G": 0.887923,
+          "B": 0.887923,
+          "A": 1.0,
+          "Hex": "F2F2F2"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.2,
+            "Hex": "33000000"
+          }
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 28.0
+      },
+      "StrikeBrush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.887923,
+            "G": 0.887923,
+            "B": 0.887923,
+            "A": 1.0,
+            "Hex": "F2F2F2"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Image"
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "AutoWrapText": true,
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.CBVerticalBox_25.CBVerticalBoxSlot_11'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.82"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_Count",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "B3C2BDCC4AF5B9D24AC6FB9AB50522E8",
+        "SourceString": "3/12",
+        "LocalizedString": "3/12"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.822369,
+          "B": 0.359375,
+          "A": 1.0,
+          "Hex": "FFEAA2"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.35,
+            "Hex": "59000000"
+          }
+        },
+        "TypefaceFontName": "Font_EB"
+      },
+      "bWrapWithInvalidationPanel": false,
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.PartyText.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.38"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_DungeonSubName",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "B9BCB70D4C60F61D499FFAAD38F836A6",
+        "SourceString": "던전난이도",
+        "LocalizedString": "던전난이도"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.2,
+            "Hex": "33000000"
+          }
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Slot": {
+        "ObjectName": "CBBorderSlot'Panel_DungeonRaidExit_C:WidgetTree.BackColor.CBBorderSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.6"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_Title",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "DA70B8244CDE11601C7F509BFC5A80D4",
+        "SourceString": "UI_Raid_Ingame_Menu_KillCount",
+        "LocalizedString": "UI_Raid_Ingame_Menu_KillCount"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.887923,
+          "G": 0.887923,
+          "B": 0.887923,
+          "A": 1.0,
+          "Hex": "F2F2F2"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.2,
+            "Hex": "33000000"
+          }
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "StrikeBrush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.887923,
+            "G": 0.887923,
+            "B": 0.887923,
+            "A": 1.0,
+            "Hex": "F2F2F2"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Image"
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CBScaleBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.Text_EnemyInfo.CBScaleBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.71"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Hide",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_DungeonRaidExit_C:Anim_Hide_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.142"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "2CD22DB8-4ADCE519-9EFA2786-28F13B5F",
+          "Name": "CBCanvasPanel_31",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "DBB3B4E9-4667D8A5-1949E299-FE0688FE",
+          "Name": "Image_Dim",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "2CD22DB8-4ADCE519-9EFA2786-28F13B5F",
+          "BindingName": "CBCanvasPanel_31",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.135"
+            },
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.113"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "DBB3B4E9-4667D8A5-1949E299-FE0688FE",
+          "BindingName": "Image_Dim",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.136"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "93D0630A-483D8FFD-434672AA-B7244F93"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Show",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_DungeonRaidExit_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.143"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "18A3D3AE-43E4A89A-743140A6-173F7062",
+          "Name": "CBCanvasPanel_31",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "CEFA5623-4CAA1D30-9741B8BC-4664E4F3",
+          "Name": "Image_Dim",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "18A3D3AE-43E4A89A-743140A6-173F7062",
+          "BindingName": "CBCanvasPanel_31",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.137"
+            },
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.114"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "CEFA5623-4CAA1D30-9741B8BC-4664E4F3",
+          "BindingName": "Image_Dim",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.138"
+            }
+          ]
+        }
+      ],
+      "Tracks": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidTrack'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.1"
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "ClockSource": "EUpdateClockSource::Audio",
+      "Signature": "1674D8FD-4AD8C2E5-CCBDBBB1-BD3EF37A"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.113"
+    },
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 50.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.115"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.116"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "C0E5517A-499CDCFF-D154AA91-EAECCAB2"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.114"
+    },
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 50.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.123"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.124"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "45CF7C32-45ED6279-A2C78C9E-FC108D31"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.109"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.111"
+        }
+      ],
+      "EvaluationFieldGuid": "09228FBA-48BE094F-F8A44F96-8AFB97A3",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.111"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "09228FBA-48BE094F-F8A44F96-8AFB97A3"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.110"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.112"
+        }
+      ],
+      "EvaluationFieldGuid": "A1EBFB36-499EAE4B-7E5AAFA0-13B75C37",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.112"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "A1EBFB36-499EAE4B-7E5AAFA0-13B75C37"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.111"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.111"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.131"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.131"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.132"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.132"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.112"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.112"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.133"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.133"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.134"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.134"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_DungeonRaidExit_C:Anim_Hide_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.142"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 3,
+                  "Capacity": 3
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 15000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.131"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.111"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.132"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "2CD22DB8-4ADCE519-9EFA2786-28F13B5F"
+          },
+          {
+            "ObjectBindingID": "2CD22DB8-4ADCE519-9EFA2786-28F13B5F"
+          },
+          {
+            "ObjectBindingID": "DBB3B4E9-4667D8A5-1949E299-FE0688FE"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 15000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "E2DE5101-4D8D402A-93A282BB-F578C05D",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_DungeonRaidExit_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.143"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 4,
+                  "Capacity": 4
+                },
+                {
+                  "StartIndex": 4,
+                  "Size": 3,
+                  "Capacity": 3
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 15000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 15000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 15000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "ACMovieSceneSoundTidSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.0"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.133"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.112"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.134"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 3
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "ObjectBindingID": "18A3D3AE-43E4A89A-743140A6-173F7062"
+          },
+          {
+            "ObjectBindingID": "18A3D3AE-43E4A89A-743140A6-173F7062"
+          },
+          {
+            "ObjectBindingID": "CEFA5623-4CAA1D30-9741B8BC-4664E4F3"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 15000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "2E24C4CF-45B662FD-9BDB9BBF-5FF7A0B8",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.135"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.117"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.118"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "0A90015C-4ED81018-C35B8887-4B179730"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.136"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.119"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.120"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "76F2734B-43BDA8FD-FC750AA3-5C552D0B"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.137"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.125"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.126"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "D8560FFF-42F0DF24-663DC697-991C11B0"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.138"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.127"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.128"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "AC500FE0-4E2214EC-E36375A7-7E86317F"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.109"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.131"
+        }
+      ],
+      "EvaluationFieldGuid": "D58C9140-4E27823A-F59745A2-E6F1FBA9",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.131"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "D58C9140-4E27823A-F59745A2-E6F1FBA9"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.109"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.132"
+        }
+      ],
+      "EvaluationFieldGuid": "8D14053E-4163CB04-945BC59B-E1B52CA8",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.132"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "8D14053E-4163CB04-945BC59B-E1B52CA8"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.110"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.133"
+        }
+      ],
+      "EvaluationFieldGuid": "3D3914C2-40F0AE57-C073B2A0-6D158764",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.133"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "3D3914C2-40F0AE57-C073B2A0-6D158764"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.110"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.134"
+        }
+      ],
+      "EvaluationFieldGuid": "CFAE8EE7-46283646-561608A9-C09FA5D3",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.134"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "CFAE8EE7-46283646-561608A9-C09FA5D3"
+    }
+  },
+  {
+    "Type": "Panel_DungeonRaidExit_C",
+    "Name": "Default__Panel_DungeonRaidExit_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.Panel_DungeonRaidExit_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit",
+    "Properties": {
+      "RaidEnemySlotData": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'RaidEnemy_Slot_C'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/RaidEnemy_Slot.28"
+      },
+      "RaidPledgeSlotData": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'RaidPledge_Slot_C'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/RaidPledge_Slot.18"
+      },
+      "UseInputSystem": true,
+      "RemovePlayerKeyMappingContext": true,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+    },
+    "Properties": {
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.ScaleBox.ScaleBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.141"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_DungeonRaidExit_C:WidgetTree.Title.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.42"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "ScaleBox'Panel_DungeonRaidExit_C:WidgetTree.ScaleBox'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.140"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "Parent": {
+        "ObjectName": "ScaleBox'Panel_DungeonRaidExit_C:WidgetTree.ScaleBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.140"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_DungeonRaidExit_C:WidgetTree.DungeonNameText'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.96"
+      }
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Hide_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_DungeonRaidExit_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.144"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Panel_DungeonRaidExit_C:Anim_Hide_INST.Anim_Hide'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.109"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CBCanvasPanel_31",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "2CD22DB8-4ADCE519-9EFA2786-28F13B5F",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "Image_Dim",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "DBB3B4E9-4667D8A5-1949E299-FE0688FE",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Hide",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Panel_DungeonRaidExit_C:Anim_Hide_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.129"
+      },
+      "Signature": "E2DE5101-4D8D402A-93A282BB-F578C05D"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Show_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_DungeonRaidExit_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.144"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Panel_DungeonRaidExit_C:Anim_Show_INST.Anim_Show'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.110"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CBCanvasPanel_31",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "18A3D3AE-43E4A89A-743140A6-173F7062",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "Image_Dim",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "CEFA5623-4CAA1D30-9741B8BC-4664E4F3",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Show",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Panel_DungeonRaidExit_C:Anim_Show_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.130"
+      },
+      "Signature": "2E24C4CF-45B662FD-9BDB9BBF-5FF7A0B8"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Panel_DungeonRaidExit_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Panel_DungeonRaidExit_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.145"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'Panel_DungeonRaidExit_C:Anim_Show_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.143"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Panel_DungeonRaidExit_C:Anim_Hide_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.142"
+        }
+      ]
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EPanel_DungeonRaidExit'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBImage_90",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBSafeZone_49",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBSafeZone'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ETextBlock_OwnedKeyNum",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'ETextBlock'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Dim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Dot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Dot_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Line",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Line_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Img_OwnedKey",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Panel_DungeonRaidExit_C'Default__Panel_DungeonRaidExit_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.139"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_DungeonRaidExit_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.144"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'Panel_DungeonRaidExit_C:WidgetTree.CBCanvasPanel_33'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Panel_DungeonRaidExit.9"
+      }
+    }
+  }
+]

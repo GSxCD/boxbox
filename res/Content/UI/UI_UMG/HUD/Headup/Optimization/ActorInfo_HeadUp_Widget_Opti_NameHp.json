@@ -1,0 +1,1011 @@
+[
+  {
+    "Type": "ActorInfo_HeadUp_Widget_Opti_NameHp_C",
+    "Name": "Default__ActorInfo_HeadUp_Widget_Opti_NameHp_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.ActorInfo_HeadUp_Widget_Opti_NameHp_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp",
+    "Properties": {
+      "UberGraphFrame": {},
+      "HpData_Enemy": {
+        "Fill": {
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 102.0,
+            "Y": 8.0
+          },
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.5,
+            "Right": 0.5,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'bossgauge_gauge_bar_monster'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/bossgauge/Frames/bossgauge_gauge_bar_monster.0"
+          }
+        }
+      },
+      "HpData_Ally": {
+        "Fill": {
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 108.0,
+            "Y": 14.0
+          },
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.5,
+            "Right": 0.5,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'bossgauge_gauge_bar_ally'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/bossgauge/Frames/bossgauge_gauge_bar_ally.0"
+          }
+        }
+      },
+      "HpData_Party": {
+        "Fill": {
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 108.0,
+            "Y": 14.0
+          },
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.5,
+            "Right": 0.5,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'bossgauge_gauge_bar_party'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/bossgauge/Frames/bossgauge_gauge_bar_party.0"
+          }
+        }
+      },
+      "HpData_QuestProtect": {
+        "Fill": {
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 108.0,
+            "Y": 14.0
+          },
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.5,
+            "Right": 0.5,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'bossgauge_gauge_bar_quest'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/bossgauge/Frames/bossgauge_gauge_bar_quest.0"
+          }
+        }
+      },
+      "IconData_MountAimTarget": {
+        "bg": {
+          "Image": {
+            "AssetPathName": "/Game/UIImg/origin/common/Frames/common_Alert_01.common_Alert_01",
+            "SubPathString": ""
+          }
+        }
+      },
+      "IconData_Quest": {
+        "Fx": {
+          "Image": {
+            "AssetPathName": "/Game/UI/UI_Resourse/UMGFx/Mat_Inst/Common/UI_MI_RingLoop_01.UI_MI_RingLoop_01",
+            "SubPathString": ""
+          }
+        }
+      },
+      "_Resource_Hp_WidgetBubble": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'ActorInfo_HeadUp_BubbleCount_Widget_C'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Widget/ActorInfo_HeadUp_BubbleCount_Widget.28"
+      },
+      "_Resource_BurstWidget": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'TargetBurst_Widget_C'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Target/TargetBurst_Widget.20"
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "Widget_Hp",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.27"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp.CBCanvasPanelSlot_7'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.6"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.2"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp.CBCanvasPanelSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.3"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp.CBCanvasPanelSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.4"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp.CBCanvasPanelSlot_6'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.5"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_ActorInfoBar.CBVerticalBoxSlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.20"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.1"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 170.0,
+          "Bottom": 20.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.1"
+      },
+      "Content": {
+        "ObjectName": "CBImage'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Image_EliteHP_bg'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.10"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.1"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 110.0,
+          "Bottom": 10.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.1"
+      },
+      "Content": {
+        "ObjectName": "Progress_C'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Progress_CommonHP'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.24"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.1"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 150.0,
+          "Bottom": 20.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.1"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Instance_Hp'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.13"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.1"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 130.0,
+          "Bottom": 16.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.1"
+      },
+      "Content": {
+        "ObjectName": "Progress_C'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_HP_Protect'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.25"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.1"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -14.0,
+          "Top": 14.0,
+          "Right": 144.0,
+          "Bottom": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.1"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Enemy_Burst'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.12"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "Widget_Name",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.27"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Name.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.9"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Name.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.8"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_ActorInfoBar.CBVerticalBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.19"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Name'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.7"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 2.0,
+        "Right": 2.0
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Name'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.7"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.TextBlock_Name'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.21"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Name'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.7"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 2.0,
+        "Right": 2.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Name'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.7"
+      },
+      "Content": {
+        "ObjectName": "CBImage'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Image_Mark'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.11"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_EliteHP_bg",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.27"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HUD_ActorHP_gauge_elite_bg'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HUD/Frames/HUD_ActorHP_gauge_elite_bg.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.2"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Mark",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.27"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HUD_ActorHP_gauge_awful'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HUD/Frames/HUD_ActorHP_gauge_awful.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Name.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.9"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "Widget_Enemy_Burst",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.27"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp.CBCanvasPanelSlot_7'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.6"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "Widget_Instance_Hp",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.27"
+    },
+    "Properties": {
+      "WidthOverride": 130.0,
+      "HeightOverride": 16.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp.CBCanvasPanelSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.4"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "CBVerticalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.27"
+    },
+    "Properties": {
+      "SlotData": {
+        "Size": {
+          "SizeRule": "ESlateSizeRule::Automatic"
+        },
+        "bHorizontalAlignment": true,
+        "bVerticalAlignment": true,
+        "bSize": true
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.CBVerticalBox_1.CBVerticalBoxSlot_14'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.17"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "VerticalBox_Bottom",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.27"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.VerticalBox_Bottom.CBVerticalBoxSlot_14'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.18"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.CBVerticalBox_1.CBVerticalBoxSlot_14'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.17"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "Widget_ActorInfoBar",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.27"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_ActorInfoBar.CBVerticalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.19"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_ActorInfoBar.CBVerticalBoxSlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.20"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.VerticalBox_Bottom.CBVerticalBoxSlot_14'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.18"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.CBVerticalBox_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.14"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.CBVerticalBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.14"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.VerticalBox_Bottom'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.15"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.VerticalBox_Bottom'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.15"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.VerticalBox_Bottom'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.15"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_ActorInfoBar'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.16"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_ActorInfoBar'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.16"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "Parent": {
+        "ObjectName": "CBVerticalBox'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_ActorInfoBar'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.16"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Name'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.7"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_ActorInfoBar'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.16"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "Parent": {
+        "ObjectName": "CBVerticalBox'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_ActorInfoBar'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.16"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.1"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_Name",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.27"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "A1C2E2F742CD81D26D9AC681D56C0D63",
+        "SourceString": "캐릭터 이름",
+        "LocalizedString": "캐릭터 이름"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.846873,
+          "G": 0.846873,
+          "B": 0.846873,
+          "A": 1.0,
+          "Hex": "EDEDED"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.5,
+            "Hex": "7F000000"
+          }
+        },
+        "TypefaceFontName": "Font_EB",
+        "Size": 20.0
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Name.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.8"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ActorInfo_HeadUp_Widget_Opti_NameHp",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'ActorInfo_HeadUp_Widget_Opti_NameHp_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.26"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInitialized",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'ActorInfo_HeadUp_Widget_Opti_NameHp_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.26"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:OnInitialized'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Progress_C",
+    "Name": "Progress_CommonHP",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Progress.Progress_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.27"
+    },
+    "Template": {
+      "ObjectName": "Progress_C'Default__Progress_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Progress.16"
+    },
+    "Properties": {
+      "BarBackgroundImage": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "ImageSize": {
+          "X": 108.0,
+          "Y": 14.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'bossgauge_gauge_bg_monster'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/bossgauge/Frames/bossgauge_gauge_bg_monster.0"
+        },
+        "ResourceName": "None"
+      },
+      "BarFillImage": {
+        "ImageSize": {
+          "X": 108.0,
+          "Y": 14.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'bossgauge_gauge_bar_monster'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/bossgauge/Frames/bossgauge_gauge_bar_monster.0"
+        },
+        "ResourceName": "None"
+      },
+      "TipGradationColor": {
+        "R": 0.904661,
+        "G": 0.461754,
+        "B": 0.472691,
+        "A": 1.0,
+        "Hex": "F4B5B7"
+      },
+      "bUseTip": false,
+      "bUseText": false,
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp.CBCanvasPanelSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.3"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Progress_C",
+    "Name": "Widget_HP_Protect",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Progress.Progress_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.27"
+    },
+    "Template": {
+      "ObjectName": "Progress_C'Default__Progress_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Progress.16"
+    },
+    "Properties": {
+      "BarBackgroundImage": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.026042,
+            "G": 0.003798,
+            "B": 0.003798,
+            "A": 0.75,
+            "Hex": "BF2C0C0C"
+          }
+        },
+        "ImageSize": {
+          "X": 74.0,
+          "Y": 12.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HUD_ActorHP_gauge_bg'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HUD/Frames/HUD_ActorHP_gauge_bg.0"
+        }
+      },
+      "BarFillImage": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.177888,
+            "G": 0.623961,
+            "B": 0.806952,
+            "A": 1.0,
+            "Hex": "75CFE8"
+          }
+        },
+        "ImageSize": {
+          "X": 20.0,
+          "Y": 12.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'UI_MI_partyHp_001'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UI_MI_partyHp_001.0"
+        },
+        "ResourceName": "None"
+      },
+      "TipGradationColor": {
+        "R": 0.812775,
+        "G": 0.904661,
+        "B": 0.794361,
+        "A": 1.0,
+        "Hex": "E9F4E7"
+      },
+      "bUseTip": false,
+      "bUseText": false,
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.Widget_Hp.CBCanvasPanelSlot_6'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.5"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "ActorInfo_HeadUp_Widget_Opti_NameHp_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.27"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function'ActorInfo_HeadUp_Widget_Opti_NameHp_C:ExecuteUbergraph_ActorInfo_HeadUp_Widget_Opti_NameHp'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.22"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EActorInfo_HeadUp_Widget_Opti'",
+      "ObjectPath": "/Script/ACUMGBaseModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ActorInfo_HeadUp_Widget_Opti_NameHp_C:OnInitialized'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.23"
+      },
+      {
+        "ObjectName": "Function'ActorInfo_HeadUp_Widget_Opti_NameHp_C:ExecuteUbergraph_ActorInfo_HeadUp_Widget_Opti_NameHp'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.22"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ActorInfo_HeadUp_Widget_Opti_NameHp": {
+        "ObjectName": "Function'ActorInfo_HeadUp_Widget_Opti_NameHp_C:ExecuteUbergraph_ActorInfo_HeadUp_Widget_Opti_NameHp'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.22"
+      },
+      "OnInitialized": {
+        "ObjectName": "Function'ActorInfo_HeadUp_Widget_Opti_NameHp_C:OnInitialized'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.23"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ActorInfo_HeadUp_Widget_Opti_NameHp_C'Default__ActorInfo_HeadUp_Widget_Opti_NameHp_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'ActorInfo_HeadUp_Widget_Opti_NameHp_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.26"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBVerticalBox'ActorInfo_HeadUp_Widget_Opti_NameHp_C:WidgetTree.CBVerticalBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_NameHp.14"
+      }
+    }
+  }
+]

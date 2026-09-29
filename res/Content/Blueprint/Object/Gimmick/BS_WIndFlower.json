@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "BlendSpace",
+    "Name": "BS_WIndFlower",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlendSpace'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BS_WIndFlower",
+    "Properties": {
+      "InterpolationParam": {
+        "InterpolationTime": 1.0,
+        "InterpolationType": "EFilterInterpolationType::BSIT_ExponentialDecay"
+      },
+      "AnimLength": 2.0,
+      "PreferredTriangulationDirection": "EPreferredTriangulationDirection::None",
+      "SampleData": [
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'S_WindFlower_A01_Open_Loop'",
+            "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_WindFlower_A01/ANI/S_WindFlower_A01_Open_Loop.0"
+          },
+          "SampleValue": {
+            "X": 0.03,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'S_WindFlower_A01_Close_Loop'",
+            "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_WindFlower_A01/ANI/S_WindFlower_A01_Close_Loop.0"
+          },
+          "SampleValue": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        }
+      ],
+      "BlendSpaceData": {
+        "Segments": [
+          {
+            "SampleIndices": 1,
+            "SampleIndices[1]": 0,
+            "Vertices": 0.0,
+            "Vertices[1]": 0.03
+          }
+        ]
+      },
+      "BlendParameters": {
+        "DisplayName": "On",
+        "Max": 1.0,
+        "GridNum": 8
+      },
+      "DimensionIndices": [
+        0
+      ],
+      "Skeleton": {
+        "ObjectName": "Skeleton'S_WindFlower_A01_Skeleton'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_WindFlower_A01/Mesh/S_WindFlower_A01_Skeleton.10"
+      }
+    },
+    "SkeletonGuid": "4E5ABA33-467982EE-C8BDC4BC-3A5B8479"
+  }
+]

@@ -1,0 +1,329 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_WaterSourceRock_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_WaterSourceRock_01_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.14"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UECharacter_NPC'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_WaterSourceRock_01_C'Default__BP_WaterSourceRock_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_WaterSourceRock_01_C",
+    "Name": "Default__BP_WaterSourceRock_01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.BP_WaterSourceRock_01_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01",
+    "Properties": {
+      "OtherCharacterBlockComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WaterSourceRock_01_C:OtherCharacterBlockComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.5"
+      },
+      "LookAtPlayerSearchComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WaterSourceRock_01_C:LookAtPlayerSearchComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.4"
+      },
+      "m_bFixedOtherCharacterBlockSize": true,
+      "CoreMesh": {
+        "ObjectName": "CBSkeletalMeshComponent'Default__BP_WaterSourceRock_01_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.8"
+      },
+      "PathFollowingComponent": {
+        "ObjectName": "UEPathFollowingComponent'Default__BP_WaterSourceRock_01_C:UEPathFollowingComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.16"
+      },
+      "DestructibleReactionComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WaterSourceRock_01_C:DestructibleReactionComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.3"
+      },
+      "SelectableComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WaterSourceRock_01_C:SelectableComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.7"
+      },
+      "OverlapOnlyComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WaterSourceRock_01_C:OverlapOnlyComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.6"
+      },
+      "FacialPlayer": {
+        "ObjectName": "OGFacialPlayerComponent'Default__BP_WaterSourceRock_01_C:FacialPlayer'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.11"
+      },
+      "m_CollisionCheckDestroyComponent": {
+        "ObjectName": "OGActorCollisionCheckDestroyComponent'Default__BP_WaterSourceRock_01_C:OGCollisionCheckDestroyComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.10"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_WaterSourceRock_01_C:CharacterMesh0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.15"
+      },
+      "CharacterMovement": {
+        "ObjectName": "ECharacterMoveComponent'Default__BP_WaterSourceRock_01_C:UECharMoveComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.9"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WaterSourceRock_01_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.2"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WaterSourceRock_01_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.2"
+      },
+      "OnActorHit": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "UEPathFollowingComponent'Default__BP_WaterSourceRock_01_C:UEPathFollowingComponent'",
+              "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.16"
+            },
+            "FunctionName": "OnActorBump"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_WaterSourceRock_01_C'Default__BP_WaterSourceRock_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.1"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "DestructibleReactionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_WaterSourceRock_01_C'Default__BP_WaterSourceRock_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WaterSourceRock_01_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.2"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "LookAtPlayerSearchComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_WaterSourceRock_01_C'Default__BP_WaterSourceRock_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WaterSourceRock_01_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.2"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "OtherCharacterBlockComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_WaterSourceRock_01_C'Default__BP_WaterSourceRock_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WaterSourceRock_01_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.2"
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.75,
+        "Z": 0.75
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "OverlapOnlyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_WaterSourceRock_01_C'Default__BP_WaterSourceRock_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WaterSourceRock_01_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.2"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "SelectableComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_WaterSourceRock_01_C'Default__BP_WaterSourceRock_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WaterSourceRock_01_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.2"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_WaterSourceRock_01_C'Default__BP_WaterSourceRock_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WaterSourceRock_01_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.2"
+      }
+    }
+  },
+  {
+    "Type": "ECharacterMoveComponent",
+    "Name": "UECharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ECharacterMoveComponent'",
+    "Outer": {
+      "ObjectName": "BP_WaterSourceRock_01_C'Default__BP_WaterSourceRock_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.1"
+    },
+    "Properties": {
+      "WalkableFloorAngle": 70.0,
+      "WalkableFloorZ": 0.34202015,
+      "PathFollowingComp": {
+        "ObjectName": "UEPathFollowingComponent'Default__BP_WaterSourceRock_01_C:UEPathFollowingComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.16"
+      }
+    }
+  },
+  {
+    "Type": "OGActorCollisionCheckDestroyComponent",
+    "Name": "OGCollisionCheckDestroyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGActorCollisionCheckDestroyComponent'",
+    "Outer": {
+      "ObjectName": "BP_WaterSourceRock_01_C'Default__BP_WaterSourceRock_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.1"
+    }
+  },
+  {
+    "Type": "OGFacialPlayerComponent",
+    "Name": "FacialPlayer",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGFacialPlayerComponent'",
+    "Outer": {
+      "ObjectName": "BP_WaterSourceRock_01_C'Default__BP_WaterSourceRock_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.1"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterSourceRock_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WaterSourceRock_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_WaterSourceRock_01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.12"
+      },
+      "VariableGUID": "6DDD166E-43816387-C43E1881-68097DD3",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterSourceRock_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_WaterSourceRock_01_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.13"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_WaterSourceRock_01_C'Default__BP_WaterSourceRock_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WaterSourceRock_01_C:CollisionCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.2"
+      }
+    }
+  },
+  {
+    "Type": "UEPathFollowingComponent",
+    "Name": "UEPathFollowingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UEPathFollowingComponent'",
+    "Outer": {
+      "ObjectName": "BP_WaterSourceRock_01_C'Default__BP_WaterSourceRock_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Quest/BP_WaterSourceRock_01.1"
+    }
+  }
+]

@@ -1,0 +1,201 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "UI_MI_Aura_01_s01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/Common/UI_MI_Aura_01_s01",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'UI_M_FX_Default'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Master_Mat/UI_M_FX_Default.0"
+      },
+      "NaniteOverrideMaterial": {
+        "OverrideMaterialRef": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "bEnableOverride": false,
+        "OverrideMaterial": null
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "ColorIntensity",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "468586E4-4796B435-86501C83-A99503B2"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Use_RedToAlpha",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "609A1C1C-40C40E93-6C96AE8E-85FC7B79"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Dissolve_Speed_Y",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": -0.3,
+          "ExpressionGUID": "DD1D720C-47F91254-F36898B0-83B64147"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "CutOff",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": -0.1,
+          "ExpressionGUID": "2AF0E16D-466BAD3C-E0C9DAAB-B468C3C5"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "DissolveSmoothness",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "A6504F3C-4ACCA511-CD0D3D92-62EC9F51"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "MainColor",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          },
+          "ExpressionGUID": "A1C807E6-4EE6B148-4E586BB6-C6B567C4"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "MainTex_Tilling_Offset",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 4.0,
+            "G": 2.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "FFFF00"
+          },
+          "ExpressionGUID": "5927BB04-47ABE1B2-52802D82-2D1DBD38"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "DIssove_Tilling_Offset",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 2.0,
+            "G": 1.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "FFFF00"
+          },
+          "ExpressionGUID": "F78C8A50-48F3B819-F9EE3F8A-CEA49C35"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "MainTex",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Line0011'",
+            "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Tex/FX/T_Line0011.0"
+          },
+          "ExpressionGUID": "97623061-455CB6F1-89969BAE-5D34CB4E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "DissolveTex",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Noise0032'",
+            "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Tex/FX/T_Noise0032.0"
+          },
+          "ExpressionGUID": "8448D604-497D8EDA-CC6A0794-E8DCC1E3"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "bBlendWithWaterSurfaceOpacity": true,
+        "bIsCorrectWaterEnabled": true,
+        "bRenderCustomStencil": true,
+        "BlendMode": "EBlendMode::BLEND_TranslucentGreyTransmittance",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParametersRuntime": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Main_UVPolar",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "1996AD68-49E81385-4703F2BD-1EF5B0FE"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "USE_Dissolve",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "FEC00F4B-4ED47483-79D575AD-EFFE2A2E"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Dissolve_UVPolar",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "30602FD7-4BAF1480-A874E081-57C1629B"
+          }
+        ]
+      },
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

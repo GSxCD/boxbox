@@ -1,0 +1,240 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Destruct_Bucket_A01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destruct_Base_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Base.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Destruct_Bucket_A01_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.8"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Destruct_Bucket_A01_C:ExecuteUbergraph_BP_Destruct_Bucket_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.3"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destruct_Base_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Base.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Destruct_Bucket_A01_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.4"
+      },
+      {
+        "ObjectName": "Function'BP_Destruct_Bucket_A01_C:ExecuteUbergraph_BP_Destruct_Bucket_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.3"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Destruct_Bucket_A01": {
+        "ObjectName": "Function'BP_Destruct_Bucket_A01_C:ExecuteUbergraph_BP_Destruct_Bucket_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.3"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BP_Destruct_Bucket_A01_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.4"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Destruct_Bucket_A01_C'Default__BP_Destruct_Bucket_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Destruct_Bucket_A01_C",
+    "Name": "Default__BP_Destruct_Bucket_A01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.BP_Destruct_Bucket_A01_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01",
+    "Template": {
+      "ObjectName": "BP_Destruct_Base_C'Default__BP_Destruct_Base_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Base.1"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "CoreMesh": {
+        "ObjectName": "CBStaticMeshComponent'Default__BP_Destruct_Bucket_A01_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.2"
+      },
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_Destruct_Bucket_A01_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.6"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_Destruct_Bucket_A01_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.6"
+      }
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Destruct_Bucket_A01_C'Default__BP_Destruct_Bucket_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.1"
+    },
+    "Template": {
+      "ObjectName": "CBStaticMeshComponent'Default__BP_Destruct_Base_C:Root'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Base.2"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_Bucket_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Meshes/S_Bucket_A01.2"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Destruct_Bucket_A01_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.6"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Destruct_Bucket_A01",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destruct_Bucket_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destruct_Bucket_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.0"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_Destruct_Base_C:ReceiveTick'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Base.4"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_Destruct_Base_C:ReceiveTick'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Base.4"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destruct_Bucket_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Destruct_Bucket_A01_C'Default__BP_Destruct_Bucket_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.1"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_Destruct_Base_C:RootComponent'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Base.9"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Destruct_Bucket_A01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Destruct_Bucket_A01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.5"
+      },
+      "VariableGUID": "4DB7F9D1-415B08FD-9955E5B3-F15F30F5",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destruct_Bucket_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Destruct_Bucket_A01_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Chaos/BP_Destruct_Bucket_A01.7"
+      }
+    }
+  }
+]

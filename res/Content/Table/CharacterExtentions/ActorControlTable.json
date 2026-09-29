@@ -1,0 +1,215 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ActorControlTable",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/CharacterExtentions/ActorControlTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UEActorControlTable'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "100100": {
+        "AdventureSkill_Tid": {
+          "Display_Type": "EAdventureSkillDisplayType::Common",
+          "EnableBattleState": true,
+          "EnableMoveState": [
+            "EMoveMode::Ground"
+          ],
+          "Condition_Type": "EAdventureSkillActiveCondition::UseResource",
+          "Condition_Value": "actorcontrol",
+          "ControlType": "EAdventureSkillControlType::Click",
+          "Icon": "None",
+          "AdventureSkill_SkillTid": [
+            "tristan_activity_000",
+            "tristan_activity_001"
+          ],
+          "SkillTID": [
+            "tristan_activity_000",
+            "tristan_activity_001"
+          ],
+          "Ignore_ElementalDamageType": [],
+          "Sound_Tid": "None",
+          "Active_Sound_Tid": "111602",
+          "Loop_Sound_Tid": "111612",
+          "Contents_OnOff": {
+            "EnableDungeonUse": true,
+            "EnableQuestDungeonUse": true,
+            "EnableDeathMatchUse": true,
+            "EnableTeamDeathMatchUse": true,
+            "EnableTeamRoundMatchUse": true,
+            "EnablePVPMatchUse": true,
+            "EnableRaceUse": true,
+            "EnableBoardingObjStateUse": true,
+            "EnableMovingObjStateUse": true,
+            "EnableMultiObjStateUse": true,
+            "EnableActorChangeUse": true,
+            "EnableQuestAlbionSectorUse": true,
+            "EnableEnterSectorUse": true,
+            "String_Tid": "None",
+            "Local_Key": "actorcontrol_contentsonoff"
+          },
+          "String_Tid": "actorcontrol",
+          "Local_Key": "None"
+        },
+        "ObjectCheckRange": 3000,
+        "MatchingStartSocket": "actorcontrol_hand",
+        "ActorControlStartDistance": 200,
+        "ActorControlBlendSpace": "tristan_actorcontrol_bs",
+        "ActorControlStartMontage": "tristan_adventure_start_mtg",
+        "ActorControlStartSectionName": "default",
+        "ActorControlFinishMontage": "tristan_adventure_finish_1_mtg",
+        "ActorControlFinishSectionName": "default",
+        "ActorControlForceFinishMontage": "tristan_adventure_finish_2_mtg",
+        "ActorControlForceFinishSectionName": "default",
+        "LimitAimOffsetAngle": 45.0,
+        "ActorControlAimOffsetSpace": "tristan_actorcontrol_aimoffset",
+        "ActorControlTurnLeftMTG": "tristan_adventure_cube_turn_left_mtg",
+        "ActorControlTurnRightMTG": "tristan_adventure_cube_turn_right_mtg",
+        "ActorControlTurnUpMTG": "tristan_adventure_cube_turn_up_mtg",
+        "ActorControlTurnDownMTG": "tristan_adventure_cube_turn_down_mtg",
+        "ControlObjectMoveDelay": 25,
+        "ActorControlAimModeCameraTID": "tristan_adv_skillaim",
+        "ControlModeCameraBlendTime": 0.5,
+        "ControlModeBlendFunc": "EInterpolateOGFunc::Linear",
+        "String_Tid": "100100",
+        "Local_Key": "None"
+      },
+      "100101": {
+        "AdventureSkill_Tid": {
+          "Display_Type": "EAdventureSkillDisplayType::Common",
+          "EnableBattleState": true,
+          "EnableMoveState": [
+            "EMoveMode::Ground"
+          ],
+          "Condition_Type": "EAdventureSkillActiveCondition::UseResource",
+          "Condition_Value": "construction",
+          "ControlType": "EAdventureSkillControlType::Click",
+          "Icon": "None",
+          "AdventureSkill_SkillTid": [
+            "tristan_activity_100",
+            "tristan_activity_101"
+          ],
+          "SkillTID": [
+            "tristan_activity_100",
+            "tristan_activity_101"
+          ],
+          "Ignore_ElementalDamageType": [],
+          "Sound_Tid": "None",
+          "Active_Sound_Tid": "None",
+          "Loop_Sound_Tid": "111612",
+          "Contents_OnOff": {
+            "EnableDungeonUse": true,
+            "EnableQuestDungeonUse": true,
+            "EnableDeathMatchUse": true,
+            "EnableTeamDeathMatchUse": true,
+            "EnableTeamRoundMatchUse": true,
+            "EnablePVPMatchUse": true,
+            "EnableRaceUse": true,
+            "EnableBoardingObjStateUse": true,
+            "EnableMovingObjStateUse": true,
+            "EnableMultiObjStateUse": true,
+            "EnableActorChangeUse": true,
+            "EnableQuestAlbionSectorUse": true,
+            "EnableEnterSectorUse": true,
+            "String_Tid": "None",
+            "Local_Key": "construction_contentsonoff"
+          },
+          "String_Tid": "construction",
+          "Local_Key": "None"
+        },
+        "ObjectCheckRange": 3000,
+        "MatchingStartSocket": "actorcontrol_hand",
+        "ActorControlStartDistance": 200,
+        "ActorControlBlendSpace": "tristan_actorcontrol_bs",
+        "ActorControlStartMontage": "tristan_adventure_start_mtg",
+        "ActorControlStartSectionName": "default",
+        "ActorControlFinishMontage": "tristan_adventure_finish_1_mtg",
+        "ActorControlFinishSectionName": "default",
+        "ActorControlForceFinishMontage": "tristan_adventure_finish_2_mtg",
+        "ActorControlForceFinishSectionName": "default",
+        "LimitAimOffsetAngle": 45.0,
+        "ActorControlAimOffsetSpace": "tristan_actorcontrol_aimoffset",
+        "ActorControlTurnLeftMTG": "tristan_adventure_cube_turn_left_mtg",
+        "ActorControlTurnRightMTG": "tristan_adventure_cube_turn_right_mtg",
+        "ActorControlTurnUpMTG": "tristan_adventure_cube_turn_up_mtg",
+        "ActorControlTurnDownMTG": "tristan_adventure_cube_turn_down_mtg",
+        "ControlObjectMoveDelay": 25,
+        "ActorControlAimModeCameraTID": "tristan_adv_skillaim",
+        "ControlModeCameraBlendTime": 0.5,
+        "ControlModeBlendFunc": "EInterpolateOGFunc::Linear",
+        "String_Tid": "100101",
+        "Local_Key": "None"
+      },
+      "100102": {
+        "AdventureSkill_Tid": {
+          "Display_Type": "EAdventureSkillDisplayType::Common",
+          "EnableBattleState": true,
+          "EnableMoveState": [
+            "EMoveMode::Ground"
+          ],
+          "Condition_Type": "EAdventureSkillActiveCondition::UseResource",
+          "Condition_Value": "corruption",
+          "ControlType": "EAdventureSkillControlType::Click",
+          "Icon": "None",
+          "AdventureSkill_SkillTid": [
+            "tristan_activity_200",
+            "tristan_activity_201"
+          ],
+          "SkillTID": [
+            "tristan_activity_200",
+            "tristan_activity_201"
+          ],
+          "Ignore_ElementalDamageType": [],
+          "Sound_Tid": "None",
+          "Active_Sound_Tid": "111627",
+          "Loop_Sound_Tid": "111612",
+          "Contents_OnOff": {
+            "EnableDungeonUse": true,
+            "EnableQuestDungeonUse": true,
+            "EnableDeathMatchUse": true,
+            "EnableTeamDeathMatchUse": true,
+            "EnableTeamRoundMatchUse": true,
+            "EnablePVPMatchUse": true,
+            "EnableRaceUse": true,
+            "EnableBoardingObjStateUse": true,
+            "EnableMovingObjStateUse": true,
+            "EnableMultiObjStateUse": true,
+            "EnableActorChangeUse": true,
+            "EnableQuestAlbionSectorUse": true,
+            "EnableEnterSectorUse": true,
+            "String_Tid": "None",
+            "Local_Key": "corruption_contentsonoff"
+          },
+          "String_Tid": "corruption",
+          "Local_Key": "None"
+        },
+        "ObjectCheckRange": 3000,
+        "MatchingStartSocket": "actorcontrol_hand",
+        "ActorControlStartDistance": 200,
+        "ActorControlBlendSpace": "tristan_actorcontrol_bs",
+        "ActorControlStartMontage": "tristan_adventure_start_mtg",
+        "ActorControlStartSectionName": "default",
+        "ActorControlFinishMontage": "tristan_adventure_finish_1_mtg",
+        "ActorControlFinishSectionName": "default",
+        "ActorControlForceFinishMontage": "tristan_adventure_finish_2_mtg",
+        "ActorControlForceFinishSectionName": "default",
+        "LimitAimOffsetAngle": 45.0,
+        "ActorControlAimOffsetSpace": "tristan_actorcontrol_aimoffset",
+        "ActorControlTurnLeftMTG": "tristan_adventure_cube_turn_left_mtg",
+        "ActorControlTurnRightMTG": "tristan_adventure_cube_turn_right_mtg",
+        "ActorControlTurnUpMTG": "tristan_adventure_cube_turn_up_mtg",
+        "ActorControlTurnDownMTG": "tristan_adventure_cube_turn_down_mtg",
+        "ControlObjectMoveDelay": 25,
+        "ActorControlAimModeCameraTID": "tristan_adv_skillaim",
+        "ControlModeCameraBlendTime": 0.5,
+        "ControlModeBlendFunc": "EInterpolateOGFunc::Linear",
+        "String_Tid": "100102",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

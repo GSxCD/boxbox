@@ -1,0 +1,442 @@
+[
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_179",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_FriendList01_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.12"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_FriendList01_C:WidgetTree.CBCanvasPanel_179.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.1"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_FriendList01_C:WidgetTree.CBCanvasPanel_179.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_FriendList01_C:WidgetTree.CBCanvasPanel_179'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.0"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": -1.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_FriendList01_C:WidgetTree.CBCanvasPanel_179'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.0"
+      },
+      "Content": {
+        "ObjectName": "EListView'Widget_FriendList01_C:WidgetTree.ListView_Friend'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.4"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_FriendList01_C:WidgetTree.CBCanvasPanel_179'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.0"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_FriendList01_C:WidgetTree.CBCanvasPanel_179'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.0"
+      },
+      "Content": {
+        "ObjectName": "EListView'Widget_FriendList01_C:WidgetTree.ListView_Ban_Friend'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.3"
+      }
+    }
+  },
+  {
+    "Type": "EListView",
+    "Name": "ListView_Ban_Friend",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EListView'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_FriendList01_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.12"
+    },
+    "Properties": {
+      "FocusLineName": "FriendList",
+      "NumListViewEntries": 4,
+      "CustomTargetPadding": {
+        "TargetPadding": 20
+      },
+      "SlotData": {
+        "Padding": {
+          "Left": 30.0,
+          "Top": 5.0,
+          "Right": 30.0,
+          "Bottom": 5.0
+        },
+        "Size": {
+          "X": 1910.0,
+          "Y": 220.0
+        },
+        "bPadding": true
+      },
+      "EntryWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'Widget_UnblockList_C'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_UnblockList.104"
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_FriendList01_C:WidgetTree.CBCanvasPanel_179.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.2"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "EListView",
+    "Name": "ListView_Friend",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EListView'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_FriendList01_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.12"
+    },
+    "Properties": {
+      "FocusLineName": "FriendList",
+      "NumListViewEntries": 4,
+      "CustomTargetPadding": {
+        "TargetPadding": 20
+      },
+      "SlotData": {
+        "Padding": {
+          "Left": 30.0,
+          "Top": 5.0,
+          "Right": 30.0,
+          "Bottom": 5.0
+        },
+        "Size": {
+          "X": 1910.0,
+          "Y": 220.0
+        },
+        "bPadding": true,
+        "bSize": true
+      },
+      "CursorGroupIndex": 2,
+      "EntryWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'Widget_FriendListSlot01_C'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendListSlot01.184"
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_FriendList01_C:WidgetTree.CBCanvasPanel_179.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.1"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BP_OnEntryReleased",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_FriendList01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.11"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BP_OnItemExpansionChanged",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_FriendList01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.11"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsExpanded",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BP_OnItemSelectionChanged",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_FriendList01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.11"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsSelected",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Widget_FriendList01",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_FriendList01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.11"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_ListItemObject",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bIsExpanded",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bIsSelected",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnListItemObjectSet",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_FriendList01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.11"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ListItemObject",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Widget_FriendList01_C",
+    "Name": "Default__Widget_FriendList01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.Widget_FriendList01_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Widget_FriendList01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Widget_FriendList01_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.12"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function'Widget_FriendList01_C:ExecuteUbergraph_Widget_FriendList01'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.8"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWidget_FriendList'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Widget_FriendList01_C:BP_OnEntryReleased'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.5"
+      },
+      {
+        "ObjectName": "Function'Widget_FriendList01_C:BP_OnItemExpansionChanged'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.6"
+      },
+      {
+        "ObjectName": "Function'Widget_FriendList01_C:BP_OnItemSelectionChanged'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.7"
+      },
+      {
+        "ObjectName": "Function'Widget_FriendList01_C:OnListItemObjectSet'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.9"
+      },
+      {
+        "ObjectName": "Function'Widget_FriendList01_C:ExecuteUbergraph_Widget_FriendList01'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.8"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Widget_FriendList01": {
+        "ObjectName": "Function'Widget_FriendList01_C:ExecuteUbergraph_Widget_FriendList01'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.8"
+      },
+      "OnListItemObjectSet": {
+        "ObjectName": "Function'Widget_FriendList01_C:OnListItemObjectSet'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.9"
+      },
+      "BP_OnItemSelectionChanged": {
+        "ObjectName": "Function'Widget_FriendList01_C:BP_OnItemSelectionChanged'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.7"
+      },
+      "BP_OnItemExpansionChanged": {
+        "ObjectName": "Function'Widget_FriendList01_C:BP_OnItemExpansionChanged'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.6"
+      },
+      "BP_OnEntryReleased": {
+        "ObjectName": "Function'Widget_FriendList01_C:BP_OnEntryReleased'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.5"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "Interfaces": [
+      {
+        "Class": {
+          "ObjectName": "Class'UserObjectListEntry'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "PointerProperty": null,
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      }
+    ],
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Widget_FriendList01_C'Default__Widget_FriendList01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.10"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal",
+      "ImplementedInterfaces": "((Interface=\"/Script/CoreUObject.Class'/Script/UMG.UserObjectListEntry'\"))"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_FriendList01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.11"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'Widget_FriendList01_C:WidgetTree.CBCanvasPanel_179'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.0"
+      }
+    }
+  }
+]

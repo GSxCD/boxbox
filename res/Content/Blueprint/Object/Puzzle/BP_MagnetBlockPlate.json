@@ -1,0 +1,199 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_MagnetBlockPlate_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_MagnetBlockPlate_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.9"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_MagnetPlate'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_MagnetBlockPlate_C'Default__BP_MagnetBlockPlate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_MagnetBlockPlate_C",
+    "Name": "Default__BP_MagnetBlockPlate_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.BP_MagnetBlockPlate_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate",
+    "Properties": {
+      "FloatEffectComp": {
+        "ObjectName": "ENiagaraComponent'Default__BP_MagnetBlockPlate_C:FloatEffect'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.5"
+      },
+      "ArriveEffectComp": {
+        "ObjectName": "ENiagaraComponent'Default__BP_MagnetBlockPlate_C:ArriveEffect'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.3"
+      },
+      "ClearEffectComp": {
+        "ObjectName": "ENiagaraComponent'Default__BP_MagnetBlockPlate_C:ClearEffect'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.4"
+      },
+      "CoreMesh": {
+        "ObjectName": "CBSkeletalMeshComponent'Default__BP_MagnetBlockPlate_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.2"
+      },
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_MagnetBlockPlate_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.7"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_MagnetBlockPlate_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.7"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_MagnetBlockPlate_C'Default__BP_MagnetBlockPlate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.1"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_MagSwichTile_End_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/SK_SignalAmplifier_A01/Mesh/SK_MagSwichTile_End_A01.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_MagSwichTile_End_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/SK_SignalAmplifier_A01/Mesh/SK_MagSwichTile_End_A01.1"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MagnetBlockPlate_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.7"
+      }
+    }
+  },
+  {
+    "Type": "ENiagaraComponent",
+    "Name": "ArriveEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ENiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_MagnetBlockPlate_C'Default__BP_MagnetBlockPlate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.1"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MagnetBlockPlate_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.7"
+      }
+    }
+  },
+  {
+    "Type": "ENiagaraComponent",
+    "Name": "ClearEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ENiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_MagnetBlockPlate_C'Default__BP_MagnetBlockPlate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.1"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MagnetBlockPlate_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.7"
+      }
+    }
+  },
+  {
+    "Type": "ENiagaraComponent",
+    "Name": "FloatEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ENiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_MagnetBlockPlate_C'Default__BP_MagnetBlockPlate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.1"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MagnetBlockPlate_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.7"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MagnetBlockPlate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_MagnetBlockPlate_C'Default__BP_MagnetBlockPlate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MagnetBlockPlate_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_MagnetBlockPlate_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.6"
+      },
+      "VariableGUID": "21559D6F-43513660-92FA7E8C-A0D2BE55",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MagnetBlockPlate_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_MagnetBlockPlate_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Puzzle/BP_MagnetBlockPlate.8"
+      }
+    }
+  }
+]

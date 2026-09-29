@@ -1,0 +1,3192 @@
+[
+  {
+    "Type": "ACMovieSceneSoundTidSection",
+    "Name": "ACMovieSceneSoundTidSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidSection'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidTrack'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.ACMovieSceneSoundTidTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.1"
+    },
+    "Properties": {
+      "soundTid": {
+        "Tid": "2002014"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'ui_ingame_duel_msg_cue'",
+        "ObjectPath": "SevenDeadlySins/Content/Sounds/ui/popup/ui_ingame_duel_msg_cue.0"
+      },
+      "bKeepPlayingUntilEnd": true,
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.51"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.52"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 103146
+            }
+          }
+        }
+      },
+      "Signature": "D3DD3161-4B40C117-F12ED7A7-84B30C54"
+    }
+  },
+  {
+    "Type": "ACMovieSceneSoundTidTrack",
+    "Name": "ACMovieSceneSoundTidTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.45"
+    },
+    "Properties": {
+      "AudioSections": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidSection'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.0"
+        }
+      ],
+      "EvaluationFieldGuid": "43E9B55D-4E1CFA9E-8C75D489-3D74A200",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "ACMovieSceneSoundTidSection'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.0"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 103146
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "43E9B55D-4E1CFA9E-8C75D489-3D74A200"
+    }
+  },
+  {
+    "Type": "Btn_01_C",
+    "Name": "WidgetSlot_Cancel",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.Btn_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Template": {
+      "ObjectName": "Btn_01_C'Default__Btn_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.0"
+    },
+    "Properties": {
+      "ButtonStyles": [
+        {
+          "Normal": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Box",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::FullColor",
+            "ImageSize": {
+              "X": 40.0,
+              "Y": 40.0
+            },
+            "Margin": {
+              "Left": 0.5,
+              "Top": 0.5,
+              "Right": 0.5,
+              "Bottom": 0.5
+            },
+            "ResourceObject": {
+              "ObjectName": "VtaSlateTexture'common_bt_mini_01'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bt_mini_01.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          },
+          "Pressed": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 0.658375,
+                "G": 0.658375,
+                "B": 0.658375,
+                "A": 1.0,
+                "Hex": "D4D4D4"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Box",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::FullColor",
+            "ImageSize": {
+              "X": 40.0,
+              "Y": 40.0
+            },
+            "Margin": {
+              "Left": 0.5,
+              "Top": 0.5,
+              "Right": 0.5,
+              "Bottom": 0.5
+            },
+            "ResourceObject": {
+              "ObjectName": "VtaSlateTexture'common_bt_mini_01'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bt_mini_01.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        }
+      ],
+      "TextStyles": [
+        {
+          "ColorAndOpacity": {
+            "SpecifiedColor": {
+              "R": 0.198069,
+              "G": 0.049707,
+              "B": 0.05448,
+              "A": 1.0,
+              "Hex": "7B3F42"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Font": {
+            "FontObject": {
+              "ObjectName": "Font'Font_Default'",
+              "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+            },
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 0,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0,
+                "Hex": "000000"
+              }
+            },
+            "TypefaceFontName": "Font_B",
+            "Size": 24.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "ShadowOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "ShadowColorAndOpacity": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        }
+      ],
+      "StringStyle": {
+        "bEnabled": true,
+        "Text": "UI_Party_DropMsg_BT_Reject"
+      },
+      "bIsPadFocus": false,
+      "InputTableTID": "UI_PAD_R3",
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox_1.CBSizeBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.38"
+      }
+    }
+  },
+  {
+    "Type": "Btn_01_C",
+    "Name": "WidgetSlot_OK",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.Btn_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Template": {
+      "ObjectName": "Btn_01_C'Default__Btn_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.0"
+    },
+    "Properties": {
+      "CanHitWhenDisabled": true,
+      "ButtonStyles": [
+        {
+          "Normal": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Box",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::FullColor",
+            "ImageSize": {
+              "X": 40.0,
+              "Y": 40.0
+            },
+            "Margin": {
+              "Left": 0.5,
+              "Top": 0.5,
+              "Right": 0.5,
+              "Bottom": 0.5
+            },
+            "ResourceObject": {
+              "ObjectName": "VtaSlateTexture'common_bt_mini_01'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bt_mini_01.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 4.0,
+                "Y": 4.0,
+                "Z": 4.0,
+                "W": 4.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.695111,
+                  "G": 0.695111,
+                  "B": 0.695111,
+                  "A": 1.0,
+                  "Hex": "DADADA"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 1.0,
+              "RoundingType": "ESlateBrushRoundingType::FixedRadius",
+              "bUseBrushTransparency": true
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          },
+          "Pressed": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 0.658375,
+                "G": 0.658375,
+                "B": 0.658375,
+                "A": 1.0,
+                "Hex": "D4D4D4"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Box",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::FullColor",
+            "ImageSize": {
+              "X": 40.0,
+              "Y": 40.0
+            },
+            "Margin": {
+              "Left": 0.5,
+              "Top": 0.5,
+              "Right": 0.5,
+              "Bottom": 0.5
+            },
+            "ResourceObject": {
+              "ObjectName": "VtaSlateTexture'common_bt_mini_01'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bt_mini_01.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 4.0,
+                "Y": 4.0,
+                "Z": 4.0,
+                "W": 4.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.724268,
+                  "G": 0.724268,
+                  "B": 0.724268,
+                  "A": 1.0,
+                  "Hex": "DEDEDE"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 1.0,
+              "RoundingType": "ESlateBrushRoundingType::FixedRadius",
+              "bUseBrushTransparency": true
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        }
+      ],
+      "TextStyles": [
+        {
+          "ColorAndOpacity": {
+            "SpecifiedColor": {
+              "R": 0.030713,
+              "G": 0.035601,
+              "B": 0.046665,
+              "A": 1.0,
+              "Hex": "31353D"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Font": {
+            "FontObject": {
+              "ObjectName": "Font'Font_Default'",
+              "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+            },
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 0,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0,
+                "Hex": "000000"
+              }
+            },
+            "TypefaceFontName": "Font_B",
+            "Size": 24.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "ShadowOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "ShadowColorAndOpacity": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        }
+      ],
+      "StringStyle": {
+        "bEnabled": true,
+        "Text": "UI_Party_DropMsg_BT_Accept"
+      },
+      "bIsPadFocus": false,
+      "InputTableTID": "UI_PAD_L3",
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox_2.CBSizeBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.39"
+      }
+    }
+  },
+  {
+    "Type": "Btn_Key_C",
+    "Name": "Btn_Key_Cancel",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Key.Btn_Key_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Template": {
+      "ObjectName": "Btn_Key_C'Default__Btn_Key_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Key.0"
+    },
+    "Properties": {
+      "UseKeyPadSystem": true,
+      "InputTableTID": "UI_PAD_R3",
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.36"
+      }
+    }
+  },
+  {
+    "Type": "Btn_Key_C",
+    "Name": "Btn_Key_OK",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Key.Btn_Key_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Template": {
+      "ObjectName": "Btn_Key_C'Default__Btn_Key_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Key.0"
+    },
+    "Properties": {
+      "UseKeyPadSystem": true,
+      "InputTableTID": "UI_PAD_L3",
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox_0.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.37"
+      }
+    }
+  },
+  {
+    "Type": "CBButton",
+    "Name": "Block",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Properties": {
+      "bIsPadFocus": false,
+      "ColorAndOpacity": {
+        "R": 6.254732E-36,
+        "G": -2.3696072E-38,
+        "B": 7.582171E-37,
+        "A": 6.779274E-30,
+        "Hex": "000000"
+      },
+      "BackgroundColor": {
+        "R": 1.38094E-39,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "ClickMethod": "EButtonClickMethod::DownAndUp",
+      "bIsEnabledDelegate": {
+        "Object": null,
+        "FunctionName": "../../../Engine/Content/Slate/Common/Button.png_-1845493761"
+      }
+    }
+  },
+  {
+    "Type": "CBButton",
+    "Name": "CBButton_Cancel",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Properties": {
+      "bIsPadFocus": false,
+      "ButtonGroupIndex": 23,
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 6.2080795E-36,
+        "B": 1.5650062E-33,
+        "A": 1.076E-42,
+        "Hex": "000000"
+      },
+      "Slot": null
+    }
+  },
+  {
+    "Type": "CBButton",
+    "Name": "CBButton_OK",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Properties": {
+      "ButtonGroupIndex": 22,
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 6.2080795E-36,
+        "B": 1.5650062E-33,
+        "A": 1.076E-42,
+        "Hex": "000000"
+      },
+      "Slot": null
+    }
+  },
+  {
+    "Type": "CBButtonSlot",
+    "Name": "CBButtonSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButtonSlot'",
+    "Outer": {
+      "ObjectName": "CBButton'Widget_PathFinderMsg_C:WidgetTree.CBButton_Cancel'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.7"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 4.0,
+        "Right": 0.0,
+        "Bottom": 4.0
+      },
+      "Parent": {
+        "ObjectName": "CBButton'Widget_PathFinderMsg_C:WidgetTree.CBButton_Cancel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.7"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.21"
+      }
+    }
+  },
+  {
+    "Type": "CBButtonSlot",
+    "Name": "CBButtonSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButtonSlot'",
+    "Outer": {
+      "ObjectName": "CBButton'Widget_PathFinderMsg_C:WidgetTree.CBButton_OK'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.8"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 4.0,
+        "Right": 0.0,
+        "Bottom": 4.0
+      },
+      "Parent": {
+        "ObjectName": "CBButton'Widget_PathFinderMsg_C:WidgetTree.CBButton_OK'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.8"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.20"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.13"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_9'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.14"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_231",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_231.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.15"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_231.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.16"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_231.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.17"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_231.CBCanvasPanelSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.18"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_9'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.14"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.11"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.11"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Widget_PathFinderMsg_C:WidgetTree.Block'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.6"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.11"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 50.0,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.11"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_231'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.12"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_231'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.12"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 1200.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_231'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.12"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_PathFinderMsg_C:WidgetTree.CBImage_54'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.31"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_231'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.12"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_231'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.12"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Widget_PathFinderMsg_C:WidgetTree.ETextBlock_Contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.40"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_231'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.12"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 20.0,
+          "Right": 500.0,
+          "Bottom": 70.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_231'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.12"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_69'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.22"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_231'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.12"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 20.0,
+          "Right": 500.0,
+          "Bottom": 70.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_231'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.12"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.19"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_0.CBHorizontalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.24"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_0.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.23"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_231.CBCanvasPanelSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.18"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_1.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.26"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_1.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.25"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBButtonSlot'Widget_PathFinderMsg_C:WidgetTree.CBButton_OK.CBButtonSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.10"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_2.CBHorizontalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.28"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_2.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.27"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBButtonSlot'Widget_PathFinderMsg_C:WidgetTree.CBButton_Cancel.CBButtonSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.9"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_69",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_69.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.29"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_69.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.30"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_231.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.17"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.19"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.19"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.34"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.19"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.19"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.35"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.20"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Bottom": 1.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.20"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Widget_PathFinderMsg_C:WidgetTree.TextBlock_OK'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.42"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.20"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.20"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.33"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_2'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.21"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Bottom": 1.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.21"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Widget_PathFinderMsg_C:WidgetTree.TextBlock_Cancel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.41"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_2'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.21"
+    },
+    "Properties": {
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.21"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.32"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_69'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.22"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_69'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.22"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Widget_PathFinderMsg_C:WidgetTree.CBButton_OK'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.8"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_69'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.22"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_69'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.22"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Widget_PathFinderMsg_C:WidgetTree.CBButton_Cancel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.7"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_54",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.8,
+            "Hex": "CCFFFFFF"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 44.0
+        },
+        "Margin": {
+          "Top": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_teampower'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_teampower.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_231.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.15"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Properties": {
+      "WidthOverride": 51.0,
+      "HeightOverride": 36.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.36"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_2.CBHorizontalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.28"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Properties": {
+      "WidthOverride": 51.0,
+      "HeightOverride": 36.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox_0.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.37"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_1.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.26"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Properties": {
+      "WidthOverride": 51.0,
+      "HeightOverride": 36.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox_1.CBSizeBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.38"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_0.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.23"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Properties": {
+      "WidthOverride": 51.0,
+      "HeightOverride": 36.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox_2.CBSizeBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.39"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_0.CBHorizontalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.24"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.32"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 15.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "Parent": {
+        "ObjectName": "CBSizeBox'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.32"
+      },
+      "Content": {
+        "ObjectName": "Btn_Key_C'Widget_PathFinderMsg_C:WidgetTree.Btn_Key_Cancel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.4"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.33"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 15.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "Parent": {
+        "ObjectName": "CBSizeBox'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.33"
+      },
+      "Content": {
+        "ObjectName": "Btn_Key_C'Widget_PathFinderMsg_C:WidgetTree.Btn_Key_OK'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.5"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.34"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.34"
+      },
+      "Content": {
+        "ObjectName": "Btn_01_C'Widget_PathFinderMsg_C:WidgetTree.WidgetSlot_Cancel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.2"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox_2'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.35"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'Widget_PathFinderMsg_C:WidgetTree.CBSizeBox_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.35"
+      },
+      "Content": {
+        "ObjectName": "Btn_01_C'Widget_PathFinderMsg_C:WidgetTree.WidgetSlot_OK'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.3"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "ETextBlock_Contents",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Properties": {
+      "UseLocalization": false,
+      "Text": {
+        "Namespace": "",
+        "Key": "EB8004EE4E61C5844222159C734A3A10",
+        "SourceString": "[9be4ff킹아서]님이 [f88b8b회색마신 보스전 영웅 파티에 초대하셨습니다. 참가 하시겠습니까? ",
+        "LocalizedString": "[9be4ff킹아서]님이 [f88b8b회색마신 보스전 영웅 파티에 초대하셨습니다. 참가 하시겠습니까? "
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.846873,
+          "G": 0.846873,
+          "B": 0.846873,
+          "A": 1.0,
+          "Hex": "EDEDED"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.6,
+            "Hex": "99000000"
+          }
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Justification": "ETextJustify::Center",
+      "AutoWrapText": true,
+      "WrapTextAt": 900.0,
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_231.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.16"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_Cancel",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "UI_Party_DropMsg_BT_Reject"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.198069,
+          "G": 0.049707,
+          "B": 0.05448,
+          "A": 1.0,
+          "Hex": "7B3F42"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.35,
+            "Hex": "59000000"
+          }
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_2.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.27"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_OK",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+    },
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "UI_Party_DropMsg_BT_Accept"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.030713,
+          "G": 0.035601,
+          "B": 0.046665,
+          "A": 1.0,
+          "Hex": "31353D"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.35,
+            "Hex": "59000000"
+          }
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_PathFinderMsg_C:WidgetTree.CBHorizontalBox_1.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.25"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Widget_PathFinderMsg",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_PathFinderMsg_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.70"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "SequenceEvent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_PathFinderMsg_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.70"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Appear",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Widget_PathFinderMsg_C:Anim_Appear_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.68"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "EB5A59A3-4BC44B36-C8F59B9E-ABF9EF67",
+          "Name": "CBCanvasPanel_0",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "EB5A59A3-4BC44B36-C8F59B9E-ABF9EF67",
+          "BindingName": "CBCanvasPanel_0",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.49"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.MovieSceneFloatTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.65"
+            }
+          ]
+        }
+      ],
+      "Tracks": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidTrack'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.ACMovieSceneSoundTidTrack_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.1"
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 103146
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "ClockSource": "EUpdateClockSource::Audio",
+      "Signature": "5EC17C20-4819E070-BD950991-F4C675F2"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Disappear",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Widget_PathFinderMsg_C:Anim_Disappear_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.69"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "D856F0B9-4B9A3923-DCBC4C90-FA05B98A",
+          "Name": "CBCanvasPanel_0",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "D856F0B9-4B9A3923-DCBC4C90-FA05B98A",
+          "BindingName": "CBCanvasPanel_0",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear.MovieSceneFloatTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.66"
+            },
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.50"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 21001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "CD7DF7A5-463790C0-1C03F6B8-054BA253"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.49"
+    },
+    "Properties": {
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.85,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.95,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.53"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.54"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 21000
+            }
+          }
+        }
+      },
+      "Signature": "6B658ECC-417E4731-8F665CA5-5D6FEC8E"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.50"
+    },
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 20999
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Translation[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 20999
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": -20.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.57"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.58"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 21000
+            }
+          }
+        }
+      },
+      "Signature": "58E90898-41F8078A-357FA087-7E6F18E3"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.45"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.47"
+        }
+      ],
+      "EvaluationFieldGuid": "AD26B50B-4C14949D-86707F9A-C3B1B879",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.47"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 21000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "AD26B50B-4C14949D-86707F9A-C3B1B879"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.46"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.48"
+        }
+      ],
+      "EvaluationFieldGuid": "78BE759C-4B6F65E7-9FB9D5A4-38C24245",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.48"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 21000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "78BE759C-4B6F65E7-9FB9D5A4-38C24245"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.47"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.47"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.63"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.63"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.48"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.48"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.64"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.64"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Widget_PathFinderMsg_C:Anim_Appear_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.68"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 1,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 2,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": 2
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 1,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 103146
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": 1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 21000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": 0
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "ACMovieSceneSoundTidSection'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.0"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.47"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.63"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "ObjectBindingID": "EB5A59A3-4BC44B36-C8F59B9E-ABF9EF67"
+          },
+          {
+            "ObjectBindingID": "EB5A59A3-4BC44B36-C8F59B9E-ABF9EF67"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 21000
+          },
+          "bInclusive": false
+        },
+        {
+          "FrameNumber": {
+            "Value": 103146
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "B72D9082-4F7AF820-02DBBD93-BEF8499B",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Widget_PathFinderMsg_C:Anim_Disappear_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.69"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 1,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": 0
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 21000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.64"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.48"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "D856F0B9-4B9A3923-DCBC4C90-FA05B98A"
+          },
+          {
+            "ObjectBindingID": "D856F0B9-4B9A3923-DCBC4C90-FA05B98A"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 21000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "2CBB582D-43F83420-8BC5828B-64AD87BF",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.MovieSceneFloatTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.65"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": -7.1E-05,
+              "LeaveTangent": -7.1E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 1
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.55"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.56"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "634FEAE9-45A03221-E5474380-D88B5BD5"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear.MovieSceneFloatTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.66"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": -7.1E-05,
+              "LeaveTangent": -7.1E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 1
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.59"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.60"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "50A12677-4840F3CA-BEA35886-93816BCA"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.45"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.63"
+        }
+      ],
+      "EvaluationFieldGuid": "CDA4FA9F-4B5BF962-11858D9C-4034A41E",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.63"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "CDA4FA9F-4B5BF962-11858D9C-4034A41E"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.46"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.64"
+        }
+      ],
+      "EvaluationFieldGuid": "8602FE0F-4081DCFF-84DBD4A3-47D46F16",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.64"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "8602FE0F-4081DCFF-84DBD4A3-47D46F16"
+    }
+  },
+  {
+    "Type": "Widget_PathFinderMsg_C",
+    "Name": "Default__Widget_PathFinderMsg_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.Widget_PathFinderMsg_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg",
+    "Properties": {
+      "UberGraphFrame": {},
+      "UseInputSystem": true,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Appear_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_PathFinderMsg_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.70"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Widget_PathFinderMsg_C:Anim_Appear_INST.Anim_Appear'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.45"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CBCanvasPanel_0",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "EB5A59A3-4BC44B36-C8F59B9E-ABF9EF67",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Appear",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Widget_PathFinderMsg_C:Anim_Appear_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.61"
+      },
+      "Signature": "B72D9082-4F7AF820-02DBBD93-BEF8499B"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Disappear_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_PathFinderMsg_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.70"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Widget_PathFinderMsg_C:Anim_Disappear_INST.Anim_Disappear'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.46"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CBCanvasPanel_0",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "D856F0B9-4B9A3923-DCBC4C90-FA05B98A",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Disappear",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Widget_PathFinderMsg_C:Anim_Disappear_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.62"
+      },
+      "Signature": "2CBB582D-43F83420-8BC5828B-64AD87BF"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Widget_PathFinderMsg_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Widget_PathFinderMsg_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.71"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'Widget_PathFinderMsg_C:Anim_Appear_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.68"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Widget_PathFinderMsg_C:Anim_Disappear_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.69"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'Widget_PathFinderMsg_C:ExecuteUbergraph_Widget_PathFinderMsg'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.43"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWidget_PathFinderMsg'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Widget_PathFinderMsg_C:SequenceEvent'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.44"
+      },
+      {
+        "ObjectName": "Function'Widget_PathFinderMsg_C:ExecuteUbergraph_Widget_PathFinderMsg'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.43"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_Disappear",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_Appear",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Block",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBButton'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Btn_Key_Cancel",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'Btn_Key_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Key.34"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Btn_Key_OK",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'Btn_Key_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Key.34"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBButton_Cancel",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBButton'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Widget_PathFinderMsg": {
+        "ObjectName": "Function'Widget_PathFinderMsg_C:ExecuteUbergraph_Widget_PathFinderMsg'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.43"
+      },
+      "SequenceEvent": {
+        "ObjectName": "Function'Widget_PathFinderMsg_C:SequenceEvent'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.44"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Widget_PathFinderMsg_C'Default__Widget_PathFinderMsg_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.67"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_PathFinderMsg_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.70"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'Widget_PathFinderMsg_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_PathFinderMsg.11"
+      }
+    }
+  }
+]

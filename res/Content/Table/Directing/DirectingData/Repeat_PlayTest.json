@@ -1,0 +1,342 @@
+[
+  {
+    "Type": "OGDirecting_Delay",
+    "Name": "OGDirecting_Delay_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Delay'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Repeat_PlayTest'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.16"
+    },
+    "Properties": {
+      "Delay": 1.0,
+      "ActionID": "start_delay"
+    }
+  },
+  {
+    "Type": "OGDirecting_Delay",
+    "Name": "OGDirecting_Delay_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Delay'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Repeat_PlayTest'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.16"
+    },
+    "Properties": {
+      "Delay": 1.0,
+      "ActionID": "end_delay",
+      "ExecWhenSkip": true
+    }
+  },
+  {
+    "Type": "OGDirecting_Fade",
+    "Name": "OGDirecting_Fade_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Fade'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Repeat_PlayTest'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.16"
+    },
+    "Properties": {
+      "FadeType": "EOGDirectingFadeType::FADE_OUT",
+      "ActionID": "start_fade_out",
+      "ExecWhenSkip": false
+    }
+  },
+  {
+    "Type": "OGDirecting_Fade",
+    "Name": "OGDirecting_Fade_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Fade'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Repeat_PlayTest'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.16"
+    },
+    "Properties": {
+      "ActionID": "start_fade_in",
+      "ExecWhenSkip": false
+    }
+  },
+  {
+    "Type": "OGDirecting_Fade",
+    "Name": "OGDirecting_Fade_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Fade'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Repeat_PlayTest'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.16"
+    },
+    "Properties": {
+      "FadeType": "EOGDirectingFadeType::FADE_OUT",
+      "ActionID": "end_fade_out"
+    }
+  },
+  {
+    "Type": "OGDirecting_Fade",
+    "Name": "OGDirecting_Fade_3",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Fade'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Repeat_PlayTest'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.16"
+    },
+    "Properties": {
+      "ActionID": "end_fade_in"
+    }
+  },
+  {
+    "Type": "OGDirecting_PlayDirectingSequence",
+    "Name": "OGDirecting_PlayDirectingSequence_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_PlayDirectingSequence'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Repeat_PlayTest'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.16"
+    },
+    "Properties": {
+      "Sequence": {
+        "ObjectName": "LevelSequence'Directing_C07_Quest_Main_10020401_End_01_Master'",
+        "ObjectPath": "SevenDeadlySins/Content/Cinematics/Chapter_07/Act16/Directing/Directing_C07_Quest_Main_10020401_End_01_Master.4"
+      },
+      "ActionID": "directing"
+    }
+  },
+  {
+    "Type": "OGDirecting_SendFinish",
+    "Name": "OGDirecting_SendFinish_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_SendFinish'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Repeat_PlayTest'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.16"
+    },
+    "Properties": {
+      "ActionID": "send_finish"
+    }
+  },
+  {
+    "Type": "OGDirecting_SetPlayerCamera",
+    "Name": "OGDirecting_SetPlayerCamera_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_SetPlayerCamera'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Repeat_PlayTest'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.16"
+    },
+    "Properties": {
+      "Zoom": 600.0,
+      "ActionID": "set_PC_camera"
+    }
+  },
+  {
+    "Type": "OGDirecting_Visibility",
+    "Name": "OGDirecting_Visibility_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Visibility'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Repeat_PlayTest'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.16"
+    },
+    "Properties": {
+      "ActionID": "hidden_actors",
+      "ExecWhenSkip": false
+    }
+  },
+  {
+    "Type": "OGDirecting_Visibility",
+    "Name": "OGDirecting_Visibility_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Visibility'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Repeat_PlayTest'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.16"
+    },
+    "Properties": {
+      "Visible": true,
+      "ActionID": "show_actors"
+    }
+  },
+  {
+    "Type": "OGDirecting_WaitForRouterID",
+    "Name": "OGDirecting_WaitForRouterID_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_WaitForRouterID'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Repeat_PlayTest'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.16"
+    },
+    "Properties": {
+      "TargetActionID": "start_fade_out",
+      "ActionID": "start_fade_out_wait",
+      "ExecWhenSkip": false
+    }
+  },
+  {
+    "Type": "OGDirecting_WaitForRouterID",
+    "Name": "OGDirecting_WaitForRouterID_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_WaitForRouterID'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Repeat_PlayTest'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.16"
+    },
+    "Properties": {
+      "TargetActionID": "start_delay",
+      "ActionID": "start_delay_wait",
+      "ExecWhenSkip": false
+    }
+  },
+  {
+    "Type": "OGDirecting_WaitForRouterID",
+    "Name": "OGDirecting_WaitForRouterID_3",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_WaitForRouterID'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Repeat_PlayTest'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.16"
+    },
+    "Properties": {
+      "TargetActionID": "end_fade_out",
+      "ActionID": "end_fade_out_wait"
+    }
+  },
+  {
+    "Type": "OGDirecting_WaitForRouterID",
+    "Name": "OGDirecting_WaitForRouterID_4",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_WaitForRouterID'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Repeat_PlayTest'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.16"
+    },
+    "Properties": {
+      "TargetActionID": "end_delay",
+      "ActionID": "end_delay_wait"
+    }
+  },
+  {
+    "Type": "OGDirecting_WaitForRouterID",
+    "Name": "OGDirecting_WaitForRouterID_5",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_WaitForRouterID'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Repeat_PlayTest'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.16"
+    },
+    "Properties": {
+      "TargetActionID": "directing",
+      "ActionID": "seq_play_wait",
+      "ExecWhenSkip": false
+    }
+  },
+  {
+    "Type": "OGDirectingActionContainerObject",
+    "Name": "Repeat_PlayTest",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirectingActionContainerObject'",
+    "Package": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest",
+    "Properties": {
+      "ActionList": [
+        {
+          "ObjectName": "OGDirecting_Fade'Repeat_PlayTest:OGDirecting_Fade_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.2"
+        },
+        {
+          "ObjectName": "OGDirectingCmd_ExecuteConsoleCommand'Repeat_PlayTest:OGDirectingCmd_ExecuteConsoleCommand_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.17"
+        },
+        {
+          "ObjectName": "OGDirectingCmd_ExecutePythonCommand'Repeat_PlayTest:OGDirectingCmd_ExecutePythonCommand_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.18"
+        },
+        {
+          "ObjectName": "OGDirecting_WaitForRouterID'Repeat_PlayTest:OGDirecting_WaitForRouterID_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.11"
+        },
+        {
+          "ObjectName": "OGDirecting_Visibility'Repeat_PlayTest:OGDirecting_Visibility_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.9"
+        },
+        {
+          "ObjectName": "OGDirecting_SetPlayerCamera'Repeat_PlayTest:OGDirecting_SetPlayerCamera_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.8"
+        },
+        {
+          "ObjectName": "OGDirecting_Delay'Repeat_PlayTest:OGDirecting_Delay_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.0"
+        },
+        {
+          "ObjectName": "OGDirecting_WaitForRouterID'Repeat_PlayTest:OGDirecting_WaitForRouterID_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.12"
+        },
+        {
+          "ObjectName": "OGDirecting_Fade'Repeat_PlayTest:OGDirecting_Fade_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.3"
+        },
+        {
+          "ObjectName": "OGDirecting_PlayDirectingSequence'Repeat_PlayTest:OGDirecting_PlayDirectingSequence_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.6"
+        },
+        {
+          "ObjectName": "OGDirecting_WaitForRouterID'Repeat_PlayTest:OGDirecting_WaitForRouterID_5'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.15"
+        },
+        {
+          "ObjectName": "OGDirecting_Fade'Repeat_PlayTest:OGDirecting_Fade_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.4"
+        },
+        {
+          "ObjectName": "OGDirecting_WaitForRouterID'Repeat_PlayTest:OGDirecting_WaitForRouterID_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.13"
+        },
+        {
+          "ObjectName": "OGDirecting_SendFinish'Repeat_PlayTest:OGDirecting_SendFinish_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.7"
+        },
+        {
+          "ObjectName": "OGDirecting_Visibility'Repeat_PlayTest:OGDirecting_Visibility_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.10"
+        },
+        {
+          "ObjectName": "OGDirecting_Delay'Repeat_PlayTest:OGDirecting_Delay_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.1"
+        },
+        {
+          "ObjectName": "OGDirecting_WaitForRouterID'Repeat_PlayTest:OGDirecting_WaitForRouterID_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.14"
+        },
+        {
+          "ObjectName": "OGDirecting_Fade'Repeat_PlayTest:OGDirecting_Fade_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OGDirectingCmd_ExecuteConsoleCommand",
+    "Name": "OGDirectingCmd_ExecuteConsoleCommand_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirectingCmd_ExecuteConsoleCommand'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Repeat_PlayTest'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.16"
+    },
+    "Properties": {
+      "Command": "ac.movezone",
+      "ActionID": "commandTest"
+    }
+  },
+  {
+    "Type": "OGDirectingCmd_ExecutePythonCommand",
+    "Name": "OGDirectingCmd_ExecutePythonCommand_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirectingCmd_ExecutePythonCommand'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Repeat_PlayTest'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Repeat_PlayTest.16"
+    },
+    "Properties": {
+      "ActionID": "pythonTest"
+    }
+  }
+]

@@ -1,0 +1,2600 @@
+[
+  {
+    "Type": "ACMovieSceneSoundTidSection",
+    "Name": "ACMovieSceneSoundTidSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidSection'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidTrack'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.1"
+    },
+    "Properties": {
+      "soundTid": {
+        "Tid": "2000003"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'ui_common_popup_info_open_01_cue'",
+        "ObjectPath": "SevenDeadlySins/Content/Sounds/ui/common/ui_common_popup_info_open_01_cue.0"
+      },
+      "bKeepPlayingUntilEnd": true,
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.46"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.47"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 30000
+            }
+          }
+        }
+      },
+      "Signature": "676E3E77-4C83229E-6BCC8C85-D560AB3C"
+    }
+  },
+  {
+    "Type": "ACMovieSceneSoundTidTrack",
+    "Name": "ACMovieSceneSoundTidTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.41"
+    },
+    "Properties": {
+      "AudioSections": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidSection'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.0"
+        }
+      ],
+      "EvaluationFieldGuid": "0E84418B-4448DB3C-467D7EAC-5F8EDC10",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "ACMovieSceneSoundTidSection'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.0"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "0E84418B-4448DB3C-467D7EAC-5F8EDC10"
+    }
+  },
+  {
+    "Type": "Btn_Probability_C",
+    "Name": "Btn_probabilitytable",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Probability.Btn_Probability_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaProbability_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.63"
+    },
+    "Template": {
+      "ObjectName": "Btn_Probability_C'Default__Btn_Probability_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Probability.0"
+    },
+    "Properties": {
+      "ButtonGroupIndex": 2,
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.popup.CBCanvasPanelSlot_7'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.17"
+      }
+    }
+  },
+  {
+    "Type": "BtnGuide_widget_C",
+    "Name": "BtnGuide_widget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/BtnGuide_widget.BtnGuide_widget_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaProbability_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.63"
+    },
+    "Template": {
+      "ObjectName": "BtnGuide_widget_C'Default__BtnGuide_widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/BtnGuide_widget.6"
+    },
+    "Properties": {
+      "m_KeyGuideTID": "KeyGuide_ContentsMenu",
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.popup.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.12"
+      }
+    }
+  },
+  {
+    "Type": "CBButton",
+    "Name": "Btn_Close",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaProbability_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.63"
+    },
+    "Properties": {
+      "PressSound": {
+        "ObjectName": "SoundCue'ui_common_button_01_cue'",
+        "ObjectPath": "SevenDeadlySins/Content/Sounds/ui/common/ui_common_button_01_cue.0"
+      },
+      "bIsPadFocus": false,
+      "ButtonGroupIndex": 29,
+      "bAllowPadFocusWhenScrolledOut": false,
+      "ButtonClickChangeGroupIndex": 33554432,
+      "ColorAndOpacity": {
+        "R": 2.3509887E-38,
+        "G": 1.5049542E-36,
+        "B": 3.7912E-37,
+        "A": 1.076E-42,
+        "Hex": "000000"
+      }
+    }
+  },
+  {
+    "Type": "CBButton",
+    "Name": "Button_Back",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaProbability_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.63"
+    },
+    "Properties": {
+      "bIsPadFocus": false
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaProbability_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.63"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.CBCanvasPanel_18.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.8"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.CBCanvasPanel_18.CBCanvasPanelSlot_6'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.10"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.CBCanvasPanel_18.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "popup",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaProbability_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.63"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.popup.CBCanvasPanelSlot_22'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.14"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.popup.CBCanvasPanelSlot_8'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.18"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.popup.CBCanvasPanelSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.15"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.popup.CBCanvasPanelSlot_6'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.16"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.popup.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.13"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.popup.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.11"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.popup.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.12"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.popup.CBCanvasPanelSlot_7'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.17"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSafeZoneSlot'Widget_GachaProbability_C:WidgetTree.CBSafeZone_0.CBSafeZoneSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.22"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 40.0
+        }
+      },
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.CBCanvasPanel_18'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.6"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.CBCanvasPanel_18'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.6"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Widget_GachaProbability_C:WidgetTree.Button_Back'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.5"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.CBCanvasPanel_18'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.6"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 626.0,
+          "Bottom": 1200.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.CBCanvasPanel_18'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.6"
+      },
+      "Content": {
+        "ObjectName": "EToolTipPosition'Widget_GachaProbability_C:WidgetTree.TooltipPos'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.34"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.CBCanvasPanel_18'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.6"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 2120.0,
+          "Bottom": 1200.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "ZOrder": 1,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.CBCanvasPanel_18'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.6"
+      },
+      "Content": {
+        "ObjectName": "CBSafeZone'Widget_GachaProbability_C:WidgetTree.CBSafeZone_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.21"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Bottom": 78.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.7"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_GachaProbability_C:WidgetTree.bg_top'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.19"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Alignment": {
+          "X": 0.0,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.7"
+      },
+      "Content": {
+        "ObjectName": "BtnGuide_widget_C'Widget_GachaProbability_C:WidgetTree.BtnGuide_widget'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.3"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -25.0,
+          "Top": 25.0,
+          "Bottom": 100.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "ZOrder": 1,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.7"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Widget_GachaProbability_C:WidgetTree.Btn_Close'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.4"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_22",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -13.0,
+          "Top": -13.0,
+          "Right": -13.0,
+          "Bottom": -13.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.7"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_GachaProbability_C:WidgetTree.PopupBg'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.20"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 30.0,
+          "Top": 220.0,
+          "Right": 30.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.7"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'Widget_GachaProbability_C:WidgetTree.CBVerticalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.27"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 30.0,
+          "Top": 39.0
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.7"
+      },
+      "Content": {
+        "ObjectName": "EImprovedRichTextBlock'Widget_GachaProbability_C:WidgetTree.TextBlock_GachaTitle'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.33"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -40.0,
+          "Top": 116.0,
+          "Right": 240.0,
+          "Bottom": 64.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.7"
+      },
+      "Content": {
+        "ObjectName": "Btn_Probability_C'Widget_GachaProbability_C:WidgetTree.Btn_probabilitytable'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.2"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 290.0,
+          "Top": 150.0,
+          "Right": 290.0,
+          "Bottom": 120.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.7"
+      },
+      "Content": {
+        "ObjectName": "CBScaleBox'Widget_GachaProbability_C:WidgetTree.CBScaleBox_54'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.24"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "bg_top",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaProbability_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.63"
+    },
+    "Properties": {
+      "Brush": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageSize": {
+          "X": 1600.0,
+          "Y": 62.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Popup_bg_popup1'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Popup/Frames/Popup_bg_popup1.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.popup.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.11"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "PopupBg",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaProbability_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.63"
+    },
+    "Properties": {
+      "Brush": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageSize": {
+          "X": 10.0,
+          "Y": 10.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Popup_bg_popup3'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Popup/Frames/Popup_bg_popup3.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.popup.CBCanvasPanelSlot_22'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.14"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBSafeZone",
+    "Name": "CBSafeZone_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSafeZone'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaProbability_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.63"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBSafeZoneSlot'Widget_GachaProbability_C:WidgetTree.CBSafeZone_0.CBSafeZoneSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.22"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.CBCanvasPanel_18.CBCanvasPanelSlot_6'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.10"
+      }
+    }
+  },
+  {
+    "Type": "CBSafeZoneSlot",
+    "Name": "CBSafeZoneSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSafeZoneSlot'",
+    "Outer": {
+      "ObjectName": "CBSafeZone'Widget_GachaProbability_C:WidgetTree.CBSafeZone_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.21"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSafeZone'Widget_GachaProbability_C:WidgetTree.CBSafeZone_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.21"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.7"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBox",
+    "Name": "CBScaleBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaProbability_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.63"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBScaleBoxSlot'Widget_GachaProbability_C:WidgetTree.CBScaleBox.CBScaleBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.25"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Widget_GachaProbability_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.29"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBox",
+    "Name": "CBScaleBox_54",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaProbability_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.63"
+    },
+    "Properties": {
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "CBScaleBoxSlot'Widget_GachaProbability_C:WidgetTree.CBScaleBox_54.CBScaleBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.26"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.popup.CBCanvasPanelSlot_8'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.18"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBoxSlot",
+    "Name": "CBScaleBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBScaleBox'Widget_GachaProbability_C:WidgetTree.CBScaleBox'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.23"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBScaleBox'Widget_GachaProbability_C:WidgetTree.CBScaleBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.23"
+      },
+      "Content": {
+        "ObjectName": "EImprovedRichTextBlock'Widget_GachaProbability_C:WidgetTree.TextBlock_GachaRateDescription'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.32"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBoxSlot",
+    "Name": "CBScaleBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBScaleBox'Widget_GachaProbability_C:WidgetTree.CBScaleBox_54'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.24"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBScaleBox'Widget_GachaProbability_C:WidgetTree.CBScaleBox_54'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.24"
+      },
+      "Content": {
+        "ObjectName": "EImprovedRichTextBlock'Widget_GachaProbability_C:WidgetTree.TextBlock_GachaDescription'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.31"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "CBVerticalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaProbability_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.63"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'Widget_GachaProbability_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.28"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Widget_GachaProbability_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.29"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.popup.CBCanvasPanelSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.15"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Widget_GachaProbability_C:WidgetTree.CBVerticalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.27"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Widget_GachaProbability_C:WidgetTree.CBVerticalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.27"
+      },
+      "Content": {
+        "ObjectName": "Widget_GachaProbabilityList_C'Widget_GachaProbability_C:WidgetTree.Widget_GachaProbability_List'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.59"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Widget_GachaProbability_C:WidgetTree.CBVerticalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.27"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 15.0
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Widget_GachaProbability_C:WidgetTree.CBVerticalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.27"
+      },
+      "Content": {
+        "ObjectName": "CBScaleBox'Widget_GachaProbability_C:WidgetTree.CBScaleBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.23"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_GachaProbability_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.62"
+    },
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "Button_Back",
+          "DelegatePropertyName": "OnClicked",
+          "FunctionNameToBind": "BndEvt__Widget_GachaProbability_Button_Back_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "Btn_Close",
+          "DelegatePropertyName": "OnClicked",
+          "FunctionNameToBind": "BndEvt__Widget_GachaProbability_Btn_Close_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EImprovedRichTextBlock",
+    "Name": "TextBlock_GachaDescription",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EImprovedRichTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaProbability_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.63"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "863A023F4F9E3F91FFAA1C9131779C05",
+        "SourceString": "UI_Gacha_Description_Local",
+        "LocalizedString": "UI_Gacha_Description_Local"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichText'",
+        "ObjectPath": "SevenDeadlySins/Content/Table/RichText.0"
+      },
+      "DecoratorClasses": [
+        {
+          "ObjectName": "Class'EImprovedRichTextBlockDecorator'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      ],
+      "DefaultTextStyleOverride": {
+        "Font": {
+          "FontObject": {
+            "ObjectName": "Font'Font_Default'",
+            "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+          },
+          "TypefaceFontName": "Font_B",
+          "Size": 26.0
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 0.030713,
+            "G": 0.035601,
+            "B": 0.046665,
+            "A": 1.0,
+            "Hex": "31353D"
+          }
+        },
+        "ShadowColorAndOpacity": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 0.0,
+          "Hex": "000000"
+        }
+      },
+      "bOverrideDefaultStyle": true,
+      "Justification": "ETextJustify::Center",
+      "WrapTextAt": 1600.0,
+      "Slot": {
+        "ObjectName": "CBScaleBoxSlot'Widget_GachaProbability_C:WidgetTree.CBScaleBox_54.CBScaleBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.26"
+      }
+    }
+  },
+  {
+    "Type": "EImprovedRichTextBlock",
+    "Name": "TextBlock_GachaRateDescription",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EImprovedRichTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaProbability_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.63"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "7C93DFD146CD6F192F7125861ADFD558",
+        "SourceString": "UI_RewardBox_PopupRateInfo_Desc",
+        "LocalizedString": "UI_RewardBox_PopupRateInfo_Desc"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichText'",
+        "ObjectPath": "SevenDeadlySins/Content/Table/RichText.0"
+      },
+      "DecoratorClasses": [
+        {
+          "ObjectName": "Class'EImprovedRichTextBlockDecorator'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      ],
+      "DefaultTextStyleOverride": {
+        "Font": {
+          "FontObject": {
+            "ObjectName": "Font'Font_Default'",
+            "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+          },
+          "TypefaceFontName": "Font_B"
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 0.247201,
+            "G": 0.257147,
+            "B": 0.28125,
+            "A": 1.0,
+            "Hex": "888B91"
+          }
+        },
+        "ShadowColorAndOpacity": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 0.0,
+          "Hex": "000000"
+        }
+      },
+      "bOverrideDefaultStyle": true,
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBScaleBoxSlot'Widget_GachaProbability_C:WidgetTree.CBScaleBox.CBScaleBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.25"
+      }
+    }
+  },
+  {
+    "Type": "EImprovedRichTextBlock",
+    "Name": "TextBlock_GachaTitle",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EImprovedRichTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaProbability_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.63"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "CEF108B844D78D16FBFA28BB3F393EC3",
+        "SourceString": "UI_Gacha_Main_Local",
+        "LocalizedString": "UI_Gacha_Main_Local"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichText'",
+        "ObjectPath": "SevenDeadlySins/Content/Table/RichText.0"
+      },
+      "DecoratorClasses": [
+        {
+          "ObjectName": "Class'EImprovedRichTextBlockDecorator'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      ],
+      "DefaultTextStyleOverride": {
+        "Font": {
+          "FontObject": {
+            "ObjectName": "Font'Font_Default'",
+            "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+          },
+          "TypefaceFontName": "Font_B"
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "ShadowColorAndOpacity": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 0.0,
+          "Hex": "000000"
+        }
+      },
+      "bOverrideDefaultStyle": true,
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaProbability_C:WidgetTree.popup.CBCanvasPanelSlot_6'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.16"
+      }
+    }
+  },
+  {
+    "Type": "EToolTipPosition",
+    "Name": "TooltipPos",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EToolTipPosition'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaProbability_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.63"
+    },
+    "Properties": {
+      "ViewType": "EToolTipViewType::ItemInfoToolTip",
+      "PTType": "EToolTipPTType::ItemInfoToolTip",
+      "AttachType": "EToolTipAttachType::ToolTipPositionWidget",
+      "IsSetCoordOnBP": false,
+      "_EnableChangeButtonGroupIndex": true,
+      "_UIShowChangeButtonGroupIndex": 5,
+      "ToolTipText": {
+        "CurrencyCode": null,
+        "SourceValue": {
+          "Type": 0,
+          "Value": 4294967296
+        },
+        "FormatOptions": null,
+        "TargetCulture": ""
+      },
+      "AccessibleWidgetData": null
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Widget_GachaProbability_Btn_Close_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_GachaProbability_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.62"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Widget_GachaProbability_Button_Back_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_GachaProbability_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.62"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EvtHidePanel",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_GachaProbability_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.62"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'EWidgetCore:EvtHidePanel'",
+      "ObjectPath": "/Script/ACUICoreModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetCurrentButtonGroupIndex_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EvtShowPanel",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_GachaProbability_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.62"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'EWidgetCore:EvtShowPanel'",
+      "ObjectPath": "/Script/ACUICoreModule"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Widget_GachaProbability",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_GachaProbability_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.62"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_HIde",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Widget_GachaProbability_C:Anim_HIde_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.60"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "2CE4A38A-463CBBCA-65D90F89-B889D898",
+          "Name": "CBCanvasPanel_18",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "2CE4A38A-463CBBCA-65D90F89-B889D898",
+          "BindingName": "CBCanvasPanel_18",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Widget_GachaProbability_C:Anim_HIde_INST.Anim_HIde.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.56"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 21001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "5E2D51AD-4F4BF3A0-FECDA3BB-FCF9664D"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Show",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Widget_GachaProbability_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.61"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "03D08B9A-4C5AF61D-8CBA2FBF-B5CC02E9",
+          "Name": "popup",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "3CA6759B-470C547C-92EF99A5-AFE8396F",
+          "Name": "CBCanvasPanel_18",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "03D08B9A-4C5AF61D-8CBA2FBF-B5CC02E9",
+          "BindingName": "popup",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.43"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "3CA6759B-470C547C-92EF99A5-AFE8396F",
+          "BindingName": "CBCanvasPanel_18",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.57"
+            }
+          ]
+        }
+      ],
+      "Tracks": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidTrack'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.1"
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 30002
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "ClockSource": "EUpdateClockSource::Audio",
+      "MarkedFrames": [
+        {
+          "FrameNumber": {
+            "Value": 0
+          },
+          "Label": "A",
+          "bIsDeterminismFence": false,
+          "bIsInclusiveTime": false
+        }
+      ],
+      "Signature": "D3D22214-492641B8-759AE5AB-ABA2FD63"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.43"
+    },
+    "Properties": {
+      "TransformMask": {
+        "Mask": 3
+      },
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Translation[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": -20.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.48"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.49"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 30000
+            }
+          }
+        }
+      },
+      "Signature": "0A59A1BB-4B228380-A52C4E83-CDD333EC"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.41"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.42"
+        }
+      ],
+      "EvaluationFieldGuid": "9B72CDE9-48DB1FD4-C0C736B0-F0DF95ED",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.42"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "9B72CDE9-48DB1FD4-C0C736B0-F0DF95ED"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Widget_GachaProbability_C:Anim_HIde_INST.Anim_HIde.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.54"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Widget_GachaProbability_C:Anim_HIde_INST.Anim_HIde.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.54"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.42"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.42"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.55"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.55"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Widget_GachaProbability_C:Anim_HIde_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.60"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 21000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Widget_GachaProbability_C:Anim_HIde_INST.Anim_HIde.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.54"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "2CE4A38A-463CBBCA-65D90F89-B889D898"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 21000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "4F2BABE8-40EECAF2-2973B5B3-A8CC1137",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Widget_GachaProbability_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.61"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 3,
+                  "Capacity": 3
+                },
+                {
+                  "StartIndex": 3,
+                  "Size": 2,
+                  "Capacity": 2
+                },
+                {
+                  "StartIndex": 5,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 3,
+                  "Capacity": 3
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 30000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 30000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 30000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 1
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 30000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 30001
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 2
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "ACMovieSceneSoundTidSection'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.0"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.42"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.55"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "ObjectBindingID": "03D08B9A-4C5AF61D-8CBA2FBF-B5CC02E9"
+          },
+          {
+            "ObjectBindingID": "3CA6759B-470C547C-92EF99A5-AFE8396F"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 30000
+          },
+          "bInclusive": false
+        },
+        {
+          "FrameNumber": {
+            "Value": 30001
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "49F43E99-43D6A128-E0D93BAD-9C758FFC",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Widget_GachaProbability_C:Anim_HIde_INST.Anim_HIde.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.56"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 9000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaProbability_C:Anim_HIde_INST.Anim_HIde.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.44"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaProbability_C:Anim_HIde_INST.Anim_HIde.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.45"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 21000
+            }
+          }
+        }
+      },
+      "Signature": "2BE9418C-4E6136AF-E018F18F-7A51B49B"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.57"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.50"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.51"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 30001
+            }
+          }
+        }
+      },
+      "Signature": "4AD162A1-4381A7B0-9EC3DDA6-EFEDB921"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_GachaProbability_C:Anim_HIde_INST.Anim_HIde'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.40"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Widget_GachaProbability_C:Anim_HIde_INST.Anim_HIde.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.54"
+        }
+      ],
+      "EvaluationFieldGuid": "2165FCE4-4959299A-3BA211A0-BD668EE3",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Widget_GachaProbability_C:Anim_HIde_INST.Anim_HIde.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.54"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 21000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "2165FCE4-4959299A-3BA211A0-BD668EE3"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.41"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.55"
+        }
+      ],
+      "EvaluationFieldGuid": "E9F4F6C6-4813EC0C-D209E9AB-C39AF9FA",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.55"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 30001
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "E9F4F6C6-4813EC0C-D209E9AB-C39AF9FA"
+    }
+  },
+  {
+    "Type": "Widget_GachaProbability_C",
+    "Name": "Default__Widget_GachaProbability_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.Widget_GachaProbability_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability",
+    "Properties": {
+      "UberGraphFrame": {},
+      "MainButtonGroupIndex": 2,
+      "bUseBackBtn": true,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "Widget_GachaProbabilityList_C",
+    "Name": "Widget_GachaProbability_List",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbabilityList.Widget_GachaProbabilityList_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaProbability_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.63"
+    },
+    "Template": {
+      "ObjectName": "Widget_GachaProbabilityList_C'Default__Widget_GachaProbabilityList_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbabilityList.3"
+    },
+    "Properties": {
+      "UsePadFocus": true,
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Widget_GachaProbability_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.28"
+      }
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_HIde_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_GachaProbability_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.62"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Widget_GachaProbability_C:Anim_HIde_INST.Anim_HIde'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.40"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CBCanvasPanel_18",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "2CE4A38A-463CBBCA-65D90F89-B889D898",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_HIde",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Widget_GachaProbability_C:Anim_HIde_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.52"
+      },
+      "Signature": "4F2BABE8-40EECAF2-2973B5B3-A8CC1137"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Show_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_GachaProbability_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.62"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Widget_GachaProbability_C:Anim_Show_INST.Anim_Show'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.41"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "popup",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "03D08B9A-4C5AF61D-8CBA2FBF-B5CC02E9",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "CBCanvasPanel_18",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "3CA6759B-470C547C-92EF99A5-AFE8396F",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Show",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Widget_GachaProbability_C:Anim_Show_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.53"
+      },
+      "Signature": "49F43E99-43D6A128-E0D93BAD-9C758FFC"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Widget_GachaProbability_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Widget_GachaProbability_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.63"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'Widget_GachaProbability_C:Anim_Show_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.61"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Widget_GachaProbability_C:Anim_HIde_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.60"
+        }
+      ],
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'Widget_GachaProbability_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.30"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'Widget_GachaProbability_C:ExecuteUbergraph_Widget_GachaProbability'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.39"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWidget_GachaProbability'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Widget_GachaProbability_C:EvtHidePanel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.37"
+      },
+      {
+        "ObjectName": "Function'Widget_GachaProbability_C:EvtShowPanel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.38"
+      },
+      {
+        "ObjectName": "Function'Widget_GachaProbability_C:BndEvt__Widget_GachaProbability_Btn_Close_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.35"
+      },
+      {
+        "ObjectName": "Function'Widget_GachaProbability_C:BndEvt__Widget_GachaProbability_Button_Back_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.36"
+      },
+      {
+        "ObjectName": "Function'Widget_GachaProbability_C:ExecuteUbergraph_Widget_GachaProbability'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.39"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BtnGuide_widget",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'BtnGuide_widget_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/BtnGuide_widget.16"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBSafeZone_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBSafeZone'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "MainButtonGroupIndex",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Widget_GachaProbability": {
+        "ObjectName": "Function'Widget_GachaProbability_C:ExecuteUbergraph_Widget_GachaProbability'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.39"
+      },
+      "BndEvt__Widget_GachaProbability_Button_Back_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature": {
+        "ObjectName": "Function'Widget_GachaProbability_C:BndEvt__Widget_GachaProbability_Button_Back_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.36"
+      },
+      "BndEvt__Widget_GachaProbability_Btn_Close_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature": {
+        "ObjectName": "Function'Widget_GachaProbability_C:BndEvt__Widget_GachaProbability_Btn_Close_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.35"
+      },
+      "EvtShowPanel": {
+        "ObjectName": "Function'Widget_GachaProbability_C:EvtShowPanel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.38"
+      },
+      "EvtHidePanel": {
+        "ObjectName": "Function'Widget_GachaProbability_C:EvtHidePanel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.37"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Widget_GachaProbability_C'Default__Widget_GachaProbability_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.58"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_GachaProbability_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.62"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaProbability_C:WidgetTree.CBCanvasPanel_18'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaProbability.6"
+      }
+    }
+  }
+]

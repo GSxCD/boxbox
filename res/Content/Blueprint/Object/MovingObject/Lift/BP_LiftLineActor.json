@@ -1,0 +1,197 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_LiftLineActor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/Lift/BP_LiftLineActor",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_LiftLineActor_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/Lift/BP_LiftLineActor.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "SplineMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SplineMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_LiftLineActor_C'Default__BP_LiftLineActor_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/Lift/BP_LiftLineActor.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_LiftLineActor_C",
+    "Name": "Default__BP_LiftLineActor_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/MovingObject/Lift/BP_LiftLineActor.BP_LiftLineActor_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/Lift/BP_LiftLineActor",
+    "Properties": {
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_LiftLineActor_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/Lift/BP_LiftLineActor.3"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_LiftLineActor_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/Lift/BP_LiftLineActor.3"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LiftLineActor_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/Lift/BP_LiftLineActor.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_LiftLineActor_C'Default__BP_LiftLineActor_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/Lift/BP_LiftLineActor.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LiftLineActor_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/Lift/BP_LiftLineActor.6"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_LiftLineActor_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/Lift/BP_LiftLineActor.2"
+      },
+      "VariableGUID": "C563F554-4C2805AF-5E3FD58B-43B2C122",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LiftLineActor_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/Lift/BP_LiftLineActor.6"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SplineMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SplineMeshComponent'BP_LiftLineActor_C:SplineMesh_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/Lift/BP_LiftLineActor.7"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "44B88890-497F4268-08290580-2D31ECC9",
+      "InternalVariableName": "SplineMesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LiftLineActor_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/Lift/BP_LiftLineActor.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_LiftLineActor_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/Lift/BP_LiftLineActor.5"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_LiftLineActor_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/Lift/BP_LiftLineActor.5"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_LiftLineActor_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/Lift/BP_LiftLineActor.4"
+      }
+    }
+  },
+  {
+    "Type": "SplineMeshComponent",
+    "Name": "SplineMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SplineMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LiftLineActor_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/Lift/BP_LiftLineActor.0"
+    },
+    "Properties": {
+      "SplineParams": {
+        "StartTangent": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 100.0
+        },
+        "EndPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 100.0
+        },
+        "EndTangent": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 100.0
+        }
+      },
+      "SplineUpDir": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "ForwardAxis": "ESplineMeshAxis::Z",
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_MineLift_A01_SplineMesh'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Meshes/S_MineLift_A01_SplineMesh.1"
+      },
+      "Mobility": "EComponentMobility::Movable"
+    }
+  }
+]

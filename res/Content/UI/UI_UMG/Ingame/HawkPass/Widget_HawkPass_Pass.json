@@ -1,0 +1,4257 @@
+[
+  {
+    "Type": "Btn_01_C",
+    "Name": "BuyPremiumBtn",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.Btn_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Template": {
+      "ObjectName": "Btn_01_C'Default__Btn_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.0"
+    },
+    "Properties": {
+      "StringStyle": {
+        "bEnabled": true,
+        "Text": "UI_HawkPass_Reward_SpecialPass_Button"
+      },
+      "bIsPadFocus": false,
+      "InputTableTID": "UI_PAD_Button_Left",
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.BuyPass.CBSizeBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.70"
+      }
+    }
+  },
+  {
+    "Type": "Btn_01_C",
+    "Name": "ReceiveAllBtn",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.Btn_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Template": {
+      "ObjectName": "Btn_01_C'Default__Btn_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.0"
+    },
+    "Properties": {
+      "StringStyle": {
+        "bEnabled": true,
+        "Text": "UI_HawkPass_Reward_All_Button"
+      },
+      "bIsPadFocus": false,
+      "InputTableTID": "UI_PAD_Button_Up",
+      "NamedSlotBindings": [
+        {
+          "Name": "NamedSlot_Reddot",
+          "Content": {
+            "ObjectName": "Reddot03_C'Widget_HawkPass_Pass_C:WidgetTree.ReceiveAllBtnReddot'",
+            "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.114"
+          }
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.AcceptAll.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.68"
+      }
+    }
+  },
+  {
+    "Type": "Btn_Buy_PremiumPass_C",
+    "Name": "Btn_Buy_PremiumPass",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Btn_Buy_PremiumPass.Btn_Buy_PremiumPass_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Template": {
+      "ObjectName": "Btn_Buy_PremiumPass_C'Default__Btn_Buy_PremiumPass_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Btn_Buy_PremiumPass.0"
+    },
+    "Properties": {
+      "LinkPadRichTextBlock": {
+        "ObjectName": "CBRichTextBlock'Widget_HawkPass_Pass_C:WidgetTree.RichTextBlock_Input_Premium'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.54"
+      },
+      "InputTableTID": "UI_PAD_L1",
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_126.CBOverlaySlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.43"
+      },
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "CBButton",
+    "Name": "HawkPassRuleBtn",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "bIsPadFocus": false
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "Contents",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_HawkPass_Pass_C:WidgetTree.Contents.CBCanvasPanelSlot_8'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.12"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_HawkPass_Pass_C:WidgetTree.Contents.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.6"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_HawkPass_Pass_C:WidgetTree.Contents.CBCanvasPanelSlot_7'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.11"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_HawkPass_Pass_C:WidgetTree.Contents.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.7"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_HawkPass_Pass_C:WidgetTree.Contents.CBCanvasPanelSlot_6'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.10"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_HawkPass_Pass_C:WidgetTree.Contents.CBCanvasPanelSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.8"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_HawkPass_Pass_C:WidgetTree.Contents.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.5"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_HawkPass_Pass_C:WidgetTree.Contents.CBCanvasPanelSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.9"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_32.CBVerticalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.81"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_HawkPass_Pass_C:WidgetTree.Contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -1368.0,
+          "Top": -354.0,
+          "Right": 900.0,
+          "Bottom": 380.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "ZOrder": 3,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_HawkPass_Pass_C:WidgetTree.Contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.4"
+      },
+      "Content": {
+        "ObjectName": "EToolTipPosition'Widget_HawkPass_Pass_C:WidgetTree.Tooltip_Rule'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.89"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_HawkPass_Pass_C:WidgetTree.Contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -18.0,
+          "Top": -19.0,
+          "Right": 280.0,
+          "Bottom": -19.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_HawkPass_Pass_C:WidgetTree.Contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.4"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HawkPass_Pass_C:WidgetTree.Image_Bg_01'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.29"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_HawkPass_Pass_C:WidgetTree.Contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 300.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 0.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_HawkPass_Pass_C:WidgetTree.Contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.4"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HawkPass_Pass_C:WidgetTree.Image_Bg_02'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.30"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_HawkPass_Pass_C:WidgetTree.Contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 300.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_HawkPass_Pass_C:WidgetTree.Contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.4"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_128'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.14"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_HawkPass_Pass_C:WidgetTree.Contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 620.0,
+          "Bottom": 1090.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_HawkPass_Pass_C:WidgetTree.Contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.4"
+      },
+      "Content": {
+        "ObjectName": "EToolTipPosition'Widget_HawkPass_Pass_C:WidgetTree.ToolTipPosition'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.90"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_HawkPass_Pass_C:WidgetTree.Contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 300.0,
+          "Right": 7.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 0.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_HawkPass_Pass_C:WidgetTree.Contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.4"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HawkPass_Pass_C:WidgetTree.Image_Bg'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.28"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_HawkPass_Pass_C:WidgetTree.Contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 200.0,
+          "Top": 1.0,
+          "Right": 300.0,
+          "Bottom": 1.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_HawkPass_Pass_C:WidgetTree.Contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.4"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HawkPass_Pass_C:WidgetTree.Image_Bg_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.31"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_HawkPass_Pass_C:WidgetTree.Contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 20.0,
+          "Right": 320.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "ZOrder": -1,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_HawkPass_Pass_C:WidgetTree.Contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.4"
+      },
+      "Content": {
+        "ObjectName": "Widget_Seasonpass_C'Widget_HawkPass_Pass_C:WidgetTree.Widget_Seasonpass'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.117"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_0.CBHorizontalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.18"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_0.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.17"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_65.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.25"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_128",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_128.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.19"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_128.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.20"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_128.CBHorizontalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.21"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_HawkPass_Pass_C:WidgetTree.Contents.CBCanvasPanelSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.8"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_44",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_44.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.22"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_44.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.23"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_44.CBHorizontalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.24"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.ButtonArea.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.69"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_65",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_65.CBHorizontalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.26"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_65.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.25"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.PassRule.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.75"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.13"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.13"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Widget_HawkPass_Pass_C:WidgetTree.HawkPassRuleBtn'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.3"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.13"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.13"
+      },
+      "Content": {
+        "ObjectName": "CBRichTextBlock'Widget_HawkPass_Pass_C:WidgetTree.RichTextBlock_Input'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.53"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_128'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.14"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_128'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.14"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.CBSizeBox_188'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.63"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_128'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.14"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Left": 30.0,
+        "Top": 20.0,
+        "Bottom": 20.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_128'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.14"
+      },
+      "Content": {
+        "ObjectName": "EListView'Widget_HawkPass_Pass_C:WidgetTree.PassItemListView'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.85"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_128'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.14"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": -40.0,
+        "Bottom": -40.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_128'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.14"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.CBSizeBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.62"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_44'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.15"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_44'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.15"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.PassRule'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.66"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_44'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.15"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_44'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.15"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.AcceptAll'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.59"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_44'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.15"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_44'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.15"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.BuyPass'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.61"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_65'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.16"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 20.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_65'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.16"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.13"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_65'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.16"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 5.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_65'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.16"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Widget_HawkPass_Pass_C:WidgetTree.HawkPassRuleText'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.87"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_144",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "ImageSize": {
+          "X": 32.0,
+          "Y": 2.0
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55.CBOverlaySlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.47"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Bg",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Brush": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 7.0,
+          "Y": 824.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HawkPass_pass_bg_line'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HawkPass/Frames/HawkPass_pass_bg_line.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_HawkPass_Pass_C:WidgetTree.Contents.CBCanvasPanelSlot_6'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.10"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Bg_01",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.665387,
+            "G": 0.665387,
+            "B": 0.665387,
+            "A": 1.0,
+            "Hex": "D5D5D5"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 200.0,
+          "Y": 200.0
+        },
+        "Margin": {
+          "Left": 0.7,
+          "Top": 0.7,
+          "Right": 0.3,
+          "Bottom": 0.3
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HawkPass_pass_bg01'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HawkPass/Frames/HawkPass_pass_bg01.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_HawkPass_Pass_C:WidgetTree.Contents.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.6"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Bg_02",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.017595,
+            "G": 0.024,
+            "B": 0.046875,
+            "A": 1.0,
+            "Hex": "242B3D"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 180.0
+        },
+        "Margin": {
+          "Left": 0.7,
+          "Top": 0.7,
+          "Right": 0.3,
+          "Bottom": 0.3
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HawkPass_pass_bg02'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HawkPass/Frames/HawkPass_pass_bg02.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_HawkPass_Pass_C:WidgetTree.Contents.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.7"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Bg_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.2,
+            "Hex": "33000000"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 50.0,
+          "Y": 50.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HawkPass_pass_bg03'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HawkPass/Frames/HawkPass_pass_bg03.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_HawkPass_Pass_C:WidgetTree.Contents.CBCanvasPanelSlot_7'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.11"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Free_icon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 200.0,
+          "Y": 200.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HawkPass_freepass_icon'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HawkPass/Frames/HawkPass_freepass_icon.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55.CBOverlaySlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.48"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Icon_lock_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 68.0,
+          "Y": 68.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HawkPass_pass_lock'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HawkPass/Frames/HawkPass_pass_lock.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.Premium_Lock.CBOverlaySlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.51"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Line",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.545725,
+            "G": 0.496933,
+            "B": 0.412543,
+            "A": 0.5,
+            "Hex": "7FC3BBAC"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 186.0,
+          "Y": 20.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HawkPass_passbg_line'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HawkPass/Frames/HawkPass_passbg_line.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55.CBOverlaySlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.50"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Line_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.545725,
+            "G": 0.496933,
+            "B": 0.412543,
+            "A": 0.5,
+            "Hex": "7FC3BBAC"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 186.0,
+          "Y": 20.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HawkPass_passbg_line'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HawkPass/Frames/HawkPass_passbg_line.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_126.CBOverlaySlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.44"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Line_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.032779,
+            "G": 0.061326,
+            "B": 0.09375,
+            "A": 1.0,
+            "Hex": "324656"
+          }
+        },
+        "Tiling": "ESlateBrushTileType::Horizontal",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 16.0,
+          "Y": 16.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_T_event_pattern03'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Tex/Contents/UI_T_event_pattern03.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55.CBOverlaySlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.49"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "CBOverlay_126",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_126.CBOverlaySlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.43"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_126.CBOverlaySlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.44"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_126.CBOverlaySlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.41"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_126.CBOverlaySlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.42"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.PremiumTitle.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.76"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "CBOverlay_213",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_213.CBOverlaySlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.45"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBSizeBox_1.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.71"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "CBOverlay_55",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55.CBOverlaySlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.48"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55.CBOverlaySlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.50"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55.CBOverlaySlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.49"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55.CBOverlaySlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.46"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55.CBOverlaySlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.47"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.FreeTitle.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.74"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "Premium_Lock",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.Premium_Lock.CBOverlaySlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.51"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.Premium_Lock.CBOverlaySlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.52"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_126.CBOverlaySlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.42"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_126'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.37"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Top": 170.0,
+        "Right": 20.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_126'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.37"
+      },
+      "Content": {
+        "ObjectName": "CBScaleBox'Widget_HawkPass_Pass_C:WidgetTree.CBScaleBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.56"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_126'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.37"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_126'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.37"
+      },
+      "Content": {
+        "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.Premium_Lock'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.40"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_126'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.37"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": -40.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_126'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.37"
+      },
+      "Content": {
+        "ObjectName": "Btn_Buy_PremiumPass_C'Widget_HawkPass_Pass_C:WidgetTree.Btn_Buy_PremiumPass'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.2"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_126'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.37"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 140.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_126'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.37"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HawkPass_Pass_C:WidgetTree.Image_Line_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.35"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_213'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.38"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Top": 20.0,
+        "Right": 20.0,
+        "Bottom": 20.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_213'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.38"
+      },
+      "Content": {
+        "ObjectName": "HawkPass_Pass_slot02_C'Widget_HawkPass_Pass_C:WidgetTree.FocusRewardSlot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.93"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.39"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Top": 90.0,
+        "Right": 20.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.39"
+      },
+      "Content": {
+        "ObjectName": "CBScaleBox'Widget_HawkPass_Pass_C:WidgetTree.CBScaleBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.55"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.39"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.39"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HawkPass_Pass_C:WidgetTree.CBImage_144'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.27"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.39"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": -30.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.39"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HawkPass_Pass_C:WidgetTree.Image_Free_icon'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.32"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.39"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": -10.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.39"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HawkPass_Pass_C:WidgetTree.Image_Line_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.36"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.39"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 60.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.39"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HawkPass_Pass_C:WidgetTree.Image_Line'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.34"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.Premium_Lock'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.40"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 120.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.Premium_Lock'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.40"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HawkPass_Pass_C:WidgetTree.Image_Icon_lock_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.33"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.Premium_Lock'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.40"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 210.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.Premium_Lock'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.40"
+      },
+      "Content": {
+        "ObjectName": "CBRichTextBlock'Widget_HawkPass_Pass_C:WidgetTree.RichTextBlock_Input_Premium'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.54"
+      }
+    }
+  },
+  {
+    "Type": "CBRichTextBlock",
+    "Name": "RichTextBlock_Input",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBRichTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "PlatformVisibility": {
+        "HiddenPlatforms": 4
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichText'",
+        "ObjectPath": "SevenDeadlySins/Content/Table/RichText.0"
+      },
+      "DecoratorClasses": [
+        {
+          "ObjectName": "Class'ERichTextBlockDecoratorOG'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'RichTextImageDataBP_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/UI/RichTextImageDataBP.0"
+        },
+        {
+          "ObjectName": "Class'ERichTextBlockKeyImageDecoratorOG'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      ],
+      "DefaultTextStyleOverride": {
+        "Font": {
+          "FontObject": {
+            "ObjectName": "Font'Font_Default'",
+            "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+          },
+          "TypefaceFontName": "Font_B",
+          "Size": 30.0
+        }
+      },
+      "bOverrideDefaultStyle": true,
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_0.CBHorizontalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.18"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.8,
+          "Y": 0.8
+        }
+      }
+    }
+  },
+  {
+    "Type": "CBRichTextBlock",
+    "Name": "RichTextBlock_Input_Premium",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBRichTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "PlatformVisibility": {
+        "HiddenPlatforms": 4
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "BB9E12F744F7679F9040D0A89AC1E3D9",
+        "SourceString": "<InputKey id=\"UI_PAD_R1\"/>",
+        "LocalizedString": "<InputKey id=\"UI_PAD_R1\"/>"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichText'",
+        "ObjectPath": "SevenDeadlySins/Content/Table/RichText.0"
+      },
+      "DecoratorClasses": [
+        {
+          "ObjectName": "Class'ERichTextBlockDecoratorOG'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'RichTextImageDataBP_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/UI/RichTextImageDataBP.0"
+        },
+        {
+          "ObjectName": "Class'ERichTextBlockKeyImageDecoratorOG'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      ],
+      "DefaultTextStyleOverride": {
+        "Font": {
+          "FontObject": {
+            "ObjectName": "Font'Font_Default'",
+            "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+          },
+          "TypefaceFontName": "Font_B",
+          "Size": 30.0
+        }
+      },
+      "bOverrideDefaultStyle": true,
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.Premium_Lock.CBOverlaySlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.52"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBox",
+    "Name": "CBScaleBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "CBScaleBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBScaleBox_0.CBScaleBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.57"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55.CBOverlaySlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.46"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBox",
+    "Name": "CBScaleBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "CBScaleBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBScaleBox_1.CBScaleBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.58"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_126.CBOverlaySlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.41"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBoxSlot",
+    "Name": "CBScaleBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBScaleBox'Widget_HawkPass_Pass_C:WidgetTree.CBScaleBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.55"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBScaleBox'Widget_HawkPass_Pass_C:WidgetTree.CBScaleBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.55"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Widget_HawkPass_Pass_C:WidgetTree.FreeItemText'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.86"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBoxSlot",
+    "Name": "CBScaleBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBScaleBox'Widget_HawkPass_Pass_C:WidgetTree.CBScaleBox_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.56"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBScaleBox'Widget_HawkPass_Pass_C:WidgetTree.CBScaleBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.56"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Widget_HawkPass_Pass_C:WidgetTree.PremiumItemText'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.88"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "AcceptAll",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "WidthOverride": 450.0,
+      "HeightOverride": 80.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.AcceptAll.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.68"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_44.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.23"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "ButtonArea",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "HeightOverride": 120.0,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.ButtonArea.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.69"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_32.CBVerticalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.79"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "BuyPass",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "WidthOverride": 450.0,
+      "HeightOverride": 80.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.BuyPass.CBSizeBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.70"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_44.CBHorizontalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.24"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "WidthOverride": 240.0,
+      "bOverride_WidthOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBSizeBox_1.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.71"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_128.CBHorizontalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.21"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox_188",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "WidthOverride": 300.0,
+      "bOverride_WidthOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBSizeBox_188.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.72"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_128.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.19"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox_27",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBSizeBox_27.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.73"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "FreeTitle",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "HeightOverride": 320.0,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.FreeTitle.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.74"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_98.CBVerticalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.82"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "PassRule",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "WidthOverride": 450.0,
+      "HeightOverride": 80.0,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.PassRule.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.75"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_44.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.22"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "PremiumTitle",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.PremiumTitle.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.76"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_98.CBVerticalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.83"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.AcceptAll'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.59"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.AcceptAll'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.59"
+      },
+      "Content": {
+        "ObjectName": "Btn_01_C'Widget_HawkPass_Pass_C:WidgetTree.ReceiveAllBtn'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.1"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.ButtonArea'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.60"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 40.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "Parent": {
+        "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.ButtonArea'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.60"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_44'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.15"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.BuyPass'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.61"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.BuyPass'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.61"
+      },
+      "Content": {
+        "ObjectName": "Btn_01_C'Widget_HawkPass_Pass_C:WidgetTree.BuyPremiumBtn'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.0"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.CBSizeBox_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.62"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.CBSizeBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.62"
+      },
+      "Content": {
+        "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_213'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.38"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.CBSizeBox_188'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.63"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.CBSizeBox_188'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.63"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_98'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.78"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.CBSizeBox_27'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.64"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.CBSizeBox_27'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.64"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_32'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.77"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.FreeTitle'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.65"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.FreeTitle'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.65"
+      },
+      "Content": {
+        "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_55'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.39"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.PassRule'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.66"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "Parent": {
+        "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.PassRule'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.66"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_65'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.16"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.PremiumTitle'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.67"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.PremiumTitle'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.67"
+      },
+      "Content": {
+        "ObjectName": "CBOverlay'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_126'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.37"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "CBVerticalBox_32",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_32.CBVerticalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.80"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_32.CBVerticalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.81"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_32.CBVerticalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.79"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBSizeBox_27.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.73"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "CBVerticalBox_98",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_98.CBVerticalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.82"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_98.CBVerticalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.83"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBSizeBox_188.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.72"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_32'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.77"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_32'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.77"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.ButtonArea'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.60"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_32'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.77"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 40.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_32'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.77"
+      },
+      "Content": {
+        "ObjectName": "Widget_HawkPass_Level_C'Widget_HawkPass_Pass_C:WidgetTree.Widget_HawkPass_Level'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.115"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_32'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.77"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_32'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.77"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Widget_HawkPass_Pass_C:WidgetTree.Contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.4"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_98'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.78"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_98'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.78"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.FreeTitle'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.65"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_98'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.78"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_98'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.78"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.PremiumTitle'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.67"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_HawkPass_Pass_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.120"
+    },
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "PassItemListView",
+          "DelegatePropertyName": "BP_OnItemIsHoveredChanged",
+          "FunctionNameToBind": "BndEvt__Widget_HawkPass_Pass_PassItemListView_K2Node_ComponentBoundEvent_0_OnItemIsHoveredChangedDynamic__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EListView",
+    "Name": "PassItemListView",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EListView'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "ListViewType": "EListViewType::Center",
+      "NumListViewEntries": 3,
+      "SlotData": {
+        "Padding": {
+          "Left": 3.0,
+          "Right": 3.0
+        },
+        "Size": {
+          "X": 200.0,
+          "Y": 0.0
+        },
+        "bPadding": true,
+        "bSize": true
+      },
+      "CursorGroupIndex": 2,
+      "Orientation": "EOrientation::Orient_Horizontal",
+      "ScrollIntoViewAlignment": "EScrollIntoViewAlignment::TopOrLeft",
+      "EntryWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'HawkPass_Pass_slot_C'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/HawkPass_Pass_slot.72"
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_128.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.20"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "FreeItemText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "92563553473B84F5333B0092206EA1A5",
+        "SourceString": "무료",
+        "LocalizedString": "무료"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.545725,
+          "G": 0.496933,
+          "B": 0.412543,
+          "A": 1.0,
+          "Hex": "C3BBAC"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.4,
+            "Hex": "66000000"
+          }
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBScaleBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBScaleBox_0.CBScaleBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.57"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "HawkPassRuleText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "4F1A66EF49F00E8D26D7EE8582C33B03",
+        "SourceString": "호크 패스 규칙",
+        "LocalizedString": "호크 패스 규칙"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.4,
+            "Hex": "66000000"
+          }
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBHorizontalBox_65.CBHorizontalBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.26"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "PremiumItemText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "6917097946DFEC215B5EF2B62FA8CB6E",
+        "SourceString": "프리",
+        "LocalizedString": "프리"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.545725,
+          "G": 0.496933,
+          "B": 0.412543,
+          "A": 1.0,
+          "Hex": "C3BBAC"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.4,
+            "Hex": "66000000"
+          }
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBScaleBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBScaleBox_1.CBScaleBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.58"
+      }
+    }
+  },
+  {
+    "Type": "EToolTipPosition",
+    "Name": "Tooltip_Rule",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EToolTipPosition'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "ViewType": "EToolTipViewType::ProfileTooltip",
+      "PTType": "EToolTipPTType::ProfileTooltip",
+      "_EnableChangeButtonGroupIndex": true,
+      "_UIShowChangeButtonGroupIndex": 1,
+      "NotCloseToolTipWidget": true
+    }
+  },
+  {
+    "Type": "EToolTipPosition",
+    "Name": "ToolTipPosition",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EToolTipPosition'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Properties": {
+      "ViewType": "EToolTipViewType::ItemInfoToolTip",
+      "PTType": "EToolTipPTType::ItemInfoToolTip",
+      "AttachType": "EToolTipAttachType::ToolTipPositionWidget",
+      "IsSetCoordOnBP": false,
+      "_EnableChangeButtonGroupIndex": true,
+      "_UIShowChangeButtonGroupIndex": 1,
+      "ToolTipText": {
+        "CurrencyCode": null,
+        "SourceValue": {
+          "Type": 0,
+          "Value": 4294967296
+        },
+        "FormatOptions": null,
+        "TargetCulture": ""
+      },
+      "AccessibleWidgetData": null
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Widget_HawkPass_Pass_PassItemListView_K2Node_ComponentBoundEvent_0_OnItemIsHoveredChangedDynamic__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_HawkPass_Pass_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.120"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Item",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsHovered",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Widget_HawkPass_Pass",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_HawkPass_Pass_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.120"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bIsHovered",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_GetCachedWidgetItem_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'OGPadfocusListView'",
+          "ObjectPath": "/Script/ACInputModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCachedWidgetItem_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'UserWidget'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsHawk_Pass_Pass_Slot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'HawkPass_Pass_slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/HawkPass_Pass_slot.72"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "HawkPass_Pass_slot02_C",
+    "Name": "FocusRewardSlot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/HawkPass_Pass_slot02.HawkPass_Pass_slot02_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Template": {
+      "ObjectName": "HawkPass_Pass_slot02_C'Default__HawkPass_Pass_slot02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/HawkPass_Pass_slot02.57"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Widget_HawkPass_Pass_C:WidgetTree.CBOverlay_213.CBOverlaySlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.45"
+      }
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Hide",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Widget_HawkPass_Pass_C:Anim_Hide_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.118"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "D1F38319-4EBD1AAB-A3F87A98-2C4B87B6",
+          "Name": "CBVerticalBox_32",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "D1F38319-4EBD1AAB-A3F87A98-2C4B87B6",
+          "BindingName": "CBVerticalBox_32",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.98"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.112"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "ACC095B8-4BE842F1-EE10EAA5-D15F22C1"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Show",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Widget_HawkPass_Pass_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.119"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "14A6B4EF-42CB3C60-B06A04AB-C210AF20",
+          "Name": "CBVerticalBox_32",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "14A6B4EF-42CB3C60-B06A04AB-C210AF20",
+          "BindingName": "CBVerticalBox_32",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.113"
+            },
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.99"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "EB622B5E-4265A812-43F71683-2D5B70F9"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.98"
+    },
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 200.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.100"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.101"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "A67B67A9-4C98313C-B99D9A91-362B6802"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.99"
+    },
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 200.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.104"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.105"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "4962667B-465ECEAD-C41CC9B5-9C1F1195"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.94"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.96"
+        }
+      ],
+      "EvaluationFieldGuid": "4B05652C-4C134741-3D051483-50668D74",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.96"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "4B05652C-4C134741-3D051483-50668D74"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.95"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.97"
+        }
+      ],
+      "EvaluationFieldGuid": "EB98EE9F-4B16766D-2A0E89AB-0704450B",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.97"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "EB98EE9F-4B16766D-2A0E89AB-0704450B"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.96"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.96"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.110"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.110"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.97"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.97"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.111"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.111"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Widget_HawkPass_Pass_C:Anim_Hide_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.118"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 15000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.96"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.110"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "D1F38319-4EBD1AAB-A3F87A98-2C4B87B6"
+          },
+          {
+            "ObjectBindingID": "D1F38319-4EBD1AAB-A3F87A98-2C4B87B6"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 15000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "EAD060F7-4A5E51F6-4B93B48B-D33B4883",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Widget_HawkPass_Pass_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.119"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 15000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.111"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.97"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "14A6B4EF-42CB3C60-B06A04AB-C210AF20"
+          },
+          {
+            "ObjectBindingID": "14A6B4EF-42CB3C60-B06A04AB-C210AF20"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 15000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "742C3501-41650037-FDADA593-FD42491A",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.112"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.102"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.103"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "BB7D1B76-41ED70F1-74B9F4AB-871C3519"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.113"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.106"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.107"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "06958401-428B24EF-13DDE8B4-4197A82F"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.94"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.110"
+        }
+      ],
+      "EvaluationFieldGuid": "2A288DBA-42242ABF-459E29A6-F465815B",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.110"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "2A288DBA-42242ABF-459E29A6-F465815B"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.95"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.111"
+        }
+      ],
+      "EvaluationFieldGuid": "230EF17A-4932E010-7DC6E290-1501663C",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.111"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "230EF17A-4932E010-7DC6E290-1501663C"
+    }
+  },
+  {
+    "Type": "Reddot03_C",
+    "Name": "ReceiveAllBtnReddot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Reddot03.Reddot03_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Template": {
+      "ObjectName": "Reddot03_C'Default__Reddot03_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Reddot03.9"
+    }
+  },
+  {
+    "Type": "Widget_HawkPass_Level_C",
+    "Name": "Widget_HawkPass_Level",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Level.Widget_HawkPass_Level_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Template": {
+      "ObjectName": "Widget_HawkPass_Level_C'Default__Widget_HawkPass_Level_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Level.71"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Widget_HawkPass_Pass_C:WidgetTree.CBVerticalBox_32.CBVerticalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.80"
+      }
+    }
+  },
+  {
+    "Type": "Widget_HawkPass_Pass_C",
+    "Name": "Default__Widget_HawkPass_Pass_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.Widget_HawkPass_Pass_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "Widget_Seasonpass_C",
+    "Name": "Widget_Seasonpass",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_Seasonpass.Widget_Seasonpass_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+    },
+    "Template": {
+      "ObjectName": "Widget_Seasonpass_C'Default__Widget_Seasonpass_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_Seasonpass.109"
+    },
+    "Properties": {
+      "bIsPadFocus": false,
+      "InputTableTID": "UI_PAD_R1",
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_HawkPass_Pass_C:WidgetTree.Contents.CBCanvasPanelSlot_8'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.12"
+      },
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Hide_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_HawkPass_Pass_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.120"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Widget_HawkPass_Pass_C:Anim_Hide_INST.Anim_Hide'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.94"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CBVerticalBox_32",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "D1F38319-4EBD1AAB-A3F87A98-2C4B87B6",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Hide",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Widget_HawkPass_Pass_C:Anim_Hide_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.108"
+      },
+      "Signature": "EAD060F7-4A5E51F6-4B93B48B-D33B4883"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Show_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_HawkPass_Pass_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.120"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Widget_HawkPass_Pass_C:Anim_Show_INST.Anim_Show'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.95"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CBVerticalBox_32",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "14A6B4EF-42CB3C60-B06A04AB-C210AF20",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Show",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Widget_HawkPass_Pass_C:Anim_Show_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.109"
+      },
+      "Signature": "742C3501-41650037-FDADA593-FD42491A"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Widget_HawkPass_Pass_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Widget_HawkPass_Pass_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.121"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'Widget_HawkPass_Pass_C:Anim_Show_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.119"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Widget_HawkPass_Pass_C:Anim_Hide_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.118"
+        }
+      ],
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'Widget_HawkPass_Pass_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.84"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'Widget_HawkPass_Pass_C:ExecuteUbergraph_Widget_HawkPass_Pass'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.92"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWidget_HawkPass_Pass'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Widget_HawkPass_Pass_C:BndEvt__Widget_HawkPass_Pass_PassItemListView_K2Node_ComponentBoundEvent_0_OnItemIsHoveredChangedDynamic__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.91"
+      },
+      {
+        "ObjectName": "Function'Widget_HawkPass_Pass_C:ExecuteUbergraph_Widget_HawkPass_Pass'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.92"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBImage_144",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Bg",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Bg_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Bg_01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Bg_02",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Free_icon",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Icon_lock_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Line",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Line_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Line_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "RichTextBlock_Input",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBRichTextBlock'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "RichTextBlock_Input_Premium",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBRichTextBlock'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Widget_HawkPass_Pass": {
+        "ObjectName": "Function'Widget_HawkPass_Pass_C:ExecuteUbergraph_Widget_HawkPass_Pass'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.92"
+      },
+      "BndEvt__Widget_HawkPass_Pass_PassItemListView_K2Node_ComponentBoundEvent_0_OnItemIsHoveredChangedDynamic__DelegateSignature": {
+        "ObjectName": "Function'Widget_HawkPass_Pass_C:BndEvt__Widget_HawkPass_Pass_PassItemListView_K2Node_ComponentBoundEvent_0_OnItemIsHoveredChangedDynamic__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.91"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Widget_HawkPass_Pass_C'Default__Widget_HawkPass_Pass_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.116"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_HawkPass_Pass_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.120"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBSizeBox'Widget_HawkPass_Pass_C:WidgetTree.CBSizeBox_27'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/HawkPass/Widget_HawkPass_Pass.64"
+      }
+    }
+  }
+]

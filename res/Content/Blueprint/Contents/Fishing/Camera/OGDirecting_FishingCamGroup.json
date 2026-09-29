@@ -1,0 +1,2115 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "OGDirecting_FishingCamGroup_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.52"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:ExecuteUbergraph_OGDirecting_FishingCamGroup'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.17"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:SetCamViewTarget'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.25"
+      },
+      {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:ChangeFishCameraFunc'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.15"
+      },
+      {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:FishingCamEnd'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.20"
+      },
+      {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:FishingCamStart'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.21"
+      },
+      {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:SetFishingStartCamTransform'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.26"
+      },
+      {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:AddCamera'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.13"
+      },
+      {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:InitCameraActor'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.22"
+      },
+      {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:DestroyFishingCam'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.16"
+      },
+      {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:StartFishingCam'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.28"
+      },
+      {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.23"
+      },
+      {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:ExitFishingCam'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.18"
+      },
+      {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:SetFishingState'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.27"
+      },
+      {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:ChangeFishCamera'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.14"
+      },
+      {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:FishCamInterpToMove'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.19"
+      },
+      {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.24"
+      },
+      {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:ExecuteUbergraph_OGDirecting_FishingCamGroup'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.17"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MatchCamera",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ChildActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Scene",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FishStartCamera",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ChildActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ResultCamera",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ChildActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FishCatchCamera",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ChildActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CastingCamera",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ChildActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MiniGameCamera",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ChildActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "CameraActorArray",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 80,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "KeyProp": {
+          "Type": "EnumProperty",
+          "Name": "CameraActorArray",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": {
+            "ObjectName": "Enum'EFishingCameraType'",
+            "ObjectPath": "/Script/ACCoreModule"
+          },
+          "UnderlyingProp": {
+            "Type": "ByteProperty",
+            "Name": "UnderlyingType",
+            "Flags": "RF_Public",
+            "ElementSize": 1,
+            "Enum": null
+          }
+        },
+        "ValueProp": {
+          "Type": "ObjectProperty",
+          "Name": "CameraActorArray_Value",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCam_C'",
+            "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.0"
+          }
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CamDestroyBlendTime",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CurrentSelectCamType",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Enum": {
+          "ObjectName": "Enum'EFishingCameraType'",
+          "ObjectPath": "/Script/ACCoreModule"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsInterpToMoving",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "MoveDestPosition",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 24,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_OGDirecting_FishingCamGroup": {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:ExecuteUbergraph_OGDirecting_FishingCamGroup'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.17"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.24"
+      },
+      "FishCamInterpToMove": {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:FishCamInterpToMove'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.19"
+      },
+      "ChangeFishCamera": {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:ChangeFishCamera'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.14"
+      },
+      "SetFishingState": {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:SetFishingState'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.27"
+      },
+      "ExitFishingCam": {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:ExitFishingCam'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.18"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.23"
+      },
+      "StartFishingCam": {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:StartFishingCam'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.28"
+      },
+      "DestroyFishingCam": {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:DestroyFishingCam'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.16"
+      },
+      "InitCameraActor": {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:InitCameraActor'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.22"
+      },
+      "AddCamera": {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:AddCamera'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.13"
+      },
+      "SetFishingStartCamTransform": {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:SetFishingStartCamTransform'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.26"
+      },
+      "FishingCamStart": {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:FishingCamStart'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.21"
+      },
+      "FishingCamEnd": {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:FishingCamEnd'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.20"
+      },
+      "ChangeFishCameraFunc": {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:ChangeFishCameraFunc'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.15"
+      },
+      "SetCamViewTarget": {
+        "ObjectName": "Function'OGDirecting_FishingCamGroup_C:SetCamViewTarget'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.25"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "OGDirecting_FishingCamGroup_C'Default__OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.35"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "CameraComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CameraComponent'",
+    "Outer": {
+      "ObjectName": "OGDirecting_FishingCam_C'OGDirecting_FishingCamGroup_C:CastingCamera_GEN_VARIABLE.CastingCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.29"
+    },
+    "Template": {
+      "ObjectName": "CameraComponent'Default__OGDirecting_FishingCam_C:CameraComponent'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.1"
+    },
+    "Properties": {
+      "FieldOfView": 70.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:CastingCamera_GEN_VARIABLE.CastingCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.36"
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "CameraComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CameraComponent'",
+    "Outer": {
+      "ObjectName": "OGDirecting_FishingCam_C'OGDirecting_FishingCamGroup_C:FishCatchCamera_GEN_VARIABLE.FishCatchCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.30"
+    },
+    "Template": {
+      "ObjectName": "CameraComponent'Default__OGDirecting_FishingCam_C:CameraComponent'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.1"
+    },
+    "Properties": {
+      "FieldOfView": 100.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:FishCatchCamera_GEN_VARIABLE.FishCatchCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.38"
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "CameraComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CameraComponent'",
+    "Outer": {
+      "ObjectName": "OGDirecting_FishingCam_C'OGDirecting_FishingCamGroup_C:FishStartCamera_GEN_VARIABLE.FishStartCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.31"
+    },
+    "Template": {
+      "ObjectName": "CameraComponent'Default__OGDirecting_FishingCam_C:CameraComponent'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:FishStartCamera_GEN_VARIABLE.FishStartCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.39"
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "CameraComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CameraComponent'",
+    "Outer": {
+      "ObjectName": "OGDirecting_FishingCam_C'OGDirecting_FishingCamGroup_C:MatchCamera_GEN_VARIABLE.FishStartCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.32"
+    },
+    "Template": {
+      "ObjectName": "CameraComponent'Default__OGDirecting_FishingCam_C:CameraComponent'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:MatchCamera_GEN_VARIABLE.FishStartCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.40"
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "CameraComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CameraComponent'",
+    "Outer": {
+      "ObjectName": "OGDirecting_FishingCam_C'OGDirecting_FishingCamGroup_C:MiniGameCamera_GEN_VARIABLE.MiniGameCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.33"
+    },
+    "Template": {
+      "ObjectName": "CameraComponent'Default__OGDirecting_FishingCam_C:CameraComponent'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.1"
+    },
+    "Properties": {
+      "FieldOfView": 95.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:MiniGameCamera_GEN_VARIABLE.MiniGameCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.41"
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "CameraComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CameraComponent'",
+    "Outer": {
+      "ObjectName": "OGDirecting_FishingCam_C'OGDirecting_FishingCamGroup_C:ResultCamera_GEN_VARIABLE.ResultCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.34"
+    },
+    "Template": {
+      "ObjectName": "CameraComponent'Default__OGDirecting_FishingCam_C:CameraComponent'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.1"
+    },
+    "Properties": {
+      "FieldOfView": 68.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:ResultCamera_GEN_VARIABLE.ResultCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.42"
+      }
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "CastingCamera_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "Properties": {
+      "ChildActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCam_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.0"
+      },
+      "ChildActorTemplate": {
+        "ObjectName": "OGDirecting_FishingCam_C'OGDirecting_FishingCamGroup_C:CastingCamera_GEN_VARIABLE.CastingCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.29"
+      },
+      "RelativeLocation": {
+        "X": -344.0063,
+        "Y": 174.4645,
+        "Z": 88.340744
+      },
+      "RelativeRotation": {
+        "Pitch": 9.846552,
+        "Yaw": -10.151082,
+        "Roll": -1.7537835
+      }
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "FishCatchCamera_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "Properties": {
+      "ChildActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCam_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.0"
+      },
+      "ChildActorTemplate": {
+        "ObjectName": "OGDirecting_FishingCam_C'OGDirecting_FishingCamGroup_C:FishCatchCamera_GEN_VARIABLE.FishCatchCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.30"
+      },
+      "RelativeLocation": {
+        "X": -197.998,
+        "Y": 59.030766,
+        "Z": -7.331298
+      },
+      "RelativeRotation": {
+        "Pitch": 22.337496,
+        "Yaw": -2.0664089,
+        "Roll": -0.5314725
+      }
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "FishStartCamera_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "Properties": {
+      "ChildActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCam_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.0"
+      },
+      "ChildActorTemplate": {
+        "ObjectName": "OGDirecting_FishingCam_C'OGDirecting_FishingCamGroup_C:FishStartCamera_GEN_VARIABLE.FishStartCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.31"
+      },
+      "RelativeLocation": {
+        "X": -290.8903,
+        "Y": 0.0,
+        "Z": 149.82404
+      },
+      "RelativeRotation": {
+        "Pitch": -10.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "MatchCamera_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "Properties": {
+      "ChildActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCam_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.0"
+      },
+      "ChildActorTemplate": {
+        "ObjectName": "OGDirecting_FishingCam_C'OGDirecting_FishingCamGroup_C:MatchCamera_GEN_VARIABLE.FishStartCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.32"
+      },
+      "RelativeLocation": {
+        "X": -400.0,
+        "Y": 0.0,
+        "Z": 300.0
+      },
+      "RelativeRotation": {
+        "Pitch": -30.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "MiniGameCamera_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "Properties": {
+      "ChildActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCam_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.0"
+      },
+      "ChildActorTemplate": {
+        "ObjectName": "OGDirecting_FishingCam_C'OGDirecting_FishingCamGroup_C:MiniGameCamera_GEN_VARIABLE.MiniGameCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.33"
+      },
+      "RelativeLocation": {
+        "X": -190.45074,
+        "Y": 121.86494,
+        "Z": 97.39964
+      },
+      "RelativeRotation": {
+        "Pitch": -6.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "ResultCamera_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "Properties": {
+      "ChildActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCam_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.0"
+      },
+      "ChildActorTemplate": {
+        "ObjectName": "OGDirecting_FishingCam_C'OGDirecting_FishingCamGroup_C:ResultCamera_GEN_VARIABLE.ResultCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.34"
+      },
+      "RelativeLocation": {
+        "X": 109.98009,
+        "Y": 101.620674,
+        "Z": 20.033226
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0042333365,
+        "Yaw": 230.15298,
+        "Roll": 0.017393984
+      },
+      "PrimaryComponentTick": {
+        "TickInterval": 1.0
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "AddCamera",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CameraActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CameraType",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Enum'EFishingCameraType'",
+          "ObjectPath": "/Script/ACCoreModule"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsOGDirecting_Fishing_Cam",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCam_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ChangeFishCamera",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "FishingCameraType",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ChangeFishCameraFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "FishCamType",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Enum'EFishingCameraType'",
+          "ObjectPath": "/Script/ACCoreModule"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerController_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PlayerController'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCam_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "DestroyFishingCam",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_OGDirecting_FishingCamGroup",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_OGGetUECamera_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'UECamera'",
+          "ObjectPath": "/Script/ACActorModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerController_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PlayerController'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_CustomEvent_FishingState",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_Conv_IntToByte_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": null
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchInteger_CmpSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_GetValidValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": null
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_CustomEvent_FishingCameraType",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_Conv_IntToByte_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": null
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_GetValidValue_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": null
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "K2Node_CustomEvent_X",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "K2Node_CustomEvent_Y",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "K2Node_CustomEvent_Z",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_VInterpTo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetActorLocation_SweepHitResult",
+        "Flags": "RF_Public",
+        "ElementSize": 264,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_K2_SetActorLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Vector_Distance_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetActorLocation_SweepHitResult_1",
+        "Flags": "RF_Public",
+        "ElementSize": 264,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_K2_SetActorLocation_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExitFishingCam",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "FishCamInterpToMove",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "DoubleProperty",
+        "Name": "X",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Y",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Z",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "FishingCamEnd",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerController_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PlayerController'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsOGDirecting_Fishing_Cam",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCam_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetViewTargetWithBlend_BlendTime_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetViewTargetWithBlend_BlendExp_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "FishingCamStart",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerController_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PlayerController'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsOGDirecting_Fishing_Cam",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCam_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetViewTargetWithBlend_BlendExp_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "InitCameraActor",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetCamViewTarget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "New View Target",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Blend Time",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Blend Func",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": null
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Blend Exp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Fish Cam Type",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Enum'EFishingCameraType'",
+          "ObjectPath": "/Script/ACCoreModule"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ByteByte_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_GetValidValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": null
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerController_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PlayerController'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetFishingBaitPosition_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetWorldLocation_SweepHitResult",
+        "Flags": "RF_Public",
+        "ElementSize": 264,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_GetValidValue_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": null
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerController_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PlayerController'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetViewTargetWithBlend_BlendExp_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetViewTargetWithBlend_BlendTime_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetViewTargetWithBlend_BlendExp_ImplicitCast_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetViewTargetWithBlend_BlendTime_ImplicitCast_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetFishingStartCamTransform",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_OGGetUECamera_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'UECamera'",
+          "ObjectPath": "/Script/ACActorModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetComponentByClass_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'CameraComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetComponentByClass_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'CameraComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetFishingState",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "FishingState",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "StartFishingCam",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "OGDirecting_FishingCam_C",
+    "Name": "CastingCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.OGDirecting_FishingCam_C'",
+    "Outer": {
+      "ObjectName": "ChildActorComponent'OGDirecting_FishingCamGroup_C:CastingCamera_GEN_VARIABLE'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.7"
+    },
+    "Template": {
+      "ObjectName": "OGDirecting_FishingCam_C'Default__OGDirecting_FishingCam_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.4"
+    },
+    "Properties": {
+      "BlendTime": 0.5,
+      "Blend Option": "EViewTargetBlendFunction::VTBlend_EaseOut",
+      "Blend Option Exp": 2.0,
+      "CameraComponent": {
+        "ObjectName": "CameraComponent'OGDirecting_FishingCamGroup_C:CastingCamera_GEN_VARIABLE.CastingCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.CameraComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.1"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:CastingCamera_GEN_VARIABLE.CastingCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.36"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:CastingCamera_GEN_VARIABLE.CastingCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.36"
+      }
+    },
+    "ActorLabel": "OGDirecting_FishingCam-1",
+    "ActorInstanceGuid": {
+      "ActorGuid": "00000000-00000000-00000000-00000000",
+      "ActorInstanceGuid": "00000000-00000000-00000000-00000000"
+    }
+  },
+  {
+    "Type": "OGDirecting_FishingCam_C",
+    "Name": "FishCatchCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.OGDirecting_FishingCam_C'",
+    "Outer": {
+      "ObjectName": "ChildActorComponent'OGDirecting_FishingCamGroup_C:FishCatchCamera_GEN_VARIABLE'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.8"
+    },
+    "Template": {
+      "ObjectName": "OGDirecting_FishingCam_C'Default__OGDirecting_FishingCam_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.4"
+    },
+    "Properties": {
+      "BlendTime": 2.0,
+      "FishingCamType": "EFishingCameraType::FishCatchCamera",
+      "Blend Option": "EViewTargetBlendFunction::VTBlend_EaseInOut",
+      "Blend Option Exp": 10.0,
+      "CameraComponent": {
+        "ObjectName": "CameraComponent'OGDirecting_FishingCamGroup_C:FishCatchCamera_GEN_VARIABLE.FishCatchCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.CameraComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.2"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:FishCatchCamera_GEN_VARIABLE.FishCatchCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.38"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:FishCatchCamera_GEN_VARIABLE.FishCatchCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.38"
+      }
+    },
+    "ActorLabel": "OGDirecting_FishingCam-1",
+    "ActorInstanceGuid": {
+      "ActorGuid": "00000000-00000000-00000000-00000000",
+      "ActorInstanceGuid": "00000000-00000000-00000000-00000000"
+    }
+  },
+  {
+    "Type": "OGDirecting_FishingCam_C",
+    "Name": "FishStartCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.OGDirecting_FishingCam_C'",
+    "Outer": {
+      "ObjectName": "ChildActorComponent'OGDirecting_FishingCamGroup_C:FishStartCamera_GEN_VARIABLE'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.9"
+    },
+    "Template": {
+      "ObjectName": "OGDirecting_FishingCam_C'Default__OGDirecting_FishingCam_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.4"
+    },
+    "Properties": {
+      "BlendTime": 0.5,
+      "FishingCamType": "EFishingCameraType::Max",
+      "CameraComponent": {
+        "ObjectName": "CameraComponent'OGDirecting_FishingCamGroup_C:FishStartCamera_GEN_VARIABLE.FishStartCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.CameraComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.3"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:FishStartCamera_GEN_VARIABLE.FishStartCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.39"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:FishStartCamera_GEN_VARIABLE.FishStartCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.39"
+      }
+    },
+    "ActorLabel": "OGDirecting_FishingCam-1",
+    "ActorInstanceGuid": {
+      "ActorGuid": "00000000-00000000-00000000-00000000",
+      "ActorInstanceGuid": "00000000-00000000-00000000-00000000"
+    }
+  },
+  {
+    "Type": "OGDirecting_FishingCam_C",
+    "Name": "FishStartCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.OGDirecting_FishingCam_C'",
+    "Outer": {
+      "ObjectName": "ChildActorComponent'OGDirecting_FishingCamGroup_C:MatchCamera_GEN_VARIABLE'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.10"
+    },
+    "Template": {
+      "ObjectName": "OGDirecting_FishingCam_C'Default__OGDirecting_FishingCam_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.4"
+    },
+    "Properties": {
+      "BlendTime": 0.4,
+      "FishingCamType": "EFishingCameraType::Max",
+      "Blend Option": "EViewTargetBlendFunction::VTBlend_EaseIn",
+      "Blend Option Exp": 1.0,
+      "CameraComponent": {
+        "ObjectName": "CameraComponent'OGDirecting_FishingCamGroup_C:MatchCamera_GEN_VARIABLE.FishStartCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.CameraComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.4"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:MatchCamera_GEN_VARIABLE.FishStartCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.40"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:MatchCamera_GEN_VARIABLE.FishStartCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.40"
+      }
+    },
+    "ActorLabel": "OGDirecting_FishingCam-1",
+    "ActorInstanceGuid": {
+      "ActorGuid": "00000000-00000000-00000000-00000000",
+      "ActorInstanceGuid": "00000000-00000000-00000000-00000000"
+    }
+  },
+  {
+    "Type": "OGDirecting_FishingCam_C",
+    "Name": "MiniGameCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.OGDirecting_FishingCam_C'",
+    "Outer": {
+      "ObjectName": "ChildActorComponent'OGDirecting_FishingCamGroup_C:MiniGameCamera_GEN_VARIABLE'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.11"
+    },
+    "Template": {
+      "ObjectName": "OGDirecting_FishingCam_C'Default__OGDirecting_FishingCam_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.4"
+    },
+    "Properties": {
+      "BlendTime": 0.35,
+      "FishingCamType": "EFishingCameraType::MiniGameCamera",
+      "Blend Option": "EViewTargetBlendFunction::VTBlend_EaseInOut",
+      "Blend Option Exp": 2.0,
+      "CameraComponent": {
+        "ObjectName": "CameraComponent'OGDirecting_FishingCamGroup_C:MiniGameCamera_GEN_VARIABLE.MiniGameCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.CameraComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.5"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:MiniGameCamera_GEN_VARIABLE.MiniGameCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.41"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:MiniGameCamera_GEN_VARIABLE.MiniGameCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.41"
+      }
+    },
+    "ActorLabel": "OGDirecting_FishingCam-1",
+    "ActorInstanceGuid": {
+      "ActorGuid": "00000000-00000000-00000000-00000000",
+      "ActorInstanceGuid": "00000000-00000000-00000000-00000000"
+    }
+  },
+  {
+    "Type": "OGDirecting_FishingCam_C",
+    "Name": "ResultCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.OGDirecting_FishingCam_C'",
+    "Outer": {
+      "ObjectName": "ChildActorComponent'OGDirecting_FishingCamGroup_C:ResultCamera_GEN_VARIABLE'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.12"
+    },
+    "Template": {
+      "ObjectName": "OGDirecting_FishingCam_C'Default__OGDirecting_FishingCam_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.4"
+    },
+    "Properties": {
+      "FishingCamType": "EFishingCameraType::ResultCamera",
+      "CameraComponent": {
+        "ObjectName": "CameraComponent'OGDirecting_FishingCamGroup_C:ResultCamera_GEN_VARIABLE.ResultCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.CameraComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.6"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:ResultCamera_GEN_VARIABLE.ResultCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.42"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:ResultCamera_GEN_VARIABLE.ResultCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT.SceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.42"
+      }
+    },
+    "ActorLabel": "OGDirecting_FishingCam-1",
+    "ActorInstanceGuid": {
+      "ActorGuid": "00000000-00000000-00000000-00000000",
+      "ActorInstanceGuid": "00000000-00000000-00000000-00000000"
+    }
+  },
+  {
+    "Type": "OGDirecting_FishingCamGroup_C",
+    "Name": "Default__OGDirecting_FishingCamGroup_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.OGDirecting_FishingCamGroup_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup",
+    "Properties": {
+      "UberGraphFrame": {},
+      "CamDestroyBlendTime": 0.5,
+      "CurrentSelectCamType": "EFishingCameraType::Max",
+      "MoveDestPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "PrimaryActorTick": {
+        "bCanEverTick": true
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "OGDirecting_FishingCam_C'OGDirecting_FishingCamGroup_C:CastingCamera_GEN_VARIABLE.CastingCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.29"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__OGDirecting_FishingCam_C:SceneComponent'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.5"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "OGDirecting_FishingCam_C'OGDirecting_FishingCamGroup_C:FishCatchCamera_GEN_VARIABLE.FishCatchCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.30"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__OGDirecting_FishingCam_C:SceneComponent'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.5"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "OGDirecting_FishingCam_C'OGDirecting_FishingCamGroup_C:FishStartCamera_GEN_VARIABLE.FishStartCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.31"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__OGDirecting_FishingCam_C:SceneComponent'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.5"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "OGDirecting_FishingCam_C'OGDirecting_FishingCamGroup_C:MatchCamera_GEN_VARIABLE.FishStartCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.32"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__OGDirecting_FishingCam_C:SceneComponent'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.5"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "OGDirecting_FishingCam_C'OGDirecting_FishingCamGroup_C:MiniGameCamera_GEN_VARIABLE.MiniGameCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.33"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__OGDirecting_FishingCam_C:SceneComponent'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.5"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "OGDirecting_FishingCam_C'OGDirecting_FishingCamGroup_C:ResultCamera_GEN_VARIABLE.ResultCamera_GEN_VARIABLE_OGDirecting_FishingCam_C_CAT'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.34"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__OGDirecting_FishingCam_C:SceneComponent'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCam.5"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "Properties": {
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.52"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.37"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.45"
+        },
+        {
+          "ObjectName": "SCS_Node'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.46"
+        },
+        {
+          "ObjectName": "SCS_Node'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.47"
+        },
+        {
+          "ObjectName": "SCS_Node'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.48"
+        },
+        {
+          "ObjectName": "SCS_Node'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.50"
+        },
+        {
+          "ObjectName": "SCS_Node'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.51"
+        }
+      ],
+      "VariableGUID": "D2ADD978-477B824E-1FEA0BB6-BA5910E8",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.52"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ChildActorComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ChildActorComponent'OGDirecting_FishingCamGroup_C:MiniGameCamera_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.11"
+      },
+      "VariableGUID": "CF196305-4D1CF1F6-FA0E9C97-8C86EE87",
+      "InternalVariableName": "MiniGameCamera"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.52"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ChildActorComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ChildActorComponent'OGDirecting_FishingCamGroup_C:CastingCamera_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.7"
+      },
+      "VariableGUID": "A4435553-4CD31E49-64439CA4-15DEB65B",
+      "InternalVariableName": "CastingCamera"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.52"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ChildActorComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ChildActorComponent'OGDirecting_FishingCamGroup_C:FishCatchCamera_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.8"
+      },
+      "VariableGUID": "F3E9873E-49213B0B-7972C1BF-00C919A8",
+      "InternalVariableName": "FishCatchCamera"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.52"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ChildActorComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ChildActorComponent'OGDirecting_FishingCamGroup_C:ResultCamera_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.12"
+      },
+      "VariableGUID": "6E909C51-4FFD0F24-BCE1B69A-166E9D01",
+      "InternalVariableName": "ResultCamera"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.52"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ChildActorComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ChildActorComponent'OGDirecting_FishingCamGroup_C:MatchCamera_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.10"
+      },
+      "VariableGUID": "B6DBD241-46300139-491222A3-CF45479C",
+      "InternalVariableName": "MatchCamera"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.52"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ChildActorComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ChildActorComponent'OGDirecting_FishingCamGroup_C:FishStartCamera_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.9"
+      },
+      "VariableGUID": "1CDDC872-4450F2FF-FA9D4E8D-6A4CDED5",
+      "InternalVariableName": "FishStartCamera"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.52"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'OGDirecting_FishingCamGroup_C:Scene_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.43"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.49"
+        }
+      ],
+      "VariableGUID": "8E07EBA7-467337A3-4A046B8E-8A5F645A",
+      "InternalVariableName": "Scene"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OGDirecting_FishingCamGroup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.44"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.44"
+        },
+        {
+          "ObjectName": "SCS_Node'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.45"
+        },
+        {
+          "ObjectName": "SCS_Node'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.46"
+        },
+        {
+          "ObjectName": "SCS_Node'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.47"
+        },
+        {
+          "ObjectName": "SCS_Node'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.48"
+        },
+        {
+          "ObjectName": "SCS_Node'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.50"
+        },
+        {
+          "ObjectName": "SCS_Node'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.51"
+        },
+        {
+          "ObjectName": "SCS_Node'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.49"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'OGDirecting_FishingCamGroup_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Fishing/Camera/OGDirecting_FishingCamGroup.44"
+      }
+    }
+  }
+]

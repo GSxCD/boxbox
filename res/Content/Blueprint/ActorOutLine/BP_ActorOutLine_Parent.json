@@ -1,0 +1,1080 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ActorOutLine_Parent_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ActorOutLine_Parent_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.18"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:ExecuteUbergraph_BP_ActorOutLine_Parent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_StaticDropItem'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:OnPillarDeactive'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.8"
+      },
+      {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:OnPillarActive'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.7"
+      },
+      {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:OnTargetingStart'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.10"
+      },
+      {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:OnTargetingEnd'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.9"
+      },
+      {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:OnOutlineDeactive'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.6"
+      },
+      {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:OnOutlineActive'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.5"
+      },
+      {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.12"
+      },
+      {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.11"
+      },
+      {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:ChangeItemGrade'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.3"
+      },
+      {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:ExecuteUbergraph_BP_ActorOutLine_Parent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.4"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Sphere",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SphereComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DynamicMaterialInstance",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInstanceDynamic'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "UseCharacterOutline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "LineWidth",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "TargetingLineColor",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "ScriptStruct'LinearColor'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultOverlayMaterial",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInterface'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "UntargetingLineColor",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'LinearColor'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OriginalMID",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInstanceDynamic'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_ActorOutLine_Parent": {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:ExecuteUbergraph_BP_ActorOutLine_Parent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.4"
+      },
+      "ChangeItemGrade": {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:ChangeItemGrade'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.3"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.11"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.12"
+      },
+      "OnOutlineActive": {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:OnOutlineActive'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.5"
+      },
+      "OnOutlineDeactive": {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:OnOutlineDeactive'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.6"
+      },
+      "OnTargetingEnd": {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:OnTargetingEnd'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.9"
+      },
+      "OnTargetingStart": {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:OnTargetingStart'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.10"
+      },
+      "OnPillarActive": {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:OnPillarActive'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.7"
+      },
+      "OnPillarDeactive": {
+        "ObjectName": "Function'BP_ActorOutLine_Parent_C:OnPillarDeactive'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.8"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ActorOutLine_Parent_C'Default__BP_ActorOutLine_Parent_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_ActorOutLine_Parent_C",
+    "Name": "Default__BP_ActorOutLine_Parent_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.BP_ActorOutLine_Parent_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent",
+    "Properties": {
+      "UberGraphFrame": {},
+      "LineWidth": 1.0,
+      "TargetingLineColor": {
+        "R": 1.0,
+        "G": 0.69417,
+        "B": 0.203125,
+        "A": 1.0,
+        "Hex": "FFD97C"
+      },
+      "DefaultOverlayMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_Prop_Outline_Transparent'",
+        "ObjectPath": "SevenDeadlySins/Content/Materials/BG/MI_Prop_Outline_Transparent.0"
+      },
+      "UntargetingLineColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "FxNiagara": {
+        "ObjectName": "NiagaraComponent'Default__BP_ActorOutLine_Parent_C:FX'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.13"
+      },
+      "TransformCurveData": {
+        "Loop": true,
+        "ZValue_Min_Offset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 10.0
+        },
+        "RuntimeCurve_ZData": {
+          "EditorCurveData": {
+            "Keys": [
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_User",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 0.0,
+                "Value": 0.0,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              },
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_User",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 0.75,
+                "Value": 0.3,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              },
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_User",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 1.5,
+                "Value": 0.0,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              }
+            ]
+          }
+        }
+      },
+      "CoreMesh": {
+        "ObjectName": "CBStaticMeshComponent'Default__BP_ActorOutLine_Parent_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.2"
+      },
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_ActorOutLine_Parent_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.15"
+      },
+      "PrimaryActorTick": {
+        "bCanEverTick": true
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_ActorOutLine_Parent_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.15"
+      }
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_ActorOutLine_Parent_C'Default__BP_ActorOutLine_Parent_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.1"
+    },
+    "Properties": {
+      "OverlayMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_Prop_Outline_Transparent'",
+        "ObjectPath": "SevenDeadlySins/Content/Materials/BG/MI_Prop_Outline_Transparent.0"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_ActorOutLine_Parent_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.15"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ChangeItemGrade",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ActorOutLine_Parent_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UEActor_StaticDropItem:ChangeItemGrade'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Grade",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ActorOutLine_Parent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ActorOutLine_Parent_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_K2_GetScalarParameterValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_K2_GetScalarParameterValue_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOverlayMaterial_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInterface'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInstanceDynamic'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOverlayMaterial_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInterface'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInstanceDynamic'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDefineColorValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Color'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Conv_ColorToLinearColor_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct'LinearColor'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDefineColorValue_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Color'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Conv_ColorToLinearColor_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct'LinearColor'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Conv_LinearColorToVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Conv_LinearColorToVector_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Conv_LinearColorToVector_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_Event_Grade",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetMaterials_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetMaterials_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'MaterialInterface'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInterface'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInstanceDynamic'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_As______________",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInstanceDynamic'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetScalarParameterValue_Value_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnOutlineActive",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ActorOutLine_Parent_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnOutlineDeactive",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ActorOutLine_Parent_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnPillarActive",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ActorOutLine_Parent_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnPillarDeactive",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ActorOutLine_Parent_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTargetingEnd",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ActorOutLine_Parent_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTargetingStart",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ActorOutLine_Parent_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ActorOutLine_Parent_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ActorOutLine_Parent_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "FX",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_ActorOutLine_Parent_C'Default__BP_ActorOutLine_Parent_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.1"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_ns_drop_itemgrade'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/Common/System/Drop/fx_ns_drop_itemgrade.174"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Camera_Offset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Camera_Offset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "ItemGrade",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.ItemGrade",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Life",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Life",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "LifeTime",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.LifeTime",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 4,
+            "Name": "User.Camera_Offset",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 0,
+            "Name": "User.ItemGrade",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 12,
+            "Name": "User.Life",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 8,
+            "Name": "User.LifeTime",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          240,
+          65,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          128,
+          63
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "CBStaticMeshComponent'Default__BP_ActorOutLine_Parent_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.2"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ActorOutLine_Parent_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_ActorOutLine_Parent_C'Default__BP_ActorOutLine_Parent_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ActorOutLine_Parent_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ActorOutLine_Parent_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.14"
+      },
+      "VariableGUID": "6947BD54-49DF0CE4-78B58997-E22D70F1",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ActorOutLine_Parent_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SphereComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SphereComponent'BP_ActorOutLine_Parent_C:Sphere_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.19"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "B9B04C59-4475EF2E-57D034A0-55178EEF",
+      "InternalVariableName": "Sphere"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ActorOutLine_Parent_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ActorOutLine_Parent_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.17"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ActorOutLine_Parent_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.17"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ActorOutLine_Parent_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.16"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ActorOutLine_Parent_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/ActorOutLine/BP_ActorOutLine_Parent.0"
+    },
+    "Properties": {
+      "SphereRadius": 20.0,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel5",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "Object",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Object",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Trigger",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,3573 @@
+[
+  {
+    "Type": "CBButton",
+    "Name": "Button_Slot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Lockon_widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.65"
+    },
+    "Properties": {
+      "ColorAndOpacity": {
+        "R": 6.2080795E-36,
+        "G": 1.5283263E-36,
+        "B": 3.7911993E-37,
+        "A": 1.076E-42,
+        "Hex": "000000"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "FX_Glow",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Lockon_widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.65"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.40724,
+            "G": 0.304987,
+            "B": 0.171441,
+            "A": 1.0,
+            "Hex": "AB9673"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 60.0,
+          "Y": 60.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M_Touch_Mobile_Glow_Inst'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/Common/M_Touch_Mobile_Glow_Inst.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Lockon_widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.9"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible",
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "FX_Ring",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Lockon_widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.65"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.726002,
+            "B": 0.44439,
+            "A": 1.0,
+            "Hex": "FFDEB2"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'UI_Auto_003'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/Common/UI_Auto_003.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Lockon_widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.10"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible",
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "FX_Ring_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Lockon_widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.65"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.5,
+            "Hex": "7FFFFFFF"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 50.0,
+          "Y": 50.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Material'MAT_UI_Ring_Pulse_T'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat/Common/MAT_UI_Ring_Pulse_T.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Lockon_widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.7"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible",
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Cross",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Lockon_widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.65"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 115.0,
+          "Y": 115.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HUD_hud_aimguide'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HUD/Frames/HUD_hud_aimguide.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Lockon_widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.12"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Slot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Lockon_widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.65"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 80.0,
+          "Y": 80.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HUD_bg_qte2'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HUD/Frames/HUD_bg_qte2.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Lockon_widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.11"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "CBOverlay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Lockon_widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.65"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Lockon_widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_7'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.13"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Lockon_widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.8"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Lockon_widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.9"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Lockon_widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.10"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Lockon_widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.7"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Lockon_widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.11"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Lockon_widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.12"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Lockon_widget_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.6"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": -30.0,
+        "Top": -30.0,
+        "Right": -30.0,
+        "Bottom": -30.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Lockon_widget_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.6"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Lockon_widget_C:WidgetTree.FX_Ring_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.3"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Lockon_widget_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.6"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": -35.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "CBOverlay'Lockon_widget_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.6"
+      },
+      "Content": {
+        "ObjectName": "Widget_Key_Ex_RichText_C'Lockon_widget_C:WidgetTree.Widget_Key_Ex_RichText'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.61"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Lockon_widget_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.6"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": -10.0,
+        "Top": -10.0,
+        "Right": -10.0,
+        "Bottom": -10.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Lockon_widget_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.6"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Lockon_widget_C:WidgetTree.FX_Glow'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.1"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Lockon_widget_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.6"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": -5.0,
+        "Top": -5.0,
+        "Right": -5.0,
+        "Bottom": -5.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Lockon_widget_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.6"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Lockon_widget_C:WidgetTree.FX_Ring'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.2"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Lockon_widget_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.6"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Lockon_widget_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.6"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Lockon_widget_C:WidgetTree.Image_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.5"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Lockon_widget_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.6"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Lockon_widget_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.6"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Lockon_widget_C:WidgetTree.Image_Cross'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.4"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Lockon_widget_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.6"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Lockon_widget_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.6"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Lockon_widget_C:WidgetTree.Button_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.0"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Lockon_widget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Lockon_widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.64"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_NameToString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInitialized",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Lockon_widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.64"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:OnInitialized'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Lockon_widget_C",
+    "Name": "Default__Lockon_widget_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.Lockon_widget_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget",
+    "Properties": {
+      "UberGraphFrame": {},
+      "PressSoundTid": {
+        "Tid": "2000000"
+      },
+      "HoverSoundTid": {
+        "Tid": "2000115"
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_LockOff",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Lockon_widget_C:Anim_LockOff_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.62"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "3F34D09B-489E1A66-1B8AADB8-2C2DB736",
+          "Name": "FX_Ring_1",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "A5E48B74-4BAB344C-D3200080-D9D1AB25",
+          "Name": "Image_Slot",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "BDDF0047-45B89D0A-E9C5D38E-FC0450F4",
+          "Name": "FX_Glow",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "C8D149CC-4A0DB5E4-FB473380-73548400",
+          "Name": "FX_Ring",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "DD706080-40902398-9434B280-0391BCDB",
+          "Name": "Image_Cross",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "3F34D09B-489E1A66-1B8AADB8-2C2DB736",
+          "BindingName": "FX_Ring_1",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.55"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "A5E48B74-4BAB344C-D3200080-D9D1AB25",
+          "BindingName": "Image_Slot",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieScene2DTransformTrack_2'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.24"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "BDDF0047-45B89D0A-E9C5D38E-FC0450F4",
+          "BindingName": "FX_Glow",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_3'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.57"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "C8D149CC-4A0DB5E4-FB473380-73548400",
+          "BindingName": "FX_Ring",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_2'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.56"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "DD706080-40902398-9434B280-0391BCDB",
+          "BindingName": "Image_Cross",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.23"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 18001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "E6F34738-4F719369-9383588E-30996842"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_LockOn",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Lockon_widget_C:Anim_LockOn_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.63"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "20A1740E-493F8078-094C5A80-D61098A9",
+          "Name": "Image_Cross",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "8DFF5142-407C2300-CA2056BF-065CFF71",
+          "Name": "FX_Ring",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "963A17AE-4557F582-F46ADE82-5FBF1D1B",
+          "Name": "FX_Glow",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "C3AAA576-4B21110A-737A0C81-CAE646E5",
+          "Name": "Image_Slot",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "D031E42B-46BBE688-D1910FBD-76291320",
+          "Name": "FX_Ring_1",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "20A1740E-493F8078-094C5A80-D61098A9",
+          "BindingName": "Image_Cross",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.25"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "8DFF5142-407C2300-CA2056BF-065CFF71",
+          "BindingName": "FX_Ring",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_2'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.59"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "963A17AE-4557F582-F46ADE82-5FBF1D1B",
+          "BindingName": "FX_Glow",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_3'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.60"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "C3AAA576-4B21110A-737A0C81-CAE646E5",
+          "BindingName": "Image_Slot",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieScene2DTransformTrack_2'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.26"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "D031E42B-46BBE688-D1910FBD-76291320",
+          "BindingName": "FX_Ring_1",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.58"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 24001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "D5915F77-452C3397-A4A7D381-B7B3760D"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.23"
+    },
+    "Properties": {
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 18000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 45.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 15.0,
+            "Tangent": {
+              "ArriveTangent": -0.0025,
+              "LeaveTangent": -0.0025,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.27"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.28"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 18000
+            }
+          }
+        }
+      },
+      "Signature": "35CF8F20-4C6D226D-6EB253A2-C88BAB77"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieScene2DTransformTrack_2'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.24"
+    },
+    "Properties": {
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 6000
+          },
+          {
+            "Value": 18000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.85,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.85,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 6000
+          },
+          {
+            "Value": 18000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.85,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.85,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.29"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.30"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 18000
+            }
+          }
+        }
+      },
+      "Signature": "CA1C45B4-4A9E2ED9-0E07C9A2-BCC35AE6"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.25"
+    },
+    "Properties": {
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 12000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 45.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 12000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.8,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 12000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.8,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.37"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.38"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 24000
+            }
+          }
+        }
+      },
+      "Signature": "B36ACBE7-4D8BC357-BF89D189-5076A1DB"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieScene2DTransformTrack_2'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.26"
+    },
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Translation[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 24000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.85,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.85,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 24000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.85,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.85,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Shear": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Shear[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.39"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.40"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 24000
+            }
+          }
+        }
+      },
+      "Signature": "F7866CE6-46580F74-9D1F87B6-5BA6F84B"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.17"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.19"
+        }
+      ],
+      "EvaluationFieldGuid": "292014DD-4F5DB223-469A719B-FDC32510",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.19"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 18000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "292014DD-4F5DB223-469A719B-FDC32510"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.17"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.20"
+        }
+      ],
+      "EvaluationFieldGuid": "53850425-47EB07AC-C7D66F88-E7105BF6",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.20"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 18000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "53850425-47EB07AC-C7D66F88-E7105BF6"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.18"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.21"
+        }
+      ],
+      "EvaluationFieldGuid": "352FA399-47B974A2-72F94CA9-1DE7BA15",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.21"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 24000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "352FA399-47B974A2-72F94CA9-1DE7BA15"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.18"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.22"
+        }
+      ],
+      "EvaluationFieldGuid": "61A8E27F-452E7A1E-8BAB1589-EFB328B1",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.22"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 24000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "61A8E27F-452E7A1E-8BAB1589-EFB328B1"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.19"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.19"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.20"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.20"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.49"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.49"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.50"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.50"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.51"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.51"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.21"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.21"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.22"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.22"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.52"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.52"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.53"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.53"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.54"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.54"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Lockon_widget_C:Anim_LockOff_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.62"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 5,
+                  "Capacity": 5
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 4,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 18000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.49"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.20"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.51"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.50"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 3
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.19"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 4
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "3F34D09B-489E1A66-1B8AADB8-2C2DB736"
+          },
+          {
+            "ObjectBindingID": "A5E48B74-4BAB344C-D3200080-D9D1AB25"
+          },
+          {
+            "ObjectBindingID": "BDDF0047-45B89D0A-E9C5D38E-FC0450F4"
+          },
+          {
+            "ObjectBindingID": "C8D149CC-4A0DB5E4-FB473380-73548400"
+          },
+          {
+            "ObjectBindingID": "DD706080-40902398-9434B280-0391BCDB"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 18000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "A1AFC0DF-416EC42C-AFEF31BE-A785E1A7",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Lockon_widget_C:Anim_LockOn_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.63"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 5,
+                  "Capacity": 5
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 4,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 24000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.21"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.53"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.54"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.22"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 3
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.52"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 4
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "20A1740E-493F8078-094C5A80-D61098A9"
+          },
+          {
+            "ObjectBindingID": "8DFF5142-407C2300-CA2056BF-065CFF71"
+          },
+          {
+            "ObjectBindingID": "963A17AE-4557F582-F46ADE82-5FBF1D1B"
+          },
+          {
+            "ObjectBindingID": "C3AAA576-4B21110A-737A0C81-CAE646E5"
+          },
+          {
+            "ObjectBindingID": "D031E42B-46BBE688-D1910FBD-76291320"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 24000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "A4B3CEA6-495FB933-2A4E63AE-2E5A3026",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.55"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 18000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.31"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.32"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 18000
+            }
+          }
+        }
+      },
+      "Signature": "FED6F7D9-440CB1FC-684F2199-10C21230"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_2'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.56"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 18000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.33"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.34"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 18000
+            }
+          }
+        }
+      },
+      "Signature": "19C7C8A5-4D276E98-DA64D991-957753B8"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_3'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.57"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 18000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_3.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.35"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_3.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.36"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 18000
+            }
+          }
+        }
+      },
+      "Signature": "F37FFE23-4FD41D08-7AF1209B-F25EBBEF"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.58"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 24000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.41"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.42"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 24000
+            }
+          }
+        }
+      },
+      "Signature": "ABD301E5-46E0A6B1-69590693-9D9E823B"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_2'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.59"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 24000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.43"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.44"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 24000
+            }
+          }
+        }
+      },
+      "Signature": "E9FC979E-459E72CD-182223B9-9191D3BC"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_3'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.60"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 24000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_3.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.45"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_3.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.46"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 24000
+            }
+          }
+        }
+      },
+      "Signature": "CBF7A699-437F58A0-E9E3419A-A92C6C26"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.17"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.49"
+        }
+      ],
+      "EvaluationFieldGuid": "ABC09038-457FD98A-B0ACA081-DCE273FA",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.49"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 18000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "ABC09038-457FD98A-B0ACA081-DCE273FA"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.17"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.50"
+        }
+      ],
+      "EvaluationFieldGuid": "38940B7A-4A35DE3D-FAFF6BB3-FC5086E7",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.50"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 18000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "38940B7A-4A35DE3D-FAFF6BB3-FC5086E7"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.17"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.51"
+        }
+      ],
+      "EvaluationFieldGuid": "ED42F5EE-4E5109E5-BECDB4AD-486DC265",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.51"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 18000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "ED42F5EE-4E5109E5-BECDB4AD-486DC265"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.18"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.52"
+        }
+      ],
+      "EvaluationFieldGuid": "13BB7696-4359FA8E-BEDA2AA1-287EEF9C",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.52"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 24000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "13BB7696-4359FA8E-BEDA2AA1-287EEF9C"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.18"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.53"
+        }
+      ],
+      "EvaluationFieldGuid": "76C904CE-45A558EF-B0375193-86890B1F",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.53"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 24000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "76C904CE-45A558EF-B0375193-86890B1F"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.18"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.54"
+        }
+      ],
+      "EvaluationFieldGuid": "D258B265-428591D4-33643A97-289AB1BB",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.54"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 24000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "D258B265-428591D4-33643A97-289AB1BB"
+    }
+  },
+  {
+    "Type": "Widget_Key_Ex_RichText_C",
+    "Name": "Widget_Key_Ex_RichText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_Key_Ex_RichText.Widget_Key_Ex_RichText_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Lockon_widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.65"
+    },
+    "Template": {
+      "ObjectName": "Widget_Key_Ex_RichText_C'Default__Widget_Key_Ex_RichText_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_Key_Ex_RichText.19"
+    },
+    "Properties": {
+      "PlatformVisibility": {
+        "HiddenPlatforms": 4
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Lockon_widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.8"
+      }
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_LockOff_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Lockon_widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.64"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Lockon_widget_C:Anim_LockOff_INST.Anim_LockOff'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.17"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "FX_Glow",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "BDDF0047-45B89D0A-E9C5D38E-FC0450F4",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "FX_Ring",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "C8D149CC-4A0DB5E4-FB473380-73548400",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "Image_Cross",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "DD706080-40902398-9434B280-0391BCDB",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "Image_Slot",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "A5E48B74-4BAB344C-D3200080-D9D1AB25",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "FX_Ring_1",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "3F34D09B-489E1A66-1B8AADB8-2C2DB736",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_LockOff",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Lockon_widget_C:Anim_LockOff_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.47"
+      },
+      "Signature": "A1AFC0DF-416EC42C-AFEF31BE-A785E1A7"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_LockOn_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Lockon_widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.64"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Lockon_widget_C:Anim_LockOn_INST.Anim_LockOn'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.18"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "Image_Cross",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "20A1740E-493F8078-094C5A80-D61098A9",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "FX_Ring",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "8DFF5142-407C2300-CA2056BF-065CFF71",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "FX_Glow",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "963A17AE-4557F582-F46ADE82-5FBF1D1B",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "Image_Slot",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "C3AAA576-4B21110A-737A0C81-CAE646E5",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "FX_Ring_1",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "D031E42B-46BBE688-D1910FBD-76291320",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_LockOn",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Lockon_widget_C:Anim_LockOn_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.48"
+      },
+      "Signature": "A4B3CEA6-495FB933-2A4E63AE-2E5A3026"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Lockon_widget_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Lockon_widget_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.65"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'Lockon_widget_C:Anim_LockOn_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.63"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Lockon_widget_C:Anim_LockOff_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.62"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'Lockon_widget_C:ExecuteUbergraph_Lockon_widget'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.14"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ELockOnTargetSlot'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Lockon_widget_C:OnInitialized'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.15"
+      },
+      {
+        "ObjectName": "Function'Lockon_widget_C:ExecuteUbergraph_Lockon_widget'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.14"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FX_Ring",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FX_Ring_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Cross",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Widget_Key_Ex_RichText",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'Widget_Key_Ex_RichText_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Widget_Key_Ex_RichText.21"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Lockon_widget": {
+        "ObjectName": "Function'Lockon_widget_C:ExecuteUbergraph_Lockon_widget'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.14"
+      },
+      "OnInitialized": {
+        "ObjectName": "Function'Lockon_widget_C:OnInitialized'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.15"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Lockon_widget_C'Default__Lockon_widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.16"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Lockon_widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.64"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBOverlay'Lockon_widget_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Lockon_widget.6"
+      }
+    }
+  }
+]

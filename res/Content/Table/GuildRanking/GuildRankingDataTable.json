@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GuildRankingDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/GuildRanking/GuildRankingDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UEGuildRankingDataTable'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "101": {
+        "Contents_Type": "ERankingType::Battle_Power_Guild",
+        "Contents_Value": "None",
+        "Limit_Instant": true,
+        "Limit_Guild_Member": 1,
+        "Show_Ranking_limit": 200,
+        "Contents_Reset_Tid": "ranking_guild_weekly",
+        "Contents_Instant": false,
+        "Prev_Ranking_Show": false,
+        "Reward_member": 1,
+        "Reward_Group_TID": "None",
+        "String_Tid": "101",
+        "Local_Key": "None"
+      },
+      "102": {
+        "Contents_Type": "ERankingType::Battle_Power_Guild_Member",
+        "Contents_Value": "None",
+        "Limit_Instant": true,
+        "Limit_Guild_Member": 1,
+        "Show_Ranking_limit": 30,
+        "Contents_Reset_Tid": "ranking_guild_weekly",
+        "Contents_Instant": false,
+        "Prev_Ranking_Show": false,
+        "Reward_member": 1,
+        "Reward_Group_TID": "None",
+        "String_Tid": "102",
+        "Local_Key": "None"
+      },
+      "201": {
+        "Contents_Type": "ERankingType::Boss_Guild",
+        "Contents_Value": "1801",
+        "Limit_Instant": false,
+        "Limit_Guild_Member": 1,
+        "Show_Ranking_limit": 200,
+        "Contents_Reset_Tid": "ranking_guild_weekly",
+        "Contents_Instant": false,
+        "Prev_Ranking_Show": true,
+        "Reward_member": 1,
+        "Reward_Group_TID": "reward_boss_guild_201",
+        "String_Tid": "201",
+        "Local_Key": "None"
+      },
+      "202": {
+        "Contents_Type": "ERankingType::Boss_Guild_Member",
+        "Contents_Value": "1801",
+        "Limit_Instant": false,
+        "Limit_Guild_Member": 1,
+        "Show_Ranking_limit": 30,
+        "Contents_Reset_Tid": "ranking_guild_weekly",
+        "Contents_Instant": false,
+        "Prev_Ranking_Show": true,
+        "Reward_member": 1,
+        "Reward_Group_TID": "None",
+        "String_Tid": "202",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

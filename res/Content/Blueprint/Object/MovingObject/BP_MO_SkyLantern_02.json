@@ -1,0 +1,1183 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_MO_SkyLantern_02_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_MO_SkyLantern_02_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.29"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_MO_SkyLantern_02_C:InheritableComponentHandler'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.21"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:ExecuteUbergraph_BP_MO_SkyLantern_02'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.8"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_SkeletalMovingObject'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnNotifyEnd_B04C182B43387AD80ADBDF91AE0A2352'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.18"
+      },
+      {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnNotifyBegin_B04C182B43387AD80ADBDF91AE0A2352'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.16"
+      },
+      {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnInterrupted_B04C182B43387AD80ADBDF91AE0A2352'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.14"
+      },
+      {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnBlendOut_B04C182B43387AD80ADBDF91AE0A2352'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.10"
+      },
+      {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnCompleted_B04C182B43387AD80ADBDF91AE0A2352'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.12"
+      },
+      {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnNotifyEnd_3C9ECF4A4A41363911DD70898666448A'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.17"
+      },
+      {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnNotifyBegin_3C9ECF4A4A41363911DD70898666448A'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.15"
+      },
+      {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnInterrupted_3C9ECF4A4A41363911DD70898666448A'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.13"
+      },
+      {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnBlendOut_3C9ECF4A4A41363911DD70898666448A'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.9"
+      },
+      {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnCompleted_3C9ECF4A4A41363911DD70898666448A'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.11"
+      },
+      {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.19"
+      },
+      {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.20"
+      },
+      {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:ExecuteUbergraph_BP_MO_SkyLantern_02'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.8"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PointLight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CollisionMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CBStaticMeshComponent'",
+          "ObjectPath": "/Script/CBResourceModule"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_MO_SkyLantern_02": {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:ExecuteUbergraph_BP_MO_SkyLantern_02'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.8"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.20"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.19"
+      },
+      "OnCompleted_3C9ECF4A4A41363911DD70898666448A": {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnCompleted_3C9ECF4A4A41363911DD70898666448A'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.11"
+      },
+      "OnBlendOut_3C9ECF4A4A41363911DD70898666448A": {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnBlendOut_3C9ECF4A4A41363911DD70898666448A'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.9"
+      },
+      "OnInterrupted_3C9ECF4A4A41363911DD70898666448A": {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnInterrupted_3C9ECF4A4A41363911DD70898666448A'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.13"
+      },
+      "OnNotifyBegin_3C9ECF4A4A41363911DD70898666448A": {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnNotifyBegin_3C9ECF4A4A41363911DD70898666448A'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.15"
+      },
+      "OnNotifyEnd_3C9ECF4A4A41363911DD70898666448A": {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnNotifyEnd_3C9ECF4A4A41363911DD70898666448A'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.17"
+      },
+      "OnCompleted_B04C182B43387AD80ADBDF91AE0A2352": {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnCompleted_B04C182B43387AD80ADBDF91AE0A2352'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.12"
+      },
+      "OnBlendOut_B04C182B43387AD80ADBDF91AE0A2352": {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnBlendOut_B04C182B43387AD80ADBDF91AE0A2352'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.10"
+      },
+      "OnInterrupted_B04C182B43387AD80ADBDF91AE0A2352": {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnInterrupted_B04C182B43387AD80ADBDF91AE0A2352'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.14"
+      },
+      "OnNotifyBegin_B04C182B43387AD80ADBDF91AE0A2352": {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnNotifyBegin_B04C182B43387AD80ADBDF91AE0A2352'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.16"
+      },
+      "OnNotifyEnd_B04C182B43387AD80ADBDF91AE0A2352": {
+        "ObjectName": "Function'BP_MO_SkyLantern_02_C:OnNotifyEnd_B04C182B43387AD80ADBDF91AE0A2352'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.18"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_MO_SkyLantern_02_C'Default__BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_MO_SkyLantern_02_C",
+    "Name": "Default__BP_MO_SkyLantern_02_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.BP_MO_SkyLantern_02_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02",
+    "Properties": {
+      "UberGraphFrame": {},
+      "CoreSkeletalMesh": {
+        "ObjectName": "CBSkeletalMeshComponent'Default__BP_MO_SkyLantern_02_C:CoreSkeletalMesh'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.2"
+      },
+      "ObjectMovementComponent": {
+        "ObjectName": "EObjectActorMovementComponent'Default__BP_MO_SkyLantern_02_C:ObjectMovement'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.7"
+      },
+      "MovingObjectOverlapCollision": {
+        "ObjectName": "CBStaticMeshComponent'Default__BP_MO_SkyLantern_02_C:MovingOjbectOverlapCollision'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.4"
+      },
+      "bForceOnBoardingUpdate": true,
+      "LocalLocationConvertComp": {
+        "ObjectName": "SceneComponent'Default__BP_MO_SkyLantern_02_C:LocalLocationConvert'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.24"
+      },
+      "ObjectAudioComponent": {
+        "ObjectName": "EAudioComponent'Default__BP_MO_SkyLantern_02_C:MovingObjectAudio'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.6"
+      },
+      "ObjectSpringArm": {
+        "ObjectName": "SpringArmComponent'Default__BP_MO_SkyLantern_02_C:SpringArm'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.30"
+      },
+      "ObjectDirectingCam": {
+        "ObjectName": "ChildActorComponent'Default__BP_MO_SkyLantern_02_C:DirectingCamActor'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.5"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_SkyLantern_02_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.25"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "CoreSkeletalMesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_SkyLantern_02_C'Default__BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.1"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'AnimBP_MO_SkyLantern_01_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/AnimBP_MO_SkyLantern_01.0"
+      },
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'S_SkyLantern_A01_Idle'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_SkyLantern_A01_SET/ANI/S_SkyLantern_A01_Idle.0"
+        }
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'S_SkyLantern_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_SkyLantern_A01_SET/Mesh/S_SkyLantern_A01.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'S_SkyLantern_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_SkyLantern_A01_SET/Mesh/S_SkyLantern_A01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SkyLantern_A02'",
+          "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Materials/MI_SkyLantern_A02.0"
+        }
+      ],
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_Yes",
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_SkyLantern_02_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.25"
+      }
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "CollisionMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_AncientSpringBoardMoving_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Common/Meshes/S_AncientSpringBoardMoving_A01.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Trigger",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapObject",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 70.0
+      },
+      "RelativeScale3D": {
+        "X": 0.32,
+        "Y": 0.32,
+        "Z": 0.32
+      },
+      "bVisible": false,
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "MovingOjbectOverlapCollision",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_SkyLantern_02_C'Default__BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Col_SkyLantern_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Collision/Col_SkyLantern_A01.1"
+      },
+      "bAlwaysCreatePhysicsState": true,
+      "bMultiBodyOverlap": true,
+      "bTraceComplexOnMove": true,
+      "bApplyImpulseOnDamage": false,
+      "BodyInstance": {
+        "bUseCCD": true,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Select",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Trigger",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapObject",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Board",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        },
+        "bEnableGravity": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_SkyLantern_02_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.25"
+      },
+      "RelativeLocation": {
+        "X": 5.0,
+        "Y": 0.0,
+        "Z": 60.0
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "DirectingCamActor",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_SkyLantern_02_C'Default__BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SpringArmComponent'Default__BP_MO_SkyLantern_02_C:SpringArm'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.30"
+      }
+    }
+  },
+  {
+    "Type": "EAudioComponent",
+    "Name": "MovingObjectAudio",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EAudioComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_SkyLantern_02_C'Default__BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_SkyLantern_02_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.25"
+      }
+    }
+  },
+  {
+    "Type": "EObjectActorMovementComponent",
+    "Name": "ObjectMovement",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EObjectActorMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_SkyLantern_02_C'Default__BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.1"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_MO_SkyLantern_02",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "K2Node_CustomEvent_NotifyName_9",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnMontagePlayDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "K2Node_CustomEvent_NotifyName_8",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnMontagePlayDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "K2Node_CustomEvent_NotifyName_7",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnMontagePlayDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "K2Node_CustomEvent_NotifyName_6",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_3",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnMontagePlayDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "K2Node_CustomEvent_NotifyName_5",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_4",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnMontagePlayDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "Temp_name_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_5",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnMontagePlayDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "K2Node_CustomEvent_NotifyName_4",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "K2Node_CustomEvent_NotifyName_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_6",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnMontagePlayDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "K2Node_CustomEvent_NotifyName_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_7",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnMontagePlayDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "K2Node_CustomEvent_NotifyName_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_8",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnMontagePlayDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "K2Node_CustomEvent_NotifyName",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_9",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnMontagePlayDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "Temp_name_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreateProxyObjectForPlayMontage_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PlayMontageCallbackProxy'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreateProxyObjectForPlayMontage_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PlayMontageCallbackProxy'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnBlendOut_3C9ECF4A4A41363911DD70898666448A",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "NotifyName",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnBlendOut_B04C182B43387AD80ADBDF91AE0A2352",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "NotifyName",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCompleted_3C9ECF4A4A41363911DD70898666448A",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "NotifyName",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCompleted_B04C182B43387AD80ADBDF91AE0A2352",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "NotifyName",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInterrupted_3C9ECF4A4A41363911DD70898666448A",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "NotifyName",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInterrupted_B04C182B43387AD80ADBDF91AE0A2352",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "NotifyName",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnNotifyBegin_3C9ECF4A4A41363911DD70898666448A",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "NotifyName",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnNotifyBegin_B04C182B43387AD80ADBDF91AE0A2352",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "NotifyName",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnNotifyEnd_3C9ECF4A4A41363911DD70898666448A",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "NotifyName",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnNotifyEnd_B04C182B43387AD80ADBDF91AE0A2352",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "NotifyName",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.0"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.0"
+    },
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 141.15663,
+      "Intensity": 135.21292,
+      "LightColor": {
+        "B": 0,
+        "G": 110,
+        "R": 243,
+        "A": 255,
+        "Hex": "F36E00"
+      },
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": -1.0188866E-07,
+        "Y": 4.0867796E-08,
+        "Z": 50.98719
+      }
+    },
+    "IntensityNits": 0.0
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "LocalLocationConvert",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_SkyLantern_02_C'Default__BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_SkyLantern_02_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.25"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_SkyLantern_02_C'Default__BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.1"
+    },
+    "Properties": {
+      "PhysicsVolumeChangedDelegate": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "EObjectActorMovementComponent'Default__BP_MO_SkyLantern_02_C:ObjectMovement'",
+              "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.7"
+            },
+            "FunctionName": "PhysicsVolumeChanged"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MO_SkyLantern_02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_MO_SkyLantern_02_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.23"
+      },
+      "VariableGUID": "823C9E69-4FC325AC-80E3E0BB-A64A0AEB",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MO_SkyLantern_02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CBStaticMeshComponent'",
+        "ObjectPath": "/Script/CBResourceModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBStaticMeshComponent'BP_MO_SkyLantern_02_C:CollisionMesh_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.3"
+      },
+      "ParentComponentOrVariableName": "RootComp",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "FB4042A0-48F3CA0A-562E3389-03586969",
+      "InternalVariableName": "CollisionMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MO_SkyLantern_02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BP_MO_SkyLantern_02_C:PointLight_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.22"
+      },
+      "ParentComponentOrVariableName": "RootComp",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "6BF74C6F-4A530584-D04C17BA-CD099E65",
+      "InternalVariableName": "PointLight"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MO_SkyLantern_02_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MO_SkyLantern_02_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.28"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MO_SkyLantern_02_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MO_SkyLantern_02_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.28"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_MO_SkyLantern_02_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.26"
+      }
+    }
+  },
+  {
+    "Type": "SpringArmComponent",
+    "Name": "SpringArm",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_SkyLantern_02_C'Default__BP_MO_SkyLantern_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_SkyLantern_02_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_SkyLantern_02.25"
+      }
+    }
+  }
+]

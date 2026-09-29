@@ -1,0 +1,133 @@
+[
+  {
+    "Type": "ForceFeedbackEffect",
+    "Name": "Trigger_Feedback_Fishing",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ForceFeedbackEffect'",
+    "Package": "SevenDeadlySins/Content/Curves/ForceFeedBackCurve/Trigger_Feedback_Fishing",
+    "Properties": {
+      "ChannelDetails": [
+        {
+          "bAffectsLeftLarge": false,
+          "bAffectsLeftSmall": false,
+          "bAffectsRightLarge": false,
+          "bAffectsRightSmall": false,
+          "Curve": {
+            "EditorCurveData": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 0.039691962,
+                  "Value": 0.0,
+                  "ArriveTangent": 0.0,
+                  "ArriveTangentWeight": 0.0,
+                  "LeaveTangent": 0.0,
+                  "LeaveTangentWeight": 0.0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 0.47362867,
+                  "Value": 1.0683334,
+                  "ArriveTangent": 0.0,
+                  "ArriveTangentWeight": 0.0,
+                  "LeaveTangent": 0.0,
+                  "LeaveTangentWeight": 0.0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 1.5985948,
+                  "Value": 1.0683334,
+                  "ArriveTangent": 0.0,
+                  "ArriveTangentWeight": 0.0,
+                  "LeaveTangent": 0.0,
+                  "LeaveTangentWeight": 0.0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 2.0132124,
+                  "Value": -0.01700008,
+                  "ArriveTangent": 0.0,
+                  "ArriveTangentWeight": 0.0,
+                  "LeaveTangent": 0.0,
+                  "LeaveTangentWeight": 0.0
+                }
+              ],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          }
+        }
+      ],
+      "DeviceProperties": [
+        {
+          "ObjectName": "InputDeviceTriggerResistanceProperty'Trigger_Feedback_Fishing:InputDeviceTriggerResistanceProperty_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Curves/ForceFeedBackCurve/Trigger_Feedback_Fishing.1"
+        },
+        {
+          "ObjectName": "InputDeviceTriggerVibrationProperty'Trigger_Feedback_Fishing:InputDeviceTriggerVibrationProperty_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Curves/ForceFeedBackCurve/Trigger_Feedback_Fishing.2"
+        }
+      ],
+      "Duration": 2.0132124
+    }
+  },
+  {
+    "Type": "InputDeviceTriggerResistanceProperty",
+    "Name": "InputDeviceTriggerResistanceProperty_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InputDeviceTriggerResistanceProperty'",
+    "Outer": {
+      "ObjectName": "ForceFeedbackEffect'Trigger_Feedback_Fishing'",
+      "ObjectPath": "SevenDeadlySins/Content/Curves/ForceFeedBackCurve/Trigger_Feedback_Fishing.0"
+    },
+    "Properties": {
+      "TriggerData": {
+        "StartStrengh": 1,
+        "EndPosition": 9,
+        "EndStrengh": 2
+      },
+      "BaseTriggerData": {
+        "AffectedTriggers": "EInputDeviceTriggerMask::Right"
+      }
+    }
+  },
+  {
+    "Type": "InputDeviceTriggerVibrationProperty",
+    "Name": "InputDeviceTriggerVibrationProperty_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InputDeviceTriggerVibrationProperty'",
+    "Outer": {
+      "ObjectName": "ForceFeedbackEffect'Trigger_Feedback_Fishing'",
+      "ObjectPath": "SevenDeadlySins/Content/Curves/ForceFeedBackCurve/Trigger_Feedback_Fishing.0"
+    },
+    "Properties": {
+      "TriggerData": {
+        "TriggerPositionCurve": {
+          "ObjectName": "CurveFloat'Curve_AT_Tutorial_MiniGame_Fire_Location'",
+          "ObjectPath": "SevenDeadlySins/Content/Curves/ForceFeedBackCurve/AT/Curve_AT_Tutorial_MiniGame_Fire_Location.0"
+        },
+        "VibrationFrequencyCurve": {
+          "ObjectName": "CurveFloat'Curve_AT_Tutorial_MiniGame_Fire_Frequency'",
+          "ObjectPath": "SevenDeadlySins/Content/Curves/ForceFeedBackCurve/AT/Curve_AT_Tutorial_MiniGame_Fire_Frequency.0"
+        },
+        "VibrationAmplitudeCurve": {
+          "ObjectName": "CurveFloat'Curve_AT_Tutorial_MiniGame_Fire_Amplitude'",
+          "ObjectPath": "SevenDeadlySins/Content/Curves/ForceFeedBackCurve/AT/Curve_AT_Tutorial_MiniGame_Fire_Amplitude.0"
+        }
+      },
+      "BaseTriggerData": {
+        "AffectedTriggers": "EInputDeviceTriggerMask::Right"
+      }
+    }
+  }
+]

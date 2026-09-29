@@ -1,0 +1,141 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_GachaGrade_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gacha/BP_GachaGrade",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_GachaGrade_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gacha/BP_GachaGrade.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'OGGachaGradeActor'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_GachaGrade_C'Default__BP_GachaGrade_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gacha/BP_GachaGrade.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_GachaGrade_C",
+    "Name": "Default__BP_GachaGrade_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Gacha/BP_GachaGrade.BP_GachaGrade_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gacha/BP_GachaGrade",
+    "Properties": {
+      "RootSceneComponent": {
+        "ObjectName": "SceneComponent'Default__BP_GachaGrade_C:RootSceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gacha/BP_GachaGrade.4"
+      },
+      "Grade3Effect": {
+        "AssetPathName": "/Game/VFX/Cinema/Gacha/Grade_00/cs_fx_ns_gacha_01_result_sphere.cs_fx_ns_gacha_01_result_sphere",
+        "SubPathString": ""
+      },
+      "Grade4Effect": {
+        "AssetPathName": "/Game/VFX/Cinema/Gacha/Grade_01_02/cs_fx_ns_gacha_02_result_sphere.cs_fx_ns_gacha_02_result_sphere",
+        "SubPathString": ""
+      },
+      "Grade5Effect": {
+        "AssetPathName": "/Game/VFX/Cinema/Gacha/Grade_02/cs_fx_ns_gacha_03_result_sphere.cs_fx_ns_gacha_03_result_sphere",
+        "SubPathString": ""
+      },
+      "GradeComponent": {
+        "ObjectName": "NiagaraComponent'Default__BP_GachaGrade_C:GradeComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gacha/BP_GachaGrade.2"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_GachaGrade_C:RootSceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gacha/BP_GachaGrade.4"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "GradeComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_GachaGrade_C'Default__BP_GachaGrade_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gacha/BP_GachaGrade.1"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_GachaGrade_C:RootSceneComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gacha/BP_GachaGrade.4"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GachaGrade_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gacha/BP_GachaGrade.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootSceneComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_GachaGrade_C'Default__BP_GachaGrade_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gacha/BP_GachaGrade.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_GachaGrade_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gacha/BP_GachaGrade.6"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_GachaGrade_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gacha/BP_GachaGrade.3"
+      },
+      "VariableGUID": "6BA29DAC-42EE8C7F-55BBD0B9-EA96CF4D",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GachaGrade_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gacha/BP_GachaGrade.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_GachaGrade_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gacha/BP_GachaGrade.5"
+      }
+    }
+  }
+]

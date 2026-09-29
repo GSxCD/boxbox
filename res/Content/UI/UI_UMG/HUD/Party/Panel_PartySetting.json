@@ -1,0 +1,4326 @@
+[
+  {
+    "Type": "ACMovieSceneSoundTidSection",
+    "Name": "ACMovieSceneSoundTidSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidSection'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidTrack'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.1"
+    },
+    "Properties": {
+      "soundTid": {
+        "Tid": "2000003"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'ui_common_popup_info_open_01_cue'",
+        "ObjectPath": "SevenDeadlySins/Content/Sounds/ui/common/ui_common_popup_info_open_01_cue.0"
+      },
+      "bKeepPlayingUntilEnd": true,
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.60"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.61"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 30000
+            }
+          }
+        }
+      },
+      "Signature": "1C80305A-4A662B3A-A8B657B6-C2C5B6B7"
+    }
+  },
+  {
+    "Type": "ACMovieSceneSoundTidTrack",
+    "Name": "ACMovieSceneSoundTidTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_PartySetting_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.55"
+    },
+    "Properties": {
+      "AudioSections": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidSection'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.0"
+        }
+      ],
+      "EvaluationFieldGuid": "5045572A-48CE705A-B8DC3292-5309478F",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "ACMovieSceneSoundTidSection'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.0"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "5045572A-48CE705A-B8DC3292-5309478F"
+    }
+  },
+  {
+    "Type": "Btn_01_C",
+    "Name": "Btn_Apply",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.Btn_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_PartySetting_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.80"
+    },
+    "Template": {
+      "ObjectName": "Btn_01_C'Default__Btn_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.0"
+    },
+    "Properties": {
+      "TextStyles": [
+        {
+          "ColorAndOpacity": {
+            "SpecifiedColor": {
+              "R": 0.846873,
+              "G": 0.846873,
+              "B": 0.846873,
+              "A": 1.0,
+              "Hex": "EDEDED"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Font": {
+            "FontObject": {
+              "ObjectName": "Font'Font_Default'",
+              "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+            },
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 0,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0,
+                "Hex": "000000"
+              }
+            },
+            "TypefaceFontName": "Font_B",
+            "Size": 24.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "ShadowOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "ShadowColorAndOpacity": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        }
+      ],
+      "StringStyle": {
+        "bEnabled": true,
+        "Text": "UI_Button_Apply"
+      },
+      "bIsPadFocus": false,
+      "InputTableTID": "UI_PAD_Button_Left",
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.popup.CBCanvasPanelSlot_12'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.12"
+      }
+    }
+  },
+  {
+    "Type": "Btn_Close_C",
+    "Name": "Btn_Close_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Close.Btn_Close_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_PartySetting_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.80"
+    },
+    "Template": {
+      "ObjectName": "Btn_Close_C'Default__Btn_Close_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Close.0"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.popup.CBCanvasPanelSlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.17"
+      }
+    }
+  },
+  {
+    "Type": "BtnGuide_widget_C",
+    "Name": "BtnGuide_widget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/BtnGuide_widget.BtnGuide_widget_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_PartySetting_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.80"
+    },
+    "Template": {
+      "ObjectName": "BtnGuide_widget_C'Default__BtnGuide_widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/BtnGuide_widget.6"
+    },
+    "Properties": {
+      "m_KeyGuideTID": "KeyGuide_ContentsMenu",
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.popup.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.11"
+      }
+    }
+  },
+  {
+    "Type": "CBButton",
+    "Name": "Button_Background_Close",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_PartySetting_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.80"
+    },
+    "Properties": {
+      "bIsPadFocus": false,
+      "ButtonGroupIndex": 119,
+      "ButtonClickChangeGroupIndex": 0,
+      "ColorAndOpacity": {
+        "R": 6.4285E-40,
+        "G": 2.75513E-40,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "BackgroundColor": {
+        "R": -2.646978E-23,
+        "G": 5.623271E-37,
+        "B": 3.762156E-37,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "ClickMethod": "EButtonClickMethod::DownAndUp"
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_PartySetting_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.80"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.8"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_21'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "popup",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_PartySetting_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.80"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.popup.CBCanvasPanelSlot_22'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.14"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.popup.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.10"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.popup.CBCanvasPanelSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.16"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.popup.CBCanvasPanelSlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.17"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.popup.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.13"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.popup.CBCanvasPanelSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.15"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.popup.CBCanvasPanelSlot_12'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.12"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.popup.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.11"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Panel_PartySetting_C:WidgetTree.CBSizeBox_0.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.24"
+      },
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.CBCanvasPanel_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.6"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.6"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Panel_PartySetting_C:WidgetTree.Button_Background_Close'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.5"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_21",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.CBCanvasPanel_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.6"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "ZOrder": 1,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.6"
+      },
+      "Content": {
+        "ObjectName": "CBSafeZone'Panel_PartySetting_C:WidgetTree.CBSafeZone_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.21"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Bottom": 78.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.7"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_PartySetting_C:WidgetTree.bg_top'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.19"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Alignment": {
+          "X": 0.0,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.7"
+      },
+      "Content": {
+        "ObjectName": "BtnGuide_widget_C'Panel_PartySetting_C:WidgetTree.BtnGuide_widget'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.4"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -30.0,
+          "Right": 560.0,
+          "Bottom": 84.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 1.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.7"
+      },
+      "Content": {
+        "ObjectName": "Btn_01_C'Panel_PartySetting_C:WidgetTree.Btn_Apply'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.2"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 30.0,
+          "Top": 108.0,
+          "Right": 30.0,
+          "Bottom": 150.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "ZOrder": 1,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.7"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'Panel_PartySetting_C:WidgetTree.VerticalBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.25"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_22",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -13.0,
+          "Top": -13.0,
+          "Right": -13.0,
+          "Bottom": -13.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.7"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_PartySetting_C:WidgetTree.bg'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.18"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 30.0,
+          "Top": -116.0,
+          "Right": 30.0,
+          "Bottom": 2.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 1.0
+        }
+      },
+      "ZOrder": 1,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.7"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_PartySetting_C:WidgetTree.Image_Line'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.20"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 30.0,
+          "Top": 39.0
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.7"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_PartySetting_C:WidgetTree.ETextBlock_Title'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.31"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -25.0,
+          "Top": 25.0,
+          "Right": 106.0,
+          "Bottom": 106.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.7"
+      },
+      "Content": {
+        "ObjectName": "Btn_Close_C'Panel_PartySetting_C:WidgetTree.Btn_Close_19'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.3"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "bg",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_PartySetting_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.80"
+    },
+    "Properties": {
+      "Brush": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageSize": {
+          "X": 10.0,
+          "Y": 10.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Popup_bg_popup3'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Popup/Frames/Popup_bg_popup3.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.popup.CBCanvasPanelSlot_22'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.14"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "bg_top",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_PartySetting_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.80"
+    },
+    "Properties": {
+      "Brush": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageSize": {
+          "X": 1600.0,
+          "Y": 62.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Popup_bg_popup1'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Popup/Frames/Popup_bg_popup1.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.popup.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.10"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Line",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_PartySetting_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.80"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.262251,
+            "G": 0.291771,
+            "B": 0.341914,
+            "A": 0.3,
+            "Hex": "4C8C939E"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 70.0,
+          "Y": 16.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_width'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_width.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.popup.CBCanvasPanelSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.15"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBSafeZone",
+    "Name": "CBSafeZone_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSafeZone'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_PartySetting_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.80"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBSafeZoneSlot'Panel_PartySetting_C:WidgetTree.CBSafeZone_0.CBSafeZoneSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.22"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_21'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.9"
+      }
+    }
+  },
+  {
+    "Type": "CBSafeZoneSlot",
+    "Name": "CBSafeZoneSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSafeZoneSlot'",
+    "Outer": {
+      "ObjectName": "CBSafeZone'Panel_PartySetting_C:WidgetTree.CBSafeZone_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.21"
+    },
+    "Properties": {
+      "HAlign": "EHorizontalAlignment::HAlign_Center",
+      "VAlign": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBSafeZone'Panel_PartySetting_C:WidgetTree.CBSafeZone_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.21"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Panel_PartySetting_C:WidgetTree.CBSizeBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.23"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_PartySetting_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.80"
+    },
+    "Properties": {
+      "WidthOverride": 1180.0,
+      "HeightOverride": 600.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Panel_PartySetting_C:WidgetTree.CBSizeBox_0.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.24"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSafeZoneSlot'Panel_PartySetting_C:WidgetTree.CBSafeZone_0.CBSafeZoneSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.22"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Panel_PartySetting_C:WidgetTree.CBSizeBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.23"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'Panel_PartySetting_C:WidgetTree.CBSizeBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.23"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.7"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "VerticalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_PartySetting_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.80"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_PartySetting_C:WidgetTree.VerticalBox_1.CBVerticalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.27"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_PartySetting_C:WidgetTree.VerticalBox_1.CBVerticalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.28"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_PartySetting_C:WidgetTree.VerticalBox_1.CBVerticalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.26"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_PartySetting_C:WidgetTree.VerticalBox_1.CBVerticalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.29"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.popup.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.13"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_PartySetting_C:WidgetTree.VerticalBox_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.25"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_PartySetting_C:WidgetTree.VerticalBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.25"
+      },
+      "Content": {
+        "ObjectName": "PartySettingPopup_Slot_C'Panel_PartySetting_C:WidgetTree.PartyPostingPopupSlot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.75"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_PartySetting_C:WidgetTree.VerticalBox_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.25"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_PartySetting_C:WidgetTree.VerticalBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.25"
+      },
+      "Content": {
+        "ObjectName": "PartySettingPopup_Slot_C'Panel_PartySetting_C:WidgetTree.PartyOpenPopupSlot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.74"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_PartySetting_C:WidgetTree.VerticalBox_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.25"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_PartySetting_C:WidgetTree.VerticalBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.25"
+      },
+      "Content": {
+        "ObjectName": "PartySettingPopup_Slot_C'Panel_PartySetting_C:WidgetTree.PartyContentPopupSlot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.73"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_PartySetting_C:WidgetTree.VerticalBox_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.25"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_PartySetting_C:WidgetTree.VerticalBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.25"
+      },
+      "Content": {
+        "ObjectName": "PartySettingPopup_Slot_C'Panel_PartySetting_C:WidgetTree.PartySettingPopup_Slot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.76"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "PartyPostingPopupSlot",
+          "DelegatePropertyName": "OnSlotPressed",
+          "FunctionNameToBind": "BndEvt__Panel_PartySetting_PartyPostingPopupSlot_K2Node_ComponentBoundEvent_7_OnSlotPressed__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "PartyContentPopupSlot",
+          "DelegatePropertyName": "OnSlotPressed",
+          "FunctionNameToBind": "BndEvt__Panel_PartySetting_PartyContentPopupSlot_K2Node_ComponentBoundEvent_6_OnSlotPressed__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "PartyOpenPopupSlot",
+          "DelegatePropertyName": "OnSlotPressed",
+          "FunctionNameToBind": "BndEvt__Panel_PartySetting_PartyOpenPopupSlot_K2Node_ComponentBoundEvent_4_OnSlotPressed__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "Btn_Close_19",
+          "DelegatePropertyName": "OnSlotPressed",
+          "FunctionNameToBind": "BndEvt__Panel_PartySetting_Btn_Close_19_K2Node_ComponentBoundEvent_3_OnSlotPressed__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "Btn_Apply",
+          "DelegatePropertyName": "OnSlotPressed",
+          "FunctionNameToBind": "BndEvt__Panel_PartySetting_Btn_Apply_K2Node_ComponentBoundEvent_2_OnSlotPressed__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "Button_Background_Close",
+          "DelegatePropertyName": "OnClicked",
+          "FunctionNameToBind": "BndEvt__Panel_PartySetting_Button_Background_Close_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "ETextBlock_Title",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_PartySetting_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.80"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "9FFE92024986525C46A771A9D999D789",
+        "SourceString": "Party_FineParty_Setting_Title",
+        "LocalizedString": "Party_FineParty_Setting_Title"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 28.0
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_PartySetting_C:WidgetTree.popup.CBCanvasPanelSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.16"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Panel_PartySetting_Btn_Apply_K2Node_ComponentBoundEvent_2_OnSlotPressed__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "pressedSlot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'EWidgetSlot'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Panel_PartySetting_Btn_Close_19_K2Node_ComponentBoundEvent_3_OnSlotPressed__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "pressedSlot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'EWidgetSlot'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Panel_PartySetting_Button_Background_Close_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Panel_PartySetting_PartyContentPopupSlot_K2Node_ComponentBoundEvent_6_OnSlotPressed__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "pressedSlot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'EWidgetSlot'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Panel_PartySetting_PartyOpenPopupSlot_K2Node_ComponentBoundEvent_4_OnSlotPressed__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "pressedSlot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'EWidgetSlot'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Panel_PartySetting_PartyPostingPopupSlot_K2Node_ComponentBoundEvent_7_OnSlotPressed__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "pressedSlot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'EWidgetSlot'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ClickPopupSlot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "SlotIdx",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'PartySettingPopup_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.91"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "CloseDropDown",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'PartySettingPopup_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.91"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ClosePanel",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EvtHidePanel",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'EWidgetCore:EvtHidePanel'",
+      "ObjectPath": "/Script/ACUICoreModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'PartySettingPopup_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.91"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EvtShowPanel",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'EWidgetCore:EvtShowPanel'",
+      "ObjectPath": "/Script/ACUICoreModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetLocalStr_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_GetCurTid_CurTid",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_GetPartyContentsTypeBP_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'EPartyContentsTypeBP'",
+          "ObjectPath": "/Script/ACCoreModule"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetPartyPostingData_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "NameProperty",
+          "Name": "CallFunc_GetPartyPostingData_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 12
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetLocalStr_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetLocalStr_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Panel_PartySetting",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_pressedSlot_4",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'EWidgetSlot'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsPartySearchSettingValid_IsSettingValid",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_pressedSlot_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'EWidgetSlot'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_pressedSlot_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'EWidgetSlot'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_pressedSlot_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'EWidgetSlot'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_pressedSlot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'EWidgetSlot'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDropDownOpen_IsOpen",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "IsDropDownOpen",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsOpen",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsOpenLocal",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_True_if_break_was_hit_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'PartySettingPopup_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.91"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsPartySettingOpen_IsOpen",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "Function",
+    "Name": "IsPartySearchSettingValid",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsSettingValid",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "MaxLength",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "MinLength",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_GetInTextBlock_InText",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_TextToString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CheckPartyDescAndShowFailMsg_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_GetInTextBlock_InText_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsExistFilteredPartyPostingText_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInitialized",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:OnInitialized'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnRecievePartyCreated",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'EPanel_PartySetting:OnRecievePartyCreated'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_GetCurTid_CurTid",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_NameName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetPartyContentsSlot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "ChildProperties": [
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Function'PartySettingPopup_Slot_C:OnSetContents__DelegateSignature'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.65"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetPartyAllContentsTid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "NameProperty",
+          "Name": "CallFunc_GetPartyAllContentsTid_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 12
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetPartyOpenSlot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "ChildProperties": [
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Function'PartySettingPopup_Slot_C:OnCloseSetting__DelegateSignature'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.64"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetPartyAllOpenTid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "NameProperty",
+          "Name": "CallFunc_GetPartyAllOpenTid_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 12
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetPartyPostingSlot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetPartyAllPostingData_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "NameProperty",
+          "Name": "CallFunc_GetPartyAllPostingData_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 12
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetPartyPostingSlot_FromContents",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "ContentsType",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Enum'EPartyContentsTypeBP'",
+          "ObjectPath": "/Script/ACCoreModule"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetPartyPostingData_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "NameProperty",
+          "Name": "CallFunc_GetPartyPostingData_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 12
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetItemAt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsParty_Setting_Popup_Btn_Data",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'PartySettingPopup_Btn_Data_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Btn_Data.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_NameToString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetLocalStr_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetPartySearch",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_GetCurTid_CurTid",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_PartyManage_AmIInParty_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_GetInTextBlock_InText",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_GetCurTid_CurTid_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetPopupSlots",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Function'PartySettingPopup_Slot_C:OnClickSlot__DelegateSignature'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.62"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'PartySettingPopup_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.91"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm | ContainsInstancedReference",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'PartySettingPopup_Slot_C'",
+            "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.91"
+          }
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Hide",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_PartySetting_C:Anim_Hide_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.77"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "667A6323-485F90C4-09C3B49E-B5EE056F",
+          "Name": "CBCanvasPanel_0",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "667A6323-485F90C4-09C3B49E-B5EE056F",
+          "BindingName": "CBCanvasPanel_0",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_PartySetting_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.70"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 21000
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 30
+      },
+      "Signature": "40ED4834-4B0AC242-A923E5AE-565024F8"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Show",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_PartySetting_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.78"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "8AD73DEE-4EB90DDD-67465EA9-9C311028",
+          "Name": "popup",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "9B1B8F37-45E3417B-872394BE-08DDE58C",
+          "Name": "CBCanvasPanel_0",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "8AD73DEE-4EB90DDD-67465EA9-9C311028",
+          "BindingName": "popup",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.57"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "9B1B8F37-45E3417B-872394BE-08DDE58C",
+          "BindingName": "CBCanvasPanel_0",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.71"
+            }
+          ]
+        }
+      ],
+      "Tracks": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidTrack'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.1"
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 30001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 30
+      },
+      "ClockSource": "EUpdateClockSource::Audio",
+      "Signature": "5682240F-4551F7DF-A0D0AB94-A8CEF45E"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.57"
+    },
+    "Properties": {
+      "TransformMask": {
+        "Mask": 3
+      },
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Translation[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": -20.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.62"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.63"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 30000
+            }
+          }
+        }
+      },
+      "Signature": "A2D12B6A-4141771B-58B4C198-B3BF7A75"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_PartySetting_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.55"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.56"
+        }
+      ],
+      "EvaluationFieldGuid": "1641F1A5-4AD8A72B-AB62FCBD-9E806C9C",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.56"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "1641F1A5-4AD8A72B-AB62FCBD-9E806C9C"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_PartySetting_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.68"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_PartySetting_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.68"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.56"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.56"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.69"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.69"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_PartySetting_C:Anim_Hide_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.77"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 21000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_PartySetting_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.68"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "667A6323-485F90C4-09C3B49E-B5EE056F"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 21000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "508243DD-410C8F53-B389879B-9ECD0490",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_PartySetting_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.78"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 3,
+                  "Capacity": 3
+                },
+                {
+                  "StartIndex": 3,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 30000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 30000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 30000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "ACMovieSceneSoundTidSection'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.0"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.56"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.69"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "ObjectBindingID": "8AD73DEE-4EB90DDD-67465EA9-9C311028"
+          },
+          {
+            "ObjectBindingID": "9B1B8F37-45E3417B-872394BE-08DDE58C"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 30000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "D7F1E470-4259EF40-112E738A-CC360434",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_PartySetting_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.70"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 9000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_PartySetting_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.58"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_PartySetting_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.59"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 21000
+            }
+          }
+        }
+      },
+      "Signature": "1C8C1EC3-4D3396F3-C4C04F88-A1A41BA5"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.71"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.64"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.65"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 30000
+            }
+          }
+        }
+      },
+      "Signature": "F2146890-48271874-0522D584-37ADE063"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_PartySetting_C:Anim_Hide_INST.Anim_Hide'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.54"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_PartySetting_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.68"
+        }
+      ],
+      "EvaluationFieldGuid": "27BAE226-494AF474-A5FECE94-6CB60CD2",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_PartySetting_C:Anim_Hide_INST.Anim_Hide.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.68"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 21000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "27BAE226-494AF474-A5FECE94-6CB60CD2"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_PartySetting_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.55"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.69"
+        }
+      ],
+      "EvaluationFieldGuid": "08676DF3-43C3AFD3-A16BE3B7-7EA41509",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_PartySetting_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.69"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "08676DF3-43C3AFD3-A16BE3B7-7EA41509"
+    }
+  },
+  {
+    "Type": "Panel_PartySetting_C",
+    "Name": "Default__Panel_PartySetting_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.Panel_PartySetting_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting",
+    "Properties": {
+      "UberGraphFrame": {},
+      "UseInputSystem": true,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "PartySettingPopup_Slot_C",
+    "Name": "PartyContentPopupSlot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.PartySettingPopup_Slot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_PartySetting_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.80"
+    },
+    "Template": {
+      "ObjectName": "PartySettingPopup_Slot_C'Default__PartySettingPopup_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.89"
+    },
+    "Properties": {
+      "Selected": false,
+      "ImageStyles": [
+        {
+          "Brush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 0.040915,
+                "G": 0.049707,
+                "B": 0.078187,
+                "A": 0.5,
+                "Hex": "7F393F4F"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::NoDrawType",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 32.0,
+              "Y": 32.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": null,
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Brush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 0.040915,
+                "G": 0.049707,
+                "B": 0.078187,
+                "A": 1.0,
+                "Hex": "393F4F"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::NoDrawType",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 32.0,
+              "Y": 32.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": null,
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        }
+      ],
+      "NavigationLinkChangeGroupIndex": 1,
+      "bAutomaticallyRegisterInputOnConstruction": false,
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_PartySetting_C:WidgetTree.VerticalBox_1.CBVerticalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.28"
+      }
+    }
+  },
+  {
+    "Type": "PartySettingPopup_Slot_C",
+    "Name": "PartyOpenPopupSlot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.PartySettingPopup_Slot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_PartySetting_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.80"
+    },
+    "Template": {
+      "ObjectName": "PartySettingPopup_Slot_C'Default__PartySettingPopup_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.89"
+    },
+    "Properties": {
+      "Selected": false,
+      "ImageStyles": [
+        {
+          "Brush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 0.5,
+                "Hex": "7FFFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 32.0,
+              "Y": 32.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "VtaSlateTexture'Party_i_contents_dungeon'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Party/Frames/Party_i_contents_dungeon.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Brush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 32.0,
+              "Y": 32.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "VtaSlateTexture'Party_i_contents_dungeon'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Party/Frames/Party_i_contents_dungeon.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        }
+      ],
+      "NavigationLinkChangeGroupIndex": 1,
+      "bAutomaticallyRegisterInputOnConstruction": false,
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_PartySetting_C:WidgetTree.VerticalBox_1.CBVerticalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.27"
+      }
+    }
+  },
+  {
+    "Type": "PartySettingPopup_Slot_C",
+    "Name": "PartyPostingPopupSlot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.PartySettingPopup_Slot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_PartySetting_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.80"
+    },
+    "Template": {
+      "ObjectName": "PartySettingPopup_Slot_C'Default__PartySettingPopup_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.89"
+    },
+    "Properties": {
+      "Selected": false,
+      "ImageStyles": [
+        {
+          "Brush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 0.040915,
+                "G": 0.049707,
+                "B": 0.078187,
+                "A": 0.5,
+                "Hex": "7F393F4F"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::NoDrawType",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 32.0,
+              "Y": 32.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": null,
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Brush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 0.040915,
+                "G": 0.049707,
+                "B": 0.078187,
+                "A": 1.0,
+                "Hex": "393F4F"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::NoDrawType",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 32.0,
+              "Y": 32.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": null,
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        }
+      ],
+      "NavigationLinkChangeGroupIndex": 1,
+      "bAutomaticallyRegisterInputOnConstruction": false,
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_PartySetting_C:WidgetTree.VerticalBox_1.CBVerticalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.26"
+      }
+    }
+  },
+  {
+    "Type": "PartySettingPopup_Slot_C",
+    "Name": "PartySettingPopup_Slot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.PartySettingPopup_Slot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_PartySetting_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.80"
+    },
+    "Template": {
+      "ObjectName": "PartySettingPopup_Slot_C'Default__PartySettingPopup_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.89"
+    },
+    "Properties": {
+      "ImageStyles": [
+        {
+          "Brush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 0.040915,
+                "G": 0.049707,
+                "B": 0.078187,
+                "A": 0.5,
+                "Hex": "7F393F4F"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::NoDrawType",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 32.0,
+              "Y": 32.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": null,
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Brush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 0.040915,
+                "G": 0.049707,
+                "B": 0.078187,
+                "A": 1.0,
+                "Hex": "393F4F"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::NoDrawType",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 32.0,
+              "Y": 32.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": null,
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        }
+      ],
+      "NavigationLinkChangeGroupIndex": 1,
+      "bAutomaticallyRegisterInputOnConstruction": false,
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_PartySetting_C:WidgetTree.VerticalBox_1.CBVerticalBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.29"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Hide_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Panel_PartySetting_C:Anim_Hide_INST.Anim_Hide'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.54"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CBCanvasPanel_0",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "667A6323-485F90C4-09C3B49E-B5EE056F",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Hide",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Panel_PartySetting_C:Anim_Hide_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.66"
+      },
+      "Signature": "508243DD-410C8F53-B389879B-9ECD0490"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Show_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Panel_PartySetting_C:Anim_Show_INST.Anim_Show'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.55"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CBCanvasPanel_0",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "9B1B8F37-45E3417B-872394BE-08DDE58C",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "popup",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "8AD73DEE-4EB90DDD-67465EA9-9C311028",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Show",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Panel_PartySetting_C:Anim_Show_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.67"
+      },
+      "Signature": "D7F1E470-4259EF40-112E738A-CC360434"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Panel_PartySetting_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Panel_PartySetting_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.80"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'Panel_PartySetting_C:Anim_Show_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.78"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Panel_PartySetting_C:Anim_Hide_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.77"
+        }
+      ],
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'Panel_PartySetting_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.30"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'Panel_PartySetting_C:ExecuteUbergraph_Panel_PartySetting'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.43"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EPanel_PartySetting'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:IsDropDownOpen'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.44"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:CloseDropDown'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.39"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:OnRecievePartyCreated'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.47"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:EvtHidePanel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.41"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:IsPartySearchSettingValid'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.45"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:SetPartyPostingSlot_FromContents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.51"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:EvtShowPanel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.42"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:SetPartySearch'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.52"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:ClickPopupSlot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.38"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:SetPopupSlots'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.53"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:ClosePanel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.40"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:SetPartyPostingSlot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.50"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:SetPartyContentsSlot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.48"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:SetPartyOpenSlot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.49"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:OnInitialized'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.46"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:BndEvt__Panel_PartySetting_Button_Background_Close_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.34"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:BndEvt__Panel_PartySetting_Btn_Apply_K2Node_ComponentBoundEvent_2_OnSlotPressed__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.32"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:BndEvt__Panel_PartySetting_Btn_Close_19_K2Node_ComponentBoundEvent_3_OnSlotPressed__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.33"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:BndEvt__Panel_PartySetting_PartyOpenPopupSlot_K2Node_ComponentBoundEvent_4_OnSlotPressed__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.36"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:BndEvt__Panel_PartySetting_PartyContentPopupSlot_K2Node_ComponentBoundEvent_6_OnSlotPressed__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.35"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:BndEvt__Panel_PartySetting_PartyPostingPopupSlot_K2Node_ComponentBoundEvent_7_OnSlotPressed__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.37"
+      },
+      {
+        "ObjectName": "Function'Panel_PartySetting_C:ExecuteUbergraph_Panel_PartySetting'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.43"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Btn_Apply",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'Btn_01_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.70"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Btn_Close_19",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'Btn_Close_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Close.27"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BtnGuide_widget",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'BtnGuide_widget_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/BtnGuide_widget.16"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_Background_Close",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBButton'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBSafeZone_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBSafeZone'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Line",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PartyContentPopupSlot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'PartySettingPopup_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.91"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PartyOpenPopupSlot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'PartySettingPopup_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.91"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PartyPostingPopupSlot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'PartySettingPopup_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.91"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "PopupSlots",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | ContainsInstancedReference",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "PopupSlots",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'PartySettingPopup_Slot_C'",
+            "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartySettingPopup_Slot.91"
+          }
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Panel_PartySetting": {
+        "ObjectName": "Function'Panel_PartySetting_C:ExecuteUbergraph_Panel_PartySetting'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.43"
+      },
+      "BndEvt__Panel_PartySetting_PartyPostingPopupSlot_K2Node_ComponentBoundEvent_7_OnSlotPressed__DelegateSignature": {
+        "ObjectName": "Function'Panel_PartySetting_C:BndEvt__Panel_PartySetting_PartyPostingPopupSlot_K2Node_ComponentBoundEvent_7_OnSlotPressed__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.37"
+      },
+      "BndEvt__Panel_PartySetting_PartyContentPopupSlot_K2Node_ComponentBoundEvent_6_OnSlotPressed__DelegateSignature": {
+        "ObjectName": "Function'Panel_PartySetting_C:BndEvt__Panel_PartySetting_PartyContentPopupSlot_K2Node_ComponentBoundEvent_6_OnSlotPressed__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.35"
+      },
+      "BndEvt__Panel_PartySetting_PartyOpenPopupSlot_K2Node_ComponentBoundEvent_4_OnSlotPressed__DelegateSignature": {
+        "ObjectName": "Function'Panel_PartySetting_C:BndEvt__Panel_PartySetting_PartyOpenPopupSlot_K2Node_ComponentBoundEvent_4_OnSlotPressed__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.36"
+      },
+      "BndEvt__Panel_PartySetting_Btn_Close_19_K2Node_ComponentBoundEvent_3_OnSlotPressed__DelegateSignature": {
+        "ObjectName": "Function'Panel_PartySetting_C:BndEvt__Panel_PartySetting_Btn_Close_19_K2Node_ComponentBoundEvent_3_OnSlotPressed__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.33"
+      },
+      "BndEvt__Panel_PartySetting_Btn_Apply_K2Node_ComponentBoundEvent_2_OnSlotPressed__DelegateSignature": {
+        "ObjectName": "Function'Panel_PartySetting_C:BndEvt__Panel_PartySetting_Btn_Apply_K2Node_ComponentBoundEvent_2_OnSlotPressed__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.32"
+      },
+      "BndEvt__Panel_PartySetting_Button_Background_Close_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature": {
+        "ObjectName": "Function'Panel_PartySetting_C:BndEvt__Panel_PartySetting_Button_Background_Close_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.34"
+      },
+      "OnInitialized": {
+        "ObjectName": "Function'Panel_PartySetting_C:OnInitialized'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.46"
+      },
+      "SetPartyOpenSlot": {
+        "ObjectName": "Function'Panel_PartySetting_C:SetPartyOpenSlot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.49"
+      },
+      "SetPartyContentsSlot": {
+        "ObjectName": "Function'Panel_PartySetting_C:SetPartyContentsSlot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.48"
+      },
+      "SetPartyPostingSlot": {
+        "ObjectName": "Function'Panel_PartySetting_C:SetPartyPostingSlot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.50"
+      },
+      "ClosePanel": {
+        "ObjectName": "Function'Panel_PartySetting_C:ClosePanel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.40"
+      },
+      "SetPopupSlots": {
+        "ObjectName": "Function'Panel_PartySetting_C:SetPopupSlots'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.53"
+      },
+      "ClickPopupSlot": {
+        "ObjectName": "Function'Panel_PartySetting_C:ClickPopupSlot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.38"
+      },
+      "SetPartySearch": {
+        "ObjectName": "Function'Panel_PartySetting_C:SetPartySearch'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.52"
+      },
+      "EvtShowPanel": {
+        "ObjectName": "Function'Panel_PartySetting_C:EvtShowPanel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.42"
+      },
+      "SetPartyPostingSlot_FromContents": {
+        "ObjectName": "Function'Panel_PartySetting_C:SetPartyPostingSlot_FromContents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.51"
+      },
+      "IsPartySearchSettingValid": {
+        "ObjectName": "Function'Panel_PartySetting_C:IsPartySearchSettingValid'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.45"
+      },
+      "EvtHidePanel": {
+        "ObjectName": "Function'Panel_PartySetting_C:EvtHidePanel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.41"
+      },
+      "OnRecievePartyCreated": {
+        "ObjectName": "Function'Panel_PartySetting_C:OnRecievePartyCreated'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.47"
+      },
+      "CloseDropDown": {
+        "ObjectName": "Function'Panel_PartySetting_C:CloseDropDown'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.39"
+      },
+      "IsDropDownOpen": {
+        "ObjectName": "Function'Panel_PartySetting_C:IsDropDownOpen'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.44"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Panel_PartySetting_C'Default__Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.72"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_PartySetting_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.79"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'Panel_PartySetting_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/Panel_PartySetting.6"
+      }
+    }
+  }
+]

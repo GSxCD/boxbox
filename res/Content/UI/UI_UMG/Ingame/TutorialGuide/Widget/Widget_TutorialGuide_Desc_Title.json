@@ -1,0 +1,168 @@
+[
+  {
+    "Type": "ETextBlock",
+    "Name": "ETextBlock_Title",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_TutorialGuide_Desc_Title_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TutorialGuide/Widget/Widget_TutorialGuide_Desc_Title.4"
+    },
+    "Properties": {
+      "UseLocalization": false,
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.030713,
+          "G": 0.035601,
+          "B": 0.046665,
+          "A": 1.0,
+          "Hex": "31353D"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 30.0
+      },
+      "Justification": "ETextJustify::Center",
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SetTextFromLocalKey",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_TutorialGuide_Desc_Title_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TutorialGuide/Widget/Widget_TutorialGuide_Desc_Title.3"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "inLocalKey",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_NameToString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetLocalStr_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_StringToText_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Widget_TutorialGuide_Desc_Title_C",
+    "Name": "Default__Widget_TutorialGuide_Desc_Title_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/TutorialGuide/Widget/Widget_TutorialGuide_Desc_Title.Widget_TutorialGuide_Desc_Title_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TutorialGuide/Widget/Widget_TutorialGuide_Desc_Title",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Widget_TutorialGuide_Desc_Title_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TutorialGuide/Widget/Widget_TutorialGuide_Desc_Title",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Widget_TutorialGuide_Desc_Title_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TutorialGuide/Widget/Widget_TutorialGuide_Desc_Title.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Widget_TutorialGuide_Desc_Title_C:SetTextFromLocalKey'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TutorialGuide/Widget/Widget_TutorialGuide_Desc_Title.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ETextBlock_Title",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'ETextBlock'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "LocalKey",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "FuncMap": {
+      "SetTextFromLocalKey": {
+        "ObjectName": "Function'Widget_TutorialGuide_Desc_Title_C:SetTextFromLocalKey'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TutorialGuide/Widget/Widget_TutorialGuide_Desc_Title.1"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Widget_TutorialGuide_Desc_Title_C'Default__Widget_TutorialGuide_Desc_Title_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TutorialGuide/Widget/Widget_TutorialGuide_Desc_Title.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_TutorialGuide_Desc_Title_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TutorialGuide/Widget/Widget_TutorialGuide_Desc_Title.3"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "ETextBlock'Widget_TutorialGuide_Desc_Title_C:WidgetTree.ETextBlock_Title'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/TutorialGuide/Widget/Widget_TutorialGuide_Desc_Title.0"
+      }
+    }
+  }
+]

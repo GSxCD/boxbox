@@ -1,0 +1,403 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_Particle_60'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/SM_Particle_60.1"
+    },
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -167.94266,
+                "Y": -100.869736,
+                "Z": -250.60233
+              },
+              {
+                "X": -167.94266,
+                "Y": -160.95258,
+                "Z": -250.60233
+              },
+              {
+                "X": -167.94266,
+                "Y": -160.95258,
+                "Z": -260.68518
+              },
+              {
+                "X": -167.94266,
+                "Y": -100.869736,
+                "Z": -260.68518
+              },
+              {
+                "X": -178.14265,
+                "Y": -100.869736,
+                "Z": -260.68518
+              },
+              {
+                "X": -178.14265,
+                "Y": -160.95258,
+                "Z": -260.68518
+              },
+              {
+                "X": -178.14265,
+                "Y": -160.95258,
+                "Z": -250.60233
+              },
+              {
+                "X": -178.14265,
+                "Y": -100.869736,
+                "Z": -250.60233
+              }
+            ],
+            "IndexData": [
+              3,
+              0,
+              2,
+              6,
+              5,
+              1,
+              1,
+              2,
+              0,
+              6,
+              1,
+              0,
+              3,
+              4,
+              0,
+              3,
+              2,
+              4,
+              5,
+              2,
+              1,
+              5,
+              4,
+              2,
+              6,
+              4,
+              5,
+              7,
+              6,
+              0,
+              7,
+              4,
+              6,
+              7,
+              0,
+              4
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -178.14265,
+                "Y": -160.95258,
+                "Z": -260.68518
+              },
+              "Max": {
+                "X": -167.94266,
+                "Y": -100.869736,
+                "Z": -250.60233
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Npc",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Object",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Wall",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Select",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "5590AD784D93C306D792C49B39E03F02",
+    "CookedFormatData": {
+      "Chaos": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 978,
+        "SizeOnDisk": 978,
+        "OffsetInFile": "0x25F"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_Particle_60",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/SM_Particle_60",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_MeshParticle_VFX_Dust_01'",
+            "ObjectPath": "SevenDeadlySins/Content/VFX/Resources/MeshParticle/Material/MaterialInst/MI_MeshParticle_VFX_Dust_01.0"
+          },
+          "MaterialSlotName": "1_ParticleCount_60_40_20",
+          "ImportedMaterialSlotName": "1_ParticleCount_60_40_20",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 9.99999,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 9.99999,
+      "PositiveBoundsExtension": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "NegativeBoundsExtension": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -173.04266,
+          "Y": -130.91115,
+          "Z": -255.64374
+        },
+        "BoxExtent": {
+          "X": 105.0,
+          "Y": 130.0,
+          "Z": 104.99999
+        },
+        "SphereRadius": 197.35753698809157
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_Particle_60:BodySetup_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/SM_Particle_60.0"
+    },
+    "NavCollision": null,
+    "LightingGuid": "7AACF8A4-40383F51-541217B6-9898BB54",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 120,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 239,
+              "bEnableCollision": false,
+              "bCastShadow": false,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": false
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 240
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 240,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          },
+          "CardRepresentationData": {
+            "Bounds": {
+              "Min": {
+                "X": -179.04266,
+                "Y": -161.91115,
+                "Z": -261.64374
+              },
+              "Max": {
+                "X": -167.04266,
+                "Y": -99.91115,
+                "Z": -249.64374
+              },
+              "IsValid": 1
+            },
+            "MaxLodLevel": 0,
+            "bMostlyTwoSided": false,
+            "CardBuildData": []
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 80,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 159,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 160
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 160,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 40,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 79,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 80
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 80,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "NaniteResources": {
+        "StreamablePages": {
+          "BulkDataFlags": "BULKDATA_None",
+          "ElementCount": 0,
+          "SizeOnDisk": 0,
+          "OffsetInFile": "0x3609"
+        },
+        "AssemblyTransforms": [],
+        "AssemblyBoneAttachmentData": null,
+        "BoneIndices": null,
+        "VoxelMaterialsMask": 0,
+        "MeshBounds": null,
+        "PageRangeLookup": null,
+        "NumRootPages": 0,
+        "PositionPrecision": 0,
+        "NormalPrecision": 0,
+        "NumInputTriangles": 0,
+        "NumInputVertices": 0,
+        "NumInputMeshes": 0,
+        "NumInputTexCoords": 0,
+        "NumClusters": 0,
+        "NumInputCurves": 0,
+        "ResourceFlags": "NONE"
+      },
+      "Bounds": {
+        "Origin": {
+          "X": -173.04266,
+          "Y": -130.91115,
+          "Z": -255.64374
+        },
+        "BoxExtent": {
+          "X": 5.0,
+          "Y": 29.999996,
+          "Z": 4.9999924
+        },
+        "SphereRadius": 30.82207
+      },
+      "bLODsShareStaticLighting": false,
+      "ScreenSize": [
+        1.0,
+        0.75,
+        0.5625,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

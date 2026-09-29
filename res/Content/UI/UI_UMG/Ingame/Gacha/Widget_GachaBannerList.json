@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaBannerList_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaBannerList.5"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaBannerList_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaBannerList.1"
+        }
+      ],
+      "Clipping": "EWidgetClipping::ClipToBounds"
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaBannerList_C:WidgetTree.CBCanvasPanel_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaBannerList.0"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaBannerList_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaBannerList.0"
+      },
+      "Content": {
+        "ObjectName": "GachaBannerGrid_Widget_C'Widget_GachaBannerList_C:WidgetTree.Widget_GachaBannerGrid'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaBannerList.2"
+      }
+    }
+  },
+  {
+    "Type": "GachaBannerGrid_Widget_C",
+    "Name": "Widget_GachaBannerGrid",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/GachaBannerGrid_Widget.GachaBannerGrid_Widget_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaBannerList_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaBannerList.5"
+    },
+    "Template": {
+      "ObjectName": "GachaBannerGrid_Widget_C'Default__GachaBannerGrid_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/GachaBannerGrid_Widget.1"
+    },
+    "Properties": {
+      "IsAutoSelected": true,
+      "bFillUpEmptySlotAtNativeConstruct": false,
+      "Orientation": "EOrientation::Orient_Vertical",
+      "EntryWidth": 360.0,
+      "EntryHeight": 170.0,
+      "bDisplayEmptySlot": false,
+      "bTileViewPadFirstButton": true,
+      "bTileViewPadHoverSelect": true,
+      "UsePadFocus": true,
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaBannerList_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaBannerList.1"
+      }
+    }
+  },
+  {
+    "Type": "Widget_GachaBannerList_C",
+    "Name": "Default__Widget_GachaBannerList_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaBannerList.Widget_GachaBannerList_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaBannerList",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false,
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Widget_GachaBannerList_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaBannerList",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Widget_GachaBannerList_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaBannerList.5"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWidget_GachaBannerList'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Widget_GachaBannerList_C'Default__Widget_GachaBannerList_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaBannerList.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_GachaBannerList_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaBannerList.4"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaBannerList_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaBannerList.0"
+      }
+    }
+  }
+]

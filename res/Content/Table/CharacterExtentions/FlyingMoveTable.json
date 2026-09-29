@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "FlyingMoveTable",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/CharacterExtentions/FlyingMoveTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UEFlyingMove'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "1010": {
+        "AdventureSkill_Tid": {
+          "Display_Type": "EAdventureSkillDisplayType::Common",
+          "EnableBattleState": false,
+          "EnableMoveState": [
+            "EMoveMode::Ground"
+          ],
+          "Condition_Type": "EAdventureSkillActiveCondition::CoolTime",
+          "Condition_Value": "45000",
+          "ControlType": "EAdventureSkillControlType::Click",
+          "Icon": "icon_adventureskill_king",
+          "AdventureSkill_SkillTid": [
+            "king_activity_000"
+          ],
+          "SkillTID": [
+            "king_activity_000",
+            "king_activity_001"
+          ],
+          "Ignore_ElementalDamageType": [],
+          "Sound_Tid": "None",
+          "Active_Sound_Tid": "None",
+          "Loop_Sound_Tid": "None",
+          "Contents_OnOff": {
+            "EnableDungeonUse": false,
+            "EnableQuestDungeonUse": false,
+            "EnableDeathMatchUse": false,
+            "EnableTeamDeathMatchUse": false,
+            "EnableTeamRoundMatchUse": false,
+            "EnablePVPMatchUse": false,
+            "EnableRaceUse": false,
+            "EnableBoardingObjStateUse": false,
+            "EnableMovingObjStateUse": false,
+            "EnableMultiObjStateUse": false,
+            "EnableActorChangeUse": true,
+            "EnableQuestAlbionSectorUse": true,
+            "EnableEnterSectorUse": true,
+            "String_Tid": "None",
+            "Local_Key": "flying_move_contentsonoff"
+          },
+          "String_Tid": "flying_move",
+          "Local_Key": "None"
+        },
+        "Move_Min_Distance": 1000,
+        "Move_Max_Distance": 15000,
+        "Move_End_Distance": 50,
+        "Mode_Guide_FX": "fx_ns_king_adventure_skill_loop",
+        "Mode_Angle_Min": -1,
+        "Mode_Angle_Max": -1,
+        "Camera_Tid": "king_adv_skillaim",
+        "Mode_Start_Montage": "king_adventure_cast_loop_mtg",
+        "Mode_End_Montage": "king_adventure_cast_end_mtg",
+        "Mode_Move_Start_Montage": "king_adventure_mtg",
+        "Mode_Move_Loop_Montage": "None",
+        "Mode_Move_End_Montage": "None",
+        "String_Tid": "1010",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

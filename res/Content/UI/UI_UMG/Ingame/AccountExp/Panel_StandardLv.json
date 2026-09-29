@@ -1,0 +1,4308 @@
+[
+  {
+    "Type": "ACMovieSceneSoundTidSection",
+    "Name": "ACMovieSceneSoundTidSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidSection'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidTrack'Panel_StandardLv_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.1"
+    },
+    "Properties": {
+      "soundTid": {
+        "Tid": "2000011"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'ui_common_panel_sub_open_01_cue'",
+        "ObjectPath": "SevenDeadlySins/Content/Sounds/ui/common/ui_common_panel_sub_open_01_cue.0"
+      },
+      "StartFrameOffset": {
+        "Value": 2000
+      },
+      "bKeepPlayingUntilEnd": true,
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_StandardLv_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.92"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_StandardLv_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.93"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 30000
+            }
+          }
+        }
+      },
+      "Signature": "7537AECC-4FC82090-3B8B4185-C5B0CEF2"
+    }
+  },
+  {
+    "Type": "ACMovieSceneSoundTidTrack",
+    "Name": "ACMovieSceneSoundTidTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_StandardLv_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.89"
+    },
+    "Properties": {
+      "AudioSections": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidSection'Panel_StandardLv_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.0"
+        }
+      ],
+      "EvaluationFieldGuid": "67B12451-4EC2D077-F021FCBC-225F437E",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "ACMovieSceneSoundTidSection'Panel_StandardLv_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.0"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "67B12451-4EC2D077-F021FCBC-225F437E"
+    }
+  },
+  {
+    "Type": "Btn_01_C",
+    "Name": "ChangeLvSlot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.Btn_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Template": {
+      "ObjectName": "Btn_01_C'Default__Btn_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.0"
+    },
+    "Properties": {
+      "TextStyles": [
+        {
+          "ColorAndOpacity": {
+            "SpecifiedColor": {
+              "R": 0.846873,
+              "G": 0.846873,
+              "B": 0.846873,
+              "A": 1.0,
+              "Hex": "EDEDED"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Font": {
+            "FontObject": {
+              "ObjectName": "Font'Font_Default'",
+              "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+            },
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 0,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0,
+                "Hex": "000000"
+              }
+            },
+            "TypefaceFontName": "Font_B",
+            "Size": 30.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "ShadowOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "ShadowColorAndOpacity": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        }
+      ],
+      "StringStyle": {
+        "bEnabled": true,
+        "Text": "ui_level_reward_button_worldlevel_change"
+      },
+      "bIsPadFocus": false,
+      "ButtonGroupIndex": 1,
+      "NavigationLinkChangeGroupIndex": 2,
+      "InputTableTID": "UI_PAD_Button_Left",
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_12'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.25"
+      }
+    }
+  },
+  {
+    "Type": "Btn_01_C",
+    "Name": "MoveDungeon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.Btn_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Template": {
+      "ObjectName": "Btn_01_C'Default__Btn_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.0"
+    },
+    "Properties": {
+      "TextStyles": [
+        {
+          "ColorAndOpacity": {
+            "SpecifiedColor": {
+              "R": 0.846873,
+              "G": 0.846873,
+              "B": 0.846873,
+              "A": 1.0,
+              "Hex": "EDEDED"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Font": {
+            "FontObject": {
+              "ObjectName": "Font'Font_Default'",
+              "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+            },
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 0,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0,
+                "Hex": "000000"
+              }
+            },
+            "TypefaceFontName": "Font_B",
+            "Size": 30.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "ShadowOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "ShadowColorAndOpacity": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        }
+      ],
+      "StringStyle": {
+        "bEnabled": true,
+        "Text": "Local_Interaction_Dungeon_Test_Name1"
+      },
+      "bIsPadFocus": false,
+      "ButtonGroupIndex": 3,
+      "InputTableTID": "UI_PAD_Button_Left",
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.22"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Btn_Key_2_C",
+    "Name": "Btn_Key_L1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Key_2.Btn_Key_2_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Template": {
+      "ObjectName": "Btn_Key_2_C'Default__Btn_Key_2_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Key_2.0"
+    },
+    "Properties": {
+      "bIsPadFocus": false,
+      "ButtonGroupIndex": 3,
+      "InputTableTID": "UI_PAD_L1",
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_8'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.31"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Btn_Key_2_C",
+    "Name": "Btn_Key_R1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Key_2.Btn_Key_2_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Template": {
+      "ObjectName": "Btn_Key_2_C'Default__Btn_Key_2_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Key_2.0"
+    },
+    "Properties": {
+      "bIsPadFocus": false,
+      "ButtonGroupIndex": 3,
+      "InputTableTID": "UI_PAD_R1",
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_9'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.32"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "BtnGuide_widget_C",
+    "Name": "BtnGuide_widget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/BtnGuide_widget.BtnGuide_widget_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Template": {
+      "ObjectName": "BtnGuide_widget_C'Default__BtnGuide_widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/BtnGuide_widget.6"
+    },
+    "Properties": {
+      "m_KeyGuideTID": "KeyGuide_ContentsMenu",
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.29"
+      }
+    }
+  },
+  {
+    "Type": "CBButton",
+    "Name": "Button_Close",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "bIsPadFocus": false,
+      "ButtonGroupIndex": 22,
+      "bAllowPadFocusWhenScrolledOut": false,
+      "ButtonClickChangeGroupIndex": 16777216,
+      "ColorAndOpacity": {
+        "R": 2.3509887E-38,
+        "G": 7.583546E-37,
+        "B": 2.4153456E-38,
+        "A": 2.5443464E-29,
+        "Hex": "000000"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_306",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_306.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.12"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_306.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.13"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_306.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.14"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.Panel_Dungeon.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.34"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_41",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.16"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41.CBCanvasPanelSlot_11'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.15"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41.CBCanvasPanelSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.17"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41.CBCanvasPanelSlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.18"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41.CBCanvasPanelSlot_6'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.19"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41.CBCanvasPanelSlot_7'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.20"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "contents",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.27"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_7'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.30"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_8'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.31"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_9'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.32"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.26"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.28"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.21"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_10'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.23"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_11'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.24"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_12'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.25"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.22"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.29"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSafeZoneSlot'Panel_StandardLv_C:WidgetTree.CBSafeZone_88.CBSafeZoneSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.62"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "Panel_Dungeon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.Panel_Dungeon.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.35"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.Panel_Dungeon.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.33"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.Panel_Dungeon.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.34"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.21"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_306'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_306'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.8"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_StandardLv_C:WidgetTree.CBImage_62'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.55"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_306'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -7.0,
+          "Right": 0.0,
+          "Bottom": 10.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_306'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.8"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_106'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.36"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_306'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 2.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_306'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.8"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.37"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.9"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.9"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Panel_StandardLv_C:WidgetTree.Button_Close'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.7"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.9"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.9"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_StandardLv_C:WidgetTree.back'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.46"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.9"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 80.0,
+          "Right": 0.0,
+          "Bottom": 870.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.9"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_StandardLv_C:WidgetTree.bg'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.47"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.9"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -352.0,
+          "Right": 0.0,
+          "Bottom": 12.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.9"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_StandardLv_C:WidgetTree.line'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.56"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.9"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 514.0,
+          "Right": 0.0,
+          "Bottom": 6.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.9"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_StandardLv_C:WidgetTree.line_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.57"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.9"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.9"
+      },
+      "Content": {
+        "ObjectName": "CBSafeZone'Panel_StandardLv_C:WidgetTree.CBSafeZone_88'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.61"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 50.0,
+          "Right": 800.0,
+          "Bottom": 450.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.Panel_Dungeon'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.11"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 440.0,
+          "Right": 500.0,
+          "Bottom": 84.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+      },
+      "Content": {
+        "ObjectName": "Btn_01_C'Panel_StandardLv_C:WidgetTree.MoveDungeon'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.3"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 420.0,
+          "Right": 1500.0,
+          "Bottom": 200.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_StandardLv_C:WidgetTree.bg_bot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.48"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 360.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_StandardLv_C:WidgetTree.ChangeLv_Desc'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.78"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 440.0,
+          "Right": 500.0,
+          "Bottom": 84.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+      },
+      "Content": {
+        "ObjectName": "Btn_01_C'Panel_StandardLv_C:WidgetTree.ChangeLvSlot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.2"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -250.0,
+          "Right": 900.0,
+          "Bottom": 90.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Panel_StandardLv_C:WidgetTree.CBSizeBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.63"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 240.0,
+          "Right": 1000.0,
+          "Bottom": 180.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "ZOrder": 1,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.worldLevel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.66"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -160.0,
+          "Right": 800.0,
+          "Bottom": 450.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.VB_Requirement'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.65"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 10.0,
+          "Top": -30.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+      },
+      "Content": {
+        "ObjectName": "BtnGuide_widget_C'Panel_StandardLv_C:WidgetTree.BtnGuide_widget'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.6"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -250.0,
+          "Right": 1125.0,
+          "Bottom": 100.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_StandardLv_C:WidgetTree.bg_list'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.49"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -500.0,
+          "Top": -250.0,
+          "Right": 60.0,
+          "Bottom": 60.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+      },
+      "Content": {
+        "ObjectName": "Btn_Key_2_C'Panel_StandardLv_C:WidgetTree.Btn_Key_L1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.4"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 500.0,
+          "Top": -250.0,
+          "Right": 60.0,
+          "Bottom": 60.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+      },
+      "Content": {
+        "ObjectName": "Btn_Key_2_C'Panel_StandardLv_C:WidgetTree.Btn_Key_R1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.5"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.Panel_Dungeon'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.11"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -40.0,
+          "Right": 800.0,
+          "Bottom": 50.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.Panel_Dungeon'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.11"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_StandardLv_C:WidgetTree.TB_DungeonDesc'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.80"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.Panel_Dungeon'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.11"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -30.0,
+          "Right": 700.0,
+          "Bottom": 75.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "ZOrder": 1,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.Panel_Dungeon'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.11"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_306'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.8"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.Panel_Dungeon'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.11"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -40.0,
+          "Right": 400.0,
+          "Bottom": 400.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.Panel_Dungeon'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.11"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_StandardLv_C:WidgetTree.CBImage_446'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.54"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_106",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_106.CBHorizontalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.40"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_106.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.39"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_106.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.38"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_306.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.13"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_124",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124.CBHorizontalBoxSlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.45"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.41"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124.CBHorizontalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.43"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124.CBHorizontalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.44"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.42"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_306.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.14"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_106'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.36"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Top",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_106'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.36"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_StandardLv_C:WidgetTree.line_top_r'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.60"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_106'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.36"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_106'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.36"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_StandardLv_C:WidgetTree.CBImage_181'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.52"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_106'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.36"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_106'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.36"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_StandardLv_C:WidgetTree.line_top_l'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.59"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.37"
+    },
+    "Properties": {
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.37"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_StandardLv_C:WidgetTree.TB_DungeonName'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.81"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.37"
+    },
+    "Properties": {
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.37"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_StandardLv_C:WidgetTree.TB_BattlePower'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.79"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.37"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.37"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_StandardLv_C:WidgetTree.CBImage_317'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.53"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.37"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.37"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_StandardLv_C:WidgetTree.CBImage'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.50"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.37"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.37"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_StandardLv_C:WidgetTree.CBImage_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.51"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "back",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.85,
+            "Hex": "D9000000"
+          }
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.16"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "bg",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 2048.0,
+          "Y": 688.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Account_bg_worldLevel'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Account/Frames/Account_bg_worldLevel.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41.CBCanvasPanelSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.17"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "bg_bot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.3,
+            "Hex": "4C000000"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 276.0,
+          "Y": 131.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_list2'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_list2.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_10'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.23"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "bg_list",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Brush": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 100.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Account_bg_lvTab'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Account/Frames/Account_bg_lvTab.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_7'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.30"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_i_quest_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_i_quest_5.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.637597,
+        "G": 0.401978,
+        "B": 0.168269,
+        "A": 1.0,
+        "Hex": "D1AA72"
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124.CBHorizontalBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.44"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible",
+      "RenderOpacity": 0.5
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_i_interaction_dungeon'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_i_interaction_dungeon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124.CBHorizontalBoxSlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.45"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible",
+      "RenderOpacity": 0.5
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_181",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 7.0,
+          "Y": 7.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_white'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_white.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.637597,
+        "G": 0.401978,
+        "B": 0.168269,
+        "A": 1.0,
+        "Hex": "D1AA72"
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_106.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.39"
+      },
+      "RenderTransform": {
+        "Angle": 45.0
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_317",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 2.0,
+          "Y": 30.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_white'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_white.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.2,
+        "Hex": "33FFFFFF"
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124.CBHorizontalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.43"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_446",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MAT_Stella_Inst'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/Contents/MAT_Stella_Inst.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.637597,
+        "G": 0.401978,
+        "B": 0.168269,
+        "A": 0.15,
+        "Hex": "26D1AA72"
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.Panel_Dungeon.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.35"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_62",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 487.0,
+          "Y": 55.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_battlescore'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_battlescore.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.015209,
+        "G": 0.015209,
+        "B": 0.015209,
+        "A": 1.0,
+        "Hex": "212121"
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_306.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.12"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "line",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Brush": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 12.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Account_line_01'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Account/Frames/Account_line_01.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41.CBCanvasPanelSlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.18"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "line_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Brush": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 6.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Account_line_02'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Account/Frames/Account_line_02.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41.CBCanvasPanelSlot_6'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.19"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "line_title",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Brush": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 568.0,
+          "Y": 64.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Account_hd_worldLv'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Account/Frames/Account_hd_worldLv.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.worldLevel.CBVerticalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.75"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "line_top_l",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Brush": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 184.0,
+          "Y": 10.0
+        },
+        "Margin": {
+          "Left": 0.7,
+          "Right": 0.3
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Popup_bg_line_03'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Popup/Frames/Popup_bg_line_03.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.637597,
+        "G": 0.401978,
+        "B": 0.168269,
+        "A": 1.0,
+        "Hex": "D1AA72"
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_106.CBHorizontalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.40"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 1.0,
+          "Y": -1.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 1.0,
+        "Y": 0.5
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "line_top_r",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Brush": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 184.0,
+          "Y": 10.0
+        },
+        "Margin": {
+          "Left": 0.7,
+          "Right": 0.3
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Popup_bg_line_03'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Popup/Frames/Popup_bg_line_03.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.637597,
+        "G": 0.401978,
+        "B": 0.168269,
+        "A": 1.0,
+        "Hex": "D1AA72"
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_106.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.38"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": -1.0,
+          "Y": -1.0
+        }
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBSafeZone",
+    "Name": "CBSafeZone_88",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSafeZone'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBSafeZoneSlot'Panel_StandardLv_C:WidgetTree.CBSafeZone_88.CBSafeZoneSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.62"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41.CBCanvasPanelSlot_7'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.20"
+      }
+    }
+  },
+  {
+    "Type": "CBSafeZoneSlot",
+    "Name": "CBSafeZoneSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSafeZoneSlot'",
+    "Outer": {
+      "ObjectName": "CBSafeZone'Panel_StandardLv_C:WidgetTree.CBSafeZone_88'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.61"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSafeZone'Panel_StandardLv_C:WidgetTree.CBSafeZone_88'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.61"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.contents'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.10"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Panel_StandardLv_C:WidgetTree.CBSizeBox_0.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.64"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.26"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Panel_StandardLv_C:WidgetTree.CBSizeBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.63"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'Panel_StandardLv_C:WidgetTree.CBSizeBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.63"
+      },
+      "Content": {
+        "ObjectName": "EListView'Panel_StandardLv_C:WidgetTree.WorldLv_list'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.77"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "VB_Requirement",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.VB_Requirement.CBVerticalBoxSlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.72"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.VB_Requirement.CBVerticalBoxSlot_6'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.73"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.VB_Requirement.CBVerticalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.67"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.VB_Requirement.CBVerticalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.68"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.VB_Requirement.CBVerticalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.69"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.VB_Requirement.CBVerticalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.70"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.VB_Requirement.CBVerticalBoxSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.71"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.28"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "worldLevel",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.worldLevel.CBVerticalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.74"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.worldLevel.CBVerticalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.75"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.worldLevel.CBVerticalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.76"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.27"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.VB_Requirement'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.65"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 16.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.VB_Requirement'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.65"
+      },
+      "Content": {
+        "ObjectName": "WorldLevelOption_Slot_C'Panel_StandardLv_C:WidgetTree.WorldLevelOption_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.107"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.VB_Requirement'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.65"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 16.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.VB_Requirement'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.65"
+      },
+      "Content": {
+        "ObjectName": "WorldLevelOption_Slot_C'Panel_StandardLv_C:WidgetTree.WorldLevelOption_Slot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.108"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.VB_Requirement'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.65"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 16.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.VB_Requirement'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.65"
+      },
+      "Content": {
+        "ObjectName": "WorldLevelOption_Slot_C'Panel_StandardLv_C:WidgetTree.WorldLevelOption_Slot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.109"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.VB_Requirement'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.65"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 16.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.VB_Requirement'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.65"
+      },
+      "Content": {
+        "ObjectName": "WorldLevelOption_Slot_C'Panel_StandardLv_C:WidgetTree.WorldLevelOption_Slot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.110"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.VB_Requirement'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.65"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 16.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.VB_Requirement'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.65"
+      },
+      "Content": {
+        "ObjectName": "WorldLevelOption_Slot_C'Panel_StandardLv_C:WidgetTree.WorldLevelOption_Slot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.111"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.VB_Requirement'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.65"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 30.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.VB_Requirement'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.65"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_StandardLv_C:WidgetTree.WorldLv_Open_Condition'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.83"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.VB_Requirement'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.65"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 20.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.VB_Requirement'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.65"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_StandardLv_C:WidgetTree.WorldLv_Option_Desc_Text'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.84"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.worldLevel'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.66"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.worldLevel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.66"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_StandardLv_C:WidgetTree.WorldLv_Title'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.85"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.worldLevel'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.66"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": -30.0,
+        "Right": -200.0,
+        "Bottom": -10.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.worldLevel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.66"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_StandardLv_C:WidgetTree.line_title'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.58"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.worldLevel'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.66"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_StandardLv_C:WidgetTree.worldLevel'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.66"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_StandardLv_C:WidgetTree.WorldLv_Desc_Text'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.82"
+      }
+    }
+  },
+  {
+    "Type": "EListView",
+    "Name": "WorldLv_list",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EListView'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "FocusLineName": "LevelList",
+      "UseSnapToScrollLocation": true,
+      "UseAutoSelection": true,
+      "ListViewType": "EListViewType::Center",
+      "NumListViewEntries": 10,
+      "CustomTargetPadding": {
+        "bPadding": true,
+        "Padding": {
+          "Left": 100.0
+        }
+      },
+      "CustomCenterPadding": {
+        "bUseForceCenter": true,
+        "ItemSize": {
+          "X": 80.0,
+          "Y": 80.0
+        },
+        "ViewSize": {
+          "X": 960.0,
+          "Y": 90.0
+        }
+      },
+      "SlotData": {
+        "Padding": {
+          "Left": 8.0,
+          "Top": 5.0,
+          "Right": 8.0,
+          "Bottom": 5.0
+        },
+        "Size": {
+          "X": 80.0,
+          "Y": 80.0
+        },
+        "bPadding": true,
+        "bSize": true
+      },
+      "bPreview": true,
+      "IsPadFirstButton": true,
+      "ButtonGroupIndex": 1,
+      "ScrollBarStyle": {
+        "VerticalTopSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "HorizontalTopSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "VerticalBottomSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "HorizontalBottomSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "NormalThumbImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "HoveredThumbImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "DraggedThumbImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "Thickness": 0.0
+      },
+      "Orientation": "EOrientation::Orient_Horizontal",
+      "ConsumeMouseWheel": "EConsumeMouseWheel::Always",
+      "bReturnFocusToSelection": true,
+      "HorizontalEntrySpacing": 150.0,
+      "VerticalEntrySpacing": 149.0,
+      "EntryWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WorldLevel_Slot_C'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/WorldLevel_Slot.81"
+      },
+      "WheelScrollMultiplier": 10.0,
+      "bEnableScrollAnimation": true,
+      "bEnableRightClickScrolling": false,
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Panel_StandardLv_C:WidgetTree.CBSizeBox_0.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.64"
+      },
+      "Clipping": "EWidgetClipping::Inherit"
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "ChangeLv_Desc",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "887CC6EA4546F89CD9C830A1E57D2C9B",
+        "SourceString": "월드레벨은월드레벨은월드레벨은월드레벨은",
+        "LocalizedString": "월드레벨은월드레벨은월드레벨은월드레벨은"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 0.4,
+          "Hex": "66FFFFFF"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.contents.CBCanvasPanelSlot_11'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.24"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TB_BattlePower",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "AD5F9D4B4DB60288DB9306AE75528772",
+        "SourceString": "3540 이상",
+        "LocalizedString": "3540 이상"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.637597,
+          "G": 0.401978,
+          "B": 0.168269,
+          "A": 1.0,
+          "Hex": "D1AA72"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 26.0
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.42"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TB_DungeonDesc",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "18D75F8049A5197CB32F12AEF3A1BE1C",
+        "SourceString": "Local_WorldLevel_Dungeon_Open_Desc_02",
+        "LocalizedString": "Local_WorldLevel_Dungeon_Open_Desc_02"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.4,
+            "Hex": "66000000"
+          }
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 26.0
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_StandardLv_C:WidgetTree.Panel_Dungeon.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.33"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TB_DungeonName",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D0BB5817464AD2510B4566AC778F6630",
+        "SourceString": "던전이름",
+        "LocalizedString": "던전이름"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.4,
+            "Hex": "66000000"
+          }
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 26.0
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_StandardLv_C:WidgetTree.CBHorizontalBox_124.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.41"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "WorldLv_Desc_Text",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D129FAF84BFE9F96E8C4A6A3BDD2EBF7",
+        "SourceString": "설명설명설명설명설명설명설명설명 설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명",
+        "LocalizedString": "설명설명설명설명설명설명설명설명 설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 0.7,
+          "Hex": "B3FFFFFF"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 26.0
+      },
+      "Justification": "ETextJustify::Center",
+      "WrapTextAt": 1800.0,
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.worldLevel.CBVerticalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.76"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "WorldLv_Open_Condition",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "9CE5910E4444B4219233A38E2777E097",
+        "SourceString": "월드레벨 오픈조건",
+        "LocalizedString": "월드레벨 오픈조건"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.416667,
+          "G": 0.416667,
+          "B": 0.416667,
+          "A": 1.0,
+          "Hex": "ADADAD"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 28.0
+      },
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.VB_Requirement.CBVerticalBoxSlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.72"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "WorldLv_Option_Desc_Text",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "A2763586485A462F79C279B771291AC1",
+        "SourceString": "월드레벨 오픈조건",
+        "LocalizedString": "월드레벨 오픈조건"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 28.0
+      },
+      "Justification": "ETextJustify::Center",
+      "AutoWrapText": true,
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.VB_Requirement.CBVerticalBoxSlot_6'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.73"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "WorldLv_Title",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D3379961470B115D3E192DA91252A964",
+        "SourceString": "UI_WorldLevel_name",
+        "LocalizedString": "UI_WorldLevel_name"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 40.0
+      },
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.worldLevel.CBVerticalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.74"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_StandardLv_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.105"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Panel_StandardLv",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_StandardLv_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.105"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_hide",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_StandardLv_C:Anim_hide_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.103"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "4DB9F547-4DD1E9A8-36FDC8AD-DB18CF7C",
+          "Name": "CBCanvasPanel_41",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "4DB9F547-4DD1E9A8-36FDC8AD-DB18CF7C",
+          "BindingName": "CBCanvasPanel_41",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_StandardLv_C:Anim_hide_INST.Anim_hide.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.100"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 18000
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "0FCA4635-4C1054FC-7AD8D794-F4A9B860"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Show",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_StandardLv_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.104"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "1A4623C2-410A71D8-6064ADB8-191CDCEC",
+          "Name": "CBCanvasPanel_41",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "1A4623C2-410A71D8-6064ADB8-191CDCEC",
+          "BindingName": "CBCanvasPanel_41",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_StandardLv_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.101"
+            }
+          ]
+        }
+      ],
+      "Tracks": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidTrack'Panel_StandardLv_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.1"
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 30001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 30
+      },
+      "ClockSource": "EUpdateClockSource::Audio",
+      "Signature": "438B3B18-43F2E684-9F0B8BBE-6B8C3157"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_StandardLv_C:Anim_hide_INST.Anim_hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.98"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_StandardLv_C:Anim_hide_INST.Anim_hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.98"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Panel_StandardLv_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Panel_StandardLv_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_StandardLv_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.99"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_StandardLv_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.99"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_StandardLv_C:Anim_hide_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.103"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 18000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_StandardLv_C:Anim_hide_INST.Anim_hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.98"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "4DB9F547-4DD1E9A8-36FDC8AD-DB18CF7C"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 18000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "B744CC6E-448B7A14-5B7030A8-4CF0D88F",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_StandardLv_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.104"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                },
+                {
+                  "StartIndex": 2,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 30000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 30000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 30000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "ACMovieSceneSoundTidSection'Panel_StandardLv_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.0"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_StandardLv_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.99"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "ObjectBindingID": "1A4623C2-410A71D8-6064ADB8-191CDCEC"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 30000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "C7BDEFDB-4E8C3310-7983138D-46A82FED",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_StandardLv_C:Anim_hide_INST.Anim_hide.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.100"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 18000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_StandardLv_C:Anim_hide_INST.Anim_hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.90"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_StandardLv_C:Anim_hide_INST.Anim_hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.91"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 18000
+            }
+          }
+        }
+      },
+      "Signature": "85A63DBF-43E7D495-5580A987-88117F4A"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_StandardLv_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.101"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 30000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_StandardLv_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.94"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_StandardLv_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.95"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 30000
+            }
+          }
+        }
+      },
+      "Signature": "E3B2AEB8-41E331D0-AF05A8BE-15401147"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_StandardLv_C:Anim_hide_INST.Anim_hide'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.88"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_StandardLv_C:Anim_hide_INST.Anim_hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.98"
+        }
+      ],
+      "EvaluationFieldGuid": "F7A04053-4F807BBF-5AF06F80-8C392FB4",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_StandardLv_C:Anim_hide_INST.Anim_hide.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.98"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 18000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "F7A04053-4F807BBF-5AF06F80-8C392FB4"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_StandardLv_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.89"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_StandardLv_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.99"
+        }
+      ],
+      "EvaluationFieldGuid": "3F7EA3DD-4380B8D5-6DD70FAB-CA7C5718",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_StandardLv_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.99"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 30000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "3F7EA3DD-4380B8D5-6DD70FAB-CA7C5718"
+    }
+  },
+  {
+    "Type": "Panel_StandardLv_C",
+    "Name": "Default__Panel_StandardLv_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.Panel_StandardLv_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_hide_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_StandardLv_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.105"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Panel_StandardLv_C:Anim_hide_INST.Anim_hide'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.88"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CBCanvasPanel_41",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "4DB9F547-4DD1E9A8-36FDC8AD-DB18CF7C",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_hide",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Panel_StandardLv_C:Anim_hide_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.96"
+      },
+      "Signature": "B744CC6E-448B7A14-5B7030A8-4CF0D88F"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Show_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_StandardLv_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.105"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Panel_StandardLv_C:Anim_Show_INST.Anim_Show'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.89"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CBCanvasPanel_41",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "1A4623C2-410A71D8-6064ADB8-191CDCEC",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Show",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Panel_StandardLv_C:Anim_Show_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.97"
+      },
+      "Signature": "C7BDEFDB-4E8C3310-7983138D-46A82FED"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Panel_StandardLv_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'Panel_StandardLv_C:Anim_Show_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.104"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Panel_StandardLv_C:Anim_hide_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.103"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'Panel_StandardLv_C:ExecuteUbergraph_Panel_StandardLv'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.87"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EPanel_StandardLv'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Panel_StandardLv_C:Construct'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.86"
+      },
+      {
+        "ObjectName": "Function'Panel_StandardLv_C:ExecuteUbergraph_Panel_StandardLv'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.87"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Btn_Key_L1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'Btn_Key_2_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Key_2.39"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Btn_Key_R1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'Btn_Key_2_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Key_2.39"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BtnGuide_widget",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'BtnGuide_widget_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/BtnGuide_widget.16"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBImage",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBImage_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBImage_62",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBImage_181",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBImage_317",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBImage_446",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBSafeZone_88",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBSafeZone'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MoveDungeon",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'Btn_01_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.70"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WorldLevelOption_Slot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WorldLevelOption_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/WorldLevelOption_Slot.13"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WorldLevelOption_Slot_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WorldLevelOption_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/WorldLevelOption_Slot.13"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WorldLevelOption_Slot_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WorldLevelOption_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/WorldLevelOption_Slot.13"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WorldLevelOption_Slot_3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WorldLevelOption_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/WorldLevelOption_Slot.13"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WorldLevelOption_Slot_4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WorldLevelOption_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/WorldLevelOption_Slot.13"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Panel_StandardLv": {
+        "ObjectName": "Function'Panel_StandardLv_C:ExecuteUbergraph_Panel_StandardLv'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.87"
+      },
+      "Construct": {
+        "ObjectName": "Function'Panel_StandardLv_C:Construct'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.86"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Panel_StandardLv_C'Default__Panel_StandardLv_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.102"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_StandardLv_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.105"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'Panel_StandardLv_C:WidgetTree.CBCanvasPanel_41'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.9"
+      }
+    }
+  },
+  {
+    "Type": "WorldLevelOption_Slot_C",
+    "Name": "WorldLevelOption_Slot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/WorldLevelOption_Slot.WorldLevelOption_Slot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Template": {
+      "ObjectName": "WorldLevelOption_Slot_C'Default__WorldLevelOption_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/WorldLevelOption_Slot.15"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.VB_Requirement.CBVerticalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.67"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "WorldLevelOption_Slot_C",
+    "Name": "WorldLevelOption_Slot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/WorldLevelOption_Slot.WorldLevelOption_Slot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Template": {
+      "ObjectName": "WorldLevelOption_Slot_C'Default__WorldLevelOption_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/WorldLevelOption_Slot.15"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.VB_Requirement.CBVerticalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.68"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "WorldLevelOption_Slot_C",
+    "Name": "WorldLevelOption_Slot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/WorldLevelOption_Slot.WorldLevelOption_Slot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Template": {
+      "ObjectName": "WorldLevelOption_Slot_C'Default__WorldLevelOption_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/WorldLevelOption_Slot.15"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.VB_Requirement.CBVerticalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.69"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "WorldLevelOption_Slot_C",
+    "Name": "WorldLevelOption_Slot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/WorldLevelOption_Slot.WorldLevelOption_Slot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Template": {
+      "ObjectName": "WorldLevelOption_Slot_C'Default__WorldLevelOption_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/WorldLevelOption_Slot.15"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.VB_Requirement.CBVerticalBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.70"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "WorldLevelOption_Slot_C",
+    "Name": "WorldLevelOption_Slot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/WorldLevelOption_Slot.WorldLevelOption_Slot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_StandardLv_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.106"
+    },
+    "Template": {
+      "ObjectName": "WorldLevelOption_Slot_C'Default__WorldLevelOption_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/WorldLevelOption_Slot.15"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_StandardLv_C:WidgetTree.VB_Requirement.CBVerticalBoxSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/AccountExp/Panel_StandardLv.71"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  }
+]

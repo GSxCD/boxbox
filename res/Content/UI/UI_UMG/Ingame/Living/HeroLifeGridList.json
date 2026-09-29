@@ -1,0 +1,145 @@
+[
+  {
+    "Type": "ETileView",
+    "Name": "TileView",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETileView'",
+    "Outer": {
+      "ObjectName": "WidgetTree'HeroLifeGridList_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Living/HeroLifeGridList.4"
+    },
+    "Properties": {
+      "ChildPTName": "ACPT::Hero_Slot",
+      "bCacheViewData": true,
+      "EntryHeight": 162.0,
+      "EntryWidth": 146.0,
+      "EntryWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'Hero_Slot_C'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Slot/Hero/Hero_Slot.66"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "InitHeroGrid",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'HeroLifeGridList_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Living/HeroLifeGridList.3"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "PreSelectedHeroGUID",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "ContentsType",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_Get_Current_LivingContentsType_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ELivingContentsType'",
+          "ObjectPath": "/Script/ACCoreModule"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "HeroLifeGridList_C",
+    "Name": "Default__HeroLifeGridList_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Living/HeroLifeGridList.HeroLifeGridList_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Living/HeroLifeGridList",
+    "Properties": {
+      "SelectType": "ESlotSelectType::Single",
+      "ChildPTName": "ACPT::Hero_Slot",
+      "ChildBPName": "Hero_Slot",
+      "EntryWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'TileView_Slot_C'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Slot/TileView_Slot.2"
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "HeroLifeGridList_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Living/HeroLifeGridList",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'HeroLifeGridList_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Living/HeroLifeGridList.4"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EHeroGrid_Widget'",
+      "ObjectPath": "/Script/ACUMGBaseModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'HeroLifeGridList_C:InitHeroGrid'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Living/HeroLifeGridList.1"
+      }
+    ],
+    "FuncMap": {
+      "InitHeroGrid": {
+        "ObjectName": "Function'HeroLifeGridList_C:InitHeroGrid'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Living/HeroLifeGridList.1"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HeroLifeGridList_C'Default__HeroLifeGridList_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Living/HeroLifeGridList.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'HeroLifeGridList_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Living/HeroLifeGridList.3"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "ETileView'HeroLifeGridList_C:WidgetTree.TileView'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Living/HeroLifeGridList.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,315 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Drop_Pet_Salamander_0001_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Salamander_0001_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.12"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Drop_Pet_Salamander_0001_C:InheritableComponentHandler'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_SkeletalDropItem'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Capsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBSkeletalMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CBSkeletalMeshComponent'",
+          "ObjectPath": "/Script/CBResourceModule"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Drop_Pet_Salamander_0001_C'Default__BP_Drop_Pet_Salamander_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Drop_Pet_Salamander_0001_C",
+    "Name": "Default__BP_Drop_Pet_Salamander_0001_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.BP_Drop_Pet_Salamander_0001_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001",
+    "Properties": {
+      "FxNiagara": {
+        "ObjectName": "NiagaraComponent'Default__BP_Drop_Pet_Salamander_0001_C:FX'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.6"
+      },
+      "CoreMesh": null,
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_Drop_Pet_Salamander_0001_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.8"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_Drop_Pet_Salamander_0001_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.8"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Salamander_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 20.0,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 30.0
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "CBSkeletalMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Salamander_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.0"
+    },
+    "Properties": {
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'PET_Summon_Salamander_0001_Idle'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Summon_Salamander/Ani/PET_Summon_Salamander_0001_Idle.0"
+        }
+      },
+      "AnimationMode": "EAnimationMode::AnimationSingleNode",
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'PET_Summon_Salamander_0001'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Summon_Salamander/Mesh/PET_Summon_Salamander_0001.2"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'PET_Summon_Salamander_0001'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Summon_Salamander/Mesh/PET_Summon_Salamander_0001.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeScale3D": {
+        "X": 0.65,
+        "Y": 0.65,
+        "Z": 0.65
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Drop_Pet_Salamander_0001_C'Default__BP_Drop_Pet_Salamander_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Drop_Pet_Salamander_0001_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.8"
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Salamander_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.0"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "FX",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_Drop_Pet_Salamander_0001_C'Default__BP_Drop_Pet_Salamander_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.1"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_ns_drop_uncommon'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/Common/System/Drop/fx_ns_drop_uncommon.58"
+      },
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "CBSkeletalMeshComponent'Default__BP_Drop_Pet_Salamander_0001_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.4"
+      },
+      "RelativeLocation": {
+        "X": 2.8421013E-13,
+        "Y": -1.1363838E-08,
+        "Z": 47.922424
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Salamander_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Drop_Pet_Salamander_0001_C'Default__BP_Drop_Pet_Salamander_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Salamander_0001_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Drop_Pet_Salamander_0001_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.7"
+      },
+      "VariableGUID": "7C422CBA-45C3CAD1-5F38ECB4-B1CF9562",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Salamander_0001_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CBSkeletalMeshComponent'",
+        "ObjectPath": "/Script/CBResourceModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBSkeletalMeshComponent'BP_Drop_Pet_Salamander_0001_C:CBSkeletalMesh_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.3"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "CE451992-4574E32D-0BD69D9F-C2BDC063",
+      "InternalVariableName": "CBSkeletalMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Salamander_0001_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_Drop_Pet_Salamander_0001_C:Capsule_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.2"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "9274E3E9-44D3246B-D0FCA0B2-6D695558",
+      "InternalVariableName": "Capsule"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Salamander_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Salamander_0001_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Salamander_0001_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.11"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Salamander_0001_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Salamander_0001_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.11"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Drop_Pet_Salamander_0001_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Summon/BP_Drop_Pet_Salamander_0001.9"
+      }
+    }
+  }
+]

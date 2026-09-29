@@ -1,0 +1,4375 @@
+[
+  {
+    "Type": "ACMovieSceneSoundTidSection",
+    "Name": "ACMovieSceneSoundTidSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidSection'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidTrack'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.1"
+    },
+    "Properties": {
+      "soundTid": {
+        "Tid": "2000003"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'ui_common_popup_info_open_01_cue'",
+        "ObjectPath": "SevenDeadlySins/Content/Sounds/ui/common/ui_common_popup_info_open_01_cue.0"
+      },
+      "bKeepPlayingUntilEnd": true,
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.88"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.89"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 28000
+            }
+          }
+        }
+      },
+      "Signature": "062A7D37-46DAC1C4-70A0C4B1-D69B15D2"
+    }
+  },
+  {
+    "Type": "ACMovieSceneSoundTidTrack",
+    "Name": "ACMovieSceneSoundTidTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.81"
+    },
+    "Properties": {
+      "AudioSections": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.0"
+        }
+      ],
+      "EvaluationFieldGuid": "179A02C7-4B23C7B5-9620F28D-6261E0EB",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "ACMovieSceneSoundTidSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.0"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 28000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "179A02C7-4B23C7B5-9620F28D-6261E0EB"
+    }
+  },
+  {
+    "Type": "Btn_Close_C",
+    "Name": "Btn_Close",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Close.Btn_Close_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Template": {
+      "ObjectName": "Btn_Close_C'Default__Btn_Close_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Close.0"
+    },
+    "Properties": {
+      "ButtonGroupIndex": 1,
+      "NavigationLinkChangePreGroupIndex": true,
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.popup.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.25"
+      }
+    }
+  },
+  {
+    "Type": "Btn_Probability_C",
+    "Name": "Btn_Probability",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Probability.Btn_Probability_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Template": {
+      "ObjectName": "Btn_Probability_C'Default__Btn_Probability_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Probability.0"
+    },
+    "Properties": {
+      "ButtonGroupIndex": 1,
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_LimitBreakStat.CBVerticalBoxSlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.70"
+      }
+    }
+  },
+  {
+    "Type": "BtnGuide_widget_C",
+    "Name": "BtnGuide_widget_weapon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/BtnGuide_widget.BtnGuide_widget_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Template": {
+      "ObjectName": "BtnGuide_widget_C'Default__BtnGuide_widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/BtnGuide_widget.6"
+    },
+    "Properties": {
+      "m_KeyGuideTID": "KeyGuide_HeroInfo_10",
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.popup.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.26"
+      }
+    }
+  },
+  {
+    "Type": "CBBorderSlot",
+    "Name": "CBBorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorderSlot'",
+    "Outer": {
+      "ObjectName": "EBorder'Panel_LimitBreak_Popup_C:WidgetTree.EBorder_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.73"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 30.0,
+        "Right": 30.0
+      },
+      "Parent": {
+        "ObjectName": "EBorder'Panel_LimitBreak_Popup_C:WidgetTree.EBorder_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.73"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_55'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.32"
+      }
+    }
+  },
+  {
+    "Type": "CBBorderSlot",
+    "Name": "CBBorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorderSlot'",
+    "Outer": {
+      "ObjectName": "EBorder'Panel_LimitBreak_Popup_C:WidgetTree.EBorder_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.74"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 30.0,
+        "Right": 30.0
+      },
+      "Parent": {
+        "ObjectName": "EBorder'Panel_LimitBreak_Popup_C:WidgetTree.EBorder_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.74"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_56'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.33"
+      }
+    }
+  },
+  {
+    "Type": "CBButton",
+    "Name": "Button_Close",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "TouchEffectKey": "FxTouchBtn",
+      "bIsPadFocus": false,
+      "bAllowPadFocusWhenScrolledOut": true,
+      "ButtonClickChangeGroupIndex": 16777216,
+      "ColorAndOpacity": {
+        "R": 6.2080795E-36,
+        "G": 9.625651E-38,
+        "B": 1.84749E-40,
+        "A": -4E-45,
+        "Hex": "000000"
+      }
+    }
+  },
+  {
+    "Type": "CBButton",
+    "Name": "Button_Left",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "TouchEffectKey": "FxTouchBtn",
+      "PressSound": {
+        "ObjectName": "SoundCue'ui_common_button_01_cue'",
+        "ObjectPath": "SevenDeadlySins/Content/Sounds/ui/common/ui_common_button_01_cue.0"
+      }
+    }
+  },
+  {
+    "Type": "CBButton",
+    "Name": "Button_Right",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "TouchEffectKey": "FxTouchBtn",
+      "PressSound": {
+        "ObjectName": "SoundCue'ui_common_button_01_cue'",
+        "ObjectPath": "SevenDeadlySins/Content/Sounds/ui/common/ui_common_button_01_cue.0"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_161",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_161.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.14"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_161.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.15"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_70.CBVerticalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.66"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_40",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_40.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.16"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_40.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.17"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_40.CBCanvasPanelSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.18"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_81",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81.CBCanvasPanelSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.23"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.19"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81.CBCanvasPanelSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.22"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81.CBCanvasPanelSlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.24"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.20"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.21"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBSizeBox_35.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.59"
+      },
+      "Clipping": "EWidgetClipping::ClipToBounds"
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "popup",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.popup.CBCanvasPanelSlot_10'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.27"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.popup.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.28"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.popup.CBCanvasPanelSlot_8'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.30"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.popup.CBCanvasPanelSlot_7'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.29"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.popup.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.25"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.popup.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.26"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_40.CBCanvasPanelSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.18"
+      },
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_161'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 3.0,
+          "Right": 3.0,
+          "Bottom": 3.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_161'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.10"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_LimitBreak_Popup_C:WidgetTree.CBImage_66'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.46"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_161'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 100.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_161'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.10"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Panel_LimitBreak_Popup_C:WidgetTree.CBSizeBox_37'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.58"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_40'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.11"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -300.0,
+          "Top": -100.0,
+          "Right": -300.0,
+          "Bottom": -100.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_40'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.11"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_LimitBreak_Popup_C:WidgetTree.bg'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.44"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_40'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.11"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "ZOrder": 1,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_40'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.11"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Panel_LimitBreak_Popup_C:WidgetTree.Button_Close'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.7"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_40'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.11"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 850.0,
+          "Bottom": 1200.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "ZOrder": 2,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_40'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.11"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.13"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.12"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 1200.0,
+          "Bottom": 500.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.12"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.HB_limitBreak'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.34"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.12"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -350.0,
+          "Right": 55.0,
+          "Bottom": 55.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.12"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Panel_LimitBreak_Popup_C:WidgetTree.Button_Left'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.8"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.12"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 350.0,
+          "Right": 55.0,
+          "Bottom": 55.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.12"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Panel_LimitBreak_Popup_C:WidgetTree.Button_Right'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.9"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.12"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -450.0,
+          "Top": -28.0,
+          "Right": 50.0,
+          "Bottom": 50.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.12"
+      },
+      "Content": {
+        "ObjectName": "CBRichTextBlock'Panel_LimitBreak_Popup_C:WidgetTree.RichTextBlock_Button_Left'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.51"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.12"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 50.0,
+          "Right": 800.0,
+          "Bottom": 800.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.12"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_LimitBreak_Popup_C:WidgetTree.CBImage_77'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.47"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.12"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 402.0,
+          "Top": -28.0,
+          "Right": 50.0,
+          "Bottom": 50.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.12"
+      },
+      "Content": {
+        "ObjectName": "CBRichTextBlock'Panel_LimitBreak_Popup_C:WidgetTree.RichTextBlock_Button_Right'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.52"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.13"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -25.0,
+          "Top": 25.0,
+          "Bottom": 100.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.13"
+      },
+      "Content": {
+        "ObjectName": "Btn_Close_C'Panel_LimitBreak_Popup_C:WidgetTree.Btn_Close'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.2"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.13"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 60.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.13"
+      },
+      "Content": {
+        "ObjectName": "BtnGuide_widget_C'Panel_LimitBreak_Popup_C:WidgetTree.BtnGuide_widget_weapon'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.4"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.13"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -13.0,
+          "Top": -13.0,
+          "Right": -13.0,
+          "Bottom": -13.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.13"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_LimitBreak_Popup_C:WidgetTree.bg_popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.45"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.13"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Bottom": 78.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.13"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_LimitBreak_Popup_C:WidgetTree.titlebg_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.48"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.13"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.13"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_70'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.61"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.popup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.13"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 30.0,
+          "Top": 39.0,
+          "Bottom": 78.0
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.popup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.13"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_LimitBreak_Popup_C:WidgetTree.Text_ButtonState_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.75"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_53",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_53.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.35"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_53.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.36"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Panel_LimitBreak_Popup_C:WidgetTree.Rate.CBOverlaySlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.50"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_55",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_55.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.37"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_55.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.38"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBBorderSlot'Panel_LimitBreak_Popup_C:WidgetTree.EBorder_0.CBBorderSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.5"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_56",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_56.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.39"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_56.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.40"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBBorderSlot'Panel_LimitBreak_Popup_C:WidgetTree.EBorder_1.CBBorderSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.6"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "HB_limitBreak",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.HB_limitBreak.CBHorizontalBoxSlot_6'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.41"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.HB_limitBreak.CBHorizontalBoxSlot_7'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.42"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.HB_limitBreak.CBHorizontalBoxSlot_8'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.43"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.19"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_53'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.31"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_53'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.31"
+      },
+      "Content": {
+        "ObjectName": "EBorder'Panel_LimitBreak_Popup_C:WidgetTree.EBorder_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.73"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_53'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.31"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_53'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.31"
+      },
+      "Content": {
+        "ObjectName": "EBorder'Panel_LimitBreak_Popup_C:WidgetTree.EBorder_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.74"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_55'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.32"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Right": 10.0
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_55'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.32"
+      },
+      "Content": {
+        "ObjectName": "CBScaleBox'Panel_LimitBreak_Popup_C:WidgetTree.CBScaleBox_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.53"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_55'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.32"
+    },
+    "Properties": {
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_55'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.32"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_LimitBreak_Popup_C:WidgetTree.Text_Success_Rate'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.79"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_56'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.33"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Right": 10.0
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_56'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.33"
+      },
+      "Content": {
+        "ObjectName": "CBScaleBox'Panel_LimitBreak_Popup_C:WidgetTree.CBScaleBox_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.54"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_56'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.33"
+    },
+    "Properties": {
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_56'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.33"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_LimitBreak_Popup_C:WidgetTree.Text_Fail_Rate'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.77"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.HB_limitBreak'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.34"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.HB_limitBreak'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.34"
+      },
+      "Content": {
+        "ObjectName": "Widget_LimitBreak_C'Panel_LimitBreak_Popup_C:WidgetTree.Widget_LimitBreak'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.111"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.HB_limitBreak'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.34"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.HB_limitBreak'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.34"
+      },
+      "Content": {
+        "ObjectName": "Widget_LimitBreak_C'Panel_LimitBreak_Popup_C:WidgetTree.Widget_LimitBreak_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.112"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.HB_limitBreak'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.34"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.HB_limitBreak'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.34"
+      },
+      "Content": {
+        "ObjectName": "Widget_LimitBreak_C'Panel_LimitBreak_Popup_C:WidgetTree.Widget_LimitBreak_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.113"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "bg",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.85,
+            "Hex": "D9000000"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageSize": {
+          "X": 10.0,
+          "Y": 10.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_white'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_white.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_40.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.16"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "bg_popup",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.034605,
+            "G": 0.04047,
+            "B": 0.046875,
+            "A": 1.0,
+            "Hex": "34383D"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Popup_bg_popup3'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Popup/Frames/Popup_bg_popup3.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.popup.CBCanvasPanelSlot_10'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.27"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_66",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.848958,
+            "G": 0.848958,
+            "B": 0.848958,
+            "A": 1.0,
+            "Hex": "EEEEEE"
+          }
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_161.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.14"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_77",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.786458,
+            "G": 0.405837,
+            "B": 0.090115,
+            "A": 0.1,
+            "Hex": "19E6AB55"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'UI_M_Suncircle'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/Contents/UI_M_Suncircle.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81.CBCanvasPanelSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.23"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "titlebg_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Brush": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 600.0,
+          "Y": 80.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Popup_bg_popup1'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Popup/Frames/Popup_bg_popup1.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.popup.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.28"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.5
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "Rate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Panel_LimitBreak_Popup_C:WidgetTree.Rate.CBOverlaySlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.50"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_LimitBreakStat.CBVerticalBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.69"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Panel_LimitBreak_Popup_C:WidgetTree.Rate'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.49"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Panel_LimitBreak_Popup_C:WidgetTree.Rate'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.49"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_53'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.31"
+      }
+    }
+  },
+  {
+    "Type": "CBRichTextBlock",
+    "Name": "RichTextBlock_Button_Left",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBRichTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "6E7F64AE4F8BC223C8DEB98EED1D74A3",
+        "SourceString": "<InputKey id=\"Attack_Normal\"/>",
+        "LocalizedString": "<InputKey id=\"Attack_Normal\"/>"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichText'",
+        "ObjectPath": "SevenDeadlySins/Content/Table/RichText.0"
+      },
+      "DecoratorClasses": [
+        {
+          "ObjectName": "Class'ERichTextBlockDecoratorOG'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'RichTextImageDataBP_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/UI/RichTextImageDataBP.0"
+        },
+        {
+          "ObjectName": "Class'ERichTextBlockKeyImageDecoratorOG'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      ],
+      "DefaultTextStyleOverride": {
+        "Font": {
+          "FontObject": {
+            "ObjectName": "Font'Font_Default'",
+            "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+          },
+          "TypefaceFontName": "Font_B",
+          "Size": 32.0
+        }
+      },
+      "bOverrideDefaultStyle": true,
+      "Justification": "ETextJustify::Center",
+      "ApplyLineHeightToBottomLine": false,
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81.CBCanvasPanelSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.22"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 1.5,
+          "Y": 1.5
+        }
+      }
+    }
+  },
+  {
+    "Type": "CBRichTextBlock",
+    "Name": "RichTextBlock_Button_Right",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBRichTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "97935806495140E8713367AB020FA65B",
+        "SourceString": "<InputKey id=\"Attack_Normal\"/>",
+        "LocalizedString": "<InputKey id=\"Attack_Normal\"/>"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichText'",
+        "ObjectPath": "SevenDeadlySins/Content/Table/RichText.0"
+      },
+      "DecoratorClasses": [
+        {
+          "ObjectName": "Class'ERichTextBlockDecoratorOG'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'RichTextImageDataBP_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/UI/RichTextImageDataBP.0"
+        },
+        {
+          "ObjectName": "Class'ERichTextBlockKeyImageDecoratorOG'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      ],
+      "DefaultTextStyleOverride": {
+        "Font": {
+          "FontObject": {
+            "ObjectName": "Font'Font_Default'",
+            "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+          },
+          "TypefaceFontName": "Font_B",
+          "Size": 32.0
+        }
+      },
+      "bOverrideDefaultStyle": true,
+      "Justification": "ETextJustify::Center",
+      "ApplyLineHeightToBottomLine": false,
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81.CBCanvasPanelSlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.24"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 1.5,
+          "Y": 1.5
+        }
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBox",
+    "Name": "CBScaleBox_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "CBScaleBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBScaleBox_3.CBScaleBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.55"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_55.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.37"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBox",
+    "Name": "CBScaleBox_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "CBScaleBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBScaleBox_4.CBScaleBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.56"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_56.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.39"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBoxSlot",
+    "Name": "CBScaleBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBScaleBox'Panel_LimitBreak_Popup_C:WidgetTree.CBScaleBox_3'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.53"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBScaleBox'Panel_LimitBreak_Popup_C:WidgetTree.CBScaleBox_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.53"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_LimitBreak_Popup_C:WidgetTree.Text_Success'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.78"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBoxSlot",
+    "Name": "CBScaleBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBScaleBox'Panel_LimitBreak_Popup_C:WidgetTree.CBScaleBox_4'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.54"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBScaleBox'Panel_LimitBreak_Popup_C:WidgetTree.CBScaleBox_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.54"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_LimitBreak_Popup_C:WidgetTree.Text_Fail'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.76"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox_35",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "WidthOverride": 1200.0,
+      "HeightOverride": 350.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBSizeBox_35.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.59"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_70.CBVerticalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.65"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox_37",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBSizeBox_37.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.60"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_161.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.15"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Panel_LimitBreak_Popup_C:WidgetTree.CBSizeBox_35'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.57"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 80.0
+      },
+      "Parent": {
+        "ObjectName": "CBSizeBox'Panel_LimitBreak_Popup_C:WidgetTree.CBSizeBox_35'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.57"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_81'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.12"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Panel_LimitBreak_Popup_C:WidgetTree.CBSizeBox_37'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.58"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 50.0,
+        "Bottom": 80.0
+      },
+      "Parent": {
+        "ObjectName": "CBSizeBox'Panel_LimitBreak_Popup_C:WidgetTree.CBSizeBox_37'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.58"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_LimitBreakStat'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.62"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "CBVerticalBox_70",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_70.CBVerticalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.65"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_70.CBVerticalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.66"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.popup.CBCanvasPanelSlot_7'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.29"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "CBVerticalBox_LimitBreakStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_LimitBreakStat.CBVerticalBoxSlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.70"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_LimitBreakStat.CBVerticalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.69"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_LimitBreakStat.CBVerticalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.67"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_LimitBreakStat.CBVerticalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.68"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBSizeBox_37.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.60"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "CBVerticalBox_StatOption",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_StatOption.CBVerticalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.71"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_LimitBreakStat.CBVerticalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.67"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "VB_CoreOption",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.VB_CoreOption.CBVerticalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.72"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_LimitBreakStat.CBVerticalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.68"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_70'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.61"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_70'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.61"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Panel_LimitBreak_Popup_C:WidgetTree.CBSizeBox_35'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.57"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_70'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.61"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_70'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.61"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_161'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.10"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_LimitBreakStat'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.62"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 20.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_LimitBreakStat'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.62"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_StatOption'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.63"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_LimitBreakStat'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.62"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 15.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_LimitBreakStat'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.62"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.VB_CoreOption'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.64"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_LimitBreakStat'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.62"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_LimitBreakStat'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.62"
+      },
+      "Content": {
+        "ObjectName": "CBOverlay'Panel_LimitBreak_Popup_C:WidgetTree.Rate'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.49"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_LimitBreakStat'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.62"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 700.0,
+        "Top": -20.0,
+        "Bottom": 20.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_LimitBreakStat'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.62"
+      },
+      "Content": {
+        "ObjectName": "Btn_Probability_C'Panel_LimitBreak_Popup_C:WidgetTree.Btn_Probability'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.3"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_StatOption'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.63"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_StatOption'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.63"
+      },
+      "Content": {
+        "ObjectName": "StatOption_Slot_C'Panel_LimitBreak_Popup_C:WidgetTree.StatOption_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.110"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.VB_CoreOption'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.64"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_LimitBreak_Popup_C:WidgetTree.VB_CoreOption'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.64"
+      },
+      "Content": {
+        "ObjectName": "Inven_CoreOption_Widget_C'Panel_LimitBreak_Popup_C:WidgetTree.LimitBreakPassive'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.80"
+      }
+    }
+  },
+  {
+    "Type": "EBorder",
+    "Name": "EBorder_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 30.0,
+        "Right": 30.0
+      },
+      "Background": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.022151,
+            "G": 0.296875,
+            "B": 0.154087,
+            "A": 0.15,
+            "Hex": "2629946D"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::RoundedBox",
+        "OutlineSettings": {
+          "CornerRadii": {
+            "X": 20.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 5.0
+          },
+          "RoundingType": "ESlateBrushRoundingType::FixedRadius"
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBBorderSlot'Panel_LimitBreak_Popup_C:WidgetTree.EBorder_0.CBBorderSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.5"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_53.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.35"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "EBorder",
+    "Name": "EBorder_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 30.0,
+        "Right": 30.0
+      },
+      "Background": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.552012,
+            "G": 0.002732,
+            "B": 0.002732,
+            "A": 0.1,
+            "Hex": "19C40909"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::RoundedBox",
+        "OutlineSettings": {
+          "CornerRadii": {
+            "X": 0.0,
+            "Y": 5.0,
+            "Z": 20.0,
+            "W": 0.0
+          },
+          "RoundingType": "ESlateBrushRoundingType::FixedRadius"
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBBorderSlot'Panel_LimitBreak_Popup_C:WidgetTree.EBorder_1.CBBorderSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.6"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_53.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.36"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "Text_ButtonState_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "975BB7AF472EA9572297FDB83FADE622",
+        "SourceString": "UI_HeroesStat_Title",
+        "LocalizedString": "UI_HeroesStat_Title"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_EB",
+        "Size": 28.0
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_LimitBreak_Popup_C:WidgetTree.popup.CBCanvasPanelSlot_8'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.30"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "Text_Fail",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "88FDE84D4599D1177BDF6CB62B2D9912",
+        "SourceString": "UI_Menu_LimitBreak_Failed_Rate",
+        "LocalizedString": "UI_Menu_LimitBreak_Failed_Rate"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.030713,
+          "G": 0.035601,
+          "B": 0.046665,
+          "A": 1.0,
+          "Hex": "31353D"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Slot": {
+        "ObjectName": "CBScaleBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBScaleBox_4.CBScaleBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.56"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "Text_Fail_Rate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "CB417E1845CB52EE012E5DB3F261E083",
+        "SourceString": "20%",
+        "LocalizedString": "20%"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.463542,
+          "G": 0.04976,
+          "B": 0.012827,
+          "A": 1.0,
+          "Hex": "B53F1D"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 30.0
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_56.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.40"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "Text_Success",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "4C5E0FA84495F7020A56DD950C4D1321",
+        "SourceString": "UI_Menu_LimitBreak_Rate",
+        "LocalizedString": "UI_Menu_LimitBreak_Rate"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.030713,
+          "G": 0.035601,
+          "B": 0.046665,
+          "A": 1.0,
+          "Hex": "31353D"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Slot": {
+        "ObjectName": "CBScaleBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBScaleBox_3.CBScaleBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.55"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "Text_Success_Rate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "1035AD8142441CB9857AF18E2C236B19",
+        "SourceString": "20%",
+        "LocalizedString": "20%"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.291667,
+          "B": 0.140073,
+          "A": 1.0,
+          "Hex": "009368"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 30.0
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBHorizontalBox_55.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.38"
+      }
+    }
+  },
+  {
+    "Type": "Inven_CoreOption_Widget_C",
+    "Name": "LimitBreakPassive",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Info/Inven_CoreOption_Widget.Inven_CoreOption_Widget_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Template": {
+      "ObjectName": "Inven_CoreOption_Widget_C'Default__Inven_CoreOption_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Info/Inven_CoreOption_Widget.23"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.VB_CoreOption.CBVerticalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.72"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Show",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_LimitBreak_Popup_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.114"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "77CEFA65-4F8575CC-FA0E03B0-B93B50B3",
+          "Name": "Text_ButtonState_1",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "93C42806-4532CB92-1C33EC98-F1EE1A60",
+          "Name": "popup",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "B527617A-43F9C0CC-1DA746A6-AB368AAF",
+          "Name": "titlebg_1",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "77CEFA65-4F8575CC-FA0E03B0-B93B50B3",
+          "BindingName": "Text_ButtonState_1",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_5'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.87"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_6'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.108"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "93C42806-4532CB92-1C33EC98-F1EE1A60",
+          "BindingName": "popup",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.106"
+            },
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.85"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "B527617A-43F9C0CC-1DA746A6-AB368AAF",
+          "BindingName": "titlebg_1",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.86"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_3'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.107"
+            }
+          ]
+        }
+      ],
+      "Tracks": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidTrack'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.1"
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 28000
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "C0DC8975-43010AC8-F8D7CFBF-B4631F6B"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.85"
+    },
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Translation[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 30.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.90"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.91"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 21333
+            }
+          }
+        }
+      },
+      "Signature": "918A66DD-46DDABA2-289E4A9F-55146AA2"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.86"
+    },
+    "Properties": {
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 8333
+          },
+          {
+            "Value": 16000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 8333
+          },
+          {
+            "Value": 16000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.92"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.93"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 27000
+            }
+          }
+        }
+      },
+      "Signature": "8449DE7C-48C53CFB-F95546AA-7BA8D015"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_5'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.87"
+    },
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 27334
+          }
+        ],
+        "Values": [
+          {
+            "Value": -16.051844,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 15667
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.95,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_5.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.94"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_5.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.95"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 28000
+            }
+          }
+        }
+      },
+      "Signature": "73FDDD7C-4BF5137B-2A01C3A1-C66CA39B"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.81"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.82"
+        }
+      ],
+      "EvaluationFieldGuid": "6A72F393-404B1C65-76B36084-216750C3",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.82"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 21333
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "6A72F393-404B1C65-76B36084-216750C3"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.81"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.83"
+        }
+      ],
+      "EvaluationFieldGuid": "38AF7964-4C7FE5D4-144DAFAF-F31C1B97",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.83"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 27000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "38AF7964-4C7FE5D4-144DAFAF-F31C1B97"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.81"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_5.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.84"
+        }
+      ],
+      "EvaluationFieldGuid": "C36B00F2-4B5488C7-307EF98B-10A12BC4",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_5.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.84"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 28000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "C36B00F2-4B5488C7-307EF98B-10A12BC4"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.82"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.82"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.83"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.83"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_5.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.84"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_5.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.84"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.103"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.103"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.104"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.104"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_6.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.105"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_6.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.105"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_LimitBreak_Popup_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.114"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                },
+                {
+                  "StartIndex": 2,
+                  "Size": 2,
+                  "Capacity": 2
+                },
+                {
+                  "StartIndex": 4,
+                  "Size": 2,
+                  "Capacity": 2
+                },
+                {
+                  "StartIndex": 6,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 7,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 6,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 5,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 4,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 5,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": 1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 1,
+                  "Size": 2,
+                  "Capacity": 2
+                },
+                {
+                  "StartIndex": 3,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 28000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": 1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 24000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": 0
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": 2
+                  },
+                  "DataID": {
+                    "EntryIndex": 2
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 24000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 27000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": 0
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 4
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 21333
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": 1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 3
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "ACMovieSceneSoundTidSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.0"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_5.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.84"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_6.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.105"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.103"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 3
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.82"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 4
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.83"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 5
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.104"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 6
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "ObjectBindingID": "77CEFA65-4F8575CC-FA0E03B0-B93B50B3"
+          },
+          {
+            "ObjectBindingID": "77CEFA65-4F8575CC-FA0E03B0-B93B50B3"
+          },
+          {
+            "ObjectBindingID": "93C42806-4532CB92-1C33EC98-F1EE1A60"
+          },
+          {
+            "ObjectBindingID": "93C42806-4532CB92-1C33EC98-F1EE1A60"
+          },
+          {
+            "ObjectBindingID": "B527617A-43F9C0CC-1DA746A6-AB368AAF"
+          },
+          {
+            "ObjectBindingID": "B527617A-43F9C0CC-1DA746A6-AB368AAF"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 21333
+          },
+          "bInclusive": false
+        },
+        {
+          "FrameNumber": {
+            "Value": 24000
+          },
+          "bInclusive": false
+        },
+        {
+          "FrameNumber": {
+            "Value": 27000
+          },
+          "bInclusive": false
+        },
+        {
+          "FrameNumber": {
+            "Value": 28000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "7DD2BDD3-4E25C8CA-50862394-AD22B1E1",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.106"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.96"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.97"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 24000
+            }
+          }
+        }
+      },
+      "Signature": "C6092997-425A450E-352C90BC-13D698D7"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_3'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.107"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 8333
+          },
+          {
+            "Value": 17666
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 8.6E-05,
+              "LeaveTangent": 8.6E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 1
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_3.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.98"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_3.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.99"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "5AB2F0C4-49440C3F-8DFC4AAB-34569246"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_6'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.108"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 27334
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 8.6E-05,
+              "LeaveTangent": 8.6E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 1
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_6.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.100"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_6.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.101"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "3A8D9CAF-4B1A60D7-09504C81-E0BFF70F"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.81"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.103"
+        }
+      ],
+      "EvaluationFieldGuid": "3EB3FD9E-41B11BCE-E6BFB586-29CF7761",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.103"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 24000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "3EB3FD9E-41B11BCE-E6BFB586-29CF7761"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.81"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.104"
+        }
+      ],
+      "EvaluationFieldGuid": "AF9DDD9C-4A696186-B73240AD-75384A3A",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.104"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "AF9DDD9C-4A696186-B73240AD-75384A3A"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.81"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_6.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.105"
+        }
+      ],
+      "EvaluationFieldGuid": "6306F632-49391363-9BA903A3-39C2AE89",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_6.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.105"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "6306F632-49391363-9BA903A3-39C2AE89"
+    }
+  },
+  {
+    "Type": "Panel_LimitBreak_Popup_C",
+    "Name": "Default__Panel_LimitBreak_Popup_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.Panel_LimitBreak_Popup_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup",
+    "Properties": {
+      "StepWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'Widget_LimitBreak_C'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Widget_LimitBreak.40"
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "StatOption_Slot_C",
+    "Name": "StatOption_Slot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/StatOption_Slot.StatOption_Slot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Template": {
+      "ObjectName": "StatOption_Slot_C'Default__StatOption_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/StatOption_Slot.25"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.CBVerticalBox_StatOption.CBVerticalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.71"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Widget_LimitBreak_C",
+    "Name": "Widget_LimitBreak",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Widget_LimitBreak.Widget_LimitBreak_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Template": {
+      "ObjectName": "Widget_LimitBreak_C'Default__Widget_LimitBreak_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Widget_LimitBreak.39"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.HB_limitBreak.CBHorizontalBoxSlot_6'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.41"
+      }
+    }
+  },
+  {
+    "Type": "Widget_LimitBreak_C",
+    "Name": "Widget_LimitBreak_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Widget_LimitBreak.Widget_LimitBreak_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Template": {
+      "ObjectName": "Widget_LimitBreak_C'Default__Widget_LimitBreak_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Widget_LimitBreak.39"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.HB_limitBreak.CBHorizontalBoxSlot_7'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.42"
+      }
+    }
+  },
+  {
+    "Type": "Widget_LimitBreak_C",
+    "Name": "Widget_LimitBreak_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Widget_LimitBreak.Widget_LimitBreak_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+    },
+    "Template": {
+      "ObjectName": "Widget_LimitBreak_C'Default__Widget_LimitBreak_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Widget_LimitBreak.39"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_LimitBreak_Popup_C:WidgetTree.HB_limitBreak.CBHorizontalBoxSlot_8'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.43"
+      }
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Show_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_LimitBreak_Popup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.115"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Panel_LimitBreak_Popup_C:Anim_Show_INST.Anim_Show'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.81"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "titlebg_1",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "B527617A-43F9C0CC-1DA746A6-AB368AAF",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "Text_ButtonState_1",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "77CEFA65-4F8575CC-FA0E03B0-B93B50B3",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "popup",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "93C42806-4532CB92-1C33EC98-F1EE1A60",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Show",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Panel_LimitBreak_Popup_C:Anim_Show_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.102"
+      },
+      "Signature": "7DD2BDD3-4E25C8CA-50862394-AD22B1E1"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Panel_LimitBreak_Popup_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Panel_LimitBreak_Popup_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.116"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'Panel_LimitBreak_Popup_C:Anim_Show_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.114"
+        }
+      ]
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWidget_LimitBreakInfo_Popup'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BtnGuide_widget_weapon",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'BtnGuide_widget_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/BtnGuide_widget.16"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBImage_66",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBImage_77",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "RichTextBlock_Button_Left",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBRichTextBlock'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "RichTextBlock_Button_Right",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBRichTextBlock'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Text_ButtonState_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'ETextBlock'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "VB_CoreOption",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBVerticalBox'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Widget_LimitBreak",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'Widget_LimitBreak_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Widget_LimitBreak.40"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Widget_LimitBreak_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'Widget_LimitBreak_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Widget_LimitBreak.40"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Widget_LimitBreak_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'Widget_LimitBreak_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Widget_LimitBreak.40"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Panel_LimitBreak_Popup_C'Default__Panel_LimitBreak_Popup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.109"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_LimitBreak_Popup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.115"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'Panel_LimitBreak_Popup_C:WidgetTree.CBCanvasPanel_40'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/Panel_LimitBreak_Popup.11"
+      }
+    }
+  }
+]

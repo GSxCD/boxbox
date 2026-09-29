@@ -1,0 +1,653 @@
+[
+  {
+    "Type": "CBButton",
+    "Name": "Button_Map",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Minimap_WidgetBP_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.23"
+    },
+    "Properties": {
+      "bIsPadFocus": false,
+      "ColorAndOpacity": {
+        "R": 1.505046E-36,
+        "G": 9.478573E-38,
+        "B": 3.7619268E-37,
+        "A": 1.0,
+        "Hex": "000000"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "Panel_Area_TrackingDummy",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Minimap_WidgetBP_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.23"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Minimap_WidgetBP_C:WidgetTree.Panel_Translate_TrackingDummy.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.8"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "Panel_Inner",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Minimap_WidgetBP_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.23"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Minimap_WidgetBP_C:WidgetTree.Panel_Inner.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.6"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "PanelSlot'Minimap_WidgetBP_C:WidgetTree.MinimapRetainerBox.PanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.21"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "Panel_Inner_TrackingDummy",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Minimap_WidgetBP_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.23"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Minimap_WidgetBP_C:WidgetTree.Panel_Inner_TrackingDummy.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.7"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Minimap_WidgetBP_C:WidgetTree.CBOverlay_0.CBOverlaySlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.14"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "Panel_Translate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Minimap_WidgetBP_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.23"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Minimap_WidgetBP_C:WidgetTree.Panel_Inner.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.6"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "Panel_Translate_TrackingDummy",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Minimap_WidgetBP_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.23"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Minimap_WidgetBP_C:WidgetTree.Panel_Translate_TrackingDummy.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.8"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Minimap_WidgetBP_C:WidgetTree.Panel_Inner_TrackingDummy.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.7"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Minimap_WidgetBP_C:WidgetTree.Panel_Inner'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.2"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 2048.0,
+          "Bottom": 2048.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Minimap_WidgetBP_C:WidgetTree.Panel_Inner'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.2"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Minimap_WidgetBP_C:WidgetTree.Panel_Translate'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.4"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Minimap_WidgetBP_C:WidgetTree.Panel_Inner_TrackingDummy'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.3"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 2048.0,
+          "Bottom": 2048.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Minimap_WidgetBP_C:WidgetTree.Panel_Inner_TrackingDummy'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.3"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Minimap_WidgetBP_C:WidgetTree.Panel_Translate_TrackingDummy'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.5"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Minimap_WidgetBP_C:WidgetTree.Panel_Translate_TrackingDummy'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.5"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 2048.0,
+          "Bottom": 2048.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Minimap_WidgetBP_C:WidgetTree.Panel_Translate_TrackingDummy'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.5"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Minimap_WidgetBP_C:WidgetTree.Panel_Area_TrackingDummy'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.1"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Bg_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Minimap_WidgetBP_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.23"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 281.0,
+          "Y": 281.0
+        },
+        "Margin": {
+          "Left": 0.25,
+          "Top": 0.25,
+          "Right": 0.25,
+          "Bottom": 0.25
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HUD_bg_minimap2'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HUD/Frames/HUD_bg_minimap2.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Minimap_WidgetBP_C:WidgetTree.CBOverlay_0.CBOverlaySlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.13"
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "CBOverlay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Minimap_WidgetBP_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.23"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Minimap_WidgetBP_C:WidgetTree.CBOverlay_0.CBOverlaySlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.11"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Minimap_WidgetBP_C:WidgetTree.CBOverlay_0.CBOverlaySlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.12"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Minimap_WidgetBP_C:WidgetTree.CBOverlay_0.CBOverlaySlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.13"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Minimap_WidgetBP_C:WidgetTree.CBOverlay_0.CBOverlaySlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.14"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Minimap_WidgetBP_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.10"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Minimap_WidgetBP_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.10"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Minimap_WidgetBP_C:WidgetTree.Button_Map'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.0"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Minimap_WidgetBP_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.10"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Minimap_WidgetBP_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.10"
+      },
+      "Content": {
+        "ObjectName": "EMinimapRetainerBox'Minimap_WidgetBP_C:WidgetTree.MinimapRetainerBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.16"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Minimap_WidgetBP_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.10"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": -6.0,
+        "Top": -6.0,
+        "Right": -6.0,
+        "Bottom": -6.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Minimap_WidgetBP_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.10"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Minimap_WidgetBP_C:WidgetTree.Image_Bg_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.9"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Minimap_WidgetBP_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.10"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Minimap_WidgetBP_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.10"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Minimap_WidgetBP_C:WidgetTree.Panel_Inner_TrackingDummy'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.3"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Minimap_WidgetBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.22"
+    },
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "Button_Map",
+          "DelegatePropertyName": "OnClicked",
+          "FunctionNameToBind": "BndEvt__Minimap_WidgetBP_Button_Map_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EMinimapRetainerBox",
+    "Name": "MinimapRetainerBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EMinimapRetainerBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Minimap_WidgetBP_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.23"
+    },
+    "Properties": {
+      "PhaseCount": 3,
+      "EffectMaterial": {
+        "ObjectName": "MaterialInstanceConstant'UI_MI_Minimap'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/Contents/UI_MI_Minimap.0"
+      },
+      "Slots": [
+        {
+          "ObjectName": "PanelSlot'Minimap_WidgetBP_C:WidgetTree.MinimapRetainerBox.PanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.21"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Minimap_WidgetBP_C:WidgetTree.CBOverlay_0.CBOverlaySlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.12"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Minimap_WidgetBP_Button_Map_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Minimap_WidgetBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.22"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EvtUpdateStageGroup",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Minimap_WidgetBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.22"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'EMinimap_Widget:EvtUpdateStageGroup'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Minimap_WidgetBP",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Minimap_WidgetBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.22"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetCurrentPlayerSectorStageInfo_StageGroupInfo",
+        "Flags": "RF_Public",
+        "ElementSize": 96,
+        "Struct": {
+          "ObjectName": "ScriptStruct'StageGroupInfo'",
+          "ObjectPath": "/Script/ACCoreModule"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetCurrentPlayerSectorStageInfo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Minimap_WidgetBP_C",
+    "Name": "Default__Minimap_WidgetBP_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.Minimap_WidgetBP_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "PanelSlot",
+    "Name": "PanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PanelSlot'",
+    "Outer": {
+      "ObjectName": "EMinimapRetainerBox'Minimap_WidgetBP_C:WidgetTree.MinimapRetainerBox'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.16"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "EMinimapRetainerBox'Minimap_WidgetBP_C:WidgetTree.MinimapRetainerBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.16"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Minimap_WidgetBP_C:WidgetTree.Panel_Inner'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.2"
+      }
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Minimap_WidgetBP_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Minimap_WidgetBP_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.23"
+      },
+      "bClassRequiresNativeTick": true,
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'Minimap_WidgetBP_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.15"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'Minimap_WidgetBP_C:ExecuteUbergraph_Minimap_WidgetBP'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.19"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EMinimap_Widget'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Minimap_WidgetBP_C:BndEvt__Minimap_WidgetBP_Button_Map_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.17"
+      },
+      {
+        "ObjectName": "Function'Minimap_WidgetBP_C:EvtUpdateStageGroup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.18"
+      },
+      {
+        "ObjectName": "Function'Minimap_WidgetBP_C:ExecuteUbergraph_Minimap_WidgetBP'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.19"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Bg_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Panel_Inner_TrackingDummy",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBCanvasPanel'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Minimap_WidgetBP": {
+        "ObjectName": "Function'Minimap_WidgetBP_C:ExecuteUbergraph_Minimap_WidgetBP'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.19"
+      },
+      "EvtUpdateStageGroup": {
+        "ObjectName": "Function'Minimap_WidgetBP_C:EvtUpdateStageGroup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.18"
+      },
+      "BndEvt__Minimap_WidgetBP_Button_Map_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature": {
+        "ObjectName": "Function'Minimap_WidgetBP_C:BndEvt__Minimap_WidgetBP_Button_Map_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.17"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Minimap_WidgetBP_C'Default__Minimap_WidgetBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.20"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Minimap_WidgetBP_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.22"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBOverlay'Minimap_WidgetBP_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Minimap/Minimap_WidgetBP.10"
+      }
+    }
+  }
+]

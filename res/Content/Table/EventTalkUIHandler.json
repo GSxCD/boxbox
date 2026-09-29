@@ -1,0 +1,881 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EventTalkUIHandler",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/EventTalkUIHandler",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UEEventTalkUIHandlerTable'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "test_inven": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "test_inven",
+        "Local_Key": "None"
+      },
+      "uionoff": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "uionoff",
+        "Local_Key": "None"
+      },
+      "directing": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "directing",
+        "Local_Key": "None"
+      },
+      "skipcutscene": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "skipcutscene",
+        "Local_Key": "None"
+      },
+      "deadstate": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "deadstate",
+        "Local_Key": "None"
+      },
+      "tooltip": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "tooltip",
+        "Local_Key": "None"
+      },
+      "dialog": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": true,
+        "String_Tid": "dialog",
+        "Local_Key": "None"
+      },
+      "directingskip": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "directingskip",
+        "Local_Key": "None"
+      },
+      "friend": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "friend",
+        "Local_Key": "None"
+      },
+      "inven": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "inven",
+        "Local_Key": "None"
+      },
+      "inven_detail_weapon": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "inven_detail_weapon",
+        "Local_Key": "None"
+      },
+      "inven_detail_equipment": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "inven_detail_equipment",
+        "Local_Key": "None"
+      },
+      "merchant_wandering": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "merchant_wandering",
+        "Local_Key": "None"
+      },
+      "merchant": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "merchant",
+        "Local_Key": "None"
+      },
+      "team": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "team",
+        "Local_Key": "None"
+      },
+      "teamquickchange": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "teamquickchange",
+        "Local_Key": "None"
+      },
+      "memberselect": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "memberselect",
+        "Local_Key": "None"
+      },
+      "heroinfo_select": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "heroinfo_select",
+        "Local_Key": "None"
+      },
+      "heroinfo": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "heroinfo",
+        "Local_Key": "None"
+      },
+      "weaponlist": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "weaponlist",
+        "Local_Key": "None"
+      },
+      "armorlist": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "armorlist",
+        "Local_Key": "None"
+      },
+      "costumelist": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "costumelist",
+        "Local_Key": "None"
+      },
+      "heroselect": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "heroselect",
+        "Local_Key": "None"
+      },
+      "statdetailinfo": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "statdetailinfo",
+        "Local_Key": "None"
+      },
+      "skilldetailinfo": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "skilldetailinfo",
+        "Local_Key": "None"
+      },
+      "coreinfo": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "coreinfo",
+        "Local_Key": "None"
+      },
+      "questpopup": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "questpopup",
+        "Local_Key": "None"
+      },
+      "queststart": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "queststart",
+        "Local_Key": "None"
+      },
+      "questpopup_result": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "questpopup_result",
+        "Local_Key": "None"
+      },
+      "questpopup_result_stella": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "questpopup_result_stella",
+        "Local_Key": "None"
+      },
+      "questfail": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "questfail",
+        "Local_Key": "None"
+      },
+      "quizjoin": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "quizjoin",
+        "Local_Key": "None"
+      },
+      "cheat": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "cheat",
+        "Local_Key": "None"
+      },
+      "menu": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "menu",
+        "Local_Key": "None"
+      },
+      "ringmenu": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "ringmenu",
+        "Local_Key": "None"
+      },
+      "gameoption": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "gameoption",
+        "Local_Key": "None"
+      },
+      "todcontroller": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "todcontroller",
+        "Local_Key": "None"
+      },
+      "qte": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "qte",
+        "Local_Key": "None"
+      },
+      "dungeonenter": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "dungeonenter",
+        "Local_Key": "None"
+      },
+      "dungeonreward": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "dungeonreward",
+        "Local_Key": "None"
+      },
+      "fieldboss": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "fieldboss",
+        "Local_Key": "None"
+      },
+      "party": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "party",
+        "Local_Key": "None"
+      },
+      "partymanage": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "partymanage",
+        "Local_Key": "None"
+      },
+      "partyinvite": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "partyinvite",
+        "Local_Key": "None"
+      },
+      "partyuserdetail": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "partyuserdetail",
+        "Local_Key": "None"
+      },
+      "partysetting": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "partysetting",
+        "Local_Key": "None"
+      },
+      "partysearch": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "partysearch",
+        "Local_Key": "None"
+      },
+      "worldmap": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "worldmap",
+        "Local_Key": "None"
+      },
+      "cooking": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "cooking",
+        "Local_Key": "None"
+      },
+      "craft": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "craft",
+        "Local_Key": "None"
+      },
+      "combine": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "combine",
+        "Local_Key": "None"
+      },
+      "disassemble": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "disassemble",
+        "Local_Key": "None"
+      },
+      "item_enhance_weapon": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "item_enhance_weapon",
+        "Local_Key": "None"
+      },
+      "item_enhance_equipment": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "item_enhance_equipment",
+        "Local_Key": "None"
+      },
+      "item_binding": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "item_binding",
+        "Local_Key": "None"
+      },
+      "fishingready": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "fishingready",
+        "Local_Key": "None"
+      },
+      "fishing": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "fishing",
+        "Local_Key": "None"
+      },
+      "gacha": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "gacha",
+        "Local_Key": "None"
+      },
+      "mastery": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "mastery",
+        "Local_Key": "None"
+      },
+      "heropotential": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "heropotential",
+        "Local_Key": "None"
+      },
+      "petmanager": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "petmanager",
+        "Local_Key": "None"
+      },
+      "petacquisition": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "petacquisition",
+        "Local_Key": "None"
+      },
+      "getasset": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "getasset",
+        "Local_Key": "None"
+      },
+      "headup_stamina": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "headup_stamina",
+        "Local_Key": "None"
+      },
+      "achievement": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "achievement",
+        "Local_Key": "None"
+      },
+      "dictionary": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "dictionary",
+        "Local_Key": "None"
+      },
+      "contentsdialog": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "contentsdialog",
+        "Local_Key": "None"
+      },
+      "accountexp": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "accountexp",
+        "Local_Key": "None"
+      },
+      "herobackground": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "herobackground",
+        "Local_Key": "None"
+      },
+      "petitem": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "petitem",
+        "Local_Key": "None"
+      },
+      "racejoin": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "racejoin",
+        "Local_Key": "None"
+      },
+      "racestart": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "racestart",
+        "Local_Key": "None"
+      },
+      "racedefeatcountdown": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "racedefeatcountdown",
+        "Local_Key": "None"
+      },
+      "racefinish": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "racefinish",
+        "Local_Key": "None"
+      },
+      "raceresult": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "raceresult",
+        "Local_Key": "None"
+      },
+      "racemsg": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "racemsg",
+        "Local_Key": "None"
+      },
+      "raceranking": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "raceranking",
+        "Local_Key": "None"
+      },
+      "chat": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "chat",
+        "Local_Key": "None"
+      },
+      "detective": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "detective",
+        "Local_Key": "None"
+      },
+      "interactivedirecting": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "interactivedirecting",
+        "Local_Key": "None"
+      },
+      "packagestore": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "packagestore",
+        "Local_Key": "None"
+      },
+      "itemcount": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "itemcount",
+        "Local_Key": "None"
+      },
+      "storyreplay": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "storyreplay",
+        "Local_Key": "None"
+      },
+      "missionpopup": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "missionpopup",
+        "Local_Key": "None"
+      },
+      "quizdefeatcountdown": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "quizdefeatcountdown",
+        "Local_Key": "None"
+      },
+      "bossreplay": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "bossreplay",
+        "Local_Key": "None"
+      },
+      "gacha_directing": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "gacha_directing",
+        "Local_Key": "None"
+      },
+      "dictionary_special": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "dictionary_special",
+        "Local_Key": "None"
+      },
+      "avatar": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "avatar",
+        "Local_Key": "None"
+      },
+      "avataracquisition": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "avataracquisition",
+        "Local_Key": "None"
+      },
+      "detective_inven": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "detective_inven",
+        "Local_Key": "None"
+      },
+      "realfakejoin": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "realfakejoin",
+        "Local_Key": "None"
+      },
+      "realfake": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "realfake",
+        "Local_Key": "None"
+      },
+      "realfakedefeatcountdown": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "realfakedefeatcountdown",
+        "Local_Key": "None"
+      },
+      "realfakefinish": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "realfakefinish",
+        "Local_Key": "None"
+      },
+      "directinglogviewer": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "directinglogviewer",
+        "Local_Key": "None"
+      },
+      "combineskill": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "combineskill",
+        "Local_Key": "None"
+      },
+      "pathfindermode": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "pathfindermode",
+        "Local_Key": "None"
+      },
+      "guild": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "guild",
+        "Local_Key": "None"
+      },
+      "item_enchant_weapon": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "item_enchant_weapon",
+        "Local_Key": "None"
+      },
+      "mail": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "mail",
+        "Local_Key": "None"
+      },
+      "profile": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "profile",
+        "Local_Key": "None"
+      },
+      "event": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "event",
+        "Local_Key": "None"
+      },
+      "weaponpotential_reward": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "weaponpotential_reward",
+        "Local_Key": "None"
+      },
+      "tpsmodejoin": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "tpsmodejoin",
+        "Local_Key": "None"
+      },
+      "rewardbox": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "rewardbox",
+        "Local_Key": "None"
+      },
+      "rewardkey": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "rewardkey",
+        "Local_Key": "None"
+      },
+      "tpsmode": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "tpsmode",
+        "Local_Key": "None"
+      },
+      "pvpmodejoin": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "pvpmodejoin",
+        "Local_Key": "None"
+      },
+      "pvpranking": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "pvpranking",
+        "Local_Key": "None"
+      },
+      "battlefieldjoin": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "battlefieldjoin",
+        "Local_Key": "None"
+      },
+      "battlefieldbag": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "battlefieldbag",
+        "Local_Key": "None"
+      },
+      "pvpmode": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "pvpmode",
+        "Local_Key": "None"
+      },
+      "pvpmodematchingdirecting": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "pvpmodematchingdirecting",
+        "Local_Key": "None"
+      },
+      "pvpmodebattleresult": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "pvpmodebattleresult",
+        "Local_Key": "None"
+      },
+      "pvpmoderankchange": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "pvpmoderankchange",
+        "Local_Key": "None"
+      },
+      "exit": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "exit",
+        "Local_Key": "None"
+      },
+      "inputsettingmenu": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "inputsettingmenu",
+        "Local_Key": "None"
+      },
+      "tutorialreplay": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "tutorialreplay",
+        "Local_Key": "None"
+      },
+      "escape": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "escape",
+        "Local_Key": "None"
+      },
+      "item_gethero_directing": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "item_gethero_directing",
+        "Local_Key": "None"
+      },
+      "optionloginpopup": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "optionloginpopup",
+        "Local_Key": "None"
+      },
+      "dungeoneventreward_fail": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "dungeoneventreward_fail",
+        "Local_Key": "None"
+      },
+      "dungeoneventreward_success": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "dungeoneventreward_success",
+        "Local_Key": "None"
+      },
+      "dungeon": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "dungeon",
+        "Local_Key": "None"
+      },
+      "invenquickequip": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "invenquickequip",
+        "Local_Key": "None"
+      },
+      "ridingmode": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "ridingmode",
+        "Local_Key": "None"
+      },
+      "screenshotmode": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": true,
+        "String_Tid": "screenshotmode",
+        "Local_Key": "None"
+      },
+      "hawkpass": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "hawkpass",
+        "Local_Key": "None"
+      },
+      "weeklyreward": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "weeklyreward",
+        "Local_Key": "None"
+      },
+      "weeklyresultreward": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "weeklyresultreward",
+        "Local_Key": "None"
+      },
+      "questpopup_accept": {
+        "TalkKeepingType": "EEventTalkKeepingType::Pause",
+        "IsTalkDelayable": true,
+        "String_Tid": "questpopup_accept",
+        "Local_Key": "None"
+      },
+      "gacha_directing_box": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "gacha_directing_box",
+        "Local_Key": "None"
+      },
+      "experience_dungeon": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "experience_dungeon",
+        "Local_Key": "None"
+      },
+      "dungeoncrack": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "dungeoncrack",
+        "Local_Key": "None"
+      },
+      "ranking_board": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "ranking_board",
+        "Local_Key": "None"
+      },
+      "dungeonmissionexit": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "dungeonmissionexit",
+        "Local_Key": "None"
+      },
+      "dungeonraidexit": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "dungeonraidexit",
+        "Local_Key": "None"
+      },
+      "dungeonmissionreward": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "dungeonmissionreward",
+        "Local_Key": "None"
+      },
+      "raidenter": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "raidenter",
+        "Local_Key": "None"
+      },
+      "raidreward": {
+        "TalkKeepingType": "EEventTalkKeepingType::Kill",
+        "IsTalkDelayable": false,
+        "String_Tid": "raidreward",
+        "Local_Key": "None"
+      },
+      "raidmode": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "raidmode",
+        "Local_Key": "None"
+      },
+      "petexpedition": {
+        "TalkKeepingType": "EEventTalkKeepingType::Stay",
+        "IsTalkDelayable": false,
+        "String_Tid": "petexpedition",
+        "Local_Key": "None"
+      },
+      "beerfest": {
+        "TalkKeepingType": "EEventTalkKeepingType::Pause",
+        "IsTalkDelayable": true,
+        "String_Tid": "beerfest",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

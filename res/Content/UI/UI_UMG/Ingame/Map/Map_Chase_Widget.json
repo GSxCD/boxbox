@@ -1,0 +1,165 @@
+[
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Map_Chase_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Chase_Widget.5"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 80.0,
+          "Y": 80.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'UI_MI_RingLoop_01'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/Common/UI_MI_RingLoop_01.0"
+        }
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Map_Chase_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Chase_Widget.4"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Map_Chase_Widget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Map_Chase_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Chase_Widget.4"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Map_Chase_Widget_C",
+    "Name": "Default__Map_Chase_Widget_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Chase_Widget.Map_Chase_Widget_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Chase_Widget",
+    "Properties": {
+      "UberGraphFrame": {},
+      "PressSoundTid": {
+        "Tid": "2000000"
+      },
+      "HoverSoundTid": {
+        "Tid": "2000115"
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Map_Chase_Widget_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Chase_Widget",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Map_Chase_Widget_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Chase_Widget.5"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function'Map_Chase_Widget_C:ExecuteUbergraph_Map_Chase_Widget'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Chase_Widget.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWidgetSlot'",
+      "ObjectPath": "/Script/ACUMGBaseModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Map_Chase_Widget_C:Construct'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Chase_Widget.1"
+      },
+      {
+        "ObjectName": "Function'Map_Chase_Widget_C:ExecuteUbergraph_Map_Chase_Widget'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Chase_Widget.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Map_Chase_Widget": {
+        "ObjectName": "Function'Map_Chase_Widget_C:ExecuteUbergraph_Map_Chase_Widget'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Chase_Widget.2"
+      },
+      "Construct": {
+        "ObjectName": "Function'Map_Chase_Widget_C:Construct'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Chase_Widget.1"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Map_Chase_Widget_C'Default__Map_Chase_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Chase_Widget.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Map_Chase_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Chase_Widget.4"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBImage'Map_Chase_Widget_C:WidgetTree.CBImage_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Map/Map_Chase_Widget.0"
+      }
+    }
+  }
+]

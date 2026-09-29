@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "OGDirecting_Fade",
+    "Name": "OGDirecting_Fade_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Fade'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'FogForest_Fail'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/FogForest_Fail.4"
+    },
+    "Properties": {
+      "FadeType": "EOGDirectingFadeType::FADE_OUT",
+      "FadeTimeLength": 0.0,
+      "ActionID": "FadeOut"
+    }
+  },
+  {
+    "Type": "OGDirecting_Fade",
+    "Name": "OGDirecting_Fade_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Fade'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'FogForest_Fail'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/FogForest_Fail.4"
+    },
+    "Properties": {
+      "FadeTimeLength": 1.0,
+      "ActionID": "FadeIn"
+    }
+  },
+  {
+    "Type": "OGDirecting_WaitForRouterID",
+    "Name": "OGDirecting_WaitForRouterID_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_WaitForRouterID'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'FogForest_Fail'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/FogForest_Fail.4"
+    },
+    "Properties": {
+      "TargetActionID": "FadeIn",
+      "ActionID": "FadeIn_Wait"
+    }
+  },
+  {
+    "Type": "OGDirecting_WaitForRouterID",
+    "Name": "OGDirecting_WaitForRouterID_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_WaitForRouterID'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'FogForest_Fail'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/FogForest_Fail.4"
+    },
+    "Properties": {
+      "TargetActionID": "FadeOut",
+      "ActionID": "FadeOut_Wait"
+    }
+  },
+  {
+    "Type": "OGDirectingActionContainerObject",
+    "Name": "FogForest_Fail",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirectingActionContainerObject'",
+    "Package": "SevenDeadlySins/Content/Table/Directing/DirectingData/FogForest_Fail",
+    "Properties": {
+      "ActionList": [
+        {
+          "ObjectName": "OGDirecting_Fade'FogForest_Fail:OGDirecting_Fade_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/FogForest_Fail.0"
+        },
+        {
+          "ObjectName": "OGDirecting_WaitForRouterID'FogForest_Fail:OGDirecting_WaitForRouterID_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/FogForest_Fail.3"
+        },
+        {
+          "ObjectName": "OGDirecting_Fade'FogForest_Fail:OGDirecting_Fade_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/FogForest_Fail.1"
+        },
+        {
+          "ObjectName": "OGDirecting_WaitForRouterID'FogForest_Fail:OGDirecting_WaitForRouterID_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/FogForest_Fail.2"
+        }
+      ]
+    }
+  }
+]

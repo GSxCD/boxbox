@@ -1,0 +1,143 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ChatTypeTable",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/Chat/ChatTypeTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UEChatTypeTable'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "chat_zone": {
+        "Input_Limit": 64,
+        "Chat_Color": "chatmessage_zone",
+        "Chat_Type": "EChatTargetType::Zone",
+        "Chat_Show_Target": [
+          "EChatTargetType::Everyone",
+          "EChatTargetType::Zone"
+        ],
+        "Chat_Use": 1,
+        "chattype_Show_chatype": true,
+        "chattype_Show_Name": true,
+        "chattype_Show_FadeTime": 10000.0,
+        "chatype_Command": "z",
+        "chatype_Icon": "None",
+        "Chat_Limit_Time": 5000.0,
+        "Chat_Limit_Count": 3,
+        "Chat_Limit_DelrayTime": 5000.0,
+        "chattype_Show_Push": true,
+        "chatype_Push_Local": "ui_chat_chattype_zone",
+        "chat_Fillter": "None",
+        "chat_Fillter_Show": "%%%",
+        "chat_Input_Local": "None",
+        "Show_Chat_Line": 200,
+        "String_Tid": "chat_zone",
+        "Local_Key": "UI_Chat_ChatType_Zone"
+      },
+      "chat_whisper": {
+        "Input_Limit": 64,
+        "Chat_Color": "chatmessage_whisper",
+        "Chat_Type": "EChatTargetType::Target",
+        "Chat_Show_Target": [
+          "EChatTargetType::Target"
+        ],
+        "Chat_Use": 5,
+        "chattype_Show_chatype": true,
+        "chattype_Show_Name": true,
+        "chattype_Show_FadeTime": 10000.0,
+        "chatype_Command": "w",
+        "chatype_Icon": "None",
+        "Chat_Limit_Time": 5000.0,
+        "Chat_Limit_Count": 5,
+        "Chat_Limit_DelrayTime": 5000.0,
+        "chattype_Show_Push": true,
+        "chatype_Push_Local": "ui_chat_chattype_whisper",
+        "chat_Fillter": "None",
+        "chat_Fillter_Show": "%%%",
+        "chat_Input_Local": "None",
+        "Show_Chat_Line": 200,
+        "String_Tid": "chat_whisper",
+        "Local_Key": "UI_Chat_ChatType_Whisper"
+      },
+      "chat_party": {
+        "Input_Limit": 64,
+        "Chat_Color": "chatmessage_party",
+        "Chat_Type": "EChatTargetType::Party",
+        "Chat_Show_Target": [
+          "EChatTargetType::Party"
+        ],
+        "Chat_Use": 2,
+        "chattype_Show_chatype": true,
+        "chattype_Show_Name": true,
+        "chattype_Show_FadeTime": 10000.0,
+        "chatype_Command": "p",
+        "chatype_Icon": "None",
+        "Chat_Limit_Time": 5000.0,
+        "Chat_Limit_Count": 5,
+        "Chat_Limit_DelrayTime": 5000.0,
+        "chattype_Show_Push": true,
+        "chatype_Push_Local": "ui_chat_chattype_party",
+        "chat_Fillter": "None",
+        "chat_Fillter_Show": "%%%",
+        "chat_Input_Local": "None",
+        "Show_Chat_Line": 100,
+        "String_Tid": "chat_party",
+        "Local_Key": "UI_Chat_ChatType_Party"
+      },
+      "chat_guild": {
+        "Input_Limit": 64,
+        "Chat_Color": "chatmessage_guild",
+        "Chat_Type": "EChatTargetType::Guild",
+        "Chat_Show_Target": [
+          "EChatTargetType::Guild"
+        ],
+        "Chat_Use": 3,
+        "chattype_Show_chatype": true,
+        "chattype_Show_Name": true,
+        "chattype_Show_FadeTime": 10000.0,
+        "chatype_Command": "o",
+        "chatype_Icon": "None",
+        "Chat_Limit_Time": 5000.0,
+        "Chat_Limit_Count": 5,
+        "Chat_Limit_DelrayTime": 5000.0,
+        "chattype_Show_Push": true,
+        "chatype_Push_Local": "ui_chat_chattype_knighthood",
+        "chat_Fillter": "None",
+        "chat_Fillter_Show": "%%%",
+        "chat_Input_Local": "None",
+        "Show_Chat_Line": 300,
+        "String_Tid": "chat_guild",
+        "Local_Key": "UI_Chat_ChatType_Guild"
+      },
+      "chat_noti": {
+        "Input_Limit": 128,
+        "Chat_Color": "chatmessage_system",
+        "Chat_Type": "EChatTargetType::Everyone",
+        "Chat_Show_Target": [
+          "EChatTargetType::Everyone"
+        ],
+        "Chat_Use": 4,
+        "chattype_Show_chatype": false,
+        "chattype_Show_Name": false,
+        "chattype_Show_FadeTime": 10000.0,
+        "chatype_Command": "None",
+        "chatype_Icon": "None",
+        "Chat_Limit_Time": 5000.0,
+        "Chat_Limit_Count": 5,
+        "Chat_Limit_DelrayTime": 5000.0,
+        "chattype_Show_Push": true,
+        "chatype_Push_Local": "ui_chat_chattype_noti",
+        "chat_Fillter": "None",
+        "chat_Fillter_Show": "%%%",
+        "chat_Input_Local": "None",
+        "Show_Chat_Line": 1000,
+        "String_Tid": "chat_noti",
+        "Local_Key": "UI_Chat_ChatType_Noti"
+      }
+    }
+  }
+]

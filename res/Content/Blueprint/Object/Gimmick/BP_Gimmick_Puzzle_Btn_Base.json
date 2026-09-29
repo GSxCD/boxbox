@@ -1,0 +1,268 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Gimmick_Puzzle_Btn_Base_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Gimmick_Puzzle_Btn_Base_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_GimmickButton'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Gimmick_Puzzle_Btn_Base_C'Default__BP_Gimmick_Puzzle_Btn_Base_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Gimmick_Puzzle_Btn_Base_C",
+    "Name": "Default__BP_Gimmick_Puzzle_Btn_Base_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.BP_Gimmick_Puzzle_Btn_Base_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base",
+    "Properties": {
+      "OGCylinder": {
+        "ObjectName": "OGCylinderComponent'Default__BP_Gimmick_Puzzle_Btn_Base_C:OGCylinder'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.3"
+      },
+      "OGCylinderHeight": 20.0,
+      "SwitchOnMontage": {
+        "ObjectName": "AnimMontage'S_GimmickPuzzleButton_Open_MTG'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_DesertMuralButton_A01_01/Ani/S_GimmickPuzzleButton_A01/S_GimmickPuzzleButton_Open_MTG.0"
+      },
+      "SwitchOffMontage": {
+        "ObjectName": "AnimMontage'S_GimmickPuzzleButton_idle_MTG'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_DesertMuralButton_A01_01/Ani/S_GimmickPuzzleButton_A01/S_GimmickPuzzleButton_idle_MTG.0"
+      },
+      "FX_SwitchOn_When_Actived": "200182",
+      "FX_Puzzle_Success": "200183",
+      "FX_Puzzle_Fail": "200184",
+      "CoreMesh": {
+        "ObjectName": "CBSkeletalMeshComponent'Default__BP_Gimmick_Puzzle_Btn_Base_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.2"
+      },
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_Gimmick_Puzzle_Btn_Base_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.5"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_Gimmick_Puzzle_Btn_Base_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.5"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Gimmick_Puzzle_Btn_Base_C'Default__BP_Gimmick_Puzzle_Btn_Base_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.1"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_DesertMuralButton_A01_01_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_DesertMuralButton_A01_01/Mesh/ABP_DesertMuralButton_A01_01.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'S_DesertMuralButton_A01_01'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_DesertMuralButton_A01_01/Mesh/S_DesertMuralButton_A01_01.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'S_DesertMuralButton_A01_01'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_DesertMuralButton_A01_01/Mesh/S_DesertMuralButton_A01_01.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldDynamic",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "BlockAllDynamic",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Npc",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Object",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Wall",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Select",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Gimmick_Puzzle_Btn_Base_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.5"
+      }
+    }
+  },
+  {
+    "Type": "OGCylinderComponent",
+    "Name": "OGCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGCylinderComponent'",
+    "Outer": {
+      "ObjectName": "BP_Gimmick_Puzzle_Btn_Base_C'Default__BP_Gimmick_Puzzle_Btn_Base_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.1"
+    },
+    "Properties": {
+      "CylinderRadius": 100.0,
+      "CylinderHeight": 20.0,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel17",
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Trigger",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapObject",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Gimmick_Puzzle_Btn_Base_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.5"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Gimmick_Puzzle_Btn_Base_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Gimmick_Puzzle_Btn_Base_C'Default__BP_Gimmick_Puzzle_Btn_Base_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Gimmick_Puzzle_Btn_Base_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.7"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Gimmick_Puzzle_Btn_Base_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.4"
+      },
+      "VariableGUID": "3865A25D-4C053918-51E43F92-0D85F05B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Gimmick_Puzzle_Btn_Base_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Gimmick_Puzzle_Btn_Base_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Gimmick/BP_Gimmick_Puzzle_Btn_Base.6"
+      }
+    }
+  }
+]

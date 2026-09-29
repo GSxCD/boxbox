@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "invenHeroList_Widget_C",
+    "Name": "Widget_HeroGrid",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/invenHeroList_Widget.invenHeroList_Widget_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroList_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroList.3"
+    },
+    "Template": {
+      "ObjectName": "invenHeroList_Widget_C'Default__invenHeroList_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/Inven_Detail/invenHeroList_Widget.1"
+    },
+    "Properties": {
+      "PortraitType": "EPortraitType::HUD",
+      "IsAutoSelected": true,
+      "bFillUpEmptySlotAtNativeConstruct": false,
+      "Orientation": "EOrientation::Orient_Vertical",
+      "EntrySpacing": 5.0,
+      "EntryWidth": 128.0,
+      "TileAlignment": "EListItemAlignment::LeftAligned",
+      "UsePadFocus": true,
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Widget_HeroList_C",
+    "Name": "Default__Widget_HeroList_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroList.Widget_HeroList_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroList",
+    "Properties": {
+      "HideAfter_Anim_Show_Finished": false,
+      "m_DetermineInteractableWidgets": [
+        null
+      ],
+      "DesiredFocusWidget": {},
+      "InputComponent": null
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Widget_HeroList_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroList",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Widget_HeroList_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroList.3"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWidget_InvenHeroList'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Widget_HeroList_C'Default__Widget_HeroList_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroList.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_HeroList_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroList.2"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "invenHeroList_Widget_C'Widget_HeroList_C:WidgetTree.Widget_HeroGrid'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroList.0"
+      }
+    }
+  }
+]

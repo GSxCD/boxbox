@@ -1,0 +1,1950 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Drop_Pet_Ghost_0001_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.30"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Drop_Pet_Ghost_0001_C:InheritableComponentHandler'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_SkeletalDropItem'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PointLight_Ball_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PointLight_Ball_3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PointLight_Ball_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "fx_ns_GlidingGhost_BallTrail1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "fx_ns_GlidingGhost_BallTrail2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_SimpleMeshParticle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "fx_ns_GlidingGhost_BallTrail",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "fx_ns_GlidingGhost",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_SimpleFakeGlow",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PointLight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Capsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBSkeletalMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CBSkeletalMeshComponent'",
+          "ObjectPath": "/Script/CBResourceModule"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Drop_Pet_Ghost_0001_C'Default__BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Drop_Pet_Ghost_0001_C",
+    "Name": "Default__BP_Drop_Pet_Ghost_0001_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.BP_Drop_Pet_Ghost_0001_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001",
+    "Properties": {
+      "FxNiagara": {
+        "ObjectName": "NiagaraComponent'Default__BP_Drop_Pet_Ghost_0001_C:FX'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.10"
+      },
+      "CoreMesh": null,
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BP_Drop_Pet_Ghost_0001_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.16"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_Drop_Pet_Ghost_0001_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.16"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 20.0,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 30.0
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "CBSkeletalMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.0"
+    },
+    "Properties": {
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'PET_Gliding_Ghost_0001_Idle'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Gliding_Ghost/Ani/PET_Gliding_Ghost_0001_Idle.0"
+        }
+      },
+      "AnimationMode": "EAnimationMode::AnimationSingleNode",
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'PET_Gliding_Ghost_0001'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Gliding_Ghost/Mesh/PET_Gliding_Ghost_0001.2"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'PET_Gliding_Ghost_0001'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Gliding_Ghost/Mesh/PET_Gliding_Ghost_0001.2"
+      },
+      "OverrideMaterials": [
+        null,
+        null,
+        null
+      ],
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 45.0
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.4,
+        "Z": 0.4
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Drop_Pet_Ghost_0001_C'Default__BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Drop_Pet_Ghost_0001_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.16"
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.0"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "fx_ns_GlidingGhost_BallTrail1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.0"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_ns_GlidingGhost_BallTrail'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Gliding_Ghost/Sample/fx_ns_GlidingGhost_BallTrail.14"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "CameraOffset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.CameraOffset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Hue",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Hue",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Life",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Life",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "loopduration",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.loopduration",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "spawnspacing",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.spawnspacing",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 8,
+            "Name": "User.CameraOffset",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.Hue",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 0,
+            "Name": "User.Life",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 12,
+            "Name": "User.loopduration",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 16,
+            "Name": "User.spawnspacing",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          72,
+          66,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          32,
+          65
+        ]
+      },
+      "RelativeLocation": {
+        "X": -12.01763,
+        "Y": -6.7231116,
+        "Z": 81.857025
+      },
+      "RelativeRotation": {
+        "Pitch": -46.826336,
+        "Yaw": 21.995504,
+        "Roll": 175.49811
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.4,
+        "Z": 0.4
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "fx_ns_GlidingGhost_BallTrail2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.0"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_ns_GlidingGhost_BallTrail'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Gliding_Ghost/Sample/fx_ns_GlidingGhost_BallTrail.14"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "CameraOffset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.CameraOffset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Hue",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Hue",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Life",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Life",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "loopduration",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.loopduration",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "spawnspacing",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.spawnspacing",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 8,
+            "Name": "User.CameraOffset",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.Hue",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 0,
+            "Name": "User.Life",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 12,
+            "Name": "User.loopduration",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 16,
+            "Name": "User.spawnspacing",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          72,
+          66,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          32,
+          65
+        ]
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.4,
+        "Z": 0.4
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "fx_ns_GlidingGhost_BallTrail_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.0"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_ns_GlidingGhost_BallTrail'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Gliding_Ghost/Sample/fx_ns_GlidingGhost_BallTrail.14"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "CameraOffset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.CameraOffset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Hue",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Hue",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Life",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Life",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "loopduration",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.loopduration",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "spawnspacing",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.spawnspacing",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 8,
+            "Name": "User.CameraOffset",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.Hue",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 0,
+            "Name": "User.Life",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 12,
+            "Name": "User.loopduration",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 16,
+            "Name": "User.spawnspacing",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          72,
+          66,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          32,
+          65
+        ]
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 3.0,
+        "Z": 45.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.4,
+        "Z": 0.4
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "fx_ns_GlidingGhost_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.0"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_ns_GlidingGhost'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Gliding_Ghost/Sample/fx_ns_GlidingGhost.14"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "CameraOffset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.CameraOffset",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Hue",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Hue",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Life",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Life",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 8,
+            "Name": "User.CameraOffset",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.Hue",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 0,
+            "Name": "User.Life",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          72,
+          66
+        ]
+      },
+      "bEnableAutoLODGeneration": false,
+      "bReceiveMobileCSMShadows": false,
+      "TranslucencySortPriority": 1,
+      "RelativeLocation": {
+        "X": 23.0,
+        "Y": 0.0,
+        "Z": 45.0
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "FX",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_Drop_Pet_Ghost_0001_C'Default__BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.1"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_ns_drop_legendary'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/Common/System/Drop/fx_ns_drop_legendary.86"
+      },
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "CBSkeletalMeshComponent'Default__BP_Drop_Pet_Ghost_0001_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.4"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 45.0
+      }
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight_Ball_1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.0"
+    },
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 2.0,
+      "SourceRadius": 8.0,
+      "LightAnimationRange": 0.327263,
+      "LightAnimationSpeed": 7.776566,
+      "LightBrightnessAnimationStrength": 0.667147,
+      "LightBrightnessAnimationSpeed": 1.922045,
+      "AttenuationRadius": 75.0,
+      "bSoftGradientOGCharacter": true,
+      "Intensity": 75.0,
+      "LightColor": {
+        "B": 155,
+        "G": 144,
+        "R": 64,
+        "A": 255,
+        "Hex": "40909B"
+      },
+      "CastShadows": false,
+      "CastStaticShadows": false,
+      "CastDynamicShadows": false,
+      "bAffectTranslucentLighting": false,
+      "bAffectReflection": false,
+      "bAffectGlobalIllumination": false,
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 1.2722219E-14,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.4,
+        "Z": 0.4
+      },
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    },
+    "IntensityNits": 75.0
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight_Ball_2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.0"
+    },
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 2.0,
+      "SourceRadius": 8.0,
+      "LightAnimationRange": 0.327263,
+      "LightAnimationSpeed": 7.776566,
+      "LightBrightnessAnimationStrength": 0.667147,
+      "LightBrightnessAnimationSpeed": 1.922045,
+      "AttenuationRadius": 75.0,
+      "bSoftGradientOGCharacter": true,
+      "Intensity": 75.0,
+      "LightColor": {
+        "B": 155,
+        "G": 144,
+        "R": 64,
+        "A": 255,
+        "Hex": "40909B"
+      },
+      "CastShadows": false,
+      "CastStaticShadows": false,
+      "CastDynamicShadows": false,
+      "bAffectTranslucentLighting": false,
+      "bAffectReflection": false,
+      "bAffectGlobalIllumination": false,
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 1.2722219E-14,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.4,
+        "Z": 0.4
+      },
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    },
+    "IntensityNits": 75.0
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight_Ball_3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.0"
+    },
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 2.0,
+      "SourceRadius": 8.0,
+      "LightAnimationRange": 0.327263,
+      "LightAnimationSpeed": 7.776566,
+      "LightBrightnessAnimationStrength": 0.667147,
+      "LightBrightnessAnimationSpeed": 1.922045,
+      "AttenuationRadius": 75.0,
+      "bSoftGradientOGCharacter": true,
+      "Intensity": 75.0,
+      "LightColor": {
+        "B": 155,
+        "G": 144,
+        "R": 64,
+        "A": 255,
+        "Hex": "40909B"
+      },
+      "CastShadows": false,
+      "CastStaticShadows": false,
+      "CastDynamicShadows": false,
+      "bAffectTranslucentLighting": false,
+      "bAffectReflection": false,
+      "bAffectGlobalIllumination": false,
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 1.2722219E-14,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.4,
+        "Z": 0.4
+      },
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    },
+    "IntensityNits": 75.0
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.0"
+    },
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 2.0,
+      "SourceRadius": 8.0,
+      "bEnableLightAnimation": true,
+      "LightAnimationRange": 0.327263,
+      "LightAnimationSpeed": 7.776566,
+      "LightBrightnessAnimationStrength": 0.667147,
+      "LightBrightnessAnimationSpeed": 1.922045,
+      "AttenuationRadius": 300.0,
+      "bSoftGradientOGCharacter": true,
+      "Intensity": 50.0,
+      "LightColor": {
+        "B": 155,
+        "G": 144,
+        "R": 64,
+        "A": 255,
+        "Hex": "40909B"
+      },
+      "CastShadows": false,
+      "CastStaticShadows": false,
+      "CastDynamicShadows": false,
+      "bAffectTranslucentLighting": false,
+      "bAffectReflection": false,
+      "bAffectGlobalIllumination": false,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 45.0
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.4,
+        "Z": 0.4
+      },
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    },
+    "IntensityNits": 50.0
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Drop_Pet_Ghost_0001_C'Default__BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Drop_Pet_Ghost_0001_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.15"
+      },
+      "VariableGUID": "7C422CBA-45C3CAD1-5F38ECB4-B1CF9562",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CBSkeletalMeshComponent'",
+        "ObjectPath": "/Script/CBResourceModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBSkeletalMeshComponent'BP_Drop_Pet_Ghost_0001_C:CBSkeletalMesh_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.3"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.28"
+        }
+      ],
+      "VariableGUID": "CE451992-4574E32D-0BD69D9F-C2BDC063",
+      "InternalVariableName": "CBSkeletalMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_Drop_Pet_Ghost_0001_C:SM_SimpleFakeGlow_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.31"
+      },
+      "AttachToName": "Bone_Body_1",
+      "VariableGUID": "05EBE8BB-4F3021A2-4450A5AD-A17E381A",
+      "InternalVariableName": "SM_SimpleFakeGlow"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'BP_Drop_Pet_Ghost_0001_C:fx_ns_GlidingGhost_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.9"
+      },
+      "AttachToName": "Bone_Body_1",
+      "VariableGUID": "CC89A402-4CF11693-FA873D9E-B4D3243F",
+      "InternalVariableName": "fx_ns_GlidingGhost"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'BP_Drop_Pet_Ghost_0001_C:fx_ns_GlidingGhost_BallTrail_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.8"
+      },
+      "AttachToName": "Bone_Ball_01",
+      "VariableGUID": "F56C3E88-45CCC901-EF9B6795-3B0C9EB4",
+      "InternalVariableName": "fx_ns_GlidingGhost_BallTrail"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_Drop_Pet_Ghost_0001_C:SM_SimpleMeshParticle_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.32"
+      },
+      "VariableGUID": "955CDF2F-4B8733AA-45B78893-E3F37016",
+      "InternalVariableName": "SM_SimpleMeshParticle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'BP_Drop_Pet_Ghost_0001_C:fx_ns_GlidingGhost_BallTrail1_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.6"
+      },
+      "VariableGUID": "E4555A99-42E1B4C8-12F031AA-D988DB2B",
+      "InternalVariableName": "fx_ns_GlidingGhost_BallTrail1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'BP_Drop_Pet_Ghost_0001_C:fx_ns_GlidingGhost_BallTrail2_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.7"
+      },
+      "AttachToName": "Bone_Ball_03",
+      "VariableGUID": "4ED4152C-42BDC522-CBCD2D87-AFAA64F3",
+      "InternalVariableName": "fx_ns_GlidingGhost_BallTrail2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BP_Drop_Pet_Ghost_0001_C:PointLight_Ball_1_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.11"
+      },
+      "AttachToName": "Bone_Ball_01",
+      "VariableGUID": "48DA84F0-477C5A40-0CDF25B5-A0BD22C1",
+      "InternalVariableName": "PointLight_Ball_1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_Drop_Pet_Ghost_0001_C:Capsule_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.2"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "9274E3E9-44D3246B-D0FCA0B2-6D695558",
+      "InternalVariableName": "Capsule"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BP_Drop_Pet_Ghost_0001_C:PointLight_Ball_3_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.13"
+      },
+      "AttachToName": "Bone_Ball_03",
+      "VariableGUID": "A7EB3A7C-4B50B3D2-446A07A1-C25F206F",
+      "InternalVariableName": "PointLight_Ball_3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_21",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BP_Drop_Pet_Ghost_0001_C:PointLight_Ball_2_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.12"
+      },
+      "AttachToName": "Bone_Ball_02",
+      "VariableGUID": "3F631BDC-41AED12A-67267CAA-A373A70E",
+      "InternalVariableName": "PointLight_Ball_2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BP_Drop_Pet_Ghost_0001_C:PointLight_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.14"
+      },
+      "VariableGUID": "3EFA5F81-48AB5B0C-EEBA8E8D-9C3BA09C",
+      "InternalVariableName": "PointLight"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.26"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.28"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Drop_Pet_Ghost_0001_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.17"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_SimpleFakeGlow_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'sm_SimpleBillboard_Flare_NonPointLight'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/BG/Resources/SimpleBillboard/Mesh/sm_SimpleBillboard_Flare_NonPointLight.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SimpleBillboard_glow_Ghost'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Gliding_Ghost/Sample/MI_SimpleBillboard_glow_Ghost.0"
+        }
+      ],
+      "bEnableAutoLODGeneration": false,
+      "bReceivesDecals": false,
+      "CastShadow": false,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "bReceiveMobileCSMShadows": false,
+      "bApplyImpulseOnDamage": false,
+      "bReplicatePhysicsToAutonomousProxy": false,
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "VirtualTextureRenderPassType": "ERuntimeVirtualTextureMainPassType::Never",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInertiaConditioning": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        },
+        "bEnableGravity": false,
+        "bAutoWeld": false,
+        "bUpdateMassWhenScaleChanges": false
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 1.2722219E-14,
+        "Roll": -0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_SimpleMeshParticle_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Drop_Pet_Ghost_0001_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Drop/Drop_Pet/Gliding/BP_Drop_Pet_Ghost_0001.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Particle_Size_100_GhostParticle'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Gliding_Ghost/Sample/SM_Particle_Size_100_GhostParticle.1"
+      },
+      "bEnableAutoLODGeneration": false,
+      "bReceivesDecals": false,
+      "CastShadow": false,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "bReceiveMobileCSMShadows": false,
+      "bApplyImpulseOnDamage": false,
+      "bReplicatePhysicsToAutonomousProxy": false,
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "VirtualTextureRenderPassType": "ERuntimeVirtualTextureMainPassType::Never",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInertiaConditioning": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        },
+        "bEnableGravity": false,
+        "bAutoWeld": false,
+        "bUpdateMassWhenScaleChanges": false
+      },
+      "RelativeLocation": {
+        "X": 22.884192,
+        "Y": 28.041315,
+        "Z": 23.006939
+      },
+      "RelativeRotation": {
+        "Pitch": -8.995967E-15,
+        "Yaw": -1.7991934E-14,
+        "Roll": -90.0
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.4,
+        "Z": 0.4
+      }
+    }
+  }
+]

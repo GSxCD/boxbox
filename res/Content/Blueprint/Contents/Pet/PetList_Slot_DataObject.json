@@ -1,0 +1,176 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PetList_Slot_DataObject_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Contents/Pet/PetList_Slot_DataObject",
+    "SuperStruct": {
+      "ObjectName": "Class'OGListSlotObject'",
+      "ObjectPath": "/Script/ACUICoreModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'PetList_Slot_DataObject_C:Reset'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Pet/PetList_Slot_DataObject.3"
+      },
+      {
+        "ObjectName": "Function'PetList_Slot_DataObject_C:OnUpdateSelectStatus__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Pet/PetList_Slot_DataObject.2"
+      },
+      {
+        "ObjectName": "Function'PetList_Slot_DataObject_C:OnSelectedPet__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Pet/PetList_Slot_DataObject.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "PetTid",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn"
+      },
+      {
+        "Type": "Int64Property",
+        "Name": "PetGUID",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn"
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnSelectedPet",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 24,
+        "PropertyFlags": "Edit | BlueprintVisible | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'PetList_Slot_DataObject_C:OnSelectedPet__DelegateSignature'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Pet/PetList_Slot_DataObject.1"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnUpdateSelectStatus",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 24,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'PetList_Slot_DataObject_C:OnUpdateSelectStatus__DelegateSignature'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Pet/PetList_Slot_DataObject.2"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "targetPetSettingList_Widget",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | InstancedReference | ExposeOnSpawn",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'PetSettingList_Widget_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetSettingList_Widget.208"
+        }
+      }
+    ],
+    "FuncMap": {
+      "OnSelectedPet__DelegateSignature": {
+        "ObjectName": "Function'PetList_Slot_DataObject_C:OnSelectedPet__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Pet/PetList_Slot_DataObject.1"
+      },
+      "OnUpdateSelectStatus__DelegateSignature": {
+        "ObjectName": "Function'PetList_Slot_DataObject_C:OnUpdateSelectStatus__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Pet/PetList_Slot_DataObject.2"
+      },
+      "Reset": {
+        "ObjectName": "Function'PetList_Slot_DataObject_C:Reset'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Pet/PetList_Slot_DataObject.3"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PetList_Slot_DataObject_C'Default__PetList_Slot_DataObject_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Pet/PetList_Slot_DataObject.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSelectedPet__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PetList_Slot_DataObject_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Pet/PetList_Slot_DataObject.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "PetGUID",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnUpdateSelectStatus__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PetList_Slot_DataObject_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Pet/PetList_Slot_DataObject.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "isSelected",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Reset",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PetList_Slot_DataObject_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/Pet/PetList_Slot_DataObject.0"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "PetList_Slot_DataObject_C",
+    "Name": "Default__PetList_Slot_DataObject_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Contents/Pet/PetList_Slot_DataObject.PetList_Slot_DataObject_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Contents/Pet/PetList_Slot_DataObject",
+    "Properties": {
+      "OnSelectedPet": {
+        "InvocationList": []
+      },
+      "OnUpdateSelectStatus": {
+        "InvocationList": []
+      }
+    }
+  }
+]

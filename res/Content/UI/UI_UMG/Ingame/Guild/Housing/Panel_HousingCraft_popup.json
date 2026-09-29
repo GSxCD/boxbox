@@ -1,0 +1,3800 @@
+[
+  {
+    "Type": "ACMovieSceneSoundTidSection",
+    "Name": "ACMovieSceneSoundTidSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidSection'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidTrack'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.1"
+    },
+    "Properties": {
+      "soundTid": {
+        "Tid": "2000003"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'ui_common_popup_info_open_01_cue'",
+        "ObjectPath": "SevenDeadlySins/Content/Sounds/ui/common/ui_common_popup_info_open_01_cue.0"
+      },
+      "bKeepPlayingUntilEnd": true,
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.77"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.78"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "0AC24F6B-42EE4E3C-1E9DB3B5-6E737BC2"
+    }
+  },
+  {
+    "Type": "ACMovieSceneSoundTidTrack",
+    "Name": "ACMovieSceneSoundTidTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.74"
+    },
+    "Properties": {
+      "AudioSections": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.0"
+        }
+      ],
+      "EvaluationFieldGuid": "09CCBD80-484781E7-9D5399BC-199E173F",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "ACMovieSceneSoundTidSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.0"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "09CCBD80-484781E7-9D5399BC-199E173F"
+    }
+  },
+  {
+    "Type": "Btn_01_C",
+    "Name": "Btn_Craft",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.Btn_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Template": {
+      "ObjectName": "Btn_01_C'Default__Btn_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_01.0"
+    },
+    "Properties": {
+      "ButtonStyles": [
+        {
+          "Normal": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Box",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::FullColor",
+            "ImageSize": {
+              "X": 280.0,
+              "Y": 80.0
+            },
+            "Margin": {
+              "Left": 0.25,
+              "Top": 0.0,
+              "Right": 0.25,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "VtaSlateTexture'common_button_2'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_button_2.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 4.0,
+                "Y": 4.0,
+                "Z": 4.0,
+                "W": 4.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.695111,
+                  "G": 0.695111,
+                  "B": 0.695111,
+                  "A": 1.0,
+                  "Hex": "DADADA"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 1.0,
+              "RoundingType": "ESlateBrushRoundingType::FixedRadius",
+              "bUseBrushTransparency": true
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          },
+          "Pressed": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Box",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::FullColor",
+            "ImageSize": {
+              "X": 280.0,
+              "Y": 80.0
+            },
+            "Margin": {
+              "Left": 0.25,
+              "Top": 0.0,
+              "Right": 0.25,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "VtaSlateTexture'common_button_2_s'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_button_2_s.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 4.0,
+                "Y": 4.0,
+                "Z": 4.0,
+                "W": 4.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.724268,
+                  "G": 0.724268,
+                  "B": 0.724268,
+                  "A": 1.0,
+                  "Hex": "DEDEDE"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 1.0,
+              "RoundingType": "ESlateBrushRoundingType::FixedRadius",
+              "bUseBrushTransparency": true
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        }
+      ],
+      "StringStyle": {
+        "bEnabled": true,
+        "Text": "Local_Interaction_Making_Name"
+      },
+      "InputTableTID": "UI_PAD_Button_UP",
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.CBSizeBox_3.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.43"
+      }
+    }
+  },
+  {
+    "Type": "Btn_Close_C",
+    "Name": "Btn_Close",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Close.Btn_Close_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Template": {
+      "ObjectName": "Btn_Close_C'Default__Btn_Close_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Close.0"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148.CBOverlaySlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.35"
+      }
+    }
+  },
+  {
+    "Type": "CBBorderSlot",
+    "Name": "CBBorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorderSlot'",
+    "Outer": {
+      "ObjectName": "EBorder'Panel_HousingCraft_popup_C:WidgetTree.CraftAmount'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "Parent": {
+        "ObjectName": "EBorder'Panel_HousingCraft_popup_C:WidgetTree.CraftAmount'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.59"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Panel_HousingCraft_popup_C:WidgetTree.CBHorizontalBox_62'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.18"
+      }
+    }
+  },
+  {
+    "Type": "CBBorderSlot",
+    "Name": "CBBorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorderSlot'",
+    "Outer": {
+      "ObjectName": "EBorder'Panel_HousingCraft_popup_C:WidgetTree.EBorder_102'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.60"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Top": 10.0,
+        "Right": 10.0,
+        "Bottom": 10.0
+      },
+      "Parent": {
+        "ObjectName": "EBorder'Panel_HousingCraft_popup_C:WidgetTree.EBorder_102'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.60"
+      },
+      "Content": {
+        "ObjectName": "EScrollBox'Panel_HousingCraft_popup_C:WidgetTree.EScrollBox_94'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.61"
+      }
+    }
+  },
+  {
+    "Type": "CBButton",
+    "Name": "Button_back",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "ColorAndOpacity": {
+        "R": 1.8960012E-37,
+        "G": 9.2922E-41,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_46",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HousingCraft_popup_C:WidgetTree.CBCanvasPanel_46.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.10"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HousingCraft_popup_C:WidgetTree.CBCanvasPanel_46.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.11"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HousingCraft_popup_C:WidgetTree.CBCanvasPanel_46.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.9"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HousingCraft_popup_C:WidgetTree.CBCanvasPanel_46.CBCanvasPanelSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.12"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "Item",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HousingCraft_popup_C:WidgetTree.Item.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.14"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HousingCraft_popup_C:WidgetTree.Item.CBCanvasPanelSlot_9'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.17"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HousingCraft_popup_C:WidgetTree.Item.CBCanvasPanelSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.16"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HousingCraft_popup_C:WidgetTree.Item.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.13"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HousingCraft_popup_C:WidgetTree.Item.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.15"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148.CBOverlaySlot_8'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.37"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.CBCanvasPanel_46'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 1200.0,
+          "Bottom": 1040.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "ZOrder": 1,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.CBCanvasPanel_46'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.7"
+      },
+      "Content": {
+        "ObjectName": "CBOverlay'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.30"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.CBCanvasPanel_46'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -300.0,
+          "Top": -100.0,
+          "Right": -300.0,
+          "Bottom": -100.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.CBCanvasPanel_46'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.7"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_HousingCraft_popup_C:WidgetTree.bg_back'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.29"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.CBCanvasPanel_46'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.7"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.CBCanvasPanel_46'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.7"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Panel_HousingCraft_popup_C:WidgetTree.Button_back'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.6"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.CBCanvasPanel_46'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.7"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.CBCanvasPanel_46'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.7"
+      },
+      "Content": {
+        "ObjectName": "EToolTipPosition'Panel_HousingCraft_popup_C:WidgetTree.ToolTipPosition'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.68"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.Item'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 31.663437,
+          "Top": 20.425396
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.Item'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.8"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_HousingCraft_popup_C:WidgetTree.TextBlock_Type'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.67"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.Item'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -300.0,
+          "Right": 456.0,
+          "Bottom": 456.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.Item'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.8"
+      },
+      "Content": {
+        "ObjectName": "CBWidgetSwitcher'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.53"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.Item'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -168.0,
+          "Top": 126.88972,
+          "Right": 80.0,
+          "Bottom": 48.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "ZOrder": 3,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.Item'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.8"
+      },
+      "Content": {
+        "ObjectName": "EBorder'Panel_HousingCraft_popup_C:WidgetTree.CraftAmount'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.59"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.Item'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 275.0,
+          "Right": 1050.0,
+          "Bottom": 128.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.Item'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.8"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'Panel_HousingCraft_popup_C:WidgetTree.material'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.45"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.Item'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.8"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -300.0,
+          "Right": 377.0,
+          "Bottom": 436.8
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.Item'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.8"
+      },
+      "Content": {
+        "ObjectName": "Recipe_ItemSlot_C'Panel_HousingCraft_popup_C:WidgetTree.Item_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.95"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_62",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.CBHorizontalBox_62.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.19"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.CBHorizontalBox_62.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.20"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBBorderSlot'Panel_HousingCraft_popup_C:WidgetTree.CraftAmount.CBBorderSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.4"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_HousingCraft_popup_C:WidgetTree.CBHorizontalBox_62'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.18"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_HousingCraft_popup_C:WidgetTree.CBHorizontalBox_62'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.18"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_HousingCraft_popup_C:WidgetTree.ETextBlock_133'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.62"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Panel_HousingCraft_popup_C:WidgetTree.CBHorizontalBox_62'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.18"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Panel_HousingCraft_popup_C:WidgetTree.CBHorizontalBox_62'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.18"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_HousingCraft_popup_C:WidgetTree.ETextBlock_Amount'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.63"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.371238,
+            "G": 0.371238,
+            "B": 0.371238,
+            "A": 1.0,
+            "Hex": "A4A4A4"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_slot_bg_item_info'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common_slot/Frames/common_slot_bg_item_info.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBWidgetSwitcherSlot'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade.CBWidgetSwitcherSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.54"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.009134,
+            "G": 0.428691,
+            "B": 0.066626,
+            "A": 1.0,
+            "Hex": "18AF49"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_slot_bg_item_info'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common_slot/Frames/common_slot_bg_item_info.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBWidgetSwitcherSlot'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade.CBWidgetSwitcherSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.58"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.067708,
+            "G": 0.212281,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "497FFF"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_slot_bg_item_info'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common_slot/Frames/common_slot_bg_item_info.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBWidgetSwitcherSlot'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade.CBWidgetSwitcherSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.55"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.37005,
+            "G": 0.123047,
+            "B": 0.984375,
+            "A": 1.0,
+            "Hex": "A462FE"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_slot_bg_item_info'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common_slot/Frames/common_slot_bg_item_info.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBWidgetSwitcherSlot'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade.CBWidgetSwitcherSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.56"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.571125,
+            "B": 0.099899,
+            "A": 1.0,
+            "Hex": "FFC759"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_slot_bg_item_info'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common_slot/Frames/common_slot_bg_item_info.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBWidgetSwitcherSlot'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade.CBWidgetSwitcherSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.57"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "bg_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.030713,
+            "G": 0.035601,
+            "B": 0.046665,
+            "A": 1.0,
+            "Hex": "31353D"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::RoundedBox",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 180.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.8,
+          "Right": 0.5,
+          "Bottom": 0.2
+        },
+        "OutlineSettings": {
+          "CornerRadii": {
+            "X": 20.0,
+            "Y": 20.0,
+            "Z": 20.0,
+            "W": 20.0
+          },
+          "RoundingType": "ESlateBrushRoundingType::FixedRadius"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148.CBOverlaySlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.31"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "bg_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.327778,
+            "G": 0.337164,
+            "B": 0.371238,
+            "A": 1.0,
+            "Hex": "9B9DA4"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::RoundedBox",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 180.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.8,
+          "Right": 0.5,
+          "Bottom": 0.2
+        },
+        "OutlineSettings": {
+          "CornerRadii": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 20.0,
+            "W": 20.0
+          },
+          "RoundingType": "ESlateBrushRoundingType::FixedRadius"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148.CBOverlaySlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.32"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "bg_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.947307,
+            "G": 0.947307,
+            "B": 0.938686,
+            "A": 1.0,
+            "Hex": "F9F9F8"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::RoundedBox",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 180.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.8,
+          "Right": 0.5,
+          "Bottom": 0.2
+        },
+        "OutlineSettings": {
+          "CornerRadii": {
+            "X": 10.0,
+            "Y": 10.0,
+            "Z": 10.0,
+            "W": 10.0
+          },
+          "RoundingType": "ESlateBrushRoundingType::FixedRadius"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148.CBOverlaySlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.33"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "bg_back",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.8,
+            "Hex": "CC000000"
+          }
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HousingCraft_popup_C:WidgetTree.CBCanvasPanel_46.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.10"
+      },
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "CBOverlay_148",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148.CBOverlaySlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.31"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148.CBOverlaySlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.32"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148.CBOverlaySlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.33"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148.CBOverlaySlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.34"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148.CBOverlaySlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.35"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148.CBOverlaySlot_7'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.36"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148.CBOverlaySlot_8'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.37"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148.CBOverlaySlot_9'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.38"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HousingCraft_popup_C:WidgetTree.CBCanvasPanel_46.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.9"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.30"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.30"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_HousingCraft_popup_C:WidgetTree.bg_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.26"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.30"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 80.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.30"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_HousingCraft_popup_C:WidgetTree.bg_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.27"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.30"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Top": 90.0,
+        "Right": 10.0,
+        "Bottom": 10.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.30"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_HousingCraft_popup_C:WidgetTree.bg_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.28"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.30"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 30.0,
+        "Top": 10.0,
+        "Right": 100.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.30"
+      },
+      "Content": {
+        "ObjectName": "CBScaleBox'Panel_HousingCraft_popup_C:WidgetTree.CBScaleBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.39"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.30"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": -48.0,
+        "Right": -45.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "Parent": {
+        "ObjectName": "CBOverlay'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.30"
+      },
+      "Content": {
+        "ObjectName": "Btn_Close_C'Panel_HousingCraft_popup_C:WidgetTree.Btn_Close'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.3"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.30"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 300.0,
+        "Right": 300.0,
+        "Bottom": 25.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "CBOverlay'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.30"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Panel_HousingCraft_popup_C:WidgetTree.CBSizeBox_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.42"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.30"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 90.0,
+        "Bottom": 370.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.30"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.Item'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.8"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.30"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 30.0,
+        "Top": 680.0,
+        "Right": 30.0,
+        "Bottom": 130.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.30"
+      },
+      "Content": {
+        "ObjectName": "EBorder'Panel_HousingCraft_popup_C:WidgetTree.EBorder_102'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.60"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBox",
+    "Name": "CBScaleBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBScaleBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.CBScaleBox_0.CBScaleBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.40"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148.CBOverlaySlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.34"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBoxSlot",
+    "Name": "CBScaleBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBScaleBox'Panel_HousingCraft_popup_C:WidgetTree.CBScaleBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.39"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "Parent": {
+        "ObjectName": "CBScaleBox'Panel_HousingCraft_popup_C:WidgetTree.CBScaleBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.39"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_HousingCraft_popup_C:WidgetTree.TextBlock_Name'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.66"
+      }
+    }
+  },
+  {
+    "Type": "CBScrollBoxSlot",
+    "Name": "CBScrollBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScrollBoxSlot'",
+    "Outer": {
+      "ObjectName": "EScrollBox'Panel_HousingCraft_popup_C:WidgetTree.EScrollBox_94'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.61"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "EScrollBox'Panel_HousingCraft_popup_C:WidgetTree.EScrollBox_94'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.61"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'Panel_HousingCraft_popup_C:WidgetTree.CBVerticalBox_117'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.44"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "HeightOverride": 90.0,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.CBSizeBox_3.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.43"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148.CBOverlaySlot_7'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.36"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Panel_HousingCraft_popup_C:WidgetTree.CBSizeBox_3'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.42"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'Panel_HousingCraft_popup_C:WidgetTree.CBSizeBox_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.42"
+      },
+      "Content": {
+        "ObjectName": "Btn_01_C'Panel_HousingCraft_popup_C:WidgetTree.Btn_Craft'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.2"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "CBVerticalBox_117",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.CBVerticalBox_117.CBVerticalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.46"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.CBVerticalBox_117.CBVerticalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.47"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBScrollBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.EScrollBox_94.CBScrollBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.41"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "material",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "SlotData": {
+        "Padding": {
+          "Left": 3.0,
+          "Top": 3.0,
+          "Right": 3.0,
+          "Bottom": 3.0
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.material.CBVerticalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.48"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.material.CBVerticalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.49"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.material.CBVerticalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.50"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.material.CBVerticalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.51"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.material.CBVerticalBoxSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.52"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HousingCraft_popup_C:WidgetTree.Item.CBCanvasPanelSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.16"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_HousingCraft_popup_C:WidgetTree.CBVerticalBox_117'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.44"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 10.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_HousingCraft_popup_C:WidgetTree.CBVerticalBox_117'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.44"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_HousingCraft_popup_C:WidgetTree.TextBlock_DescTitle'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.65"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_HousingCraft_popup_C:WidgetTree.CBVerticalBox_117'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.44"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0,
+        "Bottom": 10.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_HousingCraft_popup_C:WidgetTree.CBVerticalBox_117'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.44"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Panel_HousingCraft_popup_C:WidgetTree.TextBlock_Desc'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.64"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_HousingCraft_popup_C:WidgetTree.material'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.45"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_HousingCraft_popup_C:WidgetTree.material'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.45"
+      },
+      "Content": {
+        "ObjectName": "HousingCraftMat_01_C'Panel_HousingCraft_popup_C:WidgetTree.CraftMat_First'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.70"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_HousingCraft_popup_C:WidgetTree.material'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.45"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_HousingCraft_popup_C:WidgetTree.material'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.45"
+      },
+      "Content": {
+        "ObjectName": "HousingCraftMat_01_C'Panel_HousingCraft_popup_C:WidgetTree.CraftMat_Second'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.72"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_HousingCraft_popup_C:WidgetTree.material'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.45"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_HousingCraft_popup_C:WidgetTree.material'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.45"
+      },
+      "Content": {
+        "ObjectName": "HousingCraftMat_01_C'Panel_HousingCraft_popup_C:WidgetTree.CraftMat_Third'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.73"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_HousingCraft_popup_C:WidgetTree.material'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.45"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_HousingCraft_popup_C:WidgetTree.material'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.45"
+      },
+      "Content": {
+        "ObjectName": "HousingCraftMat_01_C'Panel_HousingCraft_popup_C:WidgetTree.CraftMat_Fourth'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.71"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Panel_HousingCraft_popup_C:WidgetTree.material'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.45"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Panel_HousingCraft_popup_C:WidgetTree.material'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.45"
+      },
+      "Content": {
+        "ObjectName": "HousingCraftMat_01_C'Panel_HousingCraft_popup_C:WidgetTree.CraftMat_Fifth'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.69"
+      }
+    }
+  },
+  {
+    "Type": "CBWidgetSwitcher",
+    "Name": "BG_Grade",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBWidgetSwitcher'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBWidgetSwitcherSlot'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade.CBWidgetSwitcherSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.54"
+        },
+        {
+          "ObjectName": "CBWidgetSwitcherSlot'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade.CBWidgetSwitcherSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.58"
+        },
+        {
+          "ObjectName": "CBWidgetSwitcherSlot'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade.CBWidgetSwitcherSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.55"
+        },
+        {
+          "ObjectName": "CBWidgetSwitcherSlot'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade.CBWidgetSwitcherSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.56"
+        },
+        {
+          "ObjectName": "CBWidgetSwitcherSlot'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade.CBWidgetSwitcherSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.57"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HousingCraft_popup_C:WidgetTree.Item.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.14"
+      }
+    }
+  },
+  {
+    "Type": "CBWidgetSwitcherSlot",
+    "Name": "CBWidgetSwitcherSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBWidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "CBWidgetSwitcher'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.53"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBWidgetSwitcher'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.53"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_HousingCraft_popup_C:WidgetTree.1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.21"
+      }
+    }
+  },
+  {
+    "Type": "CBWidgetSwitcherSlot",
+    "Name": "CBWidgetSwitcherSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBWidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "CBWidgetSwitcher'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.53"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBWidgetSwitcher'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.53"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_HousingCraft_popup_C:WidgetTree.3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.23"
+      }
+    }
+  },
+  {
+    "Type": "CBWidgetSwitcherSlot",
+    "Name": "CBWidgetSwitcherSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBWidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "CBWidgetSwitcher'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.53"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBWidgetSwitcher'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.53"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_HousingCraft_popup_C:WidgetTree.4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.24"
+      }
+    }
+  },
+  {
+    "Type": "CBWidgetSwitcherSlot",
+    "Name": "CBWidgetSwitcherSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBWidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "CBWidgetSwitcher'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.53"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBWidgetSwitcher'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.53"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_HousingCraft_popup_C:WidgetTree.5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.25"
+      }
+    }
+  },
+  {
+    "Type": "CBWidgetSwitcherSlot",
+    "Name": "CBWidgetSwitcherSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBWidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "CBWidgetSwitcher'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.53"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBWidgetSwitcher'Panel_HousingCraft_popup_C:WidgetTree.BG_Grade'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.53"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Panel_HousingCraft_popup_C:WidgetTree.2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.22"
+      }
+    }
+  },
+  {
+    "Type": "EBorder",
+    "Name": "CraftAmount",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.5,
+            "Hex": "7F000000"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::RoundedBox",
+        "OutlineSettings": {
+          "Color": {
+            "SpecifiedColor": {
+              "R": 0.191202,
+              "G": 0.212231,
+              "B": 0.270498,
+              "A": 0.4,
+              "Hex": "66797F8E"
+            }
+          }
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBBorderSlot'Panel_HousingCraft_popup_C:WidgetTree.CraftAmount.CBBorderSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.4"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HousingCraft_popup_C:WidgetTree.Item.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.15"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "EBorder",
+    "Name": "EBorder_102",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Top": 10.0,
+        "Right": 10.0,
+        "Bottom": 10.0
+      },
+      "Background": {
+        "DrawAs": "ESlateBrushDrawType::RoundedBox",
+        "OutlineSettings": {
+          "CornerRadii": {
+            "X": 10.0,
+            "Y": 10.0,
+            "Z": 10.0,
+            "W": 10.0
+          },
+          "RoundingType": "ESlateBrushRoundingType::FixedRadius"
+        }
+      },
+      "BrushColor": {
+        "R": 0.01714,
+        "G": 0.019867,
+        "B": 0.026042,
+        "A": 0.08,
+        "Hex": "1423262C"
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBBorderSlot'Panel_HousingCraft_popup_C:WidgetTree.EBorder_102.CBBorderSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.5"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Panel_HousingCraft_popup_C:WidgetTree.CBOverlay_148.CBOverlaySlot_9'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.38"
+      }
+    }
+  },
+  {
+    "Type": "EScrollBox",
+    "Name": "EScrollBox_94",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EScrollBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "WidgetStyle": {
+        "TopShadowBrush": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "BottomShadowBrush": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        }
+      },
+      "ScrollBarVisibility": "ESlateVisibility::Collapsed",
+      "Slots": [
+        {
+          "ObjectName": "CBScrollBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.EScrollBox_94.CBScrollBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.41"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBBorderSlot'Panel_HousingCraft_popup_C:WidgetTree.EBorder_102.CBBorderSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.5"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "ETextBlock_133",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "UseLocalization": false,
+      "Text": {
+        "Namespace": "",
+        "Key": "B61BA5A14FB91AE5F0873B8D1EC7029A",
+        "SourceString": "x",
+        "LocalizedString": "x"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.760525,
+          "G": 0.760525,
+          "B": 0.760525,
+          "A": 1.0,
+          "Hex": "E2E2E2"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 19.0
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.CBHorizontalBox_62.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.19"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "ETextBlock_Amount",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "UseLocalization": false,
+      "Text": {
+        "Namespace": "",
+        "Key": "9A9DE4A94C295A846E276E9C4D3D2539",
+        "SourceString": "1",
+        "LocalizedString": "1"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.760525,
+          "G": 0.760525,
+          "B": 0.760525,
+          "A": 1.0,
+          "Hex": "E2E2E2"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.CBHorizontalBox_62.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.20"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_Desc",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "0F246D634924E14DF91F50904533918E",
+        "SourceString": "인터렉션 하면 기사단 아지트 내 BGM을 바꿀 수 있다. 인터렉션 하면 기사단 아지트 내 BGM을 바꿀 수 있다. 인터렉션 하면 기사단 아지트 내 BGM을 바꿀 수 있다. 인터렉션 하면 기사단 아지트 내 BGM을 바꿀 수 있다. ",
+        "LocalizedString": "인터렉션 하면 기사단 아지트 내 BGM을 바꿀 수 있다. 인터렉션 하면 기사단 아지트 내 BGM을 바꿀 수 있다. 인터렉션 하면 기사단 아지트 내 BGM을 바꿀 수 있다. 인터렉션 하면 기사단 아지트 내 BGM을 바꿀 수 있다. "
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.030713,
+          "G": 0.035601,
+          "B": 0.046665,
+          "A": 0.597,
+          "Hex": "9831353D"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Justification": "ETextJustify::Center",
+      "AutoWrapText": true,
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.CBVerticalBox_117.CBVerticalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.47"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_DescTitle",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "73BC7F7E4C8AB812884ADAA3A600AA10",
+        "SourceString": "특수 효과",
+        "LocalizedString": "특수 효과"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.030713,
+          "G": 0.035601,
+          "B": 0.046665,
+          "A": 1.0,
+          "Hex": "31353D"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 28.0
+      },
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.CBVerticalBox_117.CBVerticalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.46"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_Name",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "314FF4AC4E7FF64B5D34489BAE9E9728",
+        "SourceString": "텍스트 블록",
+        "LocalizedString": "텍스트 블록"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 34.0
+      },
+      "Slot": {
+        "ObjectName": "CBScaleBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.CBScaleBox_0.CBScaleBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.40"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_Type",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "E4B8FD9B45765430995B0EA669A7623E",
+        "SourceString": "아이템타입",
+        "LocalizedString": "아이템타입"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.388699,
+          "G": 0.401779,
+          "B": 0.421875,
+          "A": 1.0,
+          "Hex": "A8AAAE"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 20.0
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Panel_HousingCraft_popup_C:WidgetTree.Item.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.13"
+      }
+    }
+  },
+  {
+    "Type": "EToolTipPosition",
+    "Name": "ToolTipPosition",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EToolTipPosition'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Properties": {
+      "ViewType": "EToolTipViewType::ItemInfoToolTip",
+      "PTType": "EToolTipPTType::ItemInfoToolTip",
+      "AttachType": "EToolTipAttachType::ToolTipPositionWidget",
+      "IsSetCoordOnBP": false,
+      "Pedding": {
+        "X": -100.0,
+        "Y": -100.0
+      },
+      "_EnableChangeButtonGroupIndex": true,
+      "_UIShowChangeButtonGroupIndex": 2
+    }
+  },
+  {
+    "Type": "HousingCraftMat_01_C",
+    "Name": "CraftMat_Fifth",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/HousingCraftMat_01.HousingCraftMat_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Template": {
+      "ObjectName": "HousingCraftMat_01_C'Default__HousingCraftMat_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/HousingCraftMat_01.33"
+    },
+    "Properties": {
+      "bIsEnabledDelegate": {
+        "Object": {
+          "ObjectName": "CBVerticalBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.material.CBVerticalBoxSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.52"
+        },
+        "FunctionName": "1_54526078"
+      }
+    }
+  },
+  {
+    "Type": "HousingCraftMat_01_C",
+    "Name": "CraftMat_First",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/HousingCraftMat_01.HousingCraftMat_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Template": {
+      "ObjectName": "HousingCraftMat_01_C'Default__HousingCraftMat_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/HousingCraftMat_01.33"
+    },
+    "Properties": {
+      "bIsEnabledDelegate": {
+        "Object": {
+          "ObjectName": "CBVerticalBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.material.CBVerticalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.48"
+        },
+        "FunctionName": "1_54526078"
+      }
+    }
+  },
+  {
+    "Type": "HousingCraftMat_01_C",
+    "Name": "CraftMat_Fourth",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/HousingCraftMat_01.HousingCraftMat_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Template": {
+      "ObjectName": "HousingCraftMat_01_C'Default__HousingCraftMat_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/HousingCraftMat_01.33"
+    },
+    "Properties": {
+      "bIsEnabledDelegate": {
+        "Object": {
+          "ObjectName": "CBVerticalBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.material.CBVerticalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.51"
+        },
+        "FunctionName": "1_54526078"
+      }
+    }
+  },
+  {
+    "Type": "HousingCraftMat_01_C",
+    "Name": "CraftMat_Second",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/HousingCraftMat_01.HousingCraftMat_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Template": {
+      "ObjectName": "HousingCraftMat_01_C'Default__HousingCraftMat_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/HousingCraftMat_01.33"
+    },
+    "Properties": {
+      "bIsEnabledDelegate": {
+        "Object": {
+          "ObjectName": "CBVerticalBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.material.CBVerticalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.49"
+        },
+        "FunctionName": "1_54526078"
+      }
+    }
+  },
+  {
+    "Type": "HousingCraftMat_01_C",
+    "Name": "CraftMat_Third",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/HousingCraftMat_01.HousingCraftMat_01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Template": {
+      "ObjectName": "HousingCraftMat_01_C'Default__HousingCraftMat_01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/HousingCraftMat_01.33"
+    },
+    "Properties": {
+      "bIsEnabledDelegate": {
+        "Object": {
+          "ObjectName": "CBVerticalBoxSlot'Panel_HousingCraft_popup_C:WidgetTree.material.CBVerticalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.50"
+        },
+        "FunctionName": "1_33620992"
+      }
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Show",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_HousingCraft_popup_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.96"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "625CD206-4FCAF9F1-00E3DA96-FAD24353",
+          "Name": "CBOverlay_148",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "8C4A5CBD-40F64EE7-CB15C6A7-67F0E58F",
+          "Name": "bg_back",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "A242134F-4DAEA491-A77E1385-5C7CE70F",
+          "Name": "Button_back",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "625CD206-4FCAF9F1-00E3DA96-FAD24353",
+          "BindingName": "CBOverlay_148",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.91"
+            },
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.76"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "8C4A5CBD-40F64EE7-CB15C6A7-67F0E58F",
+          "BindingName": "bg_back",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.93"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "A242134F-4DAEA491-A77E1385-5C7CE70F",
+          "BindingName": "Button_back",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.92"
+            }
+          ]
+        }
+      ],
+      "Tracks": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidTrack'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.1"
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "ClockSource": "EUpdateClockSource::Audio",
+      "Signature": "42093B21-4224A92A-CEAD01B6-D8AF52CE"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.76"
+    },
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Translation[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 50.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Shear": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Shear[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.79"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.80"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "044B2C77-4C89F4E1-EA14C3AF-5079C883"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.74"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.75"
+        }
+      ],
+      "EvaluationFieldGuid": "028F5ECA-476F149E-1246EE80-7CC33711",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.75"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "028F5ECA-476F149E-1246EE80-7CC33711"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.75"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.75"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.88"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.88"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.89"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.89"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.90"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.90"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Panel_HousingCraft_popup_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.96"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 5,
+                  "Capacity": 5
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 4,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 15000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "ACMovieSceneSoundTidSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.0"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.88"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.75"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.90"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 3
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.89"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 4
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "ObjectBindingID": "625CD206-4FCAF9F1-00E3DA96-FAD24353"
+          },
+          {
+            "ObjectBindingID": "625CD206-4FCAF9F1-00E3DA96-FAD24353"
+          },
+          {
+            "ObjectBindingID": "8C4A5CBD-40F64EE7-CB15C6A7-67F0E58F"
+          },
+          {
+            "ObjectBindingID": "A242134F-4DAEA491-A77E1385-5C7CE70F"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 15000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "D19F1F63-40A69A9C-D690D094-655ABD7A",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.91"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.81"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.82"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "7D22689A-49904CC6-707E029B-562F2A16"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.92"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.83"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.84"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "64DAA5D5-41912572-03F311A3-6FF76688"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.93"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.85"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.86"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "61186960-44EEC1CA-4E411BB1-2C553AA8"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.74"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.88"
+        }
+      ],
+      "EvaluationFieldGuid": "26B7257C-45903DB7-37DE318C-205B91D8",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.88"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "26B7257C-45903DB7-37DE318C-205B91D8"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.74"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.89"
+        }
+      ],
+      "EvaluationFieldGuid": "D3361337-4FEDDCB1-38E4D890-BEC711FF",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.89"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "D3361337-4FEDDCB1-38E4D890-BEC711FF"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.74"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.90"
+        }
+      ],
+      "EvaluationFieldGuid": "A3936A79-4509E4B5-BFD8A5A0-4074533F",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.90"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "A3936A79-4509E4B5-BFD8A5A0-4074533F"
+    }
+  },
+  {
+    "Type": "Panel_HousingCraft_popup_C",
+    "Name": "Default__Panel_HousingCraft_popup_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.Panel_HousingCraft_popup_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup"
+  },
+  {
+    "Type": "Recipe_ItemSlot_C",
+    "Name": "Item_Slot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/Recipe_ItemSlot.Recipe_ItemSlot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+    },
+    "Template": {
+      "ObjectName": "Recipe_ItemSlot_C'Default__Recipe_ItemSlot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Craft/Recipe_ItemSlot.52"
+    },
+    "Properties": {
+      "IsCheckUsable": false,
+      "slotType": "EWidgetSlotType::22",
+      "CanHitWhenDisabled": false,
+      "bNavigationList": true,
+      "ToolTipTextDelegate": {
+        "Object": {
+          "ObjectName": "CBCanvasPanelSlot'Panel_HousingCraft_popup_C:WidgetTree.Item.CBCanvasPanelSlot_9'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.17"
+        },
+        "FunctionName": "3_17039359"
+      },
+      "RenderOpacity": 8586244.0
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Show_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HousingCraft_popup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.97"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Panel_HousingCraft_popup_C:Anim_Show_INST.Anim_Show'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.74"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CBOverlay_148",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "625CD206-4FCAF9F1-00E3DA96-FAD24353",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "Button_back",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "A242134F-4DAEA491-A77E1385-5C7CE70F",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "bg_back",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "8C4A5CBD-40F64EE7-CB15C6A7-67F0E58F",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Show",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Panel_HousingCraft_popup_C:Anim_Show_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.87"
+      },
+      "Signature": "D19F1F63-40A69A9C-D690D094-655ABD7A"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Panel_HousingCraft_popup_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Panel_HousingCraft_popup_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.98"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'Panel_HousingCraft_popup_C:Anim_Show_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.96"
+        }
+      ]
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWidget_HousingCraftPopup'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "bg_back",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Panel_HousingCraft_popup_C'Default__Panel_HousingCraft_popup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.94"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Panel_HousingCraft_popup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.97"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'Panel_HousingCraft_popup_C:WidgetTree.CBCanvasPanel_46'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Guild/Housing/Panel_HousingCraft_popup.7"
+      }
+    }
+  }
+]

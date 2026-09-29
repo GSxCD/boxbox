@@ -1,0 +1,4008 @@
+[
+  {
+    "Type": "CBButton",
+    "Name": "Button_Slot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+    },
+    "Properties": {
+      "ColorAndOpacity": {
+        "R": 9.406538E-38,
+        "G": 3.76193E-37,
+        "B": 0.495466,
+        "A": 0.495466,
+        "Hex": "7E0000BB"
+      },
+      "bIsEnabledDelegate": {
+        "Object": null,
+        "FunctionName": "2000000"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Mastery_bg_slot01_unlock'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Mastery/Frames/Mastery_bg_slot01_unlock.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.Widget_Unlock.CBOverlaySlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.24"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "fx_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.952768,
+            "B": 0.726575,
+            "A": 1.0,
+            "Hex": "FFFADE"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'UI_MI_ring_07_Add'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/Common/UI_MI_ring_07_Add.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.Fx.CBOverlaySlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.20"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible",
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "fx_full",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.299061,
+            "G": 0.139269,
+            "B": 0.786458,
+            "A": 1.0,
+            "Hex": "9568E6"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'UI_MI_Ball_02'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/Common/UI_MI_Ball_02.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.Fx.CBOverlaySlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.21"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible",
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Hover",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.429909,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "00AFFF"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 1.5625,
+          "Y": 1.5625
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M_Touch_Mobile_Circle_Inst'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/Common/M_Touch_Mobile_Circle_Inst.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.Hovered.CBOverlaySlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.22"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Normal",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Mastery_bg_slot01_normal'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Mastery/Frames/Mastery_bg_slot01_normal.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.Widget_Inactive.CBOverlaySlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.23"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Slot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.234551,
+            "G": 0.046665,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "853DFF"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Mastery_Icon_Weapon_Heal'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Mastery/Frames/Mastery_Icon_Weapon_Heal.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21.CBOverlaySlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.12"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "CBOverlay_21",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21.CBOverlaySlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.13"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21.CBOverlaySlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.12"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21.CBOverlaySlot_6'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.17"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21.CBOverlaySlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.14"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21.CBOverlaySlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.15"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21.CBOverlaySlot_8'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.18"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21.CBOverlaySlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.16"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Masteryweapon_Slot_C:WidgetTree.CBSizeBox_32.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.27"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "Fx",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.Fx.CBOverlaySlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.20"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.Fx.CBOverlaySlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.21"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.Fx.CBOverlaySlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.19"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21.CBOverlaySlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.16"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "Hovered",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.Hovered.CBOverlaySlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.22"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21.CBOverlaySlot_6'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.17"
+      },
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "Widget_Inactive",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.Widget_Inactive.CBOverlaySlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.23"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBWidgetSwitcherSlot'Masteryweapon_Slot_C:WidgetTree.Switcher.CBWidgetSwitcherSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.30"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "Widget_Unlock",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.Widget_Unlock.CBOverlaySlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.24"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBWidgetSwitcherSlot'Masteryweapon_Slot_C:WidgetTree.Switcher.CBWidgetSwitcherSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.31"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.7"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 25.0,
+        "Top": 25.0,
+        "Right": 25.0,
+        "Bottom": 25.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.7"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Masteryweapon_Slot_C:WidgetTree.Image_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.6"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.7"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.7"
+      },
+      "Content": {
+        "ObjectName": "CBWidgetSwitcher'Masteryweapon_Slot_C:WidgetTree.Switcher'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.29"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.7"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 15.0,
+        "Top": 15.0,
+        "Right": 15.0,
+        "Bottom": 15.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.7"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Masteryweapon_Slot_C:WidgetTree.Button_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.0"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.7"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Top": 5.0
+      },
+      "Parent": {
+        "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.7"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Masteryweapon_Slot_C:WidgetTree.Reddot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.26"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.7"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.7"
+      },
+      "Content": {
+        "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.Fx'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.8"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.7"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.7"
+      },
+      "Content": {
+        "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.Hovered'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.9"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.7"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.7"
+      },
+      "Content": {
+        "ObjectName": "WeaponMastery_SelectFx_Slot_C'Masteryweapon_Slot_C:WidgetTree.Widget_Selected'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.80"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.Fx'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.8"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.Fx'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.8"
+      },
+      "Content": {
+        "ObjectName": "NiagaraSystemWidget'Masteryweapon_Slot_C:WidgetTree.NS_AddShow_01'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.78"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.Fx'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.8"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.Fx'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.8"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Masteryweapon_Slot_C:WidgetTree.fx_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.2"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.Fx'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.8"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": -20.0,
+        "Top": -20.0,
+        "Right": -20.0,
+        "Bottom": -20.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.Fx'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.8"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Masteryweapon_Slot_C:WidgetTree.fx_full'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.3"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.Hovered'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.9"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": -2.0,
+        "Top": -2.0,
+        "Right": -2.0,
+        "Bottom": -2.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.Hovered'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.9"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Masteryweapon_Slot_C:WidgetTree.Image_Hover'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.4"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.Widget_Inactive'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.10"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.Widget_Inactive'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.10"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Masteryweapon_Slot_C:WidgetTree.Image_Normal'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.5"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.Widget_Unlock'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.11"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.Widget_Unlock'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.11"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Masteryweapon_Slot_C:WidgetTree.CBImage'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.1"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox_32",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+    },
+    "Properties": {
+      "WidthOverride": 100.0,
+      "HeightOverride": 100.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Masteryweapon_Slot_C:WidgetTree.CBSizeBox_32.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.27"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "Reddot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+    },
+    "Properties": {
+      "WidthOverride": 30.0,
+      "HeightOverride": 30.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Masteryweapon_Slot_C:WidgetTree.Reddot.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.28"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21.CBOverlaySlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.15"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Masteryweapon_Slot_C:WidgetTree.CBSizeBox_32'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.25"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'Masteryweapon_Slot_C:WidgetTree.CBSizeBox_32'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.25"
+      },
+      "Content": {
+        "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.7"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Masteryweapon_Slot_C:WidgetTree.Reddot'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.26"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'Masteryweapon_Slot_C:WidgetTree.Reddot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.26"
+      },
+      "Content": {
+        "ObjectName": "Reddot03_C'Masteryweapon_Slot_C:WidgetTree.Widget_Reddot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.79"
+      }
+    }
+  },
+  {
+    "Type": "CBWidgetSwitcher",
+    "Name": "Switcher",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBWidgetSwitcher'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBWidgetSwitcherSlot'Masteryweapon_Slot_C:WidgetTree.Switcher.CBWidgetSwitcherSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.30"
+        },
+        {
+          "ObjectName": "CBWidgetSwitcherSlot'Masteryweapon_Slot_C:WidgetTree.Switcher.CBWidgetSwitcherSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.31"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21.CBOverlaySlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.13"
+      }
+    }
+  },
+  {
+    "Type": "CBWidgetSwitcherSlot",
+    "Name": "CBWidgetSwitcherSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBWidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "CBWidgetSwitcher'Masteryweapon_Slot_C:WidgetTree.Switcher'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.29"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBWidgetSwitcher'Masteryweapon_Slot_C:WidgetTree.Switcher'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.29"
+      },
+      "Content": {
+        "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.Widget_Inactive'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.10"
+      }
+    }
+  },
+  {
+    "Type": "CBWidgetSwitcherSlot",
+    "Name": "CBWidgetSwitcherSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBWidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "CBWidgetSwitcher'Masteryweapon_Slot_C:WidgetTree.Switcher'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.29"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBWidgetSwitcher'Masteryweapon_Slot_C:WidgetTree.Switcher'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.29"
+      },
+      "Content": {
+        "ObjectName": "CBOverlay'Masteryweapon_Slot_C:WidgetTree.Widget_Unlock'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.11"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Masteryweapon_Slot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Masteryweapon_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.84"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "SequenceEvent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Masteryweapon_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.84"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SequenceEvent__ENTRYPOINTMasteryweapon_Slot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Masteryweapon_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.84"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Masteryweapon_Slot_C",
+    "Name": "Default__Masteryweapon_Slot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.Masteryweapon_Slot_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot",
+    "Properties": {
+      "UberGraphFrame": {},
+      "slotType": "EWidgetSlotType::NormalSelectToggle",
+      "ImageStyles": [
+        {
+          "Brush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 0.1021,
+                "G": 0.050456,
+                "B": 0.3125,
+                "A": 1.0,
+                "Hex": "5A3F98"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::FullColor",
+            "ImageSize": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "VtaSlateTexture'Mastery_Icon_Weapon_Heal'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Mastery/Frames/Mastery_Icon_Weapon_Heal.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Brush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 0.234551,
+                "G": 0.046665,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "853DFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::FullColor",
+            "ImageSize": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "VtaSlateTexture'Mastery_Icon_Weapon_Heal'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Mastery/Frames/Mastery_Icon_Weapon_Heal.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        }
+      ],
+      "bUseSelfSelect": false,
+      "PressSoundTid": {
+        "Tid": "2000000"
+      },
+      "HoverSoundTid": {
+        "Tid": "2000115"
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Active",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Masteryweapon_Slot_C:Anim_Active_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.81"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "B1580201-4C1548DC-63A0B4AA-FB22837C",
+          "Name": "fx_full",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "BDA67F61-4C6EEA16-DF7360BB-9029BE0F",
+          "Name": "fx_2",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "FCF4FD41-4F18C759-F31C9292-6F2A036B",
+          "Name": "NS_AddShow_01",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "B1580201-4C1548DC-63A0B4AA-FB22837C",
+          "BindingName": "fx_full",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneFloatTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.75"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "BDA67F61-4C6EEA16-DF7360BB-9029BE0F",
+          "BindingName": "fx_2",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.74"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "FCF4FD41-4F18C759-F31C9292-6F2A036B",
+          "BindingName": "NS_AddShow_01",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneBoolTrack'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneBoolTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.44"
+            },
+            {
+              "ObjectName": "MovieSceneByteTrack'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneByteTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.64"
+            }
+          ]
+        }
+      ],
+      "Tracks": [
+        {
+          "ObjectName": "MovieSceneEventTrack'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneEventTrack_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.68"
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 45001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "ClockSource": "EUpdateClockSource::Audio",
+      "Signature": "142EC4F3-4DA21526-6D67B4B7-89AA9971"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Hovered",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Masteryweapon_Slot_C:Anim_Hovered_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.82"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "65659CD2-4F0DC512-835532B9-BF34C66E",
+          "Name": "CBOverlay_21",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "CF2083DB-4343B7F5-03DD368F-56022B26",
+          "Name": "Hovered",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "65659CD2-4F0DC512-835532B9-BF34C66E",
+          "BindingName": "CBOverlay_21",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.41"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "CF2083DB-4343B7F5-03DD368F-56022B26",
+          "BindingName": "Hovered",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.76"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "D2513679-4449D632-03CC31A6-F1D928FC"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Unhovered",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Masteryweapon_Slot_C:Anim_Unhovered_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.83"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "B3F94119-4F045983-AE5B0699-045DA019",
+          "Name": "CBOverlay_21",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "DA012AF1-424A5C87-EF72DF98-E5D32F9E",
+          "Name": "Hovered",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "B3F94119-4F045983-AE5B0699-045DA019",
+          "BindingName": "CBOverlay_21",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.42"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "DA012AF1-424A5C87-EF72DF98-E5D32F9E",
+          "BindingName": "Hovered",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.77"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "803E20AF-4B8CD465-FE4C2789-E7A51AFB"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.41"
+    },
+    "Properties": {
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.1,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.1,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.55"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.56"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "9D8EA1F3-437CB346-A0AB3A92-2955F6AD"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.42"
+    },
+    "Properties": {
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.1,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.1,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.59"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.60"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "728EA357-487138D8-01F0229E-1F5BB565"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.37"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.39"
+        }
+      ],
+      "EvaluationFieldGuid": "5A7C810D-44EFD7EB-19E3E298-3F236952",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.39"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "5A7C810D-44EFD7EB-19E3E298-3F236952"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.38"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.40"
+        }
+      ],
+      "EvaluationFieldGuid": "E2EEEACB-432B9901-46FFFA9D-D316695B",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.40"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "E2EEEACB-432B9901-46FFFA9D-D316695B"
+    }
+  },
+  {
+    "Type": "MovieSceneBoolSection",
+    "Name": "MovieSceneBoolSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBoolSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolTrack'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneBoolTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.44"
+    },
+    "Properties": {
+      "BoolCurve": {
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 6000
+          }
+        ],
+        "Values": [
+          false,
+          true
+        ]
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneBoolTrack_0.MovieSceneBoolSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.45"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneBoolTrack_0.MovieSceneBoolSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.46"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 6000
+            }
+          }
+        }
+      },
+      "Signature": "6DBDBFC7-46DC18BB-2A1D4B87-3C84BA64"
+    }
+  },
+  {
+    "Type": "MovieSceneBoolTrack",
+    "Name": "MovieSceneBoolTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBoolTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.36"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "bPlayNiagara",
+        "PropertyPath": "bPlayNiagara",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneBoolSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.43"
+        }
+      ],
+      "EvaluationFieldGuid": "C58E11B1-43809FDE-DAE0B98A-E1F32669",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneBoolSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.43"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 6000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "C58E11B1-43809FDE-DAE0B98A-E1F32669"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.43"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.43"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneByteSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.63"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneByteSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.63"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneEventTriggerSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneEventTrack_0.MovieSceneEventTriggerSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.69"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneEventTriggerSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneEventTrack_0.MovieSceneEventTriggerSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.69"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.70"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.70"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.71"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.71"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.39"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.39"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.72"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.72"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.40"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.40"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.73"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.73"
+    }
+  },
+  {
+    "Type": "MovieSceneByteSection",
+    "Name": "MovieSceneByteSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneByteSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneByteTrack'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneByteTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.64"
+    },
+    "Properties": {
+      "ByteCurve": {
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 3000
+          },
+          {
+            "Value": 39000
+          },
+          {
+            "Value": 42000
+          }
+        ],
+        "Values": [
+          1,
+          4,
+          4,
+          1
+        ],
+        "Enum": {
+          "ObjectName": "Enum'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneByteTrack_0.MovieSceneByteSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.47"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneByteTrack_0.MovieSceneByteSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.48"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 42000
+            }
+          }
+        }
+      },
+      "Signature": "C7170A38-40D7E307-CAEEDCBA-9E06834D"
+    }
+  },
+  {
+    "Type": "MovieSceneByteTrack",
+    "Name": "MovieSceneByteTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneByteTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.36"
+    },
+    "Properties": {
+      "Enum": {
+        "ObjectName": "Enum'ESlateVisibility'",
+        "ObjectPath": "/Script/UMG"
+      },
+      "PropertyBinding": {
+        "PropertyName": "Visibility",
+        "PropertyPath": "Visibility",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneByteSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.63"
+        }
+      ],
+      "EvaluationFieldGuid": "CED5E5C8-446D3ADD-F9239DAC-7D07E329",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneByteSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.63"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 42000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "CED5E5C8-446D3ADD-F9239DAC-7D07E329"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Masteryweapon_Slot_C:Anim_Active_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.81"
+    },
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "FCF4FD41-4F18C759-F31C9292-6F2A036B",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "SourceTrack": {
+                "ObjectName": "MovieSceneBoolTrack'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneBoolTrack_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.44"
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneBoolPropertySectionTemplate",
+                  "Data": {
+                    "BoolCurve": {
+                      "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                      "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                      "Times": [
+                        {
+                          "Value": 0
+                        },
+                        {
+                          "Value": 6000
+                        }
+                      ],
+                      "DefaultValue": false,
+                      "bHasDefaultValue": false,
+                      "Values": [
+                        false,
+                        true
+                      ]
+                    },
+                    "PropertyData": {
+                      "PropertyName": "PlayNiagara",
+                      "PropertyPath": "bPlayNiagara"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneBoolSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneBoolTrack_0.MovieSceneBoolSection_0'",
+                      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.43"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "C58E11B1-43809FDE-DAE0B98A-E1F32669",
+              "Value": {
+                "Value": 0
+              }
+            }
+          ]
+        }
+      },
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                },
+                {
+                  "StartIndex": 2,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 1,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 45000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": 1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 42000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": 0
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "OneShotEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneEventTriggerSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneEventTrack_0.MovieSceneEventTriggerSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.69"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.71"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.70"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneByteSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.63"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 3
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "ObjectBindingID": "B1580201-4C1548DC-63A0B4AA-FB22837C"
+          },
+          {
+            "ObjectBindingID": "BDA67F61-4C6EEA16-DF7360BB-9029BE0F"
+          },
+          {
+            "ObjectBindingID": "FCF4FD41-4F18C759-F31C9292-6F2A036B"
+          }
+        ]
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 6000
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 6000
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 1
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 6000
+          },
+          "bInclusive": false
+        },
+        {
+          "FrameNumber": {
+            "Value": 42000
+          },
+          "bInclusive": false
+        },
+        {
+          "FrameNumber": {
+            "Value": 45000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "4E17AD65-4B65DD23-E31BED86-D1F5FABF",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::14",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::14"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Masteryweapon_Slot_C:Anim_Hovered_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.82"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 15000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.39"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.72"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "65659CD2-4F0DC512-835532B9-BF34C66E"
+          },
+          {
+            "ObjectBindingID": "CF2083DB-4343B7F5-03DD368F-56022B26"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 15000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "36EF1EA0-49DD5B22-D4AE59AA-DC463375",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Masteryweapon_Slot_C:Anim_Unhovered_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.83"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 15000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.40"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.73"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "B3F94119-4F045983-AE5B0699-045DA019"
+          },
+          {
+            "ObjectBindingID": "DA012AF1-424A5C87-EF72DF98-E5D32F9E"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 15000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "56A58208-4197F40A-60C03DB8-42E6EF58",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneEventTrack",
+    "Name": "MovieSceneEventTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneEventTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.36"
+    },
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneEventTriggerSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneEventTrack_0.MovieSceneEventTriggerSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.69"
+        }
+      ],
+      "EvaluationFieldGuid": "24F420D5-434A871D-D10CE9B2-6C0164C4",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneEventTriggerSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneEventTrack_0.MovieSceneEventTriggerSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.69"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "24F420D5-434A871D-D10CE9B2-6C0164C4"
+    }
+  },
+  {
+    "Type": "MovieSceneEventTriggerSection",
+    "Name": "MovieSceneEventTriggerSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneEventTriggerSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneEventTrack'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneEventTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.68"
+    },
+    "Properties": {
+      "EventChannel": {
+        "KeyTimes": [
+          {
+            "Value": 0
+          }
+        ],
+        "KeyValues": [
+          {
+            "Ptrs": {
+              "Function": {
+                "ObjectName": "Function'Masteryweapon_Slot_C:SequenceEvent__ENTRYPOINTMasteryweapon_Slot'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.34"
+              },
+              "BoundObjectProperty": {
+                "Path": [],
+                "ResolvedOwner": null
+              }
+            }
+          }
+        ]
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneEventTrack_0.MovieSceneEventTriggerSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.49"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneEventTrack_0.MovieSceneEventTriggerSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.50"
+        }
+      },
+      "Signature": "B5455BA7-4498D832-4530188E-BBE83A39"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.74"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 6000
+          },
+          {
+            "Value": 24000
+          },
+          {
+            "Value": 45000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.51"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.52"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 45000
+            }
+          }
+        }
+      },
+      "Signature": "C0E938F2-40BD9E84-53878784-067E9C5C"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneFloatTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.75"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 6000
+          },
+          {
+            "Value": 24000
+          },
+          {
+            "Value": 45000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.53"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.54"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 45000
+            }
+          }
+        }
+      },
+      "Signature": "2A58DCCD-457BF654-114C8C90-9765AC29"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.76"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.57"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.58"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "6EBCA680-4CB93D2E-F772F3BF-12182269"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.77"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.61"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.62"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "6B5327B4-4FCB8754-B91C1FBB-33C892B6"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.36"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.70"
+        }
+      ],
+      "EvaluationFieldGuid": "9E122117-44E90E4A-8EFCE882-C0738574",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.70"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 45000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "9E122117-44E90E4A-8EFCE882-C0738574"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.36"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.71"
+        }
+      ],
+      "EvaluationFieldGuid": "65992525-46D1888E-E6CE7AAB-A5E9F3ED",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.71"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 45000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "65992525-46D1888E-E6CE7AAB-A5E9F3ED"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.37"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.72"
+        }
+      ],
+      "EvaluationFieldGuid": "73BAAD95-4C494DAC-81AF929C-80EDC734",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.72"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "73BAAD95-4C494DAC-81AF929C-80EDC734"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.38"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.73"
+        }
+      ],
+      "EvaluationFieldGuid": "90C6B8A9-4967AD82-B36E9085-0EB448F3",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.73"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "90C6B8A9-4967AD82-B36E9085-0EB448F3"
+    }
+  },
+  {
+    "Type": "NiagaraSystemWidget",
+    "Name": "NS_AddShow_01",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraSystemWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+    },
+    "Properties": {
+      "NiagaraSystemReference": {
+        "ObjectName": "NiagaraSystem'UI_NS_Flare_005_purple'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Niagara/Common/UI_NS_Flare_005_purple.82"
+      },
+      "MaterialRemapList": [
+        {
+          "Key": "0",
+          "Value": null
+        }
+      ],
+      "AutoActivate": false,
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.Fx.CBOverlaySlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.19"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Reddot03_C",
+    "Name": "Widget_Reddot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Reddot03.Reddot03_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+    },
+    "Template": {
+      "ObjectName": "Reddot03_C'Default__Reddot03_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Reddot03.9"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Masteryweapon_Slot_C:WidgetTree.Reddot.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.28"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "WeaponMastery_SelectFx_Slot_C",
+    "Name": "Widget_Selected",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/WeaponMastery_SelectFx_Slot.WeaponMastery_SelectFx_Slot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+    },
+    "Template": {
+      "ObjectName": "WeaponMastery_SelectFx_Slot_C'Default__WeaponMastery_SelectFx_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/WeaponMastery_SelectFx_Slot.31"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Masteryweapon_Slot_C:WidgetTree.CBOverlay_21.CBOverlaySlot_8'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.18"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.8,
+          "Y": 0.8
+        }
+      }
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Active_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Masteryweapon_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.84"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Masteryweapon_Slot_C:Anim_Active_INST.Anim_Active'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.36"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "NS_AddShow_01",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "FCF4FD41-4F18C759-F31C9292-6F2A036B",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "fx_full",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "B1580201-4C1548DC-63A0B4AA-FB22837C",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "fx_2",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "BDA67F61-4C6EEA16-DF7360BB-9029BE0F",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Active",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Masteryweapon_Slot_C:Anim_Active_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.65"
+      },
+      "Signature": "4E17AD65-4B65DD23-E31BED86-D1F5FABF"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Hovered_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Masteryweapon_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.84"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Masteryweapon_Slot_C:Anim_Hovered_INST.Anim_Hovered'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.37"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "Hovered",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "CF2083DB-4343B7F5-03DD368F-56022B26",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "CBOverlay_21",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "65659CD2-4F0DC512-835532B9-BF34C66E",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Hovered",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Masteryweapon_Slot_C:Anim_Hovered_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.66"
+      },
+      "Signature": "36EF1EA0-49DD5B22-D4AE59AA-DC463375"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Unhovered_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Masteryweapon_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.84"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Masteryweapon_Slot_C:Anim_Unhovered_INST.Anim_Unhovered'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.38"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "Hovered",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "DA012AF1-424A5C87-EF72DF98-E5D32F9E",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "CBOverlay_21",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "B3F94119-4F045983-AE5B0699-045DA019",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Unhovered",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Masteryweapon_Slot_C:Anim_Unhovered_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.67"
+      },
+      "Signature": "56A58208-4197F40A-60C03DB8-42E6EF58"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Masteryweapon_Slot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Masteryweapon_Slot_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.85"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'Masteryweapon_Slot_C:Anim_Active_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.81"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Masteryweapon_Slot_C:Anim_Hovered_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.82"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Masteryweapon_Slot_C:Anim_Unhovered_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.83"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'Masteryweapon_Slot_C:ExecuteUbergraph_Masteryweapon_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.32"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EMasteryweapon_Slot'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Masteryweapon_Slot_C:SequenceEvent__ENTRYPOINTMasteryweapon_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.34"
+      },
+      {
+        "ObjectName": "Function'Masteryweapon_Slot_C:SequenceEvent'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.33"
+      },
+      {
+        "ObjectName": "Function'Masteryweapon_Slot_C:ExecuteUbergraph_Masteryweapon_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.32"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "NS_AddShow_01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraSystemWidget'",
+          "ObjectPath": "/Script/NiagaraUIRenderer"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Masteryweapon_Slot": {
+        "ObjectName": "Function'Masteryweapon_Slot_C:ExecuteUbergraph_Masteryweapon_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.32"
+      },
+      "SequenceEvent": {
+        "ObjectName": "Function'Masteryweapon_Slot_C:SequenceEvent'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.33"
+      },
+      "SequenceEvent__ENTRYPOINTMasteryweapon_Slot": {
+        "ObjectName": "Function'Masteryweapon_Slot_C:SequenceEvent__ENTRYPOINTMasteryweapon_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.34"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Masteryweapon_Slot_C'Default__Masteryweapon_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.35"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Masteryweapon_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.84"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBSizeBox'Masteryweapon_Slot_C:WidgetTree.CBSizeBox_32'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Mastery/Masteryweapon_Slot.25"
+      }
+    }
+  }
+]

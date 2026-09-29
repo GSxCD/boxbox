@@ -1,0 +1,404 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPMV_Dictionary_Pet_Vulture_Fire_02_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPMV_Dictionary_Pet_Vulture_Fire_02_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.10"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_ModelView'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "fx_ns_gliding_vulture_fire_body",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBSkeletalMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CBSkeletalMeshComponent'",
+          "ObjectPath": "/Script/CBResourceModule"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPMV_Dictionary_Pet_Vulture_Fire_02_C'Default__BPMV_Dictionary_Pet_Vulture_Fire_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BPMV_Dictionary_Pet_Vulture_Fire_02_C",
+    "Name": "Default__BPMV_Dictionary_Pet_Vulture_Fire_02_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.BPMV_Dictionary_Pet_Vulture_Fire_02_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02",
+    "Properties": {
+      "CoreRoot": {
+        "ObjectName": "SceneComponent'Default__BPMV_Dictionary_Pet_Vulture_Fire_02_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.5"
+      },
+      "CoreStaticMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BPMV_Dictionary_Pet_Vulture_Fire_02_C:child_static_mesh'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.12"
+      },
+      "CoreSkeletalMesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BPMV_Dictionary_Pet_Vulture_Fire_02_C:child_skel_mesh'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.11"
+      },
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__BPMV_Dictionary_Pet_Vulture_Fire_02_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.6"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BPMV_Dictionary_Pet_Vulture_Fire_02_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.5"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "CBSkeletalMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BPMV_Dictionary_Pet_Vulture_Fire_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.0"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'Vulture_Fire_Gliding_Pet_AnimBP_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Gliding_Vulture_Fire/Ani/Vulture_Fire_Gliding_Pet_AnimBP.0"
+      },
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'PET_Gliding_Vulture_Fire_0001_Idle'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Gliding_Vulture_Fire/Ani/PET_Gliding_Vulture_Fire_0001_Idle.0"
+        }
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'PET_Gliding_Vulture_Fire_0001'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Gliding_Vulture_Fire/Mesh/PET_Gliding_Vulture_Fire_0001.2"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'PET_Gliding_Vulture_Fire_0001'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/PET/PET_Gliding_Vulture_Fire/Mesh/PET_Gliding_Vulture_Fire_0001.2"
+      },
+      "OverrideMaterials": [
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "fx_ns_gliding_vulture_fire_body_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BPMV_Dictionary_Pet_Vulture_Fire_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.0"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'fx_ns_gliding_vulture_fire_body'",
+        "ObjectPath": "SevenDeadlySins/Content/VFX/Cha/PET/Vulture/fx_ns_gliding_vulture_fire_body.42"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Breath_Velocity",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Breath_Velocity",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "TargetLocation",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector3f'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.TargetLocation",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector3f'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 12,
+            "Name": "User.Breath_Velocity",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 0,
+            "Name": "User.TargetLocation",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector3f'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          128,
+          212,
+          67
+        ]
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BPMV_Dictionary_Pet_Vulture_Fire_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BPMV_Dictionary_Pet_Vulture_Fire_02_C'Default__BPMV_Dictionary_Pet_Vulture_Fire_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.1"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BPMV_Dictionary_Pet_Vulture_Fire_02_C'Default__BPMV_Dictionary_Pet_Vulture_Fire_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BPMV_Dictionary_Pet_Vulture_Fire_02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.10"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPMV_Dictionary_Pet_Vulture_Fire_02_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.4"
+      },
+      "VariableGUID": "21094FD3-4F51E1C0-44168997-479D7CB0",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BPMV_Dictionary_Pet_Vulture_Fire_02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.10"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'BPMV_Dictionary_Pet_Vulture_Fire_02_C:fx_ns_gliding_vulture_fire_body_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.3"
+      },
+      "AttachToName": "Root",
+      "VariableGUID": "539F8130-4918A181-BE81C597-51964B9A",
+      "InternalVariableName": "fx_ns_gliding_vulture_fire_body"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BPMV_Dictionary_Pet_Vulture_Fire_02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.10"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CBSkeletalMeshComponent'",
+        "ObjectPath": "/Script/CBResourceModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBSkeletalMeshComponent'BPMV_Dictionary_Pet_Vulture_Fire_02_C:CBSkeletalMesh_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.2"
+      },
+      "ParentComponentOrVariableName": "root",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPMV_Dictionary_Pet_Vulture_Fire_02_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.8"
+        }
+      ],
+      "VariableGUID": "D1767933-4FE6584E-1A5F9990-E20A27F5",
+      "InternalVariableName": "CBSkeletalMesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BPMV_Dictionary_Pet_Vulture_Fire_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPMV_Dictionary_Pet_Vulture_Fire_02_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.9"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPMV_Dictionary_Pet_Vulture_Fire_02_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMV_Dictionary_Pet_Vulture_Fire_02_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.8"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPMV_Dictionary_Pet_Vulture_Fire_02_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.7"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "child_skel_mesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BPMV_Dictionary_Pet_Vulture_Fire_02_C'Default__BPMV_Dictionary_Pet_Vulture_Fire_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BPMV_Dictionary_Pet_Vulture_Fire_02_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "child_static_mesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BPMV_Dictionary_Pet_Vulture_Fire_02_C'Default__BPMV_Dictionary_Pet_Vulture_Fire_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BPMV_Dictionary_Pet_Vulture_Fire_02_C:Root'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Dictionary/Pet/BPMV_Dictionary_Pet_Vulture_Fire_02.5"
+      }
+    }
+  }
+]

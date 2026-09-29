@@ -1,0 +1,396 @@
+[
+  {
+    "Type": "ActorInfo_HeadUp_BattleFieldPoint_C",
+    "Name": "ActorInfo_HeadUp_BattleFieldPoint",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/BattleField/ActorInfo_HeadUp_BattleFieldPoint.ActorInfo_HeadUp_BattleFieldPoint_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.11"
+    },
+    "Template": {
+      "ObjectName": "ActorInfo_HeadUp_BattleFieldPoint_C'Default__ActorInfo_HeadUp_BattleFieldPoint_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/BattleField/ActorInfo_HeadUp_BattleFieldPoint.0"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree.Widget_Pvp.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.3"
+      }
+    }
+  },
+  {
+    "Type": "ActorInfo_HeadUp_Widget_Opti_PvpOnly_C",
+    "Name": "Default__ActorInfo_HeadUp_Widget_Opti_PvpOnly_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.ActorInfo_HeadUp_Widget_Opti_PvpOnly_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly",
+    "Properties": {
+      "UberGraphFrame": {},
+      "HpData_Enemy": {
+        "Fill": {
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 102.0,
+            "Y": 8.0
+          },
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.5,
+            "Right": 0.5,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'bossgauge_gauge_bar_monster'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/bossgauge/Frames/bossgauge_gauge_bar_monster.0"
+          }
+        }
+      },
+      "HpData_Ally": {
+        "Fill": {
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 108.0,
+            "Y": 14.0
+          },
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.5,
+            "Right": 0.5,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'bossgauge_gauge_bar_ally'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/bossgauge/Frames/bossgauge_gauge_bar_ally.0"
+          }
+        }
+      },
+      "HpData_Party": {
+        "Fill": {
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 108.0,
+            "Y": 14.0
+          },
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.5,
+            "Right": 0.5,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'bossgauge_gauge_bar_party'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/bossgauge/Frames/bossgauge_gauge_bar_party.0"
+          }
+        }
+      },
+      "HpData_QuestProtect": {
+        "Fill": {
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 108.0,
+            "Y": 14.0
+          },
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.5,
+            "Right": 0.5,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'bossgauge_gauge_bar_quest'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/bossgauge/Frames/bossgauge_gauge_bar_quest.0"
+          }
+        }
+      },
+      "IconData_MountAimTarget": {
+        "bg": {
+          "Image": {
+            "AssetPathName": "/Game/UIImg/origin/common/Frames/common_Alert_01.common_Alert_01",
+            "SubPathString": ""
+          }
+        }
+      },
+      "IconData_Quest": {
+        "Fx": {
+          "Image": {
+            "AssetPathName": "/Game/UI/UI_Resourse/UMGFx/Mat_Inst/Common/UI_MI_RingLoop_01.UI_MI_RingLoop_01",
+            "SubPathString": ""
+          }
+        }
+      },
+      "_Resource_Hp_WidgetBubble": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'ActorInfo_HeadUp_BubbleCount_Widget_C'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Widget/ActorInfo_HeadUp_BubbleCount_Widget.28"
+      },
+      "_Resource_BurstWidget": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'TargetBurst_Widget_C'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Target/TargetBurst_Widget.20"
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "Widget_Pvp",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.11"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree.Widget_Pvp.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.3"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree.VerticalBox_Bottom.CBVerticalBoxSlot_12'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.7"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree.Widget_Pvp'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.2"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 55.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree.Widget_Pvp'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.2"
+      },
+      "Content": {
+        "ObjectName": "ActorInfo_HeadUp_BattleFieldPoint_C'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree.ActorInfo_HeadUp_BattleFieldPoint'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.0"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "CBVerticalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.11"
+    },
+    "Properties": {
+      "SlotData": {
+        "Size": {
+          "SizeRule": "ESlateSizeRule::Automatic"
+        },
+        "bHorizontalAlignment": true,
+        "bVerticalAlignment": true,
+        "bSize": true
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree.CBVerticalBox_1.CBVerticalBoxSlot_14'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "VerticalBox_Bottom",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.11"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree.VerticalBox_Bottom.CBVerticalBoxSlot_12'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.7"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree.CBVerticalBox_1.CBVerticalBoxSlot_14'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.6"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree.CBVerticalBox_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.4"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree.CBVerticalBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.4"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree.VerticalBox_Bottom'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.5"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree.VerticalBox_Bottom'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.5"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree.VerticalBox_Bottom'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.5"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree.Widget_Pvp'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.2"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ActorInfo_HeadUp_Widget_Opti_PvpOnly",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.10"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInitialized",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.10"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:OnInitialized'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "ActorInfo_HeadUp_Widget_Opti_PvpOnly_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.11"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:ExecuteUbergraph_ActorInfo_HeadUp_Widget_Opti_PvpOnly'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.8"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EActorInfo_HeadUp_Widget_Opti'",
+      "ObjectPath": "/Script/ACUMGBaseModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:OnInitialized'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.9"
+      },
+      {
+        "ObjectName": "Function'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:ExecuteUbergraph_ActorInfo_HeadUp_Widget_Opti_PvpOnly'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.8"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ActorInfo_HeadUp_Widget_Opti_PvpOnly": {
+        "ObjectName": "Function'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:ExecuteUbergraph_ActorInfo_HeadUp_Widget_Opti_PvpOnly'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.8"
+      },
+      "OnInitialized": {
+        "ObjectName": "Function'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:OnInitialized'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.9"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ActorInfo_HeadUp_Widget_Opti_PvpOnly_C'Default__ActorInfo_HeadUp_Widget_Opti_PvpOnly_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.10"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBVerticalBox'ActorInfo_HeadUp_Widget_Opti_PvpOnly_C:WidgetTree.CBVerticalBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Headup/Optimization/ActorInfo_HeadUp_Widget_Opti_PvpOnly.4"
+      }
+    }
+  }
+]

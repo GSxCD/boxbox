@@ -1,0 +1,779 @@
+[
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'FxTouchBtn_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.16"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'FxTouchBtn_Widget_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.1"
+        }
+      ],
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'FxTouchBtn_Widget_C:WidgetTree.CBCanvasPanel_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.0"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -5.0,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'FxTouchBtn_Widget_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.0"
+      },
+      "Content": {
+        "ObjectName": "EUIParticleEmitter'FxTouchBtn_Widget_C:WidgetTree.EUIParticleEmitter_51'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.2"
+      }
+    }
+  },
+  {
+    "Type": "EUIParticleEmitter",
+    "Name": "EUIParticleEmitter_51",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EUIParticleEmitter'",
+    "Outer": {
+      "ObjectName": "WidgetTree'FxTouchBtn_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.16"
+    },
+    "Properties": {
+      "SoftAsset": {
+        "AssetPathName": "/Game/UI/UI_Resourse/UMGFx/Particle/PE_UI_TouchBtn01.PE_UI_TouchBtn01",
+        "SubPathString": ""
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'FxTouchBtn_Widget_C:WidgetTree.CBCanvasPanel_0.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.1"
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "FxTouchBtn_Widget_C",
+    "Name": "Default__FxTouchBtn_Widget_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.FxTouchBtn_Widget_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Play",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'FxTouchBtn_Widget_C:Anim_Play_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.14"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "F0A0A3D0-4DBF7962-B30820AC-01D35A14",
+          "Name": "EUIParticleEmitter_51",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "F0A0A3D0-4DBF7962-B30820AC-01D35A14",
+          "BindingName": "EUIParticleEmitter_51",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneBoolTrack'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneBoolTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.6"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneFloatTrack_2'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.13"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 72001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "382FA64C-47274274-6F1378AE-79CF385B"
+    }
+  },
+  {
+    "Type": "MovieSceneBoolSection",
+    "Name": "MovieSceneBoolSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBoolSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolTrack'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneBoolTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.6"
+    },
+    "Properties": {
+      "BoolCurve": {
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 72000
+          }
+        ],
+        "Values": [
+          true,
+          false,
+          false
+        ]
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneBoolTrack_1.MovieSceneBoolSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.7"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneBoolTrack_1.MovieSceneBoolSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.8"
+        }
+      },
+      "Signature": "93609206-49E44B47-BD8215B0-946E3BD2"
+    }
+  },
+  {
+    "Type": "MovieSceneBoolTrack",
+    "Name": "MovieSceneBoolTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBoolTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.4"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "bPlayParticle",
+        "PropertyPath": "bPlayParticle",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneBoolSection'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneBoolTrack_1.MovieSceneBoolSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.5"
+        }
+      ],
+      "EvaluationFieldGuid": "2D73B525-415D5FA8-39CCA186-811E982A",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneBoolSection'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneBoolTrack_1.MovieSceneBoolSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.5"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "2D73B525-415D5FA8-39CCA186-811E982A"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolSection'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneBoolTrack_1.MovieSceneBoolSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.5"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneBoolSection'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneBoolTrack_1.MovieSceneBoolSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.5"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.12"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.12"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'FxTouchBtn_Widget_C:Anim_Play_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.14"
+    },
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "F0A0A3D0-4DBF7962-B30820AC-01D35A14",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "SourceTrack": {
+                "ObjectName": "MovieSceneBoolTrack'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneBoolTrack_1'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.6"
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneBoolPropertySectionTemplate",
+                  "Data": {
+                    "BoolCurve": {
+                      "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                      "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                      "Times": [
+                        {
+                          "Value": 0
+                        },
+                        {
+                          "Value": 9000
+                        },
+                        {
+                          "Value": 72000
+                        }
+                      ],
+                      "DefaultValue": false,
+                      "bHasDefaultValue": false,
+                      "Values": [
+                        true,
+                        false,
+                        false
+                      ]
+                    },
+                    "PropertyData": {
+                      "PropertyName": "PlayParticle",
+                      "PropertyPath": "bPlayParticle"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneBoolSection'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneBoolTrack_1.MovieSceneBoolSection_0'",
+                      "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.5"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "2D73B525-415D5FA8-39CCA186-811E982A",
+              "Value": {
+                "Value": 0
+              }
+            }
+          ]
+        }
+      },
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": -1
+              },
+              "DataID": {
+                "EntryIndex": 0
+              }
+            },
+            "ChildNodes": {
+              "Entries": [],
+              "Items": []
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.12"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "F0A0A3D0-4DBF7962-B30820AC-01D35A14"
+          }
+        ]
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 1
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          }
+        ]
+      },
+      "CompiledSignature": "1EA149B8-48A132AF-8960A1AF-155F1C07",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::14",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::14"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneFloatTrack_2'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.13"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 72000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.000291,
+              "LeaveTangent": 0.000291,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 1
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.9"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.10"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "31EB3030-4339BB3E-6BC5B4A9-C773BE5F"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.4"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.12"
+        }
+      ],
+      "EvaluationFieldGuid": "94345B7B-4E32AA00-7E3D00B3-18A808A8",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.12"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "94345B7B-4E32AA00-7E3D00B3-18A808A8"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Play_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'FxTouchBtn_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.15"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'FxTouchBtn_Widget_C:Anim_Play_INST.Anim_Play'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.4"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "EUIParticleEmitter_51",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "F0A0A3D0-4DBF7962-B30820AC-01D35A14",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Play",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'FxTouchBtn_Widget_C:Anim_Play_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.11"
+      },
+      "Signature": "1EA149B8-48A132AF-8960A1AF-155F1C07"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "FxTouchBtn_Widget_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'FxTouchBtn_Widget_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.16"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'FxTouchBtn_Widget_C:Anim_Play_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.14"
+        }
+      ]
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EEffect_Widget'",
+      "ObjectPath": "/Script/ACUMGBaseModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "EUIParticleEmitter_51",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'EUIParticleEmitter'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FxTouchBtn_Widget_C'Default__FxTouchBtn_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'FxTouchBtn_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.15"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'FxTouchBtn_Widget_C:WidgetTree.CBCanvasPanel_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Widget/FxTouchBtn_Widget.0"
+      }
+    }
+  }
+]

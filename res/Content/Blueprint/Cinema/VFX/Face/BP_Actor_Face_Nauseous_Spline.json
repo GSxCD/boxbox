@@ -1,0 +1,949 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Actor_Face_Nauseous_Spline_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Actor_Face_Effect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Effect.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Actor_Face_Nauseous_Spline_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.13"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Actor_Face_Nauseous_Spline_C:InheritableComponentHandler'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.7"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Actor_Face_Nauseous_Spline_C:ExecuteUbergraph_BP_Actor_Face_Nauseous_Spline'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.3"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Actor_Face_Effect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Effect.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Actor_Face_Nauseous_Spline_C:Get Location'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.4"
+      },
+      {
+        "ObjectName": "Function'BP_Actor_Face_Nauseous_Spline_C:UserConstructionScript'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.6"
+      },
+      {
+        "ObjectName": "Function'BP_Actor_Face_Nauseous_Spline_C:BlueprintEditModeTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.2"
+      },
+      {
+        "ObjectName": "Function'BP_Actor_Face_Nauseous_Spline_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.5"
+      },
+      {
+        "ObjectName": "Function'BP_Actor_Face_Nauseous_Spline_C:ExecuteUbergraph_BP_Actor_Face_Nauseous_Spline'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.3"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "InstancedStaticMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'InstancedStaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Spline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SplineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "New Mesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMesh'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Spacing",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Total Line Count",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "LineThickness",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | Interp"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "LineLength",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | Interp"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Material",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInterface'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "LineLengthRandomize",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | Interp"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "SplineLength",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Offset",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | Interp"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Actor_Face_Nauseous_Spline": {
+        "ObjectName": "Function'BP_Actor_Face_Nauseous_Spline_C:ExecuteUbergraph_BP_Actor_Face_Nauseous_Spline'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.3"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BP_Actor_Face_Nauseous_Spline_C:ReceiveTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.5"
+      },
+      "BlueprintEditModeTick": {
+        "ObjectName": "Function'BP_Actor_Face_Nauseous_Spline_C:BlueprintEditModeTick'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.2"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_Actor_Face_Nauseous_Spline_C:UserConstructionScript'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.6"
+      },
+      "Get Location": {
+        "ObjectName": "Function'BP_Actor_Face_Nauseous_Spline_C:Get Location'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.4"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Actor_Face_Nauseous_Spline_C'Default__BP_Actor_Face_Nauseous_Spline_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Actor_Face_Nauseous_Spline_C",
+    "Name": "Default__BP_Actor_Face_Nauseous_Spline_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.BP_Actor_Face_Nauseous_Spline_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline",
+    "Template": {
+      "ObjectName": "BP_Actor_Face_Effect_C'Default__BP_Actor_Face_Effect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Effect.1"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "New Mesh": {
+        "ObjectName": "StaticMesh'Cylinder'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cylinder.1"
+      },
+      "Spacing": 5.0,
+      "Total Line Count": 3,
+      "LineThickness": 0.002,
+      "LineLength": 0.015,
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant'MI_Face_NauseousLine_01'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/Resource/MI_Face_NauseousLine_01.0"
+      },
+      "LineLengthRandomize": 0.3,
+      "Offset": 1.0
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BlueprintEditModeTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Actor_Face_Nauseous_Spline_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.0"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_Actor_Face_Effect_C:BlueprintEditModeTick'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Effect.4"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_Actor_Face_Effect_C:BlueprintEditModeTick'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Effect.4"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaTime",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Actor_Face_Nauseous_Spline",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Actor_Face_Nauseous_Spline_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetComponentByClass_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'MeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_K2_AttachToActor_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_K2_AttachToComponent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaTime",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "Get Location",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Actor_Face_Nauseous_Spline_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Index",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Conv_IntToDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetLocationAtDistanceAlongSpline_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetLocationAtDistanceAlongSpline_Distance_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Actor_Face_Nauseous_Spline_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Actor_Face_Nauseous_Spline_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.0"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_Actor_Face_Effect_C:UserConstructionScript'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Effect.6"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_Actor_Face_Effect_C:UserConstructionScript'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Effect.6"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "NewLocalVar",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Conv_IntToDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Divide_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Subtract_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Add_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_RandomFloatInRange_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetSplineLength_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Get_Location_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Get_Location_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Subtract_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeRotFromX_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 96,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_AddInstance_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_SetStaticMesh_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Divide_DoubleDouble_A_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Actor_Face_Nauseous_Spline_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.0"
+    }
+  },
+  {
+    "Type": "InstancedStaticMeshComponent",
+    "Name": "InstancedStaticMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InstancedStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Actor_Face_Nauseous_Spline_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.0"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Actor_Face_Nauseous_Spline_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Actor_Face_Nauseous_Spline_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.13"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Actor_Face_Nauseous_Spline_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.9"
+      },
+      "VariableGUID": "F38911B2-4EAF92BA-52709684-1CA32612",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Actor_Face_Nauseous_Spline_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.13"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SplineComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SplineComponent'BP_Actor_Face_Nauseous_Spline_C:Spline_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.14"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "BP_Actor_Face_Effect_C",
+      "VariableGUID": "17E547A4-40B9A72C-CD1C4384-CA06DB80",
+      "InternalVariableName": "Spline"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Actor_Face_Nauseous_Spline_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.13"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'InstancedStaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "InstancedStaticMeshComponent'BP_Actor_Face_Nauseous_Spline_C:InstancedStaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.8"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "BP_Actor_Face_Effect_C",
+      "VariableGUID": "05277BCA-4BE61EB0-18F970AF-9FCE5781",
+      "InternalVariableName": "InstancedStaticMesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Actor_Face_Nauseous_Spline_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Actor_Face_Nauseous_Spline_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Actor_Face_Nauseous_Spline_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.12"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Actor_Face_Nauseous_Spline_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Actor_Face_Nauseous_Spline_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.12"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Actor_Face_Nauseous_Spline_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.10"
+      }
+    }
+  },
+  {
+    "Type": "SplineComponent",
+    "Name": "Spline_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SplineComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Actor_Face_Nauseous_Spline_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Cinema/VFX/Face/BP_Actor_Face_Nauseous_Spline.0"
+    },
+    "Properties": {
+      "SplineCurves": {
+        "Position": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 1.082557,
+                "Y": 1.0773017,
+                "Z": -2.5427624E-14
+              },
+              "LeaveTangent": {
+                "X": 1.082557,
+                "Y": 1.0773017,
+                "Z": -2.5427624E-14
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveUser"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 1.3952414,
+                "Y": 0.06845738,
+                "Z": -4.5463757E-09
+              },
+              "ArriveTangent": {
+                "X": 0.8407173,
+                "Y": -1.0688182,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.8407173,
+                "Y": -1.0688182,
+                "Z": 0.0
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveUser"
+            }
+          ]
+        },
+        "Rotation": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 1.9776748E-10,
+                "Y": -5.1262483E-09,
+                "Z": 0.1414979,
+                "W": 0.98993856,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "LeaveTangent": {
+                "X": 1.9776748E-10,
+                "Y": -5.1262483E-09,
+                "Z": 0.1414979,
+                "W": 0.98993856,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": -3.9155532E-10,
+                "Y": 1.0149341E-08,
+                "Z": -0.28014845,
+                "W": 0.9599567,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": -5.774639E-10,
+                "Y": 1.4968201E-08,
+                "Z": -0.4131616,
+                "W": 0.9106577,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "LeaveTangent": {
+                "X": -5.774639E-10,
+                "Y": 1.4968201E-08,
+                "Z": -0.4131616,
+                "W": 0.9106577,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            }
+          ]
+        },
+        "ReparamTable": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": 0.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 0.15501146,
+              "OutVal": 0.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 0.31452546,
+              "OutVal": 0.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 0.47739732,
+              "OutVal": 0.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 0.64156723,
+              "OutVal": 0.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 0.8045413,
+              "OutVal": 0.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 0.9637966,
+              "OutVal": 0.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 1.1171994,
+              "OutVal": 0.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 1.2635311,
+              "OutVal": 0.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 1.4032174,
+              "OutVal": 0.90000004,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 1.5392375,
+              "OutVal": 1.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

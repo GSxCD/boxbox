@@ -1,0 +1,616 @@
+[
+  {
+    "Type": "CBBorderSlot",
+    "Name": "CBBorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorderSlot'",
+    "Outer": {
+      "ObjectName": "EBorder'CoreDetail_Slot_C:WidgetTree.EBorder_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.14"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Top": 20.0,
+        "Right": 20.0,
+        "Bottom": 20.0
+      },
+      "Parent": {
+        "ObjectName": "EBorder'CoreDetail_Slot_C:WidgetTree.EBorder_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.14"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'CoreDetail_Slot_C:WidgetTree.CBVerticalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.9"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CoreDetail_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.17"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'CoreDetail_Slot_C:WidgetTree.CBHorizontalBox_0.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.2"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'CoreDetail_Slot_C:WidgetTree.CBHorizontalBox_0.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.3"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'CoreDetail_Slot_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.10"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'CoreDetail_Slot_C:WidgetTree.CBHorizontalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.1"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 10.0
+      },
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'CoreDetail_Slot_C:WidgetTree.CBHorizontalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.1"
+      },
+      "Content": {
+        "ObjectName": "CBImage'CoreDetail_Slot_C:WidgetTree.Image_Icon'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.4"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'CoreDetail_Slot_C:WidgetTree.CBHorizontalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.1"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'CoreDetail_Slot_C:WidgetTree.CBHorizontalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.1"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'CoreDetail_Slot_C:WidgetTree.TextBlock_Name'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.15"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Icon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CoreDetail_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.17"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 100.0,
+          "Y": 100.0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'CoreDetail_Slot_C:WidgetTree.CBHorizontalBox_0.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.2"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBScrollBox",
+    "Name": "CoreScrollBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScrollBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CoreDetail_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.17"
+    },
+    "Properties": {
+      "SlotData": {
+        "Size": {
+          "X": 420.0,
+          "Y": 56.0
+        },
+        "bPadding": true
+      },
+      "WidgetStyle": {
+        "BarThickness": 12.0,
+        "TopShadowBrush": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "BottomShadowBrush": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "LeftShadowBrush": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "RightShadowBrush": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "HorizontalScrolledContentPadding": {
+          "Right": 0.0
+        },
+        "VerticalScrolledContentPadding": {
+          "Bottom": 0.0
+        }
+      },
+      "WidgetBarStyle": {
+        "VerticalBackgroundImage": {
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 24.0
+          },
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.5,
+            "Right": 0.5,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'common_scrollbar_ver_back'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_scrollbar_ver_back.0"
+          }
+        },
+        "VerticalTopSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "HorizontalTopSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "VerticalBottomSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "HorizontalBottomSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "NormalThumbImage": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 24.0
+          },
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.5,
+            "Right": 0.5,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'common_scrollbar_ver_front'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_scrollbar_ver_front.0"
+          },
+          "ResourceName": "None"
+        },
+        "HoveredThumbImage": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 0.976533,
+              "B": 0.708147,
+              "A": 1.0,
+              "Hex": "FFFDDB"
+            }
+          },
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 24.0
+          },
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.5,
+            "Right": 0.5,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'common_scrollbar_ver_front'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_scrollbar_ver_front.0"
+          },
+          "ResourceName": "None"
+        },
+        "DraggedThumbImage": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.765625,
+              "G": 0.765625,
+              "B": 0.765625,
+              "A": 1.0,
+              "Hex": "E3E3E3"
+            }
+          },
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 24.0
+          },
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.5,
+            "Right": 0.5,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'common_scrollbar_ver_front'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_scrollbar_ver_front.0"
+          },
+          "ResourceName": "None"
+        },
+        "Thickness": 12.0
+      },
+      "ScrollbarThickness": {
+        "X": 12.0,
+        "Y": 24.0
+      },
+      "ScrollBarPadding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBScrollBoxSlot'CoreDetail_Slot_C:WidgetTree.CoreScrollBox.CBScrollBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.6"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'CoreDetail_Slot_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.11"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CBScrollBoxSlot",
+    "Name": "CBScrollBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScrollBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBScrollBox'CoreDetail_Slot_C:WidgetTree.CoreScrollBox'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.5"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Top",
+      "Parent": {
+        "ObjectName": "CBScrollBox'CoreDetail_Slot_C:WidgetTree.CoreScrollBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.5"
+      },
+      "Content": {
+        "ObjectName": "CoreDetail_Option_Slot_C'CoreDetail_Slot_C:WidgetTree.CoreDetail_Option_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.12"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CoreDetail_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.17"
+    },
+    "Properties": {
+      "MinDesiredWidth": 550.0,
+      "MaxDesiredHeight": 800.0,
+      "bOverride_MinDesiredWidth": true,
+      "bOverride_MaxDesiredHeight": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'CoreDetail_Slot_C:WidgetTree.CBSizeBox_0.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.8"
+        }
+      ],
+      "RenderTransformPivot": {
+        "X": 1.0,
+        "Y": 1.0
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'CoreDetail_Slot_C:WidgetTree.CBSizeBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.7"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'CoreDetail_Slot_C:WidgetTree.CBSizeBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.7"
+      },
+      "Content": {
+        "ObjectName": "EBorder'CoreDetail_Slot_C:WidgetTree.EBorder_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.14"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "CBVerticalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CoreDetail_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.17"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'CoreDetail_Slot_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.10"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'CoreDetail_Slot_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.11"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBBorderSlot'CoreDetail_Slot_C:WidgetTree.EBorder_0.CBBorderSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.0"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'CoreDetail_Slot_C:WidgetTree.CBVerticalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.9"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 10.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'CoreDetail_Slot_C:WidgetTree.CBVerticalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.9"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'CoreDetail_Slot_C:WidgetTree.CBHorizontalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.1"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'CoreDetail_Slot_C:WidgetTree.CBVerticalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.9"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Left": 10.0,
+        "Top": 10.0,
+        "Right": 10.0,
+        "Bottom": 10.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'CoreDetail_Slot_C:WidgetTree.CBVerticalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.9"
+      },
+      "Content": {
+        "ObjectName": "CBScrollBox'CoreDetail_Slot_C:WidgetTree.CoreScrollBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.5"
+      }
+    }
+  },
+  {
+    "Type": "CoreDetail_Option_Slot_C",
+    "Name": "CoreDetail_Option_Slot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Option_Slot.CoreDetail_Option_Slot_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CoreDetail_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.17"
+    },
+    "Template": {
+      "ObjectName": "CoreDetail_Option_Slot_C'Default__CoreDetail_Option_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Option_Slot.18"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBScrollBoxSlot'CoreDetail_Slot_C:WidgetTree.CoreScrollBox.CBScrollBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.6"
+      }
+    }
+  },
+  {
+    "Type": "CoreDetail_Slot_C",
+    "Name": "Default__CoreDetail_Slot_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.CoreDetail_Slot_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot",
+    "Properties": {
+      "TouchHideType": "ETouchHideType::OutOfUI",
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "EBorder",
+    "Name": "EBorder_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CoreDetail_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.17"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Top": 20.0,
+        "Right": 20.0,
+        "Bottom": 20.0
+      },
+      "Background": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 132.0,
+          "Y": 256.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_quest_base'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_quest_base.0"
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBBorderSlot'CoreDetail_Slot_C:WidgetTree.EBorder_0.CBBorderSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.0"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'CoreDetail_Slot_C:WidgetTree.CBSizeBox_0.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.8"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_Name",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'CoreDetail_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.17"
+    },
+    "Properties": {
+      "UseLocalization": false,
+      "Text": {
+        "Namespace": "",
+        "Key": "AFC8612846FEC670AAC3FFB75DF383BF",
+        "SourceString": "일이삼사오육칠팔구십일",
+        "LocalizedString": "일이삼사오육칠팔구십일"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "WrapTextAt": 320.0,
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'CoreDetail_Slot_C:WidgetTree.CBHorizontalBox_0.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.3"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "CoreDetail_Slot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'CoreDetail_Slot_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.17"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ECoreDetail_Slot'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CoreDetail_Option_Slot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'CoreDetail_Option_Slot_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Option_Slot.24"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CoreDetail_Slot_C'Default__CoreDetail_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.13"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'CoreDetail_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.16"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBSizeBox'CoreDetail_Slot_C:WidgetTree.CBSizeBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/inventory/CoreDetail_Slot.7"
+      }
+    }
+  }
+]

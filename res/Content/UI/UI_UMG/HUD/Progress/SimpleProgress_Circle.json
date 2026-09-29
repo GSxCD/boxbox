@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "CBImage",
+    "Name": "Image_CoolTime",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'SimpleProgress_Circle_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/SimpleProgress_Circle.3"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.8,
+            "Hex": "CCFFFFFF"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 30.0,
+          "Y": 30.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'UI_M_Progress_Inst'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat/UI_M_Progress_Inst.0"
+        }
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "SimpleProgress_Circle_C",
+    "Name": "Default__SimpleProgress_Circle_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/SimpleProgress_Circle.SimpleProgress_Circle_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/SimpleProgress_Circle",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "SimpleProgress_Circle_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/SimpleProgress_Circle",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'SimpleProgress_Circle_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/SimpleProgress_Circle.3"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ESimpleProgressBar_Circle_Widget'",
+      "ObjectPath": "/Script/ACUMGBaseModule"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SimpleProgress_Circle_C'Default__SimpleProgress_Circle_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/SimpleProgress_Circle.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'SimpleProgress_Circle_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/SimpleProgress_Circle.2"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBImage'SimpleProgress_Circle_C:WidgetTree.Image_CoolTime'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Progress/SimpleProgress_Circle.0"
+      }
+    }
+  }
+]

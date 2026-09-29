@@ -1,0 +1,111 @@
+[
+  {
+    "Type": "EListView",
+    "Name": "EListView",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EListView'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PetList_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetList_Widget.3"
+    },
+    "Properties": {
+      "FocusLineName": "PetList",
+      "NumListViewEntries": 7,
+      "bUseFirstNodeOptionPadding": true,
+      "bUseLastNodeOptionPadding": true,
+      "FirstNodeOptionPadding": {
+        "Top": 10.0
+      },
+      "LastNodeOptionPadding": {
+        "Bottom": 10.0
+      },
+      "SlotData": {
+        "Padding": {
+          "Left": 10.0,
+          "Top": 3.0,
+          "Right": 10.0,
+          "Bottom": 3.0
+        },
+        "Size": {
+          "X": 680.0,
+          "Y": 136.0
+        },
+        "bPadding": true,
+        "bSize": true
+      },
+      "ButtonGroupIndex": 1,
+      "CursorGroupIndex": 2,
+      "EntryWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'PetList_Slot_2_C'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetList_Slot_2.59"
+      },
+      "bEnableRightClickScrolling": false
+    }
+  },
+  {
+    "Type": "PetList_Widget_C",
+    "Name": "Default__PetList_Widget_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetList_Widget.PetList_Widget_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetList_Widget",
+    "Properties": {
+      "ShowSoundTid": {
+        "Tid": "2000007"
+      },
+      "HideSoundTid": {
+        "Tid": "2000007"
+      },
+      "DragDropType": "EDragDropType::DragOnly",
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "PetList_Widget_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetList_Widget",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'PetList_Widget_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetList_Widget.3"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWidget_PetList'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PetList_Widget_C'Default__PetList_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetList_Widget.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PetList_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetList_Widget.2"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "EListView'PetList_Widget_C:WidgetTree.EListView'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Pet/PetList_Widget.0"
+      }
+    }
+  }
+]

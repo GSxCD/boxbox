@@ -1,0 +1,118 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ObjectSummonTable",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/CharacterExtentions/ObjectSummonTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UEObjectSummon'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "1019": {
+        "AdventureSkill_Tid": {
+          "Display_Type": "EAdventureSkillDisplayType::Common",
+          "EnableBattleState": false,
+          "EnableMoveState": [
+            "EMoveMode::Ground"
+          ],
+          "Condition_Type": "EAdventureSkillActiveCondition::CoolTime",
+          "Condition_Value": "20000",
+          "ControlType": "EAdventureSkillControlType::Click",
+          "Icon": "icon_adventureskill_diane",
+          "AdventureSkill_SkillTid": [
+            "diane_activity_000"
+          ],
+          "SkillTID": [
+            "diane_activity_000",
+            "diane_activity_001",
+            "diane_activity_002"
+          ],
+          "Ignore_ElementalDamageType": [],
+          "Sound_Tid": "None",
+          "Active_Sound_Tid": "None",
+          "Loop_Sound_Tid": "None",
+          "Contents_OnOff": {
+            "EnableDungeonUse": true,
+            "EnableQuestDungeonUse": true,
+            "EnableDeathMatchUse": false,
+            "EnableTeamDeathMatchUse": false,
+            "EnableTeamRoundMatchUse": false,
+            "EnablePVPMatchUse": false,
+            "EnableRaceUse": false,
+            "EnableBoardingObjStateUse": true,
+            "EnableMovingObjStateUse": false,
+            "EnableMultiObjStateUse": true,
+            "EnableActorChangeUse": true,
+            "EnableQuestAlbionSectorUse": true,
+            "EnableEnterSectorUse": true,
+            "String_Tid": "None",
+            "Local_Key": "object_summon_earth_contentsonoff"
+          },
+          "String_Tid": "object_summon_earth",
+          "Local_Key": "None"
+        },
+        "AimMode_Start_Montage": "diane_adventure_aim_start_mtg",
+        "AimMode_Action_Montage": "diane_adventure_charge_end_mtg",
+        "AimMode_Cancel_Montage": "diane_adventure_aim_end_mtg",
+        "AimMode_Charging_Montage": "diane_adventure_charge_mtg",
+        "AimMode_Charge_Montage": [
+          "diane_adventure_aim_start_mtg",
+          "diane_adventure_aim2_start_mtg"
+        ],
+        "AimMode_BlendSpace": "diane_adventure_move_bs",
+        "AimMode_Camera_TId": "diane_adv_skillaim",
+        "ObejctSummon_Guide_FX": [
+          "fx_ns_diane_adventure_aim_01",
+          "fx_ns_diane_adventure_charge_aim_01"
+        ],
+        "ObjectSummon_Charge_SkillTid": [
+          "diane_activity_001",
+          "diane_activity_002"
+        ],
+        "ObjectSummon_Charge_Step_Time": [
+          2500
+        ],
+        "ObjectSummon_Minimum_Height": [
+          100,
+          100
+        ],
+        "ObjectSummon_Check_Length": [
+          0,
+          0
+        ],
+        "ObjectSummon_OverlapAble": false,
+        "ChargeFXs": [
+          "fx_ns_diane_advencher_aim_loop_01",
+          "fx_ns_diane_advencher_aim_charge_loop_01"
+        ],
+        "ChargeFXRotSpaces": [
+          "EFxRotationSpace::Local",
+          "EFxRotationSpace::Local"
+        ],
+        "ChargeFxRotators": [
+          {
+            "Pitch": 15.918232,
+            "Yaw": -7.918775,
+            "Roll": -4.797776
+          },
+          {
+            "Pitch": 15.918232,
+            "Yaw": -7.918775,
+            "Roll": -4.797776
+          }
+        ],
+        "ChargeFXSockets": [
+          "socket_adv_effect",
+          "socket_adv_effect"
+        ],
+        "ObjectSummon_Skill_Unable_Msg": "ui_adventureskill_diane_action_fail",
+        "String_Tid": "1019",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

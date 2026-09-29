@@ -1,0 +1,190 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MAT_Star_Moon_main",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/Contents/starDust/MAT_Star_Moon_main",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'MAT_Star_Moon'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat/Contents/StarDust/MAT_Star_Moon.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Intencity",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "E554BC28-43F739C1-0E94CDB9-12E08446"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Time_Add",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.25,
+          "ExpressionGUID": "CC004696-4626D9D7-8714E8B3-7689198A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Time_Speed",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.75,
+          "ExpressionGUID": "2357324E-47F9FF92-54719E87-5EA829D7"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Swing_Add",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.1,
+          "ExpressionGUID": "48FEF3FC-45A810B0-F8ECE699-3DE65D15"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Swing_Speed",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.4,
+          "ExpressionGUID": "A93A1CBD-4BFB2B32-352C5BB7-BDBDEA3F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "T_Sacle",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "FD1CECBA-402918A6-D1A07A97-6163ED97"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Pos_x",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.1,
+          "ExpressionGUID": "00E03E8B-4EF9E524-2D56A1A9-631320F9"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Pos_y",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.1,
+          "ExpressionGUID": "07C5A6C8-4C5CADCA-EEA4B288-F64C7DBF"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Channel",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "FF0000"
+          },
+          "ExpressionGUID": "FA3EC453-4899469F-6C71BF97-64B19C6E"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "T_FX",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Noise0022'",
+            "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Tex/FX/T_Noise0022.0"
+          },
+          "ExpressionGUID": "BB14C3B0-4BCFA6F9-C45F7DAA-8FDF1D01"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "T_Main",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Moon'",
+            "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Tex/Contents/StarDust/T_Moon.0"
+          },
+          "ExpressionGUID": "37BFBC43-4403E215-92999BB9-602CFDA9"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "bBlendWithWaterSurfaceOpacity": true,
+        "bIsCorrectWaterEnabled": true,
+        "bRenderCustomStencil": true,
+        "BlendMode": "EBlendMode::BLEND_TranslucentGreyTransmittance",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParametersRuntime": {
+        "StaticSwitchParameters": [
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "Use_Fx",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "DFAE7DBB-439D442E-27C88C80-D7CC3974"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "FX_Glow",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "5C76499C-4E627EF4-2B15B78D-95D5E39D"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use_Swing",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "7523F21A-4182B376-A7B6B987-6F73B303"
+          }
+        ]
+      },
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

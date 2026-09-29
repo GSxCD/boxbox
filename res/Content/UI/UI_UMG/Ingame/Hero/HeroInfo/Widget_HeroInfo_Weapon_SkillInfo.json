@@ -1,0 +1,2728 @@
+[
+  {
+    "Type": "Btn_WeaponChange_C",
+    "Name": "Btn_WeaponTypeChange",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Btn_WeaponChange.Btn_WeaponChange_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Template": {
+      "ObjectName": "Btn_WeaponChange_C'Default__Btn_WeaponChange_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Btn_WeaponChange.0"
+    },
+    "Properties": {
+      "TextStyles": [
+        {
+          "ColorAndOpacity": {
+            "SpecifiedColor": {
+              "R": 0.846873,
+              "G": 0.846873,
+              "B": 0.846873,
+              "A": 1.0,
+              "Hex": "EDEDED"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Font": {
+            "FontObject": {
+              "ObjectName": "Font'Font_Default'",
+              "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+            },
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 0,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0,
+                "Hex": "000000"
+              }
+            },
+            "TypefaceFontName": "Font_B",
+            "Size": 28.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "ShadowOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "ShadowColorAndOpacity": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        }
+      ],
+      "StringStyle": {
+        "bEnabled": true,
+        "Text": "UI_ManageHeroes_BT_Equip"
+      },
+      "bIsPadFocus": false,
+      "CursorGroupIndex": 2,
+      "InputTableTID": "UI_PAD_Button_Down",
+      "PadKeyGuideEnableCursorGroup": 2,
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo.CBCanvasPanelSlot_10'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.6"
+      }
+    }
+  },
+  {
+    "Type": "CBBorderSlot",
+    "Name": "CBBorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorderSlot'",
+    "Outer": {
+      "ObjectName": "EBorder'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.EBorder_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.45"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Top": 15.0,
+        "Right": 20.0,
+        "Bottom": 15.0
+      },
+      "Parent": {
+        "ObjectName": "EBorder'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.EBorder_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.45"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_SkillInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.37"
+      }
+    }
+  },
+  {
+    "Type": "CBBorderSlot",
+    "Name": "CBBorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorderSlot'",
+    "Outer": {
+      "ObjectName": "EBorder'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.EquipGuide'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.46"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "EBorder'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.EquipGuide'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.46"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.36"
+      }
+    }
+  },
+  {
+    "Type": "CBBorderSlot",
+    "Name": "CBBorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorderSlot'",
+    "Outer": {
+      "ObjectName": "EBorder'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.UnEquipGuide'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.47"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Right": 20.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "EBorder'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.UnEquipGuide'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.47"
+      },
+      "Content": {
+        "ObjectName": "CBOverlay'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBOverlay_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.34"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_heroInfo",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo.CBCanvasPanelSlot_7'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.10"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.5"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo.CBCanvasPanelSlot_6'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.9"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo.CBCanvasPanelSlot_10'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.6"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.7"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo.CBCanvasPanelSlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.8"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo.CBCanvasPanelSlot_8'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.11"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo.CBCanvasPanelSlot_9'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.12"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -350.0,
+          "Top": -30.0,
+          "Right": 800.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.4"
+      },
+      "Content": {
+        "ObjectName": "Widget_HeroInfo_WeaponType_C'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.Widget_HeroInfo_WeaponType'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.53"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -63.0,
+          "Top": -116.0,
+          "Right": 600.0,
+          "Bottom": 64.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 1.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.4"
+      },
+      "Content": {
+        "ObjectName": "Btn_WeaponChange_C'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.Btn_WeaponTypeChange'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.0"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -105.0,
+          "Right": 600.0,
+          "Bottom": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 1.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.4"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.Text_WeaponLock'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.50"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -63.0,
+          "Top": -200.0,
+          "Right": 750.0,
+          "Bottom": 60.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "ZOrder": 2,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.4"
+      },
+      "Content": {
+        "ObjectName": "EBorder'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.UnEquipGuide'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.47"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 400.0,
+          "Top": -20.0,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.4"
+      },
+      "Content": {
+        "ObjectName": "EBorder'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.EBorder_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.45"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -636.0,
+          "Top": -36.22222,
+          "Right": 418.2223,
+          "Bottom": 1029.1111
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.4"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBImage_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.27"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -350.0,
+          "Top": -550.0,
+          "Right": 20.0,
+          "Bottom": 24.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.4"
+      },
+      "Content": {
+        "ObjectName": "EToolTipPosition'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.ToolTipPosition_Skill'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.51"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.4"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -63.0,
+          "Top": -112.0,
+          "Right": 600.0,
+          "Bottom": 68.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 1.0
+        }
+      },
+      "ZOrder": 2,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.4"
+      },
+      "Content": {
+        "ObjectName": "EBorder'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.EquipGuide'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.46"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox.CBHorizontalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.18"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.16"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox.CBHorizontalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.17"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.39"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_0.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.19"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_0.CBHorizontalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.21"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_0.CBHorizontalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.20"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBOverlay_3.CBOverlaySlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.35"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "CBHorizontalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_1.CBHorizontalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.24"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_1.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.22"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_1.CBHorizontalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.23"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.38"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.13"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.13"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.deco_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.29"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.13"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Left": -1.0
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.13"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.line_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.33"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.13"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Right": -1.0
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.13"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.line_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.31"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.14"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.14"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBImage_135'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.26"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.14"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.14"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBImage_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.25"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.14"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.14"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.Text_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.49"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.15"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.15"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.deco'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.28"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.15"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Left": -1.0
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.15"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.line'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.30"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.15"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Right": -1.0
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.15"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.line_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.32"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.5,
+            "Hex": "7FFFFFFF"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 20.0,
+          "Y": 20.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_i_dot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_i_dot_3.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_0.CBHorizontalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.20"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_135",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.5,
+            "Hex": "7FFFFFFF"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 20.0,
+          "Y": 20.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_i_dot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_i_dot_3.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_0.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.19"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.588542,
+            "G": 0.588542,
+            "B": 0.588542,
+            "A": 0.789,
+            "Hex": "C9CACACA"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 237.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Hero_bg_potential'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Hero/Frames/Hero_bg_potential.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo.CBCanvasPanelSlot_7'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.10"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "deco",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 29.0,
+          "Y": 18.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HUD_bg_sysmsg_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HUD/Frames/HUD_bg_sysmsg_3.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_1.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.22"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": -1.0,
+          "Y": 1.0
+        }
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "deco_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 29.0,
+          "Y": 18.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HUD_bg_sysmsg_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HUD/Frames/HUD_bg_sysmsg_3.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.16"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": -1.0,
+          "Y": 1.0
+        }
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "line",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Brush": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 67.0,
+          "Y": 6.0
+        },
+        "Margin": {
+          "Left": 0.1,
+          "Right": 0.1
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HUD_bg_sysmsg_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HUD/Frames/HUD_bg_sysmsg_2.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_1.CBHorizontalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.23"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "line_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Brush": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 67.0,
+          "Y": 6.0
+        },
+        "Margin": {
+          "Left": 0.1,
+          "Right": 0.1
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HUD_bg_sysmsg_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HUD/Frames/HUD_bg_sysmsg_2.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox.CBHorizontalBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.18"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": -1.0,
+          "Y": 1.0
+        }
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "line_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Brush": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 67.0,
+          "Y": 6.0
+        },
+        "Margin": {
+          "Left": 0.1,
+          "Right": 0.1
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HUD_bg_sysmsg_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HUD/Frames/HUD_bg_sysmsg_2.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_1.CBHorizontalBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.24"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": -1.0,
+          "Y": 1.0
+        }
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "line_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Brush": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 67.0,
+          "Y": 6.0
+        },
+        "Margin": {
+          "Left": 0.1,
+          "Right": 0.1
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HUD_bg_sysmsg_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HUD/Frames/HUD_bg_sysmsg_2.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox.CBHorizontalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.17"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "CBOverlay_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBOverlay_3.CBOverlaySlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.35"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBBorderSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.UnEquipGuide.CBBorderSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.3"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBOverlay_3'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.34"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBOverlay_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.34"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.14"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "CBVerticalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.39"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.40"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.38"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBBorderSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.EquipGuide.CBBorderSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.2"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "CBVerticalBox_SkillInfo",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_SkillInfo.CBVerticalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.41"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_SkillInfo.CBVerticalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.42"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_SkillInfo.CBVerticalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.43"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_SkillInfo.CBVerticalBoxSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.44"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBBorderSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.EBorder_0.CBBorderSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.1"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.36"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": -10.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.36"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.15"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.36"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": -10.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.36"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.13"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.36"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.36"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.Text'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.48"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_SkillInfo'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.37"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 15.0,
+        "Bottom": 15.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_SkillInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.37"
+      },
+      "Content": {
+        "ObjectName": "Widget_HeroWeaponSKillInfo_C'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.Skill_Slot_01'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.54"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_SkillInfo'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.37"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 15.0,
+        "Bottom": 15.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_SkillInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.37"
+      },
+      "Content": {
+        "ObjectName": "Widget_HeroWeaponSKillInfo_C'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.Skill_Slot_02'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.55"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_SkillInfo'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.37"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 15.0,
+        "Bottom": 15.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_SkillInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.37"
+      },
+      "Content": {
+        "ObjectName": "Widget_HeroWeaponSKillInfo_C'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.Skill_Slot_03'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.56"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_SkillInfo'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.37"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 15.0,
+        "Bottom": 15.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_SkillInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.37"
+      },
+      "Content": {
+        "ObjectName": "Widget_HeroWeaponSKillInfo_C'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.Skill_Slot_04'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.57"
+      }
+    }
+  },
+  {
+    "Type": "EBorder",
+    "Name": "EBorder_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Top": 15.0,
+        "Right": 20.0,
+        "Bottom": 15.0
+      },
+      "Background": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 153.0,
+          "Y": 182.0
+        },
+        "Margin": {
+          "Top": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Hero_bg_heroSkill'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Hero/Frames/Hero_bg_heroSkill.0"
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBBorderSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.EBorder_0.CBBorderSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.1"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo.CBCanvasPanelSlot_6'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.9"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.85,
+          "Y": 0.85
+        }
+      }
+    }
+  },
+  {
+    "Type": "EBorder",
+    "Name": "EquipGuide",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 268.0,
+          "Y": 6.0
+        },
+        "Margin": {
+          "Left": 0.15,
+          "Top": 0.5,
+          "Right": 0.15,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HUD_bg_sysmsg_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HUD/Frames/HUD_bg_sysmsg_1.0"
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBBorderSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.EquipGuide.CBBorderSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.2"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo.CBCanvasPanelSlot_9'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.12"
+      }
+    }
+  },
+  {
+    "Type": "EBorder",
+    "Name": "UnEquipGuide",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Padding": {
+        "Left": 20.0,
+        "Right": 20.0
+      },
+      "Background": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.040915,
+            "G": 0.049706,
+            "B": 0.059511,
+            "A": 0.7,
+            "Hex": "B3393F45"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 70.0,
+          "Y": 16.0
+        },
+        "Margin": {
+          "Left": 0.2,
+          "Top": 0.5,
+          "Right": 0.2,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_width'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_width.0"
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBBorderSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.UnEquipGuide.CBBorderSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.3"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo.CBCanvasPanelSlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.8"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "Text",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "E0EE938C4059321E5A028D88746E3241",
+        "SourceString": "UI_ManageHeroes_Equip_guide",
+        "LocalizedString": "UI_ManageHeroes_Equip_guide"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 0.5,
+          "Hex": "7FFFFFFF"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineColor": {
+            "R": 0.030713,
+            "G": 0.035601,
+            "B": 0.046665,
+            "A": 0.5,
+            "Hex": "7F31353D"
+          }
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 26.0
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.40"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "Text_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "FFCD880C484C8D7BE750D283BC4B0F3E",
+        "SourceString": "UI_ManageHeroes_None_Equip_Ability",
+        "LocalizedString": "UI_ManageHeroes_None_Equip_Ability"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.006856,
+            "G": 0.007947,
+            "B": 0.010417,
+            "A": 0.5,
+            "Hex": "7F13151A"
+          }
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 22.0
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBHorizontalBox_0.CBHorizontalBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.21"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "Text_WeaponLock",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "9983374A4249207F72603EA4DCD8ED8C",
+        "SourceString": "UI_Weapon_Lock_Notice",
+        "LocalizedString": "UI_Weapon_Lock_Notice"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 3,
+          "OutlineColor": {
+            "R": 0.030713,
+            "G": 0.035601,
+            "B": 0.046665,
+            "A": 0.5,
+            "Hex": "7F31353D"
+          }
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 28.0
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.7"
+      },
+      "Visibility": "ESlateVisibility::Collapsed",
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "EToolTipPosition",
+    "Name": "ToolTipPosition_Skill",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EToolTipPosition'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Properties": {
+      "ViewType": "EToolTipViewType::SkillInfoToolTip",
+      "PTType": "EToolTipPTType::SkillInfoToolTip",
+      "AttachType": "EToolTipAttachType::ToolTipPositionWidget",
+      "_EnableChangeButtonGroupIndex": true,
+      "_UIShowChangeButtonGroupIndex": 5
+    }
+  },
+  {
+    "Type": "Widget_HeroInfo_Weapon_SkillInfo_C",
+    "Name": "Default__Widget_HeroInfo_Weapon_SkillInfo_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.Widget_HeroInfo_Weapon_SkillInfo_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "Widget_HeroInfo_WeaponType_C",
+    "Name": "Widget_HeroInfo_WeaponType",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_WeaponType.Widget_HeroInfo_WeaponType_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Template": {
+      "ObjectName": "Widget_HeroInfo_WeaponType_C'Default__Widget_HeroInfo_WeaponType_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_WeaponType.15"
+    },
+    "Properties": {
+      "bOverride_PadSetting": true,
+      "bPadFocus": true,
+      "CursorGroupIndex": 2,
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.5"
+      }
+    }
+  },
+  {
+    "Type": "Widget_HeroWeaponSKillInfo_C",
+    "Name": "Skill_Slot_01",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroWeaponSKillInfo.Widget_HeroWeaponSKillInfo_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Template": {
+      "ObjectName": "Widget_HeroWeaponSKillInfo_C'Default__Widget_HeroWeaponSKillInfo_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroWeaponSKillInfo.32"
+    },
+    "Properties": {
+      "TextStyles": [
+        {
+          "ColorAndOpacity": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Font": {
+            "FontObject": {
+              "ObjectName": "Font'Font_Default'",
+              "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+            },
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 0,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0,
+                "Hex": "000000"
+              }
+            },
+            "TypefaceFontName": "Font_B",
+            "Size": 14.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "ShadowOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "ShadowColorAndOpacity": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "ColorAndOpacity": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Font": {
+            "FontObject": {
+              "ObjectName": "Font'Font_Default'",
+              "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+            },
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 0,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0,
+                "Hex": "000000"
+              }
+            },
+            "TypefaceFontName": "Font_B",
+            "Size": 14.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "ShadowOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "ShadowColorAndOpacity": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        }
+      ],
+      "ImageStyles": [
+        {
+          "Brush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::FullColor",
+            "ImageSize": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'Bug_Axe_ActiveThird'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/Icon_Item/Skill/Bug_Axe_ActiveThird.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        }
+      ],
+      "bUseSelfSelect": false,
+      "CursorGroupIndex": 3,
+      "bIsCursorGroupFirstButton": true,
+      "PadEffectPointPosition": "EPointPosition::MiddleLeft",
+      "TouchEffectKey": "FxTouchBtn3",
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_SkillInfo.CBVerticalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.41"
+      }
+    }
+  },
+  {
+    "Type": "Widget_HeroWeaponSKillInfo_C",
+    "Name": "Skill_Slot_02",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroWeaponSKillInfo.Widget_HeroWeaponSKillInfo_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Template": {
+      "ObjectName": "Widget_HeroWeaponSKillInfo_C'Default__Widget_HeroWeaponSKillInfo_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroWeaponSKillInfo.32"
+    },
+    "Properties": {
+      "TextStyles": [
+        {
+          "ColorAndOpacity": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Font": {
+            "FontObject": {
+              "ObjectName": "Font'Font_Default'",
+              "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+            },
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 0,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0,
+                "Hex": "000000"
+              }
+            },
+            "TypefaceFontName": "Font_B",
+            "Size": 14.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "ShadowOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "ShadowColorAndOpacity": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "ColorAndOpacity": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Font": {
+            "FontObject": {
+              "ObjectName": "Font'Font_Default'",
+              "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+            },
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 0,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0,
+                "Hex": "000000"
+              }
+            },
+            "TypefaceFontName": "Font_B",
+            "Size": 14.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "ShadowOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "ShadowColorAndOpacity": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        }
+      ],
+      "ImageStyles": [
+        {
+          "Brush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::FullColor",
+            "ImageSize": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'Bug_Axe_ActiveThird'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/Icon_Item/Skill/Bug_Axe_ActiveThird.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        }
+      ],
+      "bUseSelfSelect": false,
+      "CursorGroupIndex": 3,
+      "PadEffectPointPosition": "EPointPosition::MiddleLeft",
+      "TouchEffectKey": "FxTouchBtn3",
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_SkillInfo.CBVerticalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.42"
+      }
+    }
+  },
+  {
+    "Type": "Widget_HeroWeaponSKillInfo_C",
+    "Name": "Skill_Slot_03",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroWeaponSKillInfo.Widget_HeroWeaponSKillInfo_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Template": {
+      "ObjectName": "Widget_HeroWeaponSKillInfo_C'Default__Widget_HeroWeaponSKillInfo_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroWeaponSKillInfo.32"
+    },
+    "Properties": {
+      "TextStyles": [
+        {
+          "ColorAndOpacity": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Font": {
+            "FontObject": {
+              "ObjectName": "Font'Font_Default'",
+              "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+            },
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 0,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0,
+                "Hex": "000000"
+              }
+            },
+            "TypefaceFontName": "Font_B",
+            "Size": 14.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "ShadowOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "ShadowColorAndOpacity": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "ColorAndOpacity": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Font": {
+            "FontObject": {
+              "ObjectName": "Font'Font_Default'",
+              "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+            },
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 0,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0,
+                "Hex": "000000"
+              }
+            },
+            "TypefaceFontName": "Font_B",
+            "Size": 14.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "ShadowOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "ShadowColorAndOpacity": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        }
+      ],
+      "ImageStyles": [
+        {
+          "Brush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::FullColor",
+            "ImageSize": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'Bug_Axe_ActiveThird'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/Icon_Item/Skill/Bug_Axe_ActiveThird.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        }
+      ],
+      "bUseSelfSelect": false,
+      "CursorGroupIndex": 3,
+      "PadEffectPointPosition": "EPointPosition::MiddleLeft",
+      "TouchEffectKey": "FxTouchBtn3",
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_SkillInfo.CBVerticalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.43"
+      }
+    }
+  },
+  {
+    "Type": "Widget_HeroWeaponSKillInfo_C",
+    "Name": "Skill_Slot_04",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroWeaponSKillInfo.Widget_HeroWeaponSKillInfo_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+    },
+    "Template": {
+      "ObjectName": "Widget_HeroWeaponSKillInfo_C'Default__Widget_HeroWeaponSKillInfo_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/Widget_HeroWeaponSKillInfo.32"
+    },
+    "Properties": {
+      "TextStyles": [
+        {
+          "ColorAndOpacity": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Font": {
+            "FontObject": {
+              "ObjectName": "Font'Font_Default'",
+              "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+            },
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 0,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0,
+                "Hex": "000000"
+              }
+            },
+            "TypefaceFontName": "Font_B",
+            "Size": 14.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "ShadowOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "ShadowColorAndOpacity": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "ColorAndOpacity": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Font": {
+            "FontObject": {
+              "ObjectName": "Font'Font_Default'",
+              "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+            },
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 0,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0,
+                "Hex": "000000"
+              }
+            },
+            "TypefaceFontName": "Font_B",
+            "Size": 14.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "ShadowOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "ShadowColorAndOpacity": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        }
+      ],
+      "ImageStyles": [
+        {
+          "Brush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::FullColor",
+            "ImageSize": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'Bug_Axe_ActiveThird'",
+              "ObjectPath": "SevenDeadlySins/Content/UIImg/Icon_Item/Skill/Bug_Axe_ActiveThird.0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        }
+      ],
+      "bUseSelfSelect": false,
+      "CursorGroupIndex": 3,
+      "PadEffectPointPosition": "EPointPosition::MiddleLeft",
+      "TouchEffectKey": "FxTouchBtn3",
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBVerticalBox_SkillInfo.CBVerticalBoxSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.44"
+      }
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Widget_HeroInfo_Weapon_SkillInfo_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.59"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWidget_WeaponInfo'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBImage_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBImage_135",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Widget_HeroInfo_Weapon_SkillInfo_C'Default__Widget_HeroInfo_Weapon_SkillInfo_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.52"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_HeroInfo_Weapon_SkillInfo_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.58"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'Widget_HeroInfo_Weapon_SkillInfo_C:WidgetTree.CBCanvasPanel_heroInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Hero/HeroInfo/Widget_HeroInfo_Weapon_SkillInfo.4"
+      }
+    }
+  }
+]

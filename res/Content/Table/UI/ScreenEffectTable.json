@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ScreenEffectTable",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/UI/ScreenEffectTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UEScreenEffectTable'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "heartbeat": {
+        "PanelTid": "bordereffect",
+        "ScreenEffectType": "EPostProcessScreenEffectType::None",
+        "Order": 1,
+        "Array_Simultaneity": [
+          "EScreenEffectType::Purify"
+        ],
+        "soundTid": "2000338",
+        "TimeCurveData": "None",
+        "String_Tid": "heartbeat",
+        "Local_Key": "None"
+      },
+      "worldout": {
+        "PanelTid": "worldouteffect",
+        "ScreenEffectType": "EPostProcessScreenEffectType::None",
+        "Order": 2,
+        "Array_Simultaneity": [
+          "EScreenEffectType::Purify"
+        ],
+        "soundTid": "None",
+        "TimeCurveData": "None",
+        "String_Tid": "worldout",
+        "Local_Key": "None"
+      },
+      "height": {
+        "PanelTid": "warningtime",
+        "ScreenEffectType": "EPostProcessScreenEffectType::None",
+        "Order": 3,
+        "Array_Simultaneity": [
+          "EScreenEffectType::Purify"
+        ],
+        "soundTid": "None",
+        "TimeCurveData": "None",
+        "String_Tid": "height",
+        "Local_Key": "None"
+      },
+      "corruption": {
+        "PanelTid": "None",
+        "ScreenEffectType": "EPostProcessScreenEffectType::Abyss",
+        "Order": 100,
+        "Array_Simultaneity": [],
+        "soundTid": "None",
+        "TimeCurveData": "None",
+        "String_Tid": "corruption",
+        "Local_Key": "None"
+      },
+      "purify": {
+        "PanelTid": "None",
+        "ScreenEffectType": "EPostProcessScreenEffectType::AbyssToStella",
+        "Order": 200,
+        "Array_Simultaneity": [
+          "EScreenEffectType::HeartBeat",
+          "EScreenEffectType::WorldOut",
+          "EScreenEffectType::Height"
+        ],
+        "soundTid": "None",
+        "TimeCurveData": "None",
+        "String_Tid": "purify",
+        "Local_Key": "None"
+      },
+      "portalarrival": {
+        "PanelTid": "None",
+        "ScreenEffectType": "EPostProcessScreenEffectType::PortalArrival",
+        "Order": 200,
+        "Array_Simultaneity": [],
+        "soundTid": "None",
+        "TimeCurveData": "None",
+        "String_Tid": "portalarrival",
+        "Local_Key": "None"
+      },
+      "windroad": {
+        "PanelTid": "None",
+        "ScreenEffectType": "EPostProcessScreenEffectType::WindRoad",
+        "Order": 200,
+        "Array_Simultaneity": [
+          "EScreenEffectType::HeartBeat",
+          "EScreenEffectType::WorldOut",
+          "EScreenEffectType::Height"
+        ],
+        "soundTid": "None",
+        "TimeCurveData": "None",
+        "String_Tid": "windroad",
+        "Local_Key": "None"
+      },
+      "noentryzone": {
+        "PanelTid": "closenoentryzone",
+        "ScreenEffectType": "EPostProcessScreenEffectType::None",
+        "Order": 4,
+        "Array_Simultaneity": [
+          "EScreenEffectType::Purify"
+        ],
+        "soundTid": "None",
+        "TimeCurveData": "None",
+        "String_Tid": "noentryzone",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

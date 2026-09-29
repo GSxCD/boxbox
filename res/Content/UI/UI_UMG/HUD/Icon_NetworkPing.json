@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "CBImage",
+    "Name": "Icon_Networkping_Lv",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Icon_NetworkPing_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Icon_NetworkPing.5"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common2_icon_NetworkPing_Lv2_min'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common2/Frames/common2_icon_NetworkPing_Lv2_min.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Icon_NetworkPing_C:WidgetTree.CBSizeBox_11.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Icon_NetworkPing.2"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Icon_NetworkPing_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Icon_NetworkPing.5"
+    },
+    "Properties": {
+      "WidthOverride": 40.0,
+      "HeightOverride": 40.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Icon_NetworkPing_C:WidgetTree.CBSizeBox_11.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Icon_NetworkPing.2"
+        }
+      ],
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Icon_NetworkPing_C:WidgetTree.CBSizeBox_11'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Icon_NetworkPing.1"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'Icon_NetworkPing_C:WidgetTree.CBSizeBox_11'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Icon_NetworkPing.1"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Icon_NetworkPing_C:WidgetTree.Icon_Networkping_Lv'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Icon_NetworkPing.0"
+      }
+    }
+  },
+  {
+    "Type": "Icon_NetworkPing_C",
+    "Name": "Default__Icon_NetworkPing_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Icon_NetworkPing.Icon_NetworkPing_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Icon_NetworkPing",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Icon_NetworkPing_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Icon_NetworkPing",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Icon_NetworkPing_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Icon_NetworkPing.5"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWidget_Latency'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Icon_NetworkPing_C'Default__Icon_NetworkPing_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Icon_NetworkPing.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Icon_NetworkPing_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Icon_NetworkPing.4"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBSizeBox'Icon_NetworkPing_C:WidgetTree.CBSizeBox_11'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Icon_NetworkPing.1"
+      }
+    }
+  }
+]

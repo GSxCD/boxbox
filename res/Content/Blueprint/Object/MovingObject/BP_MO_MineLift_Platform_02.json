@@ -1,0 +1,853 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_MO_MineLift_Platform_02_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_MO_MineLift_Platform_02_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.6"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_MO_MineLift_Platform_02_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.20"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_MO_MineLift_Platform_02_C:InheritableComponentHandler'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.12"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_MO_MineLift_Platform_02_C:ExecuteUbergraph_BP_MO_MineLift_Platform_02'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.11"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_LiftMovingObject'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_MO_MineLift_Platform_02_C:BndEvt__BP_MO_MineLift_Platform_02_CollisionOverlapDestroy_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.9"
+      },
+      {
+        "ObjectName": "Function'BP_MO_MineLift_Platform_02_C:BndEvt__BP_MO_MineLift_Platform_02_CollisionOverlapDestroy_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.10"
+      },
+      {
+        "ObjectName": "Function'BP_MO_MineLift_Platform_02_C:ExecuteUbergraph_BP_MO_MineLift_Platform_02'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.11"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OGTraceLocationVelocity",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'OGTraceLocationVelocityComponent'",
+          "ObjectPath": "/Script/ACActorModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CollisionOverlapDestroy",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_MO_MineLift_Platform_02": {
+        "ObjectName": "Function'BP_MO_MineLift_Platform_02_C:ExecuteUbergraph_BP_MO_MineLift_Platform_02'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.11"
+      },
+      "BndEvt__BP_MO_MineLift_Platform_02_CollisionOverlapDestroy_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature": {
+        "ObjectName": "Function'BP_MO_MineLift_Platform_02_C:BndEvt__BP_MO_MineLift_Platform_02_CollisionOverlapDestroy_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.10"
+      },
+      "BndEvt__BP_MO_MineLift_Platform_02_CollisionOverlapDestroy_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature": {
+        "ObjectName": "Function'BP_MO_MineLift_Platform_02_C:BndEvt__BP_MO_MineLift_Platform_02_CollisionOverlapDestroy_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.9"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_MO_MineLift_Platform_02_C'Default__BP_MO_MineLift_Platform_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "CollisionOverlapDestroy_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_MineLift_Platform_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.0"
+    },
+    "Properties": {
+      "BoxExtent": {
+        "X": 280.0,
+        "Y": 280.0,
+        "Z": 15.0
+      },
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel8",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Npc",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Object",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -8.0
+      }
+    }
+  },
+  {
+    "Type": "BP_MO_MineLift_Platform_02_C",
+    "Name": "Default__BP_MO_MineLift_Platform_02_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.BP_MO_MineLift_Platform_02_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02",
+    "Properties": {
+      "UberGraphFrame": {},
+      "CoreSkeletalMesh": {
+        "ObjectName": "CBSkeletalMeshComponent'Default__BP_MO_MineLift_Platform_02_C:CoreSkeletalMesh'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.3"
+      },
+      "ObjectMovementComponent": {
+        "ObjectName": "EObjectActorMovementComponent'Default__BP_MO_MineLift_Platform_02_C:ObjectMovement'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.8"
+      },
+      "MovingObjectOverlapCollision": {
+        "ObjectName": "CBStaticMeshComponent'Default__BP_MO_MineLift_Platform_02_C:MovingOjbectOverlapCollision'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.4"
+      },
+      "fOnBoardingCheckDownOffset": 70.0,
+      "bForceOnBoardingUpdate": true,
+      "LocalLocationConvertComp": {
+        "ObjectName": "SceneComponent'Default__BP_MO_MineLift_Platform_02_C:LocalLocationConvert'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.15"
+      },
+      "ObjectAudioComponent": {
+        "ObjectName": "EAudioComponent'Default__BP_MO_MineLift_Platform_02_C:MovingObjectAudio'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.7"
+      },
+      "ObjectSpringArm": {
+        "ObjectName": "SpringArmComponent'Default__BP_MO_MineLift_Platform_02_C:SpringArm'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.21"
+      },
+      "ObjectDirectingCam": {
+        "ObjectName": "ChildActorComponent'Default__BP_MO_MineLift_Platform_02_C:DirectingCamActor'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.5"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_MineLift_Platform_02_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.16"
+      }
+    }
+  },
+  {
+    "Type": "CBSkeletalMeshComponent",
+    "Name": "CoreSkeletalMesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_MineLift_Platform_02_C'Default__BP_MO_MineLift_Platform_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.2"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_MO_MineLift_Platform_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/ABP_MO_MineLift_Platform.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'S_MineLift_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_MineLift_A01/Mesh/S_MineLift_A01.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'S_MineLift_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/S_MineLift_A01/Mesh/S_MineLift_A01.0"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_MineLift_Platform_02_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.16"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -5.0
+      }
+    }
+  },
+  {
+    "Type": "CBStaticMeshComponent",
+    "Name": "MovingOjbectOverlapCollision",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBStaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_MineLift_Platform_02_C'Default__BP_MO_MineLift_Platform_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.2"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Col_AncientSpringBoardMoving_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Collision/Col_AncientSpringBoardMoving_A01.1"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_MineLift_Platform_02_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.16"
+      },
+      "RelativeScale3D": {
+        "X": 1.4,
+        "Y": 1.4,
+        "Z": 1.0
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "DirectingCamActor",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_MineLift_Platform_02_C'Default__BP_MO_MineLift_Platform_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SpringArmComponent'Default__BP_MO_MineLift_Platform_02_C:SpringArm'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.21"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_MineLift_Platform_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.0"
+    },
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "CollisionOverlapDestroy",
+          "DelegatePropertyName": "OnComponentEndOverlap",
+          "FunctionNameToBind": "BndEvt__BP_MO_MineLift_Platform_02_CollisionOverlapDestroy_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "CollisionOverlapDestroy",
+          "DelegatePropertyName": "OnComponentBeginOverlap",
+          "FunctionNameToBind": "BndEvt__BP_MO_MineLift_Platform_02_CollisionOverlapDestroy_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EAudioComponent",
+    "Name": "MovingObjectAudio",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EAudioComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_MineLift_Platform_02_C'Default__BP_MO_MineLift_Platform_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_MineLift_Platform_02_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.16"
+      }
+    }
+  },
+  {
+    "Type": "EObjectActorMovementComponent",
+    "Name": "ObjectMovement",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EObjectActorMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_MineLift_Platform_02_C'Default__BP_MO_MineLift_Platform_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.2"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_MO_MineLift_Platform_02_CollisionOverlapDestroy_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_MineLift_Platform_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bFromSweep",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "SweepResult",
+        "Flags": "RF_Public",
+        "ElementSize": 264,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_MO_MineLift_Platform_02_CollisionOverlapDestroy_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_MineLift_Platform_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_MO_MineLift_Platform_02",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_MineLift_Platform_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OverlappedComponent_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherActor_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherComp_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherBodyIndex_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bFromSweep",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_SweepResult",
+        "Flags": "RF_Public",
+        "ElementSize": 264,
+        "PropertyFlags": "ConstParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_MineLift_Platform_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.0"
+    }
+  },
+  {
+    "Type": "OGTraceLocationVelocityComponent",
+    "Name": "OGTraceLocationVelocity_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGTraceLocationVelocityComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_MineLift_Platform_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.0"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 8.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_MineLift_Platform_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "LocalLocationConvert",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_MineLift_Platform_02_C'Default__BP_MO_MineLift_Platform_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_MineLift_Platform_02_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.16"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_MineLift_Platform_02_C'Default__BP_MO_MineLift_Platform_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.2"
+    },
+    "Properties": {
+      "PhysicsVolumeChangedDelegate": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "EObjectActorMovementComponent'Default__BP_MO_MineLift_Platform_02_C:ObjectMovement'",
+              "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.8"
+            },
+            "FunctionName": "PhysicsVolumeChanged"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MO_MineLift_Platform_02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.20"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_MO_MineLift_Platform_02_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.14"
+      },
+      "VariableGUID": "52F5C991-41589F48-37C4BD97-91CACA79",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MO_MineLift_Platform_02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.20"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_MO_MineLift_Platform_02_C:CollisionOverlapDestroy_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.1"
+      },
+      "ParentComponentOrVariableName": "RootComp",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MO_MineLift_Platform_02_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.19"
+        }
+      ],
+      "VariableGUID": "B48138A7-4F6DE32A-2A340887-BC31C1AD",
+      "InternalVariableName": "CollisionOverlapDestroy"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MO_MineLift_Platform_02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.20"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'OGTraceLocationVelocityComponent'",
+        "ObjectPath": "/Script/ACActorModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "OGTraceLocationVelocityComponent'BP_MO_MineLift_Platform_02_C:OGTraceLocationVelocity_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.13"
+      },
+      "VariableGUID": "52131460-493C6AEA-CB462B87-68965E21",
+      "InternalVariableName": "OGTraceLocationVelocity"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MO_MineLift_Platform_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MO_MineLift_Platform_02_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.18"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MO_MineLift_Platform_02_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MO_MineLift_Platform_02_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.19"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_MO_MineLift_Platform_02_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.17"
+      }
+    }
+  },
+  {
+    "Type": "SpringArmComponent",
+    "Name": "SpringArm",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_MO_MineLift_Platform_02_C'Default__BP_MO_MineLift_Platform_02_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_MO_MineLift_Platform_02_C:RootComp'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/MovingObject/BP_MO_MineLift_Platform_02.16"
+      }
+    }
+  }
+]

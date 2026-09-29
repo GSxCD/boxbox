@@ -1,0 +1,4370 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "StatInfoTable",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/Actor/StatInfoTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UEStatInfoTable'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "attackspdper_rate": {
+        "Min": 0,
+        "Max": 0,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 99,
+          "IconUse": false,
+          "String_Tid": "group_10",
+          "Local_Key": "UI_StatInfo_Group_10"
+        },
+        "Priority": 1,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "attackspdper_rate",
+        "Local_Key": "UI_AttackSpdPer_Rate"
+      },
+      "cc_resistper_rate": {
+        "Min": 0,
+        "Max": 0,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 99,
+          "IconUse": false,
+          "String_Tid": "group_10",
+          "Local_Key": "UI_StatInfo_Group_10"
+        },
+        "Priority": 2,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "cc_resistper_rate",
+        "Local_Key": "UI_CC_ResistPer_Rate"
+      },
+      "reduced_hp": {
+        "Min": 0,
+        "Max": 0,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 99,
+          "IconUse": false,
+          "String_Tid": "group_10",
+          "Local_Key": "UI_StatInfo_Group_10"
+        },
+        "Priority": 3,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "reduced_hp",
+        "Local_Key": "UI_Reduced_HP"
+      },
+      "hero_maxhp": {
+        "Min": 0,
+        "Max": 0,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 99,
+          "IconUse": false,
+          "String_Tid": "group_10",
+          "Local_Key": "UI_StatInfo_Group_10"
+        },
+        "Priority": 3,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "hero_maxhp",
+        "Local_Key": "None"
+      },
+      "skillrangeangle": {
+        "Min": 0,
+        "Max": 360,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 99,
+          "IconUse": false,
+          "String_Tid": "group_10",
+          "Local_Key": "UI_StatInfo_Group_10"
+        },
+        "Priority": 4,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "skillrangeangle",
+        "Local_Key": "UI_SkillRangeAngle"
+      },
+      "move_spd": {
+        "Min": 100,
+        "Max": 10000,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 99,
+          "IconUse": false,
+          "String_Tid": "group_10",
+          "Local_Key": "UI_StatInfo_Group_10"
+        },
+        "Priority": 5,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "move_spd",
+        "Local_Key": "UI_Move_Spd"
+      },
+      "b_atk": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Main",
+        "Icon": "stat_icon_atk",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 1,
+          "IconUse": true,
+          "String_Tid": "group_1",
+          "Local_Key": "UI_StatInfo_Group_1"
+        },
+        "Priority": 1,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "b_atk",
+        "Local_Key": "UI_B_Atk"
+      },
+      "b_def": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Main",
+        "Icon": "stat_icon_def",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 1,
+          "IconUse": true,
+          "String_Tid": "group_1",
+          "Local_Key": "UI_StatInfo_Group_1"
+        },
+        "Priority": 2,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "b_def",
+        "Local_Key": "UI_B_Def"
+      },
+      "b_maxhp": {
+        "Min": 0,
+        "Max": 999999999,
+        "Team": true,
+        "Type": "EStatInfoType::Main",
+        "Icon": "stat_icon_maxhp",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 1,
+          "IconUse": true,
+          "String_Tid": "group_1",
+          "Local_Key": "UI_StatInfo_Group_1"
+        },
+        "Priority": 3,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "b_maxhp",
+        "Local_Key": "UI_B_MaxHp"
+      },
+      "b_atk_equip": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Main",
+        "Icon": "stat_icon_atk",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 1,
+          "IconUse": true,
+          "String_Tid": "group_1",
+          "Local_Key": "UI_StatInfo_Group_1"
+        },
+        "Priority": 4,
+        "Filter_Use": [
+          "EStatFilterUse::Main"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "b_atk_equip",
+        "Local_Key": "UI_B_Atk_Equip"
+      },
+      "b_def_equip": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Main",
+        "Icon": "stat_icon_def",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 1,
+          "IconUse": true,
+          "String_Tid": "group_1",
+          "Local_Key": "UI_StatInfo_Group_1"
+        },
+        "Priority": 5,
+        "Filter_Use": [
+          "EStatFilterUse::Main"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "b_def_equip",
+        "Local_Key": "UI_B_Def_Equip"
+      },
+      "b_maxhp_equip": {
+        "Min": 0,
+        "Max": 999999999,
+        "Team": true,
+        "Type": "EStatInfoType::Main",
+        "Icon": "stat_icon_maxhp",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 1,
+          "IconUse": true,
+          "String_Tid": "group_1",
+          "Local_Key": "UI_StatInfo_Group_1"
+        },
+        "Priority": 6,
+        "Filter_Use": [
+          "EStatFilterUse::Main"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "b_maxhp_equip",
+        "Local_Key": "UI_B_MaxHp_Equip"
+      },
+      "equip_amplify_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": true,
+        "Type": "EStatInfoType::Main",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 1,
+          "IconUse": true,
+          "String_Tid": "group_1",
+          "Local_Key": "UI_StatInfo_Group_1"
+        },
+        "Priority": 7,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "equip_amplify_rate",
+        "Local_Key": "UI_Equip_Amplify_Rate"
+      },
+      "e_atk": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 1,
+          "IconUse": true,
+          "String_Tid": "group_1",
+          "Local_Key": "UI_StatInfo_Group_1"
+        },
+        "Priority": 12,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "e_atk",
+        "Local_Key": "None"
+      },
+      "t_atk": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 1,
+          "IconUse": true,
+          "String_Tid": "group_1",
+          "Local_Key": "UI_StatInfo_Group_1"
+        },
+        "Priority": 12,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "t_atk",
+        "Local_Key": "None"
+      },
+      "t_def": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 1,
+          "IconUse": true,
+          "String_Tid": "group_1",
+          "Local_Key": "UI_StatInfo_Group_1"
+        },
+        "Priority": 12,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "t_def",
+        "Local_Key": "None"
+      },
+      "t_maxhp": {
+        "Min": -999999999,
+        "Max": 999999999,
+        "Team": true,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 1,
+          "IconUse": true,
+          "String_Tid": "group_1",
+          "Local_Key": "UI_StatInfo_Group_1"
+        },
+        "Priority": 11,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "t_maxhp",
+        "Local_Key": "None"
+      },
+      "b_atk_lvadd": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 1,
+          "IconUse": true,
+          "String_Tid": "group_1",
+          "Local_Key": "UI_StatInfo_Group_1"
+        },
+        "Priority": 4,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "b_atk_lvadd",
+        "Local_Key": "UI_B_Atk_LvAdd"
+      },
+      "b_def_lvadd": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 1,
+          "IconUse": true,
+          "String_Tid": "group_1",
+          "Local_Key": "UI_StatInfo_Group_1"
+        },
+        "Priority": 5,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "b_def_lvadd",
+        "Local_Key": "UI_B_Def_LvAdd"
+      },
+      "b_maxhp_lvadd": {
+        "Min": 0,
+        "Max": 1,
+        "Team": true,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 1,
+          "IconUse": true,
+          "String_Tid": "group_1",
+          "Local_Key": "UI_StatInfo_Group_1"
+        },
+        "Priority": 6,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "b_maxhp_lvadd",
+        "Local_Key": "UI_B_MaxHp_LvAdd"
+      },
+      "i_atkadd_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Main",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 1,
+          "IconUse": true,
+          "String_Tid": "group_1",
+          "Local_Key": "UI_StatInfo_Group_1"
+        },
+        "Priority": 8,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "i_atkadd_rate",
+        "Local_Key": "UI_I_AtkAdd_Rate"
+      },
+      "i_defadd_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Main",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 1,
+          "IconUse": true,
+          "String_Tid": "group_1",
+          "Local_Key": "UI_StatInfo_Group_1"
+        },
+        "Priority": 9,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "i_defadd_rate",
+        "Local_Key": "UI_I_DefAdd_Rate"
+      },
+      "i_maxhpadd_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": true,
+        "Type": "EStatInfoType::Main",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 1,
+          "IconUse": true,
+          "String_Tid": "group_1",
+          "Local_Key": "UI_StatInfo_Group_1"
+        },
+        "Priority": 10,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "i_maxhpadd_rate",
+        "Local_Key": "UI_I_MaxHpAdd_Rate"
+      },
+      "a_accuracy": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 1,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_2",
+          "Local_Key": "UI_StatInfo_Group_2"
+        },
+        "Priority": 1,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": true,
+        "String_Tid": "a_accuracy",
+        "Local_Key": "UI_A_Accuracy"
+      },
+      "a_block": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 1,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_2",
+          "Local_Key": "UI_StatInfo_Group_2"
+        },
+        "Priority": 2,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": true,
+        "String_Tid": "a_block",
+        "Local_Key": "UI_A_Block"
+      },
+      "a_block_rate": {
+        "Min": -9999,
+        "Max": 10000,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 1,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_2",
+          "Local_Key": "UI_StatInfo_Group_2"
+        },
+        "Priority": 4,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": true,
+        "String_Tid": "a_block_rate",
+        "Local_Key": "UI_A_Block_Rate"
+      },
+      "d_block_damres_rate": {
+        "Min": 0,
+        "Max": 10000,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 1,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_2",
+          "Local_Key": "UI_StatInfo_Group_2"
+        },
+        "Priority": 5,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "d_block_damres_rate",
+        "Local_Key": "UI_D_Block_DamRes_Rate"
+      },
+      "c_critical_rate": {
+        "Min": 0,
+        "Max": 10000,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 1,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_2",
+          "Local_Key": "UI_StatInfo_Group_2"
+        },
+        "Priority": 6,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "c_critical_rate",
+        "Local_Key": "UI_C_Critical_Rate"
+      },
+      "c_critical_resrate": {
+        "Min": 0,
+        "Max": 10000,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 1,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_2",
+          "Local_Key": "UI_StatInfo_Group_2"
+        },
+        "Priority": 7,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "c_critical_resrate",
+        "Local_Key": "UI_C_Critical_ResRate"
+      },
+      "c_critical_dam_rate": {
+        "Min": 0,
+        "Max": 50000,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 1,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_2",
+          "Local_Key": "UI_StatInfo_Group_2"
+        },
+        "Priority": 8,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "c_critical_dam_rate",
+        "Local_Key": "UI_C_Critical_Dam_Rate"
+      },
+      "c_critical_damres_rate": {
+        "Min": 0,
+        "Max": 50000,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 1,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_2",
+          "Local_Key": "UI_StatInfo_Group_2"
+        },
+        "Priority": 9,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "c_critical_damres_rate",
+        "Local_Key": "UI_C_Critical_DamRes_Rate"
+      },
+      "d_protect_cur_rate": {
+        "Min": 0,
+        "Max": 10000,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 1,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_2",
+          "Local_Key": "UI_StatInfo_Group_2"
+        },
+        "Priority": 10,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "d_protect_cur_rate",
+        "Local_Key": "UI_D_Protect_Cur_Rate"
+      },
+      "d_protect_curres_rate": {
+        "Min": 0,
+        "Max": 10000,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 1,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_2",
+          "Local_Key": "UI_StatInfo_Group_2"
+        },
+        "Priority": 11,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "d_protect_curres_rate",
+        "Local_Key": "UI_D_Protect_CurRes_Rate"
+      },
+      "b_pvp_dam_inc": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 1,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_2",
+          "Local_Key": "UI_StatInfo_Group_2"
+        },
+        "Priority": 12,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "b_pvp_dam_inc",
+        "Local_Key": "UI_B_PVP_Dam_Inc"
+      },
+      "b_pvp_dam_dec": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 1,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_2",
+          "Local_Key": "UI_StatInfo_Group_2"
+        },
+        "Priority": 13,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "b_pvp_dam_dec",
+        "Local_Key": "UI_B_PVP_Dam_Dec"
+      },
+      "i_normal_damadd_rate": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 1,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "i_normal_damadd_rate",
+        "Local_Key": "UI_I_Normal_DamAdd_Rate"
+      },
+      "d_normal_damres_rate": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 2,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "d_normal_damres_rate",
+        "Local_Key": "UI_D_Normal_DamRes_Rate"
+      },
+      "i_skill_damadd_rate": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 3,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "i_skill_damadd_rate",
+        "Local_Key": "UI_I_Skill_DamAdd_Rate"
+      },
+      "d_skill_damres_rate": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 4,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "d_skill_damres_rate",
+        "Local_Key": "UI_D_Skill_DamRes_Rate"
+      },
+      "normalattack_damadd_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 1,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "normalattack_damadd_rate",
+        "Local_Key": "UI_Normalattack_Damadd_Rate"
+      },
+      "normalattack_damres_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 2,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "normalattack_damres_rate",
+        "Local_Key": "UI_Normalattack_Damres_Rate"
+      },
+      "aerialattack_damadd_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 3,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "aerialattack_damadd_rate",
+        "Local_Key": "UI_Aerialattack_Damadd_Rate"
+      },
+      "aerialattack_damres_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 4,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "aerialattack_damres_rate",
+        "Local_Key": "UI_Aerialattack_Damres_Rate"
+      },
+      "activethird_damadd_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 5,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "activethird_damadd_rate",
+        "Local_Key": "UI_Activethird_Damadd_Rate"
+      },
+      "activethird_damres_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 6,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "activethird_damres_rate",
+        "Local_Key": "UI_Activethird_Damres_Rate"
+      },
+      "normalskill_damadd_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 7,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "normalskill_damadd_rate",
+        "Local_Key": "UI_Normalskill_Damadd_Rate"
+      },
+      "normalskill_damres_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 8,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "normalskill_damres_rate",
+        "Local_Key": "UI_Normalskill_Damres_Rate"
+      },
+      "normalskillchangetag_damadd_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 9,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "normalskillchangetag_damadd_rate",
+        "Local_Key": "UI_Normalskillchangetag_Damadd_Rate"
+      },
+      "normalskillchangetag_damres_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 10,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "normalskillchangetag_damres_rate",
+        "Local_Key": "UI_Normalskillchangetag_Damres_Rate"
+      },
+      "ultimateskill_damadd_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 11,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "ultimateskill_damadd_rate",
+        "Local_Key": "UI_Ultimateskill_Damadd_Rate"
+      },
+      "ultimateskill_damres_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 12,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "ultimateskill_damres_rate",
+        "Local_Key": "UI_Ultimateskill_Damres_Rate"
+      },
+      "i_all_damadd_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 13,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "i_all_damadd_rate",
+        "Local_Key": "UI_I_All_DamAdd_Rate"
+      },
+      "d_all_damres_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 14,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "d_all_damres_rate",
+        "Local_Key": "UI_D_All_DamRes_Rate"
+      },
+      "final_all_dam_rate": {
+        "Min": -10000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_3",
+          "Local_Key": "UI_StatInfo_Group_3"
+        },
+        "Priority": 15,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "final_all_dam_rate",
+        "Local_Key": "UI_Final_All_Dam_Rate"
+      },
+      "d_refdam_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 1,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "d_refdam_rate",
+        "Local_Key": "UI_D_RefDam_Rate"
+      },
+      "p_shield_rate": {
+        "Min": -10000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 2,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "p_shield_rate",
+        "Local_Key": "UI_P_Shield_Rate"
+      },
+      "p_shield_damadd": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 3,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "p_shield_damadd",
+        "Local_Key": "UI_P_Shield_DamAdd"
+      },
+      "p_shield_add": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 4,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "p_shield_add",
+        "Local_Key": "UI_P_Shield_Add"
+      },
+      "h_healpower": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 5,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "h_healpower",
+        "Local_Key": "UI_H_HealPower"
+      },
+      "h_healpower_rate": {
+        "Min": -10000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 6,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "h_healpower_rate",
+        "Local_Key": "UI_H_HealPower_Rate"
+      },
+      "h_healpower_tick": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 7,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "h_healpower_tick",
+        "Local_Key": "UI_H_HealPower_Tick"
+      },
+      "h_healpower_tick_rate": {
+        "Min": -10000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 8,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "h_healpower_tick_rate",
+        "Local_Key": "UI_H_HealPower_Tick_Rate"
+      },
+      "h_healreceive_rate": {
+        "Min": -10000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 9,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "h_healreceive_rate",
+        "Local_Key": "UI_H_HealReceive_Rate"
+      },
+      "h_vampireheal_rate": {
+        "Min": 0,
+        "Max": 2500,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 10,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "h_vampireheal_rate",
+        "Local_Key": "UI_H_VampireHeal_Rate"
+      },
+      "s_skillrecycle_rate": {
+        "Min": -999999,
+        "Max": 10000,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 11,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "s_skillrecycle_rate",
+        "Local_Key": "UI_S_SkillRecycle_Rate"
+      },
+      "s_movespdadd_rate": {
+        "Min": -9999,
+        "Max": 10000,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 12,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "s_movespdadd_rate",
+        "Local_Key": "UI_S_MoveSpdAdd_Rate"
+      },
+      "s_townspdadd_rate": {
+        "Min": -9999,
+        "Max": 10000,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 13,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "s_townspdadd_rate",
+        "Local_Key": "UI_S_TownSpdAdd_Rate"
+      },
+      "mf_chargeeffic_rate": {
+        "Min": -10000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 14,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "mf_chargeeffic_rate",
+        "Local_Key": "UI_MF_ChargeEffic_Rate"
+      },
+      "mf_protect_rate": {
+        "Min": -10000,
+        "Max": 10000,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 15,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "mf_protect_rate",
+        "Local_Key": "UI_MF_Protect_Rate"
+      },
+      "mf_assim_rate": {
+        "Min": -10000,
+        "Max": 10000,
+        "Team": true,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 16,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "mf_assim_rate",
+        "Local_Key": "UI_MF_Assim_Rate"
+      },
+      "mf_costreduce_rate_ultimateskill": {
+        "Min": -10000,
+        "Max": 10000,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 22,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "mf_costreduce_rate_ultimateskill",
+        "Local_Key": "UI_MF_CostReduce_Rate_UltimateSkill"
+      },
+      "m_detectdisadd_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 17,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "m_detectdisadd_rate",
+        "Local_Key": "UI_M_DetectDIsAdd_Rate"
+      },
+      "max_stamina": {
+        "Min": 0,
+        "Max": 10000,
+        "Team": true,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 18,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "max_stamina",
+        "Local_Key": "UI_Max_Stamina"
+      },
+      "recoverystaminaamount": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": true,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 19,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "recoverystaminaamount",
+        "Local_Key": "UI_RecoveryStaminaAmount"
+      },
+      "maxsp_rate": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 20,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "maxsp_rate",
+        "Local_Key": "UI_MaxSP_Rate"
+      },
+      "recoverysp_rate": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 0,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_4",
+          "Local_Key": "UI_StatInfo_Group_4"
+        },
+        "Priority": 21,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "recoverysp_rate",
+        "Local_Key": "UI_MaxSP_Rate"
+      },
+      "allelement_add": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 1,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "allelement_add",
+        "Local_Key": "UI_AllElement_Add"
+      },
+      "default_add": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 2,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "default_add",
+        "Local_Key": "UI_Default_Add"
+      },
+      "thunder_add": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 3,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "thunder_add",
+        "Local_Key": "UI_Thunder_Add"
+      },
+      "wind_add": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 4,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "wind_add",
+        "Local_Key": "UI_Wind_Add"
+      },
+      "fire_add": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 5,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "fire_add",
+        "Local_Key": "UI_Fire_Add"
+      },
+      "ice_add": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 6,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "ice_add",
+        "Local_Key": "UI_Ice_Add"
+      },
+      "earth_add": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 7,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "earth_add",
+        "Local_Key": "UI_Earth_Add"
+      },
+      "dark_add": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 8,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "dark_add",
+        "Local_Key": "UI_Dark_Add"
+      },
+      "holy_add": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 9,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "holy_add",
+        "Local_Key": "UI_Holy_Add"
+      },
+      "venom_add": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 10,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "venom_add",
+        "Local_Key": "UI_Venom_Add"
+      },
+      "water_add": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 11,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "water_add",
+        "Local_Key": "UI_Water_Add"
+      },
+      "allelement_res": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 12,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "allelement_res",
+        "Local_Key": "UI_AllElement_Res"
+      },
+      "default_res": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 13,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "default_res",
+        "Local_Key": "UI_Default_Res"
+      },
+      "thunder_res": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 14,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "thunder_res",
+        "Local_Key": "UI_Thunder_Res"
+      },
+      "wind_res": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 15,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "wind_res",
+        "Local_Key": "UI_Wind_Res"
+      },
+      "fire_res": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 16,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "fire_res",
+        "Local_Key": "UI_Fire_Res"
+      },
+      "ice_res": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 17,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "ice_res",
+        "Local_Key": "UI_Ice_Res"
+      },
+      "earth_res": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 18,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "earth_res",
+        "Local_Key": "UI_Earth_Res"
+      },
+      "dark_res": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 19,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "dark_res",
+        "Local_Key": "UI_Dark_Res"
+      },
+      "holy_res": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Sub",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 20,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "holy_res",
+        "Local_Key": "UI_Holy_Res"
+      },
+      "venom_res": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 21,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "venom_res",
+        "Local_Key": "UI_Venom_Res"
+      },
+      "water_res": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 1,
+          "IconUse": false,
+          "String_Tid": "group_5",
+          "Local_Key": "UI_StatInfo_Group_5"
+        },
+        "Priority": 22,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "water_res",
+        "Local_Key": "UI_Water_Res"
+      },
+      "allelement_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 1,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "allelement_rate",
+        "Local_Key": "UI_AllElement_Rate"
+      },
+      "default_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 2,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "default_rate",
+        "Local_Key": "UI_Default_Rate"
+      },
+      "thunder_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 3,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "thunder_rate",
+        "Local_Key": "UI_Thunder_Rate"
+      },
+      "wind_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 4,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "wind_rate",
+        "Local_Key": "UI_Wind_Rate"
+      },
+      "fire_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 5,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "fire_rate",
+        "Local_Key": "UI_Fire_Rate"
+      },
+      "ice_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 6,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "ice_rate",
+        "Local_Key": "UI_Ice_Rate"
+      },
+      "earth_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 7,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "earth_rate",
+        "Local_Key": "UI_Earth_Rate"
+      },
+      "dark_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 8,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "dark_rate",
+        "Local_Key": "UI_Dark_Rate"
+      },
+      "holy_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 9,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "holy_rate",
+        "Local_Key": "UI_Holy_Rate"
+      },
+      "venom_rate": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 10,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "venom_rate",
+        "Local_Key": "UI_Venom_Rate"
+      },
+      "water_rate": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 11,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "water_rate",
+        "Local_Key": "UI_Water_Rate"
+      },
+      "allelement_res_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 12,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "allelement_res_rate",
+        "Local_Key": "UI_AllElement_Res_Rate"
+      },
+      "default_res_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 13,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "default_res_rate",
+        "Local_Key": "UI_Default_Res_Rate"
+      },
+      "thunder_res_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 14,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "thunder_res_rate",
+        "Local_Key": "UI_Thunder_Res_Rate"
+      },
+      "wind_res_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 15,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "wind_res_rate",
+        "Local_Key": "UI_Wind_Res_Rate"
+      },
+      "fire_res_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 16,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "fire_res_rate",
+        "Local_Key": "UI_Fire_Res_Rate"
+      },
+      "ice_res_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 17,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "ice_res_rate",
+        "Local_Key": "UI_Ice_Res_Rate"
+      },
+      "earth_res_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 18,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "earth_res_rate",
+        "Local_Key": "UI_Earth_Res_Rate"
+      },
+      "dark_res_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 19,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "dark_res_rate",
+        "Local_Key": "UI_Dark_Res_Rate"
+      },
+      "holy_res_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 20,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "holy_res_rate",
+        "Local_Key": "UI_Holy_Res_Rate"
+      },
+      "venom_res_rate": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 21,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "venom_res_rate",
+        "Local_Key": "UI_Venom_Res_Rate"
+      },
+      "water_res_rate": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 2,
+          "IconUse": false,
+          "String_Tid": "group_6",
+          "Local_Key": "UI_StatInfo_Group_6"
+        },
+        "Priority": 22,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "water_res_rate",
+        "Local_Key": "UI_Water_Res_Rate"
+      },
+      "allelement_value": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_7",
+          "Local_Key": "UI_StatInfo_Group_7"
+        },
+        "Priority": 1,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "allelement_value",
+        "Local_Key": "UI_AllElement_Value"
+      },
+      "default_value": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_7",
+          "Local_Key": "UI_StatInfo_Group_7"
+        },
+        "Priority": 2,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "default_value",
+        "Local_Key": "UI_Default_Value"
+      },
+      "thunder_value": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_7",
+          "Local_Key": "UI_StatInfo_Group_7"
+        },
+        "Priority": 3,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "thunder_value",
+        "Local_Key": "UI_Thunder_Value"
+      },
+      "wind_value": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_7",
+          "Local_Key": "UI_StatInfo_Group_7"
+        },
+        "Priority": 4,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "wind_value",
+        "Local_Key": "UI_Wind_Value"
+      },
+      "fire_value": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_7",
+          "Local_Key": "UI_StatInfo_Group_7"
+        },
+        "Priority": 5,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "fire_value",
+        "Local_Key": "UI_Fire_Value"
+      },
+      "ice_value": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_7",
+          "Local_Key": "UI_StatInfo_Group_7"
+        },
+        "Priority": 6,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "ice_value",
+        "Local_Key": "UI_Ice_Value"
+      },
+      "earth_value": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_7",
+          "Local_Key": "UI_StatInfo_Group_7"
+        },
+        "Priority": 7,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "earth_value",
+        "Local_Key": "UI_Earth_Value"
+      },
+      "dark_value": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_7",
+          "Local_Key": "UI_StatInfo_Group_7"
+        },
+        "Priority": 8,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "dark_value",
+        "Local_Key": "UI_Dark_Value"
+      },
+      "holy_value": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_7",
+          "Local_Key": "UI_StatInfo_Group_7"
+        },
+        "Priority": 9,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "holy_value",
+        "Local_Key": "UI_Holy_Value"
+      },
+      "venom_value": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_7",
+          "Local_Key": "UI_StatInfo_Group_7"
+        },
+        "Priority": 10,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "venom_value",
+        "Local_Key": "UI_Venom_Value"
+      },
+      "water_value": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_7",
+          "Local_Key": "UI_StatInfo_Group_7"
+        },
+        "Priority": 11,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "water_value",
+        "Local_Key": "UI_Water_Value"
+      },
+      "mf_stackmax": {
+        "Min": 0,
+        "Max": 7,
+        "Team": true,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 3,
+          "IconUse": false,
+          "String_Tid": "group_7",
+          "Local_Key": "UI_StatInfo_Group_7"
+        },
+        "Priority": 12,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "mf_stackmax",
+        "Local_Key": "UI_MF_StackMax"
+      },
+      "all_element_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 1,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "all_element_rate",
+        "Local_Key": "UI_All_Element_Rate"
+      },
+      "default_element_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 2,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "default_element_rate",
+        "Local_Key": "UI_Default_Element_Rate"
+      },
+      "thunder_element_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 3,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "thunder_element_rate",
+        "Local_Key": "UI_Thunder_Element_Rate"
+      },
+      "wind_element_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 4,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "wind_element_rate",
+        "Local_Key": "UI_Wind_Element_Rate"
+      },
+      "fire_element_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 5,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "fire_element_rate",
+        "Local_Key": "UI_Fire_Element_Rate"
+      },
+      "ice_element_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 6,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "ice_element_rate",
+        "Local_Key": "UI_Ice_Element_Rate"
+      },
+      "earth_element_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 7,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "earth_element_rate",
+        "Local_Key": "UI_Earth_Element_Rate"
+      },
+      "dark_element_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 8,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "dark_element_rate",
+        "Local_Key": "UI_Dark_Element_Rate"
+      },
+      "holy_element_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 9,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "holy_element_rate",
+        "Local_Key": "UI_Holy_Element_Rate"
+      },
+      "venom_element_rate": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 10,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "venom_element_rate",
+        "Local_Key": "UI_Venom_Element_Rate"
+      },
+      "water_element_rate": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 11,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "water_element_rate",
+        "Local_Key": "UI_Water_Element_Rate"
+      },
+      "all_element_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 12,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "all_element_res_rate",
+        "Local_Key": "UI_All_Element_Res_Rate"
+      },
+      "default_element_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 13,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "default_element_res_rate",
+        "Local_Key": "UI_Default_Element_Res_Rate"
+      },
+      "thunder_element_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 14,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "thunder_element_res_rate",
+        "Local_Key": "UI_Thunder_Element_Res_Rate"
+      },
+      "wind_element_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 15,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "wind_element_res_rate",
+        "Local_Key": "UI_Wind_Element_Res_Rate"
+      },
+      "fire_element_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 16,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "fire_element_res_rate",
+        "Local_Key": "UI_Fire_Element_Res_Rate"
+      },
+      "ice_element_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 17,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "ice_element_res_rate",
+        "Local_Key": "UI_Ice_Element_Res_Rate"
+      },
+      "earth_element_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 18,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "earth_element_res_rate",
+        "Local_Key": "UI_Earth_Element_Res_Rate"
+      },
+      "dark_element_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 19,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "dark_element_res_rate",
+        "Local_Key": "UI_Dark_Element_Res_Rate"
+      },
+      "holy_element_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 20,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "holy_element_res_rate",
+        "Local_Key": "UI_Holy_Element_Res_Rate"
+      },
+      "venom_element_res_rate": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 21,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "venom_element_res_rate",
+        "Local_Key": "UI_Venom_Element_Res_Rate"
+      },
+      "water_element_res_rate": {
+        "Min": 0,
+        "Max": 1,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 20,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "water_element_res_rate",
+        "Local_Key": "UI_Water_Element_Res_Rate"
+      },
+      "default_weakness_rate": {
+        "Min": -10000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 22,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "default_weakness_rate",
+        "Local_Key": "UI_Default_Weakness_Rate"
+      },
+      "thunder_weakness_rate": {
+        "Min": -10000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 23,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "thunder_weakness_rate",
+        "Local_Key": "UI_Thunder_Weakness_Rate"
+      },
+      "wind_weakness_rate": {
+        "Min": -10000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 24,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "wind_weakness_rate",
+        "Local_Key": "UI_Wind_Weakness_Rate"
+      },
+      "fire_weakness_rate": {
+        "Min": -10000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 25,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "fire_weakness_rate",
+        "Local_Key": "UI_Fire_Weakness_Rate"
+      },
+      "ice_weakness_rate": {
+        "Min": -10000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 26,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "ice_weakness_rate",
+        "Local_Key": "UI_Ice_Weakness_Rate"
+      },
+      "earth_weakness_rate": {
+        "Min": -10000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 27,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "earth_weakness_rate",
+        "Local_Key": "UI_Earth_Weakness_Rate"
+      },
+      "dark_weakness_rate": {
+        "Min": -10000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 28,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "dark_weakness_rate",
+        "Local_Key": "UI_Dark_Weakness_Rate"
+      },
+      "holy_weakness_rate": {
+        "Min": -10000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 4,
+          "IconUse": false,
+          "String_Tid": "group_8",
+          "Local_Key": "UI_StatInfo_Group_8"
+        },
+        "Priority": 29,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "holy_weakness_rate",
+        "Local_Key": "UI_Holy_Weakness_Rate"
+      },
+      "breath_addrate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": true,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 1,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "breath_addrate",
+        "Local_Key": "UI_Breath_AddRate"
+      },
+      "breath_max_add": {
+        "Min": -999999,
+        "Max": 999999,
+        "Team": true,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 2,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "breath_max_add",
+        "Local_Key": "UI_Breath_Max_Add"
+      },
+      "breath_recoverytime_rate": {
+        "Min": -10000,
+        "Max": 999999,
+        "Team": true,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 3,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "breath_recoverytime_rate",
+        "Local_Key": "UI_Breath_RecoveryTime_Rate"
+      },
+      "falldam_value": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 4,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "falldam_value",
+        "Local_Key": "UI_FallDam_Value"
+      },
+      "recfalldam_value": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 5,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "recfalldam_value",
+        "Local_Key": "UI_RecFallDam_Value"
+      },
+      "vampireheal_value": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 6,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "vampireheal_value",
+        "Local_Key": "UI_VampireHeal_Value"
+      },
+      "healreceive_value": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 7,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "healreceive_value",
+        "Local_Key": "UI_HealReceive_Value"
+      },
+      "tickdam_rate": {
+        "Min": -10000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 9,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "tickdam_rate",
+        "Local_Key": "UI_TickDam_Rate"
+      },
+      "tickdam_period_rate": {
+        "Min": -10000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 10,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "tickdam_period_rate",
+        "Local_Key": "UI_TickDam_Period_Rate"
+      },
+      "debuff_time_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 11,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "debuff_time_rate",
+        "Local_Key": "UI_Debuff_Time_Rate"
+      },
+      "buff_time_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 12,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "buff_time_rate",
+        "Local_Key": "UI_Buff_Time_Rate"
+      },
+      "threaten_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 13,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "threaten_rate",
+        "Local_Key": "UI_Threaten_Rate"
+      },
+      "s_glidingspdadd_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 9,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "s_glidingspdadd_rate",
+        "Local_Key": "UI_Gliding_MoveSpd_Rate"
+      },
+      "s_swimspdadd_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 10,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "s_swimspdadd_rate",
+        "Local_Key": "UI_Swim_MoveSpd_Rate"
+      },
+      "s_underwaterspdadd_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 11,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "s_underwaterspdadd_rate",
+        "Local_Key": "UI_Diving_MoveSpd_Rate"
+      },
+      "s_glidingstamina_rate": {
+        "Min": -15000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 12,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "s_glidingstamina_rate",
+        "Local_Key": "UI_Gliding_Stamina_Res_Rate"
+      },
+      "s_swimstamina_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 13,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "s_swimstamina_rate",
+        "Local_Key": "UI_Swim_Stamina_Res_Rate"
+      },
+      "s_petflyingspdadd_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 14,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "s_petflyingspdadd_rate",
+        "Local_Key": "UI_S_Petflyingspdadd_Rate"
+      },
+      "s_petflyingstamina_rate": {
+        "Min": -15000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 15,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "s_petflyingstamina_rate",
+        "Local_Key": "UI_S_Petflyingstamina_Rate"
+      },
+      "temp_hot_res": {
+        "Min": -3,
+        "Max": 3,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 14,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "temp_hot_res",
+        "Local_Key": "UI_Temp_Hot_Res"
+      },
+      "temp_cold_res": {
+        "Min": -3,
+        "Max": 3,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 15,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "temp_cold_res",
+        "Local_Key": "UI_Temp_Cold_Res"
+      },
+      "burst_gauge_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 16,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "burst_gauge_rate",
+        "Local_Key": "UI_Burst_Gauge_Rate"
+      },
+      "thunder_burst_gauge_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 24,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "thunder_burst_gauge_rate",
+        "Local_Key": "UI_Thunder_Burst_Gauge_Rate"
+      },
+      "wind_burst_gauge_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 25,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "wind_burst_gauge_rate",
+        "Local_Key": "UI_Wind_Burst_Gauge_Rate"
+      },
+      "fire_burst_gauge_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 26,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "fire_burst_gauge_rate",
+        "Local_Key": "UI_Fire_Burst_Gauge_Rate"
+      },
+      "ice_burst_gauge_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 27,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "ice_burst_gauge_rate",
+        "Local_Key": "UI_Ice_Burst_Gauge_Rate"
+      },
+      "earth_burst_gauge_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 28,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "earth_burst_gauge_rate",
+        "Local_Key": "UI_Earth_Burst_Gauge_Rate"
+      },
+      "dark_burst_gauge_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 29,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "dark_burst_gauge_rate",
+        "Local_Key": "UI_Dark_Burst_Gauge_Rate"
+      },
+      "holy_burst_gauge_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 30,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "holy_burst_gauge_rate",
+        "Local_Key": "UI_Holy_Burst_Gauge_Rate"
+      },
+      "default_burst_gauge_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::NonHide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 31,
+        "Filter_Use": [
+          "EStatFilterUse::Sub"
+        ],
+        "Detail_Tooltip": false,
+        "String_Tid": "default_burst_gauge_rate",
+        "Local_Key": "UI_Default_Burst_Gauge_Rate"
+      },
+      "burst_gauge_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 17,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "burst_gauge_res_rate",
+        "Local_Key": "UI_Burst_Gauge_Res_Rate"
+      },
+      "thunder_burst_gauge_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 32,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "thunder_burst_gauge_res_rate",
+        "Local_Key": "UI_Thunder_Burst_Gauge_Res_Rate"
+      },
+      "wind_burst_gauge_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 33,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "wind_burst_gauge_res_rate",
+        "Local_Key": "UI_Wind_Burst_Gauge_Res_Rate"
+      },
+      "fire_burst_gauge_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 34,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "fire_burst_gauge_res_rate",
+        "Local_Key": "UI_Fire_Burst_Gauge_Res_Rate"
+      },
+      "ice_burst_gauge_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 35,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "ice_burst_gauge_res_rate",
+        "Local_Key": "UI_Ice_Burst_Gauge_Res_Rate"
+      },
+      "earth_burst_gauge_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 36,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "earth_burst_gauge_res_rate",
+        "Local_Key": "UI_Earth_Burst_Gauge_Res_Rate"
+      },
+      "dark_burst_gauge_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 37,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "dark_burst_gauge_res_rate",
+        "Local_Key": "UI_Dark_Burst_Gauge_Res_Rate"
+      },
+      "holy_burst_gauge_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 38,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "holy_burst_gauge_res_rate",
+        "Local_Key": "UI_Holy_Burst_Gauge_Res_Rate"
+      },
+      "default_burst_gauge_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 39,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "default_burst_gauge_res_rate",
+        "Local_Key": "UI_Default_Burst_Gauge_Res_Rate"
+      },
+      "burst_gauge_extra": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 18,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "burst_gauge_extra",
+        "Local_Key": "UI_Burst_Gauge_Extra"
+      },
+      "m_burst_gauge": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 19,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "m_burst_gauge",
+        "Local_Key": "UI_M_Burst_Gauge"
+      },
+      "burstactivation_duration_rate": {
+        "Min": -10000,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 20,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "burstactivation_duration_rate",
+        "Local_Key": "None"
+      },
+      "h_revivalheal_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 21,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "h_revivalheal_rate",
+        "Local_Key": "UI_H_RevivalHeal_Rate"
+      },
+      "makingtime_res_rate": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 22,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "makingtime_res_rate",
+        "Local_Key": "None"
+      },
+      "makingtime_res": {
+        "Min": -9999,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 23,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "makingtime_res",
+        "Local_Key": "None"
+      },
+      "thunder_event_gauge_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 40,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "thunder_event_gauge_rate",
+        "Local_Key": "UI_Thunder_Event_Gauge_Rate"
+      },
+      "wind_event_gauge_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 41,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "wind_event_gauge_rate",
+        "Local_Key": "UI_Wind_Event_Gauge_Rate"
+      },
+      "fire_event_gauge_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 42,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "fire_event_gauge_rate",
+        "Local_Key": "UI_Fire_Event_Gauge_Rate"
+      },
+      "ice_event_gauge_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 43,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "ice_event_gauge_rate",
+        "Local_Key": "UI_Ice_Event_Gauge_Rate"
+      },
+      "earth_event_gauge_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 44,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "earth_event_gauge_rate",
+        "Local_Key": "UI_Earth_Event_Gauge_Rate"
+      },
+      "dark_event_gauge_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 45,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "dark_event_gauge_rate",
+        "Local_Key": "UI_Dark_Event_Gauge_Rate"
+      },
+      "holy_event_gauge_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 46,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "holy_event_gauge_rate",
+        "Local_Key": "UI_Holy_Event_Gauge_Rate"
+      },
+      "default_event_gauge_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 47,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "default_event_gauge_rate",
+        "Local_Key": "UI_Default_Event_Gauge_Rate"
+      },
+      "thunder_event_gauge_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 48,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "thunder_event_gauge_res_rate",
+        "Local_Key": "UI_Thunder_Event_Gauge_Res_Rate"
+      },
+      "wind_event_gauge_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 49,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "wind_event_gauge_res_rate",
+        "Local_Key": "UI_Wind_Event_Gauge_Res_Rate"
+      },
+      "fire_event_gauge_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 50,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "fire_event_gauge_res_rate",
+        "Local_Key": "UI_Fire_Event_Gauge_Res_Rate"
+      },
+      "ice_event_gauge_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 51,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "ice_event_gauge_res_rate",
+        "Local_Key": "UI_Ice_Event_Gauge_Res_Rate"
+      },
+      "earth_event_gauge_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 52,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "earth_event_gauge_res_rate",
+        "Local_Key": "UI_Earth_Event_Gauge_Res_Rate"
+      },
+      "dark_event_gauge_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 53,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "dark_event_gauge_res_rate",
+        "Local_Key": "UI_Dark_Event_Gauge_Res_Rate"
+      },
+      "holy_event_gauge_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 54,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "holy_event_gauge_res_rate",
+        "Local_Key": "UI_Holy_Event_Gauge_Res_Rate"
+      },
+      "default_event_gauge_res_rate": {
+        "Min": 0,
+        "Max": 999999,
+        "Team": false,
+        "Type": "EStatInfoType::Hide",
+        "Icon": "None",
+        "GroupID": {
+          "UI_Location": 2,
+          "Priority": 98,
+          "IconUse": false,
+          "String_Tid": "group_9",
+          "Local_Key": "UI_StatInfo_Group_9"
+        },
+        "Priority": 55,
+        "Filter_Use": [],
+        "Detail_Tooltip": false,
+        "String_Tid": "default_event_gauge_res_rate",
+        "Local_Key": "UI_Default_Event_Gauge_Res_Rate"
+      }
+    }
+  }
+]

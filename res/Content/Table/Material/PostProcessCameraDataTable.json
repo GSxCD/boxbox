@@ -1,0 +1,235 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PostProcessCameraDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/Material/PostProcessCameraDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UEPostProcessCameraDataTable'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "ScanEffect": {
+        "PostProcessLens": {
+          "ChomaticAberration": {
+            "bSceneFringeIntensity": true,
+            "SceneFringeIntensityDestroyTime": 0.8,
+            "SceneFringeIntensityDestoryType": "PostProcessDestroyType::AnimationEndDelay",
+            "SceneFringeIntensity": [
+              {
+                "Time": 0.0,
+                "Value": 0.0
+              },
+              {
+                "Time": 0.2,
+                "Value": 4.0
+              },
+              {
+                "Time": 0.8,
+                "Value": 0.0
+              }
+            ],
+            "bAberrationStartOffset": false,
+            "StartOffsetDestroyTime": 0.0,
+            "StartOffsetDestoryType": "PostProcessDestroyType::Immediately",
+            "StartOffset": []
+          },
+          "Bloom": {
+            "bBloomIntensity": false,
+            "BloomIntensity": 0.0,
+            "bBloomThreshold": false,
+            "BloomThresholdDestroyTime": 0.0,
+            "BloomThresholdDestoryType": "PostProcessDestroyType::Immediately",
+            "BloomThreshold": [],
+            "Advance": {
+              "bOverride_Bloom1Tint": false,
+              "Bloom1Tint": {
+                "R": 0.3465,
+                "G": 0.3465,
+                "B": 0.3465,
+                "A": 0.0,
+                "Hex": "9F9F9F"
+              },
+              "bOverride_Bloom2Tint": false,
+              "Bloom2Tint": {
+                "R": 0.3465,
+                "G": 0.3465,
+                "B": 0.3465,
+                "A": 0.0,
+                "Hex": "9F9F9F"
+              },
+              "bOverride_Bloom3Tint": false,
+              "Bloom3Tint": {
+                "R": 0.3465,
+                "G": 0.3465,
+                "B": 0.3465,
+                "A": 0.0,
+                "Hex": "9F9F9F"
+              },
+              "bOverride_Bloom4Tint": false,
+              "Bloom4Tint": {
+                "R": 0.3465,
+                "G": 0.3465,
+                "B": 0.3465,
+                "A": 0.0,
+                "Hex": "9F9F9F"
+              },
+              "bOverride_Bloom5Tint": false,
+              "Bloom5Tint": {
+                "R": 0.3465,
+                "G": 0.3465,
+                "B": 0.3465,
+                "A": 0.0,
+                "Hex": "9F9F9F"
+              }
+            }
+          },
+          "ImageEffects": {},
+          "LensFlares": {
+            "bOverride_LensFlareIntensity": false,
+            "LensFlareIntensityDestroyTime": 0.0,
+            "LensFlareIntensityDestoryType": "PostProcessDestroyType::Immediately",
+            "Intensity": [],
+            "bOverride_LensFlareTint": false,
+            "LensFlareTint": {
+              "R": 0.3465,
+              "G": 0.3465,
+              "B": 0.3465,
+              "A": 0.0,
+              "Hex": "9F9F9F"
+            },
+            "bOverride_LensFlareBokehSize": false,
+            "LensFlareBokehSize": 0.0,
+            "bOverride_LensFlareThreshold": false,
+            "LensFlareThreshold": 0.0,
+            "bOverride_LensFlareBokehShape": false,
+            "LensFlareBokehShape": null
+          }
+        },
+        "PostProcessColorGrading": {
+          "WhiteBalance": {},
+          "Global": {
+            "bOverride_ColorSaturation": false,
+            "ColorSaturation": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0,
+              "W": 1.0
+            },
+            "ColorSaturationDestroyTime": 0.0,
+            "ColorSaturationDestoryType": "PostProcessDestroyType::Immediately",
+            "ColorSaturationBlendWeight": [],
+            "bOverride_ColorContrast": false,
+            "ColorContrast": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0,
+              "W": 1.0
+            },
+            "ContrastDestroyTime": 0.0,
+            "ContrastDestroyType": "PostProcessDestroyType::Immediately",
+            "ContrastBlendWeight": [],
+            "bOverride_ColorGamma": false,
+            "ColorGamma": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0,
+              "W": 1.0
+            },
+            "GammaDestroyTime": 0.0,
+            "GammaDestroyType": "PostProcessDestroyType::Immediately",
+            "GammaBlendWeight": [],
+            "bOverride_ColorGain": false,
+            "ColorGain": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0,
+              "W": 1.0
+            },
+            "GainDestroyTime": 0.0,
+            "GainDestroyType": "PostProcessDestroyType::Immediately",
+            "GainBlendWeight": [],
+            "bOverride_ColorOffset": false,
+            "ColorOffset": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0,
+              "W": 1.0
+            },
+            "OffsetDestroyTime": 0.0,
+            "OffsetDestroyType": "PostProcessDestroyType::Immediately",
+            "OffsetBlendWeight": []
+          },
+          "Misc": {
+            "bOverride_BlueCorrection": false,
+            "BlueCorrection": 0.0,
+            "bOverride_ExpandGamut": false,
+            "ExpandGamut": 0.0,
+            "bOverride_SceneColorTint": false,
+            "SceneColorTint": {
+              "R": 0.3465,
+              "G": 0.3465,
+              "B": 0.3465,
+              "A": 0.0,
+              "Hex": "9F9F9F"
+            },
+            "bOverride_ColorGradingIntensity": false,
+            "ColorGradingIntensity": 0.0,
+            "bOverride_ColorGradingLUT": false,
+            "ColorGradingLUT": null
+          }
+        },
+        "PostProcessFilm": {},
+        "PostProcessRenderingFeatures": {},
+        "PostProcessBlendWeight": {},
+        "PostProcessMaterialBlendable": {
+          "bOverride_MaterialBlendableSettings": true,
+          "MaterialBlendableMainData": [
+            {
+              "Material": null,
+              "MaterialBlendableData": [
+                {
+                  "ParameterName": "Distance",
+                  "MaterialBlendableKeyFrame": [
+                    {
+                      "Time": 0.0,
+                      "Value": 700.0
+                    },
+                    {
+                      "Time": 2.0,
+                      "Value": 15000.0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Material": null,
+              "MaterialBlendableData": [
+                {
+                  "ParameterName": "Distance",
+                  "MaterialBlendableKeyFrame": [
+                    {
+                      "Time": 0.0,
+                      "Value": 1700.0
+                    },
+                    {
+                      "Time": 2.0,
+                      "Value": 13000.0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "fDurationTime": 2.0,
+        "String_Tid": "None",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

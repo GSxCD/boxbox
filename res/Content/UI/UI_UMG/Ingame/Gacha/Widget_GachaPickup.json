@@ -1,0 +1,4221 @@
+[
+  {
+    "Type": "ACMovieSceneSoundTidSection",
+    "Name": "ACMovieSceneSoundTidSection_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidSection'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidTrack'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.1"
+    },
+    "Properties": {
+      "soundTid": {
+        "Tid": "2000100"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'ui_ingame_gacha_open_01_cue'",
+        "ObjectPath": "SevenDeadlySins/Content/Sounds/ui/ingame/ui_ingame_gacha_open_01_cue.0"
+      },
+      "bKeepPlayingUntilEnd": true,
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_2.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.80"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_2.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.81"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60000
+            }
+          }
+        }
+      },
+      "Signature": "5F551022-4C6E1737-05DE6F86-73590861"
+    }
+  },
+  {
+    "Type": "ACMovieSceneSoundTidTrack",
+    "Name": "ACMovieSceneSoundTidTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ACMovieSceneSoundTidTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.75"
+    },
+    "Properties": {
+      "AudioSections": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.0"
+        }
+      ],
+      "EvaluationFieldGuid": "2C4AD9A8-483819F8-B44B4E81-27458A01",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "ACMovieSceneSoundTidSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_2'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.0"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 60000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "2C4AD9A8-483819F8-B44B4E81-27458A01"
+    }
+  },
+  {
+    "Type": "Btn_Sub01_C",
+    "Name": "Button_PickupSelect",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Sub01.Btn_Sub01_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Template": {
+      "ObjectName": "Btn_Sub01_C'Default__Btn_Sub01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/Btn_Sub01.0"
+    },
+    "Properties": {
+      "StringStyle": {
+        "bEnabled": true,
+        "Text": "UI_Pickup_Select"
+      },
+      "bIsPadFocus": false,
+      "InputTableTID": "UI_PAD_R3",
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.CanvasPanel_Pickup.CBCanvasPanelSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.16"
+      }
+    }
+  },
+  {
+    "Type": "CBBorderSlot",
+    "Name": "CBBorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorderSlot'",
+    "Outer": {
+      "ObjectName": "EBorder'Widget_GachaPickup_C:WidgetTree.Border_Date'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.61"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 45.0,
+        "Top": 15.0,
+        "Right": 45.0,
+        "Bottom": 15.0
+      },
+      "Parent": {
+        "ObjectName": "EBorder'Widget_GachaPickup_C:WidgetTree.Border_Date'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.61"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Widget_GachaPickup_C:WidgetTree.HorizontalBox_Date'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.33"
+      }
+    }
+  },
+  {
+    "Type": "CBBorderSlot",
+    "Name": "CBBorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorderSlot'",
+    "Outer": {
+      "ObjectName": "EBorder'Widget_GachaPickup_C:WidgetTree.Border_Pity'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.62"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Right": 20.0
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "EBorder'Widget_GachaPickup_C:WidgetTree.Border_Pity'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.62"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Widget_GachaPickup_C:WidgetTree.TextBlock_PityCountDesc'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.72"
+      }
+    }
+  },
+  {
+    "Type": "CBBorderSlot",
+    "Name": "CBBorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorderSlot'",
+    "Outer": {
+      "ObjectName": "EBorder'Widget_GachaPickup_C:WidgetTree.Border_RemainCount'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.63"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 45.0,
+        "Top": 15.0,
+        "Right": 45.0,
+        "Bottom": 15.0
+      },
+      "Parent": {
+        "ObjectName": "EBorder'Widget_GachaPickup_C:WidgetTree.Border_RemainCount'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.63"
+      },
+      "Content": {
+        "ObjectName": "CBHorizontalBox'Widget_GachaPickup_C:WidgetTree.HorizontalBox_RemainCount'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.34"
+      }
+    }
+  },
+  {
+    "Type": "CBBorderSlot",
+    "Name": "CBBorderSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorderSlot'",
+    "Outer": {
+      "ObjectName": "EBorder'Widget_GachaPickup_C:WidgetTree.EBorder_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.64"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 60.0,
+        "Top": 20.0,
+        "Right": 50.0,
+        "Bottom": 27.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "EBorder'Widget_GachaPickup_C:WidgetTree.EBorder_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.64"
+      },
+      "Content": {
+        "ObjectName": "EImprovedRichTextBlock'Widget_GachaPickup_C:WidgetTree.TextBlock_Subtitle'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.67"
+      }
+    }
+  },
+  {
+    "Type": "CBBorderSlot",
+    "Name": "CBBorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBBorderSlot'",
+    "Outer": {
+      "ObjectName": "EBorder'Widget_GachaPickup_C:WidgetTree.Point'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.65"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 8.0,
+        "Top": -2.0,
+        "Right": 8.0,
+        "Bottom": -2.0
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "EBorder'Widget_GachaPickup_C:WidgetTree.Point'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.65"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Widget_GachaPickup_C:WidgetTree.TextBlock_PickupPoint'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.71"
+      }
+    }
+  },
+  {
+    "Type": "CBButton",
+    "Name": "Button_Slot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "bIsPadFocus": false,
+      "ColorAndOpacity": {
+        "R": 1.2039634E-35,
+        "G": 2.75509E-40,
+        "B": 5.831554E-39,
+        "A": 5.831554E-39,
+        "Hex": "000000"
+      },
+      "TouchMethod": "EButtonTouchMethod::DownAndUp",
+      "PressMethod": "EButtonPressMethod::128"
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CanvasPanel_Pickup",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.CanvasPanel_Pickup.CBCanvasPanelSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.16"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.CanvasPanel_Pickup.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.15"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.content.CBCanvasPanelSlot_10'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.25"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CanvasPanel_PickupSelected",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.CanvasPanel_PickupSelected.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.17"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.CanvasPanel_PickupSelected.CBCanvasPanelSlot_7'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.18"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Widget_GachaPickup_C:WidgetTree.PickHero.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.55"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_22",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_22.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.19"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_22.CBCanvasPanelSlot_15'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.20"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_22.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.21"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_30",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_30.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.23"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_30.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.22"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSafeZoneSlot'Widget_GachaPickup_C:WidgetTree.CBSafeZone_46.CBSafeZoneSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.47"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "content",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.content.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.27"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.content.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.24"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.content.CBCanvasPanelSlot_7'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.28"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.content.CBCanvasPanelSlot_14'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.26"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.content.CBCanvasPanelSlot_10'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.25"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_30.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.22"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "Widget_Normal",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.Widget_Normal.CBCanvasPanelSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.30"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.Widget_Normal.CBCanvasPanelSlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.31"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.Widget_Normal.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.29"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.Widget_Normal.CBCanvasPanelSlot_9'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.32"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.CanvasPanel_PickupSelected.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.17"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CanvasPanel_Pickup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.9"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -410.0,
+          "Top": -140.0,
+          "Bottom": 100.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CanvasPanel_Pickup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.9"
+      },
+      "Content": {
+        "ObjectName": "CBSizeBox'Widget_GachaPickup_C:WidgetTree.PickHero'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.54"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CanvasPanel_Pickup'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.9"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -120.0,
+          "Right": 400.0,
+          "Bottom": 80.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CanvasPanel_Pickup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.9"
+      },
+      "Content": {
+        "ObjectName": "Btn_Sub01_C'Widget_GachaPickup_C:WidgetTree.Button_PickupSelect'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.2"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CanvasPanel_PickupSelected'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CanvasPanel_PickupSelected'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.10"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.Widget_Normal'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.14"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CanvasPanel_PickupSelected'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.10"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CanvasPanel_PickupSelected'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.10"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Widget_GachaPickup_C:WidgetTree.Button_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.8"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_22'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.11"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_22'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.11"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_GachaPickup_C:WidgetTree.Image_Bg'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.41"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_22'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.11"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "ZOrder": 1,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_22'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.11"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_GachaPickup_C:WidgetTree.black'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.39"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_22'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.11"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_22'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.11"
+      },
+      "Content": {
+        "ObjectName": "CBSafeZone'Widget_GachaPickup_C:WidgetTree.CBSafeZone_46'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.46"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_30'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.12"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -150.0,
+          "Top": 360.0,
+          "Right": 840.0,
+          "Bottom": 400.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.5
+        }
+      },
+      "ZOrder": 2,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_30'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.12"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.content'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.13"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_30'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.12"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -36.0,
+          "Right": -120.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.086458206,
+            "Y": 0.027777778
+          },
+          "Maximum": {
+            "X": 0.6385414,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 1.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_30'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.12"
+      },
+      "Content": {
+        "ObjectName": "CBScaleBox'Widget_GachaPickup_C:WidgetTree.CBScaleBox_68'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.49"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.content'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.13"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -25.0,
+          "Top": -20.0,
+          "Right": 628.0,
+          "Bottom": 70.0
+        }
+      },
+      "bAutoSize": true,
+      "ZOrder": 1,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.content'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.13"
+      },
+      "Content": {
+        "ObjectName": "EBorder'Widget_GachaPickup_C:WidgetTree.EBorder_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.64"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.content'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.13"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -30.0,
+          "Right": 0.0,
+          "Bottom": -100.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.content'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.13"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CanvasPanel_Pickup'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.9"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.content'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.13"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 40.0,
+          "Top": 180.0,
+          "Right": 40.0,
+          "Bottom": -60.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.content'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.13"
+      },
+      "Content": {
+        "ObjectName": "CBVerticalBox'Widget_GachaPickup_C:WidgetTree.CBVerticalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.56"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.content'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.13"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -20.0,
+          "Top": -60.0,
+          "Right": -20.0,
+          "Bottom": -116.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.content'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.13"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_GachaPickup_C:WidgetTree.CBImage_91'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.40"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.content'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.13"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 40.0,
+          "Top": 60.0,
+          "Right": 40.0,
+          "Bottom": 100.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.content'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.13"
+      },
+      "Content": {
+        "ObjectName": "CBScaleBox'Widget_GachaPickup_C:WidgetTree.CBScaleBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.48"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.Widget_Normal'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.14"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -5.0,
+          "Bottom": 100.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.Widget_Normal'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.14"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_GachaPickup_C:WidgetTree.Image_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.45"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.Widget_Normal'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.14"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Bottom": 106.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.Widget_Normal'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.14"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_GachaPickup_C:WidgetTree.Image_BG_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.42"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.Widget_Normal'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.14"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 86.0,
+          "Bottom": 86.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.Widget_Normal'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.14"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_GachaPickup_C:WidgetTree.Image_Grade'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.43"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.Widget_Normal'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.14"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 44.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "ZOrder": 1,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.Widget_Normal'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.14"
+      },
+      "Content": {
+        "ObjectName": "EBorder'Widget_GachaPickup_C:WidgetTree.Point'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.65"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "HorizontalBox_Date",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_GachaPickup_C:WidgetTree.HorizontalBox_Date.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.35"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_GachaPickup_C:WidgetTree.HorizontalBox_Date.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.36"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBBorderSlot'Widget_GachaPickup_C:WidgetTree.Border_Date.CBBorderSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.3"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBox",
+    "Name": "HorizontalBox_RemainCount",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_GachaPickup_C:WidgetTree.HorizontalBox_RemainCount.CBHorizontalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.37"
+        },
+        {
+          "ObjectName": "CBHorizontalBoxSlot'Widget_GachaPickup_C:WidgetTree.HorizontalBox_RemainCount.CBHorizontalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.38"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBBorderSlot'Widget_GachaPickup_C:WidgetTree.Border_RemainCount.CBBorderSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.5"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_GachaPickup_C:WidgetTree.HorizontalBox_Date'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.33"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 10.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_GachaPickup_C:WidgetTree.HorizontalBox_Date'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.33"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Widget_GachaPickup_C:WidgetTree.TextBlock_DateTitle'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.70"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_GachaPickup_C:WidgetTree.HorizontalBox_Date'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.33"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_GachaPickup_C:WidgetTree.HorizontalBox_Date'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.33"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Widget_GachaPickup_C:WidgetTree.TextBlock_Date'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.69"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_GachaPickup_C:WidgetTree.HorizontalBox_RemainCount'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.34"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 10.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_GachaPickup_C:WidgetTree.HorizontalBox_RemainCount'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.34"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Widget_GachaPickup_C:WidgetTree.TextBlock_RemainCountTitle'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.74"
+      }
+    }
+  },
+  {
+    "Type": "CBHorizontalBoxSlot",
+    "Name": "CBHorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBHorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBHorizontalBox'Widget_GachaPickup_C:WidgetTree.HorizontalBox_RemainCount'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.34"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "Parent": {
+        "ObjectName": "CBHorizontalBox'Widget_GachaPickup_C:WidgetTree.HorizontalBox_RemainCount'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.34"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'Widget_GachaPickup_C:WidgetTree.TextBlock_RemainCount'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.73"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "black",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageSize": {
+          "X": 10.0,
+          "Y": 10.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_bg_white'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_bg_white.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_22.CBCanvasPanelSlot_15'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.20"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_91",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.9,
+            "Hex": "E6FFFFFF"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 221.0,
+          "Y": 221.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'gacha_gacha_bg1'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Gacha/Frames/gacha_gacha_bg1.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.content.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.27"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Bg",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 2048.0,
+          "Y": 1024.0
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_22.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.19"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_BG_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.887923,
+            "G": 0.887923,
+            "B": 0.887923,
+            "A": 1.0,
+            "Hex": "F2F2F2"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 130.0,
+          "Y": 138.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Dictionary_Special_Main_itembg'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Dictionary_Special/Frames/Dictionary_Special_Main_itembg.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.Widget_Normal.CBCanvasPanelSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.30"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Grade",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 112.0,
+          "Y": 112.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Dictionary_Special_Main_itemgrade_05'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Dictionary_Special/Frames/Dictionary_Special_Main_itemgrade_05.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.Widget_Normal.CBCanvasPanelSlot_5'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.31"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Icon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 1024.0,
+          "Y": 1024.0
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBScaleBoxSlot'Widget_GachaPickup_C:WidgetTree.CBScaleBox_68.CBScaleBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.51"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_Slot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.Widget_Normal.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.29"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBSafeZone",
+    "Name": "CBSafeZone_46",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSafeZone'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBSafeZoneSlot'Widget_GachaPickup_C:WidgetTree.CBSafeZone_46.CBSafeZoneSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.47"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_22.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.21"
+      }
+    }
+  },
+  {
+    "Type": "CBSafeZoneSlot",
+    "Name": "CBSafeZoneSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSafeZoneSlot'",
+    "Outer": {
+      "ObjectName": "CBSafeZone'Widget_GachaPickup_C:WidgetTree.CBSafeZone_46'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.46"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSafeZone'Widget_GachaPickup_C:WidgetTree.CBSafeZone_46'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.46"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_30'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.12"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBox",
+    "Name": "CBScaleBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "CBScaleBoxSlot'Widget_GachaPickup_C:WidgetTree.CBScaleBox_0.CBScaleBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.50"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.content.CBCanvasPanelSlot_7'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.28"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBox",
+    "Name": "CBScaleBox_68",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBScaleBoxSlot'Widget_GachaPickup_C:WidgetTree.CBScaleBox_68.CBScaleBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.51"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_30.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.23"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBoxSlot",
+    "Name": "CBScaleBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBScaleBox'Widget_GachaPickup_C:WidgetTree.CBScaleBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.48"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "Parent": {
+        "ObjectName": "CBScaleBox'Widget_GachaPickup_C:WidgetTree.CBScaleBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.48"
+      },
+      "Content": {
+        "ObjectName": "EImprovedRichTextBlock'Widget_GachaPickup_C:WidgetTree.TextBlock_Title'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.68"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBoxSlot",
+    "Name": "CBScaleBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBScaleBox'Widget_GachaPickup_C:WidgetTree.CBScaleBox_68'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.49"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBScaleBox'Widget_GachaPickup_C:WidgetTree.CBScaleBox_68'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.49"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Widget_GachaPickup_C:WidgetTree.Image_Icon'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.44"
+      }
+    }
+  },
+  {
+    "Type": "CBScrollBox",
+    "Name": "CBScrollBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScrollBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "IsPadScroll": true,
+      "WidgetStyle": {
+        "TopShadowBrush": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "BottomShadowBrush": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "HorizontalScrolledContentPadding": {
+          "Right": -10.0
+        }
+      },
+      "WidgetBarStyle": {
+        "VerticalBackgroundImage": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 0.35,
+              "Hex": "59FFFFFF"
+            }
+          },
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 24.0
+          },
+          "Margin": {
+            "Top": 0.5,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'common_scrollbar_ver_back'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_scrollbar_ver_back.0"
+          }
+        },
+        "VerticalTopSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "HorizontalTopSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "VerticalBottomSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "HorizontalBottomSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "NormalThumbImage": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.96875,
+              "G": 0.96875,
+              "B": 0.96875,
+              "A": 1.0,
+              "Hex": "FCFCFC"
+            }
+          },
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 24.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.5,
+            "Right": 0.0,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'common_scrollbar_ver_front'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_scrollbar_ver_front.0"
+          },
+          "ResourceName": "None"
+        },
+        "HoveredThumbImage": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 24.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.5,
+            "Right": 0.0,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'common_scrollbar_ver_front'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_scrollbar_ver_front.0"
+          },
+          "ResourceName": "None"
+        },
+        "DraggedThumbImage": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 24.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.5,
+            "Right": 0.0,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "VtaSlateTexture'common_scrollbar_ver_front'",
+            "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_scrollbar_ver_front.0"
+          },
+          "ResourceName": "None"
+        },
+        "Thickness": 12.0
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBScrollBoxSlot'Widget_GachaPickup_C:WidgetTree.CBScrollBox_0.CBScrollBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.53"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Widget_GachaPickup_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.58"
+      }
+    }
+  },
+  {
+    "Type": "CBScrollBoxSlot",
+    "Name": "CBScrollBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScrollBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBScrollBox'Widget_GachaPickup_C:WidgetTree.CBScrollBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.52"
+    },
+    "Properties": {
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Top",
+      "Parent": {
+        "ObjectName": "CBScrollBox'Widget_GachaPickup_C:WidgetTree.CBScrollBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.52"
+      },
+      "Content": {
+        "ObjectName": "EImprovedRichTextBlock'Widget_GachaPickup_C:WidgetTree.TextBlock_Desc'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.66"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "PickHero",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "WidthOverride": 150.0,
+      "HeightOverride": 150.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Widget_GachaPickup_C:WidgetTree.PickHero.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.55"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.CanvasPanel_Pickup.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.15"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Widget_GachaPickup_C:WidgetTree.PickHero'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.54"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'Widget_GachaPickup_C:WidgetTree.PickHero'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.54"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CanvasPanel_PickupSelected'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.10"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBox",
+    "Name": "CBVerticalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBVerticalBoxSlot'Widget_GachaPickup_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.59"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Widget_GachaPickup_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.57"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Widget_GachaPickup_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.58"
+        },
+        {
+          "ObjectName": "CBVerticalBoxSlot'Widget_GachaPickup_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.60"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.content.CBCanvasPanelSlot_14'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.26"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Widget_GachaPickup_C:WidgetTree.CBVerticalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.56"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 10.0
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Top",
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Widget_GachaPickup_C:WidgetTree.CBVerticalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.56"
+      },
+      "Content": {
+        "ObjectName": "EBorder'Widget_GachaPickup_C:WidgetTree.Border_RemainCount'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.63"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Widget_GachaPickup_C:WidgetTree.CBVerticalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.56"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Top": 4.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Widget_GachaPickup_C:WidgetTree.CBVerticalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.56"
+      },
+      "Content": {
+        "ObjectName": "CBScrollBox'Widget_GachaPickup_C:WidgetTree.CBScrollBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.52"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Widget_GachaPickup_C:WidgetTree.CBVerticalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.56"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 10.0
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Top",
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Widget_GachaPickup_C:WidgetTree.CBVerticalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.56"
+      },
+      "Content": {
+        "ObjectName": "EBorder'Widget_GachaPickup_C:WidgetTree.Border_Date'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.61"
+      }
+    }
+  },
+  {
+    "Type": "CBVerticalBoxSlot",
+    "Name": "CBVerticalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBVerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBVerticalBox'Widget_GachaPickup_C:WidgetTree.CBVerticalBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.56"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 20.0,
+        "Bottom": -10.0
+      },
+      "Parent": {
+        "ObjectName": "CBVerticalBox'Widget_GachaPickup_C:WidgetTree.CBVerticalBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.56"
+      },
+      "Content": {
+        "ObjectName": "EBorder'Widget_GachaPickup_C:WidgetTree.Border_Pity'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.62"
+      }
+    }
+  },
+  {
+    "Type": "EBorder",
+    "Name": "Border_Date",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 45.0,
+        "Top": 15.0,
+        "Right": 45.0,
+        "Bottom": 15.0
+      },
+      "Background": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.8,
+            "Hex": "CCFFFFFF"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 120.0,
+          "Y": 70.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'gacha_gacha_bg2'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Gacha/Frames/gacha_gacha_bg2.0"
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBBorderSlot'Widget_GachaPickup_C:WidgetTree.Border_Date.CBBorderSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.3"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Widget_GachaPickup_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.59"
+      }
+    }
+  },
+  {
+    "Type": "EBorder",
+    "Name": "Border_Pity",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Padding": {
+        "Left": 20.0,
+        "Right": 20.0
+      },
+      "Background": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 90.0,
+          "Y": 40.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_hd_subtitle_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_hd_subtitle_5.0"
+        },
+        "OutlineSettings": {
+          "CornerRadii": {
+            "X": 30.0,
+            "Y": 10.0,
+            "Z": 30.0,
+            "W": 30.0
+          },
+          "Color": {
+            "SpecifiedColor": {
+              "R": 0.545725,
+              "G": 0.496933,
+              "B": 0.412543,
+              "A": 0.0,
+              "Hex": "C3BBAC"
+            }
+          }
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBBorderSlot'Widget_GachaPickup_C:WidgetTree.Border_Pity.CBBorderSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.4"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Widget_GachaPickup_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.60"
+      }
+    }
+  },
+  {
+    "Type": "EBorder",
+    "Name": "Border_RemainCount",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 45.0,
+        "Top": 15.0,
+        "Right": 45.0,
+        "Bottom": 15.0
+      },
+      "Background": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.8,
+            "Hex": "CCFFFFFF"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 120.0,
+          "Y": 70.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'gacha_gacha_bg2'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Gacha/Frames/gacha_gacha_bg2.0"
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBBorderSlot'Widget_GachaPickup_C:WidgetTree.Border_RemainCount.CBBorderSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.5"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBVerticalBoxSlot'Widget_GachaPickup_C:WidgetTree.CBVerticalBox_0.CBVerticalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.57"
+      }
+    }
+  },
+  {
+    "Type": "EBorder",
+    "Name": "EBorder_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Padding": {
+        "Left": 60.0,
+        "Top": 20.0,
+        "Right": 50.0,
+        "Bottom": 27.0
+      },
+      "Background": {
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 80.0,
+          "Y": 86.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'gacha_gacha_bg3'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Gacha/Frames/gacha_gacha_bg3.0"
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBBorderSlot'Widget_GachaPickup_C:WidgetTree.EBorder_1.CBBorderSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.6"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.content.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.24"
+      }
+    }
+  },
+  {
+    "Type": "EBorder",
+    "Name": "Point",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Padding": {
+        "Left": 8.0,
+        "Top": -2.0,
+        "Right": 8.0,
+        "Bottom": -2.0
+      },
+      "Background": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.887923,
+            "G": 0.887923,
+            "B": 0.887923,
+            "A": 1.0,
+            "Hex": "F2F2F2"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::RoundedBox"
+      },
+      "Slots": [
+        {
+          "ObjectName": "CBBorderSlot'Widget_GachaPickup_C:WidgetTree.Point.CBBorderSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.7"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'Widget_GachaPickup_C:WidgetTree.Widget_Normal.CBCanvasPanelSlot_9'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.32"
+      }
+    }
+  },
+  {
+    "Type": "EImprovedRichTextBlock",
+    "Name": "TextBlock_Desc",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EImprovedRichTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "217DF72748F3F4A3517350823E6132FB",
+        "SourceString": "기타등등 설명설명 장식장식\r\n장식장식 기타등등 설명설명 장식장식기타등등 \r\n설명설명 장식장식기타등등 설명설명 장식장식기타등등 설명설명 장식장식\r\n장식장식 기타등등 설명설명 장식장식기타등등 \r\n설명설명 장식장식기타등등 설명설명 장식장식기타등등 설명설명 장식장식\r\n장식장식 기타등등 설명설명 장식장식기타등등 \r\n설명설명 장식장식기타등등 설명설명 장식장식",
+        "LocalizedString": "기타등등 설명설명 장식장식\r\n장식장식 기타등등 설명설명 장식장식기타등등 \r\n설명설명 장식장식기타등등 설명설명 장식장식기타등등 설명설명 장식장식\r\n장식장식 기타등등 설명설명 장식장식기타등등 \r\n설명설명 장식장식기타등등 설명설명 장식장식기타등등 설명설명 장식장식\r\n장식장식 기타등등 설명설명 장식장식기타등등 \r\n설명설명 장식장식기타등등 설명설명 장식장식"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichText'",
+        "ObjectPath": "SevenDeadlySins/Content/Table/RichText.0"
+      },
+      "DecoratorClasses": [
+        {
+          "ObjectName": "Class'EImprovedRichTextBlockDecorator'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      ],
+      "DefaultTextStyleOverride": {
+        "Font": {
+          "FontObject": {
+            "ObjectName": "Font'Font_Default'",
+            "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+          },
+          "TypefaceFontName": "Font_B",
+          "Size": 22.0,
+          "LetterSpacing": -10
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 0.05448,
+            "G": 0.07036,
+            "B": 0.090842,
+            "A": 1.0,
+            "Hex": "424B55"
+          }
+        }
+      },
+      "bOverrideDefaultStyle": true,
+      "AutoWrapText": true,
+      "Slot": {
+        "ObjectName": "CBScrollBoxSlot'Widget_GachaPickup_C:WidgetTree.CBScrollBox_0.CBScrollBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.53"
+      }
+    }
+  },
+  {
+    "Type": "EImprovedRichTextBlock",
+    "Name": "TextBlock_Subtitle",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EImprovedRichTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "EA421C564F07CC462693E69BA56920BE",
+        "SourceString": "서브타이틀",
+        "LocalizedString": "서브타이틀"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichText'",
+        "ObjectPath": "SevenDeadlySins/Content/Table/RichText.0"
+      },
+      "DecoratorClasses": [
+        {
+          "ObjectName": "Class'EImprovedRichTextBlockDecorator'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      ],
+      "DefaultTextStyleOverride": {
+        "Font": {
+          "FontObject": {
+            "ObjectName": "Font'Font_Default'",
+            "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+          },
+          "TypefaceFontName": "Font_B",
+          "Size": 26.0
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 0.64448,
+            "G": 0.53948,
+            "B": 0.381326,
+            "A": 1.0,
+            "Hex": "D2C2A6"
+          }
+        }
+      },
+      "bOverrideDefaultStyle": true,
+      "Slot": {
+        "ObjectName": "CBBorderSlot'Widget_GachaPickup_C:WidgetTree.EBorder_1.CBBorderSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.6"
+      }
+    }
+  },
+  {
+    "Type": "EImprovedRichTextBlock",
+    "Name": "TextBlock_Title",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EImprovedRichTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "28A3F40E433AA133CC701BBECF147B82",
+        "SourceString": "메인",
+        "LocalizedString": "메인"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichText'",
+        "ObjectPath": "SevenDeadlySins/Content/Table/RichText.0"
+      },
+      "DecoratorClasses": [
+        {
+          "ObjectName": "Class'EImprovedRichTextBlockDecorator'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      ],
+      "DefaultTextStyleOverride": {
+        "Font": {
+          "FontObject": {
+            "ObjectName": "Font'Font_Default'",
+            "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+          },
+          "TypefaceFontName": "Font_B",
+          "Size": 60.0
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 0.051269,
+            "G": 0.074214,
+            "B": 0.107023,
+            "A": 1.0,
+            "Hex": "404D5C"
+          }
+        }
+      },
+      "bOverrideDefaultStyle": true,
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CBScaleBoxSlot'Widget_GachaPickup_C:WidgetTree.CBScaleBox_0.CBScaleBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.50"
+      },
+      "RenderTransformPivot": {
+        "X": 1.0,
+        "Y": 0.5
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_Date",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "UseLocalization": false,
+      "Text": {
+        "Namespace": "",
+        "Key": "8C8621C145753EEF0E28698E714B3773",
+        "SourceString": "2022년 1월 1일~ 2022년 12월 31일",
+        "LocalizedString": "2022년 1월 1일~ 2022년 12월 31일"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.05448,
+          "G": 0.07036,
+          "B": 0.090842,
+          "A": 1.0,
+          "Hex": "424B55"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_GachaPickup_C:WidgetTree.HorizontalBox_Date.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.36"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_DateTitle",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "3BE7D6B6424867E83E8C7FA744B56D6B",
+        "SourceString": "Pickup_Gacha_Date_Title",
+        "LocalizedString": "Pickup_Gacha_Date_Title"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.434154,
+          "G": 0.313989,
+          "B": 0.144128,
+          "A": 1.0,
+          "Hex": "B0986A"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_GachaPickup_C:WidgetTree.HorizontalBox_Date.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.35"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_PickupPoint",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "UseLocalization": false,
+      "Text": {
+        "Namespace": "",
+        "Key": "62BE5EEF4CF7EFCEF431C1BA7C485D2F",
+        "SourceString": "1/99",
+        "LocalizedString": "1/99"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.057805,
+          "G": 0.061246,
+          "B": 0.057805,
+          "A": 1.0,
+          "Hex": "444644"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineColor": {
+            "R": 0.887923,
+            "G": 0.887923,
+            "B": 0.887923,
+            "A": 1.0,
+            "Hex": "F2F2F2"
+          }
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 22.0
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBBorderSlot'Widget_GachaPickup_C:WidgetTree.Point.CBBorderSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.7"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_PityCountDesc",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "BE4204DE4872423C6EC9738B27231642",
+        "SourceString": "30회 내 SSR 등급 100% 확정 획득",
+        "LocalizedString": "30회 내 SSR 등급 100% 확정 획득"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0703,
+          "G": 0.076533,
+          "B": 0.098958,
+          "A": 1.0,
+          "Hex": "4B4E58"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 22.0
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBBorderSlot'Widget_GachaPickup_C:WidgetTree.Border_Pity.CBBorderSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.4"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_RemainCount",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "UseLocalization": false,
+      "Text": {
+        "Namespace": "",
+        "Key": "15487FB84864DBDD40E0CDA3FEF5BDFD",
+        "SourceString": "10회 후 종료",
+        "LocalizedString": "10회 후 종료"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.05448,
+          "G": 0.07036,
+          "B": 0.090842,
+          "A": 1.0,
+          "Hex": "424B55"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_GachaPickup_C:WidgetTree.HorizontalBox_RemainCount.CBHorizontalBoxSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.38"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_RemainCountTitle",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "988BBDFF40FB59E5CBB9CEA25299DBA6",
+        "SourceString": "Gacha_End_Count_Title",
+        "LocalizedString": "Gacha_End_Count_Title"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.434154,
+          "G": 0.313989,
+          "B": 0.144128,
+          "A": 1.0,
+          "Hex": "B0986A"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B"
+      },
+      "Slot": {
+        "ObjectName": "CBHorizontalBoxSlot'Widget_GachaPickup_C:WidgetTree.HorizontalBox_RemainCount.CBHorizontalBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.37"
+      }
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Show",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Widget_GachaPickup_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.100"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "32E5080F-47CD2F2D-AC1C2BB8-841B650D",
+          "Name": "Image_Icon",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "6E4893E0-4DDC253C-B3E8E591-75BE9BB3",
+          "Name": "black",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "Guid": "F11AAA0B-4B3229AE-6AEC37AC-97BF916C",
+          "Name": "content",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "32E5080F-47CD2F2D-AC1C2BB8-841B650D",
+          "BindingName": "CBImage",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.97"
+            },
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.78"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "6E4893E0-4DDC253C-B3E8E591-75BE9BB3",
+          "BindingName": "CBImage_1",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.96"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "F11AAA0B-4B3229AE-6AEC37AC-97BF916C",
+          "BindingName": "content",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.79"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.98"
+            }
+          ]
+        }
+      ],
+      "Tracks": [
+        {
+          "ObjectName": "ACMovieSceneSoundTidTrack'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.1"
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 30
+      },
+      "ClockSource": "EUpdateClockSource::Audio",
+      "Signature": "D0A360BB-465A82B5-63BC16A7-C1EE6583"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.78"
+    },
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 7000
+          },
+          {
+            "Value": 31000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 30.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Translation[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 7000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.82"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.83"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60000
+            }
+          }
+        }
+      },
+      "Signature": "C2C07598-492E7C1F-B8C1F299-41AF4099"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.79"
+    },
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 30000
+          },
+          {
+            "Value": 51001
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": -30.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Translation[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 30000
+          },
+          {
+            "Value": 51001
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.84"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.85"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60001
+            }
+          }
+        }
+      },
+      "Signature": "DE2F586D-4FC678FE-93F189B3-E557D2EE"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.75"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.76"
+        }
+      ],
+      "EvaluationFieldGuid": "5EF6AB5E-4D5769B4-D1A9D4AF-DDB98360",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.76"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 60000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "5EF6AB5E-4D5769B4-D1A9D4AF-DDB98360"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.75"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.77"
+        }
+      ],
+      "EvaluationFieldGuid": "ABC37BAA-43932041-8EEFEDA8-6B8979A1",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.77"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 60001
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "ABC37BAA-43932041-8EEFEDA8-6B8979A1"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_2'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "ACMovieSceneSoundTidSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_2'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.76"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.76"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.77"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.77"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.93"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.93"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.94"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.94"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.95"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.95"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Widget_GachaPickup_C:Anim_Show_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.100"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 4,
+                  "Capacity": 4
+                },
+                {
+                  "StartIndex": 4,
+                  "Size": 2,
+                  "Capacity": 2
+                },
+                {
+                  "StartIndex": 6,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 7,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 4,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 5,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 4,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 5,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                },
+                {
+                  "StartIndex": 2,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 60000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": 1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 60000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 60001
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 3
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 40000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": 0
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 1
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 40000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 45000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": 0
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 2
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "ACMovieSceneSoundTidSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.ACMovieSceneSoundTidTrack_0.ACMovieSceneSoundTidSection_2'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.0"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.94"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.76"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.93"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 3
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.77"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 4
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.95"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 5
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "ObjectBindingID": "32E5080F-47CD2F2D-AC1C2BB8-841B650D"
+          },
+          {
+            "ObjectBindingID": "32E5080F-47CD2F2D-AC1C2BB8-841B650D"
+          },
+          {
+            "ObjectBindingID": "6E4893E0-4DDC253C-B3E8E591-75BE9BB3"
+          },
+          {
+            "ObjectBindingID": "F11AAA0B-4B3229AE-6AEC37AC-97BF916C"
+          },
+          {
+            "ObjectBindingID": "F11AAA0B-4B3229AE-6AEC37AC-97BF916C"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 40000
+          },
+          "bInclusive": false
+        },
+        {
+          "FrameNumber": {
+            "Value": 45000
+          },
+          "bInclusive": false
+        },
+        {
+          "FrameNumber": {
+            "Value": 60000
+          },
+          "bInclusive": false
+        },
+        {
+          "FrameNumber": {
+            "Value": 60001
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "79BDD72B-46CC7833-4607DAA4-7552BB62",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.96"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 6000
+          },
+          {
+            "Value": 36000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.86"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.87"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 45000
+            }
+          }
+        }
+      },
+      "Signature": "04E5F554-408DCBE2-AD57C49D-FDB97482"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.97"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 6000
+          },
+          {
+            "Value": 31000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.88"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.89"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 40000
+            }
+          }
+        }
+      },
+      "Signature": "7DEC6C8C-4F404405-0E9DB98B-1C471EB1"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.98"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 30000
+          },
+          {
+            "Value": 51001
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.90"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.91"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60001
+            }
+          }
+        }
+      },
+      "Signature": "8E602A63-461CE704-24215094-B6C4F9E7"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.75"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.93"
+        }
+      ],
+      "EvaluationFieldGuid": "A9D3783F-4BC68560-DE6730AA-FF9798C0",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.93"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 45000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "A9D3783F-4BC68560-DE6730AA-FF9798C0"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.75"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.94"
+        }
+      ],
+      "EvaluationFieldGuid": "673E1F8E-49055C41-1602E79C-A744BC2C",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.94"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 40000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "673E1F8E-49055C41-1602E79C-A744BC2C"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.75"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.95"
+        }
+      ],
+      "EvaluationFieldGuid": "B2B59112-4D49CD5B-D86600A8-FC041364",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.95"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 60001
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "B2B59112-4D49CD5B-D86600A8-FC041364"
+    }
+  },
+  {
+    "Type": "Widget_GachaPickup_C",
+    "Name": "Default__Widget_GachaPickup_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.Widget_GachaPickup_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Show_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_GachaPickup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.101"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Widget_GachaPickup_C:Anim_Show_INST.Anim_Show'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.75"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "black",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "6E4893E0-4DDC253C-B3E8E591-75BE9BB3",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "Image_Icon",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "32E5080F-47CD2F2D-AC1C2BB8-841B650D",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        },
+        {
+          "WidgetName": "content",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "F11AAA0B-4B3229AE-6AEC37AC-97BF916C",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Show",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Widget_GachaPickup_C:Anim_Show_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.92"
+      },
+      "Signature": "79BDD72B-46CC7833-4607DAA4-7552BB62"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Widget_GachaPickup_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Widget_GachaPickup_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.102"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'Widget_GachaPickup_C:Anim_Show_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.100"
+        }
+      ]
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWidget_GachaPickup'",
+      "ObjectPath": "/Script/ACUMGModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_Slot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBButton'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBImage_91",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBSafeZone_46",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBSafeZone'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_BG_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Widget_GachaPickup_C'Default__Widget_GachaPickup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.99"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Widget_GachaPickup_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.101"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'Widget_GachaPickup_C:WidgetTree.CBCanvasPanel_22'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Gacha/Widget_GachaPickup.11"
+      }
+    }
+  }
+]

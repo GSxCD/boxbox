@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "ForceFeedbackEffect",
+    "Name": "Sample_Trigger_Hard_Right",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ForceFeedbackEffect'",
+    "Package": "SevenDeadlySins/Content/Curves/ForceFeedBackCurve/Sample_Trigger_Hard_Right",
+    "Properties": {
+      "ChannelDetails": [
+        {
+          "bAffectsLeftLarge": true,
+          "bAffectsLeftSmall": true,
+          "bAffectsRightLarge": true,
+          "bAffectsRightSmall": true,
+          "Curve": {
+            "EditorCurveData": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 0.008484177,
+                  "Value": 0.012333274,
+                  "ArriveTangent": 0.0,
+                  "ArriveTangentWeight": 0.0,
+                  "LeaveTangent": 0.0,
+                  "LeaveTangentWeight": 0.0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 0.103842154,
+                  "Value": 5.0,
+                  "ArriveTangent": 0.0,
+                  "ArriveTangentWeight": 0.0,
+                  "LeaveTangent": 0.0,
+                  "LeaveTangentWeight": 0.0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 0.38892186,
+                  "Value": -0.0023334026,
+                  "ArriveTangent": 0.0,
+                  "ArriveTangentWeight": 0.0,
+                  "LeaveTangent": 0.0,
+                  "LeaveTangentWeight": 0.0
+                }
+              ],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          }
+        }
+      ],
+      "DeviceProperties": [
+        {
+          "ObjectName": "InputDeviceTriggerResistanceProperty'Sample_Trigger_Hard_Right:InputDeviceTriggerResistanceProperty_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Curves/ForceFeedBackCurve/Sample_Trigger_Hard_Right.1"
+        }
+      ],
+      "Duration": 0.38892186
+    }
+  },
+  {
+    "Type": "InputDeviceTriggerResistanceProperty",
+    "Name": "InputDeviceTriggerResistanceProperty_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InputDeviceTriggerResistanceProperty'",
+    "Outer": {
+      "ObjectName": "ForceFeedbackEffect'Sample_Trigger_Hard_Right'",
+      "ObjectPath": "SevenDeadlySins/Content/Curves/ForceFeedBackCurve/Sample_Trigger_Hard_Right.0"
+    },
+    "Properties": {
+      "TriggerData": {
+        "StartStrengh": 7,
+        "EndPosition": 9,
+        "EndStrengh": 5
+      },
+      "BaseTriggerData": {
+        "AffectedTriggers": "EInputDeviceTriggerMask::Right"
+      }
+    }
+  }
+]

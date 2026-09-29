@@ -1,0 +1,310 @@
+[
+  {
+    "Type": "CBButton",
+    "Name": "Button_Slot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PartyMyInfo_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.11"
+    },
+    "Properties": {
+      "ColorAndOpacity": {
+        "R": 7.583546E-37,
+        "G": 2.4153456E-38,
+        "B": 3.8823644E-34,
+        "A": 0.0,
+        "Hex": "000000"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "bg",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PartyMyInfo_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.11"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 30.0,
+          "Y": 30.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HUD_bg_key'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HUD/Frames/HUD_bg_key.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'PartyMyInfo_Widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.4"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Icon_PartyLeader",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PartyMyInfo_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.11"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HUD_party_leader'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HUD/Frames/HUD_party_leader.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'PartyMyInfo_Widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.5"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "CBOverlay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PartyMyInfo_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.11"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'PartyMyInfo_Widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.4"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'PartyMyInfo_Widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.5"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'PartyMyInfo_Widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.6"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'PartyMyInfo_Widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'PartyMyInfo_Widget_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.3"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'PartyMyInfo_Widget_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.3"
+      },
+      "Content": {
+        "ObjectName": "CBImage'PartyMyInfo_Widget_C:WidgetTree.bg'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.1"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'PartyMyInfo_Widget_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.3"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'PartyMyInfo_Widget_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.3"
+      },
+      "Content": {
+        "ObjectName": "CBImage'PartyMyInfo_Widget_C:WidgetTree.Icon_PartyLeader'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.2"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'PartyMyInfo_Widget_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.3"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "CBOverlay'PartyMyInfo_Widget_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.3"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'PartyMyInfo_Widget_C:WidgetTree.TextBlock_Index'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.8"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'PartyMyInfo_Widget_C:WidgetTree.CBOverlay_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.3"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'PartyMyInfo_Widget_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.3"
+      },
+      "Content": {
+        "ObjectName": "CBButton'PartyMyInfo_Widget_C:WidgetTree.Button_Slot'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.0"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_Index",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PartyMyInfo_Widget_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.11"
+    },
+    "Properties": {
+      "IsReturnKey": true,
+      "Text": {
+        "CultureInvariantString": "1P"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.846873,
+          "G": 0.846873,
+          "B": 0.846873,
+          "A": 1.0,
+          "Hex": "EDEDED"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.7,
+            "Hex": "B3000000"
+          }
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 12.0,
+        "LetterSpacing": 100
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'PartyMyInfo_Widget_C:WidgetTree.CBOverlay_0.CBOverlaySlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.6"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "PartyMyInfo_Widget_C",
+    "Name": "Default__PartyMyInfo_Widget_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.PartyMyInfo_Widget_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget",
+    "Properties": {
+      "PressSoundTid": {
+        "Tid": "2000000"
+      },
+      "HoverSoundTid": {
+        "Tid": "2000115"
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "PartyMyInfo_Widget_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'PartyMyInfo_Widget_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.11"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWidgetSlot'",
+      "ObjectPath": "/Script/ACUMGBaseModule"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PartyMyInfo_Widget_C'Default__PartyMyInfo_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.9"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PartyMyInfo_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.10"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBOverlay'PartyMyInfo_Widget_C:WidgetTree.CBOverlay_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/HUD/Party/PartyMyInfo_Widget.3"
+      }
+    }
+  }
+]

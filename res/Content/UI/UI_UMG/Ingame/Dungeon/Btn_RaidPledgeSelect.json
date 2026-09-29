@@ -1,0 +1,1187 @@
+[
+  {
+    "Type": "Btn_RaidPledgeSelect_C",
+    "Name": "Default__Btn_RaidPledgeSelect_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.Btn_RaidPledgeSelect_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect",
+    "Properties": {
+      "PressSoundTid": {
+        "Tid": "2000000"
+      },
+      "HoverSoundTid": {
+        "Tid": "2000115"
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "CBButton",
+    "Name": "CBButton_50",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBButton'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Btn_RaidPledgeSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.27"
+    },
+    "Properties": {
+      "ColorAndOpacity": {
+        "R": 3.010092E-36,
+        "G": 1.84757E-40,
+        "B": -4E-45,
+        "A": -8.8E-44,
+        "Hex": "000000"
+      },
+      "bIsEnabledDelegate": {
+        "Object": null,
+        "FunctionName": "Widget_Selected"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "CBImage_42",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Btn_RaidPledgeSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.27"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 70.0,
+          "Y": 70.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Dungeon_btn_pledge_check'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Dungeon/Frames/Dungeon_btn_pledge_check.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Btn_RaidPledgeSelect_C:WidgetTree.CBOverlay_22.CBOverlaySlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.6"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Image_hovered",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Btn_RaidPledgeSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.27"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.520833,
+            "G": 0.364165,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "BFA300"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 20.0,
+          "Y": 20.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'UI_MI_Btn_02'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_Resourse/UMGFx/Mat_Inst/Contents/UI_MI_Btn_02.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Btn_RaidPledgeSelect_C:WidgetTree.CBOverlay_22.CBOverlaySlot_4'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.8"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible",
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Widget_Selected",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Btn_RaidPledgeSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.27"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 70.0,
+          "Y": 70.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'Dungeon_btn_pledge_check2'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/Dungeon/Frames/Dungeon_btn_pledge_check2.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBOverlaySlot'Btn_RaidPledgeSelect_C:WidgetTree.CBOverlay_22.CBOverlaySlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.7"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBOverlay",
+    "Name": "CBOverlay_22",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Btn_RaidPledgeSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.27"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBOverlaySlot'Btn_RaidPledgeSelect_C:WidgetTree.CBOverlay_22.CBOverlaySlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.6"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Btn_RaidPledgeSelect_C:WidgetTree.CBOverlay_22.CBOverlaySlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.7"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Btn_RaidPledgeSelect_C:WidgetTree.CBOverlay_22.CBOverlaySlot_4'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.8"
+        },
+        {
+          "ObjectName": "CBOverlaySlot'Btn_RaidPledgeSelect_C:WidgetTree.CBOverlay_22.CBOverlaySlot_5'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.9"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBSizeBoxSlot'Btn_RaidPledgeSelect_C:WidgetTree.CBSizeBox_13.CBSizeBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.11"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Btn_RaidPledgeSelect_C:WidgetTree.CBOverlay_22'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.5"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Btn_RaidPledgeSelect_C:WidgetTree.CBOverlay_22'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.5"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Btn_RaidPledgeSelect_C:WidgetTree.CBImage_42'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.2"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Btn_RaidPledgeSelect_C:WidgetTree.CBOverlay_22'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.5"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Btn_RaidPledgeSelect_C:WidgetTree.CBOverlay_22'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.5"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Btn_RaidPledgeSelect_C:WidgetTree.Widget_Selected'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.4"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Btn_RaidPledgeSelect_C:WidgetTree.CBOverlay_22'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.5"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Btn_RaidPledgeSelect_C:WidgetTree.CBOverlay_22'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.5"
+      },
+      "Content": {
+        "ObjectName": "CBImage'Btn_RaidPledgeSelect_C:WidgetTree.Image_hovered'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.3"
+      }
+    }
+  },
+  {
+    "Type": "CBOverlaySlot",
+    "Name": "CBOverlaySlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBOverlaySlot'",
+    "Outer": {
+      "ObjectName": "CBOverlay'Btn_RaidPledgeSelect_C:WidgetTree.CBOverlay_22'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.5"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "CBOverlay'Btn_RaidPledgeSelect_C:WidgetTree.CBOverlay_22'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.5"
+      },
+      "Content": {
+        "ObjectName": "CBButton'Btn_RaidPledgeSelect_C:WidgetTree.CBButton_50'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.1"
+      }
+    }
+  },
+  {
+    "Type": "CBSizeBox",
+    "Name": "CBSizeBox_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Btn_RaidPledgeSelect_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.27"
+    },
+    "Properties": {
+      "WidthOverride": 60.0,
+      "HeightOverride": 60.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "CBSizeBoxSlot'Btn_RaidPledgeSelect_C:WidgetTree.CBSizeBox_13.CBSizeBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.11"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBSizeBoxSlot",
+    "Name": "CBSizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBSizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBSizeBox'Btn_RaidPledgeSelect_C:WidgetTree.CBSizeBox_13'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.10"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CBSizeBox'Btn_RaidPledgeSelect_C:WidgetTree.CBSizeBox_13'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.10"
+      },
+      "Content": {
+        "ObjectName": "CBOverlay'Btn_RaidPledgeSelect_C:WidgetTree.CBOverlay_22'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.5"
+      }
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Hovered",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Btn_RaidPledgeSelect_C:Anim_Hovered_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.24"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "70110100-43FDDED5-EFFC1285-3981F842",
+          "Name": "Image_hovered",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "70110100-43FDDED5-EFFC1285-3981F842",
+          "BindingName": "Image_hovered",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Btn_RaidPledgeSelect_C:Anim_Hovered_INST.Anim_Hovered.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.22"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 12001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "EEE74FD4-4E96CEBD-09ED0A89-09F85C0D"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Anim_Unhovered",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Btn_RaidPledgeSelect_C:Anim_Unhovered_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.25"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "1CC6EC82-40A94EA4-32EED6A7-1F39A91D",
+          "Name": "Image_hovered",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "1CC6EC82-40A94EA4-32EED6A7-1F39A91D",
+          "BindingName": "Image_hovered",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'Btn_RaidPledgeSelect_C:Anim_Unhovered_INST.Anim_Unhovered.MovieSceneFloatTrack_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.23"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 12001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "669D8FA8-41310805-B1AA4FAA-1B115AAA"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Btn_RaidPledgeSelect_C:Anim_Hovered_INST.Anim_Hovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.20"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Btn_RaidPledgeSelect_C:Anim_Hovered_INST.Anim_Hovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.20"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Btn_RaidPledgeSelect_C:Anim_Unhovered_INST.Anim_Unhovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.21"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatSection'Btn_RaidPledgeSelect_C:Anim_Unhovered_INST.Anim_Unhovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.21"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Btn_RaidPledgeSelect_C:Anim_Hovered_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.24"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 12000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Btn_RaidPledgeSelect_C:Anim_Hovered_INST.Anim_Hovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.20"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "70110100-43FDDED5-EFFC1285-3981F842"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 12000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "8835503E-4F28DD32-1F057091-58C91695",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Btn_RaidPledgeSelect_C:Anim_Unhovered_INST'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.25"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 12000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'Btn_RaidPledgeSelect_C:Anim_Unhovered_INST.Anim_Unhovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.21"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "1CC6EC82-40A94EA4-32EED6A7-1F39A91D"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 12000
+          },
+          "bInclusive": false
+        }
+      ],
+      "CompiledSignature": "F4575394-44D7AC8D-78633494-6191CA85",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Btn_RaidPledgeSelect_C:Anim_Hovered_INST.Anim_Hovered.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.22"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 12000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Btn_RaidPledgeSelect_C:Anim_Hovered_INST.Anim_Hovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.14"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Btn_RaidPledgeSelect_C:Anim_Hovered_INST.Anim_Hovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.15"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 12000
+            }
+          }
+        }
+      },
+      "Signature": "C0EE6D48-486F42A7-5F1D189C-DE04C348"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneFloatTrack'Btn_RaidPledgeSelect_C:Anim_Unhovered_INST.Anim_Unhovered.MovieSceneFloatTrack_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.23"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 12000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Btn_RaidPledgeSelect_C:Anim_Unhovered_INST.Anim_Unhovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.16"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Btn_RaidPledgeSelect_C:Anim_Unhovered_INST.Anim_Unhovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.17"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 12000
+            }
+          }
+        }
+      },
+      "Signature": "195831B2-4E1BF920-162E09A3-E12B277D"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Btn_RaidPledgeSelect_C:Anim_Hovered_INST.Anim_Hovered'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.12"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Btn_RaidPledgeSelect_C:Anim_Hovered_INST.Anim_Hovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.20"
+        }
+      ],
+      "EvaluationFieldGuid": "0F51C5A7-49AED63A-8A4956AC-173F3897",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Btn_RaidPledgeSelect_C:Anim_Hovered_INST.Anim_Hovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.20"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 12000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "0F51C5A7-49AED63A-8A4956AC-173F3897"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Btn_RaidPledgeSelect_C:Anim_Unhovered_INST.Anim_Unhovered'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.13"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'Btn_RaidPledgeSelect_C:Anim_Unhovered_INST.Anim_Unhovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.21"
+        }
+      ],
+      "EvaluationFieldGuid": "65C6CCC7-40946A6E-843D62A4-402C0428",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'Btn_RaidPledgeSelect_C:Anim_Unhovered_INST.Anim_Unhovered.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.21"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 12000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "65C6CCC7-40946A6E-843D62A4-402C0428"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Hovered_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Btn_RaidPledgeSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.26"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Btn_RaidPledgeSelect_C:Anim_Hovered_INST.Anim_Hovered'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.12"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "Image_hovered",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "70110100-43FDDED5-EFFC1285-3981F842",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Hovered",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Btn_RaidPledgeSelect_C:Anim_Hovered_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.18"
+      },
+      "Signature": "8835503E-4F28DD32-1F057091-58C91695"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Anim_Unhovered_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Btn_RaidPledgeSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.26"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Btn_RaidPledgeSelect_C:Anim_Unhovered_INST.Anim_Unhovered'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.13"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "Image_hovered",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "1CC6EC82-40A94EA4-32EED6A7-1F39A91D",
+          "bIsRootWidget": false,
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          }
+        }
+      ],
+      "DisplayLabel": "Anim_Unhovered",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Btn_RaidPledgeSelect_C:Anim_Unhovered_INST.CompiledData'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.19"
+      },
+      "Signature": "F4575394-44D7AC8D-78633494-6191CA85"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Btn_RaidPledgeSelect_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Btn_RaidPledgeSelect_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.27"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'Btn_RaidPledgeSelect_C:Anim_Hovered_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.24"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Btn_RaidPledgeSelect_C:Anim_Unhovered_INST'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.25"
+        }
+      ]
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EWidgetSlot'",
+      "ObjectPath": "/Script/ACUMGBaseModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBButton_50",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBButton'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBImage_42",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Btn_RaidPledgeSelect_C'Default__Btn_RaidPledgeSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Btn_RaidPledgeSelect_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.26"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBSizeBox'Btn_RaidPledgeSelect_C:WidgetTree.CBSizeBox_13'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Dungeon/Btn_RaidPledgeSelect.10"
+      }
+    }
+  }
+]

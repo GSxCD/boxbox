@@ -1,0 +1,284 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "NPCAutoMoveActor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'NPCAutoMoveActor_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.8"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'NPCAutoMoveActor_C:ExecuteUbergraph_NPCAutoMoveActor'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_NPCAutoMove'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'NPCAutoMoveActor_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.2"
+      },
+      {
+        "ObjectName": "Function'NPCAutoMoveActor_C:ExecuteUbergraph_NPCAutoMoveActor'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Spline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SplineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_NPCAutoMoveActor": {
+        "ObjectName": "Function'NPCAutoMoveActor_C:ExecuteUbergraph_NPCAutoMoveActor'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.1"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'NPCAutoMoveActor_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.2"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "NPCAutoMoveActor_C'Default__NPCAutoMoveActor_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_NPCAutoMoveActor",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'NPCAutoMoveActor_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'NPCAutoMoveActor_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "NPCAutoMoveActor_C",
+    "Name": "Default__NPCAutoMoveActor_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.NPCAutoMoveActor_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor",
+    "Properties": {
+      "UberGraphFrame": {},
+      "RootSceneComp": {
+        "ObjectName": "SceneComponent'Default__NPCAutoMoveActor_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.4"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__NPCAutoMoveActor_C:RootComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.4"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "NPCAutoMoveActor_C'Default__NPCAutoMoveActor_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.3"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'NPCAutoMoveActor_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'NPCAutoMoveActor_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'NPCAutoMoveActor_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.5"
+      },
+      "VariableGUID": "BC72E137-40BC29D0-4773B4BB-66F48A29",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'NPCAutoMoveActor_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SplineComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SplineComponent'NPCAutoMoveActor_C:Spline_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.9"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "6B1C0DE7-4B168F10-72C2EF90-9BDFEA83",
+      "InternalVariableName": "Spline"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'NPCAutoMoveActor_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'NPCAutoMoveActor_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.7"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'NPCAutoMoveActor_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.7"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'NPCAutoMoveActor_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.6"
+      }
+    }
+  },
+  {
+    "Type": "SplineComponent",
+    "Name": "Spline_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SplineComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'NPCAutoMoveActor_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Contents/BPDirecting/NPCAutoMoveActor.0"
+    },
+    "Properties": {
+      "SplineCurves": {
+        "Position": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 100.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 100.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 100.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 100.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 100.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FriendListSlot_Object_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/FriendListSlot_Object",
+    "SuperStruct": {
+      "ObjectName": "Class'OGListSlotObject'",
+      "ObjectPath": "/Script/ACUICoreModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'FriendListSlot_Object_C:SetFriendMemo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/FriendListSlot_Object.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "FriendSlotInfo",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 208,
+        "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn",
+        "Struct": {
+          "ObjectName": "ScriptStruct'OGFriendSlotData'",
+          "ObjectPath": "/Script/ACModelModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Tooltip Pos",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | InstancedReference | ExposeOnSpawn",
+        "PropertyClass": {
+          "ObjectName": "Class'EToolTipPosition'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FriendList",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | InstancedReference | ExposeOnSpawn",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'Widget_FriendList01_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/Widget_FriendList01.11"
+        }
+      }
+    ],
+    "FuncMap": {
+      "SetFriendMemo": {
+        "ObjectName": "Function'FriendListSlot_Object_C:SetFriendMemo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/FriendListSlot_Object.2"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FriendListSlot_Object_C'Default__FriendListSlot_Object_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/FriendListSlot_Object.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FriendListSlot_Object_C",
+    "Name": "Default__FriendListSlot_Object_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/FriendListSlot_Object.FriendListSlot_Object_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/FriendListSlot_Object",
+    "Properties": {
+      "FriendSlotInfo": {
+        "UserListType": "EOGFriendListType::Max",
+        "PlayerKey": -1,
+        "PlayerName": "",
+        "PlayerLevel": -1,
+        "MainHeroTID": -1,
+        "PlayerMemo": "",
+        "LoginTime": -1,
+        "LogoutTime": -1,
+        "isLogin": false,
+        "GuildName": "",
+        "GuildMark": {
+          "m_BannerID": 0,
+          "m_MainMarkID": 0,
+          "m_SubMarkID": 0,
+          "m_AuraID": 0
+        },
+        "WorldLevelName": "None",
+        "MainQuestName": "None",
+        "PlayerIntro": "",
+        "QuestStepDesc": "None",
+        "PlatformInfo": {
+          "m_PlatformType": "EPlatformType::None",
+          "m_PlatformID": "",
+          "m_PlatformName": ""
+        }
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SetFriendMemo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'FriendListSlot_Object_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Friend/FriendListSlot_Object.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "memoStr",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  }
+]

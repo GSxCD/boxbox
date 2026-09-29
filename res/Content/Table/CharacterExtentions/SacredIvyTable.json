@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SacredIvyTable",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/CharacterExtentions/SacredIvyTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UESacredIvyTable'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "1002": {
+        "AdventureSkill_Tid": {
+          "Display_Type": "EAdventureSkillDisplayType::Common",
+          "EnableBattleState": false,
+          "EnableMoveState": [
+            "EMoveMode::Ground",
+            "EMoveMode::Air"
+          ],
+          "Condition_Type": "EAdventureSkillActiveCondition::CoolTime",
+          "Condition_Value": "10000",
+          "ControlType": "EAdventureSkillControlType::Click",
+          "Icon": "icon_adventureskill_tioreh",
+          "AdventureSkill_SkillTid": [
+            "tioreh_activity_001"
+          ],
+          "SkillTID": [
+            "tioreh_activity_001"
+          ],
+          "Ignore_ElementalDamageType": [],
+          "Sound_Tid": "None",
+          "Active_Sound_Tid": "None",
+          "Loop_Sound_Tid": "None",
+          "Contents_OnOff": {
+            "EnableDungeonUse": false,
+            "EnableQuestDungeonUse": false,
+            "EnableDeathMatchUse": false,
+            "EnableTeamDeathMatchUse": false,
+            "EnableTeamRoundMatchUse": false,
+            "EnablePVPMatchUse": false,
+            "EnableRaceUse": false,
+            "EnableBoardingObjStateUse": false,
+            "EnableMovingObjStateUse": false,
+            "EnableMultiObjStateUse": false,
+            "EnableActorChangeUse": true,
+            "EnableQuestAlbionSectorUse": true,
+            "EnableEnterSectorUse": true,
+            "String_Tid": "None",
+            "Local_Key": "sacred_ivy_contentsonoff"
+          },
+          "String_Tid": "sacred_ivy",
+          "Local_Key": "None"
+        },
+        "Move_Angle": 35,
+        "Move_Distance": 900,
+        "Move_ReachTime": 800,
+        "SacredIvy_Fx": {
+          "AssetPathName": "/Game/vfx/bp/bp_sacredivy.BP_SacredIvy",
+          "SubPathString": ""
+        },
+        "Move_Curve": "sacred_ivy_curve",
+        "Move_StartSocket": "bip001-r-hand",
+        "Move_LuncherAnim": "tioreh_adventure_start_1_mtg",
+        "Move_LuncherAnimSectionName": "default",
+        "Move_StartAnim": "tioreh_adventure_start_4_mtg",
+        "Move_StartAnimSectionName": "default",
+        "Move_DownLoopAnim": "tioreh_adventure_down_loop_mtg",
+        "Move_DownLoopAnimSectionName": "default",
+        "Move_EndAnim": "tioreh_adventure_end_mtg",
+        "Move_EndAnimSectionName": "default",
+        "Move_CancelJumpAnim": "tioreh_adventure_cancel_jump_mtg",
+        "Move_CancelJumpAnimSectionName": "default",
+        "Move_ArriveAnim": "tioreh_adventure_arrival_mtg",
+        "Move_ArriveAnimSectionName": "default",
+        "Move_CancelDownLoopAnim": "tioreh_adventure_cancel_down_loop_mtg",
+        "Move_CancelDownLoopAnimSectionName": "start",
+        "String_Tid": "1002",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

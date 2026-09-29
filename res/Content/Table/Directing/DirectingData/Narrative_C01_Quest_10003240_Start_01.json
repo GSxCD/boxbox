@@ -1,0 +1,139 @@
+[
+  {
+    "Type": "OGDirecting_Delay",
+    "Name": "OGDirecting_Delay_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Delay'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C01_Quest_10003240_Start_01'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C01_Quest_10003240_Start_01.7"
+    },
+    "Properties": {
+      "Delay": 0.5,
+      "ActionID": "start_delay_1"
+    }
+  },
+  {
+    "Type": "OGDirecting_Delay",
+    "Name": "OGDirecting_Delay_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Delay'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C01_Quest_10003240_Start_01'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C01_Quest_10003240_Start_01.7"
+    },
+    "Properties": {
+      "Delay": 3.0,
+      "ActionID": "start_delay_2",
+      "ExecWhenSkip": true
+    }
+  },
+  {
+    "Type": "OGDirecting_Fade",
+    "Name": "OGDirecting_Fade_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_Fade'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C01_Quest_10003240_Start_01'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C01_Quest_10003240_Start_01.7"
+    },
+    "Properties": {
+      "ActionID": "start_fade_in"
+    }
+  },
+  {
+    "Type": "OGDirecting_SendFinish",
+    "Name": "OGDirecting_SendFinish_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_SendFinish'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C01_Quest_10003240_Start_01'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C01_Quest_10003240_Start_01.7"
+    },
+    "Properties": {
+      "ActionID": "send_finish"
+    }
+  },
+  {
+    "Type": "OGDirecting_WaitForRouterID",
+    "Name": "OGDirecting_WaitForRouterID_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_WaitForRouterID'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C01_Quest_10003240_Start_01'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C01_Quest_10003240_Start_01.7"
+    },
+    "Properties": {
+      "TargetActionID": "start_delay_1",
+      "ActionID": "start_delay_wait_1"
+    }
+  },
+  {
+    "Type": "OGDirecting_WaitForRouterID",
+    "Name": "OGDirecting_WaitForRouterID_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_WaitForRouterID'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C01_Quest_10003240_Start_01'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C01_Quest_10003240_Start_01.7"
+    },
+    "Properties": {
+      "TargetActionID": "start_delay_2",
+      "ActionID": "start_delay_wait_2"
+    }
+  },
+  {
+    "Type": "OGDirecting_WaitQuestState",
+    "Name": "OGDirecting_WaitQuestState_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirecting_WaitQuestState'",
+    "Outer": {
+      "ObjectName": "OGDirectingActionContainerObject'Narrative_C01_Quest_10003240_Start_01'",
+      "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C01_Quest_10003240_Start_01.7"
+    },
+    "Properties": {
+      "QuestTid": "10003240",
+      "questState": "EQuestState::Progressing",
+      "ActionID": "wait_next_quest"
+    }
+  },
+  {
+    "Type": "OGDirectingActionContainerObject",
+    "Name": "Narrative_C01_Quest_10003240_Start_01",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OGDirectingActionContainerObject'",
+    "Package": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C01_Quest_10003240_Start_01",
+    "Properties": {
+      "ActionList": [
+        {
+          "ObjectName": "OGDirecting_Delay'Narrative_C01_Quest_10003240_Start_01:OGDirecting_Delay_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C01_Quest_10003240_Start_01.0"
+        },
+        {
+          "ObjectName": "OGDirecting_WaitForRouterID'Narrative_C01_Quest_10003240_Start_01:OGDirecting_WaitForRouterID_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C01_Quest_10003240_Start_01.4"
+        },
+        {
+          "ObjectName": "OGDirecting_SendFinish'Narrative_C01_Quest_10003240_Start_01:OGDirecting_SendFinish_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C01_Quest_10003240_Start_01.3"
+        },
+        {
+          "ObjectName": "OGDirecting_WaitQuestState'Narrative_C01_Quest_10003240_Start_01:OGDirecting_WaitQuestState_0'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C01_Quest_10003240_Start_01.6"
+        },
+        {
+          "ObjectName": "OGDirecting_Delay'Narrative_C01_Quest_10003240_Start_01:OGDirecting_Delay_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C01_Quest_10003240_Start_01.1"
+        },
+        {
+          "ObjectName": "OGDirecting_WaitForRouterID'Narrative_C01_Quest_10003240_Start_01:OGDirecting_WaitForRouterID_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C01_Quest_10003240_Start_01.5"
+        },
+        {
+          "ObjectName": "OGDirecting_Fade'Narrative_C01_Quest_10003240_Start_01:OGDirecting_Fade_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Table/Directing/DirectingData/Narrative_C01_Quest_10003240_Start_01.2"
+        }
+      ]
+    }
+  }
+]

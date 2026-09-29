@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "QuestJournalTap",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/Quest/QuestJournalTap",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UEQuestJournalTapTable'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "tab_activequest": {
+        "Order": 1,
+        "Journal_Group_Name": "ui_main_menu_quest_all",
+        "Journal_Icon": "quest_journal_tap_active",
+        "Journal_Active_Quest_Type": [
+          "main",
+          "event",
+          "hidden",
+          "side",
+          "area",
+          "dungeon"
+        ],
+        "String_Tid": "tab_activequest",
+        "Local_Key": "None"
+      },
+      "tab_mainquest": {
+        "Order": 2,
+        "Journal_Group_Name": "ui_main_menu_quest_main",
+        "Journal_Icon": "quest_journal_tap_main",
+        "Journal_Active_Quest_Type": [
+          "main"
+        ],
+        "String_Tid": "tab_mainquest",
+        "Local_Key": "None"
+      },
+      "tab_subquest": {
+        "Order": 3,
+        "Journal_Group_Name": "ui_main_menu_quest_sub",
+        "Journal_Icon": "quest_journal_tap_area",
+        "Journal_Active_Quest_Type": [
+          "event",
+          "hidden",
+          "side",
+          "area",
+          "dungeon"
+        ],
+        "String_Tid": "tab_subquest",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

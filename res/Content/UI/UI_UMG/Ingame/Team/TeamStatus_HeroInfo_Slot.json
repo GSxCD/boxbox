@@ -1,0 +1,613 @@
+[
+  {
+    "Type": "BattlePower_Widget_C",
+    "Name": "BattlePower_Widget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/BattlePower_Widget.BattlePower_Widget_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'TeamStatus_HeroInfo_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.18"
+    },
+    "Template": {
+      "ObjectName": "BattlePower_Widget_C'Default__BattlePower_Widget_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/BattlePower_Widget.0"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero.CBCanvasPanelSlot_3'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.7"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.8,
+          "Y": 0.8
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.5
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "CBCanvasPanel_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'TeamStatus_HeroInfo_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.18"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'TeamStatus_HeroInfo_Slot_C:WidgetTree.CBCanvasPanel_1.CBCanvasPanelSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBCanvasPanel",
+    "Name": "Widget_Hero",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'TeamStatus_HeroInfo_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.18"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CBCanvasPanelSlot'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero.CBCanvasPanelSlot_6'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.8"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero.CBCanvasPanelSlot_2'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.6"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero.CBCanvasPanelSlot_13'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.5"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero.CBCanvasPanelSlot_1'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.4"
+        },
+        {
+          "ObjectName": "CBCanvasPanelSlot'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero.CBCanvasPanelSlot_3'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.7"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'TeamStatus_HeroInfo_Slot_C:WidgetTree.CBCanvasPanel_1.CBCanvasPanelSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.3"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'TeamStatus_HeroInfo_Slot_C:WidgetTree.CBCanvasPanel_1'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.1"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'TeamStatus_HeroInfo_Slot_C:WidgetTree.CBCanvasPanel_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.1"
+      },
+      "Content": {
+        "ObjectName": "CBCanvasPanel'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.2"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.2"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 128.0,
+          "Right": 294.0,
+          "Bottom": 65.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.2"
+      },
+      "Content": {
+        "ObjectName": "CBScaleBox'TeamStatus_HeroInfo_Slot_C:WidgetTree.CBScaleBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.12"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.2"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 31.177778,
+          "Top": 65.144165,
+          "Right": 491.82224,
+          "Bottom": 38.0
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.2"
+      },
+      "Content": {
+        "ObjectName": "CBImage'TeamStatus_HeroInfo_Slot_C:WidgetTree.line'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.11"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.2"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 120.0,
+          "Bottom": 120.0
+        }
+      },
+      "ZOrder": 2,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.2"
+      },
+      "Content": {
+        "ObjectName": "CBImage'TeamStatus_HeroInfo_Slot_C:WidgetTree.Icon_Hero'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.10"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.2"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 130.0,
+          "Top": 70.0,
+          "Right": 652.5905,
+          "Bottom": 70.0
+        }
+      },
+      "bAutoSize": true,
+      "ZOrder": 3,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.2"
+      },
+      "Content": {
+        "ObjectName": "BattlePower_Widget_C'TeamStatus_HeroInfo_Slot_C:WidgetTree.BattlePower_Widget'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.0"
+      }
+    }
+  },
+  {
+    "Type": "CBCanvasPanelSlot",
+    "Name": "CBCanvasPanelSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBCanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CBCanvasPanel'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.2"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 120.0,
+          "Bottom": 120.0
+        }
+      },
+      "ZOrder": 1,
+      "Parent": {
+        "ObjectName": "CBCanvasPanel'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.2"
+      },
+      "Content": {
+        "ObjectName": "CBImage'TeamStatus_HeroInfo_Slot_C:WidgetTree.bg'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.9"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "bg",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'TeamStatus_HeroInfo_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.18"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 150.0,
+          "Y": 155.0
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'HUD_heroSlot'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/HUD/Frames/HUD_heroSlot.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero.CBCanvasPanelSlot_6'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.8"
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "Icon_Hero",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'TeamStatus_HeroInfo_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.18"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'hud_meliodas_001'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/Icon_Item/portrait_Hero/hud_meliodas_001.0"
+        },
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "bIsValid": 0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero.CBCanvasPanelSlot_2'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.6"
+      }
+    }
+  },
+  {
+    "Type": "CBImage",
+    "Name": "line",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'TeamStatus_HeroInfo_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.18"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.030713,
+            "G": 0.035601,
+            "B": 0.046665,
+            "A": 0.3,
+            "Hex": "4C31353D"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::Box",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 60.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "VtaSlateTexture'common_line_itemname'",
+          "ObjectPath": "SevenDeadlySins/Content/UIImg/origin/common/Frames/common_line_itemname.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero.CBCanvasPanelSlot_13'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.5"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.6,
+          "Y": 0.6
+        }
+      },
+      "bIsVariable": false,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CBScaleBox",
+    "Name": "CBScaleBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'TeamStatus_HeroInfo_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.18"
+    },
+    "Properties": {
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "CBScaleBoxSlot'TeamStatus_HeroInfo_Slot_C:WidgetTree.CBScaleBox_0.CBScaleBoxSlot_0'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.13"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CBCanvasPanelSlot'TeamStatus_HeroInfo_Slot_C:WidgetTree.Widget_Hero.CBCanvasPanelSlot_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.4"
+      }
+    }
+  },
+  {
+    "Type": "CBScaleBoxSlot",
+    "Name": "CBScaleBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CBScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "CBScaleBox'TeamStatus_HeroInfo_Slot_C:WidgetTree.CBScaleBox_0'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.12"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "CBScaleBox'TeamStatus_HeroInfo_Slot_C:WidgetTree.CBScaleBox_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.12"
+      },
+      "Content": {
+        "ObjectName": "ETextBlock'TeamStatus_HeroInfo_Slot_C:WidgetTree.TextBlock_HeroName'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.14"
+      }
+    }
+  },
+  {
+    "Type": "ETextBlock",
+    "Name": "TextBlock_HeroName",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ETextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'TeamStatus_HeroInfo_Slot_C:WidgetTree'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.18"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "F3F329034EC45C2899DF00A960BF3AF7",
+        "SourceString": "길선더",
+        "LocalizedString": "길선더"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.051269,
+          "G": 0.057805,
+          "B": 0.068478,
+          "A": 1.0,
+          "Hex": "40444A"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Default'",
+          "ObjectPath": "SevenDeadlySins/Content/Font/Font_Default.0"
+        },
+        "TypefaceFontName": "Font_B",
+        "Size": 32.0
+      },
+      "Slot": {
+        "ObjectName": "CBScaleBoxSlot'TeamStatus_HeroInfo_Slot_C:WidgetTree.CBScaleBox_0.CBScaleBoxSlot_0'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.13"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SetStatusHeroInfo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'TeamStatus_HeroInfo_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.17"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "heroTid",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "Int64Property",
+        "Name": "heroGuid",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "Int64Property",
+        "Name": "CallFunc_Get_HeroActor_Power_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_GetHeroActorTable_ViewImageTid_PortraitHUD_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetHeroActorTable_HeroName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TeamStatus_HeroInfo_Slot_C",
+    "Name": "Default__TeamStatus_HeroInfo_Slot_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.TeamStatus_HeroInfo_Slot_C'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "TeamStatus_HeroInfo_Slot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'TeamStatus_HeroInfo_Slot_C:WidgetTree'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.18"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TeamStatus_HeroInfo_Slot_C:SetStatusHeroInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.15"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BattlePower_Widget",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'BattlePower_Widget_C'",
+          "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/component/BattlePower_Widget.24"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Icon_Hero",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CBImage'",
+          "ObjectPath": "/Script/CBUMGModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TextBlock_HeroName",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'ETextBlock'",
+          "ObjectPath": "/Script/ACUMGBaseModule"
+        }
+      }
+    ],
+    "FuncMap": {
+      "SetStatusHeroInfo": {
+        "ObjectName": "Function'TeamStatus_HeroInfo_Slot_C:SetStatusHeroInfo'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.15"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TeamStatus_HeroInfo_Slot_C'Default__TeamStatus_HeroInfo_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.16"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'TeamStatus_HeroInfo_Slot_C'",
+      "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.17"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CBCanvasPanel'TeamStatus_HeroInfo_Slot_C:WidgetTree.CBCanvasPanel_1'",
+        "ObjectPath": "SevenDeadlySins/Content/UI/UI_UMG/Ingame/Team/TeamStatus_HeroInfo_Slot.1"
+      }
+    }
+  }
+]

@@ -1,0 +1,907 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_WaterPlants_A01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_WaterPlants_A01_C:SimpleConstructionScript_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.20"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_WaterPlants_A01_C:ExecuteUbergraph_BP_WaterPlants_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.8"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UEActor_BuoyancyPartsObject'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_WaterPlants_A01_C:GetMeshComponentFromBP'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.9"
+      },
+      {
+        "ObjectName": "Function'BP_WaterPlants_A01_C:ProcessWaveHeightAtPoint'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.12"
+      },
+      {
+        "ObjectName": "Function'BP_WaterPlants_A01_C:ProcessWaterParameterWaveSacle'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.11"
+      },
+      {
+        "ObjectName": "Function'BP_WaterPlants_A01_C:ProcessWaterHeight'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.10"
+      },
+      {
+        "ObjectName": "Function'BP_WaterPlants_A01_C:AddEventEnableAimOverlayMode'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.6"
+      },
+      {
+        "ObjectName": "Function'BP_WaterPlants_A01_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.13"
+      },
+      {
+        "ObjectName": "Function'BP_WaterPlants_A01_C:AddEventSetAimTarget'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.7"
+      },
+      {
+        "ObjectName": "Function'BP_WaterPlants_A01_C:ExecuteUbergraph_BP_WaterPlants_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.8"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "EQuestTask",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'EQuestTaskComponent'",
+          "ObjectPath": "/Script/ACActorModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BPC_ControlObjectOverlay",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BPC_ControlObjectOverlay_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Component/BPC_ControlObjectOverlay.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_OGBuoyancyComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_OGBuoyancyComponent_C'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Component/BP_OGBuoyancyComponent.0"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_WaterPlants_A01": {
+        "ObjectName": "Function'BP_WaterPlants_A01_C:ExecuteUbergraph_BP_WaterPlants_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.8"
+      },
+      "AddEventSetAimTarget": {
+        "ObjectName": "Function'BP_WaterPlants_A01_C:AddEventSetAimTarget'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.7"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_WaterPlants_A01_C:ReceiveBeginPlay'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.13"
+      },
+      "AddEventEnableAimOverlayMode": {
+        "ObjectName": "Function'BP_WaterPlants_A01_C:AddEventEnableAimOverlayMode'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.6"
+      },
+      "ProcessWaterHeight": {
+        "ObjectName": "Function'BP_WaterPlants_A01_C:ProcessWaterHeight'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.10"
+      },
+      "ProcessWaterParameterWaveSacle": {
+        "ObjectName": "Function'BP_WaterPlants_A01_C:ProcessWaterParameterWaveSacle'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.11"
+      },
+      "ProcessWaveHeightAtPoint": {
+        "ObjectName": "Function'BP_WaterPlants_A01_C:ProcessWaveHeightAtPoint'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.12"
+      },
+      "GetMeshComponentFromBP": {
+        "ObjectName": "Function'BP_WaterPlants_A01_C:GetMeshComponentFromBP'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.9"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_WaterPlants_A01_C'Default__BP_WaterPlants_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_OGBuoyancyComponent_C",
+    "Name": "BP_OGBuoyancyComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Component/BP_OGBuoyancyComponent.BP_OGBuoyancyComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.0"
+    },
+    "Template": {
+      "ObjectName": "BP_OGBuoyancyComponent_C'Default__BP_OGBuoyancyComponent_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Component/BP_OGBuoyancyComponent.1"
+    }
+  },
+  {
+    "Type": "BP_WaterPlants_A01_C",
+    "Name": "Default__BP_WaterPlants_A01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.BP_WaterPlants_A01_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01",
+    "Properties": {
+      "UberGraphFrame": {},
+      "BuoyancyObjectMovement": {
+        "ObjectName": "EObjectActorMovementComponent'Default__BP_WaterPlants_A01_C:BuoyancyObjectMovement'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.4"
+      },
+      "MassBuoyancy": 20.0,
+      "BuoyancyPontoons": [
+        {
+          "X": -76.0,
+          "Y": 100.0,
+          "Z": 0.0
+        },
+        {
+          "X": -76.0,
+          "Y": -100.0,
+          "Z": 0.0
+        },
+        {
+          "X": 76.0,
+          "Y": 100.0,
+          "Z": 0.0
+        },
+        {
+          "X": 76.0,
+          "Y": -100.0,
+          "Z": 0.0
+        }
+      ],
+      "BuoyancyChangeOwnerPosition": true,
+      "BuoyancyImpulseRoatorRoll": 2.0,
+      "BuoyancyImpulseRoatorPitch": 2.0,
+      "BuoyancyImpulseTimeScale": 2.0,
+      "UseWaveScaleToTimeScale": true,
+      "StaticRootMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_WaterPlants_A01_C:RootBuoyancyComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.23"
+      },
+      "StaticSubMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_WaterPlants_A01_C:Mesh'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.22"
+      },
+      "EnableMeshComponentFromBP": true,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_WaterPlants_A01_C:RootBuoyancyComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.23"
+      },
+      "Tags": [
+        "BP_WaterPlants_A01"
+      ]
+    }
+  },
+  {
+    "Type": "BPC_ControlObjectOverlay_C",
+    "Name": "BPC_ControlObjectOverlay_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Component/BPC_ControlObjectOverlay.BPC_ControlObjectOverlay_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.0"
+    },
+    "Template": {
+      "ObjectName": "BPC_ControlObjectOverlay_C'Default__BPC_ControlObjectOverlay_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Component/BPC_ControlObjectOverlay.1"
+    },
+    "Properties": {
+      "EnableOverlayColor": {
+        "R": 0.209087,
+        "G": 1.0,
+        "B": 0.470194,
+        "A": 1.0,
+        "Hex": "7EFFB7"
+      },
+      "bUseQuestCheck": true,
+      "QuestDisableColor": {
+        "R": 0.052861,
+        "G": 0.052861,
+        "B": 0.052861,
+        "A": 1.0,
+        "Hex": "414141"
+      },
+      "QuestTidArray": [
+        10003270
+      ]
+    }
+  },
+  {
+    "Type": "EObjectActorMovementComponent",
+    "Name": "BuoyancyObjectMovement",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EObjectActorMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_WaterPlants_A01_C'Default__BP_WaterPlants_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.2"
+    }
+  },
+  {
+    "Type": "EQuestTaskComponent",
+    "Name": "EQuestTask_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EQuestTaskComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.0"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "AddEventEnableAimOverlayMode",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UEActor_BuoyancyPartsObject:AddEventEnableAimOverlayMode'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Enable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "AddEventSetAimTarget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UEActor_BuoyancyPartsObject:AddEventSetAimTarget'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "_lockon",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_WaterPlants_A01",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_Enable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event__lockon",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetMeshComponentFromBP",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UEActor:GetMeshComponentFromBP'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "Parm | OutParm | ReturnParm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'MeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure | FUNC_Const"
+  },
+  {
+    "Type": "Function",
+    "Name": "ProcessWaterHeight",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UEActor_Buoyancy:ProcessWaterHeight'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "_point",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "_relative",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Process_Water_Height_out",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ProcessWaterParameterWaveSacle",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UEActor_Buoyancy:ProcessWaterParameterWaveSacle'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "Parm | OutParm | ReturnParm"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_GetWaveSpd_WaveSpeed",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_FunctionResult_ReturnValue_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ProcessWaveHeightAtPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UEActor_Buoyancy:ProcessWaveHeightAtPoint'",
+      "ObjectPath": "/Script/ACActorModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "_point",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "_mass",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "pontoon_rto",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "debug",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "_end",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_ProcessFakeWaveHightAtPoint_Rotate",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_ProcessFakeWaveHightAtPoint_Mass_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_ProcessFakeWaveHightAtPoint_Rto_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WaterPlants_A01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.20"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_WaterPlants_A01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.14"
+      },
+      "VariableGUID": "658B117C-4922B268-089321AC-A70E869D",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WaterPlants_A01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.20"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_OGBuoyancyComponent_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Component/BP_OGBuoyancyComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_OGBuoyancyComponent_C'BP_WaterPlants_A01_C:BP_OGBuoyancyComponent_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.1"
+      },
+      "VariableGUID": "A30270A4-46C8FBEF-CF977692-33FA7C36",
+      "InternalVariableName": "BP_OGBuoyancyComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WaterPlants_A01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.20"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPC_ControlObjectOverlay_C'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Component/BPC_ControlObjectOverlay.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPC_ControlObjectOverlay_C'BP_WaterPlants_A01_C:BPC_ControlObjectOverlay_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.3"
+      },
+      "VariableGUID": "276CD138-47FF2EC6-76AD1480-9B29904F",
+      "InternalVariableName": "BPC_ControlObjectOverlay"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WaterPlants_A01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.20"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent'BP_WaterPlants_A01_C:SkeletalMesh_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.21"
+      },
+      "ParentComponentOrVariableName": "RootBuoyancyComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "B0709599-4CC41B8D-25CAB5A7-B63E343A",
+      "InternalVariableName": "SkeletalMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WaterPlants_A01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.20"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'EQuestTaskComponent'",
+        "ObjectPath": "/Script/ACActorModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "EQuestTaskComponent'BP_WaterPlants_A01_C:EQuestTask_GEN_VARIABLE'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.5"
+      },
+      "VariableGUID": "0B5844AC-4930004D-688EDA99-3A58A06A",
+      "InternalVariableName": "EQuestTask"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_WaterPlants_A01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_WaterPlants_A01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_WaterPlants_A01_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_WaterPlants_A01_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.18"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_WaterPlants_A01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_WaterPlants_A01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_WaterPlants_A01_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_WaterPlants_A01_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.18"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_WaterPlants_A01_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.15"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletalMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WaterPlants_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.0"
+    },
+    "Properties": {
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'SK_WaterPlants_A01_Idle_01'",
+          "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/SK_WaterPlants_A01/Ani/SK_WaterPlants_A01_Idle_01.0"
+        }
+      },
+      "AnimationMode": "EAnimationMode::AnimationSingleNode",
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_WaterPlants_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/SK_WaterPlants_A01/Mesh/SK_WaterPlants_A01.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_WaterPlants_A01'",
+        "ObjectPath": "SevenDeadlySins/Content/Cha/Prop/SK_WaterPlants_A01/Mesh/SK_WaterPlants_A01.1"
+      },
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_Yes",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_PhysicsBody",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MyPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "OtherPC",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Npc",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeScale3D": {
+        "X": 1.58,
+        "Y": 1.58,
+        "Z": 1.58
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_WaterPlants_A01_C'Default__BP_WaterPlants_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.2"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel5",
+        "CollisionProfileName": "Custom"
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_WaterPlants_A01_C:RootBuoyancyComponent'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.23"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "RootBuoyancyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_WaterPlants_A01_C'Default__BP_WaterPlants_A01_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.2"
+    },
+    "Properties": {
+      "PhysicsVolumeChangedDelegate": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "EObjectActorMovementComponent'Default__BP_WaterPlants_A01_C:BuoyancyObjectMovement'",
+              "ObjectPath": "SevenDeadlySins/Content/Blueprint/Object/Minigame/BP_WaterPlants_A01.4"
+            },
+            "FunctionName": "PhysicsVolumeChanged"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,620 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ElectronicChargeTable",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/CharacterExtentions/ElectronicChargeTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UEElectronicCharge'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "1006": {
+        "AdventureSkill_Tid": {
+          "Display_Type": "EAdventureSkillDisplayType::Common",
+          "EnableBattleState": false,
+          "EnableMoveState": [
+            "EMoveMode::Ground"
+          ],
+          "Condition_Type": "EAdventureSkillActiveCondition::CoolTime",
+          "Condition_Value": "2000",
+          "ControlType": "EAdventureSkillControlType::Click",
+          "Icon": "icon_adventureskill_gilthunder",
+          "AdventureSkill_SkillTid": [
+            "gilthunder_activity_000"
+          ],
+          "SkillTID": [
+            "gilthunder_activity_000"
+          ],
+          "Ignore_ElementalDamageType": [],
+          "Sound_Tid": "None",
+          "Active_Sound_Tid": "None",
+          "Loop_Sound_Tid": "None",
+          "Contents_OnOff": {
+            "EnableDungeonUse": true,
+            "EnableQuestDungeonUse": true,
+            "EnableDeathMatchUse": false,
+            "EnableTeamDeathMatchUse": false,
+            "EnableTeamRoundMatchUse": false,
+            "EnablePVPMatchUse": false,
+            "EnableRaceUse": true,
+            "EnableBoardingObjStateUse": true,
+            "EnableMovingObjStateUse": true,
+            "EnableMultiObjStateUse": true,
+            "EnableActorChangeUse": true,
+            "EnableQuestAlbionSectorUse": true,
+            "EnableEnterSectorUse": true,
+            "String_Tid": "None",
+            "Local_Key": "electronic_charge_contentsonoff"
+          },
+          "String_Tid": "electronic_charge",
+          "Local_Key": "None"
+        },
+        "EnableBattleState": false,
+        "AimMode_Start_Montage": "gil_thunder_adventure_aim_start_mtg",
+        "AimMode_End_Montage": "gil_thunder_adventure_aim_end_mtg",
+        "AimMode_Charge_Montage": [
+          "gil_thunder_adventure_charge_start1_mtg",
+          "gil_thunder_adventure_charge_start2_mtg",
+          "gil_thunder_adventure_charge_start3_mtg"
+        ],
+        "AimMode_Action_Montage": "gil_thunder_adventure_charge_end_mtg",
+        "UseOneShotSkill": false,
+        "AimMode_MoveSpeed": 250,
+        "AimMode_Angle_Min": -70,
+        "AimMode_Angle_Max": 70,
+        "AimMode_BlendSpace": "gil_thunder_electronic_charge_bs",
+        "AimMode_AimOffsetSpace": "gilthunder_electroniccharge_aimoffset",
+        "AimMode_Guide_FX": "fx_gil_thunder_adventure_guide_decal",
+        "AimTargetEffect": {
+          "TargetType": "EActorType::None",
+          "TargetGrades": [],
+          "TargetMaterialEffectTID": "None",
+          "bSyncWithProjectile": false
+        },
+        "ChargeFXs": [
+          "fx_gil_thunder_adventure_projectile_0",
+          "fx_gil_thunder_adventure_projectile_1_1",
+          "fx_gil_thunder_adventure_projectile_2_1",
+          "fx_gil_thunder_adventure_projectile_3_1"
+        ],
+        "ChargeFXRotSpaces": [
+          "EFxRotationSpace::Local",
+          "EFxRotationSpace::Local",
+          "EFxRotationSpace::Local",
+          "EFxRotationSpace::Local"
+        ],
+        "ChargeFxRotators": [
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        ],
+        "ChargeFXSockets": [
+          "socket_sword1h_battle",
+          "socket_sword1h_battle",
+          "socket_sword1h_battle",
+          "socket_sword1h_battle"
+        ],
+        "ObjectCheckRange": 3500,
+        "AutoAimRange": 100,
+        "Electronic_Charge_Step_Time": [
+          1000,
+          1000
+        ],
+        "Electronic_Charge_SkillTid": [
+          "gilthunder_activity_001",
+          "gilthunder_activity_002",
+          "gilthunder_activity_003"
+        ],
+        "Charge_Amount": [],
+        "CameraMode": "gilthunder_adv_skillaim",
+        "AimCameraInterPolate": "EInterpolateFunc::EaseIn",
+        "AimCameraInterPolate_Time": 500,
+        "AimDistance": 10000,
+        "AimZLookAt": 1925,
+        "AimLookFixAngle": 5000,
+        "AimZLookAtCharge": 8000,
+        "LoopSound": "None",
+        "String_Tid": "1006",
+        "Local_Key": "None"
+      },
+      "1009": {
+        "AdventureSkill_Tid": {
+          "Display_Type": "EAdventureSkillDisplayType::Common",
+          "EnableBattleState": false,
+          "EnableMoveState": [
+            "EMoveMode::Ground"
+          ],
+          "Condition_Type": "EAdventureSkillActiveCondition::CoolTime",
+          "Condition_Value": "2000",
+          "ControlType": "EAdventureSkillControlType::Click",
+          "Icon": "icon_adventureskill_elaine",
+          "AdventureSkill_SkillTid": [
+            "elaine_activity_000"
+          ],
+          "SkillTID": [
+            "elaine_activity_000"
+          ],
+          "Ignore_ElementalDamageType": [],
+          "Sound_Tid": "None",
+          "Active_Sound_Tid": "None",
+          "Loop_Sound_Tid": "None",
+          "Contents_OnOff": {
+            "EnableDungeonUse": true,
+            "EnableQuestDungeonUse": true,
+            "EnableDeathMatchUse": false,
+            "EnableTeamDeathMatchUse": false,
+            "EnableTeamRoundMatchUse": false,
+            "EnablePVPMatchUse": false,
+            "EnableRaceUse": true,
+            "EnableBoardingObjStateUse": true,
+            "EnableMovingObjStateUse": true,
+            "EnableMultiObjStateUse": true,
+            "EnableActorChangeUse": true,
+            "EnableQuestAlbionSectorUse": true,
+            "EnableEnterSectorUse": true,
+            "String_Tid": "None",
+            "Local_Key": "wind_charge_contentsonoff"
+          },
+          "String_Tid": "wind_charge",
+          "Local_Key": "None"
+        },
+        "EnableBattleState": false,
+        "AimMode_Start_Montage": "elaine_adventure_aim_start_mtg",
+        "AimMode_End_Montage": "elaine_adventure_aim_end_mtg",
+        "AimMode_Charge_Montage": [
+          "elaine_adventure_charge_start1_mtg",
+          "elaine_adventure_charge_start2_mtg",
+          "elaine_adventure_charge_start3_mtg"
+        ],
+        "AimMode_Action_Montage": "elaine_adventure_charge_end_mtg",
+        "UseOneShotSkill": false,
+        "AimMode_MoveSpeed": 250,
+        "AimMode_Angle_Min": -70,
+        "AimMode_Angle_Max": 70,
+        "AimMode_BlendSpace": "elaine_adventure_move_bs",
+        "AimMode_AimOffsetSpace": "None",
+        "AimMode_Guide_FX": "None",
+        "AimTargetEffect": {
+          "TargetType": "EActorType::None",
+          "TargetGrades": [],
+          "TargetMaterialEffectTID": "None",
+          "bSyncWithProjectile": false
+        },
+        "ChargeFXs": [
+          "fx_ns_elaine_adventure_skill_obj_ball_00",
+          "fx_ns_elaine_adventure_skill_obj_ball_01",
+          "fx_ns_elaine_adventure_skill_obj_ball_02",
+          "fx_ns_elaine_adventure_skill_obj_ball_03"
+        ],
+        "ChargeFXRotSpaces": [
+          "EFxRotationSpace::Local",
+          "EFxRotationSpace::Local",
+          "EFxRotationSpace::Local",
+          "EFxRotationSpace::Local"
+        ],
+        "ChargeFxRotators": [
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        ],
+        "ChargeFXSockets": [
+          "soket_adventure_projectile",
+          "soket_adventure_projectile",
+          "soket_adventure_projectile",
+          "soket_adventure_projectile"
+        ],
+        "ObjectCheckRange": 3500,
+        "AutoAimRange": 100,
+        "Electronic_Charge_Step_Time": [
+          1000,
+          1000
+        ],
+        "Electronic_Charge_SkillTid": [
+          "elaine_activity_001",
+          "elaine_activity_002",
+          "elaine_activity_003"
+        ],
+        "Charge_Amount": [],
+        "CameraMode": "elaine_adv_skillaim",
+        "AimCameraInterPolate": "EInterpolateFunc::EaseIn",
+        "AimCameraInterPolate_Time": 500,
+        "AimDistance": 10000,
+        "AimZLookAt": 1925,
+        "AimLookFixAngle": 5000,
+        "AimZLookAtCharge": 8000,
+        "LoopSound": "119502",
+        "String_Tid": "1009",
+        "Local_Key": "None"
+      },
+      "1018": {
+        "AdventureSkill_Tid": {
+          "Display_Type": "EAdventureSkillDisplayType::Common",
+          "EnableBattleState": false,
+          "EnableMoveState": [
+            "EMoveMode::Ground"
+          ],
+          "Condition_Type": "EAdventureSkillActiveCondition::CoolTime",
+          "Condition_Value": "2000",
+          "ControlType": "EAdventureSkillControlType::Click",
+          "Icon": "icon_adventureskill_guila",
+          "AdventureSkill_SkillTid": [
+            "guila_activity_000"
+          ],
+          "SkillTID": [
+            "guila_activity_000"
+          ],
+          "Ignore_ElementalDamageType": [],
+          "Sound_Tid": "None",
+          "Active_Sound_Tid": "None",
+          "Loop_Sound_Tid": "None",
+          "Contents_OnOff": {
+            "EnableDungeonUse": true,
+            "EnableQuestDungeonUse": true,
+            "EnableDeathMatchUse": false,
+            "EnableTeamDeathMatchUse": false,
+            "EnableTeamRoundMatchUse": false,
+            "EnablePVPMatchUse": false,
+            "EnableRaceUse": true,
+            "EnableBoardingObjStateUse": true,
+            "EnableMovingObjStateUse": true,
+            "EnableMultiObjStateUse": true,
+            "EnableActorChangeUse": false,
+            "EnableQuestAlbionSectorUse": true,
+            "EnableEnterSectorUse": true,
+            "String_Tid": "None",
+            "Local_Key": "fire_charge_contentsonoff"
+          },
+          "String_Tid": "fire_charge",
+          "Local_Key": "None"
+        },
+        "EnableBattleState": false,
+        "AimMode_Start_Montage": "guila_adventure_aim_start_mtg",
+        "AimMode_End_Montage": "guila_adventure_aim_end_mtg",
+        "AimMode_Charge_Montage": [
+          "guila_adventure_charge_start1_mtg",
+          "guila_adventure_charge_start2_mtg",
+          "guila_adventure_charge_start3_mtg"
+        ],
+        "AimMode_Action_Montage": "guila_adventure_charge_end_mtg",
+        "UseOneShotSkill": false,
+        "AimMode_MoveSpeed": 250,
+        "AimMode_Angle_Min": -70,
+        "AimMode_Angle_Max": 70,
+        "AimMode_BlendSpace": "guila_adventure_move_bs",
+        "AimMode_AimOffsetSpace": "None",
+        "AimMode_Guide_FX": "None",
+        "AimTargetEffect": {
+          "TargetType": "EActorType::None",
+          "TargetGrades": [],
+          "TargetMaterialEffectTID": "None",
+          "bSyncWithProjectile": false
+        },
+        "ChargeFXs": [
+          "fx_ns_guila_adventure_skill_obj_ball_01",
+          "fx_ns_guila_adventure_skill_obj_ball_01",
+          "fx_ns_guila_adventure_skill_obj_ball_02",
+          "fx_ns_guila_adventure_skill_obj_ball_03"
+        ],
+        "ChargeFXRotSpaces": [
+          "EFxRotationSpace::Local",
+          "EFxRotationSpace::Local",
+          "EFxRotationSpace::Local",
+          "EFxRotationSpace::Local"
+        ],
+        "ChargeFxRotators": [
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        ],
+        "ChargeFXSockets": [
+          "soket_adventure_projectile",
+          "soket_adventure_projectile",
+          "soket_adventure_projectile",
+          "soket_adventure_projectile"
+        ],
+        "ObjectCheckRange": 3500,
+        "AutoAimRange": 100,
+        "Electronic_Charge_Step_Time": [
+          1000,
+          1000
+        ],
+        "Electronic_Charge_SkillTid": [
+          "guila_activity_001",
+          "guila_activity_002",
+          "guila_activity_003"
+        ],
+        "Charge_Amount": [],
+        "CameraMode": "guila_adv_skillaim",
+        "AimCameraInterPolate": "EInterpolateFunc::EaseIn",
+        "AimCameraInterPolate_Time": 500,
+        "AimDistance": 10000,
+        "AimZLookAt": 1925,
+        "AimLookFixAngle": 5000,
+        "AimZLookAtCharge": 8000,
+        "LoopSound": "128502",
+        "String_Tid": "1018",
+        "Local_Key": "None"
+      },
+      "1007": {
+        "AdventureSkill_Tid": {
+          "Display_Type": "EAdventureSkillDisplayType::Common",
+          "EnableBattleState": false,
+          "EnableMoveState": [
+            "EMoveMode::Ground"
+          ],
+          "Condition_Type": "EAdventureSkillActiveCondition::CoolTime",
+          "Condition_Value": "10000",
+          "ControlType": "EAdventureSkillControlType::Click",
+          "Icon": "icon_adventureskill_merlin",
+          "AdventureSkill_SkillTid": [
+            "merlin_activity_000"
+          ],
+          "SkillTID": [
+            "merlin_activity_000"
+          ],
+          "Ignore_ElementalDamageType": [],
+          "Sound_Tid": "None",
+          "Active_Sound_Tid": "None",
+          "Loop_Sound_Tid": "115540",
+          "Contents_OnOff": {
+            "EnableDungeonUse": true,
+            "EnableQuestDungeonUse": true,
+            "EnableDeathMatchUse": false,
+            "EnableTeamDeathMatchUse": false,
+            "EnableTeamRoundMatchUse": false,
+            "EnablePVPMatchUse": false,
+            "EnableRaceUse": false,
+            "EnableBoardingObjStateUse": true,
+            "EnableMovingObjStateUse": true,
+            "EnableMultiObjStateUse": true,
+            "EnableActorChangeUse": false,
+            "EnableQuestAlbionSectorUse": false,
+            "EnableEnterSectorUse": true,
+            "String_Tid": "None",
+            "Local_Key": "trinity_shot_contentsonoff"
+          },
+          "String_Tid": "trinity_shot",
+          "Local_Key": "None"
+        },
+        "EnableBattleState": false,
+        "AimMode_Start_Montage": "merlin_adventure_aim_start_mtg",
+        "AimMode_End_Montage": "merlin_adventure_aim_end_mtg",
+        "AimMode_Charge_Montage": [],
+        "AimMode_Action_Montage": "merlin_adventure_action_mtg",
+        "UseOneShotSkill": false,
+        "AimMode_MoveSpeed": 250,
+        "AimMode_Angle_Min": -70,
+        "AimMode_Angle_Max": 70,
+        "AimMode_BlendSpace": "merlin_adventure_move_bs",
+        "AimMode_AimOffsetSpace": "None",
+        "AimMode_Guide_FX": "None",
+        "AimTargetEffect": {
+          "TargetType": "EActorType::None",
+          "TargetGrades": [],
+          "TargetMaterialEffectTID": "None",
+          "bSyncWithProjectile": false
+        },
+        "ChargeFXs": [
+          "fx_ns_merlin_adventure_loop"
+        ],
+        "ChargeFXRotSpaces": [
+          "EFxRotationSpace::Local",
+          "EFxRotationSpace::Local",
+          "EFxRotationSpace::Local",
+          "EFxRotationSpace::Local"
+        ],
+        "ChargeFxRotators": [
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        ],
+        "ChargeFXSockets": [
+          "soket_adventure_projectile"
+        ],
+        "ObjectCheckRange": 3500,
+        "AutoAimRange": 100,
+        "Electronic_Charge_Step_Time": [],
+        "Electronic_Charge_SkillTid": [
+          "merlin_activity_001"
+        ],
+        "Charge_Amount": [],
+        "CameraMode": "merlin_adv_skillaim",
+        "AimCameraInterPolate": "EInterpolateFunc::EaseIn",
+        "AimCameraInterPolate_Time": 500,
+        "AimDistance": 10000,
+        "AimZLookAt": 1925,
+        "AimLookFixAngle": 5000,
+        "AimZLookAtCharge": 8000,
+        "LoopSound": "None",
+        "String_Tid": "1007",
+        "Local_Key": "None"
+      },
+      "1008": {
+        "AdventureSkill_Tid": {
+          "Display_Type": "EAdventureSkillDisplayType::Common",
+          "EnableBattleState": true,
+          "EnableMoveState": [
+            "EMoveMode::Ground"
+          ],
+          "Condition_Type": "EAdventureSkillActiveCondition::CoolTime",
+          "Condition_Value": "30000",
+          "ControlType": "EAdventureSkillControlType::Click",
+          "Icon": "icon_adventureskill_gowther",
+          "AdventureSkill_SkillTid": [
+            "gowther_activity_000"
+          ],
+          "SkillTID": [
+            "gowther_activity_000"
+          ],
+          "Ignore_ElementalDamageType": [],
+          "Sound_Tid": "None",
+          "Active_Sound_Tid": "116501",
+          "Loop_Sound_Tid": "None",
+          "Contents_OnOff": {
+            "EnableDungeonUse": false,
+            "EnableQuestDungeonUse": false,
+            "EnableDeathMatchUse": false,
+            "EnableTeamDeathMatchUse": false,
+            "EnableTeamRoundMatchUse": false,
+            "EnablePVPMatchUse": false,
+            "EnableRaceUse": false,
+            "EnableBoardingObjStateUse": true,
+            "EnableMovingObjStateUse": true,
+            "EnableMultiObjStateUse": true,
+            "EnableActorChangeUse": true,
+            "EnableQuestAlbionSectorUse": true,
+            "EnableEnterSectorUse": true,
+            "String_Tid": "None",
+            "Local_Key": "neural_lock_contentsonoff"
+          },
+          "String_Tid": "neural_lock",
+          "Local_Key": "None"
+        },
+        "EnableBattleState": false,
+        "AimMode_Start_Montage": "gowther_adventure_aim_start_mtg",
+        "AimMode_End_Montage": "gowther_adventure_aim_end_mtg",
+        "AimMode_Charge_Montage": [],
+        "AimMode_Action_Montage": "gowther_adventure_skill_end_mtg",
+        "UseOneShotSkill": true,
+        "AimMode_MoveSpeed": 250,
+        "AimMode_Angle_Min": -70,
+        "AimMode_Angle_Max": 70,
+        "AimMode_BlendSpace": "gowther_adventure_move_bs",
+        "AimMode_AimOffsetSpace": "None",
+        "AimMode_Guide_FX": "None",
+        "AimTargetEffect": {
+          "TargetType": "EActorType::Monster",
+          "TargetGrades": [
+            "EActorGrade::Normal",
+            "EActorGrade::Elite"
+          ],
+          "TargetMaterialEffectTID": "NormalEliteCC_Target",
+          "bSyncWithProjectile": true
+        },
+        "ChargeFXs": [
+          "fx_ns_gowther_start"
+        ],
+        "ChargeFXRotSpaces": [
+          "EFxRotationSpace::Local",
+          "EFxRotationSpace::Local",
+          "EFxRotationSpace::Local",
+          "EFxRotationSpace::Local"
+        ],
+        "ChargeFxRotators": [
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          {
+            "Pitch": -90.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        ],
+        "ChargeFXSockets": [
+          "fx_l_hand"
+        ],
+        "ObjectCheckRange": 2000,
+        "AutoAimRange": 100,
+        "Electronic_Charge_Step_Time": [],
+        "Electronic_Charge_SkillTid": [
+          "gowther_activity_001"
+        ],
+        "Charge_Amount": [],
+        "CameraMode": "gowther_adv_skillaim",
+        "AimCameraInterPolate": "EInterpolateFunc::EaseIn",
+        "AimCameraInterPolate_Time": 500,
+        "AimDistance": 5000,
+        "AimZLookAt": 1000,
+        "AimLookFixAngle": 2500,
+        "AimZLookAtCharge": 4000,
+        "LoopSound": "None",
+        "String_Tid": "1008",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

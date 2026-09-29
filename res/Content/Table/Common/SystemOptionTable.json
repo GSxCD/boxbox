@@ -1,0 +1,3900 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SystemOptionTable",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "SevenDeadlySins/Content/Table/Common/SystemOptionTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UESystemOptionTable'",
+        "ObjectPath": "/Script/ACTableModule"
+      }
+    },
+    "Rows": {
+      "systemoption_keymaping_pc": {
+        "Option_Enum": "ESystemOption::KeyMaping_PC",
+        "Option_Name": "ui_systemoption_keymaping_pc",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Button_Function",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "ui_systemoption_value_function_adjust",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": true,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_keymaping_pc",
+        "Local_Key": "None"
+      },
+      "systemoption_keymaping_controller": {
+        "Option_Enum": "ESystemOption::KeyMaping_Controller",
+        "Option_Name": "ui_systemoption_keymaping_controller",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Function",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "ui_systemoption_value_function_adjust",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": true,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_keymaping_controller",
+        "Local_Key": "None"
+      },
+      "systemoption_controller_vibration": {
+        "Option_Enum": "ESystemOption::Controller_Vibration",
+        "Option_Name": "ui_systemoption_controller_vibration",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Slider_Float",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 1.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_controller_vibration",
+        "Local_Key": "None"
+      },
+      "systemoption_controller_sensitivity": {
+        "Option_Enum": "ESystemOption::Controller_Sensitivity",
+        "Option_Name": "ui_systemoption_controller_sensitivity",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Slider_Float",
+        "Option_Value_Min": 0.1,
+        "Option_Value_Max": 2.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "1.8",
+          "1.8",
+          "1.8",
+          "1.8",
+          "1.8"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_controller_sensitivity",
+        "Local_Key": "None"
+      },
+      "systemoption_controller_movesensitivity": {
+        "Option_Enum": "ESystemOption::Controller_MoveSensitivity",
+        "Option_Name": "ui_systemoption_controller_movesensitivity",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Slider_Float",
+        "Option_Value_Min": 0.1,
+        "Option_Value_Max": 1.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "0.75",
+          "0.75",
+          "0.75",
+          "0.75",
+          "0.75"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_controller_movesensitivity",
+        "Local_Key": "None"
+      },
+      "systemoption_mobile_movesensitivity": {
+        "Option_Enum": "ESystemOption::Mobile_MoveSensitivity",
+        "Option_Name": "ui_systemoption_mobile_movesensitivity",
+        "Option_Use_PC": false,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Slider_Float",
+        "Option_Value_Min": 0.1,
+        "Option_Value_Max": 1.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "0.3",
+          "0.3",
+          "0.3",
+          "0.3",
+          "0.3"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_mobile_movesensitivity",
+        "Local_Key": "None"
+      },
+      "systemoption_ui_change": {
+        "Option_Enum": "ESystemOption::UI_Change",
+        "Option_Name": "ui_systemoption_ui_change",
+        "Option_Use_PC": false,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Button_Function",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "ui_systemoption_value_action",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_ui_change",
+        "Local_Key": "None"
+      },
+      "systemoption_controller_vibration_use": {
+        "Option_Enum": "ESystemOption::Controller_Vibration_Use",
+        "Option_Name": "ui_systemoption_controller_vibration_use",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE"
+        ],
+        "Option_HelpLocalize": "ui_systemoption_helplocalize_controller_vibration",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_controller_vibration_use",
+        "Local_Key": "None"
+      },
+      "systemoption_camerasensitivity_horizontal": {
+        "Option_Enum": "ESystemOption::CameraSensitivity_Horizontal",
+        "Option_Name": "ui_systemoption_camerasensitivity_horizontal",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Slider_Float",
+        "Option_Value_Min": 0.1,
+        "Option_Value_Max": 2.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "0.8",
+          "0.8",
+          "0.8",
+          "0.8",
+          "0.8"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_camerasensitivity_horizontal",
+        "Local_Key": "None"
+      },
+      "systemoption_camerasensitivity_vertical": {
+        "Option_Enum": "ESystemOption::CameraSensitivity_Vertical",
+        "Option_Name": "ui_systemoption_camerasensitivity_vertical",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Slider_Float",
+        "Option_Value_Min": 0.1,
+        "Option_Value_Max": 2.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "0.3",
+          "0.3",
+          "0.3",
+          "0.3",
+          "0.3"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_camerasensitivity_vertical",
+        "Local_Key": "None"
+      },
+      "systemoption_camerasensitivity_horizontal_fixedmode": {
+        "Option_Enum": "ESystemOption::CameraSensitivity_Horizontal_FixedMode",
+        "Option_Name": "ui_systemoption_camerasensitivity_horizontal_fixedmode",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Slider_Float",
+        "Option_Value_Min": 0.1,
+        "Option_Value_Max": 2.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_camerasensitivity_horizontal_fixedmode",
+        "Local_Key": "None"
+      },
+      "systemoption_camerasensitivity_vertical_fixedmode": {
+        "Option_Enum": "ESystemOption::CameraSensitivity_Vertical_FixedMode",
+        "Option_Name": "ui_systemoption_camerasensitivity_vertical_fixedmode",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Slider_Float",
+        "Option_Value_Min": 0.1,
+        "Option_Value_Max": 2.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_camerasensitivity_vertical_fixedmode",
+        "Local_Key": "None"
+      },
+      "systemoption_camerasensitivity_horizontal_aimmode": {
+        "Option_Enum": "ESystemOption::CameraSensitivity_Horizontal_AimMode",
+        "Option_Name": "ui_systemoption_camerasensitivity_horizontal_aimmode",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Slider_Float",
+        "Option_Value_Min": 0.1,
+        "Option_Value_Max": 2.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_camerasensitivity_horizontal_aimmode",
+        "Local_Key": "None"
+      },
+      "systemoption_camerasensitivity_vertical_aimmode": {
+        "Option_Enum": "ESystemOption::CameraSensitivity_Vertical_AimMode",
+        "Option_Name": "ui_systemoption_camerasensitivity_vertical_aimmode",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Slider_Float",
+        "Option_Value_Min": 0.1,
+        "Option_Value_Max": 2.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_camerasensitivity_vertical_aimmode",
+        "Local_Key": "None"
+      },
+      "systemoption_zoomsensitivity_pc": {
+        "Option_Enum": "ESystemOption::ZoomSensitivity_PC",
+        "Option_Name": "ui_systemoption_zoomsensitivity_pc",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Slider_Float",
+        "Option_Value_Min": 0.1,
+        "Option_Value_Max": 2.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_zoomsensitivity_pc",
+        "Local_Key": "None"
+      },
+      "systemoption_zoomsensitivity_pad": {
+        "Option_Enum": "ESystemOption::ZoomSensitivity_Pad",
+        "Option_Name": "ui_systemoption_zoomsensitivity_pad",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Slider_Float",
+        "Option_Value_Min": 0.1,
+        "Option_Value_Max": 2.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_zoomsensitivity_pad",
+        "Local_Key": "None"
+      },
+      "systemoption_zoomsensitivity_mobile": {
+        "Option_Enum": "ESystemOption::ZoomSensitivity_Mobile",
+        "Option_Name": "ui_systemoption_zoomsensitivity_mobile",
+        "Option_Use_PC": false,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Slider_Float",
+        "Option_Value_Min": 0.1,
+        "Option_Value_Max": 2.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "0.2",
+          "0.2",
+          "0.2",
+          "0.2",
+          "0.2"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_zoomsensitivity_mobile",
+        "Local_Key": "None"
+      },
+      "systemoption_camerasensitivity_horizontal_invert": {
+        "Option_Enum": "ESystemOption::CameraSensitivity_Horizontal_Invert",
+        "Option_Name": "ui_systemoption_camerasensitivity_horizontal_invert",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_camerasensitivity_horizontal_invert",
+        "Local_Key": "None"
+      },
+      "systemoption_camerasensitivity_vertical_invert": {
+        "Option_Enum": "ESystemOption::CameraSensitivity_Vertical_Invert",
+        "Option_Name": "ui_systemoption_camerasensitivity_vertical_invert",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_camerasensitivity_vertical_invert",
+        "Local_Key": "None"
+      },
+      "systemoption_camerasensitivity_horizontal_aimmode_invert": {
+        "Option_Enum": "ESystemOption::CameraSensitivity_Horizontal_AimMode_Invert",
+        "Option_Name": "ui_systemoption_camerasensitivity_horizontal_aimmode_invert",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_camerasensitivity_horizontal_aimmode_invert",
+        "Local_Key": "None"
+      },
+      "systemoption_camerasensitivity_vertical_aimmode_invert": {
+        "Option_Enum": "ESystemOption::CameraSensitivity_Vertical_AimMode_Invert",
+        "Option_Name": "ui_systemoption_camerasensitivity_vertical_aimmode_invert",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_camerasensitivity_vertical_aimmode_invert",
+        "Local_Key": "None"
+      },
+      "systemoption_camerashakeintensity": {
+        "Option_Enum": "ESystemOption::CameraShakeIntensity",
+        "Option_Name": "ui_systemoption_camerashakeintensity",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Slider_Float",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 1.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_camerashakeintensity",
+        "Local_Key": "None"
+      },
+      "systemoption_cameradistance_default": {
+        "Option_Enum": "ESystemOption::CameraDistance_Default",
+        "Option_Name": "ui_systemoption_cameradistance_default",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Slider_Float",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 1.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_cameradistance_default",
+        "Local_Key": "None"
+      },
+      "systemoption_cameradistance_battle": {
+        "Option_Enum": "ESystemOption::CameraDistance_Battle",
+        "Option_Name": "ui_systemoption_cameradistance_battle",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Slider_Float",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 1.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_cameradistance_battle",
+        "Local_Key": "None"
+      },
+      "systemoption_displaymode": {
+        "Option_Enum": "ESystemOption::DisplayMode",
+        "Option_Name": "ui_systemoption_displaymode",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "Borderless",
+            "Localize": "UI_SystemOption_Value_ScreenMode_BorderlessFullScreen"
+          },
+          {
+            "Value": "Window",
+            "Localize": "UI_SystemOption_Value_ScreenMode_Window"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "Borderless",
+          "Borderless",
+          "Borderless",
+          "Borderless",
+          "Borderless"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": true,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_displaymode",
+        "Local_Key": "None"
+      },
+      "systemoption_displayresolution": {
+        "Option_Enum": "ESystemOption::DisplayResolution",
+        "Option_Name": "ui_systemoption_displayresolution",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": true,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_displayresolution",
+        "Local_Key": "None"
+      },
+      "systemoption_displayresolution_mobile": {
+        "Option_Enum": "ESystemOption::DisplayResolution_Mobile",
+        "Option_Name": "ui_systemoption_displayresolution",
+        "Option_Use_PC": false,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "VeryHigh",
+            "Localize": "UI_SystemOption_Value_VeryHigh"
+          },
+          {
+            "Value": "High",
+            "Localize": "UI_SystemOption_Value_High"
+          },
+          {
+            "Value": "Middle",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "Low",
+            "Localize": "UI_SystemOption_Value_Low"
+          },
+          {
+            "Value": "VeryLow",
+            "Localize": "UI_SystemOption_Value_VeryLow"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_displayresolution_mobile",
+        "Local_Key": "None"
+      },
+      "systemoption_framerate": {
+        "Option_Enum": "ESystemOption::FrameRate",
+        "Option_Name": "ui_systemoption_framerate",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "30",
+            "Localize": "UI_SystemOption_Value_FrameRate30"
+          },
+          {
+            "Value": "45",
+            "Localize": "UI_SystemOption_Value_FrameRate45"
+          },
+          {
+            "Value": "60",
+            "Localize": "UI_SystemOption_Value_FrameRate60"
+          },
+          {
+            "Value": "120",
+            "Localize": "UI_SystemOption_Value_FrameRate120"
+          },
+          {
+            "Value": "144",
+            "Localize": "UI_SystemOption_Value_FrameRate144"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "60",
+          "60",
+          "60",
+          "60",
+          "60"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_framerate",
+        "Local_Key": "None"
+      },
+      "systemoption_brightness": {
+        "Option_Enum": "ESystemOption::Brightness",
+        "Option_Name": "ui_systemoption_brightness",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Button_Function",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "ui_systemoption_value_function_adjust",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_brightness",
+        "Local_Key": "None"
+      },
+      "systemoption_v_sync": {
+        "Option_Enum": "ESystemOption::V_Sync",
+        "Option_Name": "ui_systemoption_v_sync",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_Enable"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Disable"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_v_sync",
+        "Local_Key": "None"
+      },
+      "systemoption_graphicsquality": {
+        "Option_Enum": "ESystemOption::GraphicsQuality",
+        "Option_Name": "ui_systemoption_graphicsquality",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "VeryHigh",
+            "Localize": "UI_SystemOption_Value_VeryHigh"
+          },
+          {
+            "Value": "High",
+            "Localize": "UI_SystemOption_Value_High"
+          },
+          {
+            "Value": "Middle",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "Low",
+            "Localize": "UI_SystemOption_Value_Low"
+          },
+          {
+            "Value": "VeryLow",
+            "Localize": "UI_SystemOption_Value_VeryLow"
+          },
+          {
+            "Value": "Custom",
+            "Localize": "UI_SystemOption_Value_Custom"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_graphicsquality",
+        "Local_Key": "None"
+      },
+      "systemoption_graphicsquality_ps5": {
+        "Option_Enum": "ESystemOption::GraphicsQuality_PS5",
+        "Option_Name": "ui_systemoption_graphicsquality_ps5",
+        "Option_Use_PC": false,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "PS5_Performance",
+            "Localize": "UI_SystemOption_Value_PS5Pro_Balance"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "PS5_Performance",
+          "PS5_Performance",
+          "PS5_Performance",
+          "PS5_Performance",
+          "PS5_Performance"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_graphicsquality_ps5",
+        "Local_Key": "None"
+      },
+      "systemoption_graphicsquality_ps5pro": {
+        "Option_Enum": "ESystemOption::GraphicsQuality_PS5Pro",
+        "Option_Name": "ui_systemoption_graphicsquality_ps5pro",
+        "Option_Use_PC": false,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "PS5Pro_Performance",
+            "Localize": "UI_SystemOption_Value_PS5Pro_Balance"
+          },
+          {
+            "Value": "PS5Pro_Pro",
+            "Localize": "UI_SystemOption_Value_PS5Pro_Pro"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "PS5Pro_Performance",
+          "PS5Pro_Performance",
+          "PS5Pro_Performance",
+          "PS5Pro_Performance",
+          "PS5Pro_Performance"
+        ],
+        "Option_HelpLocalize": "ui_systemoption_helplocalize_graphicsquality_ps5pro",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_graphicsquality_ps5pro",
+        "Local_Key": "None"
+      },
+      "systemoption_shadowquality": {
+        "Option_Enum": "ESystemOption::ShadowQuality",
+        "Option_Name": "ui_systemoption_shadowquality",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "4",
+            "Localize": "UI_SystemOption_Value_VeryHigh"
+          },
+          {
+            "Value": "3",
+            "Localize": "UI_SystemOption_Value_High"
+          },
+          {
+            "Value": "2",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "1",
+            "Localize": "UI_SystemOption_Value_Low"
+          },
+          {
+            "Value": "0",
+            "Localize": "UI_SystemOption_Value_VeryLow"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": true,
+        "String_Tid": "systemoption_shadowquality",
+        "Local_Key": "None"
+      },
+      "systemoption_renderscale": {
+        "Option_Enum": "ESystemOption::RenderScaleResolution_Mobile",
+        "Option_Name": "ui_systemoption_renderscale",
+        "Option_Use_PC": false,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "4",
+            "Localize": "UI_SystemOption_Value_VeryHigh"
+          },
+          {
+            "Value": "3",
+            "Localize": "UI_SystemOption_Value_High"
+          },
+          {
+            "Value": "2",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "1",
+            "Localize": "UI_SystemOption_Value_Low"
+          },
+          {
+            "Value": "0",
+            "Localize": "UI_SystemOption_Value_VeryLow"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": true,
+        "String_Tid": "systemoption_renderscale",
+        "Local_Key": "None"
+      },
+      "systemoption_effectsquality": {
+        "Option_Enum": "ESystemOption::EffectsQuality",
+        "Option_Name": "ui_systemoption_effectsquality",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "4",
+            "Localize": "UI_SystemOption_Value_VeryHigh"
+          },
+          {
+            "Value": "3",
+            "Localize": "UI_SystemOption_Value_High"
+          },
+          {
+            "Value": "2",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "1",
+            "Localize": "UI_SystemOption_Value_Low"
+          },
+          {
+            "Value": "0",
+            "Localize": "UI_SystemOption_Value_VeryLow"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": true,
+        "String_Tid": "systemoption_effectsquality",
+        "Local_Key": "None"
+      },
+      "systemoption_postprocessingquality": {
+        "Option_Enum": "ESystemOption::PostProcessingQuality",
+        "Option_Name": "ui_systemoption_postprocessingquality",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "4",
+            "Localize": "UI_SystemOption_Value_VeryHigh"
+          },
+          {
+            "Value": "3",
+            "Localize": "UI_SystemOption_Value_High"
+          },
+          {
+            "Value": "2",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "1",
+            "Localize": "UI_SystemOption_Value_Low"
+          },
+          {
+            "Value": "0",
+            "Localize": "UI_SystemOption_Value_VeryLow"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": true,
+        "String_Tid": "systemoption_postprocessingquality",
+        "Local_Key": "None"
+      },
+      "systemoption_upscaling": {
+        "Option_Enum": "ESystemOption::Upscaling",
+        "Option_Name": "ui_systemoption_upscaling",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "DLSS",
+            "Localize": "UI_SystemOption_Value_NVIDIADLSS"
+          },
+          {
+            "Value": "FSR",
+            "Localize": "UI_SystemOption_Value_AMDFSR3"
+          },
+          {
+            "Value": "XeSS",
+            "Localize": "UI_SystemOption_Value_IntelXeSS"
+          },
+          {
+            "Value": "ASR",
+            "Localize": "UI_SystemOption_Value_ArmASR"
+          },
+          {
+            "Value": "NotUse",
+            "Localize": "UI_SystemOption_Value_NotUse"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": true,
+        "String_Tid": "systemoption_upscaling",
+        "Local_Key": "None"
+      },
+      "systemoption_upscaling_mode": {
+        "Option_Enum": "ESystemOption::Upscaling_Mode",
+        "Option_Name": "ui_systemoption_upscaling_mode",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "0",
+            "Localize": "UI_SystemOption_Value_PS5Pro_Performance2"
+          },
+          {
+            "Value": "1",
+            "Localize": "UI_SystemOption_Value_PS5Pro_Balance"
+          },
+          {
+            "Value": "2",
+            "Localize": "UI_SystemOption_Value_PS5Pro_Quality"
+          },
+          {
+            "Value": "3",
+            "Localize": "UI_SystemOption_Value_PS5Pro_Ultra_Quality"
+          },
+          {
+            "Value": "NotUse",
+            "Localize": "UI_SystemOption_Value_NotUse"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": true,
+        "String_Tid": "systemoption_upscaling_mode",
+        "Local_Key": "None"
+      },
+      "systemoption_frame_generation": {
+        "Option_Enum": "ESystemOption::Frame_Generation",
+        "Option_Name": "ui_systemoption_frame_generation",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "Active",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "Deactive",
+            "Localize": "UI_SystemOption_Value_Off"
+          },
+          {
+            "Value": "NotUse",
+            "Localize": "UI_SystemOption_Value_NotUse"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": true,
+        "String_Tid": "systemoption_frame_generation",
+        "Local_Key": "None"
+      },
+      "systemoption_anti_aliasing": {
+        "Option_Enum": "ESystemOption::Anti_Aliasing",
+        "Option_Name": "ui_systemoption_anti_aliasing",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "4",
+            "Localize": "UI_SystemOption_Value_VeryHigh"
+          },
+          {
+            "Value": "3",
+            "Localize": "UI_SystemOption_Value_High"
+          },
+          {
+            "Value": "2",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "1",
+            "Localize": "UI_SystemOption_Value_Low"
+          },
+          {
+            "Value": "0",
+            "Localize": "UI_SystemOption_Value_VeryLow"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": true,
+        "String_Tid": "systemoption_anti_aliasing",
+        "Local_Key": "None"
+      },
+      "systemoption_effectsvisibility": {
+        "Option_Enum": "ESystemOption::EffectsVisibility",
+        "Option_Name": "ui_systemoption_effectsvisibility",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "VeryHigh",
+            "Localize": "UI_SystemOption_Value_VeryHigh"
+          },
+          {
+            "Value": "High",
+            "Localize": "UI_SystemOption_Value_High"
+          },
+          {
+            "Value": "Middle",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "Low",
+            "Localize": "UI_SystemOption_Value_Low"
+          },
+          {
+            "Value": "VeryLow",
+            "Localize": "UI_SystemOption_Value_VeryLow"
+          },
+          {
+            "Value": "Custom",
+            "Localize": "UI_SystemOption_Value_Custom"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": true,
+        "String_Tid": "systemoption_effectsvisibility",
+        "Local_Key": "None"
+      },
+      "systemoption_visibleactors": {
+        "Option_Enum": "ESystemOption::VisibleActors",
+        "Option_Name": "ui_systemoption_visibleactors",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "VeryHigh",
+            "Localize": "UI_SystemOption_Value_VeryHigh"
+          },
+          {
+            "Value": "High",
+            "Localize": "UI_SystemOption_Value_High"
+          },
+          {
+            "Value": "Middle",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "Low",
+            "Localize": "UI_SystemOption_Value_Low"
+          },
+          {
+            "Value": "VeryLow",
+            "Localize": "UI_SystemOption_Value_VeryLow"
+          },
+          {
+            "Value": "Custom",
+            "Localize": "UI_SystemOption_Value_Custom"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": true,
+        "String_Tid": "systemoption_visibleactors",
+        "Local_Key": "None"
+      },
+      "systemoption_volume_main": {
+        "Option_Enum": "ESystemOption::Volume_Main",
+        "Option_Name": "ui_systemoption_volume_main",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Slider_Int",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 120.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "100",
+          "100",
+          "100",
+          "100",
+          "100"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": true,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_volume_main",
+        "Local_Key": "None"
+      },
+      "systemoption_volume_bgm": {
+        "Option_Enum": "ESystemOption::Volume_BGM",
+        "Option_Name": "ui_systemoption_volume_bgm",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Slider_Int",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 120.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "100",
+          "100",
+          "100",
+          "100",
+          "100"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": true,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_volume_bgm",
+        "Local_Key": "None"
+      },
+      "systemoption_volume_sfx": {
+        "Option_Enum": "ESystemOption::Volume_SFX",
+        "Option_Name": "ui_systemoption_volume_sfx",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Slider_Int",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 120.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "100",
+          "100",
+          "100",
+          "100",
+          "100"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": true,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_volume_sfx",
+        "Local_Key": "None"
+      },
+      "systemoption_volume_voice": {
+        "Option_Enum": "ESystemOption::Volume_Voice",
+        "Option_Name": "ui_systemoption_volume_voice",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Slider_Int",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 120.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "100",
+          "100",
+          "100",
+          "100",
+          "100"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": true,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_volume_voice",
+        "Local_Key": "None"
+      },
+      "systemoption_volume_ui": {
+        "Option_Enum": "ESystemOption::Volume_UI",
+        "Option_Name": "ui_systemoption_volume_ui",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Slider_Int",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 120.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "100",
+          "100",
+          "100",
+          "100",
+          "100"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": true,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_volume_ui",
+        "Local_Key": "None"
+      },
+      "systemoption_volume_blindpersoncheck": {
+        "Option_Enum": "ESystemOption::Volume_BlindPersonCheck",
+        "Option_Name": "ui_systemoption_volume_blindpersoncheck",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_volume_blindpersoncheck",
+        "Local_Key": "None"
+      },
+      "systemoption_volume_accessibility": {
+        "Option_Enum": "ESystemOption::Volume_Accessibility",
+        "Option_Name": "ui_systemoption_volume_accessibility",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Slider_Int",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 120.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "100",
+          "100",
+          "100",
+          "100",
+          "100"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": true,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_volume_accessibility",
+        "Local_Key": "None"
+      },
+      "systemoption_gamelanguage": {
+        "Option_Enum": "ESystemOption::GameLanguage",
+        "Option_Name": "ui_systemoption_gamelanguage",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "ko",
+            "Localize": "UI_Language_Korean"
+          },
+          {
+            "Value": "jp",
+            "Localize": "UI_Language_Japanese"
+          },
+          {
+            "Value": "en",
+            "Localize": "UI_Language_English"
+          },
+          {
+            "Value": "zh-Hans",
+            "Localize": "UI_Language_ChineseSimplified"
+          },
+          {
+            "Value": "zh-Hant",
+            "Localize": "UI_Language_ChineseTraditional"
+          },
+          {
+            "Value": "th",
+            "Localize": "UI_Language_Thai"
+          },
+          {
+            "Value": "id",
+            "Localize": "UI_Language_Indonesian"
+          },
+          {
+            "Value": "fr",
+            "Localize": "UI_Language_French"
+          },
+          {
+            "Value": "it",
+            "Localize": "UI_Language_Italian"
+          },
+          {
+            "Value": "de",
+            "Localize": "UI_Language_German"
+          },
+          {
+            "Value": "es",
+            "Localize": "UI_Language_Spanish"
+          },
+          {
+            "Value": "pt",
+            "Localize": "UI_Language_Portugues"
+          },
+          {
+            "Value": "ru",
+            "Localize": "UI_Language_Russian"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "en",
+          "en",
+          "en",
+          "en",
+          "en"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_gamelanguage",
+        "Local_Key": "None"
+      },
+      "systemoption_gamevoice": {
+        "Option_Enum": "ESystemOption::GameVoice",
+        "Option_Name": "ui_systemoption_gamevoice",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "jp",
+            "Localize": "UI_Language_Japanese"
+          },
+          {
+            "Value": "ko",
+            "Localize": "UI_Language_Korean"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "jp",
+          "jp",
+          "jp",
+          "jp",
+          "jp"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_gamevoice",
+        "Local_Key": "None"
+      },
+      "systemoption_gamevoicedatamanage": {
+        "Option_Enum": "ESystemOption::GameVoiceDataManage",
+        "Option_Name": "ui_systemoption_gamevoicedatamanage",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Button_Function",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "ui_systemoption_value_function_adjust",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_gamevoicedatamanage",
+        "Local_Key": "None"
+      },
+      "systemoption_psnonly": {
+        "Option_Enum": "ESystemOption::PSNOnly",
+        "Option_Name": "ui_systemoption_psnonly",
+        "Option_Use_PC": false,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": true,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_psnonly",
+        "Local_Key": "None"
+      },
+      "systemoption_accountcode": {
+        "Option_Enum": "ESystemOption::AccountCode",
+        "Option_Name": "ui_systemoption_accountcode",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Function",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "ui_systemoption_value_function_copytoclipboard",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_accountcode",
+        "Local_Key": "None"
+      },
+      "systemoption_accountlink": {
+        "Option_Enum": "ESystemOption::AccountLink",
+        "Option_Name": "ui_systemoption_accountlink",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Function",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "ui_systemoption_value_function_link",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_accountlink",
+        "Local_Key": "None"
+      },
+      "systemoption_accountlogout": {
+        "Option_Enum": "ESystemOption::AccountLogOut",
+        "Option_Name": "ui_systemoption_accountlogout",
+        "Option_Use_PC": false,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Button_Function",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "ui_systemoption_value_function_logout",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_accountlogout",
+        "Local_Key": "None"
+      },
+      "systemoption_accountdelete": {
+        "Option_Enum": "ESystemOption::AccountDelete",
+        "Option_Name": "ui_systemoption_accountdelete",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Function",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "ui_btn_common_accountdelete",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_accountdelete",
+        "Local_Key": "None"
+      },
+      "systemoption_customersupport": {
+        "Option_Enum": "ESystemOption::CustomerSupport",
+        "Option_Name": "ui_systemoption_customersupport",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Function",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "ui_systemoption_value_function_move",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_customersupport",
+        "Local_Key": "None"
+      },
+      "systemoption_termsofservice": {
+        "Option_Enum": "ESystemOption::TermsofService",
+        "Option_Name": "ui_systemoption_termsofservice",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Function",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "ui_systemoption_value_function_view",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_termsofservice",
+        "Local_Key": "None"
+      },
+      "systemoption_privacypolicy": {
+        "Option_Enum": "ESystemOption::PrivacyPolicy",
+        "Option_Name": "ui_systemoption_privacypolicy",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Function",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "ui_systemoption_value_function_view",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_privacypolicy",
+        "Local_Key": "None"
+      },
+      "systemoption_operationalpolicy": {
+        "Option_Enum": "ESystemOption::OperationalPolicy",
+        "Option_Name": "ui_systemoption_operationalpolicy",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Function",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "ui_systemoption_value_function_view",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_operationalpolicy",
+        "Local_Key": "None"
+      },
+      "systemoption_couponcode": {
+        "Option_Enum": "ESystemOption::CouponCode",
+        "Option_Name": "ui_systemoption_couponcode",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Button_Function",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "ui_systemoption_value_function_use",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_couponcode",
+        "Local_Key": "None"
+      },
+      "systemoption_targetsearchoption": {
+        "Option_Enum": "ESystemOption::TargetSearchOption",
+        "Option_Name": "ui_systemoption_targetsearchoption",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_Auto"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_SemiAuto"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_targetsearchoption",
+        "Local_Key": "None"
+      },
+      "systemoption_buffeffectvisiblecountoption": {
+        "Option_Enum": "ESystemOption::BuffEffectVisibleCountOption",
+        "Option_Name": "ui_systemoption_buffeffectvisiblecountoption",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Slider_Int",
+        "Option_Value_Min": 1.0,
+        "Option_Value_Max": 5.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "Option_HelpLocalize": "ui_systemoption_helplocalize_buffeffectvisiblecountoption",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_buffeffectvisiblecountoption",
+        "Local_Key": "None"
+      },
+      "systemoption_showmyname": {
+        "Option_Enum": "ESystemOption::ShowMyName",
+        "Option_Name": "ui_systemoption_showmyname",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_showmyname",
+        "Local_Key": "None"
+      },
+      "systemoption_showmyhp": {
+        "Option_Enum": "ESystemOption::ShowMyHP",
+        "Option_Name": "ui_systemoption_showmyhp",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_showmyhp",
+        "Local_Key": "None"
+      },
+      "systemoption_targetcameraonoff": {
+        "Option_Enum": "ESystemOption::TargetCameraOnOff",
+        "Option_Name": "ui_systemoption_targetcameraonoff",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_targetcameraonoff",
+        "Local_Key": "None"
+      },
+      "systemoption_discord": {
+        "Option_Enum": "ESystemOption::Discord",
+        "Option_Name": "ui_systemoption_discord",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Button_Function",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "ui_systemoption_value_function_move",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_discord",
+        "Local_Key": "None"
+      },
+      "systemoption_attacktargetspotonoff": {
+        "Option_Enum": "ESystemOption::AttackTargetSpotOnOff",
+        "Option_Name": "ui_systemoption_attacktargetspotonoff",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_attacktargetspotonoff",
+        "Local_Key": "None"
+      },
+      "systemoption_viewdistancequality": {
+        "Option_Enum": "ESystemOption::ViewDistanceQuality",
+        "Option_Name": "ui_systemoption_viewdistancequality",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "4",
+            "Localize": "UI_SystemOption_Value_VeryHigh"
+          },
+          {
+            "Value": "3",
+            "Localize": "UI_SystemOption_Value_High"
+          },
+          {
+            "Value": "2",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "1",
+            "Localize": "UI_SystemOption_Value_Low"
+          },
+          {
+            "Value": "0",
+            "Localize": "UI_SystemOption_Value_VeryLow"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": true,
+        "String_Tid": "systemoption_viewdistancequality",
+        "Local_Key": "None"
+      },
+      "systemoption_globalilluminationquality": {
+        "Option_Enum": "ESystemOption::GlobalIlluminationQuality",
+        "Option_Name": "ui_systemoption_globalilluminationquality",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "4",
+            "Localize": "UI_SystemOption_Value_VeryHigh"
+          },
+          {
+            "Value": "3",
+            "Localize": "UI_SystemOption_Value_High"
+          },
+          {
+            "Value": "2",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "1",
+            "Localize": "UI_SystemOption_Value_Low"
+          },
+          {
+            "Value": "0",
+            "Localize": "UI_SystemOption_Value_VeryLow"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": true,
+        "String_Tid": "systemoption_globalilluminationquality",
+        "Local_Key": "None"
+      },
+      "systemoption_reflectionquality": {
+        "Option_Enum": "ESystemOption::ReflectionQuality",
+        "Option_Name": "ui_systemoption_reflectionquality",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "4",
+            "Localize": "UI_SystemOption_Value_VeryHigh"
+          },
+          {
+            "Value": "3",
+            "Localize": "UI_SystemOption_Value_High"
+          },
+          {
+            "Value": "2",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "1",
+            "Localize": "UI_SystemOption_Value_Low"
+          },
+          {
+            "Value": "0",
+            "Localize": "UI_SystemOption_Value_VeryLow"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": true,
+        "String_Tid": "systemoption_reflectionquality",
+        "Local_Key": "None"
+      },
+      "systemoption_texturequality": {
+        "Option_Enum": "ESystemOption::TextureQuality",
+        "Option_Name": "ui_systemoption_texturequality",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "4",
+            "Localize": "UI_SystemOption_Value_VeryHigh"
+          },
+          {
+            "Value": "3",
+            "Localize": "UI_SystemOption_Value_High"
+          },
+          {
+            "Value": "2",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "1",
+            "Localize": "UI_SystemOption_Value_Low"
+          },
+          {
+            "Value": "0",
+            "Localize": "UI_SystemOption_Value_VeryLow"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": true,
+        "String_Tid": "systemoption_texturequality",
+        "Local_Key": "None"
+      },
+      "systemoption_shadingquality": {
+        "Option_Enum": "ESystemOption::ShadingQuality",
+        "Option_Name": "ui_systemoption_shadingquality",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "4",
+            "Localize": "UI_SystemOption_Value_VeryHigh"
+          },
+          {
+            "Value": "3",
+            "Localize": "UI_SystemOption_Value_High"
+          },
+          {
+            "Value": "2",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "1",
+            "Localize": "UI_SystemOption_Value_Low"
+          },
+          {
+            "Value": "0",
+            "Localize": "UI_SystemOption_Value_VeryLow"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": true,
+        "String_Tid": "systemoption_shadingquality",
+        "Local_Key": "None"
+      },
+      "systemoption_landscapequality": {
+        "Option_Enum": "ESystemOption::LandscapeQuality",
+        "Option_Name": "ui_systemoption_landscapequality",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "4",
+            "Localize": "UI_SystemOption_Value_VeryHigh"
+          },
+          {
+            "Value": "3",
+            "Localize": "UI_SystemOption_Value_High"
+          },
+          {
+            "Value": "2",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "1",
+            "Localize": "UI_SystemOption_Value_Low"
+          },
+          {
+            "Value": "0",
+            "Localize": "UI_SystemOption_Value_VeryLow"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": true,
+        "String_Tid": "systemoption_landscapequality",
+        "Local_Key": "None"
+      },
+      "systemoption_foliagequality": {
+        "Option_Enum": "ESystemOption::FoliageQuality",
+        "Option_Name": "ui_systemoption_foliagequality",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "4",
+            "Localize": "UI_SystemOption_Value_VeryHigh"
+          },
+          {
+            "Value": "3",
+            "Localize": "UI_SystemOption_Value_High"
+          },
+          {
+            "Value": "2",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "1",
+            "Localize": "UI_SystemOption_Value_Low"
+          },
+          {
+            "Value": "0",
+            "Localize": "UI_SystemOption_Value_VeryLow"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": true,
+        "String_Tid": "systemoption_foliagequality",
+        "Local_Key": "None"
+      },
+      "systemoption_pushnight": {
+        "Option_Enum": "ESystemOption::PushNight",
+        "Option_Name": "ui_systemoption_pushnight",
+        "Option_Use_PC": false,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": true,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_pushnight",
+        "Local_Key": "None"
+      },
+      "systemoption_autoskill": {
+        "Option_Enum": "ESystemOption::AutoSkill",
+        "Option_Name": "ui_systemoption_autoskill",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_autoskill",
+        "Local_Key": "None"
+      },
+      "systemoption_consentpersonalize": {
+        "Option_Enum": "ESystemOption::ConsentPersonalize",
+        "Option_Name": "ui_systemoption_consentpersonalize",
+        "Option_Use_PC": false,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Button_Function",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "ui_systemoption_value_function_view",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_consentpersonalize",
+        "Local_Key": "None"
+      },
+      "systemoption_costumeheadonoff_myself": {
+        "Option_Enum": "ESystemOption::CostumeHeadOnOff_MySelf",
+        "Option_Name": "ui_systemoption_costumeheadonoff_myself",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_See"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Hide"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE"
+        ],
+        "Option_HelpLocalize": "ui_systemoption_helplocalize_costumeheadonoff_myself",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_costumeheadonoff_myself",
+        "Local_Key": "None"
+      },
+      "systemoption_push": {
+        "Option_Enum": "ESystemOption::Push",
+        "Option_Name": "ui_systemoption_push",
+        "Option_Use_PC": false,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": true,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_push",
+        "Local_Key": "None"
+      },
+      "systemoption_hudchat_zone": {
+        "Option_Enum": "ESystemOption::HUDChat_Zone",
+        "Option_Name": "ui_systemoption_hudchat_zone",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_hudchat_zone",
+        "Local_Key": "None"
+      },
+      "systemoption_hudchat_whisper": {
+        "Option_Enum": "ESystemOption::HUDChat_Whisper",
+        "Option_Name": "ui_systemoption_hudchat_whisper",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_hudchat_whisper",
+        "Local_Key": "None"
+      },
+      "systemoption_hudchat_party": {
+        "Option_Enum": "ESystemOption::HUDChat_Party",
+        "Option_Name": "ui_systemoption_hudchat_party",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_hudchat_party",
+        "Local_Key": "None"
+      },
+      "systemoption_hudchat_guild": {
+        "Option_Enum": "ESystemOption::HUDChat_Guild",
+        "Option_Name": "ui_systemoption_hudchat_guild",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_hudchat_guild",
+        "Local_Key": "None"
+      },
+      "systemoption_lockonmode": {
+        "Option_Enum": "ESystemOption::LockOnMode",
+        "Option_Name": "ui_systemoption_lockonmode",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "1",
+            "Localize": "UI_SystemOption_LockOnMode_Button"
+          },
+          {
+            "Value": "0",
+            "Localize": "UI_SystemOption_Value_LockOnMode_Slide"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_lockonmode",
+        "Local_Key": "None"
+      },
+      "systemoption_shadowdistancequality": {
+        "Option_Enum": "ESystemOption::ShadowDistanceQuality",
+        "Option_Name": "ui_systemoption_shadowdistancequality",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "3",
+            "Localize": "UI_SystemOption_Value_Ultra"
+          },
+          {
+            "Value": "2",
+            "Localize": "UI_SystemOption_Value_Long"
+          },
+          {
+            "Value": "1",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "0",
+            "Localize": "UI_SystemOption_Value_Short"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": true,
+        "String_Tid": "systemoption_shadowdistancequality",
+        "Local_Key": "None"
+      },
+      "systemoption_otherplayerskilleffect": {
+        "Option_Enum": "ESystemOption::OtherPlayerSkillEffect",
+        "Option_Name": "ui_systemoption_otherplayerskilleffect",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_otherplayerskilleffect",
+        "Local_Key": "None"
+      },
+      "systemoption_continuoustrackingcount": {
+        "Option_Enum": "ESystemOption::ContinuoustrackingCount",
+        "Option_Name": "ui_systemoption_continuoustrackingcount",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "-1",
+            "Localize": "UI_SystemOption_ContinuoustrackingCount_Unlimited"
+          },
+          {
+            "Value": "10",
+            "Localize": "UI_SystemOption_ContinuoustrackingCount_10"
+          },
+          {
+            "Value": "5",
+            "Localize": "UI_SystemOption_ContinuoustrackingCount_5"
+          },
+          {
+            "Value": "3",
+            "Localize": "UI_SystemOption_ContinuoustrackingCount_3"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "-1",
+          "-1",
+          "-1",
+          "-1",
+          "-1"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_continuoustrackingcount",
+        "Local_Key": "None"
+      },
+      "systemoption_huddpiscale": {
+        "Option_Enum": "ESystemOption::HUDDpiScale",
+        "Option_Name": "ui_systemoption_huddpiscale",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "0.9",
+            "Localize": "UI_SystemOption_Value_Small"
+          },
+          {
+            "Value": "1",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "1.1",
+            "Localize": "UI_SystemOption_Value_Big"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_huddpiscale",
+        "Local_Key": "None"
+      },
+      "systemoption_camerashake": {
+        "Option_Enum": "ESystemOption::CameraShake",
+        "Option_Name": "ui_systemoption_camerashake",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_camerashake",
+        "Local_Key": "None"
+      },
+      "systemoption_directx_ver": {
+        "Option_Enum": "ESystemOption::DirectX_Ver",
+        "Option_Name": "ui_systemoption_directx_ver",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": false,
+        "Option_Use_AOS": false,
+        "Option_Use_PS5": false,
+        "Option_Use_PS5Pro": false,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "dx11",
+            "Localize": "UI_SystemOption_Value_DX11"
+          },
+          {
+            "Value": "dx12",
+            "Localize": "UI_SystemOption_Value_DX12"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": true,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_directx_ver",
+        "Local_Key": "None"
+      },
+      "systemoption_languagetranslation": {
+        "Option_Enum": "ESystemOption::LanguageTranslation",
+        "Option_Name": "ui_systemoption_languagetranslation",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "ko",
+            "Localize": "UI_Language_Korean"
+          },
+          {
+            "Value": "jp",
+            "Localize": "UI_Language_Japanese"
+          },
+          {
+            "Value": "en",
+            "Localize": "UI_Language_English"
+          },
+          {
+            "Value": "zh-Hans",
+            "Localize": "UI_Language_ChineseSimplified"
+          },
+          {
+            "Value": "zh-Hant",
+            "Localize": "UI_Language_ChineseTraditional"
+          },
+          {
+            "Value": "th",
+            "Localize": "UI_Language_Thai"
+          },
+          {
+            "Value": "id",
+            "Localize": "UI_Language_Indonesian"
+          },
+          {
+            "Value": "fr",
+            "Localize": "UI_Language_French"
+          },
+          {
+            "Value": "it",
+            "Localize": "UI_Language_Italian"
+          },
+          {
+            "Value": "de",
+            "Localize": "UI_Language_German"
+          },
+          {
+            "Value": "es",
+            "Localize": "UI_Language_Spanish"
+          },
+          {
+            "Value": "pt",
+            "Localize": "UI_Language_Portugues"
+          },
+          {
+            "Value": "ru",
+            "Localize": "UI_Language_Russian"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Option_HelpLocalize": "ui_systemoption_helplocalize_languagetranslation",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_languagetranslation",
+        "Local_Key": "None"
+      },
+      "systemoption_autobattlesetting": {
+        "Option_Enum": "ESystemOption::AutoBattleSetting",
+        "Option_Name": "ui_systemoption_autobattlesetting",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "FALSE",
+          "TRUE",
+          "TRUE",
+          "FALSE",
+          "FALSE"
+        ],
+        "Option_HelpLocalize": "ui_systemoption_helplocalize_autobattlesetting",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_autobattlesetting",
+        "Local_Key": "None"
+      },
+      "systemoption_combatvisibilityassist": {
+        "Option_Enum": "ESystemOption::CombatVisibilityAssist",
+        "Option_Name": "ui_systemoption_combatvisibilityassist",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Slider_Float",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 1.0,
+        "Option_Value_List": [],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "Option_HelpLocalize": "ui_systemoption_helplocalize_combatvisibilityassist",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_combatvisibilityassist",
+        "Local_Key": "None"
+      },
+      "systemoption_damagefontmaxcount": {
+        "Option_Enum": "ESystemOption::DamageFontMaxCount",
+        "Option_Name": "ui_systemoption_damagefontmaxcount",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Dropbox",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "Min",
+            "Localize": "UI_Tuning_Auto_targetvalue_min"
+          },
+          {
+            "Value": "Middle",
+            "Localize": "UI_SystemOption_Value_Middle"
+          },
+          {
+            "Value": "Max",
+            "Localize": "UI_SystemOption_Value_Ultra"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "Max",
+          "Max",
+          "Max",
+          "Max",
+          "Max"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_damagefontmaxcount",
+        "Local_Key": "None"
+      },
+      "systemoption_chaoutlineonoff": {
+        "Option_Enum": "ESystemOption::ChaOutlineOnOff",
+        "Option_Name": "ui_systemoption_chaoutlineonoff",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "1",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "0",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_chaoutlineonoff",
+        "Local_Key": "None"
+      },
+      "systemoption_fishingcamerashake": {
+        "Option_Enum": "ESystemOption::FishingCameraShake",
+        "Option_Name": "ui_systemoption_fishingcamerashake",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_fishingcamerashake",
+        "Local_Key": "None"
+      },
+      "systemoption_partyinvite": {
+        "Option_Enum": "ESystemOption::Max",
+        "Option_Name": "ui_systemoption_partyinvite",
+        "Option_Use_PC": true,
+        "Option_Use_iOS": true,
+        "Option_Use_AOS": true,
+        "Option_Use_PS5": true,
+        "Option_Use_PS5Pro": true,
+        "Option_Value_ControlType": "EOptionValue::Button_Mode",
+        "Option_Value_Min": 0.0,
+        "Option_Value_Max": 0.0,
+        "Option_Value_List": [
+          {
+            "Value": "TRUE",
+            "Localize": "UI_SystemOption_Value_On"
+          },
+          {
+            "Value": "FALSE",
+            "Localize": "UI_SystemOption_Value_Off"
+          }
+        ],
+        "Option_Value_Function": "None",
+        "Option_Value_Base": [
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE",
+          "TRUE"
+        ],
+        "Option_HelpLocalize": "None",
+        "Option_isNotChange": false,
+        "Option_isChangeValueKeepTime": false,
+        "Option_isChangeRestart": false,
+        "Option_isSuccessMsg": false,
+        "Option_isSaveValue": false,
+        "Option_isGraphicQualityCustom": false,
+        "String_Tid": "systemoption_partyinvite",
+        "Local_Key": "None"
+      }
+    }
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "Type": "AnimNotify_OGSequenceSubtitle_C",
+    "Name": "Default__AnimNotify_OGSequenceSubtitle_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'SevenDeadlySins/Content/Blueprint/Nofity/AnimNotify_OGSequenceSubtitle.AnimNotify_OGSequenceSubtitle_C'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Nofity/AnimNotify_OGSequenceSubtitle",
+    "Properties": {
+      "UI Event": "ECBMovieSceneShowUIEvent::GameUI",
+      "Show": true,
+      "Show Area": "ECBMovieSceneTextShowType::CCD",
+      "Show Area Alignment": "ECBMovieSceneTextAlignment::UpCenter",
+      "Text Justify": "ECBMovieSceneTextJustify::Center",
+      "Show Time": 2.0
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AnimNotify_OGSequenceSubtitle_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Nofity/AnimNotify_OGSequenceSubtitle",
+    "SuperStruct": {
+      "ObjectName": "Class'OGAnimNotify_SequenceSubTitle'",
+      "ObjectPath": "/Script/ACContentsBaseModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'AnimNotify_OGSequenceSubtitle_C:GetSoundVoiceName'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Nofity/AnimNotify_OGSequenceSubtitle.2"
+      },
+      {
+        "ObjectName": "Function'AnimNotify_OGSequenceSubtitle_C:Received_Notify'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Nofity/AnimNotify_OGSequenceSubtitle.3"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "UI Event",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Enum": {
+          "ObjectName": "Enum'ECBMovieSceneShowUIEvent'",
+          "ObjectPath": "/Script/CBSequenceTrack"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Show",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "Msg",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Show Area",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Enum": {
+          "ObjectName": "Enum'ECBMovieSceneTextShowType'",
+          "ObjectPath": "/Script/CBSequenceTrack"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Show Area Alignment",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Enum": {
+          "ObjectName": "Enum'ECBMovieSceneTextAlignment'",
+          "ObjectPath": "/Script/CBSequenceTrack"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Text Justify",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Enum": {
+          "ObjectName": "Enum'ECBMovieSceneTextJustify'",
+          "ObjectPath": "/Script/CBSequenceTrack"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Total Typing Time",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Show Time",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "SpeaketName",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      }
+    ],
+    "FuncMap": {
+      "Received_Notify": {
+        "ObjectName": "Function'AnimNotify_OGSequenceSubtitle_C:Received_Notify'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Nofity/AnimNotify_OGSequenceSubtitle.3"
+      },
+      "GetSoundVoiceName": {
+        "ObjectName": "Function'AnimNotify_OGSequenceSubtitle_C:GetSoundVoiceName'",
+        "ObjectPath": "SevenDeadlySins/Content/Blueprint/Nofity/AnimNotify_OGSequenceSubtitle.2"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CollapseCategories | CLASS_Const | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AnimNotify_OGSequenceSubtitle_C'Default__AnimNotify_OGSequenceSubtitle_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Nofity/AnimNotify_OGSequenceSubtitle.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Const"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "GetSoundVoiceName",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AnimNotify_OGSequenceSubtitle_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Nofity/AnimNotify_OGSequenceSubtitle.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'OGAnimNotify_SequenceSubTitle:GetSoundVoiceName'",
+      "ObjectPath": "/Script/ACContentsBaseModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "Parm | OutParm | ReturnParm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_Const"
+  },
+  {
+    "Type": "Function",
+    "Name": "Received_Notify",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AnimNotify_OGSequenceSubtitle_C'",
+      "ObjectPath": "SevenDeadlySins/Content/Blueprint/Nofity/AnimNotify_OGSequenceSubtitle.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'AnimNotify:Received_Notify'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "MeshComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Animation",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'AnimSequenceBase'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "EventReference",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNotifyEventReference'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_CBUIEventPayload",
+        "Flags": "RF_Public",
+        "ElementSize": 72,
+        "Struct": {
+          "ObjectName": "ScriptStruct'CBUIEventPayload'",
+          "ObjectPath": "/Script/CBSequenceTrack"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_Const"
+  }
+]

@@ -1,0 +1,168 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "M_Log_G01_GC",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "SevenDeadlySins/Content/Blueprint/Object/TimerDestoryObject/M_Log_G01_GC",
+    "Properties": {
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Wood'",
+        "ObjectPath": "SevenDeadlySins/Content/Common/PhysicMaterial/PM_Wood.0"
+      },
+      "Parent": {
+        "ObjectName": "Material'M_Prop'",
+        "ObjectPath": "SevenDeadlySins/Content/Materials/BG/M_Prop.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Detail UV Scale",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 5.0,
+          "ExpressionGUID": "A3D6836A-4B4F30A5-9011D1B0-7DA2A738"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "디테일 노멀 조절",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "0E4C53E9-4C93DB0F-72D3CBBF-75F402C6"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "디테일 적용 거리",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 40.0,
+          "ExpressionGUID": "0830320D-4CA345E3-E17CE89E-AEA80ED4"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Specular_Intensity",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.15,
+          "ExpressionGUID": "7A71B213-4727F4B4-F892508D-B58C0F98"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "DetailNormal",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_TreeBarkDetail_A01_N'",
+            "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Tree/Textures/T_TreeBarkDetail_A01_N.0"
+          },
+          "ExpressionGUID": "7F43B344-44C9BDC7-53118285-EC79F69F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Albedo_Roughness",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Log_G01_AR'",
+            "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Tree/Textures/T_Log_G01_AR.0"
+          },
+          "ExpressionGUID": "150762FE-47A9C16D-C61BEB83-4F819C1A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Normal",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Log_G01_N'",
+            "ObjectPath": "SevenDeadlySins/Content/WorldO/Assets/Tree/Textures/T_Log_G01_N.0"
+          },
+          "ExpressionGUID": "B6A1CBB3-4CFF8A55-AB1B93B9-FB2D0FD9"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bBlendWithWaterSurfaceOpacity": true,
+        "bIsCorrectWaterEnabled": true,
+        "bRenderCustomStencil": true,
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParametersRuntime": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "디테일 노멀 사용",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "85936BB1-4D794881-5760E6A2-6292D019"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "OnlyNormalTexture",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "D4ED92B0-45974BE2-5B3367A2-CCED7916"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "IsOn_Specular_Intensity",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "12BBB937-4E96A5E8-53BBBB8A-2574CA99"
+          }
+        ]
+      },
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Log_G01_AR"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Log_G01_N"
+        },
+        {
+          "SamplingScale": 5.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_TreeBarkDetail_A01_N"
+        }
+      ],
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]
